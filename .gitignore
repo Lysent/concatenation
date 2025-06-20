@@ -1,0 +1,12 @@
+.curseclient
+minecraftinstance.json
+usercache.json
+usernamecache.json
+crash-reports
+logs
+saves
+.cache
+blueprints
+fancymenu_data
+journeymap/data
+local

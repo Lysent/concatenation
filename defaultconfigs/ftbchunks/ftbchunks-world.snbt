@@ -1,0 +1,4 @@
+# Default config file that will be copied to ..\..\..\..\AppData\Local\Temp\world_preview11383732601897072070\world_preview\serverconfig\ftbchunks-world.snbt if it doesn't exist!
+# Just copy any values you wish to override in here!
+
+{ }

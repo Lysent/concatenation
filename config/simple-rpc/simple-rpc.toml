@@ -1,0 +1,230 @@
+
+#General Config Section. See https://srpc.fdd-docs.com/introduction/
+[general]
+	#The Application ID of the Discord App to use
+	applicationID = "1331310109485436999"
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Allow using local image files, as RPC icons
+	rpcImageServer = false
+	#The URL of the RPC image server that will be used for local images. Restart required when changed
+	rpcImageServerUrl = "https://rpcavatar.firstdark.dev"
+	#Internal Version Number. NO TOUCHY!
+	version = 26
+
+#The Game Loading event
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+
+	[[init.presence]]
+		type = "PLAYING"
+		description = "Minecraft is loading"
+		state = "Game Starting Concatenation..."
+		largeImageKey = ["concatgraf"]
+		largeImageText = "Modded Minecraft {{game.version}}"
+		smallImageKey = ["forge512"]
+		smallImageText = "{{game.mods}} mods installed"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Main Menu event
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+
+	[[main_menu.presence]]
+		type = "PLAYING"
+		description = "{{player.name}} is staring"
+		state = "at the main menu"
+		largeImageKey = ["concatgraf"]
+		largeImageText = "Concatenation Modpack"
+		smallImageKey = ["forge"]
+		smallImageText = "{{game.mods}} mods installed"
+		streamingActivityUrl = ""
+		buttons = []
+
+#The Server List event
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+
+	[[server_list.presence]]
+		type = "PLAYING"
+		description = "{{player.name}} is in the servers menu."
+		state = "Looking for a server."
+		largeImageKey = ["concatgraf"]
+		largeImageText = "Concatenation Modpack"
+		smallImageKey = ["forge512"]
+		smallImageText = "{{game.mods}} mods installed"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Realms Screen event
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+
+	[[realms_list.presence]]
+		type = "PLAYING"
+		description = "{{player.name}} is looking for a Realm"
+		state = "Browsing Realms"
+		largeImageKey = ["mclogonew"]
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Join Game Event
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+
+	[[join_game.presence]]
+		type = "PLAYING"
+		description = "{{player.name}} is being invoked"
+		state = "Joining World"
+		largeImageKey = ["concatgraf"]
+		largeImageText = "Concatenation Modpack"
+		smallImageKey = ["forge512"]
+		smallImageText = "{{game.mods}} mods installed"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Single Player Event
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+
+	[[single_player.presence]]
+		type = "PLAYING"
+		description = "Currently In {{world.name}}"
+		state = "{{player.name}} is lonely"
+		largeImageKey = ["concatgraf"]
+		largeImageText = "Concatenation Modpack"
+		smallImageKey = ["forge512"]
+		smallImageText = "{{game.mods}} mods installed"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Multi Player Event
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+
+	[[multi_player.presence]]
+		type = "PLAYING"
+		description = "Playing on {{server.name}} {{server.players.count}}"
+		state = "{{server.motd}}"
+		largeImageKey = ["concatgraf"]
+		largeImageText = "Concatenation Modpack"
+		smallImageKey = ["forge512"]
+		smallImageText = "{{game.mods}} mods installed"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Realms Game Event
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+
+	[[realms.presence]]
+		type = "PLAYING"
+		description = "Playing on {{realm.name}}"
+		state = "Playing on a Realm"
+		largeImageKey = ["mclogonew"]
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Paused Event
+[paused]
+	#Enable/Disable the Pause Event
+	enabled = true
+
+	[[paused.presence]]
+		type = "PLAYING"
+		description = "In the Pause Menu"
+		state = "Game Paused"
+		largeImageKey = ["concatgraf"]
+		largeImageText = "Concatenation Modpack"
+		smallImageKey = ["forge512"]
+		smallImageText = "{{game.mods}} mods installed"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#Fallback event for disabled events
+[generic]
+
+	[[generic.presence]]
+		type = "PLAYING"
+		description = "Playing Minecraft"
+		state = "Concatenation Modpack"
+		largeImageKey = ["concatgraf"]
+		largeImageText = "Concatenation Modpack"
+		smallImageKey = ["forge512"]
+		smallImageText = "{{game.mods}} mods installed"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#Custom Config Variables that you can use
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = true
+	#Your custom variables to add
+	variables = []
+
+#Dimension Information Overrides
+[dimension_overrides]
+	#Allows you to override the displayed values for dimensions
+	enabled = false
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in The Overworld"
+			state = ""
+			largeImageKey = ["overworld"]
+			largeImageText = "In the Overworld"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in The Nether"
+			state = ""
+			largeImageKey = ["nether"]
+			largeImageText = "In the Nether"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in The End"
+			state = ""
+			largeImageKey = ["end"]
+			largeImageText = "In the End"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
+
