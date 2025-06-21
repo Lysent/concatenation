@@ -1,16 +1,9 @@
 .curseclient
-minecraftinstance.json
-usercache.json
-usernamecache.json
-crash-reports
-logs
-.cache
 blueprints
 fancymenu_data
 journeymap/data
 local
 tacz_backup
-
 rhino.local.properties
 
 # minecraft user files
@@ -19,3 +12,9 @@ options.txt
 screenshots
 servers.dat
 servers.dat_old
+minecraftinstance.json
+usercache.json
+usernamecache.json
+crash-reports
+logs
+.cache
