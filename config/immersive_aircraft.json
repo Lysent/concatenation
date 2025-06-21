@@ -2,7 +2,7 @@
   "enableDropsForNonPlayer": true,
   "enableCrashExplosion": true,
   "enableCrashBlockDestruction": false,
-  "enableCrashFire": false,
+  "enableCrashFire": true,
   "crashExplosionRadius": 2.0,
   "crashDamage": 2.0,
   "preventKillThroughCrash": true,

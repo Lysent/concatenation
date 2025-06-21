@@ -15,7 +15,7 @@
 
 	#Increases the EMC value to take into account any enchantments on an item.
 	[processors.EnchantmentProcessor]
-		enabled = false
+		enabled = true
 		persistent = false
 
 	#Takes the different sherds into account for each decorated pot.

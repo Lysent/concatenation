@@ -3,7 +3,7 @@
 	#General Settings
 	#Maximum distance from where Blocks and Entities can be picked up
 	#Range: 0.0 ~ 1.7976931348623157E308
-	maxDistance = 2.5
+	maxDistance = 2
 	#Max width of entities that can be picked up in survival mode
 	#Range: 0.0 ~ 10.0
 	maxEntityWidth = 1.5
@@ -30,7 +30,7 @@
 	#Larger Entities slow down the player more
 	heavyEntities = true
 	#Allow babies to be carried even when adult mob is blacklisted (or not whitelisted)
-	allowBabies = false
+	allowBabies = true
 	#Use Whitelist instead of Blacklist for Blocks
 	useWhitelistBlocks = false
 	#Use Whitelist instead of Blacklist for Entities
@@ -40,7 +40,7 @@
 	#Whether the player can hit blocks and entities while carrying or not
 	hitWhileCarrying = false
 	#Whether the player drops the carried object when hit or not
-	dropCarriedWhenHit = false
+	dropCarriedWhenHit = true
 	#Use custom Pickup Scripts. Having this set to false, will not allow you to run scripts, but will increase your performance
 	useScripts = false
 	#Allows entities to be stacked on top of each other

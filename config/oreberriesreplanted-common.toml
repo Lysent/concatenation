@@ -30,7 +30,7 @@
 	#Only allow placing Silver Bushes in darkness [Default: true]
 	darknessOnlySilverBush = true
 	#Only allow placing Essence Bushes in darkness [Default: true]
-	darknessOnlyEssenceBush = true
+	darknessOnlyEssenceBush = false
 
 #Density settings
 [Density]

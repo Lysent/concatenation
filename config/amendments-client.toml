@@ -52,7 +52,7 @@
 	#Gives a special animation to lanterns when held in hand
 	lantern_item_holding = true
 	#Makes lantern holding animation have the arm angled more upwards. Looks better if you have dynamic lights on
-	lantern_item_holding_up = false
+	lantern_item_holding_up = true
 
 	[lantern.swing_physics]
 		min_angle = 0.79999995

@@ -21,14 +21,14 @@
 	giveDefaultUndeadUndying = true
 	#The percent damage reduction against non-vulnerable damage.
 	#Range: 0 ~ 100
-	damageReduction = 80
+	damageReduction = 50
 	#The undying natural health regeneration in half-hearts per second.
 	#Range: 0 ~ 1000
-	healthRegeneration = 1
+	healthRegeneration = 0.5
 	#The undying bonus speed modifier as a percent increase.
 	#Range: 0 ~ 1000
 	speedModifier = 0
 	#The percent damage reduction against non-vulnerable damage dealt by mobs.
 	#Range: 0 ~ 100
-	damageReductionVsMobs = 80
+	damageReductionVsMobs = 10
 

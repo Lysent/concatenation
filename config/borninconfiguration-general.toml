@@ -1,7 +1,7 @@
 
 [General]
 	#Whether Rotten Flesh afflicts you with Rotten Stink
-	ROTTEN_CONSUMPTION_ENABLED = true
+	ROTTEN_CONSUMPTION_ENABLED = false
 	#Whether soul stratisfaction is enabled
 	SOUL_STRATIFICATION_EFFECT_ENABLED = true
 	#Whether spirits disappear in the sun is enabled

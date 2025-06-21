@@ -3,7 +3,7 @@
 	#Show item tags in tooltips (useful for custom EMC registration)
 	tagToolTips = false
 	#Show the EMC value as a tooltip on items and blocks
-	emcToolTips = true
+	emcToolTips = false
 	#Requires holding shift to display the EMC value as a tooltip on items and blocks. Note: this does nothing if emcToolTips is disabled.
 	shiftEmcToolTips = false
 	#Requires holding shift to display the learned/unlearned text as a tooltip on items and blocks. Note: this does nothing if emcToolTips is disabled.

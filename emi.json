@@ -1,0 +1,29 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:ftbquests:book",
+    "item:hpm:hand_cannon{Damage:0}",
+    "item:hpm:largehull",
+    "item:quarryplus:filler",
+    "item:quarryplus:mini_quarry",
+    "item:quarryplus:pump_plus",
+    "item:quarryplus:mining_well",
+    "item:quarryplus:workbench",
+    "item:quarryplus:quarry",
+    "item:integratedtunnels:part_exporter_item",
+    "item:integrateddynamics:crystalized_menril_brick_stairs",
+    "item:hpm:mortar_ball",
+    "item:hpm:raftitem",
+    "item:hpm:swashbucklerupgrade",
+    "item:quarryplus:mover",
+    "item:reliquary:aphrodite_potion"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

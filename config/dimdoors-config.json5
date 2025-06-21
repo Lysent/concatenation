@@ -29,7 +29,7 @@
     "maxDungeonDepth": 50
   },
   "monoliths": {
-    "dangerousLimboMonoliths": false,
+    "dangerousLimboMonoliths": true,
     "monolithTeleportation": true
   },
   "limbo": {
@@ -49,7 +49,7 @@
   "graphics": {
     "showRiftCore": false,
     "highlightRiftCoreFor": 15000,
-    "riftSize": 1.0,
+    "riftSize": 10.0,
     "riftJitter": 1.0
   },
   "doors": {

@@ -11,9 +11,9 @@
 	["Tarot Cards".Loot]
 		#Chance a tarot card appears in default loot (0.75 = 75%)(1.0 = there will always be a single tarot card in chests)
 		#Range: 0.0 ~ 1.0
-		default_loot_chance = 0.2
+		default_loot_chance = 0.0
 		#If Tarot Cards should be added to the default loot tables specified in data
-		do_loot_generation = true
+		do_loot_generation = false
 
 	["Tarot Cards".Cards]
 		#Percentage of damage increase to living (0.5 = +50%)
@@ -21,7 +21,7 @@
 		death_damagebonus = 0.2
 		#Percentage chance of dealing double damage (0.5 = 50%)
 		#Range: 0.0 ~ 1.0
-		judgement_damagechance = 0.15
+		judgement_damagechance = 0.25
 		#Percentage of fall damage negated (0.5 = 50%)
 		#Range: 0.0 ~ 1.0
 		the_tower_damagenegation = 1.0
@@ -89,5 +89,5 @@
 		the_world_slownessamplifier = 3
 		#How much luck (not fortune) is added to the player
 		#Range: 0.0 ~ 100.0
-		wheel_of_fortune_luckbonus = 3.0
+		wheel_of_fortune_luckbonus = 5.0
 

@@ -195,6 +195,10 @@
     "modId": "cosmeticcorpsecompat",
     "version": "1.0.0"
   },
+  "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar": {
+    "modId": "craftingrecipeexporter",
+    "version": "1.0.2"
+  },
   "craftingtweaks-forge-1.20.1-18.2.5.jar": {
     "modId": "craftingtweaks",
     "version": "18.2.5"
@@ -721,6 +725,10 @@
     "modId": "starlight",
     "version": "1.1.2+forge.1cda73c"
   },
+  "starterkit-1.20.1-7.4.jar": {
+    "modId": "starterkit",
+    "version": "7.4"
+  },
   "Steam_Rails-1.6.7+forge-mc1.20.1.jar": {
     "modId": "railways",
     "version": "1.6.7+forge-mc1.20.1"
@@ -732,6 +740,14 @@
   "structurize-1.20.1-1.0.773-snapshot.jar": {
     "modId": "structurize",
     "version": "1.20.1-1.0.773-snapshot"
+  },
+  "StylishEffects-v8.0.2-1.20.1-Forge.jar": {
+    "modId": "stylisheffects",
+    "version": "8.0.2"
+  },
+  "swashbucklers! 2.6.6B 1.20.1.jar": {
+    "modId": "hpm",
+    "version": "2.6.6"
   },
   "tacz-1.20.1-1.1.6-hotfix.jar": {
     "modId": "tacz",

@@ -100,7 +100,7 @@ element {
 
 element {
   interactable = true
-  source = Minecraft {"placeholder":"mcversion"}%n%Running Concatenation Gehenna 1.0%n%{"placeholder":"loadedmods"} mods loaded. 204 intended.
+  source = Minecraft {"placeholder":"mcversion"}%n%Running Concatenation 1.0%n%{"placeholder":"loadedmods"} mods loaded. 271 intended.
   source_mode = direct
   shadow = true
   scale = 1.0

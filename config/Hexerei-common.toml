@@ -13,19 +13,19 @@
 
 ["Broom Brush Durability"]
 	#broom brush durability
-	broom_brush_durability = 100
+	broom_brush_durability = 60
 
 ["Herb Enhanced Brush Durability"]
 	#Herb Enhanced brush durability
-	herb_enhanced_brush_durability = 200
+	herb_enhanced_brush_durability = 100
 
 ["Moon Dust Brush Durability"]
 	#Moon Dust brush durability
-	moon_dust_brush_durability = 200
+	moon_dust_brush_durability = 100
 
 ["Thruster Brush Durability"]
 	#thruster brush durability
-	thruster_brush_durability = 400
+	thruster_brush_durability = 200
 
 ["Broom Waterproof Tip Durability"]
 	#Broom Waterproof Tip Durability
