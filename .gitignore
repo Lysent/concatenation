@@ -4,12 +4,18 @@ usercache.json
 usernamecache.json
 crash-reports
 logs
-saves
 .cache
 blueprints
 fancymenu_data
 journeymap/data
 local
 tacz_backup
-options.txt
+
 rhino.local.properties
+
+# minecraft user files
+saves
+options.txt
+screenshots
+servers.dat
+servers.dat_old
