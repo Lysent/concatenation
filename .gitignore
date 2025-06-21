@@ -5,6 +5,7 @@ journeymap/data
 local
 tacz_backup
 rhino.local.properties
+resourcepacks
 
 # minecraft user files
 saves

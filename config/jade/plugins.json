@@ -55,7 +55,7 @@
     "mob_jar": true
   },
   "projecte": {
-    "emc_provider": true
+    "emc_provider": false
   },
   "mekanism": {
     "infuse_type": true,
