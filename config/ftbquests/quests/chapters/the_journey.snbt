@@ -1,0 +1,353 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_journey"
+	group: ""
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: {
+				Items: [ ]
+				Size: 22
+			}
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "tarotcards:tarot_deck"
+	}
+	id: "7C44AFC336C0AE69"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "73F4AAF2267BB33B"
+			size: 1.25d
+			tasks: [{
+				id: "359C4698A0B46508"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:the_hierophant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Hierophant Pathway"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "2157576FC7005917"
+			size: 1.25d
+			tasks: [{
+				id: "1F50749F52835134"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:the_magician"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Magician Pathway"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "2970C1ADE44898FF"
+			size: 1.25d
+			tasks: [{
+				id: "089EE2807179886C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:temperance"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Temperance Pathway"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "06A4BEEE42830A85"
+			size: 1.25d
+			tasks: [{
+				id: "0C914BD8D10A926F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:the_hermit"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Hermit Pathway"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "tarotcards:the_fool"
+				tag: { }
+			}
+			id: "524067700E07EB06"
+			size: 1.25d
+			tasks: [{
+				id: "3E6EDAFED1754056"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			title: "Fool Pathway"
+			x: 0.10000000000000009d
+			y: -2.5d
+		}
+		{
+			dependencies: ["73F4AAF2267BB33B"]
+			id: "4CB12FE53FC497B1"
+			tasks: [{
+				id: "121E6EE736A09934"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "quarryplus:quarry"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			hide_dependency_lines: false
+			id: "0BD5BADADC18CC3D"
+			tasks: [{
+				id: "12A760AF88731FEC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "usefulbackpacks:backpack_medium"
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["06A4BEEE42830A85"]
+			id: "7295B2DEC479349F"
+			tasks: [{
+				id: "796F2DC895305BC3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tconstruct:materials_and_you"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2157576FC7005917"]
+			id: "610EC84496C3AF1B"
+			tasks: [{
+				id: "51D04E8AFAC2741B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "elementalcraft:element_book"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2970C1ADE44898FF"]
+			id: "5528A8B3F2AE6D2F"
+			tasks: [{
+				id: "628F39BF4EBFB5DB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:book_of_shadows"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "36F8661C6E0C53D8"
+			tasks: [{
+				id: "5DD9F690DA3B804F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "minecraft:shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:wooden_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:stone_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:iron_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:diamond_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:netherquartz_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:skull_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:ender_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+	]
+	title: "The Journey"
+}

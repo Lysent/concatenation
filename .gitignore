@@ -19,3 +19,5 @@ usernamecache.json
 crash-reports
 logs
 .cache
+*.log
+emi.json
