@@ -27,9 +27,12 @@ schematics
 emi.json
 modernfix
 README.*
+about.txt
+*.tmp
 fml.toml
 embeddium-*.json
-indigo-rendered.properties
+indigo-renderer.properties
 DistantHorizons.toml
 config/world_preview
 tacz/tacz_default_gun
+patchouli_data.json
