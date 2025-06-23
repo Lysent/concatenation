@@ -9,24 +9,24 @@ resourcepacks
 
 # minecraft user files
 saves
-options.txt
-screenshots
-servers.dat
-servers.dat_old
-minecraftinstance.json
-usercache.json
-usernamecache.json
+/options.txt
+/screenshots
+/servers.dat
+/servers.dat_old
+/minecraftinstance.json
+/usercache.json
+/usernamecache.json
+/schematics
 crash-reports
 logs
 .cache
 *.log
-schematics
-
 
 # various config, caches, etc
 emi.json
 modernfix
-README.*
+config/**/README.*
+kubejs/**/README.*
 about.txt
 *.tmp
 fml.toml
