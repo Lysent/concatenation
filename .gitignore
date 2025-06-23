@@ -20,4 +20,16 @@ crash-reports
 logs
 .cache
 *.log
+schematics
+
+
+# various config, caches, etc
 emi.json
+modernfix
+README.*
+fml.toml
+embeddium-*.json
+indigo-rendered.properties
+DistantHorizons.toml
+config/world_preview
+tacz/tacz_default_gun
