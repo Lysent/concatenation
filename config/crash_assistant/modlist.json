@@ -431,9 +431,9 @@
     "modId": "gpu_tape",
     "version": "1.0.5"
   },
-  "guideme-20.1.10.jar": {
+  "guideme-20.1.11.jar": {
     "modId": "guideme",
-    "version": "20.1.10"
+    "version": "20.1.11"
   },
   "HammerLib-1.20.1-20.1.50.jar": {
     "modId": "hammerlib",
@@ -471,9 +471,9 @@
     "modId": "integratedcrafting",
     "version": "1.2.2"
   },
-  "IntegratedDynamics-1.20.1-1.27.3.jar": {
+  "IntegratedDynamics-1.20.1-1.27.4.jar": {
     "modId": "integrateddynamics",
-    "version": "1.27.3"
+    "version": "1.27.4"
   },
   "IntegratedScripting-1.20.1-1.0.14.jar": {
     "modId": "integratedscripting",
@@ -498,10 +498,6 @@
   "Jade-1.20.1-Forge-11.13.1.jar": {
     "modId": "jade",
     "version": "11.13.1+forge"
-  },
-  "jei-1.20.1-forge-15.20.0.106.jar": {
-    "modId": "jei",
-    "version": "15.20.0.106"
   },
   "jmi-forge-1.20.1-0.14-48.jar": {
     "modId": "jmi",
@@ -588,9 +584,9 @@
     "modId": "modonomicon",
     "version": "1.77.6"
   },
-  "moonlight-1.20-2.14.8-forge.jar": {
+  "moonlight-1.20-2.14.10-forge.jar": {
     "modId": "moonlight",
-    "version": "1.20-2.14.8"
+    "version": "1.20-2.14.10"
   },
   "MouseTweaks-forge-mc1.20.1-2.25.1.jar": {
     "modId": "mousetweaks",
@@ -644,9 +640,9 @@
     "modId": "oreberriesreplanted",
     "version": "0.5.2"
   },
-  "packetfixer-forge-2.0.0-1.19-to-1.20.1.jar": {
+  "packetfixer-3.1.0-1.18-1.20.4-merged.jar": {
     "modId": "packetfixer",
-    "version": "2.0.0"
+    "version": "3.1.0"
   },
   "particle_core-0.2.6+1.20.1+forge.jar": {
     "modId": "particle_core",
@@ -832,6 +828,10 @@
   "titanium-1.20.1-3.8.32.jar": {
     "modId": "titanium",
     "version": "3.8.32"
+  },
+  "toomanyrecipeviewers-0.5.1+mc.20.1.jar": {
+    "modId": "toomanyrecipeviewers",
+    "version": "0.5.1+mc.20.1"
   },
   "torchmaster-20.1.9.jar": {
     "modId": "torchmaster",
