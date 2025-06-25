@@ -17,7 +17,7 @@
 				cs.aquaSkin: 0
 			}
 		}
-		id: "theurgy:purified_gold"
+		id: "concatenationcore:concatenator"
 	}
 	lock_message: ""
 	loot_crate_no_drop: {
