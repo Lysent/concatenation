@@ -184,6 +184,11 @@
     "modId": "clumps",
     "version": "12.0.0.4"
   },
+  "cobweb-forge-1.20.1-1.0.1.jar": {
+    "jarName": "cobweb-forge-1.20.1-1.0.1.jar",
+    "modId": "cobweb",
+    "version": "1.0.1"
+  },
   "cofh_core-1.20.1-11.0.2.56.jar": {
     "jarName": "cofh_core-1.20.1-11.0.2.56.jar",
     "modId": "cofh_core",
@@ -199,8 +204,8 @@
     "modId": "commoncapabilities",
     "version": "2.9.7"
   },
-  "concatenationcore-1.0.0.jar": {
-    "jarName": "concatenationcore-1.0.0.jar",
+  "concatenationcore-1.0.0-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.0.0-forge-1.20.1.jar",
     "modId": "concatenationcore",
     "version": "1.0.0"
   },
@@ -792,11 +797,6 @@
     "modId": "octolib",
     "version": "0.5.0.1"
   },
-  "oculus-flywheel-compat-forge1.20.1+1.1.2.jar": {
-    "jarName": "oculus-flywheel-compat-forge1.20.1+1.1.2.jar",
-    "modId": "irisflw",
-    "version": "1.1.2"
-  },
   "oculus-mc1.20.1-1.8.0.jar": {
     "jarName": "oculus-mc1.20.1-1.8.0.jar",
     "modId": "oculus",
@@ -1054,6 +1054,11 @@
     "jarName": "toomanyrecipeviewers-0.5.1+mc.20.1.jar",
     "modId": "toomanyrecipeviewers",
     "version": "0.5.1+mc.20.1"
+  },
+  "torch-hit-forge-1.20.1-7.0.0.jar": {
+    "jarName": "torch-hit-forge-1.20.1-7.0.0.jar",
+    "modId": "torch_hit",
+    "version": "7.0.0"
   },
   "torchmaster-20.1.9.jar": {
     "jarName": "torchmaster-20.1.9.jar",

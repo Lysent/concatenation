@@ -36,3 +36,5 @@ DistantHorizons.toml
 config/world_preview
 tacz/tacz_default_gun
 patchouli_data.json
+/config/oculus.properties
+/config/packetfixer.properties

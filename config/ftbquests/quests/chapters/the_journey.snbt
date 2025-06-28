@@ -11,6 +11,19 @@
 	quests: [
 		{
 			id: "73F4AAF2267BB33B"
+			rewards: [{
+				id: "794CAABA64D8ED46"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:book"
+				}
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "359C4698A0B46508"
@@ -28,10 +41,23 @@
 			}]
 			title: "Hierophant Pathway"
 			x: -2.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			id: "2157576FC7005917"
+			rewards: [{
+				id: "3AEC86CF77EE018C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:book"
+				}
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "1F50749F52835134"
@@ -53,6 +79,19 @@
 		}
 		{
 			id: "2970C1ADE44898FF"
+			rewards: [{
+				id: "3BEC75C42C00EAEA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:book"
+				}
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "089EE2807179886C"
@@ -70,10 +109,23 @@
 			}]
 			title: "Temperance Pathway"
 			x: 2.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			id: "06A4BEEE42830A85"
+			rewards: [{
+				id: "037E71B3775DC2AF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:book"
+				}
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "0C914BD8D10A926F"
@@ -101,20 +153,22 @@
 				tag: { }
 			}
 			id: "524067700E07EB06"
+			invisible: true
 			size: 1.25d
 			tasks: [{
-				id: "3E6EDAFED1754056"
-				points: false
-				type: "xp"
-				value: 1L
+				id: "37655A529CD6B9F4"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 100
 			}]
 			title: "Fool Pathway"
 			x: 0.10000000000000009d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
 			hide_dependency_lines: false
+			hide_dependent_lines: true
 			id: "0BD5BADADC18CC3D"
 			tasks: [{
 				id: "12A760AF88731FEC"
@@ -131,11 +185,17 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
+			hide_dependent_lines: true
 			id: "7295B2DEC479349F"
+			rewards: [{
+				id: "0AB358696217EAA8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "796F2DC895305BC3"
 				item: {
@@ -155,6 +215,11 @@
 		{
 			dependencies: ["2157576FC7005917"]
 			id: "610EC84496C3AF1B"
+			rewards: [{
+				id: "427FE1F526666331"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "51D04E8AFAC2741B"
 				item: {
@@ -177,6 +242,11 @@
 		{
 			dependencies: ["2970C1ADE44898FF"]
 			id: "5528A8B3F2AE6D2F"
+			rewards: [{
+				id: "7909932E25727A88"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "628F39BF4EBFB5DB"
 				item: {
@@ -192,10 +262,12 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: [""]
+			hide_dependent_lines: true
 			id: "36F8661C6E0C53D8"
 			tasks: [{
 				id: "5DD9F690DA3B804F"
@@ -308,12 +380,950 @@
 						]
 					}
 				}
+				title: "Any Shield"
 				type: "item"
 				weak_nbt_match: true
 			}]
 			title: "Shield"
 			x: 0.5d
-			y: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["73F4AAF2267BB33B"]
+			id: "6F736EF54A792577"
+			tasks: [{
+				id: "3813F82A0B6866F7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "concatenationcore:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F736EF54A792577"]
+			id: "3F53C388105917F6"
+			tasks: [{
+				id: "5A9A92E241A904E0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "concatenationcore:galvanized_iron"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D624CFC015C18F2"]
+			id: "1A0E2D5ACAF189AC"
+			size: 1.15d
+			tasks: [{
+				id: "37B2666AB5EAB430"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "quarryplus:solid_fuel_quarry"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"36F8661C6E0C53D8"
+				"0BD5BADADC18CC3D"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "tarotcards:wheel_of_fortune"
+				tag: { }
+			}
+			id: "032A60B0D79C6ACB"
+			rewards: [{
+				id: "489D9F754F134A67"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:wheel_of_fortune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11F94F872F0CD45C"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			title: "Wheel of Fortune"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["610EC84496C3AF1B"]
+			hide_dependency_lines: true
+			id: "58500620F2876A16"
+			tasks: [{
+				id: "5D32069B797C09AA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "elementalcraft:inert_crystal"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			id: "258486DCF3CBD479"
+			tasks: [{
+				id: "1ED754487E1000F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 22
+						}
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:tarot_deck"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "born_in_chaos_v1:shattered_skull"
+			}
+			id: "22157DFEF1887E78"
+			tasks: [{
+				id: "7E9741B2ACC7F48B"
+				title: "Consecration"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"73F4AAF2267BB33B"
+				"06A4BEEE42830A85"
+			]
+			hide_dependency_lines: true
+			id: "1D9002F6E0272ABC"
+			tasks: [{
+				id: "3E3EC6DBD95BB9F8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "littlelogistics:seater_car"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "hpm:smallhull"
+							}
+						]
+					}
+				}
+				title: "Train Car or Small Hull"
+				type: "item"
+			}]
+			title: "Dawn of Logistics"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D9002F6E0272ABC"]
+			description: [""]
+			id: "0A2A4FED9A1AD865"
+			tasks: [{
+				id: "69803736698383CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "littlelogistics:tug"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "littlelogistics:steam_locomotive"
+							}
+						]
+					}
+				}
+				title: "Steam Locomotive or Steam Tug"
+				type: "item"
+			}]
+			title: "Steam Transportation"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A2A4FED9A1AD865"]
+			id: "02FB0A2EF01C7284"
+			tasks: [{
+				id: "1DB7BAC29926C96B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "littlelogistics:tug_route"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "littlelogistics:locomotive_route"
+							}
+						]
+					}
+				}
+				title: "Any Router"
+				type: "item"
+			}]
+			title: "Router"
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A2A4FED9A1AD865"]
+			id: "4621354C911AB005"
+			tasks: [{
+				id: "6922E85623E44CF7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "littlelogistics:fishing_barge"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A2A4FED9A1AD865"]
+			description: [""]
+			id: "2B597187BD3904C8"
+			tasks: [{
+				id: "5487AACD809E0AD4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "littlelogistics:chest_car"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "littlelogistics:barrel_car"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "littlelogistics:fluid_car"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "littlelogistics:barge"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "littlelogistics:barrel_barge"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "littlelogistics:fluid_barge"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "littlelogistics:vacuum_barge"
+							}
+						]
+					}
+				}
+				title: "Any train car or barge"
+				type: "item"
+			}]
+			title: "The Chariot"
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A2A4FED9A1AD865"]
+			hide_dependent_lines: true
+			id: "35C32229A51A1B7D"
+			size: 1.25d
+			tasks: [{
+				id: "38DADCDFC7E05C2F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:the_chariot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Chariot"
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["35C32229A51A1B7D"]
+			description: ["&oAny electric locomotive or tug will complete this quest.&r"]
+			id: "23ECA60515FA9F7B"
+			size: 0.9d
+			tasks: [{
+				id: "438701DEEFA176D2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "littlelogistics:energy_locomotive"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "littlelogistics:energy_tug"
+							}
+						]
+					}
+				}
+				title: "Electric locomotive or electric tug"
+				type: "item"
+			}]
+			title: "Electric"
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["35C32229A51A1B7D"]
+			id: "2D48F3383A2E965F"
+			size: 0.9d
+			tasks: [{
+				id: "3CDFBF4103C29056"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hpm:smallhull"
+				}
+				type: "item"
+			}]
+			x: -9.749999999999998d
+			y: 5.449999999999999d
+		}
+		{
+			dependencies: ["35C32229A51A1B7D"]
+			id: "589E2464D577E345"
+			size: 0.9d
+			tasks: [{
+				id: "459A2200AE8B5A72"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hpm:small_mast"
+				}
+				type: "item"
+			}]
+			x: -8.549999999999999d
+			y: 4.6499999999999995d
+		}
+		{
+			dependencies: [
+				"2D48F3383A2E965F"
+				"589E2464D577E345"
+			]
+			id: "73C5D7FC9AB3E5F8"
+			size: 0.9d
+			tasks: [{
+				id: "72F1AFE71B0DEE5A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hpm:swashbuckleritem"
+				}
+				type: "item"
+			}]
+			x: -9.749999999999998d
+			y: 4.25d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			id: "1A9FA3C3DD29BFDB"
+			tasks: [{
+				id: "0C177C5B54E555C4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hpm:raftitem"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["73C5D7FC9AB3E5F8"]
+			id: "4493DC75D8CE4857"
+			size: 0.9d
+			tasks: [{
+				id: "17FA3216FA92E1DE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hpm:swashbucklerupgrade"
+				}
+				type: "item"
+			}]
+			x: -10.549999999999999d
+			y: 3.45d
+		}
+		{
+			dependencies: ["4493DC75D8CE4857"]
+			id: "0AE56603B8AE581E"
+			size: 0.9d
+			tasks: [{
+				id: "19BC493ECC9288E5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hpm:largehull"
+				}
+				type: "item"
+			}]
+			x: -11.349999999999998d
+			y: 3.8499999999999996d
+		}
+		{
+			dependencies: ["4493DC75D8CE4857"]
+			id: "31D6AD3F17AFD9E5"
+			size: 0.9d
+			tasks: [{
+				id: "380B61D11C2620CE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hpm:largemast"
+				}
+				type: "item"
+			}]
+			x: -10.149999999999999d
+			y: 2.65d
+		}
+		{
+			dependencies: [
+				"0AE56603B8AE581E"
+				"31D6AD3F17AFD9E5"
+			]
+			id: "396320452B50120B"
+			size: 0.9d
+			tasks: [{
+				id: "10170EEA4DED25C4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hpm:cutteritem"
+				}
+				type: "item"
+			}]
+			x: -11.349999999999998d
+			y: 2.65d
+		}
+		{
+			dependencies: ["396320452B50120B"]
+			id: "58FF082917ADFA66"
+			size: 0.9d
+			tasks: [{
+				id: "542DF1C1F03FC523"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hpm:cuttermilitariseditem"
+				}
+				type: "item"
+			}]
+			x: -12.149999999999999d
+			y: 1.85d
+		}
+		{
+			dependencies: [
+				"7254694EBCAAEF0D"
+				"463EFF7D25CB7127"
+			]
+			id: "3A01D45D51A293BD"
+			size: 0.9d
+			tasks: [{
+				id: "7C1837301ED0CADD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hpm:corvette_steamship_item"
+				}
+				type: "item"
+			}]
+			x: -12.8d
+			y: 0.8d
+		}
+		{
+			dependencies: ["73C5D7FC9AB3E5F8"]
+			id: "346288110C3DBEF5"
+			size: 0.9d
+			tasks: [{
+				id: "76CD0139D6666784"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hpm:spanner"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.649999999999999d
+			y: 4.749999999999999d
+		}
+		{
+			dependencies: ["58FF082917ADFA66"]
+			id: "463EFF7D25CB7127"
+			size: 0.9d
+			tasks: [{
+				id: "7A6EF0930E1BF5AF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "concatenationcore:gigantic_sail"
+				}
+				type: "item"
+			}]
+			x: -11.125d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58FF082917ADFA66"]
+			id: "7254694EBCAAEF0D"
+			size: 0.9d
+			tasks: [
+				{
+					id: "14CE6A081695F972"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "concatenationcore:steel_hull"
+					}
+					type: "item"
+				}
+				{
+					id: "32EE60D7FA82F253"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "concatenationcore:deck"
+					}
+					type: "item"
+				}
+			]
+			x: -12.8d
+			y: 2.8d
+		}
+		{
+			dependencies: ["3F53C388105917F6"]
+			id: "0D624CFC015C18F2"
+			tasks: [{
+				id: "00E17498977D817E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "concatenationcore:boiler"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7295B2DEC479349F"]
+			id: "5F7CEE33D11A352F"
+			tasks: [{
+				id: "75254FC88ACB2D0C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tconstruct:seared_brick"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F7CEE33D11A352F"]
+			id: "5B6717870A814E8C"
+			tasks: [{
+				id: "5A2A9316E8FD6195"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tconstruct:seared_melter"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5B6717870A814E8C"]
+			id: "0964BD6C4413A9C9"
+			size: 1.15d
+			tasks: [{
+				id: "30A3A4581FCAC5CE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tconstruct:smeltery_controller"
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "The Mighty Smeltery"
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0964BD6C4413A9C9"]
+			id: "48182227AA27C096"
+			tasks: [{
+				id: "0FC4795A3A2B4869"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0964BD6C4413A9C9"]
+			id: "65C1B6B2B147028E"
+			tasks: [{
+				id: "66AFA9CB41F49185"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:brass_ingot"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"06A4BEEE42830A85"
+				"73F4AAF2267BB33B"
+			]
+			hide_dependency_lines: true
+			id: "36318C8D65509470"
+			tasks: [{
+				id: "4248478A4EB405D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:machine_frame"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1A0E2D5ACAF189AC"]
+			id: "5F92E8FC88D86566"
+			tasks: [{
+				id: "0CB30AE718F7C1E9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "quarryplus:quarry"
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			id: "13ADC7311C00FF45"
+			tasks: [{
+				id: "39EAD45DCBFDFEA5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "oreberriesreplanted:essence_berry_bush"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
 		}
 	]
 	title: "The Journey"

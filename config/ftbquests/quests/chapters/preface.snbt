@@ -16,15 +16,7 @@
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
-		icon: {
-			Count: 1
-			ForgeCaps: {
-				"celestisynth:celestisynthitemstackcapabilities": {
-					cs.aquaSkin: 0
-				}
-			}
-			id: "ftbquests:book"
-		}
+		icon: "ftbquests:book"
 		id: "2CEDBC536409D424"
 		tasks: [{
 			id: "02DFC16AE3D5AAD6"
