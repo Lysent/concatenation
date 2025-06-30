@@ -6,5 +6,5 @@ ServerEvents.tags('item', event => {
     event.add('concatenation:middle_cards', 'tarotcards:the_hermit')
     event.add('concatenation:middle_cards', 'tarotcards:the_magician')
 
-    event.add('forge:consumables/experience3', 'concatenationcore:experience_orb')
+    event.add('forge:consumables/experience_3', 'concatenationcore:experience_orb')
 })
