@@ -927,6 +927,7 @@
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
+			hide_dependency_lines: true
 			id: "1A9FA3C3DD29BFDB"
 			tasks: [{
 				id: "0C177C5B54E555C4"
@@ -1308,6 +1309,10 @@
 			y: -3.0d
 		}
 		{
+			dependencies: [
+				"640ED9A58F8DD165"
+				"20F8016D99BC3518"
+			]
 			id: "13ADC7311C00FF45"
 			tasks: [{
 				id: "39EAD45DCBFDFEA5"
@@ -1322,8 +1327,293 @@
 				}
 				type: "item"
 			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6F736EF54A792577"]
+			id: "62E93515DD1E032F"
+			tasks: [{
+				id: "5E309712BFF193A0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:electrum_ingot"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3F53C388105917F6"
+				"62E93515DD1E032F"
+			]
+			id: "2104737FF0D2E4E7"
+			size: 1.15d
+			tasks: [{
+				id: "53F61C8D83637405"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:charger"
+				}
+				type: "item"
+			}]
+			x: -6.8999999999999995d
+			y: -4.0249999999999995d
+		}
+		{
+			dependencies: ["73CD8163D268BA95"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "concatenationcore:shrike"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "640ED9A58F8DD165"
+			tasks: [{
+				id: "739322D4AA26B6F5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "concatenationcore:shrike"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "create:experience_nugget"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:experience_gem"
+							}
+						]
+					}
+				}
+				title: "Shrike or Experience Item"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:echo_shard"
+			}
+			id: "73CD8163D268BA95"
+			tasks: [{
+				id: "3B334FC5549D837F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:echo_shard"
+				}
+				type: "item"
+			}]
+			title: "Find an Ancient City"
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["62E93515DD1E032F"]
+			id: "20F8016D99BC3518"
+			tasks: [{
+				id: "3FE9C0DBA535CC68"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tconstruct:seared_fuel_tank"
+					tag: {
+						tank: {
+							Amount: 4000
+							FluidName: "bloodmagic:life_essence_fluid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["13ADC7311C00FF45"]
+			id: "45EBD68510E9742C"
+			tasks: [{
+				id: "624491EFE8654D0F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "oreberriesreplanted:iron_oreberry_bush"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "oreberriesreplanted:gold_oreberry_bush"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "oreberriesreplanted:copper_oreberry_bush"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "oreberriesreplanted:tin_oreberry_bush"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "oreberriesreplanted:aluminum_oreberry_bush"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "oreberriesreplanted:lead_oreberry_bush"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "oreberriesreplanted:nickel_oreberry_bush"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "oreberriesreplanted:uranium_oreberry_bush"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "oreberriesreplanted:osmium_oreberry_bush"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "oreberriesreplanted:silver_oreberry_bush"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "oreberriesreplanted:zinc_oreberry_bush"
+							}
+						]
+					}
+				}
+				title: "Any Oreberry Bush"
+				type: "item"
+			}]
 			x: -6.5d
-			y: -4.0d
+			y: -7.0d
 		}
 	]
 	title: "The Journey"

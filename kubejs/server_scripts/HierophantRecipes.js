@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
                         E: 'tarotcards:the_hierophant',
                         D: 'concatenationcore:quarry_brain'
                 }
-        ).returningItem('tarotcards:the_hierophant')
+        ).keepIngredient('tarotcards:the_hierophant')
         event.shaped(
                 Item.of('concatenationcore:quarry_brain'),
                 [
@@ -111,5 +111,5 @@ ServerEvents.recipes(event => {
                         A: 'concatenationcore:galvanized_iron_nugget',
                         B: 'tarotcards:the_hierophant'
                 }
-        ).returningItem('tarotcards:the_hierophant')
+        ).keepIngredient('tarotcards:the_hierophant')
 });

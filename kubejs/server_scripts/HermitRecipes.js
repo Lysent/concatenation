@@ -21,5 +21,5 @@ ServerEvents.recipes(event => {
                         B: 'tconstruct:seared_glass',
                         A: 'tarotcards:the_hermit'
                 }
-        ).returningItem('tarotcards:the_hermit')
+        ).keepIngredient('tarotcards:the_hermit')
 });

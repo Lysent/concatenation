@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
                         'tarotcards:the_hierophant',
                         'hpm:small_mast'
                 ]
-        ).returningItem('tarotcards:the_hierophant')
+        ).keepIngredient('tarotcards:the_hierophant')
         event.shaped(
                 Item.of('concatenationcore:steel_hull'),
                 [
@@ -181,7 +181,7 @@ ServerEvents.recipes(event => {
                         D: '#concatenation:tech_cards',
                         B: 'thermal:sugar_cane_block'
                 }
-        ).returningItem('#concatenation:tech_cards')
+        ).keepIngredient('#concatenation:tech_cards')
         event.shaped(
                 Item.of('littlelogistics:energy_tug'),
                 [
@@ -196,7 +196,7 @@ ServerEvents.recipes(event => {
                         A: 'tarotcards:the_chariot',
                         B: 'minecraft:piston'
                 }
-        ).returningItem('tarotcards:the_chariot')
+        ).keepIngredient('tarotcards:the_chariot')
         event.shaped(
                 Item.of('littlelogistics:energy_locomotive'),
                 [
@@ -211,5 +211,5 @@ ServerEvents.recipes(event => {
                         A: 'tarotcards:the_chariot',
                         B: 'minecraft:piston'
                 }
-        ).returningItem('tarotcards:the_chariot')
+        ).keepIngredient('tarotcards:the_chariot')
 });

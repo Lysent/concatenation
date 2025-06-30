@@ -204,8 +204,8 @@
     "modId": "commoncapabilities",
     "version": "2.9.7"
   },
-  "concatenationcore-1.0.0-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.0.0-forge-1.20.1.jar",
+  "concatenationcore-1.0.0-MC.jar": {
+    "jarName": "concatenationcore-1.0.0-MC.jar",
     "modId": "concatenationcore",
     "version": "1.0.0"
   },
@@ -667,10 +667,10 @@
     "modId": "letmedespawn",
     "version": "1.5.0"
   },
-  "lithostitched-forge-1.20.1-1.4.8.jar": {
-    "jarName": "lithostitched-forge-1.20.1-1.4.8.jar",
+  "lithostitched-forge-1.20.1-1.4.10.jar": {
+    "jarName": "lithostitched-forge-1.20.1-1.4.10.jar",
     "modId": "lithostitched",
-    "version": "1.4.8"
+    "version": "1.4.9"
   },
   "littlecontraptions-forge-1.20.1.2.jar": {
     "jarName": "littlecontraptions-forge-1.20.1.2.jar",
@@ -742,10 +742,10 @@
     "modId": "modonomicon",
     "version": "1.77.6"
   },
-  "moonlight-1.20-2.14.10-forge.jar": {
-    "jarName": "moonlight-1.20-2.14.10-forge.jar",
+  "moonlight-1.20-2.14.11-forge.jar": {
+    "jarName": "moonlight-1.20-2.14.11-forge.jar",
     "modId": "moonlight",
-    "version": "1.20-2.14.10"
+    "version": "1.20-2.14.11"
   },
   "MouseTweaks-forge-mc1.20.1-2.25.1.jar": {
     "jarName": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
