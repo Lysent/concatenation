@@ -22,4 +22,18 @@ ServerEvents.recipes(event => {
                         A: 'tarotcards:the_hermit'
                 }
         ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('concatenationcore:circuit'),
+                [
+                        'ABC',
+                        'BDC',
+                        'ABC'
+                ],
+                {
+                        C: 'minecraft:iron_ingot',
+                        D: 'minecraft:redstone',
+                        A: 'thermal:rose_gold_ingot',
+                        B: 'createaddition:electrum_wire'
+                }
+        )
 });
