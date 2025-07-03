@@ -1,12 +1,14 @@
 ServerEvents.recipes(event => {
         const remove = [
                 'tconstruct:seared_melter',
-                'create:andesite_alloy',
         ]
 
         remove.forEach(item => {
                 event.remove({ output: item })
         })
+
+        event.remove({ output: 'create:andesite_alloy', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'create:shaft', type: 'minecraft:crafting_shaped' })
 
         event.shaped(
                 Item.of('tconstruct:seared_melter'),
@@ -34,6 +36,18 @@ ServerEvents.recipes(event => {
                         D: 'minecraft:redstone',
                         A: 'thermal:rose_gold_ingot',
                         B: 'createaddition:electrum_wire'
+                }
+        )
+        event.shaped(
+                Item.of('solarflux:sp_2'),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'solarflux:sp_1',
+                        B: 'concatenationcore:circuit'
                 }
         )
 });

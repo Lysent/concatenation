@@ -14,7 +14,7 @@
 	#Range: 0 ~ 100
 	holyVulnerableDuration = 10
 	#The materials that will be considered holy.
-	holyMaterials = ["silver"]
+	holyMaterials = ["silver", "gold"]
 
 [undying]
 	#If enabled, default undead creatures will be given the undying trait.

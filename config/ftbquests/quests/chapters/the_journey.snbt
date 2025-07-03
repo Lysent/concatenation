@@ -12,7 +12,7 @@
 		{
 			id: "73F4AAF2267BB33B"
 			rewards: [{
-				id: "794CAABA64D8ED46"
+				id: "6C860A479D3CD959"
 				item: {
 					Count: 1
 					ForgeCaps: {
@@ -20,7 +20,7 @@
 							cs.aquaSkin: 0
 						}
 					}
-					id: "minecraft:book"
+					id: "minecraft:iron_ingot"
 				}
 				type: "item"
 			}]
@@ -80,7 +80,7 @@
 		{
 			id: "2970C1ADE44898FF"
 			rewards: [{
-				id: "3BEC75C42C00EAEA"
+				id: "0C0B11923BE71845"
 				item: {
 					Count: 1
 					ForgeCaps: {
@@ -88,7 +88,7 @@
 							cs.aquaSkin: 0
 						}
 					}
-					id: "minecraft:book"
+					id: "farmersdelight:stuffed_potato"
 				}
 				type: "item"
 			}]
@@ -486,7 +486,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["610EC84496C3AF1B"]
+			dependencies: ["2157576FC7005917"]
 			hide_dependency_lines: true
 			id: "58500620F2876A16"
 			tasks: [{
@@ -1267,8 +1267,13 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["1A0E2D5ACAF189AC"]
+			dependencies: [
+				"2E2A38A96D401883"
+				"1A0E2D5ACAF189AC"
+			]
+			hide_dependency_lines: true
 			id: "5F92E8FC88D86566"
+			size: 1.0d
 			tasks: [{
 				id: "0CB30AE718F7C1E9"
 				item: {
@@ -1282,8 +1287,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: -3.0d
+			x: -10.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -1543,8 +1548,8 @@
 				title: "Any Oreberry Bush"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -8.5d
+			x: -8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["7DD14D1827FF575E"]
@@ -1739,14 +1744,76 @@
 				title: "Any Vat"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -9.5d
+			x: -9.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["6F736EF54A792577"]
 			id: "7DD14D1827FF575E"
+			tasks: [
+				{
+					id: "04B4E3785E9A92E8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ae2:sky_stone_block"
+					}
+					type: "item"
+				}
+				{
+					id: "275655A3A7B7251D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "ae2:meteorite_compass"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "ae2:certus_quartz_crystal"
+								}
+							]
+						}
+					}
+					title: "Meteorite Compass or Find a Meteor"
+					type: "item"
+				}
+			]
+			title: "Find a fallen meteor"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1A0E2D5ACAF189AC"
+				"7BB90DEFC570E065"
+			]
+			id: "2E2A38A96D401883"
+			size: 0.9d
 			tasks: [{
-				id: "04B4E3785E9A92E8"
+				id: "0E4401227E34B7FE"
 				item: {
 					Count: 1
 					ForgeCaps: {
@@ -1754,13 +1821,465 @@
 							cs.aquaSkin: 0
 						}
 					}
-					id: "ae2:sky_stone_block"
+					id: "concatenationcore:altcircuit"
 				}
 				type: "item"
 			}]
-			title: "Find a fallen meteor"
-			x: -4.0d
-			y: -3.5d
+			x: -9.0d
+			y: -4.05d
+		}
+		{
+			dependencies: ["2E2A38A96D401883"]
+			id: "545CB21B2B59BA32"
+			size: 0.9d
+			tasks: [{
+				id: "6BD61F991F55AE0D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "solarflux:sp_1"
+				}
+				type: "item"
+			}]
+			x: -10.35d
+			y: -4.95d
+		}
+		{
+			dependencies: ["545CB21B2B59BA32"]
+			id: "0FFAF6B077B281C3"
+			tasks: [{
+				id: "6640DB687FCC9FF2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "solarflux:sp_2"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A0E2D5ACAF189AC"]
+			id: "7D6F5D64D565F0AB"
+			tasks: [{
+				id: "58CB7F17AB0E0D08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "quarryplus:exp_pump"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "quarryplus:pump_plus"
+							}
+						]
+					}
+				}
+				title: "Experience Pump or Pump"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A0E2D5ACAF189AC"]
+			id: "6ABEAF3BEADE0BF2"
+			tasks: [{
+				id: "2D62DCE07EAED017"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "quarryplus:adv_pump"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1A0E2D5ACAF189AC"]
+			id: "33732E6E6F1DB3C0"
+			optional: true
+			tasks: [{
+				id: "79B758CE475A8FDB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "quarryplus:status_checker"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2104737FF0D2E4E7"]
+			id: "050A151DEB4BAF79"
+			tasks: [{
+				id: "279C1883E3442340"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:charged_certus_quartz_crystal"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["050A151DEB4BAF79"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ae2:controller"
+			}
+			id: "0F2FB52232FC40C5"
+			tasks: [{
+				id: "5965CB70DA926780"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ae2:controller"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ae2:energy_acceptor"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ae2:cable_energy_acceptor"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Core of the System"
+			x: -11.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["050A151DEB4BAF79"]
+			id: "05C3E83BCCEF20A2"
+			tasks: [
+				{
+					id: "1DB3CAC2144C3C7E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ae2:terminal"
+					}
+					type: "item"
+				}
+				{
+					id: "3C4C1DF12935B2F8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ae2:fluix_glass_cable"
+					}
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["05C3E83BCCEF20A2"]
+			id: "25FDD401F054CBAA"
+			tasks: [{
+				id: "0C33D939AF8D0479"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:storage_bus"
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0F2FB52232FC40C5"]
+			id: "55380CDFDB4EB17C"
+			tasks: [
+				{
+					id: "2128617603304BED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ae2:drive"
+					}
+					type: "item"
+				}
+				{
+					id: "724AE49D2F668F61"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ae2:item_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["58500620F2876A16"]
+			id: "42EF54B7ABFC5789"
+			tasks: [{
+				id: "554E0A6558E73D43"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "elementalcraft:small_container"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["42EF54B7ABFC5789"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "elementalcraft:extractor"
+			}
+			id: "1F58B572150DAE32"
+			tasks: [{
+				id: "292945F517EC143D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "elementalcraft:extractor"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "elementalcraft:evaporator"
+							}
+						]
+					}
+				}
+				title: "Elemental Extractor or Elemental Evaporator"
+				type: "item"
+			}]
+			title: "Elemental Extraction"
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1F58B572150DAE32"]
+			id: "12F6BD166085B3B5"
+			tasks: [{
+				id: "56583FD7B3E6FB3E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "elementalcraft:infuser"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1F58B572150DAE32"]
+			id: "24B4C5E2BD7E2F32"
+			tasks: [{
+				id: "7CCD1A88E4F820F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "elementalcraft:firefurnace"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["12F6BD166085B3B5"]
+			id: "57264B7E24823F02"
+			tasks: [{
+				id: "77D3F138DE82CE24"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "elementalcraft:drenched_iron_ingot"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["57264B7E24823F02"]
+			id: "4E9AB3BBC0D575C4"
+			tasks: [{
+				id: "5A489CA80B994489"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "elementalcraft:binder"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["57264B7E24823F02"]
+			id: "539A664D885AAA1C"
+			tasks: [{
+				id: "188FD3312F9B7EF1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "elementalcraft:container"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.5d
 		}
 	]
 	title: "The Journey"

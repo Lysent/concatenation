@@ -15,15 +15,15 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of('quarryplus:solid_fuel_quarry'),
                 [
-                        'ABA',
+                        'AEA',
                         'CDC',
-                        'AEA'
+                        'ABA'
                 ],
                 {
                         B: 'concatenationcore:boiler',
                         C: 'thermal:drill_head',
                         A: 'concatenationcore:zinc_casing',
-                        E: 'tarotcards:the_hierophant',
+                        E: 'ironchest:iron_chest',
                         D: 'concatenationcore:quarry_brain'
                 }
         ).keepIngredient('tarotcards:the_hierophant')
@@ -105,7 +105,7 @@ ServerEvents.recipes(event => {
                 }
         ).keepIngredient('tarotcards:the_hierophant')
         event.shaped(
-                Item.of('concatenationcore:compressed_sky_stone', 3),
+                Item.of('concatenationcore:compressed_sky_stone', 2),
                 [
                         'AAA',
                         'ABA',
@@ -474,9 +474,156 @@ ServerEvents.recipes(event => {
                         'AAA'
                 ],
                 {
-                        B: 'minecraft:gold_ingot',
+                        B: 'concatenationcore:altcircuit',
                         A: 'concatenationcore:alclad',
                         C: 'ae2:certus_quartz_crystal'
+                }
+        )
+        event.shaped(
+                Item.of('quarryplus:quarry'),
+                [
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        E: 'concatenationcore:altcircuit',
+                        B: 'ironchest:crystal_chest',
+                        C: 'concatenationcore:diamond_drill_head',
+                        D: 'quarryplus:solid_fuel_quarry',
+                        A: 'concatenationcore:galvanized_iron_casing'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:galvanized_iron_casing'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'createdeco:iron_support',
+                        B: 'concatenationcore:galvanized_iron',
+                        C: 'minecraft:copper_block'
+                }
+        )
+        event.shaped(
+                Item.of('solarflux:sp_1'),
+                [
+                        'AAA',
+                        'BCB',
+                        'BBB'
+                ],
+                {
+                        C: 'concatenationcore:altcircuit',
+                        B: 'minecraft:iron_ingot',
+                        A: 'solarflux:mirror'
+                }
+        )
+        event.shaped(
+                Item.of('solarflux:sp_2'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        C: 'concatenationcore:altcircuit',
+                        A: 'solarflux:sp_1',
+                        B: 'concatenationcore:alclad'
+                }
+        )
+        event.shaped(
+                Item.of('quarryplus:status_checker'),
+                [
+                        ' A ',
+                        ' B ',
+                        '   '
+                ],
+                {
+                        A: 'concatenationcore:stickyredstone',
+                        B: 'concatenationcore:galvanized_iron'
+                }
+        )
+        event.shaped(
+                Item.of('quarryplus:exp_pump'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ACA'
+                ],
+                {
+                        D: 'createdeco:copper_support',
+                        A: 'concatenationcore:zinc_casing',
+                        B: 'concatenationcore:shrike',
+                        C: 'minecraft:experience_bottle'
+                }
+        )
+        event.shaped(
+                Item.of('quarryplus:pump_plus'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ADA'
+                ],
+                {
+                        D: 'concatenationcore:pump_rotor',
+                        C: 'minecraft:glass',
+                        A: 'concatenationcore:zinc_casing',
+                        B: 'createdeco:zinc_support'
+                }
+        )
+        event.shaped(
+                Item.of('quarryplus:adv_pump'),
+                [
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        B: 'concatenationcore:altcircuit',
+                        E: 'concatenationcore:pump_rotor',
+                        D: 'quarryplus:solid_fuel_quarry',
+                        A: 'createdeco:zinc_support',
+                        C: 'concatenationcore:white_alclad'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:pump_rotor'),
+                [
+                        ' A ',
+                        'ABA',
+                        ' A '
+                ],
+                {
+                        A: 'minecraft:iron_ingot',
+                        B: 'concatenationcore:galvanized_iron'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:diamond_drill_head'),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        B: 'thermal:drill_head',
+                        A: 'minecraft:diamond'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:altcircuit'),
+                [
+                        'ABC',
+                        'BDA',
+                        'ABC'
+                ],
+                {
+                        A: 'minecraft:iron_ingot',
+                        B: 'concatenationcore:stickyredstone',
+                        D: 'concatenationcore:alclad',
+                        C: 'minecraft:copper_ingot'
                 }
         )
 });
