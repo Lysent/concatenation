@@ -404,6 +404,11 @@
     "modId": "dungeons_arise_seven_seas",
     "version": "1.0.2"
   },
+  "durabilitytooltip-1.1.5-forge-mc1.20.jar": {
+    "jarName": "durabilitytooltip-1.1.5-forge-mc1.20.jar",
+    "modId": "durabilitytooltip",
+    "version": "1.1.5"
+  },
   "dynamic-fps-3.9.5+minecraft-1.20.0-forge.jar": {
     "jarName": "dynamic-fps-3.9.5+minecraft-1.20.0-forge.jar",
     "modId": "dynamic_fps",
@@ -999,6 +1004,11 @@
     "jarName": "StylishEffects-v8.0.2-1.20.1-Forge.jar",
     "modId": "stylisheffects",
     "version": "8.0.2"
+  },
+  "supermartijn642configlib-1.1.8-forge-mc1.20.jar": {
+    "jarName": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+    "modId": "supermartijn642configlib",
+    "version": "1.1.8"
   },
   "swashbucklers! 2.6.6B 1.20.1.jar": {
     "jarName": "swashbucklers! 2.6.6B 1.20.1.jar",

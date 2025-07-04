@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
         const remove = [
                 'tconstruct:seared_melter',
+                'create:whisk'
         ]
 
         remove.forEach(item => {
@@ -48,6 +49,19 @@ ServerEvents.recipes(event => {
                 {
                         A: 'solarflux:sp_1',
                         B: 'concatenationcore:circuit'
+                }
+        )
+        event.shaped(
+                Item.of('create:whisk'),
+                [
+                        ' A ',
+                        'BAB',
+                        'CBC'
+                ],
+                {
+                        B: 'create:brass_sheet',
+                        A: 'create:andesite_alloy',
+                        C: 'create:iron_sheet'
                 }
         )
 });

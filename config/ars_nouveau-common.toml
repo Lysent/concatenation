@@ -12,11 +12,11 @@
 	#Range: 0 ~ 10000
 	whirlisprigProgress = 250
 	#Should the Wilden Hunter attack animals?
-	hunterHuntsAnimals = false
+	hunterHuntsAnimals = true
 	#Should the Wilden Stalker attack animals?
-	stalkerHuntsAnimals = false
+	stalkerHuntsAnimals = true
 	#Should the Wilden Defender attack animals?
-	defenderHuntsAnimals = false
+	defenderHuntsAnimals = true
 	#Should the Wilden Chimera dive bomb destroy blocks?
 	destructiveDiveBomb = true
 	#Archwood forest spawn weight
