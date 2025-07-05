@@ -69,6 +69,11 @@
     "modId": "ars_nouveau",
     "version": "4.12.7"
   },
+  "ars_scalaes-1.20.1-1.10.7c.jar": {
+    "jarName": "ars_scalaes-1.20.1-1.10.7c.jar",
+    "modId": "ars_scalaes",
+    "version": "1.20.1-1.10.7c"
+  },
   "ars_technica-1.20.1-1.2.1.jar": {
     "jarName": "ars_technica-1.20.1-1.2.1.jar",
     "modId": "ars_technica",
@@ -364,10 +369,10 @@
     "modId": "cyclopscore",
     "version": "1.20.1"
   },
-  "defaultoptions-forge-1.20-18.0.1.jar": {
-    "jarName": "defaultoptions-forge-1.20-18.0.1.jar",
-    "modId": "defaultoptions",
-    "version": "18.0.1"
+  "decursio_stages-1.20.1-0.1.0b.jar": {
+    "jarName": "decursio_stages-1.20.1-0.1.0b.jar",
+    "modId": "decursio_stages",
+    "version": "1.20.1-0.1.0b"
   },
   "dimdoors-5.4.4-1.20.1-forge.jar": {
     "jarName": "dimdoors-5.4.4-1.20.1-forge.jar",
@@ -676,6 +681,11 @@
     "jarName": "kubejs-forge-2001.6.5-build.16.jar",
     "modId": "kubejs",
     "version": "2001.6.5-build.16"
+  },
+  "kubejsarsnouveau-1.2.2.jar": {
+    "jarName": "kubejsarsnouveau-1.2.2.jar",
+    "modId": "kubejsarsnouveau",
+    "version": "1.2.2"
   },
   "letmedespawn-1.20.x-forge-1.5.0.jar": {
     "jarName": "letmedespawn-1.20.x-forge-1.5.0.jar",
@@ -1129,6 +1139,11 @@
     "jarName": "useful_backpacks-forge-1.20.1-2.0.1.124.jar",
     "modId": "usefulbackpacks",
     "version": "2.0.1.124"
+  },
+  "via_romana-forge-1.4.1.jar": {
+    "jarName": "via_romana-forge-1.4.1.jar",
+    "modId": "via_romana",
+    "version": "1.4.1"
   },
   "VisualWorkbench-v8.0.0-1.20.1-Forge.jar": {
     "jarName": "VisualWorkbench-v8.0.0-1.20.1-Forge.jar",

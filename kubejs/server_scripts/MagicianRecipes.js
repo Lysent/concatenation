@@ -6,7 +6,12 @@ ServerEvents.recipes(event => {
                 'elementalcraft:unset_jewel',
                 'elementalcraft:spell_desk',
                 'ars_nouveau:apprentice_spell_book',
-                'ars_nouveau:archmage_spell_book'
+                'ars_nouveau:archmage_spell_book',
+                'ars_nouveau:enchanting_apparatus',
+                'ars_nouveau:arcane_core',
+                'ars_nouveau:scribes_table',
+                'ars_nouveau:arcane_pedestal',
+                'ars_nouveau:alteration_table'
         ]
 
         remove.forEach(item => {
@@ -162,22 +167,22 @@ ServerEvents.recipes(event => {
                         C: 'minecraft:gold_nugget'
                 }
         ).damageIngredient('ars_nouveau:enchanters_sword')
-        event.shaped(
-                Item.of('ars_nouveau:apprentice_spell_book'),
-                [
-                        'ABC',
-                        'BDB',
-                        'EBF'
-                ],
-                {
-                        B: 'concatenationcore:alatoris_fiber',
-                        A: 'ars_nouveau:drygmy_shard',
-                        D: 'ars_nouveau:novice_spell_book',
-                        C: 'ars_nouveau:whirlisprig_shards',
-                        F: 'ars_nouveau:wixie_shards',
-                        E: 'ars_nouveau:starbuncle_shards'
-                }
-        )
+        // event.shaped(
+        //         Item.of('ars_nouveau:apprentice_spell_book'),
+        //         [
+        //                 'ABC',
+        //                 'BDB',
+        //                 'EBF'
+        //         ],
+        //         {
+        //                 B: 'concatenationcore:alatoris_fiber',
+        //                 A: 'ars_nouveau:drygmy_shard',
+        //                 D: 'ars_nouveau:novice_spell_book',
+        //                 C: 'ars_nouveau:whirlisprig_shards',
+        //                 F: 'ars_nouveau:wixie_shards',
+        //                 E: 'ars_nouveau:starbuncle_shards'
+        //         }
+        // )
         event.shaped(
                 Item.of('concatenationcore:experienced_paper'),
                 [
@@ -190,24 +195,24 @@ ServerEvents.recipes(event => {
                         A: 'concatenationcore:gold_paper'
                 }
         )
+        // event.shaped(
+        //         Item.of('ars_nouveau:archmage_spell_book'),
+        //         [
+        //                 'ABA',
+        //                 'CDE',
+        //                 'AFA'
+        //         ],
+        //         {
+        //                 C: 'ars_elemental:fire_focus',
+        //                 A: 'concatenationcore:experienced_paper',
+        //                 E: 'ars_elemental:water_focus',
+        //                 B: 'ars_elemental:air_focus',
+        //                 F: 'ars_elemental:earth_focus',
+        //                 D: 'ars_nouveau:apprentice_spell_book'
+        //         }
+        // )
         event.shaped(
-                Item.of('ars_nouveau:archmage_spell_book'),
-                [
-                        'ABA',
-                        'CDE',
-                        'AFA'
-                ],
-                {
-                        C: 'ars_elemental:fire_focus',
-                        A: 'concatenationcore:experienced_paper',
-                        E: 'ars_elemental:water_focus',
-                        B: 'ars_elemental:air_focus',
-                        F: 'ars_elemental:earth_focus',
-                        D: 'ars_nouveau:apprentice_spell_book'
-                }
-        )
-        event.shaped(
-                Item.of('concatenationcore:sourcesilver'),
+                Item.of('concatenationcore:mundane_silver'),
                 [
                         ' A ',
                         'ABA',
@@ -218,4 +223,155 @@ ServerEvents.recipes(event => {
                         B: 'thermal:silver_ingot'
                 }
         )
+        event.shaped(
+                Item.of('ars_nouveau:enchanting_apparatus'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        C: 'minecraft:gold_ingot',
+                        B: 'ars_nouveau:sourcestone',
+                        A: 'concatenationcore:sourcesilver',
+                        D: 'elementalcraft:receptacle'
+                }
+        )
+        event.shaped(
+                Item.of('ars_nouveau:arcane_core'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        C: 'minecraft:gold_ingot',
+                        A: 'ars_nouveau:sourcestone',
+                        D: 'elementalcraft:pure_element_holder_core',
+                        B: 'concatenationcore:sourcesilver'
+                }
+        )
+        event.shaped(
+                Item.of('ars_nouveau:scribes_table'),
+                [
+                        'ABA',
+                        'C C',
+                        'D D'
+                ],
+                {
+                        C: 'minecraft:gold_ingot',
+                        D: 'ars_nouveau:purple_archwood_log',
+                        A: 'ars_nouveau:archwood_slab',
+                        B: 'concatenationcore:sourcesilver'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:elemental_lens'),
+                [
+                        ' A ',
+                        'BCD',
+                        ' E '
+                ],
+                {
+                        D: 'elementalcraft:earth_lens',
+                        A: 'elementalcraft:water_lens',
+                        B: 'elementalcraft:air_lens',
+                        C: 'elementalcraft:strongly_contained_crystal',
+                        E: 'elementalcraft:fire_lens'
+                }
+        )
+        event.shaped(
+                Item.of('ars_nouveau:arcane_pedestal'),
+                [
+                        'ABA',
+                        'CAC',
+                        'DAD'
+                ],
+                {
+                        D: 'minecraft:gold_ingot',
+                        A: 'ars_nouveau:sourcestone',
+                        C: 'concatenationcore:sourcesilver',
+                        B: 'concatenationcore:elemental_lens'
+                }
+        )
+        event.shaped(
+                Item.of('ars_nouveau:alteration_table'),
+                [
+                        'A B',
+                        'C D',
+                        ' E '
+                ],
+                {
+                        B: 'concatenationcore:alatoris',
+                        D: 'minecraft:glow_ink_sac',
+                        E: 'ars_nouveau:scribes_table',
+                        C: 'concatenationcore:sourcesilver',
+                        A: 'minecraft:book'
+                }
+        )
+        event.shaped(
+                Item.of('ars_nouveau:imbuement_chamber'),
+                [
+                        'ABA',
+                        'ACA',
+                        'ADA'
+                ],
+                {
+                        B: 'minecraft:gold_ingot',
+                        C: 'elementalcraft:purecrystal',
+                        D: 'tarotcards:the_sun',
+                        A: 'ars_nouveau:archwood_planks'
+                }
+        ).keepIngredient('tarotcards:the_sun')
+        event.shaped(
+                Item.of('ars_nouveau:source_jar'),
+                [
+                        'AAA',
+                        'BBB',
+                        'CDC'
+                ],
+                {
+                        C: 'minecraft:gold_ingot',
+                        A: 'ars_nouveau:archwood_slab',
+                        D: 'concatenationcore:sourcesilver',
+                        B: 'concatenationcore:protean_glass'
+                }
+        )
+        event.shaped(
+                Item.of('waystones:warp_stone'),
+                [
+                        'ABA',
+                        'CDE',
+                        'AFA'
+                ],
+                {
+                        F: 'elementalcraft:fine_earth_gem',
+                        C: 'elementalcraft:fine_fire_gem',
+                        E: 'elementalcraft:fine_water_gem',
+                        A: 'waystones:warp_dust',
+                        B: 'elementalcraft:fine_air_gem',
+                        D: 'elementalcraft:receptacle'
+                }
+        )
+        event.recipes.ars_nouveau.imbuement(
+                'concatenationcore:mundane_silver',
+                'concatenationcore:sourcesilver',
+                1000,
+                []
+        )
+        event.recipes.ars_nouveau.enchanting_apparatus(
+                ['ars_nouveau:drygmy_shard', 'concatenationcore:alatoris_fiber', 'ars_nouveau:whirlisprig_shards', 'concatenationcore:alatoris_fiber', 'ars_nouveau:starbuncle_shards', 'concatenationcore:alatoris_fiber', 'ars_nouveau:wixie_shards', 'concatenationcore:alatoris_fiber'],
+                'ars_nouveau:novice_spell_book',
+                'ars_nouveau:apprentice_spell_book',
+                50000,
+                true
+        )
+        event.recipes.ars_nouveau.enchanting_apparatus(
+                ['ars_elemental:fire_focus', 'concatenationcore:experienced_paper', 'ars_elemental:water_focus', 'concatenationcore:experienced_paper', 'ars_elemental:air_focus', 'concatenationcore:experienced_paper', 'ars_elemental:earth_focus', 'concatenationcore:experienced_paper'],
+                'ars_nouveau:apprentice_spell_book',
+                'ars_nouveau:archmage_spell_book',
+                150000,
+                true
+        )
+
 });
