@@ -29,12 +29,12 @@ ItemEvents.modification(event => {
 
 		// blood magic sentient tools
 		// (doesn't work)
-		1100,
-		["bloodmagic:soulpickaxe", 5],
-		["bloodmagic:soulshovel", 5.5],
-		["bloodmagic:soulaxe", 11],
-		["bloodmagic:soulsword", 9],
-		["bloodmagic:soulscythe", 7],
+		// 1100,
+		// ["bloodmagic:soulpickaxe", 5],
+		// ["bloodmagic:soulshovel", 5.5],
+		// ["bloodmagic:soulaxe", 11],
+		// ["bloodmagic:soulsword", 9],
+		// ["bloodmagic:soulscythe", 7],
 
 		// tfmg aluminium
 		1000,
@@ -66,10 +66,10 @@ ItemEvents.modification(event => {
 		850, ["psi:psimetal_boots", 7],
 
 		// blood magic living armor
-		400, ["bloodmagic:livinghelmet", 4],
-		560, ["bloodmagic:livingplate", 6],
-		512, ["bloodmagic:livingleggings", 5],
-		440, ["bloodmagic:livingboots", 2],
+		// 400, ["bloodmagic:livinghelmet", 4],
+		// 560, ["bloodmagic:livingplate", 6],
+		// 512, ["bloodmagic:livingleggings", 5],
+		// 440, ["bloodmagic:livingboots", 2],
 
 		// celestisynth lunar/solar armor
 		1000,
@@ -86,11 +86,12 @@ ItemEvents.modification(event => {
 		["celestisynth:solar_crystal_boots", 9],
 
 		// hexerei witch
-		275,
-		["hexerei:witch_helmet", 3],
-		["hexerei:mushroom_witch_helmet", 3],
-		400, ["hexerei:witch_chestplate", 3],
-		325, ["hexerei:witch_boots", 3],
+		// unchanged
+		// 275,
+		// ["hexerei:witch_helmet", 3],
+		// ["hexerei:mushroom_witch_helmet", 3],
+		// 400, ["hexerei:witch_chestplate", 3],
+		// 325, ["hexerei:witch_boots", 3],
 
 	].forEach(en => {
 		if (typeof en === "number") return d = en;

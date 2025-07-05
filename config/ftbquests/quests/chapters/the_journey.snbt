@@ -56,6 +56,7 @@
 					}
 					id: "minecraft:book"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			size: 1.25d
@@ -79,19 +80,41 @@
 		}
 		{
 			id: "2970C1ADE44898FF"
-			rewards: [{
-				id: "0C0B11923BE71845"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			rewards: [
+				{
+					id: "0C0B11923BE71845"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "farmersdelight:stuffed_potato"
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					command: "/decstages add @s temperance_pathway true"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
 						}
 					}
-					id: "farmersdelight:stuffed_potato"
+					id: "03D125C16CD7CADF"
+					team_reward: false
+					title: "Occult Knowledge"
+					type: "command"
 				}
-				type: "item"
-			}]
+			]
 			size: 1.25d
 			tasks: [{
 				id: "089EE2807179886C"
@@ -124,6 +147,7 @@
 					}
 					id: "minecraft:book"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			size: 1.25d
@@ -154,6 +178,11 @@
 			}
 			id: "524067700E07EB06"
 			invisible: true
+			rewards: [{
+				id: "37C0B3648EEE3AC7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "37655A529CD6B9F4"
@@ -261,8 +290,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -530,21 +559,29 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "born_in_chaos_v1:shattered_skull"
-			}
+			icon: "born_in_chaos_v1:shattered_skull"
 			id: "22157DFEF1887E78"
-			tasks: [{
-				id: "7E9741B2ACC7F48B"
-				title: "Consecration"
-				type: "checkmark"
+			rewards: [{
+				count: 5
+				id: "50CBF8E829FFF62D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:silver_ingot"
+				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "76ADA30E5D70D5B1"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 25
+			}]
+			title: "Consecration"
 			x: 2.0d
 			y: -4.0d
 		}
@@ -1752,8 +1789,7 @@
 			id: "7DD14D1827FF575E"
 			tasks: [
 				{
-					id: "04B4E3785E9A92E8"
-					item: {
+					icon: {
 						Count: 1
 						ForgeCaps: {
 							"celestisynth:celestisynthitemstackcapabilities": {
@@ -1762,42 +1798,23 @@
 						}
 						id: "ae2:sky_stone_block"
 					}
-					type: "item"
+					id: "2FDEBEE282C4E99A"
+					structure: "ae2:meteorite"
+					title: "Find a Meteor"
+					type: "structure"
 				}
 				{
-					id: "275655A3A7B7251D"
+					count: 48L
+					id: "3D8A93A0719526F7"
 					item: {
-						Count: 1
+						Count: 48
 						ForgeCaps: {
 							"celestisynth:celestisynthitemstackcapabilities": {
 								cs.aquaSkin: 0
 							}
 						}
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									ForgeCaps: {
-										"celestisynth:celestisynthitemstackcapabilities": {
-											cs.aquaSkin: 0
-										}
-									}
-									id: "ae2:meteorite_compass"
-								}
-								{
-									Count: 1b
-									ForgeCaps: {
-										"celestisynth:celestisynthitemstackcapabilities": {
-											cs.aquaSkin: 0
-										}
-									}
-									id: "ae2:certus_quartz_crystal"
-								}
-							]
-						}
+						id: "ae2:sky_stone_block"
 					}
-					title: "Meteorite Compass or Find a Meteor"
 					type: "item"
 				}
 			]
@@ -3054,8 +3071,8 @@
 				type: "item"
 			}]
 			title: "The Sun"
-			x: 12.5d
-			y: 16.0d
+			x: 12.649999999999999d
+			y: 16.099999999999998d
 		}
 		{
 			dependencies: ["330D9AAC0CD81668"]
@@ -3093,8 +3110,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 17.0d
+			x: 14.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["6A5FC0572660FB1E"]
@@ -3114,8 +3131,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 16.0d
+			x: 15.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["3DF92A514A6B22AF"]
@@ -3134,8 +3151,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: 17.0d
+			x: 16.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["6A5FC0572660FB1E"]
@@ -3153,30 +3170,45 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 18.0d
-		}
-		{
-			dependencies: ["3DF92A514A6B22AF"]
-			id: "54DA52C7F14D64E9"
-			tasks: [{
-				id: "0C9D756D43C09872"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "ars_nouveau:source_gem"
-				}
-				type: "item"
-			}]
 			x: 15.5d
 			y: 19.0d
 		}
 		{
-			dependencies: ["71AF6583ACE3E366"]
+			dependencies: ["3DF92A514A6B22AF"]
+			id: "54DA52C7F14D64E9"
+			tasks: [
+				{
+					id: "0C9D756D43C09872"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "7AD415C9EF1F588C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "concatenationcore:sourcesilver"
+					}
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["71BB28D5234F5991"]
 			hide_dependency_lines: true
 			id: "09D828A8998F6CAD"
 			tasks: [{
@@ -3251,11 +3283,11 @@
 				title: "Any Mage Equipment"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 18.0d
+			x: 11.5d
+			y: 21.5d
 		}
 		{
-			dependencies: ["71AF6583ACE3E366"]
+			dependencies: ["71BB28D5234F5991"]
 			id: "6BE193169C2DB9F9"
 			tasks: [
 				{
@@ -3324,11 +3356,11 @@
 				}
 			]
 			title: "Sorcerer Set"
-			x: 12.0d
-			y: 18.0d
+			x: 13.0d
+			y: 22.0d
 		}
 		{
-			dependencies: ["71AF6583ACE3E366"]
+			dependencies: ["71BB28D5234F5991"]
 			id: "09B5ECAA8C4F6057"
 			tasks: [
 				{
@@ -3397,11 +3429,11 @@
 				}
 			]
 			title: "Arcanist Set"
-			x: 10.5d
-			y: 19.0d
+			x: 12.0d
+			y: 22.5d
 		}
 		{
-			dependencies: ["71AF6583ACE3E366"]
+			dependencies: ["71BB28D5234F5991"]
 			id: "7636B9A479C4AB82"
 			tasks: [
 				{
@@ -3470,11 +3502,11 @@
 				}
 			]
 			title: "Battlemage Set"
-			x: 9.0d
-			y: 20.0d
+			x: 11.0d
+			y: 23.0d
 		}
 		{
-			dependencies: ["7636B9A479C4AB82"]
+			dependencies: ["15F2CFDE130BEC2D"]
 			hide_dependency_lines: true
 			id: "7D7E738B3324CCC3"
 			tasks: [
@@ -3543,11 +3575,11 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 22.0d
+			x: 10.5d
+			y: 25.5d
 		}
 		{
-			dependencies: ["09B5ECAA8C4F6057"]
+			dependencies: ["15F2CFDE130BEC2D"]
 			hide_dependency_lines: true
 			id: "5AC8D71864EEA396"
 			tasks: [
@@ -3616,11 +3648,11 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
-			y: 20.5d
+			x: 12.0d
+			y: 24.5d
 		}
 		{
-			dependencies: ["09B5ECAA8C4F6057"]
+			dependencies: ["15F2CFDE130BEC2D"]
 			hide_dependency_lines: true
 			id: "684EC9A9A6EF71CF"
 			tasks: [
@@ -3689,11 +3721,11 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 21.5d
+			x: 12.5d
+			y: 25.5d
 		}
 		{
-			dependencies: ["09B5ECAA8C4F6057"]
+			dependencies: ["15F2CFDE130BEC2D"]
 			hide_dependency_lines: true
 			id: "7D40DE3BA384AFB0"
 			tasks: [
@@ -3762,11 +3794,11 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 19.5d
+			x: 13.0d
+			y: 24.0d
 		}
 		{
-			dependencies: ["09B5ECAA8C4F6057"]
+			dependencies: ["15F2CFDE130BEC2D"]
 			hide_dependency_lines: true
 			id: "61915BF7CF963C6C"
 			tasks: [
@@ -3835,8 +3867,2255 @@
 					type: "item"
 				}
 			]
+			x: 13.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["54DA52C7F14D64E9"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ars_nouveau:enchanting_apparatus"
+			}
+			id: "71BB28D5234F5991"
+			tasks: [
+				{
+					id: "2F2EA5D4CC65FACF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_nouveau:enchanting_apparatus"
+					}
+					type: "item"
+				}
+				{
+					id: "37161B43A8889805"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_nouveau:arcane_core"
+					}
+					type: "item"
+				}
+				{
+					id: "1EDCDB7260753933"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_nouveau:arcane_pedestal"
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["54DA52C7F14D64E9"]
+			id: "4AAD5BFB42654744"
+			tasks: [{
+				id: "6EFE8FE554AD0FDC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:scribes_table"
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["54DA52C7F14D64E9"]
+			id: "03F5F8D8A4E7D749"
+			tasks: [{
+				id: "40E422E69A1D4BCB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:source_jar"
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"7636B9A479C4AB82"
+				"09B5ECAA8C4F6057"
+				"6BE193169C2DB9F9"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "44240C2BEF40998D"
+			tasks: [{
+				id: "694F770CCAEA4CA7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:alteration_table"
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["03F5F8D8A4E7D749"]
+			id: "2478F23E892A1AD7"
+			tasks: [{
+				id: "616836C8CF7847CF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:agronomic_sourcelink"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:volcanic_sourcelink"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:alchemical_sourcelink"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:vitalic_sourcelink"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:mycelial_sourcelink"
+							}
+						]
+					}
+				}
+				title: "Any Sourcelink"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["44240C2BEF40998D"]
+			id: "6889E63B4D46CD15"
+			tasks: [{
+				id: "356861E39880C64C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_depths"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_elemental:thread_spore"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_elemental:thread_shock"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_drygmy"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_high_step"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_spellpower"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_life_drain"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_starbuncle"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_feather"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_gliding"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_immolation"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_amethyst_golem"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_technica:thread_pressure"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_magic_capacity"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_kindling"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_elemental:thread_summon"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_wixie"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_heights"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_whirlisprig"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_chilling"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_undying"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_warding"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:thread_repairing"
+							}
+						]
+					}
+				}
+				title: "Any Thread"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["71BB28D5234F5991"]
+			id: "3683C013E2CDB6DC"
+			tasks: [{
+				id: "2BD85D3AB1DDBDA9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:ritual_brazier"
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3683C013E2CDB6DC"]
+			id: "4FD664E0F7A92893"
+			tasks: [{
+				id: "594F816F14210EFD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:ritual_wilden_summon"
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["4FD664E0F7A92893"]
+			id: "65C15526A590FDF9"
+			size: 1.15d
+			tasks: [{
+				id: "1710883B8E63874A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:wilden_tribute"
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["3683C013E2CDB6DC"]
+			id: "4080496891426ACB"
+			tasks: [{
+				id: "4E92FF3B5F9BD1F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_burrowing"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_challenge"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_binding"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_awakening"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_disintegration"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_sunrise"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_elemental:ritual_tesla_coil"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_elemental:ritual_squirrels"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_elemental:ritual_attraction"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_conjure_island_plains"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_flight"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_cloudshaping"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_elemental:ritual_repulsion"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_restoration"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_animal_summon"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_forestation"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_warping"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_moonfall"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_containment"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_scrying"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_gravity"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_flowering"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_sanctuary"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_elemental:ritual_detection"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_fertility"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_overgrowth"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ritual_conjure_island_desert"
+							}
+						]
+					}
+				}
+				title: "Any Ritual except Wilden"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["71BB28D5234F5991"]
+			hide_dependency_lines: true
+			id: "6825EAE108FEAE02"
+			tasks: [{
+				id: "1FADA0924830D284"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:ring_of_lesser_discount"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:amulet_of_mana_boost"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:amulet_of_mana_regen"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:belt_of_levitation"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:belt_of_unstable_gifts"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_elemental:base_bangle"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:alchemists_crown"
+							}
+						]
+					}
+				}
+				title: "Any Small Mage Equipment"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["71BB28D5234F5991"]
+			id: "3CB40DE1FBC306E5"
+			tasks: [{
+				id: "4E3EE7C306D8408D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:apprentice_spell_book"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["6A5FC0572660FB1E"]
+			id: "6558118AA4D275B3"
+			tasks: [{
+				id: "5F7F2F67B53A91A6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:blue_archwood_log"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:red_archwood_log"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:purple_archwood_log"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_nouveau:green_archwood_log"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_elemental:yellow_archwood_log"
+							}
+						]
+					}
+				}
+				title: "Any Archwood Log"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"1E37E99BEE301A2A"
+				"5306B96BF30D32BD"
+			]
+			id: "199BA50861FD9E27"
+			size: 1.1d
+			tasks: [{
+				id: "6401066FB519A6AC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:archmage_spell_book"
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["65C15526A590FDF9"]
+			id: "15F2CFDE130BEC2D"
+			tasks: [{
+				id: "13234A13CF6B0107"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_elemental:mark_of_mastery"
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["71BB28D5234F5991"]
+			id: "0E552646DDCDCA4A"
+			tasks: [{
+				id: "41E8522DFC51BA22"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_elemental:lesser_fire_focus"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_elemental:lesser_water_focus"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_elemental:lesser_air_focus"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ars_elemental:lesser_earth_focus"
+							}
+						]
+					}
+				}
+				title: "Any Lesser Focus"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 25.0d
+		}
+		{
+			dependencies: [
+				"0E552646DDCDCA4A"
+				"15F2CFDE130BEC2D"
+			]
+			id: "1E37E99BEE301A2A"
+			tasks: [
+				{
+					id: "7DDF527A0DF91389"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_elemental:fire_focus"
+					}
+					type: "item"
+				}
+				{
+					id: "41BAC3EE4FE34687"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_elemental:water_focus"
+					}
+					type: "item"
+				}
+				{
+					id: "49FC393963DAD7BF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_elemental:air_focus"
+					}
+					type: "item"
+				}
+				{
+					id: "65793FC8A83DD988"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_elemental:earth_focus"
+					}
+					type: "item"
+				}
+			]
+			x: 20.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["4080496891426ACB"]
+			id: "5306B96BF30D32BD"
+			tasks: [{
+				id: "66FFD5430CB31413"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_technica:giant_experience_gem"
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["54218CCAAF11DC4B"]
+			id: "02CAE7DE326720EA"
+			tasks: [{
+				id: "266D60B5FCA4B2D7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["02CAE7DE326720EA"]
+			id: "7E1C64AA0AA235C2"
+			size: 1.15d
+			tasks: [{
+				id: "20A4244FEDD769DE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "waystones:waystone"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:oak_hanging_sign"
+			}
+			id: "5B1114E8AD48A9D4"
+			tasks: [{
+				id: "248EFACDC86C287B"
+				title: "Via Romana"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["03F5F8D8A4E7D749"]
+			id: "5A785E9F42A6E64E"
+			tasks: [{
+				id: "0906496DFEA85D7E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:relay"
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			id: "0F56E99C05BFF14A"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "02D3401CD427C0FE"
+					structure: "hexerei:witch_hut"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4F626ADE82098BF1"
+					structure: "hexerei:baba_yaga_hut"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:mushroom_witch_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1DBFDF594BCA3C76"
+					structure: "hexerei:nature_coven"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:mushroom_witch_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "50C3C8F97EDDB2E3"
+					structure: "hexerei:dark_coven"
+					type: "structure"
+				}
+			]
+			title: "Find a Witch's Hut"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2970C1ADE44898FF"]
+			description: ["The Mixing Cauldron can also be used for more efficient potion"]
+			hide_dependency_lines: true
+			id: "3B8127AF958727B0"
+			tasks: [{
+				id: "6FDF2B0B4C629AB0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:mixing_cauldron"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3B8127AF958727B0"]
+			id: "08656304775DB207"
+			tasks: [{
+				id: "44FF35C4A6636054"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:cloth"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08656304775DB207"]
+			id: "11448A0815CC7548"
+			tasks: [
+				{
+					id: "085A89C4B628BF97"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "465E0B824EB7F6FD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:witch_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C29B897D2D08369"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:witch_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0CC91D0458ACB827"]
+			id: "0BBFD1B138A5DA3D"
+			tasks: [{
+				id: "739BBA8A10CB24FE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:willow_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0BBFD1B138A5DA3D"]
+			id: "3EF9977332170323"
+			tasks: [{
+				id: "269DC5423F12CE4F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:witch_hazel_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3EF9977332170323"]
+			id: "74D920C672740BC9"
+			tasks: [{
+				id: "409892A417E0A087"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:mahogany_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3B8127AF958727B0"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "hexerei:blood_sigil"
+			}
+			id: "0CC91D0458ACB827"
+			tasks: [
+				{
+					id: "127CDCEA390AB79C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:blood_sigil"
+					}
+					type: "item"
+				}
+				{
+					id: "44D719EDCDE993B3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:blood_bottle"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B8127AF958727B0"]
+			hide_dependency_lines: true
+			id: "01D68B8537CA69EA"
+			tasks: [{
+				id: "7321E1DD222A27D3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:warhammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0CC91D0458ACB827"]
+			id: "59BB154080D3A193"
+			tasks: [{
+				id: "5477EC9698C3E167"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:coffer"
+					tag: {
+						ButtonToggled: 0
+						Inventory: {
+							Items: [ ]
+							Size: 36
+						}
+						display: {
+							color: 4337438
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0BBFD1B138A5DA3D"]
+			id: "3734FBDDFFB8710B"
+			tasks: [
+				{
+					id: "1D36A694A9541A6F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:small_satchel"
+					}
+					type: "item"
+				}
+				{
+					id: "153652C7B42B1E2F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:medium_satchel"
+					}
+					type: "item"
+				}
+				{
+					id: "0817C48EF35004FC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:large_satchel"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2970C1ADE44898FF"]
+			hide_dependency_lines: true
+			id: "50DF4F514B4C87B9"
+			tasks: [{
+				id: "3DEAE681D34EFAFB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "hexerei:herb_drying_rack"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "hexerei:willow_drying_rack"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "hexerei:mahogany_drying_rack"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "hexerei:witch_hazel_drying_rack"
+							}
+						]
+					}
+				}
+				title: "Any Drying Rack"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["50DF4F514B4C87B9"]
+			id: "2A581A4E957DEF1E"
+			tasks: [{
+				id: "26FC587BA70F32C6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "hexerei:moon_dust_brush"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "hexerei:herb_enhanced_broom_brush"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Enhanced Brush"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2A581A4E957DEF1E"
+				"7BB90DEFC570E065"
+			]
+			hide_dependency_lines: true
+			id: "3EB756F4DB633C14"
+			tasks: [{
+				id: "78BB24A23721AD6B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:broom_thruster_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			id: "4134F85EED507D7B"
+			size: 0.8d
+			tasks: [{
+				id: "49394A1CABCCB8CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "constructionwand:stone_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "constructionwand:iron_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "constructionwand:diamond_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "constructionwand:infinity_wand"
+							}
+						]
+					}
+				}
+				title: "Any Construction Wand"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3B8127AF958727B0"]
+			id: "318D381A5B4B1EBC"
+			tasks: [{
+				id: "4E43AE20227DAE0A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:reading_glasses"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3B8127AF958727B0"]
+			id: "7B7ECE9C646B974B"
+			tasks: [{
+				id: "1BBCE9CD2A6F81E9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:pestle_and_mortar"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B8127AF958727B0"]
+			hide_dependency_lines: true
+			id: "5C78A0206DEDAC4C"
+			tasks: [{
+				id: "40400A8329130C4A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:crystal_ball"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0419D82408E8C7B0"]
+			id: "1117DB453133A102"
+			tasks: [{
+				id: "5230ED46D846383B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:crow_ankh_amulet"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3B8127AF958727B0"]
+			hide_dependency_lines: true
+			id: "6EB3E5667F8481FC"
+			tasks: [{
+				id: "583111F990D92E4D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:herb_jar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BBFD1B138A5DA3D"]
+			id: "662F30B73F2476FE"
+			tasks: [{
+				id: "0FD75E1E0D95A84B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:broom_seat"
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7B7ECE9C646B974B"]
+			id: "0419D82408E8C7B0"
+			tasks: [{
+				id: "57ACAE12E606A63C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:seed_mixture"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0BBFD1B138A5DA3D"]
+			id: "683A75AC5D42BFB1"
+			tasks: [{
+				id: "161EEAC175C35EEE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "hexerei:broom_netherite_tip"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "hexerei:broom_waterproof_tip"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Any Broom Tip"
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6EB3E5667F8481FC"]
+			id: "6E411BC41B854476"
+			tasks: [
+				{
+					id: "2E98187A71672490"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:sage"
+					}
+					type: "item"
+				}
+				{
+					id: "2067339E87302BF8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:belladonna_flowers"
+					}
+					type: "item"
+				}
+				{
+					id: "73786CDAAD5C1F66"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:mandrake_flowers"
+					}
+					type: "item"
+				}
+				{
+					id: "2AED6AF0F85B05FB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:mandrake_root"
+					}
+					type: "item"
+				}
+				{
+					id: "16CCB15555157A3E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:mugwort_flowers"
+					}
+					type: "item"
+				}
+				{
+					id: "52FCBB03559AE4E5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:mugwort_leaves"
+					}
+					type: "item"
+				}
+				{
+					id: "14527B6FC197A607"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:belladonna_berries"
+					}
+					type: "item"
+				}
+				{
+					id: "0F31518F443BE2E9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:yellow_dock_leaves"
+					}
+					type: "item"
+				}
+				{
+					id: "3C17AD18B61C1AA4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:yellow_dock_flowers"
+					}
+					type: "item"
+				}
+			]
+			title: "Collect Every Herb"
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B8127AF958727B0"]
+			hide_dependency_lines: true
+			id: "49375BCA090B1198"
+			tasks: [{
+				id: "29B5B4FC8621BF4A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:candle_dipper"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2970C1ADE44898FF"]
+			hide_dependency_lines: true
+			id: "448610C2D1BD5805"
+			tasks: [
+				{
+					id: "3A5155B578BF1152"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "hexerei:willow_courier_depot"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "hexerei:mahogany_courier_depot"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "hexerei:witch_hazel_courier_depot"
+								}
+							]
+						}
+					}
+					title: "Any Courier Depot"
+					type: "item"
+				}
+				{
+					id: "042E640BB4E69540"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hexerei:courier_package"
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2970C1ADE44898FF"]
+			hide_dependency_lines: true
+			id: "22CF2C758DBACEE0"
+			size: 0.8d
+			tasks: [{
+				id: "1233BC9D98BCCB9B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:dowsing_rod"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00E41146BE22270E"]
+			id: "068DF533DB041F37"
+			size: 1.0d
+			tasks: [
+				{
+					id: "235B77305328F671"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:sacrificialdagger"
+						tag: {
+							sacrifice: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C5FD08F5ACDA89C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:altar"
+					}
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CC91D0458ACB827"]
+			hide_dependency_lines: true
+			id: "00E41146BE22270E"
+			size: 1.15d
+			tasks: [{
+				id: "42C01D885FBAB066"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:the_moon"
+					tag: { }
+				}
+				type: "item"
+			}]
 			x: 13.0d
-			y: 20.5d
+			y: -3.0d
 		}
 	]
 	title: "The Journey"
