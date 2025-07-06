@@ -1,0 +1,985 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_tower"
+	group: ""
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "create:brass_hand"
+	}
+	id: "43768A1FBBADEA24"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:goggles"
+			}
+			id: "554D1432E76A2906"
+			tasks: [{
+				id: "75104E9B3C2EBB2A"
+				title: "A Foolish Endeavour"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["554D1432E76A2906"]
+			id: "43F33E73AF7EA6E2"
+			tasks: [{
+				id: "35C3F4040CB9EB55"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43F33E73AF7EA6E2"]
+			id: "06856516470E742D"
+			tasks: [{
+				id: "58DC9414FDC47C6D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:shaft"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["43F33E73AF7EA6E2"]
+			id: "13B6EECFB6B3911E"
+			tasks: [{
+				id: "08BE7FAAA453C079"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:andesite_casing"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["06856516470E742D"]
+			id: "139E166A1202B454"
+			tasks: [
+				{
+					id: "741B53BF3E65E739"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					id: "330622CF9073566F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:large_cogwheel"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"139E166A1202B454"
+				"13B6EECFB6B3911E"
+			]
+			id: "335D849D587BCE73"
+			tasks: [
+				{
+					id: "0574F7E86F38A143"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:gearbox"
+					}
+					type: "item"
+				}
+				{
+					id: "0B489091664069A0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create_connected:parallel_gearbox"
+					}
+					type: "item"
+				}
+			]
+			title: "Gearboxes"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["335D849D587BCE73"]
+			id: "455C0A8247EDCCF6"
+			tasks: [
+				{
+					id: "5C42A10542A5B4C3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:clutch"
+					}
+					type: "item"
+				}
+				{
+					id: "66113FEE1AF7FEC4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:gearshift"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13B6EECFB6B3911E"]
+			id: "6B25C523000F8937"
+			tasks: [{
+				id: "79D010122225DCA5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:depot"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B25C523000F8937"]
+			id: "5ED52058EC7A215C"
+			tasks: [
+				{
+					id: "0E528643D212C8F8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:mechanical_press"
+					}
+					type: "item"
+				}
+				{
+					id: "7B6142F5D7E39F6F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:mechanical_mixer"
+					}
+					type: "item"
+				}
+			]
+			title: "Press \\& Mixer"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5ED52058EC7A215C"]
+			id: "39DB90AC7E1BF135"
+			tasks: [
+				{
+					id: "3E07EDCEE1CC847E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "06A122A70FB1B87F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create_dd:fluid_reservoir"
+					}
+					type: "item"
+				}
+				{
+					id: "33F35AB402604076"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:item_vault"
+					}
+					type: "item"
+				}
+				{
+					id: "34E49949A07459DE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create_dd:item_stockpile"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5ED52058EC7A215C"]
+			id: "56F69616D04213D9"
+			tasks: [{
+				id: "7C8940F4512A3713"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:steam_engine"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["56F69616D04213D9"]
+			id: "782EDA8D4D2B9CA6"
+			tasks: [{
+				id: "59D2EDE3200D9C0E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:electron_tube"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["782EDA8D4D2B9CA6"]
+			id: "57DB683E290787AA"
+			tasks: [{
+				id: "1E7CC37DD4741D99"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:deployer"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["57DB683E290787AA"]
+			id: "2F7137679E3E480B"
+			tasks: [{
+				id: "1C8E181EE3B9F94D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:brass_casing"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2F7137679E3E480B"]
+			id: "53D5A1A751227C9A"
+			tasks: [{
+				count: 21L
+				id: "43E3052D6063E591"
+				item: {
+					Count: 21
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:mechanical_crafter"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["53D5A1A751227C9A"]
+			id: "15B4E0B3C70D372F"
+			tasks: [{
+				count: 2L
+				id: "747B5E1861382155"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:crushing_wheel"
+				}
+				type: "item"
+			}]
+			title: "A Pair Of Giants"
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["15B4E0B3C70D372F"]
+			id: "692DE80F324E6700"
+			tasks: [{
+				id: "2BE7A4BE3BD8EFF1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:railway_casing"
+				}
+				type: "item"
+			}]
+			title: "The Age of Engines"
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["57DB683E290787AA"]
+			id: "61F2F0F9E0158106"
+			tasks: [{
+				id: "203F453D332C208E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:precision_mechanism"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"61F2F0F9E0158106"
+				"2F7137679E3E480B"
+			]
+			id: "16C3238AD95BF1F1"
+			tasks: [{
+				id: "71EBA6012A22953B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:mechanical_arm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["39DB90AC7E1BF135"]
+			id: "547DFAC1D247643C"
+			tasks: [
+				{
+					id: "2D0CAE4B6C775A8C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:fluid_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "5BA1E4B502AF6FE4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:mechanical_pump"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5ED52058EC7A215C"]
+			id: "34860EFC2864214C"
+			tasks: [{
+				id: "701E3953E944A9B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createaddition:rolling_mill"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["34860EFC2864214C"]
+			id: "749F271CD9E35A16"
+			tasks: [
+				{
+					id: "52BBE0CAECC06183"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createaddition:copper_spool"
+					}
+					type: "item"
+				}
+				{
+					id: "1A41A21115CB02A9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createaddition:gold_spool"
+					}
+					type: "item"
+				}
+				{
+					id: "79962B056F5C1BFA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createaddition:connector"
+					}
+					type: "item"
+				}
+				{
+					id: "16582102F81EF6BC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createaddition:large_connector"
+					}
+					type: "item"
+				}
+			]
+			title: "Power Connection"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["749F271CD9E35A16"]
+			id: "29728950590EB2BB"
+			tasks: [
+				{
+					id: "733A56597F60B926"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createaddition:electric_motor"
+					}
+					type: "item"
+				}
+				{
+					id: "145A951A5D8FA99B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createaddition:alternator"
+					}
+					type: "item"
+				}
+			]
+			title: "Power Transformation"
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["547DFAC1D247643C"]
+			id: "5C37D62CC88F677F"
+			tasks: [
+				{
+					id: "40592A21B122EC69"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createmetallurgy:foundry_mixer"
+					}
+					type: "item"
+				}
+				{
+					id: "5B2E9166EDCE2478"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createmetallurgy:foundry_basin"
+					}
+					type: "item"
+				}
+				{
+					id: "02F996794FAAB63C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createmetallurgy:foundry_lid"
+					}
+					type: "item"
+				}
+			]
+			title: "Foundry Machines"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5C37D62CC88F677F"]
+			id: "3CC948E467CCC4C6"
+			tasks: [
+				{
+					id: "6858A538ADEAFAF2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/steel"
+						}
+					}
+					title: "Any #forge:ingots/steel"
+					type: "item"
+				}
+				{
+					id: "2EC126FC032C0DE5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/cast_iron"
+						}
+					}
+					title: "Any #forge:ingots/cast_iron"
+					type: "item"
+				}
+				{
+					id: "7E773BF5E1360240"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/aluminum"
+						}
+					}
+					title: "Any #forge:ingots/aluminum"
+					type: "item"
+				}
+			]
+			title: "Steel and its brothers"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3CC948E467CCC4C6"]
+			id: "0DBEF77B203B8850"
+			rewards: [{
+				count: 8
+				id: "7789FA53A9FA7549"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:pipe_bomb"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "737E4F637BFFFC9B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:steel_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "7B997C2D61A17FC8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:steel_fluid_tank"
+					}
+					type: "item"
+				}
+			]
+			title: "Steel Piping"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0DBEF77B203B8850"]
+			description: ["You can use the Surface Scanner to find a suitable oil well."]
+			id: "549AF60315DC3760"
+			tasks: [
+				{
+					id: "454F9F9E9868DDD1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_crank"
+					}
+					type: "item"
+				}
+				{
+					id: "4B6E15EE4B12E7F6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_hammer"
+					}
+					type: "item"
+				}
+				{
+					id: "650CD158B6D11A91"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_hammer_head"
+					}
+					type: "item"
+				}
+				{
+					id: "2101DCE8E5477228"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_hammer_part"
+					}
+					type: "item"
+				}
+				{
+					id: "68052CB80B3654E0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_hammer_connector"
+					}
+					type: "item"
+				}
+				{
+					id: "3835C8110D5A8962"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_base"
+					}
+					type: "item"
+				}
+				{
+					id: "6E23FD87F5E402B8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:industrial_pipe"
+					}
+					type: "item"
+				}
+			]
+			title: "O I L"
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["549AF60315DC3760"]
+			id: "1704DE3E7DDE8A77"
+			rewards: [{
+				count: 6
+				id: "108A047132E33023"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:flarestack"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4497408396C39AD2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:steel_distillation_controller"
+					}
+					type: "item"
+				}
+				{
+					id: "5A816802E2351695"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:steel_distillation_output"
+					}
+					type: "item"
+				}
+			]
+			title: "The Refinery"
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1704DE3E7DDE8A77"]
+			id: "5A2127E1FA8C7DE3"
+			rewards: [{
+				count: 8
+				id: "7B832C76709F5008"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:engine_chamber"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "71DE4E8C2498CFD7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:engine_base"
+					}
+					type: "item"
+				}
+				{
+					id: "13778B014AEE52C2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:exhaust"
+					}
+					type: "item"
+				}
+			]
+			title: "The Age of Engines"
+			x: 1.0d
+			y: 12.0d
+		}
+	]
+	title: "The Tower"
+}
