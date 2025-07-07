@@ -5,16 +5,16 @@
   },
   "ingredients": [
     {
-      "item": "concatenationcore:pyrite"
-    },
-    {
-      "item": "concatenationcore:pyrite"
-    },
-    {
-      "item": "concatenationcore:pyrite"
-    },
-    {
       "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "concatenationcore:pyrite"
+    },
+    {
+      "item": "concatenationcore:pyrite"
+    },
+    {
+      "item": "concatenationcore:pyrite"
     },
     {
       "item": "minecraft:amethyst_shard"
