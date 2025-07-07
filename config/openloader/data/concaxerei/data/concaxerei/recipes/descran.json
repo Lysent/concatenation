@@ -20,13 +20,13 @@
       "item": "thermal:silver_ingot"
     },
     {
-      "item": "#forge:consumables/experience_3"
+      "item": "concatenationcore:experience_orb"
     },
     {
-      "item": "#forge:consumables/experience_3"
+      "item": "concatenationcore:experience_orb"
     },
     {
-      "item": "#forge:consumables/experience_3"
+      "item": "concatenationcore:experience_orb"
     }
   ],
   "output": {
