@@ -1,0 +1,39 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "minecraft:lava"
+  },
+  "ingredients": [
+    {
+      "item": "thermal:silver_ingot"
+    },
+    {
+      "item": "thermal:silver_ingot"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "thermal:silver_ingot"
+    },
+    {
+      "item": "thermal:silver_ingot"
+    },
+    {
+      "item": "#forge:consumables/experience_3"
+    },
+    {
+      "item": "#forge:consumables/experience_3"
+    },
+    {
+      "item": "#forge:consumables/experience_3"
+    }
+  ],
+  "output": {
+    "item": "concatenationcore:descran"
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:lava"
+  },
+  "fluidLevelsConsumed": 200
+}

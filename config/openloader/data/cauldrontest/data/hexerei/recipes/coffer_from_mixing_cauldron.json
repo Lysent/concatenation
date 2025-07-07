@@ -5,7 +5,7 @@
   },
   "ingredients": [
     {
-      "item": "minecraft:gold_block"
+      "item": "concatenationcore:pyrite"
     },
     {
       "item": "hexerei:mahogany_planks"
@@ -17,7 +17,7 @@
       "item": "hexerei:mahogany_planks"
     },
     {
-      "item": "minecraft:gold_block"
+      "item": "concatenationcore:pyrite"
     },
     {
       "item": "hexerei:mahogany_planks"
