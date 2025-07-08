@@ -1,0 +1,39 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:gold_block"
+    },
+	{
+      "item": "minecraft:gold_block"
+    },
+	{
+      "item": "minecraft:gold_block"
+    },
+	{
+      "item": "minecraft:gold_block"
+    },
+	    {
+      "item": "minecraft:gold_block"
+    },
+	{
+      "item": "minecraft:gold_block"
+    },
+	{
+      "item": "minecraft:gold_block"
+    },
+	{
+      "item": "minecraft:gold_block"
+    }
+  ],
+  "output": {
+    "item": "minecraft:air"
+  },
+  "liquidOutput": {
+    "fluid": "bloodmagic:life_essence_fluid"
+  },
+  "fluidLevelsConsumed": 1000
+}
