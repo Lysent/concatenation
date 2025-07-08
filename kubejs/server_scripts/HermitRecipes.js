@@ -1,7 +1,10 @@
 ServerEvents.recipes(event => {
         const remove = [
                 'tconstruct:seared_melter',
-                'create:whisk'
+                'create:whisk',
+                'tconstruct:grout',
+                'thermal:machine_frame',
+                'create:empty_blaze_burner'
         ]
 
         remove.forEach(item => {
@@ -10,6 +13,7 @@ ServerEvents.recipes(event => {
 
         event.remove({ output: 'create:andesite_alloy', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'create:shaft', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:electrum_ingot', type: 'minecraft:crafting_shapeless' })
 
         event.shaped(
                 Item.of('tconstruct:seared_melter'),
@@ -35,7 +39,7 @@ ServerEvents.recipes(event => {
                 {
                         C: 'minecraft:iron_ingot',
                         D: 'minecraft:redstone',
-                        A: 'thermal:rose_gold_ingot',
+                        A: '#forge:ingots/rose_gold',
                         B: 'createaddition:electrum_wire'
                 }
         )
@@ -62,6 +66,72 @@ ServerEvents.recipes(event => {
                         B: 'create:brass_sheet',
                         A: 'create:andesite_alloy',
                         C: 'create:iron_sheet'
+                }
+        )
+        event.shapeless(
+                Item.of('tconstruct:grout'),
+                [
+                        'minecraft:clay_ball',
+                        'minecraft:sand',
+                        'minecraft:gravel',
+                        'minecraft:diamond_shovel'
+                ]
+        ).damageIngredient('minecraft:diamond_shovel')
+        event.shapeless(
+                Item.of('tconstruct:grout', 4),
+                [
+                        'minecraft:clay',
+                        'minecraft:sand',
+                        'minecraft:sand',
+                        'minecraft:sand',
+                        'minecraft:gravel',
+                        'minecraft:gravel',
+                        'minecraft:gravel',
+                        'minecraft:gravel',
+                        'minecraft:diamond_shovel'
+                ]
+        ).damageIngredient('minecraft:diamond_shovel')
+        event.shaped(
+                Item.of('thermal:machine_frame'),
+                [
+                        'ABA',
+                        'CDC',
+                        'EBE'
+                ],
+                {
+                        B: 'concatenationcore:altcircuit',
+                        C: 'thermal:obsidian_glass',
+                        A: 'minecraft:iron_ingot',
+                        E: 'concatenationcore:galvanized_iron',
+                        D: 'thermal:tin_gear'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:machine_frame'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        C: 'thermal:obsidian_glass',
+                        A: 'createmetallurgy:steel_ingot',
+                        D: 'concatenationcore:circuit',
+                        B: 'thermal:tin_gear'
+                }
+        )
+        event.shaped(
+                Item.of('create:empty_blaze_burner'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ACA'
+                ],
+                {
+                        C: 'minecraft:polished_blackstone',
+                        D: 'minecraft:nether_wart_block',
+                        A: '#forge:plates/iron',
+                        B: 'minecraft:iron_bars'
                 }
         )
 });

@@ -448,12 +448,12 @@
 	 * Whether development functions should be enabled. Not recommended for general
 	 * play.
 	 */
-	dev-mode: false;
+	dev-mode: true;
 
 	/**
 	 * Whether editing the index is enabled
 	 */
-	edit-mode: false;
+	edit-mode: true;
 
 	/**
 	 * Whether to log untranslated tags as warnings.

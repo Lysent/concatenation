@@ -1,7 +1,7 @@
 {
   "type": "hexerei:mixingcauldron",
   "liquid": {
-    "fluid": "hexerei:blood"
+    "fluid": "hexerei:blood_fluid"
   },
   "ingredients": [
     {
@@ -33,7 +33,7 @@
     "item": "bloodmagic:sacrificialdagger"
   },
   "liquidOutput": {
-    "fluid": "hexerei:blood"
+    "fluid": "hexerei:blood_fluid"
   },
   "fluidLevelsConsumed": 2000
 }

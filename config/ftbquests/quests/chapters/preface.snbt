@@ -19,6 +19,7 @@
 		{
 			icon: "ftbquests:book"
 			id: "2CEDBC536409D424"
+			shape: "none"
 			tasks: [{
 				id: "02DFC16AE3D5AAD6"
 				title: "Preface"
@@ -35,7 +36,7 @@
 						cs.aquaSkin: 0
 					}
 				}
-				id: "concatenationcore:concatenator"
+				id: "concatenationcore:gold_paper"
 			}
 			id: "1EFB1193B63BA522"
 			shape: "none"

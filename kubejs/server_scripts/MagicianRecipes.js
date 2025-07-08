@@ -11,7 +11,8 @@ ServerEvents.recipes(event => {
                 'ars_nouveau:arcane_core',
                 'ars_nouveau:scribes_table',
                 'ars_nouveau:arcane_pedestal',
-                'ars_nouveau:alteration_table'
+                'ars_nouveau:alteration_table',
+                'waystones:warp_stone'
         ]
 
         remove.forEach(item => {
@@ -234,7 +235,7 @@ ServerEvents.recipes(event => {
                         C: 'minecraft:gold_ingot',
                         B: 'ars_nouveau:sourcestone',
                         A: 'concatenationcore:sourcesilver',
-                        D: 'elementalcraft:receptacle'
+                        D: '#elementalcraft:source_seeds/natural'
                 }
         )
         event.shaped(
@@ -350,7 +351,7 @@ ServerEvents.recipes(event => {
                         E: 'elementalcraft:fine_water_gem',
                         A: 'waystones:warp_dust',
                         B: 'elementalcraft:fine_air_gem',
-                        D: 'elementalcraft:receptacle'
+                        D: '#elementalcraft:source_seeds/natural'
                 }
         )
         event.recipes.ars_nouveau.imbuement(

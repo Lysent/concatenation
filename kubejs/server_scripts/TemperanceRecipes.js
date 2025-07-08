@@ -2,6 +2,8 @@ ServerEvents.recipes(event => {
 
         const remove = [
                 'hexerei:cloth',
+                'bloodmagic:sacrificaldagger',
+                'bloodmagic:altar'
         ]
 
         remove.forEach(item => {
@@ -49,4 +51,35 @@ ServerEvents.recipes(event => {
                         B: 'thermal:charcoal_block'
                 }
         )
+        event.shaped(
+                Item.of('bloodmagic:altar'),
+                [
+                        'ABA',
+                        'ACA',
+                        'DED'
+                ],
+                {
+                        E: 'concatenationcore:descran',
+                        B: 'hexerei:blood_bucket',
+                        C: 'tarotcards:the_moon',
+                        A: 'minecraft:polished_blackstone',
+                        D: 'concatenationcore:pyrite'
+                }
+        ).keepIngredient('tarotcards:the_moon')
+        event.shaped(
+                Item.of('tarotcards:the_moon'),
+                [
+                        'ABA',
+                        'CDE',
+                        'AFA'
+                ],
+                {
+                        F: 'hexerei:moon_dust_brush',
+                        D: 'tarotcards:temperance',
+                        E: 'hexerei:blood_bucket',
+                        B: 'born_in_chaos_v1:fire_dust',
+                        A: 'concatenationcore:gold_paper',
+                        C: 'minecraft:popped_chorus_fruit'
+                }
+        ).keepIngredient('tarotcards:temperance')
 });

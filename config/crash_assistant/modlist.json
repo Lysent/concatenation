@@ -84,8 +84,8 @@
     "modId": "asr",
     "version": "0.2"
   },
-  "ATi Structures V1.4.0 (1.20+).jar": {
-    "jarName": "ATi Structures V1.4.0 (1.20+).jar",
+  "ATi Structures V1.4.3 (1.20+).jar": {
+    "jarName": "ATi Structures V1.4.3 (1.20+).jar",
     "modId": "atistructures",
     "version": "1.4.0"
   },
@@ -279,10 +279,10 @@
     "modId": "craftingtweaks",
     "version": "18.2.5"
   },
-  "CrashAssistant-forge-1.19.2-1.20.1-1.9.7.jar": {
-    "jarName": "CrashAssistant-forge-1.19.2-1.20.1-1.9.7.jar",
+  "CrashAssistant-forge-1.19.2-1.20.1-1.9.8.jar": {
+    "jarName": "CrashAssistant-forge-1.19.2-1.20.1-1.9.8.jar",
     "modId": "crash_assistant",
-    "version": "1.9.7"
+    "version": "1.9.8"
   },
   "CraterLib-Forge-1.20-2.1.5.jar": {
     "jarName": "CraterLib-Forge-1.20-2.1.5.jar",
@@ -474,10 +474,10 @@
     "modId": "enchdesc",
     "version": "17.1.19"
   },
-  "fancymenu_forge_3.5.2_MC_1.20.1.jar": {
-    "jarName": "fancymenu_forge_3.5.2_MC_1.20.1.jar",
+  "fancymenu_forge_3.6.2_MC_1.20.1.jar": {
+    "jarName": "fancymenu_forge_3.6.2_MC_1.20.1.jar",
     "modId": "fancymenu",
-    "version": "3.5.2"
+    "version": "3.6.2"
   },
   "FarmersDelight-1.20.1-1.2.8.jar": {
     "jarName": "FarmersDelight-1.20.1-1.2.8.jar",
@@ -619,10 +619,10 @@
     "modId": "integratedcrafting",
     "version": "1.2.2"
   },
-  "IntegratedDynamics-1.20.1-1.27.4.jar": {
-    "jarName": "IntegratedDynamics-1.20.1-1.27.4.jar",
+  "IntegratedDynamics-1.20.1-1.27.5.jar": {
+    "jarName": "IntegratedDynamics-1.20.1-1.27.5.jar",
     "modId": "integrateddynamics",
-    "version": "1.27.4"
+    "version": "1.27.5"
   },
   "IntegratedScripting-1.20.1-1.0.14.jar": {
     "jarName": "IntegratedScripting-1.20.1-1.0.14.jar",
@@ -757,10 +757,10 @@
     "modId": "mna",
     "version": "3.1.0.8"
   },
-  "modernfix-forge-5.23.1+mc1.20.1.jar": {
-    "jarName": "modernfix-forge-5.23.1+mc1.20.1.jar",
+  "modernfix-forge-5.24.1+mc1.20.1.jar": {
+    "jarName": "modernfix-forge-5.24.1+mc1.20.1.jar",
     "modId": "modernfix",
-    "version": "5.23.1+mc1.20.1"
+    "version": "5.24.1+mc1.20.1"
   },
   "modonomicon-1.20.1-forge-1.77.6.jar": {
     "jarName": "modonomicon-1.20.1-forge-1.77.6.jar",
@@ -837,10 +837,10 @@
     "modId": "oreberriesreplanted",
     "version": "0.5.2"
   },
-  "packetfixer-3.1.1-1.18-1.20.4-merged.jar": {
-    "jarName": "packetfixer-3.1.1-1.18-1.20.4-merged.jar",
+  "packetfixer-3.1.2-1.18-1.20.4-merged.jar": {
+    "jarName": "packetfixer-3.1.2-1.18-1.20.4-merged.jar",
     "modId": "packetfixer",
-    "version": "3.1.1"
+    "version": "3.1.2"
   },
   "particle_core-0.2.6+1.20.1+forge.jar": {
     "jarName": "particle_core-0.2.6+1.20.1+forge.jar",
@@ -1090,10 +1090,10 @@
     "modId": "titanium",
     "version": "3.8.32"
   },
-  "toomanyrecipeviewers-0.5.1+mc.20.1.jar": {
-    "jarName": "toomanyrecipeviewers-0.5.1+mc.20.1.jar",
+  "toomanyrecipeviewers-0.6.0+mc.20.1.jar": {
+    "jarName": "toomanyrecipeviewers-0.6.0+mc.20.1.jar",
     "modId": "toomanyrecipeviewers",
-    "version": "0.5.1+mc.20.1"
+    "version": "0.6.0+mc.20.1"
   },
   "torch-hit-forge-1.20.1-7.0.0.jar": {
     "jarName": "torch-hit-forge-1.20.1-7.0.0.jar",

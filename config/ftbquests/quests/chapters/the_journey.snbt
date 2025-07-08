@@ -6,6 +6,15 @@
 	group: ""
 	icon: "tarotcards:tarot_deck"
 	id: "7C44AFC336C0AE69"
+	images: [{
+		height: 250.0d
+		image: "concatenationcore:textures/black-stone.png"
+		order: -1
+		rotation: 0.0d
+		width: 250.0d
+		x: 0.5d
+		y: 0.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -38,6 +47,7 @@
 					tag: { }
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
 			title: "Hierophant Pathway"
 			x: -2.5d
@@ -73,6 +83,7 @@
 					tag: { }
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
 			title: "Magician Pathway"
 			x: 1.5d
@@ -96,14 +107,10 @@
 					type: "item"
 				}
 				{
+					auto: "enabled"
 					command: "/decstages add @s temperance_pathway true"
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "hexerei:witch_helmet"
 						tag: {
 							Damage: 0
@@ -129,6 +136,7 @@
 					tag: { }
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
 			title: "Temperance Pathway"
 			x: 2.5d
@@ -164,6 +172,7 @@
 					tag: { }
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
 			title: "Hermit Pathway"
 			x: -1.5d
@@ -959,7 +968,7 @@
 			y: 4.25d
 		}
 		{
-			dependencies: ["032A60B0D79C6ACB"]
+			dependencies: ["524067700E07EB06"]
 			hide_dependency_lines: true
 			id: "1A9FA3C3DD29BFDB"
 			tasks: [{
@@ -1183,7 +1192,7 @@
 			y: 2.8d
 		}
 		{
-			dependencies: ["7295B2DEC479349F"]
+			dependencies: ["31750A18D07A8904"]
 			id: "5F7CEE33D11A352F"
 			tasks: [{
 				id: "75254FC88ACB2D0C"
@@ -1199,7 +1208,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5F7CEE33D11A352F"]
@@ -1218,12 +1227,12 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 5.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5B6717870A814E8C"]
 			id: "0964BD6C4413A9C9"
-			size: 1.15d
+			size: 1.0d
 			tasks: [{
 				id: "30A3A4581FCAC5CE"
 				item: {
@@ -1239,8 +1248,8 @@
 				weak_nbt_match: true
 			}]
 			title: "The Mighty Smeltery"
-			x: -1.5d
-			y: 7.0d
+			x: -3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -1258,8 +1267,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 7.0d
+			x: -4.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -1278,15 +1287,20 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
 				"06A4BEEE42830A85"
 				"73F4AAF2267BB33B"
+				"51211E92BC865FDC"
+				"2A13540D4E396260"
+				"2E2A38A96D401883"
+				"54BE967A3164579C"
 			]
 			hide_dependency_lines: true
 			id: "36318C8D65509470"
+			min_required_dependencies: 3
 			tasks: [{
 				id: "4248478A4EB405D8"
 				item: {
@@ -6114,8 +6128,1925 @@
 				}
 				type: "item"
 			}]
+			title: "The Moon"
 			x: 13.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["48182227AA27C096"]
+			id: "06856516470E742D"
+			tasks: [{
+				id: "58DC9414FDC47C6D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:shaft"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["48182227AA27C096"]
+			id: "13B6EECFB6B3911E"
+			tasks: [{
+				id: "08BE7FAAA453C079"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:andesite_casing"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["06856516470E742D"]
+			id: "139E166A1202B454"
+			tasks: [
+				{
+					id: "741B53BF3E65E739"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					id: "330622CF9073566F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:large_cogwheel"
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"139E166A1202B454"
+				"13B6EECFB6B3911E"
+			]
+			id: "335D849D587BCE73"
+			tasks: [
+				{
+					id: "0574F7E86F38A143"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:gearbox"
+					}
+					type: "item"
+				}
+				{
+					id: "0B489091664069A0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create_connected:parallel_gearbox"
+					}
+					type: "item"
+				}
+			]
+			title: "Gearboxes"
+			x: -6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["335D849D587BCE73"]
+			id: "455C0A8247EDCCF6"
+			tasks: [
+				{
+					id: "5C42A10542A5B4C3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:clutch"
+					}
+					type: "item"
+				}
+				{
+					id: "66113FEE1AF7FEC4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:gearshift"
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["13B6EECFB6B3911E"]
+			id: "6B25C523000F8937"
+			tasks: [{
+				id: "79D010122225DCA5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:depot"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6B25C523000F8937"]
+			id: "5ED52058EC7A215C"
+			tasks: [
+				{
+					id: "0E528643D212C8F8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:mechanical_press"
+					}
+					type: "item"
+				}
+				{
+					id: "7B6142F5D7E39F6F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:mechanical_mixer"
+					}
+					type: "item"
+				}
+			]
+			title: "Press \\& Mixer"
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5ED52058EC7A215C"]
+			id: "39DB90AC7E1BF135"
+			tasks: [
+				{
+					id: "3E07EDCEE1CC847E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "06A122A70FB1B87F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create_dd:fluid_reservoir"
+					}
+					type: "item"
+				}
+				{
+					id: "33F35AB402604076"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:item_vault"
+					}
+					type: "item"
+				}
+				{
+					id: "34E49949A07459DE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create_dd:item_stockpile"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5ED52058EC7A215C"]
+			id: "56F69616D04213D9"
+			tasks: [{
+				id: "7C8940F4512A3713"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:steam_engine"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["56F69616D04213D9"]
+			id: "782EDA8D4D2B9CA6"
+			tasks: [{
+				id: "59D2EDE3200D9C0E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:electron_tube"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["782EDA8D4D2B9CA6"]
+			id: "57DB683E290787AA"
+			tasks: [{
+				id: "1E7CC37DD4741D99"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:deployer"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["57DB683E290787AA"]
+			id: "2F7137679E3E480B"
+			tasks: [{
+				id: "1C8E181EE3B9F94D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:brass_casing"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["2F7137679E3E480B"]
+			id: "53D5A1A751227C9A"
+			tasks: [{
+				count: 21L
+				id: "43E3052D6063E591"
+				item: {
+					Count: 21
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:mechanical_crafter"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["53D5A1A751227C9A"]
+			id: "15B4E0B3C70D372F"
+			tasks: [{
+				count: 2L
+				id: "747B5E1861382155"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:crushing_wheel"
+				}
+				type: "item"
+			}]
+			title: "A Pair Of Giants"
+			x: -7.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["15B4E0B3C70D372F"]
+			id: "692DE80F324E6700"
+			tasks: [{
+				id: "2BE7A4BE3BD8EFF1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:railway_casing"
+				}
+				type: "item"
+			}]
+			title: "The Age of Engines"
+			x: -7.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["57DB683E290787AA"]
+			id: "61F2F0F9E0158106"
+			tasks: [{
+				id: "203F453D332C208E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:precision_mechanism"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"61F2F0F9E0158106"
+				"2F7137679E3E480B"
+			]
+			id: "16C3238AD95BF1F1"
+			tasks: [{
+				id: "71EBA6012A22953B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:mechanical_arm"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["39DB90AC7E1BF135"]
+			id: "547DFAC1D247643C"
+			tasks: [
+				{
+					id: "2D0CAE4B6C775A8C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:fluid_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "5BA1E4B502AF6FE4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:mechanical_pump"
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["5ED52058EC7A215C"]
+			id: "34860EFC2864214C"
+			tasks: [{
+				id: "701E3953E944A9B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createaddition:rolling_mill"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["34860EFC2864214C"]
+			id: "749F271CD9E35A16"
+			tasks: [
+				{
+					id: "52BBE0CAECC06183"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createaddition:copper_spool"
+					}
+					type: "item"
+				}
+				{
+					id: "1A41A21115CB02A9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createaddition:gold_spool"
+					}
+					type: "item"
+				}
+				{
+					id: "79962B056F5C1BFA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createaddition:connector"
+					}
+					type: "item"
+				}
+				{
+					id: "16582102F81EF6BC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createaddition:large_connector"
+					}
+					type: "item"
+				}
+			]
+			title: "Power Connection"
+			x: -7.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["749F271CD9E35A16"]
+			id: "29728950590EB2BB"
+			tasks: [
+				{
+					id: "733A56597F60B926"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createaddition:electric_motor"
+					}
+					type: "item"
+				}
+				{
+					id: "145A951A5D8FA99B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createaddition:alternator"
+					}
+					type: "item"
+				}
+			]
+			title: "Power Transformation"
+			x: -7.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["547DFAC1D247643C"]
+			id: "5C37D62CC88F677F"
+			tasks: [
+				{
+					id: "40592A21B122EC69"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createmetallurgy:foundry_mixer"
+					}
+					type: "item"
+				}
+				{
+					id: "5B2E9166EDCE2478"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createmetallurgy:foundry_basin"
+					}
+					type: "item"
+				}
+				{
+					id: "02F996794FAAB63C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createmetallurgy:foundry_lid"
+					}
+					type: "item"
+				}
+			]
+			title: "Foundry Machines"
+			x: -3.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5C37D62CC88F677F"]
+			id: "3CC948E467CCC4C6"
+			tasks: [
+				{
+					id: "6858A538ADEAFAF2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/steel"
+						}
+					}
+					title: "Any #forge:ingots/steel"
+					type: "item"
+				}
+				{
+					id: "2EC126FC032C0DE5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/cast_iron"
+						}
+					}
+					title: "Any #forge:ingots/cast_iron"
+					type: "item"
+				}
+				{
+					id: "7E773BF5E1360240"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/aluminum"
+						}
+					}
+					title: "Any #forge:ingots/aluminum"
+					type: "item"
+				}
+			]
+			title: "Steel and its brothers"
+			x: -3.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3CC948E467CCC4C6"]
+			id: "0DBEF77B203B8850"
+			rewards: [{
+				count: 8
+				id: "7789FA53A9FA7549"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:pipe_bomb"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "737E4F637BFFFC9B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:steel_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "7B997C2D61A17FC8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:steel_fluid_tank"
+					}
+					type: "item"
+				}
+			]
+			title: "Steel Piping"
+			x: -3.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["0DBEF77B203B8850"]
+			description: ["You can use the Surface Scanner to find a suitable oil well."]
+			id: "549AF60315DC3760"
+			tasks: [
+				{
+					id: "454F9F9E9868DDD1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_crank"
+					}
+					type: "item"
+				}
+				{
+					id: "4B6E15EE4B12E7F6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_hammer"
+					}
+					type: "item"
+				}
+				{
+					id: "650CD158B6D11A91"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_hammer_head"
+					}
+					type: "item"
+				}
+				{
+					id: "2101DCE8E5477228"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_hammer_part"
+					}
+					type: "item"
+				}
+				{
+					id: "68052CB80B3654E0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_hammer_connector"
+					}
+					type: "item"
+				}
+				{
+					id: "3835C8110D5A8962"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_base"
+					}
+					type: "item"
+				}
+				{
+					id: "6E23FD87F5E402B8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:industrial_pipe"
+					}
+					type: "item"
+				}
+			]
+			title: "O I L"
+			x: -3.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["549AF60315DC3760"]
+			id: "1704DE3E7DDE8A77"
+			rewards: [{
+				count: 6
+				id: "108A047132E33023"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:flarestack"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4497408396C39AD2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:steel_distillation_controller"
+					}
+					type: "item"
+				}
+				{
+					id: "5A816802E2351695"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:steel_distillation_output"
+					}
+					type: "item"
+				}
+			]
+			title: "The Refinery"
+			x: -3.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1704DE3E7DDE8A77"]
+			id: "5A2127E1FA8C7DE3"
+			rewards: [{
+				count: 8
+				id: "7B832C76709F5008"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:engine_chamber"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "71DE4E8C2498CFD7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:engine_base"
+					}
+					type: "item"
+				}
+				{
+					id: "13778B014AEE52C2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:exhaust"
+					}
+					type: "item"
+				}
+			]
+			title: "The Age of Engines"
+			x: -3.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["65C1B6B2B147028E"]
+			id: "79433FA8ACAACA4E"
+			tasks: [{
+				id: "0429758C3E5069CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:goggles"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["068DF533DB041F37"]
+			id: "40EA73BEA023C14A"
+			tasks: [{
+				id: "4AB8BFEBE390B269"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:alchemytable"
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["068DF533DB041F37"]
+			id: "6CE0DB1AEB597BCE"
+			tasks: [{
+				id: "2D0885007F6B27D1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:soulforge"
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["068DF533DB041F37"]
+			id: "25A618A3B28B8DEE"
+			tasks: [{
+				count: 9L
+				id: "5C720E576BBEE187"
+				item: {
+					Count: 9
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:blankrune"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["25A618A3B28B8DEE"]
+			id: "255F91EE26FB166D"
+			tasks: [{
+				id: "37EA8119BA50E3C4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:daggerofsacrifice"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["06A4BEEE42830A85"]
+			hide_dependency_lines: true
+			id: "087234557EE4E2A3"
+			tasks: [
+				{
+					id: "40D59995C7545AA8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tconstruct:part_builder"
+					}
+					type: "item"
+				}
+				{
+					id: "578210067BCEDA0F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tconstruct:tinker_station"
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["087234557EE4E2A3"]
+			id: "1FCBF10EB0F49502"
+			tasks: [
+				{
+					id: "09340419D96937B4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tconstruct:modifier_worktable"
+					}
+					type: "item"
+				}
+				{
+					id: "55FC3C4080934CD5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tconstruct:tinkers_anvil"
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["06A4BEEE42830A85"]
+			hide_dependency_lines: true
+			id: "13FC54673932E4F0"
+			tasks: [
+				{
+					id: "54430EF73C97F540"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tconstruct:part_chest"
+					}
+					type: "item"
+				}
+				{
+					id: "4DC0BD38B02AC1B0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tconstruct:tinkers_chest"
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["13FC54673932E4F0"]
+			id: "79706E9B3409F8C8"
+			tasks: [{
+				id: "1EAA9BF7E64466D3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tconstruct:cast_chest"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			id: "14EB6CAB3F3E9418"
+			size: 0.8d
+			tasks: [{
+				id: "65E3E9C68427EC95"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:red_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:orange_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:yellow_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:lime_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:green_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:light_blue_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:cyan_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:blue_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:magenta_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:pink_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:purple_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:brown_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:white_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:light_gray_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:gray_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:black_hot_air_balloon_item"
+							}
+						]
+					}
+				}
+				title: "Any Hot Air Balloon"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6CE0DB1AEB597BCE"]
+			id: "0D2E04D30E54E6C8"
+			tasks: [{
+				id: "44A38A04BF79BC8F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:soulgempetty"
+					tag: {
+						souls: 64.0d
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["068DF533DB041F37"]
+			id: "4CD27FD09EF16094"
+			tasks: [{
+				id: "0EE8BA404B791B13"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:soulsnare"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D2E04D30E54E6C8"]
+			id: "3E73EAD0A0A295F5"
+			tasks: [{
+				id: "6554577A8F60DB12"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4CD27FD09EF16094"
+				"3E73EAD0A0A295F5"
+			]
+			dependency_requirement: "one_completed"
+			id: "346C594E62FFDB7A"
+			tasks: [{
+				id: "4ABDAE32F6BC60EC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:basemonstersoul"
+					tag: {
+						souls: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E73EAD0A0A295F5"]
+			id: "29FA37C27A60B1E0"
+			tasks: [
+				{
+					id: "6769201CBAE0F607"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:soulaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C20EC4842944570"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:soulpickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54279F79D4CD3A07"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:soulshovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "465F2A6149F21728"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:soulscythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["068DF533DB041F37"]
+			id: "209C0E2550C84C69"
+			tasks: [
+				{
+					id: "535EC0649F7AE316"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:weakbloodorb"
+					}
+					type: "item"
+				}
+				{
+					id: "2BD64A4E76DE23DA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:blankslate"
+					}
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["36318C8D65509470"]
+			id: "6A98F1ADDEF37D4F"
+			tasks: [{
+				id: "66C79F8642329963"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:machine_smelter"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"6A98F1ADDEF37D4F"
+				"33F8735D8322AFE6"
+			]
+			id: "0ED2B4CE782BF97D"
+			tasks: [{
+				id: "219AA8D076DFE7B0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createmetallurgy:steel_ingot"
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["06A4BEEE42830A85"]
+			hide_dependency_lines: true
+			id: "31750A18D07A8904"
+			tasks: [{
+				id: "71F4072568DA10C0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tconstruct:grout"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["36318C8D65509470"]
+			id: "33F8735D8322AFE6"
+			tasks: [{
+				id: "254352718BC6E9A1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:machine_pyrolyzer"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2E2A38A96D401883"]
+			hide_dependency_lines: true
+			id: "51211E92BC865FDC"
+			size: 0.8d
+			tasks: [
+				{
+					count: 2L
+					id: "5601D1880BA4A9F3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "concatenationcore:altcircuit"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5E8F1A1B8A1CFB2B"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "concatenationcore:galvanized_iron"
+					}
+					type: "item"
+				}
+				{
+					id: "28B211185EB173D1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "thermal:tin_gear"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "09E699FBF7E7AE85"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "313F65708E6685F1"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "thermal:obsidian_glass"
+					}
+					type: "item"
+				}
+			]
+			x: -11.2d
+			y: 7.2d
+		}
+		{
+			dependencies: ["54BE967A3164579C"]
+			hide_dependency_lines: true
+			id: "2A13540D4E396260"
+			size: 0.8d
+			tasks: [
+				{
+					id: "0A6DE399EB7CC8F2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "concatenationcore:circuit"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5CD3063DE298E63D"
+					item: {
+						Count: 4
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createmetallurgy:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5945A1B2C6548680"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "thermal:tin_gear"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7D69AD75B9609957"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "thermal:obsidian_glass"
+					}
+					type: "item"
+				}
+			]
+			x: -9.6d
+			y: 8.8d
+		}
+		{
+			dependencies: ["59D783372A16F858"]
+			id: "54BE967A3164579C"
+			tasks: [{
+				id: "76D10185158CB1CB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "concatenationcore:circuit"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0964BD6C4413A9C9"]
+			id: "59D783372A16F858"
+			tasks: [{
+				id: "4BCA7B068017F327"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:electrum_ingot"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0ED2B4CE782BF97D"]
+			hide_dependency_lines: true
+			id: "4AE782719D5A61F7"
+			size: 1.15d
+			tasks: [{
+				id: "233B089D0B071031"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:the_high_priestess"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The High Priestess"
+			x: -14.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["61F2F0F9E0158106"]
+			hide_dependency_lines: true
+			id: "548F91724FEC0349"
+			size: 0.9d
+			tasks: [{
+				id: "1862D6ED61079C8F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "immersive_aircraft:gyrodyne"
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 6.3d
+		}
+		{
+			dependencies: ["5B8A16E0E3A1794D"]
+			id: "3A4E23D1BDE1E5ED"
+			size: 0.9d
+			tasks: [{
+				id: "72DC6BF159E9C10C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "immersive_aircraft:airship"
+				}
+				type: "item"
+			}]
+			x: -5.85d
+			y: 8.1d
+		}
+		{
+			dependencies: ["5B8A16E0E3A1794D"]
+			id: "6665219B13B97312"
+			size: 0.9d
+			tasks: [{
+				id: "6040AC7803C9CD33"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "immersive_aircraft:biplane"
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 9.0d
+		}
+		{
+			dependencies: ["61F2F0F9E0158106"]
+			hide_dependency_lines: true
+			id: "129D0C37D4A27A2B"
+			size: 0.9d
+			tasks: [{
+				id: "1C62EBEFD35691BC"
+				item: {
+					Count: 64
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "immersive_aircraft:boiler"
+				}
+				type: "item"
+			}]
+			x: -7.6499999999999995d
+			y: 6.75d
+		}
+		{
+			dependencies: ["129D0C37D4A27A2B"]
+			id: "5B8A16E0E3A1794D"
+			size: 0.9d
+			tasks: [{
+				id: "1B25DCEBE38A80A5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "immersive_aircraft:engine"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2F7137679E3E480B"]
+			id: "4BC31DEA551E23FE"
+			tasks: [{
+				id: "270CDD3B95713636"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:blaze_burner"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 19.5d
 		}
 	]
 	title: "The Journey"
