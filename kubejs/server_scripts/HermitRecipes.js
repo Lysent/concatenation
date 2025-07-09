@@ -4,7 +4,10 @@ ServerEvents.recipes(event => {
                 'create:whisk',
                 'tconstruct:grout',
                 'thermal:machine_frame',
-                'create:empty_blaze_burner'
+                'create:empty_blaze_burner',
+                'create:large_cogwheel',
+                'create:mechanical_mixer',
+                'create:mechanical_press'
         ]
 
         remove.forEach(item => {
@@ -12,8 +15,14 @@ ServerEvents.recipes(event => {
         })
 
         event.remove({ output: 'create:andesite_alloy', type: 'minecraft:crafting_shaped' })
-        event.remove({ output: 'create:shaft', type: 'minecraft:crafting_shaped' })
+        // event.remove({ output: 'create:shaft', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'thermal:electrum_ingot', type: 'minecraft:crafting_shapeless' })
+
+        event.replaceInput(
+                { input: 'ae2:calculation_processor' },
+                'ae2:calculation_processor',
+                'concatenationcore:primed_calculation_processor'
+        )
 
         event.shaped(
                 Item.of('tconstruct:seared_melter'),
@@ -134,4 +143,74 @@ ServerEvents.recipes(event => {
                         B: 'minecraft:iron_bars'
                 }
         )
+        event.shaped(
+                Item.of('tarotcards:the_tower'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        C: 'create_dd:bore_block',
+                        A: 'concatenationcore:gold_paper',
+                        D: 'tarotcards:the_hermit',
+                        B: 'create:flywheel'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('create:mechanical_press'),
+                [
+                        'ABA',
+                        'CDC',
+                        'CEC'
+                ],
+                {
+                        C: 'create:shaft',
+                        E: 'minecraft:iron_block',
+                        B: 'create:andesite_casing',
+                        D: 'tarotcards:the_hermit',
+                        A: 'minecraft:piston'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('create:mechanical_mixer'),
+                [
+                        'ABA',
+                        'CDC',
+                        'CEC'
+                ],
+                {
+                        C: 'create:shaft',
+                        E: 'create:whisk',
+                        A: 'create:andesite_casing',
+                        D: 'tarotcards:the_hermit',
+                        B: 'create:cogwheel'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('create:large_cogwheel'),
+                [
+                        'ABA',
+                        'ACA',
+                        'ABA'
+                ],
+                {
+                        B: 'create:shaft',
+                        C: 'minecraft:stripped_oak_log',
+                        A: 'minecraft:oak_planks'
+                }
+        )
+        event.shaped(
+            Item.of('concatenationcore:primed_calculation_processor'),
+            [
+                    ' A ',
+                    ' B ',
+                    ' C '
+            ],
+            {
+                    C: '#forge:plates/silver',
+                    B: 'ae2:calculation_processor',
+                    A: 'createaddition:electrum_wire'
+            }
+    )
 });

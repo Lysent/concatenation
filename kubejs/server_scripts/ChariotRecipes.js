@@ -175,8 +175,23 @@ ServerEvents.recipes(event => {
                         'ABA'
                 ],
                 {
-                        C: 'littlelogistics:steam_locomotive',
+                        C: 'hpm:cuttermilitariseditem',
                         E: 'littlelogistics:tug',
+                        A: 'concatenationcore:gold_paper',
+                        D: '#concatenation:tech_cards',
+                        B: 'thermal:sugar_cane_block'
+                }
+        ).keepIngredient('#concatenation:tech_cards').keepIngredient('hpm:cuttermilitariseditem')
+        event.shaped(
+                Item.of('tarotcards:the_chariot'),
+                [
+                        'ABA',
+                        'CDE',
+                        'ABA'
+                ],
+                {
+                        C: 'littlelogistics:steam_locomotive',
+                        E: 'minecraft:powered_rail',
                         A: 'concatenationcore:gold_paper',
                         D: '#concatenation:tech_cards',
                         B: 'thermal:sugar_cane_block'
@@ -210,6 +225,21 @@ ServerEvents.recipes(event => {
                         D: 'thermal:steel_block',
                         A: 'tarotcards:the_chariot',
                         B: 'minecraft:piston'
+                }
+        ).keepIngredient('tarotcards:the_chariot')
+        event.shaped(
+                Item.of('immersive_aircraft:engine'),
+                [
+                        'ABA',
+                        'CDC',
+                        ' E '
+                ],
+                {
+                        C: 'create:sturdy_sheet',
+                        B: 'create:precision_mechanism',
+                        D: 'immersive_aircraft:boiler',
+                        A: 'createtaczauto:hardened_brass_sheet',
+                        E: 'tarotcards:the_chariot'
                 }
         ).keepIngredient('tarotcards:the_chariot')
 });

@@ -6,15 +6,25 @@
 	group: ""
 	icon: "tarotcards:tarot_deck"
 	id: "7C44AFC336C0AE69"
-	images: [{
-		height: 250.0d
-		image: "concatenationcore:textures/black-stone.png"
-		order: -1
-		rotation: 0.0d
-		width: 250.0d
-		x: 0.5d
-		y: 0.5d
-	}]
+	images: [
+		{
+			height: 250.0d
+			image: "concatenationcore:textures/black-stone.png"
+			order: -1
+			rotation: 0.0d
+			width: 250.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 15.0d
+			image: "concatenationcore:textures/pbook.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 16.0d
+			y: 21.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -31,6 +41,7 @@
 					}
 					id: "minecraft:iron_ingot"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			size: 1.25d
@@ -66,7 +77,7 @@
 					}
 					id: "minecraft:book"
 				}
-				team_reward: false
+				team_reward: true
 				type: "item"
 			}]
 			size: 1.25d
@@ -103,12 +114,12 @@
 						}
 						id: "farmersdelight:stuffed_potato"
 					}
-					team_reward: false
+					team_reward: true
 					type: "item"
 				}
 				{
 					auto: "enabled"
-					command: "/decstages add @s temperance_pathway true"
+					command: "/decstages add {team} temperance_pathway true"
 					icon: {
 						Count: 1
 						id: "hexerei:witch_helmet"
@@ -155,7 +166,7 @@
 					}
 					id: "minecraft:book"
 				}
-				team_reward: false
+				team_reward: true
 				type: "item"
 			}]
 			size: 1.25d
@@ -197,7 +208,7 @@
 				id: "37655A529CD6B9F4"
 				stat: "minecraft:walk_one_cm"
 				type: "stat"
-				value: 100
+				value: 500
 			}]
 			title: "Fool Pathway"
 			x: 0.10000000000000009d
@@ -208,6 +219,11 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "0BD5BADADC18CC3D"
+			rewards: [{
+				id: "6E0DF49A7922FA74"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "12A760AF88731FEC"
 				item: {
@@ -307,6 +323,11 @@
 			description: [""]
 			hide_dependent_lines: true
 			id: "36F8661C6E0C53D8"
+			rewards: [{
+				id: "73765E3A5A9E81A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5DD9F690DA3B804F"
 				item: {
@@ -451,6 +472,22 @@
 		{
 			dependencies: ["6F736EF54A792577"]
 			id: "3F53C388105917F6"
+			rewards: [{
+				id: "4948A959B89F8873"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "concatenationcore:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A9A92E241A904E0"
 				item: {
@@ -470,6 +507,20 @@
 		{
 			dependencies: ["3F53C388105917F6"]
 			id: "1A0E2D5ACAF189AC"
+			rewards: [{
+				count: 5
+				id: "7A1519DC28C5867E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:coal_block"
+				}
+				type: "item"
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "37B2666AB5EAB430"
@@ -527,6 +578,19 @@
 			dependencies: ["2157576FC7005917"]
 			hide_dependency_lines: true
 			id: "58500620F2876A16"
+			rewards: [{
+				id: "65A06A505A6A6FEC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D32069B797C09AA"
 				item: {
@@ -546,6 +610,22 @@
 		{
 			dependencies: ["524067700E07EB06"]
 			id: "258486DCF3CBD479"
+			rewards: [{
+				id: "3F58FFF513C789C8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1ED754487E1000F1"
 				item: {
@@ -905,7 +985,8 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["35C32229A51A1B7D"]
+			dependencies: ["73F4AAF2267BB33B"]
+			hide_dependency_lines: true
 			id: "2D48F3383A2E965F"
 			size: 0.9d
 			tasks: [{
@@ -921,11 +1002,12 @@
 				}
 				type: "item"
 			}]
-			x: -9.749999999999998d
-			y: 5.449999999999999d
+			x: -7.6499999999999995d
+			y: 1.7999999999999998d
 		}
 		{
-			dependencies: ["35C32229A51A1B7D"]
+			dependencies: ["73F4AAF2267BB33B"]
+			hide_dependency_lines: true
 			id: "589E2464D577E345"
 			size: 0.9d
 			tasks: [{
@@ -941,8 +1023,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.549999999999999d
-			y: 4.6499999999999995d
+			x: -8.55d
+			y: 0.8999999999999999d
 		}
 		{
 			dependencies: [
@@ -964,8 +1046,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.749999999999998d
-			y: 4.25d
+			x: -8.55d
+			y: 1.7999999999999998d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -1004,8 +1086,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.549999999999999d
-			y: 3.45d
+			x: -9.450000000000001d
+			y: 2.6999999999999997d
 		}
 		{
 			dependencies: ["4493DC75D8CE4857"]
@@ -1024,8 +1106,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.349999999999998d
-			y: 3.8499999999999996d
+			x: -8.549999999999999d
+			y: 3.15d
 		}
 		{
 			dependencies: ["4493DC75D8CE4857"]
@@ -1044,8 +1126,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.149999999999999d
-			y: 2.65d
+			x: -9.9d
+			y: 1.7999999999999998d
 		}
 		{
 			dependencies: [
@@ -1067,8 +1149,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.349999999999998d
-			y: 2.65d
+			x: -10.35d
+			y: 3.5999999999999996d
 		}
 		{
 			dependencies: ["396320452B50120B"]
@@ -1087,8 +1169,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.149999999999999d
-			y: 1.85d
+			x: -11.25d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1110,8 +1192,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.8d
-			y: 0.8d
+			x: -12.149999999999999d
+			y: 5.85d
 		}
 		{
 			dependencies: ["73C5D7FC9AB3E5F8"]
@@ -1133,8 +1215,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.649999999999999d
-			y: 4.749999999999999d
+			x: -9.450000000000001d
+			y: 0.8999999999999999d
 		}
 		{
 			dependencies: ["58FF082917ADFA66"]
@@ -1153,8 +1235,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.125d
-			y: 1.5d
+			x: -10.35d
+			y: 4.95d
 		}
 		{
 			dependencies: ["58FF082917ADFA66"]
@@ -1188,8 +1270,8 @@
 					type: "item"
 				}
 			]
-			x: -12.8d
-			y: 2.8d
+			x: -11.7d
+			y: 3.5999999999999996d
 		}
 		{
 			dependencies: ["31750A18D07A8904"]
@@ -1462,6 +1544,20 @@
 				id: "minecraft:echo_shard"
 			}
 			id: "73CD8163D268BA95"
+			rewards: [{
+				count: 9
+				id: "1315E72E54579D6F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3B334FC5549D837F"
 				item: {
@@ -1901,6 +1997,11 @@
 		{
 			dependencies: ["1A0E2D5ACAF189AC"]
 			id: "7D6F5D64D565F0AB"
+			rewards: [{
+				id: "4F21A585AE316927"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "58CB7F17AB0E0D08"
 				item: {
@@ -2149,6 +2250,20 @@
 		{
 			dependencies: ["58500620F2876A16"]
 			id: "42EF54B7ABFC5789"
+			rewards: [{
+				count: 2
+				id: "2DC8B29C95726C1E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "elementalcraft:elementpipe_impaired"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "554E0A6558E73D43"
 				item: {
@@ -5073,6 +5188,22 @@
 		{
 			dependencies: ["032A60B0D79C6ACB"]
 			id: "0F56E99C05BFF14A"
+			rewards: [{
+				id: "3179F5426DB12847"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexerei:warhammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					icon: {
@@ -5583,6 +5714,11 @@
 		{
 			dependencies: ["524067700E07EB06"]
 			id: "4134F85EED507D7B"
+			rewards: [{
+				id: "582E25BEE0F312D2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.8d
 			tasks: [{
 				id: "49394A1CABCCB8CC"
@@ -6167,7 +6303,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: 12.0d
 		}
 		{
@@ -6201,7 +6337,7 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
+			x: -6.0d
 			y: 12.0d
 		}
 		{
@@ -6209,6 +6345,7 @@
 				"139E166A1202B454"
 				"13B6EECFB6B3911E"
 			]
+			hide_dependency_lines: true
 			id: "335D849D587BCE73"
 			tasks: [
 				{
@@ -6239,8 +6376,8 @@
 				}
 			]
 			title: "Gearboxes"
-			x: -6.5d
-			y: 13.5d
+			x: -6.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["335D849D587BCE73"]
@@ -6273,11 +6410,11 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
-			y: 14.5d
+			x: -6.0d
+			y: 16.0d
 		}
 		{
-			dependencies: ["13B6EECFB6B3911E"]
+			dependencies: ["7948CF780F8B6C0B"]
 			id: "6B25C523000F8937"
 			tasks: [{
 				id: "79D010122225DCA5"
@@ -6293,7 +6430,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 13.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["6B25C523000F8937"]
@@ -6328,7 +6465,7 @@
 			]
 			title: "Press \\& Mixer"
 			x: -5.0d
-			y: 14.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -6388,7 +6525,7 @@
 				}
 			]
 			x: -4.0d
-			y: 14.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -6407,7 +6544,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 15.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["56F69616D04213D9"]
@@ -6426,7 +6563,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 16.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["782EDA8D4D2B9CA6"]
@@ -6445,7 +6582,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 17.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["57DB683E290787AA"]
@@ -6464,7 +6601,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 18.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["2F7137679E3E480B"]
@@ -6484,7 +6621,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 19.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["53D5A1A751227C9A"]
@@ -6505,7 +6642,7 @@
 			}]
 			title: "A Pair Of Giants"
 			x: -7.0d
-			y: 20.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["15B4E0B3C70D372F"]
@@ -6525,7 +6662,7 @@
 			}]
 			title: "The Age of Engines"
 			x: -7.0d
-			y: 21.5d
+			y: 23.0d
 		}
 		{
 			dependencies: ["57DB683E290787AA"]
@@ -6544,7 +6681,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 17.5d
+			y: 19.0d
 		}
 		{
 			dependencies: [
@@ -6566,7 +6703,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 19.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["39DB90AC7E1BF135"]
@@ -6600,7 +6737,7 @@
 				}
 			]
 			x: -3.0d
-			y: 15.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -6619,7 +6756,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 15.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["34860EFC2864214C"]
@@ -6680,7 +6817,7 @@
 			]
 			title: "Power Connection"
 			x: -7.0d
-			y: 16.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["749F271CD9E35A16"]
@@ -6715,7 +6852,7 @@
 			]
 			title: "Power Transformation"
 			x: -7.0d
-			y: 18.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["547DFAC1D247643C"]
@@ -6763,7 +6900,7 @@
 			]
 			title: "Foundry Machines"
 			x: -3.0d
-			y: 16.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["5C37D62CC88F677F"]
@@ -6808,7 +6945,7 @@
 			]
 			title: "Steel and its brothers"
 			x: -3.0d
-			y: 17.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["3CC948E467CCC4C6"]
@@ -6857,7 +6994,7 @@
 			]
 			title: "Steel Piping"
 			x: -3.0d
-			y: 18.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["0DBEF77B203B8850"]
@@ -6958,7 +7095,7 @@
 			]
 			title: "O I L"
 			x: -3.0d
-			y: 19.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["549AF60315DC3760"]
@@ -7007,7 +7144,7 @@
 			]
 			title: "The Refinery"
 			x: -3.0d
-			y: 20.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["1704DE3E7DDE8A77"]
@@ -7056,7 +7193,7 @@
 			]
 			title: "The Age of Engines"
 			x: -3.0d
-			y: 21.5d
+			y: 23.5d
 		}
 		{
 			dependencies: ["65C1B6B2B147028E"]
@@ -7280,6 +7417,20 @@
 		{
 			dependencies: ["524067700E07EB06"]
 			id: "14EB6CAB3F3E9418"
+			rewards: [{
+				count: 3
+				id: "2C8FD57CE46484B7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:coal_block"
+				}
+				type: "item"
+			}]
 			size: 0.8d
 			tasks: [{
 				id: "65E3E9C68427EC95"
@@ -7798,6 +7949,7 @@
 					type: "item"
 				}
 			]
+			title: "Hierophant's Way"
 			x: -11.2d
 			y: 7.2d
 		}
@@ -7863,6 +8015,7 @@
 					type: "item"
 				}
 			]
+			title: "Hermit's Way"
 			x: -9.6d
 			y: 8.8d
 		}
@@ -8046,7 +8199,180 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 19.5d
+			y: 21.0d
+		}
+		{
+			description: [
+				"Know that I did not set out on this journey in search of glory, nor to clash blades with some legendary foe. There are no grand achievements here. I left home in the eternal darkness, with only a lantern, the Fool card, and my trusty CZ 75 in hand. I hope you will not encounter these same circumstances. "
+				""
+				"I write this book as I come across strange lands, experiencing different magical and technological systems. You will find observations, notes, and tasks within these pages. Quests, if you like. Some are mine, some were given to me by strangers and travellers. These may give you clues on the inner workings of this world."
+				""
+				"The Fool is the first of the tarot, but it bears the number zero. It is the mark of the beginning with infinite possibility. It chose me. Perhaps you will choose your own."
+				""
+				"May your road ahead rise to forge your own pathway"
+				""
+				"- Eleonore, The Fool"
+			]
+			icon: "ftbquests:book"
+			id: "2CEDBC536409D424"
+			rewards: [{
+				id: "04C171E3E1AC8CEA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_technica:spy_monocle"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Foolish Hair Ornament\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "To whoever finds this"
+			tasks: [{
+				id: "02DFC16AE3D5AAD6"
+				title: "Preface"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Concatenation is a modpack with diverging pathways. The quests are representative of the changed progression of effectively every mod in this pack. You may want to examine the quest tree more closely, restart and choose another pathway if you believe you might be in the wrong one. "
+				""
+				"A starting pathway only determines the start of progression as it is intended to add together different pathways (mods), hence the name of the modpack. "
+				""
+				"Everything is currently a work in progress, explaining the current lack of quests, quest descriptions and some mods being locked for the moment. "
+				""
+				"If you would like a deeper explanation on the preface, while look into Concatenation Gehenna (when it releases), the sister pack where the player embarks on the exact same journey as Eleonore writing the quests. Her journey differs in that the Fool Pathway has all of the possible starts at once, given that they find what they need through exploration. "
+				"- Mitemi, Modpack Author"
+			]
+			icon: "concatenationcore:gold_paper"
+			id: "1EFB1193B63BA522"
+			size: 0.7d
+			tasks: [{
+				id: "39D037CFA531CEB1"
+				title: "Mod Author's Note"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.05d
+		}
+		{
+			dependencies: [
+				"139E166A1202B454"
+				"13B6EECFB6B3911E"
+			]
+			id: "7948CF780F8B6C0B"
+			size: 1.15d
+			tasks: [{
+				id: "28498CCBD4B8BB79"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:the_tower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Tower"
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["255F91EE26FB166D"]
+			id: "3EA4408A8F86B825"
+			tasks: [{
+				id: "6E8E8BC2A87E5933"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dimdoors:rift_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3EA4408A8F86B825"]
+			id: "2480B881634C80B7"
+			tasks: [{
+				id: "0E51A9E37759BAB4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dimdoors:rift_remover"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EA4408A8F86B825"]
+			id: "5C35A413987F2EC6"
+			tasks: [
+				{
+					id: "498E987A6F29781D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "dimdoors:rift_signature"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E80DF8848537ED6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "dimdoors:stabilized_rift_signature"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 3.5d
 		}
 	]
 	title: "The Journey"

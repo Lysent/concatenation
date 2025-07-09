@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
                         A: 'elementalcraft:contained_crystal',
                         C: 'tarotcards:the_magician'
                 }
-        )
+        ).keepIngredient('tarotcards:the_magician')
         event.shaped(
                 Item.of('elementalcraft:small_container'),
                 [

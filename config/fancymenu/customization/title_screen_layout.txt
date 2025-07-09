@@ -45,7 +45,7 @@ layout_action_executable_blocks {
 
 element {
   interactable = true
-  source = Minecraft {"placeholder":"mcversion"} %n%Running Concatenation Pre-release 1.0%n%{"placeholder":"loadedmods"} mods loaded. 297 intended.
+  source = Minecraft {"placeholder":"mcversion"} %n%Running Concatenation Pre-release 1.0%n%{"placeholder":"loadedmods"} mods loaded. 299 intended.
   source_mode = direct
   shadow = true
   scale = 0.75

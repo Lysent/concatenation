@@ -10,6 +10,12 @@ ServerEvents.recipes(event => {
                 event.remove({ output: item })
         })
 
+        event.replaceInput(
+                { mod: 'dimdoors' },
+                'minecraft:ender_pearl',
+                'concatenationcore:woven_pearl'
+        )
+
         event.shaped(
                 Item.of('concatenationcore:kestrel'),
                 [
@@ -25,14 +31,13 @@ ServerEvents.recipes(event => {
                 }
         ).keepIngredient('tarotcards:temperance')
         event.shaped(
-                Item.of('hexerei:cloth'),
+                Item.of('hexerei:cloth', 2),
                 [
                         'ABB',
-                        'BBC',
+                        'BB ',
                         '   '
                 ],
                 {
-                        C: 'minecraft:diamond',
                         B: 'hexerei:infused_fabric',
                         A: 'minecraft:diamond_sword'
                 }
@@ -82,4 +87,39 @@ ServerEvents.recipes(event => {
                         C: 'minecraft:popped_chorus_fruit'
                 }
         ).keepIngredient('tarotcards:temperance')
+        event.shapeless(
+                Item.of('concatenationcore:nebulous_handle'),
+                [
+                        'reliquary:nebulous_heart',
+                        'concatenationcore:gold_handle',
+                        'tarotcards:the_moon'
+                ]
+        ).keepIngredient('tarotcards:the_moon')
+        event.shaped(
+                Item.of('dimdoors:rift_blade'),
+                [
+                        ' A ',
+                        'BCB',
+                        ' D '
+                ],
+                {
+                        C: 'bloodmagic:daggerofsacrifice',
+                        D: 'concatenationcore:nebulous_handle',
+                        B: 'minecraft:obsidian',
+                        A: 'minecraft:crying_obsidian'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:woven_pearl', 2),
+                [
+                        'AB ',
+                        ' C ',
+                        ' B '
+                ],
+                {
+                        C: 'minecraft:ender_pearl',
+                        A: 'dimdoors:rift_blade',
+                        B: 'dimdoors:world_thread'
+                }
+        ).damageIngredient('dimdoors:rift_blade')
 });

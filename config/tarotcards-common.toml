@@ -60,7 +60,7 @@
 		the_hermit_allyrange = 10.0
 		#How much armor is added when away from allies
 		#Range: 0.0 ~ 100.0
-		the_hermit_armorbonus = 10.0
+		the_hermit_armorbonus = 5.0
 		#Percentage increase of experience (2 = +200%)
 		#Range: 1.0 ~ 100.0
 		the_hierophant_xpboost = 1.5
@@ -89,5 +89,5 @@
 		the_world_slownessamplifier = 3
 		#How much luck (not fortune) is added to the player
 		#Range: 0.0 ~ 100.0
-		wheel_of_fortune_luckbonus = 5.0
+		wheel_of_fortune_luckbonus = 10.0
 

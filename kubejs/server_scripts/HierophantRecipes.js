@@ -5,6 +5,10 @@ ServerEvents.recipes(event => {
                 'quarryplus:workbench',
                 'concatenationcore:galvanized_iron',
                 'ae2:charger',
+                'solarflux:sp_1',
+                'solarflux:sp_2',
+                'solarflux:photovoltaic_cell_1',
+                'concatenationcore:crushed_iron'
 
         ]
 
@@ -26,7 +30,7 @@ ServerEvents.recipes(event => {
                         E: 'ironchest:iron_chest',
                         D: 'concatenationcore:quarry_brain'
                 }
-        ).keepIngredient('tarotcards:the_hierophant')
+        )
         event.shaped(
                 Item.of('concatenationcore:quarry_brain'),
                 [
@@ -63,7 +67,18 @@ ServerEvents.recipes(event => {
                         'create:zinc_nugget',
                         'create:zinc_nugget',
                         'create:zinc_nugget',
-                        'concatenationcore:hammer'
+                        '#concatenation:hammers'
+                ]
+        )
+        event.shapeless(
+                Item.of('concatenationcore:crushed_iron'),
+                [
+                        'minecraft:iron_nugget',
+                        'minecraft:iron_nugget',
+                        'minecraft:iron_nugget',
+                        'minecraft:iron_nugget',
+                        'minecraft:iron_nugget',
+                        '#concatenation:hammers'
                 ]
         )
         event.shaped(
@@ -124,7 +139,7 @@ ServerEvents.recipes(event => {
                         'concatenationcore:crushed_zinc',
                         'concatenationcore:crushed_zinc',
                         'minecraft:fire_charge',
-                        'concatenationcore:hammer'
+                        '#concatenation:hammers'
                 ]
         )
         event.shapeless(
@@ -135,7 +150,7 @@ ServerEvents.recipes(event => {
                         'concatenationcore:crushed_zinc',
                         'concatenationcore:crushed_zinc',
                         'elementalcraft:fire_shard',
-                        'concatenationcore:hammer'
+                        '#concatenation:hammers'
                 ]
         )
         event.shapeless(
@@ -146,7 +161,7 @@ ServerEvents.recipes(event => {
                         'concatenationcore:crushed_zinc',
                         'concatenationcore:crushed_zinc',
                         'elementalcraft:firecrystal',
-                        'concatenationcore:hammer'
+                        '#concatenation:hammers'
                 ]
         )
         event.shapeless(
@@ -157,7 +172,7 @@ ServerEvents.recipes(event => {
                         'concatenationcore:crushed_zinc',
                         'concatenationcore:crushed_zinc',
                         'ars_nouveau:fire_essence',
-                        'concatenationcore:hammer'
+                        '#concatenation:hammers'
                 ]
         )
         event.shaped(
