@@ -3,7 +3,10 @@ ServerEvents.recipes(event => {
         const remove = [
                 'hexerei:cloth',
                 'bloodmagic:sacrificaldagger',
-                'bloodmagic:altar'
+                'bloodmagic:altar',
+                'hexerei:witch_helmet',
+                'hexerei:witch_chesplate',
+                'hexerei:witch_boots'
         ]
 
         remove.forEach(item => {
@@ -122,4 +125,37 @@ ServerEvents.recipes(event => {
                         B: 'dimdoors:world_thread'
                 }
         ).damageIngredient('dimdoors:rift_blade')
+        event.shaped(
+                Item.of('hexerei:witch_helmet'),
+                [
+                        'AAA',
+                        'A A',
+                        '   '
+                ],
+                {
+                        A: 'hexerei:cloth'
+                }
+        )
+        event.shaped(
+                Item.of('hexerei:witch_chestplate'),
+                [
+                        'A A',
+                        'AAA',
+                        'AAA'
+                ],
+                {
+                        A: 'hexerei:cloth'
+                }
+        )
+        event.shaped(
+                Item.of('hexerei:witch_boots'),
+                [
+                        '   ',
+                        'A A',
+                        'A A'
+                ],
+                {
+                        A: 'hexerei:cloth'
+                }
+        )
 });

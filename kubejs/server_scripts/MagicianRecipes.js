@@ -12,7 +12,8 @@ ServerEvents.recipes(event => {
                 'ars_nouveau:scribes_table',
                 'ars_nouveau:arcane_pedestal',
                 'ars_nouveau:alteration_table',
-                'waystones:warp_stone'
+                'waystones:warp_stone',
+                'elementalcraft:elementpipe_impaired'
         ]
 
         remove.forEach(item => {
@@ -73,6 +74,18 @@ ServerEvents.recipes(event => {
                         A: 'concatenationcore:gold_paper',
                         B: 'elementalcraft:swift_alloy_ingot',
                         C: 'concatenationcore:specialized_holder'
+                }
+        )
+        event.shaped(
+                Item.of('elementalcraft:elementpipe_impaired', 12),
+                [
+                        '   ',
+                        'ABA',
+                        '   '
+                ],
+                {
+                        A: 'minecraft:iron_ingot',
+                        B: 'elementalcraft:contained_crystal'
                 }
         )
         event.shaped(
@@ -342,16 +355,25 @@ ServerEvents.recipes(event => {
                 Item.of('waystones:warp_stone'),
                 [
                         'ABA',
-                        'CDE',
-                        'AFA'
+                        'BCB',
+                        'ABA'
                 ],
                 {
-                        F: 'elementalcraft:fine_earth_gem',
-                        C: 'elementalcraft:fine_fire_gem',
-                        E: 'elementalcraft:fine_water_gem',
+                        C: 'elementalcraft:drenched_iron_ingot',
                         A: 'waystones:warp_dust',
-                        B: 'elementalcraft:fine_air_gem',
-                        D: '#elementalcraft:source_seeds/natural'
+                        B: 'elementalcraft:aircrystal'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:ice_shard', 2),
+                [
+                        'AB ',
+                        'BA ',
+                        '   '
+                ],
+                {
+                        A: 'minecraft:blue_ice',
+                        B: 'elementalcraft:watercrystal'
                 }
         )
         event.recipes.ars_nouveau.imbuement(

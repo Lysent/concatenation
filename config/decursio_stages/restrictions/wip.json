@@ -1,6 +1,6 @@
 {
   "Restriction Data": {
     "stage": "WIP",
-    "modList": ["psi", "celestisynth", "industrialforegoing", "integrateddynamics", "integratedtunnels", "mekanism", "mekanismgenerators", "tacz", "create_enchantment_industry", "projecte", "rftoolsbase", "rftoolsbuilder", "rftoolsdim", "rftoolspower", "rftoolsstorage", "rftoolsutility", "simplyjetpacks", "theurgy", ""]
+    "modList": ["psi", "industrialforegoing", "integrateddynamics", "integratedtunnels", "mekanism", "mekanismgenerators", "tacz", "create_enchantment_industry", "projecte", "rftoolsbase", "rftoolsbuilder", "rftoolsdim", "rftoolspower", "rftoolsstorage", "rftoolsutility", "simplyjetpacks", "theurgy", ""]
   }
 }

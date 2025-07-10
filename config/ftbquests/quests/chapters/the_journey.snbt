@@ -6,25 +6,15 @@
 	group: ""
 	icon: "tarotcards:tarot_deck"
 	id: "7C44AFC336C0AE69"
-	images: [
-		{
-			height: 250.0d
-			image: "concatenationcore:textures/black-stone.png"
-			order: -1
-			rotation: 0.0d
-			width: 250.0d
-			x: 0.5d
-			y: -1.5d
-		}
-		{
-			height: 15.0d
-			image: "concatenationcore:textures/pbook.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 16.0d
-			y: 21.5d
-		}
-	]
+	images: [{
+		height: 250.0d
+		image: "concatenationcore:textures/black-stone.png"
+		order: -1
+		rotation: 0.0d
+		width: 250.0d
+		x: 0.5d
+		y: -1.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -316,7 +306,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.5d
+			y: -1.5999999999999996d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -1428,7 +1418,9 @@
 				"640ED9A58F8DD165"
 				"58CFB61E7D4DE729"
 			]
+			dependency_requirement: "one_completed"
 			id: "13ADC7311C00FF45"
+			min_required_dependencies: 1
 			size: 1.15d
 			tasks: [{
 				id: "39EAD45DCBFDFEA5"
@@ -1576,7 +1568,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["13ADC7311C00FF45"]
+			dependencies: ["58CFB61E7D4DE729"]
 			id: "45EBD68510E9742C"
 			tasks: [{
 				id: "624491EFE8654D0F"
@@ -1695,7 +1687,7 @@
 				title: "Any Oreberry Bush"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -8.5d
 			y: -9.0d
 		}
 		{
@@ -1891,7 +1883,7 @@
 				title: "Any Vat"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -9.5d
 			y: -10.5d
 		}
 		{
@@ -5104,7 +5096,7 @@
 			y: 23.0d
 		}
 		{
-			dependencies: ["54218CCAAF11DC4B"]
+			dependencies: ["57264B7E24823F02"]
 			id: "02CAE7DE326720EA"
 			tasks: [{
 				id: "266D60B5FCA4B2D7"
@@ -5122,8 +5114,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 17.0d
+			x: 9.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["02CAE7DE326720EA"]
@@ -5142,8 +5134,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: 18.0d
+			x: 10.35d
+			y: 7.475d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -5296,7 +5288,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: -2.5d
 		}
 		{
@@ -5315,7 +5307,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.5d
 			y: -4.5d
 		}
 		{
@@ -5371,7 +5363,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 8.5d
 			y: -6.0d
 		}
 		{
@@ -5391,7 +5383,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 11.0d
 			y: -4.5d
 		}
 		{
@@ -5411,7 +5403,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 11.0d
 			y: -6.0d
 		}
 		{
@@ -5431,20 +5423,12 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 11.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "hexerei:blood_sigil"
-			}
+			icon: "hexerei:blood_sigil"
 			id: "0CC91D0458ACB827"
 			tasks: [
 				{
@@ -5474,7 +5458,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 9.0d
 			y: -3.0d
 		}
 		{
@@ -5497,7 +5481,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.0d
 			y: -6.0d
 		}
 		{
@@ -5526,7 +5510,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 10.5d
 			y: -3.0d
 		}
 		{
@@ -5573,7 +5557,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 12.5d
 			y: -4.5d
 		}
 		{
@@ -5634,7 +5618,7 @@
 				title: "Any Drying Rack"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: -1.0d
 		}
 		{
@@ -5682,7 +5666,7 @@
 				title: "Any Enhanced Brush"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: 0.5d
 		}
 		{
@@ -5708,7 +5692,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.5d
 			y: -7.5d
 		}
 		{
@@ -5805,7 +5789,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.0d
 			y: -4.5d
 		}
 		{
@@ -5824,7 +5808,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 9.0d
 			y: -1.5d
 		}
 		{
@@ -5844,8 +5828,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.0d
+			x: 9.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0419D82408E8C7B0"]
@@ -5863,7 +5847,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 11.0d
 			y: 0.5d
 		}
 		{
@@ -5884,7 +5868,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 10.5d
 			y: -1.5d
 		}
 		{
@@ -5903,7 +5887,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
+			x: 14.0d
 			y: -4.5d
 		}
 		{
@@ -5922,7 +5906,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 10.0d
 			y: -0.5d
 		}
 		{
@@ -5970,7 +5954,7 @@
 				type: "item"
 			}]
 			title: "Any Broom Tip"
-			x: 10.0d
+			x: 12.5d
 			y: -6.0d
 		}
 		{
@@ -6096,7 +6080,7 @@
 				}
 			]
 			title: "Collect Every Herb"
-			x: 10.0d
+			x: 12.0d
 			y: -1.5d
 		}
 		{
@@ -6116,8 +6100,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: 10.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -6183,8 +6167,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: 2.0d
+			x: 12.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -6205,7 +6189,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -2.5d
+			y: -2.8d
 		}
 		{
 			dependencies: ["00E41146BE22270E"]
@@ -6242,11 +6226,11 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
-			y: -2.5d
+			x: 18.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["0CC91D0458ACB827"]
+			dependencies: ["54D2E4556B238BE4"]
 			hide_dependency_lines: true
 			id: "00E41146BE22270E"
 			size: 1.15d
@@ -6265,8 +6249,8 @@
 				type: "item"
 			}]
 			title: "The Moon"
-			x: 13.0d
-			y: -3.0d
+			x: 16.474999999999998d
+			y: 3.175d
 		}
 		{
 			dependencies: ["48182227AA27C096"]
@@ -7230,8 +7214,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: -3.0d
+			x: 21.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -7249,8 +7233,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: -2.0d
+			x: 21.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -7269,8 +7253,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: -1.0d
+			x: 18.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["25A618A3B28B8DEE"]
@@ -7288,8 +7272,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 0.5d
+			x: 17.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -7617,8 +7601,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 16.5d
-			y: -0.5d
+			x: 21.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -7636,8 +7620,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: -0.5d
+			x: 19.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0D2E04D30E54E6C8"]
@@ -7658,8 +7642,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: 1.0d
+			x: 21.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -7684,8 +7668,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 1.0d
+			x: 19.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3E73EAD0A0A295F5"]
@@ -7756,8 +7740,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 1.0d
+			x: 22.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -7790,8 +7774,8 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
-			y: -4.0d
+			x: 17.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -8309,8 +8293,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 2.0d
+			x: 17.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3EA4408A8F86B825"]
@@ -8331,8 +8315,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 3.5d
+			x: 16.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3EA4408A8F86B825"]
@@ -8371,8 +8355,229 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 3.5d
+			x: 17.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0CC91D0458ACB827"
+				"08656304775DB207"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "concatenationcore:cultist_armor_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6D79D8CC7CDDF1D0"
+			size: 1.0d
+			tasks: [
+				{
+					id: "15ACEB6C298F17F3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "concatenationcore:cultist_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7632343B6B4F7A1F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "concatenationcore:cultist_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1FCC9226464E3F58"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "concatenationcore:cultist_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46E0F0B99B0828DF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "concatenationcore:cultist_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Cultist Armor"
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3B8127AF958727B0"]
+			hide_dependency_lines: true
+			id: "5D6BE53739B45840"
+			tasks: [{
+				id: "1725A15B12D0D31C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "concatenationcore:shrike"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5D6BE53739B45840"]
+			id: "54D2E4556B238BE4"
+			tasks: [{
+				id: "52B94C4168556224"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "concatenationcore:descran"
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"54D2E4556B238BE4"
+				"6635F7B2CD984F4F"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "14DFB74A4390006D"
+			size: 1.15d
+			tasks: [{
+				id: "0256B20E000FF08B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:the_star"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Star"
+			x: 16.674999999999997d
+			y: 8.049999999999999d
+		}
+		{
+			dependencies: ["14DFB74A4390006D"]
+			id: "0964A0A4B891B993"
+			tasks: [{
+				id: "0B0FC675E3AA49AE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mna:wand_vinteum"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["14DFB74A4390006D"]
+			id: "14EECA79A74AACA5"
+			tasks: [{
+				id: "5E93786A5B10DD2A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mna:occulus"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["14DFB74A4390006D"]
+			id: "5EBC5D22BAD176AB"
+			tasks: [{
+				id: "7058CF43598FBE4B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mna:guide_book"
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 9.0d
 		}
 	]
 	title: "The Journey"

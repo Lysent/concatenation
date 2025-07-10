@@ -16,6 +16,9 @@ ServerEvents.recipes(event => {
                 event.remove({ output: item })
         })
 
+        event.remove({ output: 'solarflux:sp_1', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'solarflux:sp_2', type: 'minecraft:crafting_shaped' })
+
         event.shaped(
                 Item.of('quarryplus:solid_fuel_quarry'),
                 [
@@ -176,7 +179,7 @@ ServerEvents.recipes(event => {
                 ]
         )
         event.shaped(
-                Item.of('oreberriesreplanted:essence_berry_bush', 2),
+                Item.of('oreberriesreplanted:essence_berry_bush', 4),
                 [
                         'AAA',
                         'ACA',
@@ -189,7 +192,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('oreberriesreplanted:essence_berry_bush', 2),
+                Item.of('oreberriesreplanted:essence_berry_bush', 4),
                 [
                         'AAA',
                         'ACA',
@@ -202,7 +205,151 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
+                Item.of('oreberriesreplanted:essence_berry_bush', 2),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'concatenationcore:transplant',
+                        B: 'oreberriesreplanted:essence_berry_bush'
+                }
+        )
+        event.shaped(
+                Item.of('oreberriesreplanted:silver_oreberry_bush', 2),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'concatenationcore:transplant',
+                        B: 'oreberriesreplanted:silver_oreberry_bush'
+                }
+        )
+        event.shaped(
+                Item.of('oreberriesreplanted:zinc_oreberry_bush', 2),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'concatenationcore:transplant',
+                        B: 'oreberriesreplanted:zinc_oreberry_bush'
+                }
+        )
+        event.shaped(
+                Item.of('oreberriesreplanted:osmium_oreberry_bush', 2),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'concatenationcore:transplant',
+                        B: 'oreberriesreplanted:osmium_oreberry_bush'
+                }
+        )
+        event.shaped(
+                Item.of('oreberriesreplanted:uranium_oreberry_bush', 2),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'concatenationcore:transplant',
+                        B: 'oreberriesreplanted:uranium_oreberry_bush'
+                }
+        )
+        event.shaped(
+                Item.of('oreberriesreplanted:nickel_oreberry_bush', 2),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'concatenationcore:transplant',
+                        B: 'oreberriesreplanted:nickel_oreberry_bush'
+                }
+        )
+        event.shaped(
+                Item.of('oreberriesreplanted:lead_oreberry_bush', 2),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'concatenationcore:transplant',
+                        B: 'oreberriesreplanted:lead_oreberry_bush'
+                }
+        )
+        event.shaped(
+                Item.of('oreberriesreplanted:aluminum_oreberry_bush', 2),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'concatenationcore:transplant',
+                        B: 'oreberriesreplanted:aluminum_oreberry_bush'
+                }
+        )
+        event.shaped(
+                Item.of('oreberriesreplanted:tin_oreberry_bush', 2),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'concatenationcore:transplant',
+                        B: 'oreberriesreplanted:tin_oreberry_bush'
+                }
+        )
+        event.shaped(
+                Item.of('oreberriesreplanted:copper_oreberry_bush', 2),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'concatenationcore:transplant',
+                        B: 'oreberriesreplanted:copper_oreberry_bush'
+                }
+        )
+        event.shaped(
+                Item.of('oreberriesreplanted:gold_oreberry_bush', 2),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'concatenationcore:transplant',
+                        B: 'oreberriesreplanted:gold_oreberry_bush'
+                }
+        )
+        event.shaped(
                 Item.of('oreberriesreplanted:iron_oreberry_bush', 2),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'concatenationcore:transplant',
+                        B: 'oreberriesreplanted:iron_oreberry_bush'
+                }
+        )
+        event.shaped(
+                Item.of('oreberriesreplanted:iron_oreberry_bush', 3),
                 [
                         'ABA',
                         'ACA',
@@ -216,7 +363,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('oreberriesreplanted:gold_oreberry_bush', 2),
+                Item.of('oreberriesreplanted:gold_oreberry_bush', 3),
                 [
                         'ABA',
                         'ACA',
@@ -230,7 +377,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('oreberriesreplanted:copper_oreberry_bush', 2),
+                Item.of('oreberriesreplanted:copper_oreberry_bush', 3),
                 [
                         'ABA',
                         'ACA',
@@ -244,7 +391,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('oreberriesreplanted:tin_oreberry_bush', 2),
+                Item.of('oreberriesreplanted:tin_oreberry_bush', 3),
                 [
                         'ABA',
                         'ACA',
@@ -258,7 +405,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('oreberriesreplanted:lead_oreberry_bush', 2),
+                Item.of('oreberriesreplanted:lead_oreberry_bush', 3),
                 [
                         'ABA',
                         'ACA',
@@ -272,7 +419,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('oreberriesreplanted:nickel_oreberry_bush', 2),
+                Item.of('oreberriesreplanted:nickel_oreberry_bush', 3),
                 [
                         'ABA',
                         'ACA',
@@ -286,7 +433,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('oreberriesreplanted:uranium_oreberry_bush', 2),
+                Item.of('oreberriesreplanted:uranium_oreberry_bush', 3),
                 [
                         'ABA',
                         'ACA',
@@ -294,13 +441,13 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         C: 'concatenationcore:transplant',
-                        A: 'mekanism:uranium_ingot',
+                        A: 'mekanism:ingot_uranium',
                         B: 'oreberriesreplanted:essence_berry_bush',
                         D: 'oreberriesreplanted:uranium_oreberry_bush'
                 }
         )
         event.shaped(
-                Item.of('oreberriesreplanted:osmium_oreberry_bush', 2),
+                Item.of('oreberriesreplanted:osmium_oreberry_bush', 3),
                 [
                         'ABA',
                         'ACA',
@@ -308,13 +455,13 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         C: 'concatenationcore:transplant',
-                        A: 'mekanism:osmium_ingot',
+                        A: 'mekanism:ingot_osmium',
                         B: 'oreberriesreplanted:essence_berry_bush',
                         D: 'oreberriesreplanted:osmium_oreberry_bush'
                 }
         )
         event.shaped(
-                Item.of('oreberriesreplanted:zinc_oreberry_bush', 2),
+                Item.of('oreberriesreplanted:zinc_oreberry_bush', 3),
                 [
                         'ABA',
                         'ACA',
@@ -328,7 +475,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('oreberriesreplanted:silver_oreberry_bush', 2),
+                Item.of('oreberriesreplanted:silver_oreberry_bush', 3),
                 [
                         'ABA',
                         'ACA',
