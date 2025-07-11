@@ -8,7 +8,8 @@ ServerEvents.recipes(event => {
                 'solarflux:sp_1',
                 'solarflux:sp_2',
                 'solarflux:photovoltaic_cell_1',
-                'concatenationcore:crushed_iron'
+                'concatenationcore:crushed_iron',
+                'concatenationcore:stickyredstone'
 
         ]
 
@@ -786,6 +787,19 @@ ServerEvents.recipes(event => {
                         B: 'concatenationcore:stickyredstone',
                         D: 'concatenationcore:alclad',
                         C: 'minecraft:copper_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:stickyredstone', 4),
+                [
+                        'AAB',
+                        'AC ',
+                        'AC '
+                ],
+                {
+                        B: 'concatenation:hammers',
+                        A: 'minecraft:redstone',
+                        C: '#forge:slimeballs'
                 }
         )
 });

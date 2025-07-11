@@ -11,7 +11,7 @@
 		image: "concatenationcore:textures/black-stone.png"
 		order: -1
 		rotation: 0.0d
-		width: 250.0d
+		width: 1.0d
 		x: 0.5d
 		y: -1.5d
 	}]
@@ -669,8 +669,10 @@
 				"73F4AAF2267BB33B"
 				"06A4BEEE42830A85"
 			]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "1D9002F6E0272ABC"
+			min_required_dependencies: 1
 			tasks: [{
 				id: "3E3EC6DBD95BB9F8"
 				item: {
@@ -8578,6 +8580,90 @@
 			}]
 			x: 18.5d
 			y: 9.0d
+		}
+		{
+			dependencies: ["545CB21B2B59BA32"]
+			id: "5BAA69CBD6B64BEA"
+			size: 0.75d
+			tasks: [{
+				id: "78E1825BD7F9E8FA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:energy_duct"
+				}
+				type: "item"
+			}]
+			x: -10.35d
+			y: -3.5999999999999996d
+		}
+		{
+			dependencies: [
+				"59D783372A16F858"
+				"4FA1B8DD76B592DD"
+			]
+			hide_dependency_lines: true
+			id: "3060CAEE078FE9A0"
+			size: 1.15d
+			tasks: [{
+				id: "2A6BBDEB8C9B08B3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:strength"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Strength"
+			x: 0.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3060CAEE078FE9A0"]
+			id: "11AB2172D3EEA227"
+			tasks: [{
+				id: "4ABECACC9AFEE13E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:starlit_factory"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3060CAEE078FE9A0"]
+			id: "56561B81DFD39545"
+			tasks: [{
+				id: "65BA8EB7FBE4A19F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tacz:gun_smith_table"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.5d
 		}
 	]
 	title: "The Journey"

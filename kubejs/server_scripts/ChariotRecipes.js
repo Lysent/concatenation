@@ -6,7 +6,14 @@ ServerEvents.recipes(event => {
                 'littlelogistics:steam_locomotive',
                 'littlelogistics:tug',
                 'littlelogistics:energy_locomotive',
-                'littlelogistics:energy_tug'
+                'littlelogistics:energy_tug',
+                'littlelogistics:fishing_barge',
+                'littlelogistics:fluid_barge',
+                'littlelogistics:seater_barge',
+                'littlelogistics:vacuum_barge',
+                'littlecontraptions:contraption_barge',
+                'littlelogistics:barge',
+                'littlelogistics:barrel_barge'
         ]
 
         remove.forEach(item => {
@@ -123,7 +130,7 @@ ServerEvents.recipes(event => {
                         'BBB'
                 ],
                 {
-                        A: 'create:brass_ingot',
+                        A: '#forge:ingots/tin',
                         B: 'minecraft:iron_ingot'
                 }
         )
@@ -135,7 +142,7 @@ ServerEvents.recipes(event => {
                         'AAA'
                 ],
                 {
-                        B: 'concatenationcore:galvanized_iron',
+                        B: 'minecraft:copper_ingot',
                         A: '#forge:stripped_logs'
                 }
         )
@@ -147,14 +154,14 @@ ServerEvents.recipes(event => {
                         'ADA'
                 ],
                 {
-                        A: 'create:brass_ingot',
+                        A: '#forge:ingots/tin',
                         D: 'littlelogistics:seater_car',
                         B: 'minecraft:piston',
                         C: 'minecraft:blast_furnace'
                 }
         )
         event.shaped(
-                Item.of('littlelogistics:tug'),
+                Item.of('littlelogistics:tug', 4),
                 [
                         ' A ',
                         'BCB',
@@ -172,29 +179,15 @@ ServerEvents.recipes(event => {
                 [
                         'ABA',
                         'CDE',
-                        'ABA'
+                        'AFA'
                 ],
                 {
-                        C: 'hpm:cuttermilitariseditem',
-                        E: 'littlelogistics:tug',
-                        A: 'concatenationcore:gold_paper',
+                        E: 'littlelogistics:steam_locomotive',
+                        B: 'thermal:energy_duct',
+                        C: 'littlelogistics:tug',
+                        F: 'concatenationcore:circuit',
                         D: '#concatenation:tech_cards',
-                        B: 'thermal:sugar_cane_block'
-                }
-        ).keepIngredient('#concatenation:tech_cards').keepIngredient('hpm:cuttermilitariseditem')
-        event.shaped(
-                Item.of('tarotcards:the_chariot'),
-                [
-                        'ABA',
-                        'CDE',
-                        'ABA'
-                ],
-                {
-                        C: 'littlelogistics:steam_locomotive',
-                        E: 'minecraft:powered_rail',
-                        A: 'concatenationcore:gold_paper',
-                        D: '#concatenation:tech_cards',
-                        B: 'thermal:sugar_cane_block'
+                        A: 'concatenationcore:glowing_gold'
                 }
         ).keepIngredient('#concatenation:tech_cards')
         event.shaped(
@@ -242,4 +235,113 @@ ServerEvents.recipes(event => {
                         E: 'tarotcards:the_chariot'
                 }
         ).keepIngredient('tarotcards:the_chariot')
+        event.shaped(
+                Item.of('littlelogistics:fishing_barge'),
+                [
+                        ' A ',
+                        'ABA',
+                        'BCB'
+                ],
+                {
+                        C: 'hpm:smallhull',
+                        B: 'minecraft:iron_ingot',
+                        A: 'minecraft:fishing_rod'
+                }
+        )
+        event.shaped(
+                Item.of('littlelogistics:fluid_barge'),
+                [
+                        'A A',
+                        ' A ',
+                        'BCB'
+                ],
+                {
+                        C: 'hpm:smallhull',
+                        A: 'minecraft:glass',
+                        B: 'minecraft:iron_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('littlelogistics:seater_barge'),
+                [
+                        '   ',
+                        ' A ',
+                        'BCB'
+                ],
+                {
+                        C: 'hpm:smallhull',
+                        B: 'minecraft:iron_ingot',
+                        A: 'create:red_seat'
+                }
+        )
+        event.shaped(
+                Item.of('littlelogistics:vacuum_barge'),
+                [
+                        '   ',
+                        'ABA',
+                        'ACA'
+                ],
+                {
+                        C: 'hpm:smallhull',
+                        B: 'littlelogistics:rapid_hopper',
+                        A: 'minecraft:iron_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('littlecontraptions:contraption_barge'),
+                [
+                        '   ',
+                        'ABA',
+                        'CDC'
+                ],
+                {
+                        D: 'hpm:smallhull',
+                        A: 'create:brass_ingot',
+                        C: 'minecraft:iron_ingot',
+                        B: 'create:andesite_casing'
+                }
+        )
+        event.shaped(
+                Item.of('littlelogistics:barge'),
+                [
+                        '   ',
+                        'ABA',
+                        'CDC'
+                ],
+                {
+                        D: 'hpm:smallhull',
+                        C: 'minecraft:iron_ingot',
+                        B: 'minecraft:chest',
+                        A: 'minecraft:stick'
+                }
+        )
+        event.shaped(
+                Item.of('littlelogistics:barrel_barge'),
+                [
+                        '   ',
+                        'ABA',
+                        'CDC'
+                ],
+                {
+                        D: 'hpm:smallhull',
+                        C: 'minecraft:iron_ingot',
+                        B: 'minecraft:barrel',
+                        A: 'minecraft:stick'
+                }
+        )
+        event.shaped(
+                Item.of('littlelogistics:tug'),
+                [
+                        'ABA',
+                        'CBC',
+                        'DED'
+                ],
+                {
+                        E: 'hpm:smallhull',
+                        A: 'minecraft:iron_ingot',
+                        D: 'minecraft:iron_block',
+                        B: 'minecraft:blast_furnace',
+                        C: 'minecraft:piston'
+                }
+        )
 });

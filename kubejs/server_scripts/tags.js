@@ -9,6 +9,11 @@ ServerEvents.tags('item', event => {
     event.add('concatenation:hammers', 'concatenationcore:hammer')
     event.add('concatenation:hammers', 'concatenationcore:ironclad_hammer')
 
+    event.add('concatenation:lower_circuits', 'concatenationcore:circuit')
+    event.add('concatenation:lower_circuits', 'concatenationcore:altcircuit')
+    event.add('forge:circuits', 'concatenationcore:circuit')
+    event.add('forge:circuits', 'concatenationcore:altcircuit')
+
     event.add('forge:consumables/experience_3', 'concatenationcore:experience_orb')
     event.add('minecraft:swords', 'asr:diamond_giant_sword')
     event.add('minecraft:swords', 'asr:golden_giant_sword')
@@ -16,6 +21,25 @@ ServerEvents.tags('item', event => {
     event.add('minecraft:swords', 'asr:wooden_giant_sword')
     event.add('minecraft:swords', 'asr:stone_giant_sword')
     event.add('minecraft:swords', 'asr:ender_giant_sword')
+
+    event.add('elementalcraft:infusable/helmets', 'concatenationcore:cultist_armor_helmet')
+    event.add('elementalcraft:infusable/chestplates', 'concatenationcore:cultist_armor_chestplate')
+    event.add('elementalcraft:infusable/leggings', 'concatenationcore:cultist_armor_leggings')
+    event.add('elementalcraft:infusable/boots', 'concatenationcore:cultist_armor_boots')
+    event.add('forge:armors', 'concatenationcore:cultist_armor_helmet')
+    event.add('forge:armors', 'concatenationcore:cultist_armor_chestplate')
+    event.add('forge:armors', 'concatenationcore:cultist_armor_leggings')
+    event.add('forge:armors', 'concatenationcore:cultist_armor_boots')
+
+    event.add('elementalcraft:infusable/helmets', 'concatenationcore:condensed_ice_armor_helmet')
+    event.add('elementalcraft:infusable/chestplates', 'concatenationcore:condensed_ice_armor_chestplate')
+    event.add('elementalcraft:infusable/leggings', 'concatenationcore:condensed_ice_armor_leggings')
+    event.add('elementalcraft:infusable/boots', 'concatenationcore:condensed_ice_armor_boots')
+    event.add('forge:armors', 'concatenationcore:condensed_ice_armor_helmet')
+    event.add('forge:armors', 'concatenationcore:condensed_ice_armor_chestplate')
+    event.add('forge:armors', 'concatenationcore:condensed_ice_armor_leggings')
+    event.add('forge:armors', 'concatenationcore:condensed_ice_armor_boots')
+
     event.add('tarotcards:golden', 'asr:golden_giant_sword')
     event.add('tarotcards:golden', 'mekanismtools:gold_paxel')
     event.add('tarotcards:golden', 'farmersdelight:golden_knife')
