@@ -11,7 +11,7 @@
 		image: "concatenationcore:textures/black-stone.png"
 		order: -1
 		rotation: 0.0d
-		width: 1.0d
+		width: 250.0d
 		x: 0.5d
 		y: -1.5d
 	}]
