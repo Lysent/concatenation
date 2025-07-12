@@ -201,16 +201,29 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-            Item.of('concatenationcore:primed_calculation_processor'),
-            [
-                    ' A ',
-                    ' B ',
-                    ' C '
-            ],
-            {
-                    C: '#forge:plates/silver',
-                    B: 'ae2:calculation_processor',
-                    A: 'createaddition:electrum_wire'
-            }
-    )
+                Item.of('concatenationcore:primed_calculation_processor'),
+                [
+                        ' A ',
+                        ' B ',
+                        ' C '
+                ],
+                {
+                        C: '#forge:plates/silver',
+                        B: 'ae2:calculation_processor',
+                        A: 'createaddition:electrum_wire'
+                }
+        )
+        event.shaped(
+                Item.of('solarflux:sp_1', 2),
+                [
+                        'AAA',
+                        'BCB',
+                        'BBB'
+                ],
+                {
+                        B: 'create:brass_ingot',
+                        C: 'concatenationcore:circuit',
+                        A: 'solarflux:mirror'
+                }
+        )
 });

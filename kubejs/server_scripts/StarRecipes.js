@@ -69,4 +69,30 @@ ServerEvents.recipes(event => {
             A: 'mna:vinteum_ingot'
         }
     ).keepIngredient('tarotcards:the_star')
+    event.shaped(
+        Item.of('mna:wand_vinteum'),
+        [
+            '  A',
+            ' B ',
+            'C  '
+        ],
+        {
+            C: 'tarotcards:the_star',
+            B: 'minecraft:stick',
+            A: 'mna:vinteum_ingot'
+        }
+    ).keepIngredient('tarotcards:the_star')
+    event.shaped(
+        Item.of('mna:staff_vinteum'),
+        [
+            '  A',
+            ' B ',
+            'BC '
+        ],
+        {
+            C: 'tarotcards:the_star',
+            B: 'minecraft:stick',
+            A: 'mna:vinteum_ingot'
+        }
+    ).keepIngredient('tarotcards:the_star')
 });
