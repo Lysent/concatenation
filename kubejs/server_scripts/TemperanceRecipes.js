@@ -85,7 +85,7 @@ ServerEvents.recipes(event => {
                         F: 'hexerei:moon_dust_brush',
                         D: 'tarotcards:temperance',
                         E: 'hexerei:blood_bucket',
-                        B: 'born_in_chaos_v1:fire_dust',
+                        B: 'concatenationcore:light_totem',
                         A: 'concatenationcore:gold_paper',
                         C: 'minecraft:popped_chorus_fruit'
                 }
@@ -157,5 +157,12 @@ ServerEvents.recipes(event => {
                 {
                         A: 'hexerei:cloth'
                 }
+        )
+        event.shapeless(
+                Item.of('concatenationcore:light_totem'),
+                [
+                        'born_in_chaos_v1:fire_dust',
+                        'concatenationcore:descran'
+                ]
         )
 });
