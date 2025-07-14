@@ -14,6 +14,13 @@ ServerEvents.tags('item', event => {
     event.add('forge:circuits', 'concatenationcore:circuit')
     event.add('forge:circuits', 'concatenationcore:altcircuit')
 
+    event.add('concatenation:tanks', 'littlelogistics:fluid_barge')
+    event.add('concatenation:tanks', 'littlelogistics:fluid_car')
+    event.add('concatenation:tanks', 'mekanism:basic_fluid_tank')
+    event.add('concatenation:tanks', 'create:fluid_tank')
+    event.add('concatenation:tanks', 'tconstruct:seared_ingot_tank')
+    event.add('concatenation:tanks', 'tconstruct:seared_fuel_tank')
+
     event.add('forge:consumables/experience_3', 'concatenationcore:experience_orb')
     event.add('minecraft:swords', 'asr:diamond_giant_sword')
     event.add('minecraft:swords', 'asr:golden_giant_sword')

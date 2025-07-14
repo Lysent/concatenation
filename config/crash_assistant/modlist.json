@@ -394,6 +394,11 @@
     "modId": "dpanvil",
     "version": "1.20.1-5.0.1"
   },
+  "drippyloadingscreen_forge_3.0.12_MC_1.20.1.jar": {
+    "jarName": "drippyloadingscreen_forge_3.0.12_MC_1.20.1.jar",
+    "modId": "drippyloadingscreen",
+    "version": "3.0.12"
+  },
   "DungeonsArise-1.20.x-2.1.58-release.jar": {
     "jarName": "DungeonsArise-1.20.x-2.1.58-release.jar",
     "modId": "dungeons_arise",
@@ -762,10 +767,10 @@
     "modId": "mna",
     "version": "3.1.0.8"
   },
-  "modernfix-forge-5.24.1+mc1.20.1.jar": {
-    "jarName": "modernfix-forge-5.24.1+mc1.20.1.jar",
+  "modernfix-forge-5.24.3+mc1.20.1.jar": {
+    "jarName": "modernfix-forge-5.24.3+mc1.20.1.jar",
     "modId": "modernfix",
-    "version": "5.24.1+mc1.20.1"
+    "version": "5.24.3+mc1.20.1"
   },
   "modonomicon-1.20.1-forge-1.77.6.jar": {
     "jarName": "modonomicon-1.20.1-forge-1.77.6.jar",
@@ -892,10 +897,10 @@
     "modId": "puzzleslib",
     "version": "8.1.32"
   },
-  "reliquary-1.20.1-2.0.45.1248.jar": {
-    "jarName": "reliquary-1.20.1-2.0.45.1248.jar",
+  "reliquary-1.20.1-2.0.46.1257.jar": {
+    "jarName": "reliquary-1.20.1-2.0.46.1257.jar",
     "modId": "reliquary",
-    "version": "2.0.45.1248"
+    "version": "2.0.46.1257"
   },
   "rftoolsbase-1.20-5.0.6.jar": {
     "jarName": "rftoolsbase-1.20-5.0.6.jar",
@@ -1135,10 +1140,10 @@
     "modId": "uteamcore",
     "version": "5.1.4.382"
   },
-  "underground_rivers_1.0.0.jar": {
-    "jarName": "underground_rivers_1.0.0.jar",
+  "underground-rivers-1.0.1-forge-1.20.1.jar": {
+    "jarName": "underground-rivers-1.0.1-forge-1.20.1.jar",
     "modId": "underground_rivers",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "UndergroundBunkers-1.0.5-1.20.x-forge.jar": {
     "jarName": "UndergroundBunkers-1.0.5-1.20.x-forge.jar",

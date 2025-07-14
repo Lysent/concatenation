@@ -35,13 +35,13 @@
     "progressPerPlayer": 1.0,
     "exhaustion": 0.5,
     "haltBleedTime": true,
-    "abortOnDamage": false,
-    "resetProgress": false,
+    "abortOnDamage": true,
+    "resetProgress": true,
     "revivedEffects": [
       {
         "effect": "minecraft:slowness",
         "amplifier": 2,
-        "duration": 1,
+        "duration": 5,
         "hideParticles": true
       }
     ],

@@ -1368,9 +1368,9 @@
 				"06A4BEEE42830A85"
 				"73F4AAF2267BB33B"
 				"51211E92BC865FDC"
-				"2A13540D4E396260"
 				"2E2A38A96D401883"
 				"54BE967A3164579C"
+				"6AABF2BA290CD429"
 			]
 			hide_dependency_lines: true
 			id: "36318C8D65509470"
@@ -1437,7 +1437,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.8999999999999995d
+			x: -6.324999999999999d
 			y: -7.475d
 		}
 		{
@@ -1458,7 +1458,7 @@
 				type: "item"
 			}]
 			x: -8.625d
-			y: -5.749999999999999d
+			y: -6.324999999999999d
 		}
 		{
 			dependencies: ["73CD8163D268BA95"]
@@ -1689,7 +1689,7 @@
 				title: "Any Oreberry Bush"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -8.0d
 			y: -9.0d
 		}
 		{
@@ -1727,8 +1727,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -5.0d
+			x: -6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7CD059E89A322EA1"]
@@ -1771,7 +1771,7 @@
 				}
 			]
 			title: "Grow Panvita"
-			x: -5.5d
+			x: -5.0d
 			y: -6.0d
 		}
 		{
@@ -1885,7 +1885,7 @@
 				title: "Any Vat"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -9.0d
 			y: -10.5d
 		}
 		{
@@ -2090,8 +2090,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: -7.0d
+			x: -9.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -2150,8 +2150,8 @@
 				type: "item"
 			}]
 			title: "Core of the System"
-			x: -11.0d
-			y: -8.5d
+			x: -10.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -2184,8 +2184,8 @@
 					type: "item"
 				}
 			]
-			x: -11.5d
-			y: -7.5d
+			x: -11.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["05C3E83BCCEF20A2"]
@@ -2203,8 +2203,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
-			y: -8.0d
+			x: -12.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["0F2FB52232FC40C5"]
@@ -2238,8 +2238,8 @@
 					type: "item"
 				}
 			]
-			x: -12.0d
-			y: -9.5d
+			x: -11.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["58500620F2876A16"]
@@ -6511,7 +6511,7 @@
 				}
 			]
 			x: -4.0d
-			y: 16.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -6723,7 +6723,7 @@
 				}
 			]
 			x: -3.0d
-			y: 17.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -6886,7 +6886,7 @@
 			]
 			title: "Foundry Machines"
 			x: -3.0d
-			y: 18.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["5C37D62CC88F677F"]
@@ -6931,7 +6931,7 @@
 			]
 			title: "Steel and its brothers"
 			x: -3.0d
-			y: 19.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["3CC948E467CCC4C6"]
@@ -6980,7 +6980,7 @@
 			]
 			title: "Steel Piping"
 			x: -3.0d
-			y: 20.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["0DBEF77B203B8850"]
@@ -7081,7 +7081,7 @@
 			]
 			title: "O I L"
 			x: -3.0d
-			y: 21.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["549AF60315DC3760"]
@@ -7130,7 +7130,7 @@
 			]
 			title: "The Refinery"
 			x: -3.0d
-			y: 22.5d
+			y: 23.0d
 		}
 		{
 			dependencies: ["1704DE3E7DDE8A77"]
@@ -7179,7 +7179,7 @@
 			]
 			title: "The Age of Engines"
 			x: -3.0d
-			y: 23.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["65C1B6B2B147028E"]
@@ -7940,7 +7940,7 @@
 			y: 7.2d
 		}
 		{
-			dependencies: ["54BE967A3164579C"]
+			dependencies: ["0ED2B4CE782BF97D"]
 			hide_dependency_lines: true
 			id: "2A13540D4E396260"
 			size: 0.8d
@@ -8001,9 +8001,9 @@
 					type: "item"
 				}
 			]
-			title: "Hermit's Way"
-			x: -9.6d
-			y: 8.8d
+			title: "High Priestess' Way"
+			x: -11.6d
+			y: 10.8d
 		}
 		{
 			dependencies: ["59D783372A16F858"]
@@ -8664,6 +8664,222 @@
 			}]
 			x: 0.0d
 			y: 15.5d
+		}
+		{
+			dependencies: ["050A151DEB4BAF79"]
+			id: "6C023DFE1C136EB3"
+			size: 0.9d
+			tasks: [{
+				id: "329119223E13592A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:crystal_resonance_generator"
+				}
+				type: "item"
+			}]
+			x: -10.35d
+			y: -6.3d
+		}
+		{
+			dependencies: ["36318C8D65509470"]
+			id: "405495BB2F379536"
+			tasks: [{
+				id: "72D5278A007CB2C5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:dynamo_stirling"
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["405495BB2F379536"]
+			id: "42353FA6F7027E06"
+			tasks: [{
+				id: "0AD483B0D732BEDA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "thermal:dynamo_compression"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "thermal:dynamo_magmatic"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "thermal:dynamo_numismatic"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "thermal:dynamo_lapidary"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "thermal:dynamo_disenchantment"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "thermal:dynamo_gourmand"
+							}
+						]
+					}
+				}
+				title: "Any Non-Stirling Dynamo"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3A27EA4C48429EA7"]
+			hide_dependency_lines: true
+			id: "6AABF2BA290CD429"
+			size: 0.8d
+			tasks: [
+				{
+					count: 2L
+					id: "18A19EDC1C41B33B"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createdeco:andesite_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0C6B3FCFC6368068"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createdeco:industrial_iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "03E7F0F47C501A9F"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "thermal:obsidian_glass"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "43EC2BDE754ECCFC"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "thermal:bronze_gear"
+					}
+					type: "item"
+				}
+				{
+					id: "53BC157C7CD61DE6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "concatenationcore:circuit"
+					}
+					type: "item"
+				}
+			]
+			title: "Hermit's Way"
+			x: -9.6d
+			y: 8.4d
+		}
+		{
+			dependencies: ["5ED52058EC7A215C"]
+			id: "3A27EA4C48429EA7"
+			tasks: [{
+				id: "0A30C64BB6E1616F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createdeco:industrial_iron_ingot"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 16.0d
 		}
 	]
 	title: "The Journey"

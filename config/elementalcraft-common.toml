@@ -155,13 +155,13 @@
 		[elementalcraft.instruments.elementPipe]
 			#The amount of element transferred by impaired pipes.
 			#Range: 0 ~ 10000
-			impairedPipeTransferAmount = 5
+			impairedPipeTransferAmount = 20
 			#The amount of element transferred by pipes.
 			#Range: 0 ~ 10000
-			pipeTransferAmount = 25
+			pipeTransferAmount = 50
 			#The amount of element transferred by improved pipes.
 			#Range: 0 ~ 10000
-			improvedPipeTransferAmount = 100
+			improvedPipeTransferAmount = 125
 			#Cache the last path used by the pipe to increase performances.
 			pipePathCache = true
 

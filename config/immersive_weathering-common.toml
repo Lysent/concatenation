@@ -15,7 +15,7 @@
 	#Range: 0.0 ~ 1.0
 	patchiness = 0.5
 	#Range: 0.0 ~ 1.0
-	immune_chance = 0.4
+	immune_chance = 0.6
 	needs_air = true
 	enabled = true
 
@@ -26,8 +26,8 @@
 	#Range: 0.0 ~ 1.0
 	patchiness = 0.4
 	#Range: 0.0 ~ 1.0
-	immune_chance = 0.4
-	needs_air = false
+	immune_chance = 0.6
+	needs_air = true
 	enabled = true
 
 [icicle]
@@ -93,8 +93,8 @@
 [rusting]
 	rusting = true
 	#Range: 1 ~ 8
-	rusting_influence_radius = 4
+	rusting_influence_radius = 1
 	#Range: 0.0 ~ 1.0
-	rusting_rate = 0.06
+	rusting_rate = 0.03
 	rust_streaking = true
 

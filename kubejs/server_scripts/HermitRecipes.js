@@ -7,7 +7,8 @@ ServerEvents.recipes(event => {
                 'create:empty_blaze_burner',
                 'create:large_cogwheel',
                 'create:mechanical_mixer',
-                'create:mechanical_press'
+                'create:mechanical_press',
+                'create:fluid_tank'
         ]
 
         remove.forEach(item => {
@@ -168,10 +169,10 @@ ServerEvents.recipes(event => {
                         C: 'create:shaft',
                         E: 'minecraft:iron_block',
                         B: 'create:andesite_casing',
-                        D: 'tarotcards:the_hermit',
+                        D: 'tarotcards:the_tower',
                         A: 'minecraft:piston'
                 }
-        ).keepIngredient('tarotcards:the_hermit')
+        ).keepIngredient('tarotcards:the_tower')
         event.shaped(
                 Item.of('create:mechanical_mixer'),
                 [
@@ -183,10 +184,10 @@ ServerEvents.recipes(event => {
                         C: 'create:shaft',
                         E: 'create:whisk',
                         A: 'create:andesite_casing',
-                        D: 'tarotcards:the_hermit',
+                        D: 'tarotcards:the_tower',
                         B: 'create:cogwheel'
                 }
-        ).keepIngredient('tarotcards:the_hermit')
+        ).keepIngredient('tarotcards:the_tower')
         event.shaped(
                 Item.of('create:large_cogwheel'),
                 [
@@ -210,7 +211,7 @@ ServerEvents.recipes(event => {
                 {
                         C: '#forge:plates/silver',
                         B: 'ae2:calculation_processor',
-                        A: 'createaddition:electrum_wire'
+                        A: '#forge:ingots/electrum'
                 }
         )
         event.shaped(
@@ -224,6 +225,33 @@ ServerEvents.recipes(event => {
                         B: 'create:brass_ingot',
                         C: 'concatenationcore:circuit',
                         A: 'solarflux:mirror'
+                }
+        )
+        event.shaped(
+                Item.of('create:fluid_tank'),
+                [
+                        ' A ',
+                        ' B ',
+                        ' A '
+                ],
+                {
+                        B: 'tfmg:lead_glass',
+                        A: '#forge:plates/copper'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:machine_frame'),
+                [
+                        'ABA',
+                        'CDC',
+                        'EBE'
+                ],
+                {
+                        C: 'thermal:obsidian_glass',
+                        E: 'createdeco:industrial_iron_ingot',
+                        D: 'concatenationcore:circuit',
+                        B: 'thermal:bronze_gear',
+                        A: 'createdeco:andesite_sheet'
                 }
         )
 });

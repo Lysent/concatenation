@@ -14,14 +14,15 @@ ServerEvents.recipes(event => {
         [
             'ABA',
             'CDE',
-            'ABA'
+            'AfA'
         ],
         {
             E: 'create_dd:music_disc_waltz_of_the_flowers',
-            B: 'elementalcraft:jewel',
+            B: 'elementalcraft:fine_air_gem',
             A: 'concatenationcore:gold_paper',
             C: 'minecraft:nether_star',
-            D: 'tarotcards:the_magician'
+            D: 'tarotcards:the_magician',
+            F: 'elementalcraft:fine_earth_gem'
         }
     ).keepIngredient('tarotcards:the_magician')
     event.shaped(
