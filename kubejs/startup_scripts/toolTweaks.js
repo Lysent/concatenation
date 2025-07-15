@@ -50,6 +50,19 @@ ItemEvents.modification(event => {
 		["tfmg:lead_axe", 10],
 		["tfmg:lead_sword", 9],
 
+		// paxels
+		59, ["mekanismtools:wood_paxel", 3],
+		131, ["mekanismtools:stone_paxel", 4],
+		32, ["mekanismtools:gold_paxel", 5],
+		250, ["mekanismtools:iron_paxel", 5],
+		1561, ["mekanismtools:diamond_paxel", 6],
+		375, ["mekanismtools:bronze_paxel", 5],
+		128, ["mekanismtools:lapis_lazuli_paxel", 4],
+		375, ["mekanismtools:osmium_paxel", 5],
+		3000, ["mekanismtools:refined_glowstone_paxel", 8],
+		4500, ["mekanismtools:refined_obsidian_paxel", 8],
+		1200, ["mekanismtools:steel_paxel", 6],
+
 		// armor
 		"setArmorProtection",
 
