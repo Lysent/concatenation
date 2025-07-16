@@ -14,7 +14,7 @@
 	spawnerBlacklist = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:area_effect_cloud", "minecraft:item", "minecraft:player"]
 	#The amount of energy[FE] that Solid Fuel Quarry generates in a tick.
 	#Range: 0.0 ~ 100.0
-	sfqEnergy = 2.0
+	sfqEnergy = 5.0
 	#Remove common materials(Stone, Dirt, Grass, Sand, etc.) obtained by Chunk Destroyer
 	removeCommonMaterialsByCD = true
 	#Remove fluids after Chunk Destroyer finishes working. Recommended to set `false` as some issues are reported in #371
@@ -22,9 +22,9 @@
 	#Remove MarkerPlus guide line if player is too far from the marker.
 	reduceMarkerGuideLineIfPlayerIsFar = false
 	#Remove adjacent frames when quarry is removed.
-	removeFrameAfterQuarryIsRemoved = false
+	removeFrameAfterQuarryIsRemoved = true
 	#Allow quarries to work in claimed chunk(FTB Chunks).
-	allowWorkInClaimedChunkByFBTChunks = false
+	allowWorkInClaimedChunkByFBTChunks = true
 	#The range limit(unit: blocks) of ChunkDestroyer. Set -1 or 0 to remove limitation.
 	#Range: > -1
 	chunkDestroyerLimit = -1
@@ -52,21 +52,21 @@
 	filler_module = false
 	filter_module = true
 	fuel_module_normal = true
-	mini_quarry = true
-	mining_well = true
-	mover = true
-	placer_plus = true
+	mini_quarry = false
+	mining_well = false
+	mover = false
+	placer_plus = false
 	pump_module = true
 	pump_plus = true
 	quarry = true
 	remote_placer = false
 	remove_bedrock_module = false
-	repeat_tick_module = false
+	repeat_tick_module = true
 	replacer = false
 	replacer_module = false
 	solid_fuel_quarry = true
 	spawner_controller = false
-	workbench = true
+	workbench = false
 
 #Power settings of each machines
 [powers]
@@ -137,11 +137,11 @@
 
 	[powers.quarry]
 		#Range: 0.0 ~ 1.0E9
-		maxEnergy = 10000.0
+		maxEnergy = 100000.0
 		#Range: 0.0 ~ 1.0E9
 		makeFrame = 15.0
 		#Range: 0.0 ~ 1.0E9
-		breakBlockBase = 25.0
+		breakBlockBase = 15.0
 		#Range: 0.0 ~ 1.0E9
 		breakBlockFluid = 125.0
 		#Range: 0.0 ~ 1.0E9

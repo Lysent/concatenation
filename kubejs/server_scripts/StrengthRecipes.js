@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
                 {
                         A: 'celestisynth:celestial_netherite_ingot',
                         D: 'tarotcards:strength',
-                        C: 'create:industrial_iron_block',
+                        C: 'tfmg:aluminum_cable_hub',
                         B: 'ars_nouveau:redstone_relay',
                         F: 'minecraft:respawn_anchor',
                         E: 'minecraft:crying_obsidian'

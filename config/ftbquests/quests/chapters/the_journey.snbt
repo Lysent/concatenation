@@ -12,8 +12,8 @@
 		order: -1
 		rotation: 0.0d
 		width: 250.0d
-		x: 0.5d
-		y: -1.5d
+		x: 1.0d
+		y: 1.0d
 	}]
 	order_index: 1
 	quest_links: [ ]
@@ -8643,26 +8643,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["3060CAEE078FE9A0"]
-			id: "56561B81DFD39545"
-			tasks: [{
-				id: "65BA8EB7FBE4A19F"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "tacz:gun_smith_table"
-				}
-				type: "item"
-			}]
-			x: 0.0d
+			x: 0.5d
 			y: 15.5d
 		}
 		{
@@ -8880,6 +8861,150 @@
 			}]
 			x: -4.0d
 			y: 16.0d
+		}
+		{
+			dependencies: ["11AB2172D3EEA227"]
+			id: "2DE29DAA653712BC"
+			tasks: [
+				{
+					id: "094DF5C695BC0973"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:solar_crystal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "049AFCEB5CD1345E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:solar_crystal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "720134C1A5ADAE4B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:solar_crystal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B5A9C8C2D7F4E71"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:solar_crystal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["11AB2172D3EEA227"]
+			id: "464302EAA7B02567"
+			tasks: [
+				{
+					id: "1835B07E9B101DCF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:lunar_stone_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D209B41FD3B2A19"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:lunar_stone_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76B2276C76B15C61"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:lunar_stone_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03DC0AFBDFD7A761"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:lunar_stone_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 15.5d
 		}
 	]
 	title: "The Journey"

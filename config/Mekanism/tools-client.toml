@@ -2,5 +2,5 @@
 #Mekanism Tools Client Config. This config only exists on the client
 [tools-client]
 	#Enable durability tooltips for Mekanism Tools gear.
-	displayDurabilityTooltips = true
+	displayDurabilityTooltips = false
 
