@@ -54,4 +54,57 @@ ServerEvents.tags('item', event => {
     event.add('tarotcards:golden', 'concatenationcore:shrike')
     event.add('tarotcards:golden', 'concatenationcore:kestrel')
     event.add('tarotcards:golden', 'concatenationcore:kestrel_r')
+
+    [
+        "minecraft:diamond_pickaxe",
+        "minecraft:netherite_pickaxe",
+        "projecte:dm_pick",
+        "projecte:rm_pick",
+        "mekanismtools:refined_glowstone_pickaxe",
+        "mekanismtools:refined_obsidian_pickaxe",
+        "mekanismtools:steel_pickaxe",
+        "psi:psimetal_pickaxe",
+        "create_dd:gilded_rose_pickaxe",
+        "bloodmagic:soulpickaxe",
+        "tfmg:steel_pickaxe"
+    ].forEach(pick => event.add("concatenation:breaking_tools", pick));
+    [
+        "minecraft:diamond_shovel",
+        "minecraft:netherite_shovel",
+        "projecte:dm_shovel",
+        "projecte:rm_shovel",
+        "mekanismtools:refined_glowstone_shovel",
+        "mekanismtools:refined_obsidian_shovel",
+        "mekanismtools:steel_shovel",
+        "psi:psimetal_shovel",
+        "create_dd:gilded_rose_shovel",
+        "bloodmagic:soulshovel",
+        "tfmg:steel_shovel"
+    ].forEach(shovel => event.add("concatenation:mixing_tools", shovel));
+    [
+        "minecraft:diamond_axe",
+        "minecraft:netherite_axe",
+        "projecte:dm_axe",
+        "projecte:rm_axe",
+        "mekanismtools:refined_glowstone_axe",
+        "mekanismtools:refined_obsidian_axe",
+        "mekanismtools:steel_axe",
+        "psi:psimetal_axe",
+        "create_dd:gilded_rose_axe",
+        "bloodmagic:soulaxe",
+        "tfmg:steel_axe"
+    ].forEach(axe => event.add("concatenation:sculpting_tools", axe));
+    [
+        "minecraft:diamond_sword",
+        "minecraft:netherite_sword",
+        "projecte:dm_sword",
+        "projecte:rm_sword",
+        "mekanismtools:refined_glowstone_sword",
+        "mekanismtools:refined_obsidian_sword",
+        "mekanismtools:steel_sword",
+        "psi:psimetal_sword",
+        "create_dd:gilded_rose_sword",
+        "bloodmagic:soulsword",
+        "tfmg:steel_sword"
+    ].forEach(sword => event.add("concatenation:cutting_tools", sword));
 })
