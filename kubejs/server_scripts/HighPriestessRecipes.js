@@ -6,7 +6,8 @@ ServerEvents.recipes(event => {
                 'thermal:dynamo_gourmand',
                 'thermal:dynamo_disenchantment',
                 'thermal:dynamo_lapidary',
-                'thermal:dynamo_magmatic'
+                'thermal:dynamo_magmatic',
+                'thermal:machine_pulverizer'
         ]
 
         remove.forEach(item => {
@@ -115,6 +116,21 @@ ServerEvents.recipes(event => {
                         B: 'thermal:invar_gear',
                         E: '#concatenation:tanks',
                         A: 'thermal:rf_coil'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:machine_pulverizer'),
+                [
+                        ' A ',
+                        'BCB',
+                        'DED'
+                ],
+                {
+                        D: 'thermal:steel_gear',
+                        B: 'minecraft:flint',
+                        E: 'concatenationcore:circuit',
+                        C: 'thermal:machine_frame',
+                        A: 'minecraft:piston'
                 }
         )
 });

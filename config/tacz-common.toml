@@ -18,7 +18,7 @@
 	#Warning: Ammo with explosive properties can break blocks
 	ExplosiveAmmoDestroysBlock = true
 	#Warning: Ammo with explosive properties can set the surroundings on fire
-	ExplosiveAmmoFire = false
+	ExplosiveAmmoFire = true
 	#Ammo with explosive properties can add knockback effect
 	ExplosiveAmmoKnockBack = true
 	#The distance at which the explosion effect can be seen

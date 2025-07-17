@@ -187,7 +187,7 @@ ServerEvents.recipes(event => {
                         C: 'littlelogistics:tug',
                         F: 'concatenationcore:circuit',
                         D: '#concatenation:tech_cards',
-                        A: 'concatenationcore:glowing_gold'
+                        A: 'concatenationcore:glowing_gold_block'
                 }
         ).keepIngredient('#concatenation:tech_cards')
         event.shaped(

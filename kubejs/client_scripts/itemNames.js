@@ -10,6 +10,9 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('hpm:swashbucklerupgrade', 'Raider');
   event.renameItem('hpm:cuttermilitariseditem', 'Armed Cutter');
   event.renameItem('hpm:pirate_cutter_item', 'Black Flag Cutter');
+  event.renameItem('tacz:gun_smith_table', 'Gunsmithing Table');
+  event.renameItem('tacz:workbench_a', 'Ammunition Workbench');
+  event.renameItem('tacz:workbench_c', 'Attachment Workbench');
   event.renameItem('ftbquests:book', 'Eleonore\'s Travels');
   event.renameItem('bloodmagic:doubt_bucket', 'Doubt Bucket');
 

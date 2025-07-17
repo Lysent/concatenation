@@ -122,7 +122,7 @@ ServerEvents.recipes(event => {
                 {
                         C: 'minecraft:ender_pearl',
                         A: 'dimdoors:rift_blade',
-                        B: 'dimdoors:world_thread'
+                        B: 'minecraft:black_wool'
                 }
         ).damageIngredient('dimdoors:rift_blade')
         event.shaped(

@@ -44,7 +44,7 @@
 			solarSynthesizerMaxRunes = 2
 			#the multiplier of lens in the Solar Synthesizer (based on 1500)
 			#Range: 0 ~ 100
-			solarSynthesizerLensElementMultiplier = 10
+			solarSynthesizerLensElementMultiplier = 75
 
 		[elementalcraft.instruments.diffuser]
 			#The amount of element transfered by a diffuser.

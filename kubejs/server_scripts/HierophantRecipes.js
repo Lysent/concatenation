@@ -9,7 +9,8 @@ ServerEvents.recipes(event => {
                 'solarflux:sp_2',
                 'solarflux:photovoltaic_cell_1',
                 'concatenationcore:crushed_iron',
-                'concatenationcore:stickyredstone'
+                'concatenationcore:stickyredstone',
+                'create_enchantment_industry:printer'
 
         ]
 
@@ -800,6 +801,97 @@ ServerEvents.recipes(event => {
                         B: 'concatenation:hammers',
                         A: 'minecraft:redstone',
                         C: '#forge:slimeballs'
+                }
+        )
+        event.shaped(
+                Item.of('quarryplus:marker'),
+                [
+                        'A  ',
+                        'BC ',
+                        '   '
+                ],
+                {
+                        A: 'minecraft:glowstone_dust',
+                        C: 'minecraft:yellow_dye',
+                        B: 'minecraft:torch'
+                }
+        )
+        event.shaped(
+                Item.of('quarryplus:fuel_module_normal'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'minecraft:blaze_rod',
+                        A: 'minecraft:copper_block',
+                        C: 'minecraft:blast_furnace'
+                }
+        )
+        event.shaped(
+                Item.of('quarryplus:filter_module'),
+                [
+                        'ABA',
+                        ' C ',
+                        'ABA'
+                ],
+                {
+                        C: 'minecraft:ender_pearl',
+                        B: 'minecraft:flint_and_steel',
+                        A: 'minecraft:string'
+                }
+        )
+        event.shaped(
+                Item.of('quarryplus:repeat_tick_module', 4),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'createmetallurgy:steel_ingot',
+                        B: 'rftoolsbase:infused_diamond',
+                        C: 'reliquary:molten_core'
+                }
+        )
+        event.shaped(
+                Item.of('quarryplus:repeat_tick_module'),
+                [
+                        'ABA',
+                        'CCC',
+                        'ABA'
+                ],
+                {
+                        A: 'concatenationcore:galvanized_iron',
+                        B: 'minecraft:diamond',
+                        C: 'thermal:rf_coil'
+                }
+        )
+        event.shaped(
+                Item.of('create_enchantment_industry:printer'),
+                [
+                        ' A ',
+                        ' B ',
+                        'CDC'
+                ],
+                {
+                        C: 'elementalcraft:drenched_iron_ingot',
+                        B: 'minecraft:dried_kelp',
+                        D: 'elementalcraft:swift_alloy_ingot',
+                        A: 'create:copper_casing'
+                }
+        )
+        event.shaped(
+                Item.of('createaddition:electrum_wire', 3),
+                [
+                        'AB ',
+                        '   ',
+                        '   '
+                ],
+                {
+                        A: 'concatenation:hammers',
+                        B: 'thermal:electrum_plate'
                 }
         )
 });

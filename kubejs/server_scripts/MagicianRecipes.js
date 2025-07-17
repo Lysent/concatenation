@@ -13,7 +13,9 @@ ServerEvents.recipes(event => {
                 'ars_nouveau:arcane_pedestal',
                 'ars_nouveau:alteration_table',
                 'waystones:warp_stone',
-                'elementalcraft:elementpipe_impaired'
+                'elementalcraft:elementpipe_impaired',
+                'ars_nouveau:imbuement_chamber',
+                'ars_nouveau:source_jar'
         ]
 
         remove.forEach(item => {
@@ -280,7 +282,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('concatenationcore:elemental_lens'),
+                Item.of('concatenationcore:elemental_lens', 4),
                 [
                         ' A ',
                         'BCD',
@@ -376,6 +378,19 @@ ServerEvents.recipes(event => {
                         B: 'elementalcraft:watercrystal'
                 }
         )
+        event.shaped(
+                Item.of('bloodmagic:sand_netherite'),
+                [
+                        'ABB',
+                        'BBC',
+                        'BB '
+                ],
+                {
+                        B: 'concatenationcore:acclimated_shard',
+                        C: 'create:sand_paper',
+                        A: 'minecraft:diamond_pickaxe'
+                }
+        ).damageIngredient('minecraft:diamond_pickaxe')
         event.recipes.ars_nouveau.imbuement(
                 'concatenationcore:mundane_silver',
                 'concatenationcore:sourcesilver',

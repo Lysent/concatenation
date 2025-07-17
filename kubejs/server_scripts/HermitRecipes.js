@@ -8,7 +8,8 @@ ServerEvents.recipes(event => {
                 'create:large_cogwheel',
                 'create:mechanical_mixer',
                 'create:mechanical_press',
-                'create:fluid_tank'
+                'create:fluid_tank',
+                'create_enchantment_industry:enchanting_guide'
         ]
 
         remove.forEach(item => {
@@ -252,6 +253,19 @@ ServerEvents.recipes(event => {
                         D: 'concatenationcore:circuit',
                         B: 'thermal:bronze_gear',
                         A: 'createdeco:andesite_sheet'
+                }
+        )
+        event.shaped(
+                Item.of('create_enchantment_industry:enchanting_guide'),
+                [
+                        ' A ',
+                        'BC ',
+                        '   '
+                ],
+                {
+                        C: 'minecraft:writable_book',
+                        B: 'create:sturdy_sheet',
+                        A: 'elementalcraft:springaline_shard'
                 }
         )
 });

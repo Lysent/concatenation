@@ -1388,8 +1388,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.5d
-			y: 8.0d
+			x: -10.75d
+			y: 8.25d
 		}
 		{
 			dependencies: [
@@ -2621,21 +2621,75 @@
 		{
 			dependencies: ["6635F7B2CD984F4F"]
 			id: "01383DAE3AE95A28"
-			tasks: [{
-				id: "63DEDA20A3C5B70B"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			tasks: [
+				{
+					id: "63DEDA20A3C5B70B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
 						}
+						id: "elementalcraft:extractor_improved"
 					}
-					id: "elementalcraft:extractor_improved"
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: 15.0d
+				{
+					id: "58EF473CDAE82535"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "elementalcraft:reservoir_earth"
+					}
+					type: "item"
+				}
+				{
+					id: "6EC2DC8438B230AB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "elementalcraft:reservoir_fire"
+					}
+					type: "item"
+				}
+				{
+					id: "0D98B1B347E155C6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "elementalcraft:reservoir_water"
+					}
+					type: "item"
+				}
+				{
+					id: "0329B0108D186524"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "elementalcraft:reservoir_air"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
@@ -2654,7 +2708,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 14.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
@@ -2673,7 +2727,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 13.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["5DF3CE9894B8409C"]
@@ -2755,7 +2809,7 @@
 				}
 			]
 			x: 6.5d
-			y: 14.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["2A33F6E189A28CDF"]
@@ -2774,10 +2828,10 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 15.0d
+			y: 14.5d
 		}
 		{
-			dependencies: ["6635F7B2CD984F4F"]
+			dependencies: ["51E48EAB50B0971E"]
 			id: "77B0944FD82CEEC4"
 			tasks: [{
 				id: "7CD11D137E92614C"
@@ -2792,7 +2846,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.0d
 			y: 17.0d
 		}
 		{
@@ -2871,7 +2925,7 @@
 				title: "Any Displacement Plate"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: 16.0d
 		}
 		{
@@ -2894,7 +2948,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["6635F7B2CD984F4F"]
+			dependencies: ["51E48EAB50B0971E"]
 			id: "0FEAAED9134BC54E"
 			tasks: [{
 				id: "47FCC76BFC961B52"
@@ -3152,7 +3206,7 @@
 				title: "Any Jewel"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 8.5d
 			y: 16.0d
 		}
 		{
@@ -3175,7 +3229,12 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["6EB5A9ACC0090BC7"]
+			dependencies: [
+				"6EB5A9ACC0090BC7"
+				"54218CCAAF11DC4B"
+				"51E48EAB50B0971E"
+			]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "6A5FC0572660FB1E"
 			size: 1.15d
@@ -6362,8 +6421,8 @@
 				}
 			]
 			title: "Gearboxes"
-			x: -6.0d
-			y: 15.0d
+			x: -8.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["335D849D587BCE73"]
@@ -6396,8 +6455,8 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: 16.0d
+			x: -8.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["7948CF780F8B6C0B"]
@@ -6415,7 +6474,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -7.0d
 			y: 15.0d
 		}
 		{
@@ -6450,7 +6509,7 @@
 				}
 			]
 			title: "Press \\& Mixer"
-			x: -5.0d
+			x: -7.0d
 			y: 16.0d
 		}
 		{
@@ -6510,7 +6569,7 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
+			x: -5.0d
 			y: 17.0d
 		}
 		{
@@ -6529,7 +6588,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -7.0d
 			y: 17.0d
 		}
 		{
@@ -6548,7 +6607,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -7.0d
 			y: 18.0d
 		}
 		{
@@ -6567,7 +6626,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.5d
 			y: 19.0d
 		}
 		{
@@ -6586,7 +6645,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.5d
 			y: 20.0d
 		}
 		{
@@ -6606,7 +6665,7 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
+			x: -8.5d
 			y: 21.0d
 		}
 		{
@@ -6627,7 +6686,7 @@
 				type: "item"
 			}]
 			title: "A Pair Of Giants"
-			x: -7.0d
+			x: -8.5d
 			y: 22.0d
 		}
 		{
@@ -6647,7 +6706,7 @@
 				type: "item"
 			}]
 			title: "The Age of Engines"
-			x: -7.0d
+			x: -8.5d
 			y: 23.0d
 		}
 		{
@@ -6666,7 +6725,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.5d
 			y: 19.0d
 		}
 		{
@@ -6688,7 +6747,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.5d
 			y: 21.0d
 		}
 		{
@@ -6722,7 +6781,7 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -4.5d
 			y: 18.0d
 		}
 		{
@@ -6741,7 +6800,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -8.5d
 			y: 17.0d
 		}
 		{
@@ -6802,7 +6861,7 @@
 				}
 			]
 			title: "Power Connection"
-			x: -7.0d
+			x: -9.5d
 			y: 18.0d
 		}
 		{
@@ -6837,7 +6896,7 @@
 				}
 			]
 			title: "Power Transformation"
-			x: -7.0d
+			x: -9.5d
 			y: 19.5d
 		}
 		{
@@ -6885,7 +6944,7 @@
 				}
 			]
 			title: "Foundry Machines"
-			x: -3.0d
+			x: -4.5d
 			y: 19.0d
 		}
 		{
@@ -6930,7 +6989,7 @@
 				}
 			]
 			title: "Steel and its brothers"
-			x: -3.0d
+			x: -4.0d
 			y: 20.0d
 		}
 		{
@@ -6979,7 +7038,7 @@
 				}
 			]
 			title: "Steel Piping"
-			x: -3.0d
+			x: -4.5d
 			y: 21.0d
 		}
 		{
@@ -7080,7 +7139,7 @@
 				}
 			]
 			title: "O I L"
-			x: -3.0d
+			x: -4.5d
 			y: 22.0d
 		}
 		{
@@ -7129,7 +7188,7 @@
 				}
 			]
 			title: "The Refinery"
-			x: -3.0d
+			x: -4.5d
 			y: 23.0d
 		}
 		{
@@ -7178,7 +7237,7 @@
 				}
 			]
 			title: "The Age of Engines"
-			x: -3.0d
+			x: -4.5d
 			y: 24.0d
 		}
 		{
@@ -7780,47 +7839,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["36318C8D65509470"]
-			id: "6A98F1ADDEF37D4F"
-			tasks: [{
-				id: "66C79F8642329963"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "thermal:machine_smelter"
-				}
-				type: "item"
-			}]
-			x: -11.0d
-			y: 9.5d
-		}
-		{
-			dependencies: [
-				"6A98F1ADDEF37D4F"
-				"33F8735D8322AFE6"
-			]
-			id: "0ED2B4CE782BF97D"
-			tasks: [{
-				id: "219AA8D076DFE7B0"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "createmetallurgy:steel_ingot"
-				}
-				type: "item"
-			}]
-			x: -12.5d
-			y: 10.0d
-		}
-		{
 			dependencies: ["06A4BEEE42830A85"]
 			hide_dependency_lines: true
 			id: "31750A18D07A8904"
@@ -7843,8 +7861,43 @@
 		{
 			dependencies: ["36318C8D65509470"]
 			id: "33F8735D8322AFE6"
-			tasks: [{
-				id: "254352718BC6E9A1"
+			tasks: [
+				{
+					id: "254352718BC6E9A1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "thermal:machine_pyrolyzer"
+					}
+					type: "item"
+				}
+				{
+					id: "31814C4E06D24FA8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "thermal:machine_smelter"
+					}
+					type: "item"
+				}
+			]
+			x: -12.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["2E2A38A96D401883"]
+			hide_dependency_lines: true
+			id: "51211E92BC865FDC"
+			rewards: [{
+				id: "772A3F875C8AA6A5"
 				item: {
 					Count: 1
 					ForgeCaps: {
@@ -7852,17 +7905,10 @@
 							cs.aquaSkin: 0
 						}
 					}
-					id: "thermal:machine_pyrolyzer"
+					id: "thermal:machine_frame"
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["2E2A38A96D401883"]
-			hide_dependency_lines: true
-			id: "51211E92BC865FDC"
 			size: 0.8d
 			tasks: [
 				{
@@ -7936,13 +7982,28 @@
 				}
 			]
 			title: "Hierophant's Way"
-			x: -11.2d
-			y: 7.2d
+			x: -11.45d
+			y: 7.45d
 		}
 		{
-			dependencies: ["0ED2B4CE782BF97D"]
-			hide_dependency_lines: true
+			dependencies: [
+				"33F8735D8322AFE6"
+				"51302FFECDC0E0A7"
+			]
 			id: "2A13540D4E396260"
+			rewards: [{
+				id: "08D69508BB67C209"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:machine_frame"
+				}
+				type: "item"
+			}]
 			size: 0.8d
 			tasks: [
 				{
@@ -8002,8 +8063,8 @@
 				}
 			]
 			title: "High Priestess' Way"
-			x: -11.6d
-			y: 10.8d
+			x: -12.8d
+			y: 10.0d
 		}
 		{
 			dependencies: ["59D783372A16F858"]
@@ -8044,7 +8105,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["0ED2B4CE782BF97D"]
+			dependencies: ["51F0251F529BE03C"]
 			hide_dependency_lines: true
 			id: "4AE782719D5A61F7"
 			size: 1.15d
@@ -8063,8 +8124,8 @@
 				type: "item"
 			}]
 			title: "The High Priestess"
-			x: -14.0d
-			y: 11.0d
+			x: -14.374999999999998d
+			y: 11.499999999999998d
 		}
 		{
 			dependencies: ["61F2F0F9E0158106"]
@@ -8184,7 +8245,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.5d
 			y: 21.0d
 		}
 		{
@@ -8273,7 +8334,7 @@
 				type: "item"
 			}]
 			title: "The Tower"
-			x: -5.0d
+			x: -5.5d
 			y: 13.5d
 		}
 		{
@@ -8628,7 +8689,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["3060CAEE078FE9A0"]
+			dependencies: ["05C581711196984B"]
 			id: "11AB2172D3EEA227"
 			tasks: [{
 				id: "4ABECACC9AFEE13E"
@@ -8644,7 +8705,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 15.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -8669,6 +8730,19 @@
 		{
 			dependencies: ["36318C8D65509470"]
 			id: "405495BB2F379536"
+			rewards: [{
+				id: "1D2AC18B6300BA25"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:machine_frame"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "72D5278A007CB2C5"
 				item: {
@@ -8682,12 +8756,25 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: 7.5d
+			x: -12.75d
+			y: 7.75d
 		}
 		{
 			dependencies: ["405495BB2F379536"]
 			id: "42353FA6F7027E06"
+			rewards: [{
+				id: "18C379294CC091C5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:machine_frame"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0AD483B0D732BEDA"
 				item: {
@@ -8760,8 +8847,8 @@
 				title: "Any Non-Stirling Dynamo"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 7.5d
+			x: -14.25d
+			y: 7.75d
 		}
 		{
 			dependencies: ["3A27EA4C48429EA7"]
@@ -8840,8 +8927,8 @@
 				}
 			]
 			title: "Hermit's Way"
-			x: -9.6d
-			y: 8.4d
+			x: -9.85d
+			y: 8.65d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -8859,11 +8946,11 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.5d
 			y: 16.0d
 		}
 		{
-			dependencies: ["11AB2172D3EEA227"]
+			dependencies: ["4E774C5B363CBBA8"]
 			id: "2DE29DAA653712BC"
 			tasks: [
 				{
@@ -8932,10 +9019,10 @@
 				}
 			]
 			x: 2.0d
-			y: 15.5d
+			y: 16.5d
 		}
 		{
-			dependencies: ["11AB2172D3EEA227"]
+			dependencies: ["07C4F5356EFBBE09"]
 			id: "464302EAA7B02567"
 			tasks: [
 				{
@@ -9004,7 +9091,402 @@
 				}
 			]
 			x: -1.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["3CC948E467CCC4C6"]
+			id: "3F86C492412EBA3F"
+			size: 1.15d
+			tasks: [{
+				id: "75AA9D315F15101E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:judgement"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Judgement"
+			x: -2.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6635F7B2CD984F4F"]
+			id: "51E48EAB50B0971E"
+			tasks: [{
+				id: "2A961A4BE5B91E36"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "elementalcraft:fireite_ingot"
+				}
+				type: "item"
+			}]
+			x: 7.0d
 			y: 15.5d
+		}
+		{
+			dependencies: ["5F92E8FC88D86566"]
+			id: "7F3E1C9584311948"
+			tasks: [{
+				id: "404B80851AE30A45"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "quarryplus:repeat_tick_module"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F92E8FC88D86566"]
+			id: "29622D81B3588FEE"
+			tasks: [{
+				id: "2482BC9A1934F67B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "quarryplus:fuel_module_normal"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F92E8FC88D86566"]
+			id: "4AB01062358D98BD"
+			tasks: [{
+				id: "72F15971CDB05576"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "quarryplus:marker"
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F86C492412EBA3F"]
+			id: "736444B92EEE2C59"
+			tasks: [{
+				id: "6AF26A28A43B28CD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tacz:gun_smith_table"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3F86C492412EBA3F"]
+			id: "3E615BD9F6833A17"
+			tasks: [{
+				id: "2BA6EF725500BE0F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tacz:workbench_a"
+					tag: {
+						BlockId: "tacz:ammo_workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3F86C492412EBA3F"]
+			id: "42CCA888F4282961"
+			tasks: [{
+				id: "5860E1CC9E447DFD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tacz:workbench_c"
+					tag: {
+						BlockId: "tacz:attachment_workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"4BC31DEA551E23FE"
+				"4FA1B8DD76B592DD"
+			]
+			hide_dependency_lines: true
+			id: "46AF90F7869F29F3"
+			size: 1.15d
+			tasks: [
+				{
+					id: "73633CB3314C80D9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create_enchantment_industry:printer"
+					}
+					type: "item"
+				}
+				{
+					id: "55629A815155D6E7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create_enchantment_industry:enchanting_guide"
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["04DD33AF3AA672CD"]
+			id: "07C4F5356EFBBE09"
+			tasks: [{
+				id: "04F3C6CC6587F22C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "concatenationcore:lunepse"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["188786E302DE3681"]
+			id: "4E774C5B363CBBA8"
+			tasks: [{
+				id: "5D74579C489A3C40"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "concatenationcore:soleipse"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3060CAEE078FE9A0"]
+			id: "04DD33AF3AA672CD"
+			tasks: [{
+				id: "77FD222FE93D39A2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:lunar_scrap"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3060CAEE078FE9A0"]
+			id: "188786E302DE3681"
+			tasks: [{
+				id: "1B0C47A414303768"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:solar_crystal"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3060CAEE078FE9A0"]
+			id: "05C581711196984B"
+			tasks: [{
+				id: "34E1AC7B49E27A8F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:celestial_netherite_ingot"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["36318C8D65509470"]
+			id: "51302FFECDC0E0A7"
+			tasks: [{
+				id: "5893865D8DF1FC65"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:machine_press"
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["405495BB2F379536"]
+			id: "4D66CC58CC466767"
+			size: 0.75d
+			tasks: [{
+				id: "2E1A14EFF01BEFB1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:energy_duct"
+				}
+				type: "item"
+			}]
+			x: -12.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["2A13540D4E396260"]
+			id: "51F0251F529BE03C"
+			tasks: [{
+				id: "10A38B480D001D74"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:machine_pulverizer"
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["36318C8D65509470"]
+			hide_dependency_lines: true
+			id: "333D89A47DCEEC3D"
+			tasks: [{
+				id: "3F7F65F01FB91F4B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:machine_furnace"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			hide_dependency_lines: true
+			id: "0D70725FEAF0DC7B"
+			size: 1.15d
+			tasks: [{
+				id: "6C0DAA6D71B056FE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:the_hanged_man"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.6d
+			y: -9.2d
 		}
 	]
 	title: "The Journey"
