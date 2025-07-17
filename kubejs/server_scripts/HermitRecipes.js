@@ -4,7 +4,6 @@ ServerEvents.recipes(event => {
                 'create:whisk',
                 'tconstruct:grout',
                 'thermal:machine_frame',
-                'create:empty_blaze_burner',
                 'create:large_cogwheel',
                 'create:mechanical_mixer',
                 'create:mechanical_press',
@@ -129,20 +128,6 @@ ServerEvents.recipes(event => {
                         A: 'createmetallurgy:steel_ingot',
                         D: 'concatenationcore:circuit',
                         B: 'thermal:tin_gear'
-                }
-        )
-        event.shaped(
-                Item.of('create:empty_blaze_burner'),
-                [
-                        'ABA',
-                        'CDC',
-                        'ACA'
-                ],
-                {
-                        C: 'minecraft:polished_blackstone',
-                        D: 'minecraft:nether_wart_block',
-                        A: '#forge:plates/iron',
-                        B: 'minecraft:iron_bars'
                 }
         )
         event.shaped(
