@@ -1,59 +1,59 @@
 ServerEvents.tags('item', event => {
-    event.add('concatenation:tech_cards', 'tarotcards:the_hierophant')
-    event.add('concatenation:tech_cards', 'tarotcards:the_hermit')
-    event.add('concatenation:magic_cards', 'tarotcards:temperance')
-    event.add('concatenation:magic_cards', 'tarotcards:the_magician')
-    event.add('concatenation:middle_cards', 'tarotcards:the_hermit')
-    event.add('concatenation:middle_cards', 'tarotcards:the_magician')
+    event.add('concatenation:tech_cards', 'tarotcards:the_hierophant');
+    event.add('concatenation:tech_cards', 'tarotcards:the_hermit');
+    event.add('concatenation:magic_cards', 'tarotcards:temperance');
+    event.add('concatenation:magic_cards', 'tarotcards:the_magician');
+    event.add('concatenation:middle_cards', 'tarotcards:the_hermit');
+    event.add('concatenation:middle_cards', 'tarotcards:the_magician');
 
-    event.add('concatenation:hammers', 'concatenationcore:hammer')
-    event.add('concatenation:hammers', 'concatenationcore:ironclad_hammer')
+    event.add('concatenation:hammers', 'concatenationcore:hammer');
+    event.add('concatenation:hammers', 'concatenationcore:ironclad_hammer');
 
-    event.add('concatenation:lower_circuits', 'concatenationcore:circuit')
-    event.add('concatenation:lower_circuits', 'concatenationcore:altcircuit')
-    event.add('forge:circuits', 'concatenationcore:circuit')
-    event.add('forge:circuits', 'concatenationcore:altcircuit')
+    event.add('concatenation:lower_circuits', 'concatenationcore:circuit');
+    event.add('concatenation:lower_circuits', 'concatenationcore:altcircuit');
+    event.add('forge:circuits', 'concatenationcore:circuit');
+    event.add('forge:circuits', 'concatenationcore:altcircuit');
 
-    event.add('concatenation:tanks', 'littlelogistics:fluid_barge')
-    event.add('concatenation:tanks', 'littlelogistics:fluid_car')
-    event.add('concatenation:tanks', 'mekanism:basic_fluid_tank')
-    event.add('concatenation:tanks', 'create:fluid_tank')
-    event.add('concatenation:tanks', 'tconstruct:seared_ingot_tank')
-    event.add('concatenation:tanks', 'tconstruct:seared_fuel_tank')
+    event.add('concatenation:tanks', 'littlelogistics:fluid_barge');
+    event.add('concatenation:tanks', 'littlelogistics:fluid_car');
+    event.add('concatenation:tanks', 'mekanism:basic_fluid_tank');
+    event.add('concatenation:tanks', 'create:fluid_tank');
+    event.add('concatenation:tanks', 'tconstruct:seared_ingot_tank');
+    event.add('concatenation:tanks', 'tconstruct:seared_fuel_tank');
 
-    event.add('forge:consumables/experience_3', 'concatenationcore:experience_orb')
-    event.add('minecraft:swords', 'asr:diamond_giant_sword')
-    event.add('minecraft:swords', 'asr:golden_giant_sword')
-    event.add('minecraft:swords', 'asr:iron_giant_sword')
-    event.add('minecraft:swords', 'asr:wooden_giant_sword')
-    event.add('minecraft:swords', 'asr:stone_giant_sword')
-    event.add('minecraft:swords', 'asr:ender_giant_sword')
+    event.add('forge:consumables/experience_3', 'concatenationcore:experience_orb');
+    event.add('minecraft:swords', 'asr:diamond_giant_sword');
+    event.add('minecraft:swords', 'asr:golden_giant_sword');
+    event.add('minecraft:swords', 'asr:iron_giant_sword');
+    event.add('minecraft:swords', 'asr:wooden_giant_sword');
+    event.add('minecraft:swords', 'asr:stone_giant_sword');
+    event.add('minecraft:swords', 'asr:ender_giant_sword');
 
-    event.add('elementalcraft:infusable/helmets', 'concatenationcore:cultist_armor_helmet')
-    event.add('elementalcraft:infusable/chestplates', 'concatenationcore:cultist_armor_chestplate')
-    event.add('elementalcraft:infusable/leggings', 'concatenationcore:cultist_armor_leggings')
-    event.add('elementalcraft:infusable/boots', 'concatenationcore:cultist_armor_boots')
-    event.add('forge:armors', 'concatenationcore:cultist_armor_helmet')
-    event.add('forge:armors', 'concatenationcore:cultist_armor_chestplate')
-    event.add('forge:armors', 'concatenationcore:cultist_armor_leggings')
-    event.add('forge:armors', 'concatenationcore:cultist_armor_boots')
+    event.add('elementalcraft:infusable/helmets', 'concatenationcore:cultist_armor_helmet');
+    event.add('elementalcraft:infusable/chestplates', 'concatenationcore:cultist_armor_chestplate');
+    event.add('elementalcraft:infusable/leggings', 'concatenationcore:cultist_armor_leggings');
+    event.add('elementalcraft:infusable/boots', 'concatenationcore:cultist_armor_boots');
+    event.add('forge:armors', 'concatenationcore:cultist_armor_helmet');
+    event.add('forge:armors', 'concatenationcore:cultist_armor_chestplate');
+    event.add('forge:armors', 'concatenationcore:cultist_armor_leggings');
+    event.add('forge:armors', 'concatenationcore:cultist_armor_boots');
 
-    event.add('elementalcraft:infusable/helmets', 'concatenationcore:condensed_ice_armor_helmet')
-    event.add('elementalcraft:infusable/chestplates', 'concatenationcore:condensed_ice_armor_chestplate')
-    event.add('elementalcraft:infusable/leggings', 'concatenationcore:condensed_ice_armor_leggings')
-    event.add('elementalcraft:infusable/boots', 'concatenationcore:condensed_ice_armor_boots')
-    event.add('forge:armors', 'concatenationcore:condensed_ice_armor_helmet')
-    event.add('forge:armors', 'concatenationcore:condensed_ice_armor_chestplate')
-    event.add('forge:armors', 'concatenationcore:condensed_ice_armor_leggings')
-    event.add('forge:armors', 'concatenationcore:condensed_ice_armor_boots')
+    event.add('elementalcraft:infusable/helmets', 'concatenationcore:condensed_ice_armor_helmet');
+    event.add('elementalcraft:infusable/chestplates', 'concatenationcore:condensed_ice_armor_chestplate');
+    event.add('elementalcraft:infusable/leggings', 'concatenationcore:condensed_ice_armor_leggings');
+    event.add('elementalcraft:infusable/boots', 'concatenationcore:condensed_ice_armor_boots');
+    event.add('forge:armors', 'concatenationcore:condensed_ice_armor_helmet');
+    event.add('forge:armors', 'concatenationcore:condensed_ice_armor_chestplate');
+    event.add('forge:armors', 'concatenationcore:condensed_ice_armor_leggings');
+    event.add('forge:armors', 'concatenationcore:condensed_ice_armor_boots');
 
-    event.add('tarotcards:golden', 'asr:golden_giant_sword')
-    event.add('tarotcards:golden', 'mekanismtools:gold_paxel')
-    event.add('tarotcards:golden', 'farmersdelight:golden_knife')
-    event.add('tarotcards:golden', 'dimdoors:rift_blade')
-    event.add('tarotcards:golden', 'concatenationcore:shrike')
-    event.add('tarotcards:golden', 'concatenationcore:kestrel')
-    event.add('tarotcards:golden', 'concatenationcore:kestrel_r')
+    event.add('tarotcards:golden', 'asr:golden_giant_sword');
+    event.add('tarotcards:golden', 'mekanismtools:gold_paxel');
+    event.add('tarotcards:golden', 'farmersdelight:golden_knife');
+    event.add('tarotcards:golden', 'dimdoors:rift_blade');
+    event.add('tarotcards:golden', 'concatenationcore:shrike');
+    event.add('tarotcards:golden', 'concatenationcore:kestrel');
+    event.add('tarotcards:golden', 'concatenationcore:kestrel_r');
 
     // [
     //     "minecraft:diamond_pickaxe",
@@ -107,4 +107,9 @@ ServerEvents.tags('item', event => {
     //     "bloodmagic:soulsword",
     //     "tfmg:steel_sword"
     // ].forEach(sword => event.add("concatenation:cutting_tools", sword));
+
+    ([
+        "ars_nouveau:void_prism",
+        "hexerei:crystal_ball"
+    ]).forEach(lens => event.add("concatenation:magic_lens", lens));
 })
