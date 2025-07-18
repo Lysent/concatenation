@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
         [
             "ABA",
             "CDE",
-            "AfA"
+            "AFA"
         ],
         {
             E: "create_dd:music_disc_waltz_of_the_flowers",
@@ -149,6 +149,22 @@ ServerEvents.recipes(event => {
             "minecraft:netherite_scrap",
             "irons_spellbooks:arcane_essence",
         ]
+    );
+
+    event.shaped( // true cooldown ring
+        Item.of(
+            "irons_spellbooks:affinity_ring", 
+            "{display:{Name:'{\"text\":\"Ring of True Speed\"}'},CurioAttributeModifiers:[{AttributeName:\"irons_spellbooks:cooldown_reduction\",Name:\"irons_spellbooks:cooldown_reduction\",Amount:2,Operation:2,UUID:[I;-1093106719,2113816580,-1757804057,158672533],Slot:\"ring\"},{AttributeName:\"irons_spellbooks:cast_time_reduction\",Name:\"irons_spellbooks:cast_time_reduction\",Amount:0.5,Operation:2,UUID:[I;527994327,1899842476,-1977030579,1597526457],Slot:\"ring\"}]}"
+        ),
+        [
+            "CCC",
+            "CRC",
+            "CCC"
+        ],
+        {
+            C: "irons_spellbooks:cooldown_ring",
+            R: "irons_spellbooks:affinity_ring",
+        }
     );
 
 });
