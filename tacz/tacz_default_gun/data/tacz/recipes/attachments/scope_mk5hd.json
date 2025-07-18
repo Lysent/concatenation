@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "item": "ae2:quartz_vibrant_glass"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/glowstone"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 8
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:scope_mk5hd"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

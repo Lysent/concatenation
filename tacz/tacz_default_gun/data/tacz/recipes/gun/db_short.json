@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:stripped_logs"
+      },
+      "count": 6
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:db_short"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:stripped_logs"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:bayonet_6h3"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

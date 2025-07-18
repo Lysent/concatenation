@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "ae2:quartz_vibrant_glass"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:scope_retro_2x"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

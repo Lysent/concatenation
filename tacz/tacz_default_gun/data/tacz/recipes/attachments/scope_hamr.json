@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "count": 18
+    },
+    {
+      "item": {
+        "item": "ae2:quartz_vibrant_glass"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:scope_hamr"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}
