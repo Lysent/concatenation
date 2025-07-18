@@ -1,14 +1,14 @@
 ServerEvents.recipes(event => {
 
-    const remove = [
-        'mna:manaweaver_wand',
-        'mna:occulus'
-    ]
+    [
+        "irons_spellbooks:inscription_table",
+        "irons_spellbooks:scroll_forge",
+        "irons_spellbooks:arcane_anvil",
 
-    remove.forEach(item => {
-        event.remove({ output: item })
-    })
+    ].forEach(item => event.remove({ output: item }));
 
+
+    // star card
     event.shaped(
         Item.of('tarotcards:the_star'),
         [
@@ -40,60 +40,107 @@ ServerEvents.recipes(event => {
             E: 'concatenationcore:descran',
             A: 'concatenationcore:gold_paper'
         }
-    ).keepIngredient('tarotcards:temperance')
+    ).keepIngredient('tarotcards:temperance');
+
+    // gated recipes
     event.shaped(
-        Item.of('mna:occulus'),
+        Item.of('irons_spellbooks:inscription_table'),
         [
-            'ABA',
-            'CDC',
-            ' E '
+            ' CB',
+            'SSS',
+            'F F'
         ],
         {
-            A: 'mna:vinteum_dust',
-            D: 'tarotcards:the_star',
-            E: 'mna:ornate_table',
-            B: 'minecraft:glass',
-            C: 'mna:vinteum_ingot'
+            S: "#minecraft:wooden_slabs",
+            F: "#minecraft:wooden_fences",
+            B: "minecraft:book",
+            C: "tarotcards:the_star"
         }
-    ).keepIngredient('tarotcards:the_star')
+    ).keepIngredient('tarotcards:the_star');
     event.shaped(
-        Item.of('mna:manaweaver_wand'),
+        Item.of('irons_spellbooks:scroll_forge'),
         [
-            ' AB',
-            ' CA',
-            'CD '
+            'SSS',
+            ' RC',
+            'OOO'
         ],
         {
-            B: 'mna:vinteum_dust',
-            D: 'tarotcards:the_star',
-            C: 'minecraft:stick',
-            A: 'mna:vinteum_ingot'
+            S: "minecraft:polished_deepslate",
+            O: "minecraft:crying_obsidian",
+            R: "minecraft:respawn_anchor",
+            C: "tarotcards:the_star"
         }
-    ).keepIngredient('tarotcards:the_star')
+    ).keepIngredient('tarotcards:the_star');
     event.shaped(
-        Item.of('mna:wand_vinteum'),
+        Item.of('irons_spellbooks:arcane_anvil'),
         [
-            '  A',
-            ' B ',
-            'C  '
+            'MMM',
+            ' GC',
+            'SAS'
         ],
         {
-            C: 'tarotcards:the_star',
-            B: 'minecraft:stick',
-            A: 'mna:vinteum_ingot'
+            S: "minecraft:polished_deepslate",
+            A: "minecraft:anvil",
+            M: "minecraft:amethyst_block",
+            G: "#concatenation:magic_lens",
+            C: "tarotcards:the_star"
         }
-    ).keepIngredient('tarotcards:the_star')
-    event.shaped(
-        Item.of('mna:staff_vinteum'),
+    ).keepIngredient('tarotcards:the_star');
+
+    // additional recipes
+    event.shapeless( // blood vial via hexerei
+        Item.of('irons_spellbooks:blood_vial'),
         [
-            '  A',
-            ' B ',
-            'BC '
+            'hexerei:blood_bottle',
+            'minecraft:iron_nugget',
+        ]
+    );
+
+    event.shaped( // blank rune via blood magic
+        Item.of('irons_spellbooks:blank_rune'),
+        [
+            " R ",
+            "RSR",
+            " R "
         ],
         {
-            C: 'tarotcards:the_star',
-            B: 'minecraft:stick',
-            A: 'mna:vinteum_ingot'
+            R: 'bloodmagic:masterritualstone',
+            S: 'minecraft:polished_deepslate_slab',
         }
-    ).keepIngredient('tarotcards:the_star')
+    );
+    event.shapeless( // blank rune via ars nouveau
+        Item.of('irons_spellbooks:blank_rune'),
+        [
+            'ars_nouveau:thread_spellpower',
+            'minecraft:polished_deepslate_slab',
+        ]
+    );
+
+    event.shaped( // arcane salvage via blood magic
+        Item.of('irons_spellbooks:arcane_salvage'),
+        [
+            "EME",
+            "MSM",
+            "EME"
+        ],
+        {
+            E: "irons_spellbooks:arcane_essence",
+            S: 'minecraft:netherite_scrap',
+            M: 'bloodmagic:arcaneashes'
+        }
+    );
+    event.shaped( // arcane salvage via ars nouveau
+        Item.of('irons_spellbooks:arcane_salvage'),
+        [
+            "EME",
+            "MSM",
+            "EME"
+        ],
+        {
+            E: "irons_spellbooks:arcane_essence",
+            S: 'minecraft:netherite_scrap',
+            M: 'ars_nouveau:conjuration_essence'
+        }
+    );
+
 });

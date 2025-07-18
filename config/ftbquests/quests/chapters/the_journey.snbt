@@ -8586,7 +8586,7 @@
 			dependencies: ["14DFB74A4390006D"]
 			id: "0964A0A4B891B993"
 			tasks: [{
-				id: "0B0FC675E3AA49AE"
+				id: "0B688C335D3ADEB8"
 				item: {
 					Count: 1
 					ForgeCaps: {
@@ -8594,10 +8594,7 @@
 							cs.aquaSkin: 0
 						}
 					}
-					id: "mna:wand_vinteum"
-					tag: {
-						Damage: 0
-					}
+					id: "irons_spellbooks:inscription_table"
 				}
 				type: "item"
 			}]
@@ -8608,7 +8605,7 @@
 			dependencies: ["14DFB74A4390006D"]
 			id: "14EECA79A74AACA5"
 			tasks: [{
-				id: "5E93786A5B10DD2A"
+				id: "756D7C401881745D"
 				item: {
 					Count: 1
 					ForgeCaps: {
@@ -8616,7 +8613,7 @@
 							cs.aquaSkin: 0
 						}
 					}
-					id: "mna:occulus"
+					id: "irons_spellbooks:arcane_anvil"
 				}
 				type: "item"
 			}]
@@ -8627,7 +8624,7 @@
 			dependencies: ["14DFB74A4390006D"]
 			id: "5EBC5D22BAD176AB"
 			tasks: [{
-				id: "7058CF43598FBE4B"
+				id: "7E4E5F78686A7897"
 				item: {
 					Count: 1
 					ForgeCaps: {
@@ -8635,7 +8632,7 @@
 							cs.aquaSkin: 0
 						}
 					}
-					id: "mna:guide_book"
+					id: "irons_spellbooks:scroll_forge"
 				}
 				type: "item"
 			}]
