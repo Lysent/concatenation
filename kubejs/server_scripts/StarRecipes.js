@@ -10,45 +10,45 @@ ServerEvents.recipes(event => {
 
     // star card
     event.shaped(
-        Item.of('tarotcards:the_star'),
+        Item.of("tarotcards:the_star"),
         [
-            'ABA',
-            'CDE',
-            'AfA'
+            "ABA",
+            "CDE",
+            "AfA"
         ],
         {
-            E: 'create_dd:music_disc_waltz_of_the_flowers',
-            B: 'elementalcraft:fine_air_gem',
-            A: 'concatenationcore:gold_paper',
-            C: 'minecraft:nether_star',
-            D: 'tarotcards:the_magician',
-            F: 'elementalcraft:fine_earth_gem'
+            E: "create_dd:music_disc_waltz_of_the_flowers",
+            B: "elementalcraft:fine_air_gem",
+            A: "concatenationcore:gold_paper",
+            C: "minecraft:nether_star",
+            D: "tarotcards:the_magician",
+            F: "elementalcraft:fine_earth_gem"
         }
-    ).keepIngredient('tarotcards:the_magician')
+    ).keepIngredient("tarotcards:the_magician")
     event.shaped(
-        Item.of('tarotcards:the_star'),
+        Item.of("tarotcards:the_star"),
         [
-            'ABA',
-            'CDE',
-            'AFA'
+            "ABA",
+            "CDE",
+            "AFA"
         ],
         {
-            C: 'hexerei:moon_dust',
-            F: 'celestisynth:starstruck_scrap',
-            B: 'celestisynth:starstruck_feather',
-            D: 'tarotcards:temperance',
-            E: 'concatenationcore:descran',
-            A: 'concatenationcore:gold_paper'
+            C: "hexerei:moon_dust",
+            F: "celestisynth:starstruck_scrap",
+            B: "celestisynth:starstruck_feather",
+            D: "tarotcards:temperance",
+            E: "concatenationcore:descran",
+            A: "concatenationcore:gold_paper"
         }
-    ).keepIngredient('tarotcards:temperance');
+    ).keepIngredient("tarotcards:temperance");
 
     // gated recipes
     event.shaped(
-        Item.of('irons_spellbooks:inscription_table'),
+        Item.of("irons_spellbooks:inscription_table"),
         [
-            ' CB',
-            'SSS',
-            'F F'
+            " CB",
+            "SSS",
+            "F F"
         ],
         {
             S: "#minecraft:wooden_slabs",
@@ -56,13 +56,13 @@ ServerEvents.recipes(event => {
             B: "minecraft:book",
             C: "tarotcards:the_star"
         }
-    ).keepIngredient('tarotcards:the_star');
+    ).keepIngredient("tarotcards:the_star");
     event.shaped(
-        Item.of('irons_spellbooks:scroll_forge'),
+        Item.of("irons_spellbooks:scroll_forge"),
         [
-            'SSS',
-            ' RC',
-            'OOO'
+            "SSS",
+            " RC",
+            "OOO"
         ],
         {
             S: "minecraft:polished_deepslate",
@@ -70,13 +70,13 @@ ServerEvents.recipes(event => {
             R: "minecraft:respawn_anchor",
             C: "tarotcards:the_star"
         }
-    ).keepIngredient('tarotcards:the_star');
+    ).keepIngredient("tarotcards:the_star");
     event.shaped(
-        Item.of('irons_spellbooks:arcane_anvil'),
+        Item.of("irons_spellbooks:arcane_anvil"),
         [
-            'MMM',
-            ' GC',
-            'SAS'
+            "MMM",
+            " GC",
+            "SAS"
         ],
         {
             S: "minecraft:polished_deepslate",
@@ -85,39 +85,39 @@ ServerEvents.recipes(event => {
             G: "#concatenation:magic_lens",
             C: "tarotcards:the_star"
         }
-    ).keepIngredient('tarotcards:the_star');
+    ).keepIngredient("tarotcards:the_star");
 
     // additional recipes
     event.shapeless( // blood vial via hexerei
-        Item.of('irons_spellbooks:blood_vial'),
+        Item.of("irons_spellbooks:blood_vial"),
         [
-            'hexerei:blood_bottle',
-            'minecraft:iron_nugget',
+            "hexerei:blood_bottle",
+            "minecraft:iron_nugget",
         ]
     );
 
     event.shaped( // blank rune via blood magic
-        Item.of('irons_spellbooks:blank_rune'),
+        Item.of("irons_spellbooks:blank_rune"),
         [
             " R ",
             "RSR",
             " R "
         ],
         {
-            R: 'bloodmagic:masterritualstone',
-            S: 'minecraft:polished_deepslate_slab',
+            R: "bloodmagic:masterritualstone",
+            S: "minecraft:polished_deepslate_slab",
         }
     );
     event.shapeless( // blank rune via ars nouveau
-        Item.of('irons_spellbooks:blank_rune'),
+        Item.of("irons_spellbooks:blank_rune"),
         [
-            'ars_nouveau:thread_spellpower',
-            'minecraft:polished_deepslate_slab',
+            "ars_nouveau:thread_spellpower",
+            "minecraft:polished_deepslate_slab",
         ]
     );
 
     event.shaped( // arcane salvage via blood magic
-        Item.of('irons_spellbooks:arcane_salvage'),
+        Item.of("irons_spellbooks:arcane_salvage"),
         [
             "EME",
             "MSM",
@@ -125,12 +125,12 @@ ServerEvents.recipes(event => {
         ],
         {
             E: "irons_spellbooks:arcane_essence",
-            S: 'minecraft:netherite_scrap',
-            M: 'bloodmagic:arcaneashes'
+            S: "minecraft:netherite_scrap",
+            M: "bloodmagic:arcaneashes"
         }
     );
     event.shaped( // arcane salvage via ars nouveau
-        Item.of('irons_spellbooks:arcane_salvage'),
+        Item.of("irons_spellbooks:arcane_salvage"),
         [
             "EME",
             "MSM",
@@ -138,9 +138,17 @@ ServerEvents.recipes(event => {
         ],
         {
             E: "irons_spellbooks:arcane_essence",
-            S: 'minecraft:netherite_scrap',
-            M: 'ars_nouveau:conjuration_essence'
+            S: "minecraft:netherite_scrap",
+            M: "ars_nouveau:conjuration_essence"
         }
+    );
+
+    event.shapeless( // craftable armour piles
+        Item.of("irons_spellbooks:armor_pile", 4),
+        [
+            "minecraft:netherite_scrap",
+            "irons_spellbooks:arcane_essence",
+        ]
     );
 
 });
