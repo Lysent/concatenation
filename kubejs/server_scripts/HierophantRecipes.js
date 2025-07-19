@@ -890,8 +890,34 @@ ServerEvents.recipes(event => {
                         '   '
                 ],
                 {
-                        A: 'concatenation:hammers',
+                        A: '#concatenation:hammers',
                         B: 'thermal:electrum_plate'
                 }
         )
+        event.shaped(
+                Item.of('concatenationcore:crushed_iron', 3),
+                [
+                        'AB ',
+                        '   ',
+                        '   '
+                ],
+                {
+                        A: '#concatenation:cutting_tools',
+                        B: 'createmetallurgy:iron_dust'
+                }
+        ).damageIngredient('#concatenation:breaking_tools')
+        event.shaped(
+                Item.of('concatenationcore:crushed_zinc', 3),
+                [
+                        'AB ',
+                        '   ',
+                        '   '
+                ],
+                {
+                        B: 'createmetallurgy:zinc_dust',
+                        A: '#concatenation:cutting_tools'
+                }
+        ).damageIngredient('#concatenation:breaking_tools')
+
+        event.recipes.thermal.pulverizer(Item.of('createmetallurgy:zinc_dust').withChance(1.5), 'create:zinc_ingot').energy(100)
 });

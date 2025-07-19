@@ -139,6 +139,11 @@
     "modId": "borninconfiguration",
     "version": "3.0.3"
   },
+  "caelus-forge-3.2.0+1.20.1.jar": {
+    "jarName": "caelus-forge-3.2.0+1.20.1.jar",
+    "modId": "caelus",
+    "version": "3.2.0+1.20.1"
+  },
   "carryon-forge-1.20.1-2.1.2.7.jar": {
     "jarName": "carryon-forge-1.20.1-2.1.2.7.jar",
     "modId": "carryon",
@@ -534,11 +539,6 @@
     "modId": "ftbxmodcompat",
     "version": "2.1.3"
   },
-  "FTBQuestsOptimizer-forge-2.0.5-1.20.1.jar": {
-    "jarName": "FTBQuestsOptimizer-forge-2.0.5-1.20.1.jar",
-    "modId": "ftbqoptimizer",
-    "version": "2.0.5-1.20.1"
-  },
   "fzzy_config-0.7.0+1.20.1+forge.jar": {
     "jarName": "fzzy_config-0.7.0+1.20.1+forge.jar",
     "modId": "fzzy_config",
@@ -649,6 +649,11 @@
     "modId": "ironchest",
     "version": "1.20.1-14.4.4"
   },
+  "irons_spellbooks-1.20.1-3.4.0.9.jar": {
+    "jarName": "irons_spellbooks-1.20.1-3.4.0.9.jar",
+    "modId": "irons_spellbooks",
+    "version": "1.20.1-3.4.0.9"
+  },
   "item-filters-forge-2001.1.0-build.59.jar": {
     "jarName": "item-filters-forge-2001.1.0-build.59.jar",
     "modId": "itemfilters",
@@ -686,6 +691,11 @@
     "jarName": "kubejs-forge-2001.6.5-build.16.jar",
     "modId": "kubejs",
     "version": "2001.6.5-build.16"
+  },
+  "kubejs-thermal-2001.1.10-build.2.jar": {
+    "jarName": "kubejs-thermal-2001.1.10-build.2.jar",
+    "modId": "kubejs_thermal",
+    "version": "2001.1.10-build.2"
   },
   "kubejsarsnouveau-1.2.2.jar": {
     "jarName": "kubejsarsnouveau-1.2.2.jar",
@@ -727,6 +737,11 @@
     "modId": "mr_lukis_grandcapitals",
     "version": "1.1.1"
   },
+  "manaunification-1.20.1-1.0.3.jar": {
+    "jarName": "manaunification-1.20.1-1.0.3.jar",
+    "modId": "manaunification",
+    "version": "1.0.3"
+  },
   "Mantle-1.20.1-1.11.63.jar": {
     "jarName": "Mantle-1.20.1-1.11.63.jar",
     "modId": "mantle",
@@ -761,11 +776,6 @@
     "jarName": "minecolonies-1.20.1-1.1.873-alpha.jar",
     "modId": "minecolonies",
     "version": "1.20.1-1.1.873-alpha"
-  },
-  "mna-forge-1.20.1-3.1.0.8-all.jar": {
-    "jarName": "mna-forge-1.20.1-3.1.0.8-all.jar",
-    "modId": "mna",
-    "version": "3.1.0.8"
   },
   "modernfix-forge-5.24.3+mc1.20.1.jar": {
     "jarName": "modernfix-forge-5.24.3+mc1.20.1.jar",

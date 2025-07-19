@@ -44,6 +44,13 @@ ServerEvents.recipes(event => {
                         'hexerei:blood_bottle'
                 ]
         )
+        event.shapeless(
+                Item.of('patchouli:guide_book', '{"patchouli:book":"irons_spellbooks:iss_guide_book"}'),
+                [
+                        'minecraft:book',
+                        'irons_spellbooks:arcane_essence'
+                ]
+        )
         event.shaped(
                 Item.of('immersive_weathering:steel_wool'),
                 [

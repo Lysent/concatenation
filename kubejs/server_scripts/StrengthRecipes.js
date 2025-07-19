@@ -273,7 +273,7 @@ ServerEvents.recipes(event => {
                 }
         ).keepIngredient('tarotcards:judgement')
         event.shaped(
-                Item.of('tacz:workbench_c'),
+                Item.of('tacz:workbench_c', '{BlockId:"tacz:attachment_workbench"}'),
                 [
                         'AAA',
                         'BCB',
@@ -287,7 +287,7 @@ ServerEvents.recipes(event => {
                 }
         ).keepIngredient('tarotcards:judgement')
         event.shaped(
-                Item.of('tacz:workbench_a'),
+                Item.of('tacz:workbench_a', '{BlockId:"tacz:ammo_workbench"}'),
                 [
                         'AAA',
                         'BCB',

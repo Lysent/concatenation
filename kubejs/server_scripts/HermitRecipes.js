@@ -9,7 +9,9 @@ ServerEvents.recipes(event => {
                 'create:mechanical_mixer',
                 'create:mechanical_press',
                 'create:fluid_tank',
-                'create_enchantment_industry:enchanting_guide'
+                'create_enchantment_industry:enchanting_guide',
+                'createbigcannons:cast_iron_ingot',
+                'createmetallurgy:coke'
         ]
 
         remove.forEach(item => {
@@ -19,6 +21,12 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'create:andesite_alloy', type: 'minecraft:crafting_shaped' })
         // event.remove({ output: 'create:shaft', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'thermal:electrum_ingot', type: 'minecraft:crafting_shapeless' })
+
+        event.replaceInput(
+                { mod: 'createbigcannons' },
+                'createbigcannons:cast_iron_ingot',
+                'tfmg:cast_iron_ingot'
+        )
 
         event.replaceInput(
                 { input: 'ae2:calculation_processor' },
@@ -85,9 +93,9 @@ ServerEvents.recipes(event => {
                         'minecraft:clay_ball',
                         'minecraft:sand',
                         'minecraft:gravel',
-                        'minecraft:diamond_shovel'
+                        '#concatenation:mixing_tools'
                 ]
-        ).damageIngredient('minecraft:diamond_shovel')
+        ).damageIngredient('#concatenation:mixing_tools')
         event.shapeless(
                 Item.of('tconstruct:grout', 4),
                 [
@@ -99,11 +107,11 @@ ServerEvents.recipes(event => {
                         'minecraft:gravel',
                         'minecraft:gravel',
                         'minecraft:gravel',
-                        'minecraft:diamond_shovel'
+                        '#concatenation:mixing_tools'
                 ]
-        ).damageIngredient('minecraft:diamond_shovel')
+        ).damageIngredient('#concatenation:mixing_tools')
         event.shaped(
-                Item.of('thermal:machine_frame'),
+                Item.of('industrialforegoing:machine_frame_simple'),
                 [
                         'ABA',
                         'CDC',
@@ -118,7 +126,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('thermal:machine_frame'),
+                Item.of('industrialforegoing:machine_frame_simple'),
                 [
                         'ABA',
                         'CDC',
@@ -241,7 +249,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('thermal:machine_frame'),
+                Item.of('industrialforegoing:machine_frame_simple'),
                 [
                         'ABA',
                         'CDC',

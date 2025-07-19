@@ -15,7 +15,8 @@ ServerEvents.recipes(event => {
                 'waystones:warp_stone',
                 'elementalcraft:elementpipe_impaired',
                 'ars_nouveau:imbuement_chamber',
-                'ars_nouveau:source_jar'
+                'ars_nouveau:source_jar',
+                'ars_nouveau:magebloom_fiber'
         ]
 
         remove.forEach(item => {
@@ -382,15 +383,41 @@ ServerEvents.recipes(event => {
                 Item.of('bloodmagic:sand_netherite'),
                 [
                         'ABB',
-                        'BBC',
-                        'BB '
+                        'BBB',
+                        'BBC'
                 ],
                 {
                         B: 'concatenationcore:acclimated_shard',
                         C: 'create:sand_paper',
-                        A: 'minecraft:diamond_pickaxe'
+                        A: '#concatenation:breaking_tools'
                 }
-        ).damageIngredient('minecraft:diamond_pickaxe')
+        ).damageIngredient('#concatenation:breaking_tools')
+        event.shaped(
+                Item.of('minecraft:netherite_scrap'),
+                [
+                        'ABB',
+                        'BBC',
+                        '   '
+                ],
+                {
+                        C: 'elementalcraft:firecrystal',
+                        B: 'concatenationcore:acclimated_shard',
+                        A: '#concatenation:cutting_tools'
+                }
+        ).damageIngredient('#concatenation:cutting_tools')
+        event.shapeless(
+                Item.of('ars_nouveau:magebloom_fiber', 4),
+                [
+                        'minecraft:diamond_sword',
+                        'ars_nouveau:magebloom'
+                ]
+        ).damageIngredient('#concatenation:breaking_tools')
+        event.shapeless(
+                Item.of('ars_nouveau:magebloom_fiber', 4),
+                [
+                        'ars_nouveau:magebloom_block'
+                ]
+        )
         event.recipes.ars_nouveau.imbuement(
                 'concatenationcore:mundane_silver',
                 'concatenationcore:sourcesilver',

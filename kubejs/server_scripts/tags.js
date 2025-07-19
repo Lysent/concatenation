@@ -21,6 +21,10 @@ ServerEvents.tags('item', event => {
     event.add('concatenation:tanks', 'tconstruct:seared_ingot_tank');
     event.add('concatenation:tanks', 'tconstruct:seared_fuel_tank');
 
+    event.add('concatenation:high_priestess_casing', 'industrialforegoing:machine_frame_simple');
+    event.add('concatenation:high_priestess_casing', 'thermal:machine_frame');
+    event.add('thermal:crafting/dies', 'concatenationcore:copper_lead_coil');
+
     event.add('forge:consumables/experience_3', 'concatenationcore:experience_orb');
     event.add('minecraft:swords', 'asr:diamond_giant_sword');
     event.add('minecraft:swords', 'asr:golden_giant_sword');
@@ -105,7 +109,8 @@ ServerEvents.tags('item', event => {
         "psi:psimetal_sword",
         "create_dd:gilded_rose_sword",
         "bloodmagic:soulsword",
-        "tfmg:steel_sword"
+        "tfmg:steel_sword",
+        "ars_nouveau:enchanters_sword"
     ].forEach(sword => event.add("concatenation:cutting_tools", sword));
 
     ([
