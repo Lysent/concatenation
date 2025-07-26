@@ -15,6 +15,8 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('tacz:workbench_c', 'Attachment Workbench');
   event.renameItem('ftbquests:book', 'Eleonore\'s Travels');
   event.renameItem('bloodmagic:doubt_bucket', 'Doubt Bucket');
+  event.renameItem('mcore:steel_sheet', 'Hadfield Steel Sheet');
+  event.renameItem('mcore:titanium_sheet', 'Vultanium Sheet');
 
   event.rename('fluid.bloodmagic.life_essence', 'Life Essence')
 })

@@ -11,7 +11,7 @@
 		image: "concatenationcore:textures/black-stone.png"
 		order: -1
 		rotation: 0.0d
-		width: 250.0d
+		width: 1.0d
 		x: 1.0d
 		y: 1.0d
 	}]
@@ -1373,8 +1373,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.75d
-			y: 8.25d
+			x: -13.0d
+			y: 8.675d
 		}
 		{
 			dependencies: [
@@ -6788,8 +6788,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: 17.0d
+			x: -9.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["34860EFC2864214C"]
@@ -7877,8 +7877,8 @@
 					type: "item"
 				}
 			]
-			x: -12.25d
-			y: 8.75d
+			x: -14.5d
+			y: 9.175d
 		}
 		{
 			dependencies: ["2E2A38A96D401883"]
@@ -7970,8 +7970,8 @@
 				}
 			]
 			title: "Hierophant's Way"
-			x: -11.45d
-			y: 7.45d
+			x: -13.7d
+			y: 7.875d
 		}
 		{
 			dependencies: [
@@ -8051,8 +8051,8 @@
 				}
 			]
 			title: "High Priestess' Way"
-			x: -12.8d
-			y: 10.0d
+			x: -15.05d
+			y: 10.425d
 		}
 		{
 			dependencies: ["59D783372A16F858"]
@@ -8112,8 +8112,8 @@
 				type: "item"
 			}]
 			title: "The High Priestess"
-			x: -14.374999999999998d
-			y: 11.499999999999998d
+			x: -16.625d
+			y: 11.924999999999997d
 		}
 		{
 			dependencies: ["61F2F0F9E0158106"]
@@ -8741,8 +8741,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.75d
-			y: 7.75d
+			x: -15.0d
+			y: 8.175d
 		}
 		{
 			dependencies: ["405495BB2F379536"]
@@ -8832,8 +8832,8 @@
 				title: "Any Non-Stirling Dynamo"
 				type: "item"
 			}]
-			x: -14.25d
-			y: 7.75d
+			x: -16.5d
+			y: 8.175d
 		}
 		{
 			dependencies: ["3A27EA4C48429EA7"]
@@ -8912,8 +8912,8 @@
 				}
 			]
 			title: "Hermit's Way"
-			x: -9.85d
-			y: 8.65d
+			x: -12.1d
+			y: 9.075d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -9389,8 +9389,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: 9.5d
+			x: -13.75d
+			y: 9.925d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -9409,8 +9409,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.125d
-			y: 9.75d
+			x: -12.375d
+			y: 10.175d
 		}
 		{
 			dependencies: ["2A13540D4E396260"]
@@ -9428,8 +9428,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 10.5d
+			x: -15.75d
+			y: 10.925d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -9448,8 +9448,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: 10.5d
+			x: -11.25d
+			y: 10.925d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -9548,8 +9548,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
-			y: 12.5d
+			x: -17.75d
+			y: 12.925d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -9568,8 +9568,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: 9.5d
+			x: -16.75d
+			y: 9.925d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -9588,8 +9588,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
-			y: 10.0d
+			x: -17.75d
+			y: 10.425d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -9608,8 +9608,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
-			y: 10.5d
+			x: -18.75d
+			y: 10.925d
 		}
 		{
 			dependencies: ["3AF5EB2526EAD40C"]
@@ -9635,8 +9635,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.0d
-			y: 11.0d
+			x: -20.25d
+			y: 11.425d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -9654,8 +9654,8 @@
 				}
 				type: "item"
 			}]
-			x: -17.0d
-			y: 12.0d
+			x: -19.25d
+			y: 12.425d
 		}
 		{
 			dependencies: ["4D66CC58CC466767"]
@@ -9674,8 +9674,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.799999999999999d
-			y: 10.799999999999999d
+			x: -13.049999999999999d
+			y: 11.224999999999998d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -9693,8 +9693,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.0d
-			y: 12.0d
+			x: -21.25d
+			y: 12.425d
 		}
 		{
 			dependencies: ["23F4055CA5B50F60"]
@@ -9712,8 +9712,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.0d
-			y: 11.0d
+			x: -22.25d
+			y: 11.425d
 		}
 		{
 			dependencies: ["6BDF163C7FC006CB"]
@@ -9731,8 +9731,8 @@
 				}
 				type: "item"
 			}]
-			x: -21.0d
-			y: 10.0d
+			x: -23.25d
+			y: 10.425d
 		}
 		{
 			dependencies: ["3AF5EB2526EAD40C"]
@@ -9750,8 +9750,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.0d
-			y: 13.0d
+			x: -20.25d
+			y: 13.425d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -9770,8 +9770,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 12.5d
+			x: -20.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -9790,8 +9790,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: 14.5d
+			x: -17.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -9810,12 +9810,13 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: 13.0d
+			x: -16.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "7EB335BB570C5F7F"
 			tasks: [{
 				id: "6228EC3263FD14C2"
@@ -9830,7 +9831,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -15.5d
 			y: 14.0d
 		}
 		{
@@ -9850,8 +9851,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 15.0d
+			x: -19.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -9870,7 +9871,7 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
+			x: -17.0d
 			y: 14.5d
 		}
 		{
@@ -9890,8 +9891,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
-			y: 13.5d
+			x: -21.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -9910,8 +9911,408 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
-			y: 11.5d
+			x: -11.75d
+			y: 11.925d
+		}
+		{
+			dependencies: ["4A8A1D4B99AB1DCA"]
+			id: "5F12CF1071CE8A45"
+			size: 1.1d
+			tasks: [{
+				id: "6A6B9F75043B5291"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "concatenationcore:full_pentacles"
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -21.25d
+			y: 14.425d
+		}
+		{
+			dependencies: ["51F0251F529BE03C"]
+			hide_dependency_lines: true
+			id: "10A7F0DA56020A8C"
+			size: 1.1d
+			tasks: [{
+				id: "361F6FC92508FC23"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "concatenationcore:full_cups"
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -13.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["10A7F0DA56020A8C"]
+			id: "4C8C2AA343360B7D"
+			tasks: [
+				{
+					id: "297F1DB9458EBF1E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "integrateddynamics:squeezer"
+					}
+					type: "item"
+				}
+				{
+					id: "7C35D49D619632DA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "integrateddynamics:drying_basin"
+					}
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"10A7F0DA56020A8C"
+				"7EB335BB570C5F7F"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "integrateddynamics:menril_sapling"
+			}
+			id: "10C786520F0893C9"
+			tasks: [{
+				id: "6295558AE7C034BF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "integrateddynamics:menril_sapling"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "integrateddynamics:menril_log"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "integrateddynamics:menril_planks"
+							}
+						]
+					}
+				}
+				title: "Any Menril Wood"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4C8C2AA343360B7D"]
+			id: "47C008A8A80FCEE1"
+			tasks: [
+				{
+					id: "1C4ADA26859003DF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "integrateddynamics:mechanical_squeezer"
+					}
+					type: "item"
+				}
+				{
+					id: "1C8F8ECF8AF7DA9E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "integrateddynamics:mechanical_drying_basin"
+					}
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"10C786520F0893C9"
+				"4C8C2AA343360B7D"
+			]
+			dependency_requirement: "one_completed"
+			id: "58D41204FAEC60DF"
+			tasks: [{
+				id: "505FA5BB368AD9CE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "integrateddynamics:crystalized_menril_chunk"
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["58D41204FAEC60DF"]
+			id: "56FEA16D484FB227"
+			tasks: [{
+				id: "24920A32EBE26222"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "integrateddynamics:variable"
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["33F8735D8322AFE6"]
+			hide_dependency_lines: true
+			id: "7AAA4B368A0F6CD0"
+			tasks: [{
+				id: "46EA218680993E0C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tconstruct:hepatizon_ingot"
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["58D41204FAEC60DF"]
+			id: "073D163854FFBC13"
+			tasks: [{
+				id: "7630993F0148269F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "integrateddynamics:cable"
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3F86C492412EBA3F"]
+			id: "6CC9A41A95921C52"
+			size: 1.1d
+			tasks: [{
+				id: "764D04B909D8AD0C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "concatenationcore:full_swords"
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6CC9A41A95921C52"]
+			id: "029A616076E8CEAE"
+			tasks: [{
+				id: "17C24A0871FC42C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mcore:steel_sheet"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["073D163854FFBC13"]
+			id: "4BB411537A24527C"
+			tasks: [
+				{
+					id: "05D206C2254D3EA8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "integratedtunnels:part_interface_energy"
+					}
+					type: "item"
+				}
+				{
+					id: "21C757852E7C7BAD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "integratedtunnels:part_interface_item"
+					}
+					type: "item"
+				}
+				{
+					id: "4E6D7C85704177B6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "integratedtunnels:part_interface_fluid"
+					}
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["58D41204FAEC60DF"]
+			id: "34C946042296AB2B"
+			tasks: [{
+				id: "3E7C68B771CF893D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "integratedterminals:part_terminal_storage"
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4C8C2AA343360B7D"]
+			id: "4E44852EB1DA116A"
+			tasks: [{
+				id: "067A5D8A20B01E13"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "integrateddynamics:crystalized_chorus_chunk"
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4E44852EB1DA116A"]
+			id: "65171074D916C632"
+			tasks: [{
+				id: "7C3F2EB124B524A5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "integratedtunnels:part_player_simulator"
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 17.0d
 		}
 	]
 	title: "The Journey"

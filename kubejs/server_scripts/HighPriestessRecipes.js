@@ -16,7 +16,24 @@ ServerEvents.recipes(event => {
                 'rftoolspower:coalgenerator',
                 'rftoolspower:blazing_generator',
                 'industrialforegoing:machine_frame_simple',
-                'thermal:signalum_dust'
+                'thermal:signalum_dust',
+                'integrateddynamics:energy_battery',
+                'integrateddynamics:coal_generator',
+                'integrateddynamics:squeezer',
+                'integrateddynamics:drying_basin',
+                'integrateddynamics:mechanical_squeezer',
+                'integrateddynamics:mechanical_drying_basin',
+                'integrateddynamics:cable',
+                'integratedtunnels:part_interface_energy',
+                'integrateddynamics:variable',
+                'mcore:steel_axe',
+                'mcore:steel_pickaxe',
+                'mcore:steel_sword',
+                'mcore:steel_shovel',
+                'mcore:steel_hoe',
+                'mcore:steel_scrap',
+                'mcore:steel_sheet',
+                'mcore:titanium_sheet'
         ]
 
         remove.forEach(item => {
@@ -49,6 +66,12 @@ ServerEvents.recipes(event => {
                         '#concatenation:high_priestess_casing'
                 );
         });
+
+        event.replaceInput(
+                { mod: 'marbledsarsenal' },
+                'minecraft:glass_pane',
+                'thermal:obsidian_glass'
+        );
 
         event.remove({ output: 'thermal:lumium_dust', type: 'minecraft:crafting_shapeless' })
         event.remove({ output: 'thermal:enderium_dust', type: 'minecraft:crafting_shapeless' })
@@ -244,50 +267,188 @@ ServerEvents.recipes(event => {
                         A: 'thermal:lead_ingot'
                 }
         )
-event.shaped(
-    Item.of('rftoolspower:coalgenerator'),
-    [
-        'ABA',
-        'CDC',
-        'AEA'
-    ],
-    {
-        B: 'thermal:dynamo_stirling',
-        C: 'thermal:lumium_gear',
-        D: 'thermal:signalum_ingot',
-        A: 'createmetallurgy:steel_ingot',
-        E: 'industrialforegoing:machine_frame_advanced'
-    }
-)
         event.shaped(
-    Item.of('rftoolspower:blazing_generator'),
-    [
-        'ABA',
-        'CDC',
-        'AEA'
-    ],
-    {
-        B: 'thermal:dynamo_stirling',
-        C: 'thermal:lumium_gear',
-        A: 'createmetallurgy:steel_ingot',
-        D: 'concatenationcore:acclimated_shard',
-        E: 'industrialforegoing:machine_frame_advanced'
-    }
-)
-event.shaped(
-    Item.of('rftoolspower:endergenic'),
-    [
-        'ABA',
-        'BCB',
-        'ABA'
-    ],
-    {
-        B: 'thermal:lumium_gear',
-        C: 'concatenationcore:acclimated_shard',
-        A: 'thermal:enderium_ingot'
-    }
-)
+                Item.of('rftoolspower:coalgenerator'),
+                [
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        B: 'thermal:dynamo_stirling',
+                        C: 'thermal:lumium_gear',
+                        D: 'thermal:signalum_ingot',
+                        A: 'createmetallurgy:steel_ingot',
+                        E: 'industrialforegoing:machine_frame_advanced'
+                }
+        )
+        event.shaped(
+                Item.of('rftoolspower:blazing_generator'),
+                [
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        B: 'thermal:dynamo_stirling',
+                        C: 'thermal:lumium_gear',
+                        A: 'createmetallurgy:steel_ingot',
+                        D: 'concatenationcore:acclimated_shard',
+                        E: 'industrialforegoing:machine_frame_advanced'
+                }
+        )
+        event.shaped(
+                Item.of('rftoolspower:endergenic'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'thermal:lumium_gear',
+                        C: 'concatenationcore:acclimated_shard',
+                        A: 'thermal:enderium_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('integrateddynamics:squeezer'),
+                [
+                        'ABA',
+                        'CDC',
+                        'CEC'
+                ],
+                {
+                        B: 'createmetallurgy:steel_block',
+                        C: 'createmetallurgy:steel_ingot',
+                        E: 'industrialforegoing:machine_frame_simple',
+                        D: 'concatenationcore:full_cups',
+                        A: 'minecraft:piston'
+                }
+        ).keepIngredient('concatenationcore:full_cups')
+        event.shaped(
+                Item.of('integrateddynamics:drying_basin'),
+                [
+                        'ABA',
+                        'C C',
+                        'ACA'
+                ],
+                {
+                        A: 'minecraft:oak_log',
+                        C: 'createmetallurgy:steel_ingot',
+                        B: 'minecraft:black_dye'
+                }
+        )
+        event.shaped(
+                Item.of('integrateddynamics:mechanical_drying_basin'),
+                [
+                        ' A ',
+                        ' B ',
+                        ' C '
+                ],
+                {
+                        B: 'integrateddynamics:drying_basin',
+                        C: 'tconstruct:hepatizon_ingot',
+                        A: 'rftoolspower:power_core1'
+                }
+        )
+        event.shaped(
+                Item.of('integrateddynamics:mechanical_squeezer'),
+                [
+                        ' A ',
+                        ' B ',
+                        ' C '
+                ],
+                {
+                        B: 'integrateddynamics:squeezer',
+                        C: 'tconstruct:hepatizon_ingot',
+                        A: 'rftoolspower:power_core1'
+                }
+        )
+        event.shaped(
+                Item.of('integrateddynamics:cable', 6),
+                [
+                        'ABA',
+                        'ACA',
+                        'ABA'
+                ],
+                {
+                        C: 'thermal:energy_duct',
+                        B: 'createmetallurgy:steel_ingot',
+                        A: 'integrateddynamics:crystalized_menril_chunk'
+                }
+        )
+        event.shaped(
+                Item.of('integratedtunnels:part_interface_energy', 8),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'integrateddynamics:crystalized_menril_chunk',
+                        B: 'rftoolspower:power_core1'
+                }
+        )
+        event.shaped(
+                Item.of('integrateddynamics:variable', 64),
+                [
+                        'ABA',
+                        'ACA',
+                        'ABA'
+                ],
+                {
+                        C: 'concatenationcore:full_cups',
+                        A: 'integrateddynamics:crystalized_menril_chunk',
+                        B: 'minecraft:paper'
+                }
+        ).keepIngredient('concatenationcore:full_cups')
+        event.shaped(
+                Item.of('mcore:steel_sheet', 8),
+                [
+                        'ABC',
+                        'CCD',
+                        '   '
+                ],
+                {
+                        B: '#concatenation:hammers',
+                        C: 'createmetallurgy:steel_ingot',
+                        D: 'tconstruct:hepatizon_ingot',
+                        A: 'concatenationcore:full_swords'
+                }
+        ).keepIngredient('concatenationcore:full_swords')
+        event.shaped(
+                Item.of('mcore:titanium_sheet', 8),
+                [
+                        'ABC',
+                        'CDE',
+                        '   '
+                ],
+                {
+                        E: 'concatenationcore:celestial_calralite',
+                        B: '#concatenation:hammers',
+                        A: 'concatenationcore:full_swords',
+                        C: 'mcore:titanium_ingot',
+                        D: 'createmetallurgy:tungsten_ingot'
+                }
+        ).keepIngredient('concatenationcore:full_swords')
+        event.shapeless(
+                Item.of('minecraft:wooden_sword'),
+                [
+                        'minecraft:stick',
+                        'concatenationcore:full_swords'
+                ]
+        ).keepIngredient('concatenationcore:full_swords')
+        event.shapeless(
+                Item.of('asr:wooden_giant_sword'),
+                [
+                        'minecraft:stick',
+                        'concatenationcore:full_swords',
+                        'minecraft:stick'
+                ]
+        ).keepIngredient('concatenationcore:full_swords')
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.pulverizer(Item.of('thermal:signalum_dust').withChance(1.5), 'thermal:signalum_plate')
+        event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 4000), 'thermal:ice_charge'])
+        event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 4000), 'concatenationcore:ice_shard'])
 });

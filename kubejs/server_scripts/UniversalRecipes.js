@@ -83,14 +83,18 @@ ServerEvents.recipes(event => {
                         'CurioAttributeModifier:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
                 ),
                 [
-                        "CCC",
-                        "CCC",
-                        "CCC"
+                        'ABA',
+                        'CDC',
+                        'AEA'
                 ],
                 {
-                        C: "concatenationcore:bricksword"
+                        B: 'thermal:enderium_glass',
+                        C: 'tconstruct:hepatizon_ingot',
+                        A: 'thermal:silver_coin',
+                        E: 'minecraft:water_bucket',
+                        D: 'tarotcards:the_high_priestess'
                 }
-        );
+        ).keepIngredient('tarotcards:the_high_priestess')
         event.shaped(
                 Item.of(
                         "concatenationcore:full_wands",
@@ -111,14 +115,19 @@ ServerEvents.recipes(event => {
                         'CurioAttributeModifier:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
                 ),
                 [
-                        "CCC",
-                        "CCC",
-                        "CCC"
+                        'ABA',
+                        'CDE',
+                        'AFA'
                 ],
                 {
-                        C: "concatenationcore:bricksword"
+                        B: 'tfmg:cast_iron_ingot',
+                        F: 'createdeco:industrial_iron_ingot',
+                        D: 'tarotcards:judgement',
+                        C: 'createbigcannons:nethersteel_ingot',
+                        A: 'createdeco:netherite_coin',
+                        E: 'createmetallurgy:tungsten_ingot'
                 }
-        );
+        ).keepIngredient('tarotcards:judgement')
         event.shaped(
                 Item.of(
                         "concatenationcore:full_pentacles",
@@ -133,4 +142,12 @@ ServerEvents.recipes(event => {
                         C: "concatenationcore:bricksword"
                 }
         );
+
+        event.shapeless(
+                Item.of('minecraft:water_bucket'),
+                [
+                        'concatenationcore:full_cups',
+                        'minecraft:bucket'
+                ]
+        ).keepIngredient('concatenationcore:full_cups')
 });
