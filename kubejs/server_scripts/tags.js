@@ -59,6 +59,17 @@ ServerEvents.tags('item', event => {
     event.add('tarotcards:golden', 'concatenationcore:kestrel');
     event.add('tarotcards:golden', 'concatenationcore:kestrel_r');
 
+    event.add('curios:curio', 'concatenationcore:the_error');
+    event.add('curios:curio', 'concatenationcore:full_cups');
+    event.add('curios:curio', 'concatenationcore:full_wands');
+    event.add('curios:curio', 'concatenationcore:full_pentacles');
+    event.add('curios:curio', 'concatenationcore:full_swords');
+    event.add('tarotcards:tarot_cards', 'concatenationcore:the_error');
+    event.add('tarotcards:tarot_cards', 'concatenationcore:full_cups');
+    event.add('tarotcards:tarot_cards', 'concatenationcore:full_wands');
+    event.add('tarotcards:tarot_cards', 'concatenationcore:full_pentacles');
+    event.add('tarotcards:tarot_cards', 'concatenationcore:full_swords');
+
     [
         "minecraft:diamond_pickaxe",
         "minecraft:netherite_pickaxe",
