@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of(
                         "concatenationcore:full_cups",
-                        'CurioAttributeModifier:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
                 ),
                 [
                         'ABA',
@@ -98,7 +98,7 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of(
                         "concatenationcore:full_wands",
-                        'CurioAttributeModifier:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
                 ),
                 [
                         "CCC",
@@ -112,7 +112,7 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of(
                         "concatenationcore:full_swords",
-                        'CurioAttributeModifier:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
                 ),
                 [
                         'ABA',
@@ -131,7 +131,7 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of(
                         "concatenationcore:full_pentacles",
-                        'CurioAttributeModifier:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
                 ),
                 [
                         "CCC",
