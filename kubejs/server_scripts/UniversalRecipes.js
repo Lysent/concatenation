@@ -92,9 +92,9 @@ ServerEvents.recipes(event => {
                         C: 'tconstruct:hepatizon_ingot',
                         A: 'thermal:silver_coin',
                         E: 'minecraft:water_bucket',
-                        D: 'tarotcards:the_high_priestess'
+                        D: 'tarotcards:the_chariot'
                 }
-        ).keepIngredient('tarotcards:the_high_priestess')
+        ).keepIngredient('tarotcards:the_chariot')
         event.shaped(
                 Item.of(
                         "concatenationcore:full_wands",
@@ -134,14 +134,18 @@ ServerEvents.recipes(event => {
                         '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
                 ),
                 [
-                        "CCC",
-                        "CCC",
-                        "CCC"
+                        'ABA',
+                        'CDC',
+                        'AEA'
                 ],
                 {
-                        C: "concatenationcore:bricksword"
+                        A: 'thermal:enderium_coin',
+                        C: 'concatenationcore:compacted_steel',
+                        B: 'mekanism:ingot_osmium',
+                        D: 'tarotcards:the_high_priestess',
+                        E: 'thermal:energy_cell'
                 }
-        );
+        ).keepIngredient('tarotcards:the_high_priestess')
 
         event.shapeless(
                 Item.of('minecraft:water_bucket'),

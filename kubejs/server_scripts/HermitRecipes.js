@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         A: 'solarflux:sp_1',
-                        B: 'concatenationcore:circuit'
+                        B: '#concatenation:higher_circuits'
                 }
         )
         event.shaped(

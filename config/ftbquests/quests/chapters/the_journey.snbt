@@ -11,7 +11,7 @@
 		image: "concatenationcore:textures/black-stone.png"
 		order: -1
 		rotation: 0.0d
-		width: 1.0d
+		width: 250.0d
 		x: 1.0d
 		y: 1.0d
 	}]
@@ -1360,6 +1360,22 @@
 			hide_dependency_lines: true
 			id: "36318C8D65509470"
 			min_required_dependencies: 3
+			rewards: [{
+				id: "63C183473E8D438D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D2835F556B395A1"
 				item: {
@@ -7302,7 +7318,7 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
+			x: 17.5d
 			y: 1.5d
 		}
 		{
@@ -7650,7 +7666,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 21.0d
+			x: 21.5d
 			y: 1.5d
 		}
 		{
@@ -7669,7 +7685,7 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
+			x: 20.0d
 			y: 1.5d
 		}
 		{
@@ -7691,7 +7707,7 @@
 				}
 				type: "item"
 			}]
-			x: 21.0d
+			x: 22.0d
 			y: 0.0d
 		}
 		{
@@ -7717,7 +7733,7 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
+			x: 20.5d
 			y: 0.0d
 		}
 		{
@@ -7789,7 +7805,7 @@
 					type: "item"
 				}
 			]
-			x: 22.5d
+			x: 23.5d
 			y: 0.0d
 		}
 		{
@@ -7823,7 +7839,7 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
+			x: 18.5d
 			y: 1.5d
 		}
 		{
@@ -8096,6 +8112,22 @@
 			dependencies: ["51F0251F529BE03C"]
 			hide_dependency_lines: true
 			id: "4AE782719D5A61F7"
+			rewards: [{
+				id: "2A278D042718DBA9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+				type: "item"
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "233B089D0B071031"
@@ -8569,63 +8601,6 @@
 			title: "The Star"
 			x: 16.674999999999997d
 			y: 8.049999999999999d
-		}
-		{
-			dependencies: ["14DFB74A4390006D"]
-			id: "0964A0A4B891B993"
-			tasks: [{
-				id: "0B688C335D3ADEB8"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "irons_spellbooks:inscription_table"
-				}
-				type: "item"
-			}]
-			x: 18.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["14DFB74A4390006D"]
-			id: "14EECA79A74AACA5"
-			tasks: [{
-				id: "756D7C401881745D"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "irons_spellbooks:arcane_anvil"
-				}
-				type: "item"
-			}]
-			x: 17.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["14DFB74A4390006D"]
-			id: "5EBC5D22BAD176AB"
-			tasks: [{
-				id: "7E4E5F78686A7897"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "irons_spellbooks:scroll_forge"
-				}
-				type: "item"
-			}]
-			x: 18.5d
-			y: 9.0d
 		}
 		{
 			dependencies: ["545CB21B2B59BA32"]
@@ -9568,8 +9543,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.75d
-			y: 9.925d
+			x: -17.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -9588,8 +9563,8 @@
 				}
 				type: "item"
 			}]
-			x: -17.75d
-			y: 10.425d
+			x: -18.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -9608,11 +9583,14 @@
 				}
 				type: "item"
 			}]
-			x: -18.75d
-			y: 10.925d
+			x: -19.5d
+			y: 10.5d
 		}
 		{
-			dependencies: ["3AF5EB2526EAD40C"]
+			dependencies: [
+				"3AF5EB2526EAD40C"
+				"0539F37797C36F1C"
+			]
 			id: "4289386C093E7AE9"
 			tasks: [{
 				id: "10456A608BBA708E"
@@ -9635,8 +9613,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.25d
-			y: 11.425d
+			x: -20.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -9654,8 +9632,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.25d
-			y: 12.425d
+			x: -19.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["4D66CC58CC466767"]
@@ -9693,8 +9671,8 @@
 				}
 				type: "item"
 			}]
-			x: -21.25d
-			y: 12.425d
+			x: -21.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["23F4055CA5B50F60"]
@@ -9712,8 +9690,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.25d
-			y: 11.425d
+			x: -23.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["6BDF163C7FC006CB"]
@@ -9731,8 +9709,8 @@
 				}
 				type: "item"
 			}]
-			x: -23.25d
-			y: 10.425d
+			x: -24.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["3AF5EB2526EAD40C"]
@@ -9750,8 +9728,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.25d
-			y: 13.425d
+			x: -20.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -9770,8 +9748,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.0d
-			y: 19.0d
+			x: -17.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -9790,12 +9768,11 @@
 				}
 				type: "item"
 			}]
-			x: -17.5d
-			y: 15.5d
+			x: -16.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
-			hide_dependency_lines: true
 			id: "0539F37797C36F1C"
 			tasks: [{
 				id: "03421464F0E6463C"
@@ -9810,12 +9787,11 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
-			y: 13.5d
+			x: -19.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
-			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "7EB335BB570C5F7F"
 			tasks: [{
@@ -9831,7 +9807,7 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
+			x: -16.0d
 			y: 14.0d
 		}
 		{
@@ -9851,12 +9827,12 @@
 				}
 				type: "item"
 			}]
-			x: -19.0d
-			y: 19.5d
+			x: -17.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			id: "3C739CD74F36867E"
 			tasks: [{
 				id: "0E4C4A949424F06F"
@@ -9871,8 +9847,8 @@
 				}
 				type: "item"
 			}]
-			x: -17.0d
-			y: 14.5d
+			x: -16.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -9891,8 +9867,8 @@
 				}
 				type: "item"
 			}]
-			x: -21.0d
-			y: 18.5d
+			x: -17.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -9917,7 +9893,7 @@
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
 			id: "5F12CF1071CE8A45"
-			size: 1.1d
+			size: 1.15d
 			tasks: [{
 				id: "6A6B9F75043B5291"
 				item: {
@@ -9932,14 +9908,27 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -21.25d
-			y: 14.425d
+			x: -21.275d
+			y: 16.674999999999997d
 		}
 		{
 			dependencies: ["51F0251F529BE03C"]
 			hide_dependency_lines: true
 			id: "10A7F0DA56020A8C"
-			size: 1.1d
+			rewards: [{
+				id: "538EF4CA22CD2B7A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "integrateddynamics:on_the_dynamics_of_integration"
+				}
+				type: "item"
+			}]
+			size: 1.15d
 			tasks: [{
 				id: "361F6FC92508FC23"
 				item: {
@@ -9954,8 +9943,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -13.5d
-			y: 13.0d
+			x: -13.799999999999999d
+			y: 12.649999999999999d
 		}
 		{
 			dependencies: ["10A7F0DA56020A8C"]
@@ -10148,8 +10137,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.0d
-			y: 12.5d
+			x: -19.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["58D41204FAEC60DF"]
@@ -10173,7 +10162,7 @@
 		{
 			dependencies: ["3F86C492412EBA3F"]
 			id: "6CC9A41A95921C52"
-			size: 1.1d
+			size: 1.15d
 			tasks: [{
 				id: "764D04B909D8AD0C"
 				item: {
@@ -10189,7 +10178,7 @@
 				weak_nbt_match: true
 			}]
 			x: 0.0d
-			y: 20.0d
+			y: 21.45d
 		}
 		{
 			dependencies: ["6CC9A41A95921C52"]
@@ -10208,7 +10197,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 20.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["073D163854FFBC13"]
@@ -10313,6 +10302,2194 @@
 			}]
 			x: -11.5d
 			y: 17.0d
+		}
+		{
+			dependencies: ["3D1C47F3A9B804B4"]
+			id: "712FD01B1CB5EEF3"
+			tasks: [{
+				id: "04AB26AF28993EB0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "marbledsarsenal:black_plate_carrier_heavy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.0d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"3CC948E467CCC4C6"
+				"7AAA4B368A0F6CD0"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "44CF40523871B36F"
+			tasks: [{
+				id: "262E6413A40FDC56"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "marbledsarsenal:black_plate_carrier_light"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -9.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6CC9A41A95921C52"]
+			id: "29C748557EA45B70"
+			tasks: [
+				{
+					id: "6B6CD94704294BCD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:riot_armor_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:swat_armor_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Steel Reinforced Helmet"
+					type: "item"
+				}
+				{
+					id: "7E12D6B49937ECA1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:riot_armor_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:swat_armor_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Steel Reinforced Chestplate"
+					type: "item"
+				}
+				{
+					id: "1914C5615E5F597C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:riot_armor_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:swat_armor_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Steel Reinforced Leggings"
+					type: "item"
+				}
+				{
+					id: "180FCEB37EF05C26"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:riot_armor_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:swat_armor_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Steel Reinforced Boots"
+					type: "item"
+				}
+			]
+			title: "Reinforced Steel Armor"
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["029A616076E8CEAE"]
+			id: "4EF9BDAC561DFDAF"
+			tasks: [
+				{
+					id: "0EB221D533EE475D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:winter_military_armor_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:desert_military_armor_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Steel Hadfield Helmet"
+					type: "item"
+				}
+				{
+					id: "2A145BB37191D7A9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:winter_military_armor_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:desert_military_armor_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Steel Hadfield Chestplate"
+					type: "item"
+				}
+				{
+					id: "6170420908714CFD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:winter_military_armor_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:desert_military_armor_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Steel Hadfield Leggings"
+					type: "item"
+				}
+				{
+					id: "2DCA2CBB59A9B2A4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:winter_military_armor_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:desert_military_armor_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Steel Hadfield Boots"
+					type: "item"
+				}
+			]
+			title: "Hadfield Steel Armor"
+			x: 1.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["3D1C47F3A9B804B4"]
+			id: "3A0F056B68D9A24F"
+			tasks: [
+				{
+					id: "2FC107F45FE60E88"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:black_juggernaut_armor_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:olive_juggernaut_armor_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Juggernaut Helmet"
+					type: "item"
+				}
+				{
+					id: "2C61D085F77FCEEB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:black_juggernaut_armor_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:olive_juggernaut_armor_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Juggernaut Chestplate"
+					type: "item"
+				}
+				{
+					id: "7FB3D0697376492F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:black_juggernaut_armor_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:olive_juggernaut_armor_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Juggernaut Leggings"
+					type: "item"
+				}
+				{
+					id: "3F0F6D5DD34EF0B9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:black_juggernaut_armor_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "marbledsarsenal:olive_juggernaut_armor_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Juggernaut Boots"
+					type: "item"
+				}
+			]
+			title: "Juggernaut Armor"
+			x: 3.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["029A616076E8CEAE"]
+			id: "3D1C47F3A9B804B4"
+			tasks: [{
+				id: "621EE6EB87B3D18A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mcore:titanium_sheet"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["736444B92EEE2C59"]
+			id: "4105237B1616EEE2"
+			size: 1.1d
+			tasks: [{
+				id: "43CCF0231E5865F5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 30
+						GunFireMode: "AUTO"
+						GunId: "tacz:aug"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1AFE9864E4F4DFB0"]
+			id: "37AA006B7ABACDC8"
+			tasks: [{
+				id: "3AECB12DA95926FE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:arcane_essence"
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"37AA006B7ABACDC8"
+				"6FC66F464CF54CF4"
+			]
+			id: "5145276716FB2377"
+			tasks: [{
+				id: "12A527D734EF42E0"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6FC66F464CF54CF4"]
+			id: "446F8F31B5E96194"
+			tasks: [{
+				id: "7F697C5DFA649E27"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:blank_rune"
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"446F8F31B5E96194"
+				"51D3EFAF0C58197A"
+			]
+			id: "0493EC94E8A9F325"
+			tasks: [{
+				id: "34EE10B8CFE37528"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:pyromancer_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:electromancer_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:archevoker_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:cultist_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:cryomancer_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:shadowwalker_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:plagued_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:priest_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Any mage hood"
+			x: 20.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"37AA006B7ABACDC8"
+				"1AFE9864E4F4DFB0"
+			]
+			hide_dependency_lines: true
+			id: "47F1E172DB0819FC"
+			tasks: [{
+				id: "5C57A68AC0F43A46"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:common_ink"
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"37AA006B7ABACDC8"
+				"1177AE48181D8F17"
+			]
+			hide_dependency_lines: true
+			id: "6FC66F464CF54CF4"
+			tasks: [{
+				id: "3E78C856D85AC649"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:uncommon_ink"
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["37AA006B7ABACDC8"]
+			hide_dependency_lines: true
+			id: "51D3EFAF0C58197A"
+			tasks: [{
+				id: "1CE804B9EDCAFF56"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:rare_ink"
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"37AA006B7ABACDC8"
+				"59468EAF45257207"
+			]
+			hide_dependency_lines: true
+			id: "2611BFF44437C940"
+			tasks: [{
+				id: "08B2E2ED74A332BE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:epic_ink"
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["37AA006B7ABACDC8"]
+			hide_dependency_lines: true
+			id: "63B383DE2EEFE2F3"
+			tasks: [{
+				id: "3515320FC31F8182"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["63B383DE2EEFE2F3"]
+			id: "1E133F321CC64E1F"
+			tasks: [
+				{
+					id: "323E775CA8E61A7B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:eldritch_manuscript"
+					}
+					type: "item"
+				}
+				{
+					id: "7330AA961D3759F8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:netherite_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Eldritch Research"
+			x: 20.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2611BFF44437C940"]
+			id: "74EA3C5BD8FF2DEB"
+			tasks: [{
+				id: "0A0F536864EFE808"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:arcane_salvage"
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["74EA3C5BD8FF2DEB"]
+			id: "03184CB5028CCC5B"
+			tasks: [{
+				id: "7D84FBCE5E883706"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:cooldown_ring"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:cast_time_ring"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:heavy_chain_necklace"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:emerald_stoneplate_ring"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:fireward_ring"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:frostward_ring"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:poisonward_ring"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:conjurers_talisman"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:affinity_ring"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:concentration_amulet"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Any arcane bauble"
+			x: 21.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["51D3EFAF0C58197A"]
+			id: "70AA51D04E41558B"
+			tasks: [{
+				id: "67AB5237996693A1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:evoker_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [
+											{
+												id: "irons_spellbooks:fang_strike"
+												index: 0
+												level: 6
+												locked: 1b
+											}
+											{
+												id: "irons_spellbooks:fang_ward"
+												index: 1
+												level: 4
+												locked: 1b
+											}
+											{
+												id: "irons_spellbooks:summon_vex"
+												index: 2
+												level: 4
+												locked: 1b
+											}
+										]
+										maxSpells: 10
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:necronomicon_spell_book"
+								tag: {
+									ISBEnhance: "irons_spellbooks:raise_dead"
+									ISB_Spells: {
+										data: [
+											{
+												id: "irons_spellbooks:blood_slash"
+												index: 0
+												level: 5
+												locked: 1b
+											}
+											{
+												id: "irons_spellbooks:blood_step"
+												index: 1
+												level: 5
+												locked: 1b
+											}
+											{
+												id: "irons_spellbooks:ray_of_siphoning"
+												index: 2
+												level: 5
+												locked: 1b
+											}
+											{
+												id: "irons_spellbooks:blaze_storm"
+												index: 3
+												level: 5
+												locked: 1b
+											}
+										]
+										maxSpells: 10
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Any unique spellbook"
+			x: 21.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["47F1E172DB0819FC"]
+			id: "4FBF9D1E551B2EC8"
+			tasks: [{
+				id: "259FA62132E6BF38"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:iron_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 6
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:copper_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 5
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Any basic spellbook"
+			x: 20.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4FBF9D1E551B2EC8"]
+			id: "7A5E60664DFB06C6"
+			tasks: [{
+				id: "027F8B967911404B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:gold_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 8
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:diamond_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 10
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Any apprentice spellbook"
+			x: 21.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"03184CB5028CCC5B"
+				"63B383DE2EEFE2F3"
+			]
+			id: "1BB2ECC452AFB4DB"
+			tasks: [{
+				id: "31CAE4BB8CD0F301"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:fire_upgrade_orb"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:ice_upgrade_orb"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:lightning_upgrade_orb"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:holy_upgrade_orb"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:ender_upgrade_orb"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:blood_upgrade_orb"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:evocation_upgrade_orb"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:nature_upgrade_orb"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:mana_upgrade_orb"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:cooldown_upgrade_orb"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "irons_spellbooks:protection_upgrade_orb"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Any upgrade orb"
+			x: 21.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1AFE9864E4F4DFB0"]
+			id: "1177AE48181D8F17"
+			tasks: [{
+				id: "735762BEB5AE60C0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:scroll_forge"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["14DFB74A4390006D"]
+			id: "1AFE9864E4F4DFB0"
+			tasks: [{
+				id: "5DA2022930B5A27F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:inscription_table"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1177AE48181D8F17"]
+			id: "59468EAF45257207"
+			tasks: [{
+				id: "58B84A55A4FEDB69"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:arcane_anvil"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1E133F321CC64E1F"]
+			id: "301D160C2B3F2B79"
+			tasks: [
+				{
+					id: "38C4660608E11F36"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:abyssal_shroud"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F399409C42F1F08"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:sculk_tentacles"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BFA4808FAC4418B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:sonic_boom"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A5AE2E3773BA659"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:planar_sight"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F22CCE2A1BAE403"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:telekinesis"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BEFDFD62C416AE1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:eldritch_blast"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Complete Eldritch Research"
+			x: 20.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["40EA73BEA023C14A"]
+			id: "2DC6C224BD1881C9"
+			tasks: [{
+				id: "025C057BEBF75AFB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2DC6C224BD1881C9"]
+			id: "27BBE74203C33C95"
+			tasks: [{
+				id: "07D024FC495ECDE4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:divinationsigil"
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["40EA73BEA023C14A"]
+			id: "51EDC749A53FF0D3"
+			tasks: [{
+				id: "56E0404A51517B1C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:alchemicalreactionchamber"
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51EDC749A53FF0D3"]
+			id: "51CDC5BD509CE535"
+			tasks: [{
+				id: "3D92F93FDD37245F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:weakbloodshard"
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3913EED76917339E"]
+			id: "6D27277DA055DFBC"
+			tasks: [{
+				id: "0247DD7DDC3F8084"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:masterritualstone"
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D27277DA055DFBC"]
+			id: "579E8F816742653C"
+			tasks: [
+				{
+					id: "4D024789FABAD882"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:activationcrystalweak"
+					}
+					type: "item"
+				}
+				{
+					id: "3819CFFABA00ACE6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:ritualdiviner"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["579E8F816742653C"]
+			id: "29289B6D4610B9D4"
+			tasks: [{
+				id: "7F1FEAB4ACA7A230"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:ritualdivinerdusk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6D27277DA055DFBC"]
+			id: "1AE3C9A1202FE409"
+			tasks: [{
+				id: "18C1ABBFAC17202C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:ritualtinkerer"
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["639817BED42EBC3A"]
+			id: "32DA8E4E34681D50"
+			tasks: [{
+				id: "4D423D255A09CBD3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:hellforgedparts"
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["29289B6D4610B9D4"]
+			id: "639817BED42EBC3A"
+			tasks: [{
+				id: "5556AD35B00359B8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:rawdemonite"
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["40EA73BEA023C14A"]
+			id: "234F7C53CB615880"
+			tasks: [
+				{
+					id: "469A0DB3F684F4F5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:componentframeparts"
+					}
+					type: "item"
+				}
+				{
+					id: "4E056B6004DD86A9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "bloodmagic:itemrouterfilterexact"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "bloodmagic:itemrouterfilteroredict"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "bloodmagic:itemrouterfilterenchant"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "bloodmagic:itemrouterfiltermoditems"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "bloodmagic:itemrouterfiltercomposite"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B9EE8A00649A8D6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:masterroutingnode"
+					}
+					type: "item"
+				}
+				{
+					id: "4C18A2B5A7CA258A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:itemroutingnode"
+					}
+					type: "item"
+				}
+				{
+					id: "5F2116606D5FA3AD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:noderouter"
+					}
+					type: "item"
+				}
+			]
+			title: "Blood Logistics"
+			x: 22.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6CE0DB1AEB597BCE"]
+			id: "4FA2BB65ED1D6A03"
+			tasks: [
+				{
+					id: "59DA2354D9E99CAE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:demoncrystallizer"
+					}
+					type: "item"
+				}
+				{
+					id: "180D6F495021D467"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:demoncrucible"
+					}
+					type: "item"
+				}
+				{
+					id: "322F951E34FAFA9C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:demonpylon"
+					}
+					type: "item"
+				}
+			]
+			title: "Aura Farming"
+			x: 23.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["209C0E2550C84C69"]
+			id: "3913EED76917339E"
+			tasks: [{
+				id: "01731E058A1CDC1F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:magicianbloodorb"
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A13540D4E396260"]
+			hide_dependency_lines: true
+			id: "1B09621238805777"
+			tasks: [{
+				id: "0213ADB40BB130E0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simplyjetpacks:jetpack_vanilla1"
+								tag: { }
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simplyjetpacks:jetpack_te1"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Any Iron or Lead Jetpack"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5F12CF1071CE8A45"]
+			id: "137E5079D198BF5C"
+			tasks: [{
+				id: "4439131F8691DB5B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:metallurgic_infuser"
+				}
+				type: "item"
+			}]
+			x: -22.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["36318C8D65509470"]
+			hide_dependency_lines: true
+			id: "2EDD432C547674F0"
+			tasks: [{
+				id: "595942E08ABCA858"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:tinker_bench"
+					tag: {
+						BlockEntityTag: {
+							Energy: 117400
+							EnergyMax: 500000
+							EnergyRecv: 1000
+							EnergySend: 1000
+							RSControl: {
+								RSMode: 0b
+								RSThreshold: 0b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["137E5079D198BF5C"]
+			id: "3900C73EA601F27C"
+			tasks: [{
+				id: "4C6F89EFB3504D12"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:basic_control_circuit"
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["3AF5EB2526EAD40C"]
+			id: "1AB989E044EBCB6D"
+			tasks: [{
+				id: "30848CACC28E095F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "solarflux:sp_3"
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: 12.5d
 		}
 	]
 	title: "The Journey"

@@ -679,7 +679,7 @@ ServerEvents.recipes(event => {
                         'BBB'
                 ],
                 {
-                        C: 'concatenationcore:altcircuit',
+                        C: '#forge:circuits',
                         B: 'minecraft:iron_ingot',
                         A: 'solarflux:mirror'
                 }
@@ -745,7 +745,7 @@ ServerEvents.recipes(event => {
                         'AEA'
                 ],
                 {
-                        B: 'concatenationcore:altcircuit',
+                        B: '#forge:circuits',
                         E: 'concatenationcore:pump_rotor',
                         D: 'quarryplus:solid_fuel_quarry',
                         A: 'createdeco:zinc_support',

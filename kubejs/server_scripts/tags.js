@@ -13,6 +13,11 @@ ServerEvents.tags('item', event => {
     event.add('concatenation:lower_circuits', 'concatenationcore:altcircuit');
     event.add('forge:circuits', 'concatenationcore:circuit');
     event.add('forge:circuits', 'concatenationcore:altcircuit');
+    event.add('concatenation:higher_circuits', 'concatenationcore:circuit');
+    event.add('concatenation:higher_circuits', 'mekanism:basic_control_circuit');
+    event.add('concatenation:higher_circuits', 'mekanism:advanced_control_circuit');
+    event.add('concatenation:higher_circuits', 'mekanism:elite_control_circuit');
+    event.add('concatenation:higher_circuits', 'mekanism:ultimate_control_circuit');
 
     event.add('concatenation:tanks', 'littlelogistics:fluid_barge');
     event.add('concatenation:tanks', 'littlelogistics:fluid_car');
@@ -69,6 +74,9 @@ ServerEvents.tags('item', event => {
     event.add('tarotcards:tarot_cards', 'concatenationcore:full_wands');
     event.add('tarotcards:tarot_cards', 'concatenationcore:full_pentacles');
     event.add('tarotcards:tarot_cards', 'concatenationcore:full_swords');
+
+    event.add('curios:body', 'marbledsarsenal:black_plate_carrier_light');
+    event.add('curios:body', 'marbledsarsenal:black_plate_carrier_heavy');
 
     [
         "minecraft:diamond_pickaxe",

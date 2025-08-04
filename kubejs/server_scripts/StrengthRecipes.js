@@ -336,4 +336,113 @@ ServerEvents.recipes(event => {
                         A: 'createmetallurgy:steel_ingot'
                 }
         )
+        event.shaped(
+                Item.of('mcore:steel_sheet', 8),
+                [
+                        'ABC',
+                        'CCD',
+                        '   '
+                ],
+                {
+                        B: '#concatenation:hammers',
+                        C: 'createmetallurgy:steel_ingot',
+                        D: 'tconstruct:hepatizon_ingot',
+                        A: 'concatenationcore:full_swords'
+                }
+        ).keepIngredient('concatenationcore:full_swords')
+        event.shaped(
+                Item.of('mcore:titanium_sheet', 8),
+                [
+                        'ABC',
+                        'CDE',
+                        'F  '
+                ],
+                {
+                        E: 'concatenationcore:celestial_calralite',
+                        B: '#concatenation:hammers',
+                        A: 'concatenationcore:full_swords',
+                        C: 'mcore:titanium_ingot',
+                        D: 'createmetallurgy:tungsten_ingot',
+                        F: 'mcore:steel_sheet'
+                }
+        ).keepIngredient('concatenationcore:full_swords')
+        event.shapeless(
+                Item.of('minecraft:wooden_sword'),
+                [
+                        'minecraft:stick',
+                        'concatenationcore:full_swords'
+                ]
+        ).keepIngredient('concatenationcore:full_swords')
+        event.shapeless(
+                Item.of('asr:wooden_giant_sword'),
+                [
+                        'minecraft:stick',
+                        'concatenationcore:full_swords',
+                        'minecraft:stick'
+                ]
+        ).keepIngredient('concatenationcore:full_swords')
+        event.shapeless(
+                Item.of('mcore:titanium_block'),
+                [
+                        'mcore:titanium_ingot',
+                        'mcore:titanium_ingot',
+                        'mcore:titanium_ingot',
+                        'mcore:titanium_ingot',
+                        'mcore:titanium_ingot',
+                        'mcore:titanium_ingot',
+                        'mcore:titanium_ingot',
+                        'mcore:titanium_ingot',
+                        'mcore:titanium_ingot'
+                ]
+        )
+        event.shapeless(
+                Item.of('mcore:titanium_nugget', 9),
+                [
+                        'mcore:titanium_ingot'
+                ]
+        )
+        event.shaped(
+                Item.of('marbledsarsenal:black_plate_carrier_light',
+                '{CurioAttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"body"}]}'),
+                [
+                'A A',
+                'BCB',
+                'ADA'
+                ],
+                {
+                        D: 'createmetallurgy:steel_ingot',
+                        B: 'tconstruct:hepatizon_ingot',
+                        A: 'thermal:steel_plate',
+                        C: 'thermal:netherite_plate'
+                }
+        )
+        event.shaped(
+                Item.of('marbledsarsenal:black_plate_carrier_heavy',
+                '{CurioAttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:8,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"body"}]}'),
+                [
+                'A A',
+                'BCB',
+                'ADA'
+                ],
+                {
+                        D: 'marbledsarsenal:armor_plate',
+                        C: 'marbledsarsenal:black_plate_carrier_light',
+                        B: 'mcore:titanium_sheet',
+                        A: 'mcore:steel_sheet'
+                }
+        )
+        event.shapeless(
+                Item.of('marbledsarsenal:olive_plate_carrier_light'),
+                [
+                        'minecraft:green_dye',
+                        'marbledsarsenal:black_plate_carrier_light'
+                ]
+        )
+        event.shapeless(
+                Item.of('marbledsarsenal:olive_plate_carrier_heavy'),
+                [
+                        'minecraft:green_dye',
+                        'marbledsarsenal:black_plate_carrier_heavy'
+                ]
+        )
 });

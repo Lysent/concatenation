@@ -1,7 +1,7 @@
 {
   "Restriction Data": {
     "stage": "WIP",
-    "modList": ["psi", "mekanism", "mekanismgenerators", "projecte", "rftoolsbuilder", "simplyjetpacks", "theurgy"],
+    "modList": ["psi", "projecte", "rftoolsbuilder", "theurgy"],
     "itemList": []
   }
 }

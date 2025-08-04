@@ -33,7 +33,16 @@ ServerEvents.recipes(event => {
                 'mcore:steel_hoe',
                 'mcore:steel_scrap',
                 'mcore:steel_sheet',
-                'mcore:titanium_sheet'
+                'mcore:titanium_sheet',
+                'marbledsarsenal:black_plate_carrier_light',
+                'marbledsarsenal:olive_plate_carrier_light',
+                'marbledsarsenal:black_plate_carrier_heavy',
+                'marbledsarsenal:olive_plate_carrier_heavy',
+                'simplyjetpacks:jetpack_potato',
+                'simplyjetpacks:jetpack_vanilla1',
+                'simplyjetpacks:jetpack_te1',
+                'mekanism:metallurgic_infuser',
+                'mekanism:steel_casing'
         ]
 
         remove.forEach(item => {
@@ -58,6 +67,11 @@ ServerEvents.recipes(event => {
                 'industrialforegoing:machine_frame_simple',
                 'thermal:machine_frame'
         );
+        event.replaceInput(
+                { input: 'mekanism:steel_casing' },
+                'mekanism:steel_casing',
+                'industrialforegoing:machine_frame_advanced'
+        );
 
         replaceCasing.forEach(machine => {
                 event.replaceInput(
@@ -72,6 +86,16 @@ ServerEvents.recipes(event => {
                 'minecraft:glass_pane',
                 'thermal:obsidian_glass'
         );
+        event.replaceInput(
+                { mod: 'marbledsarsenal' },
+                'mcore:titanium_ingot',
+                'mcore:titanium_sheet'
+        );
+        event.replaceInput(
+                { mod: 'mcore' },
+                'mcore:titanium_ingot',
+                'mcore:titanium_sheet'
+        );
 
         event.remove({ output: 'thermal:lumium_dust', type: 'minecraft:crafting_shapeless' })
         event.remove({ output: 'thermal:enderium_dust', type: 'minecraft:crafting_shapeless' })
@@ -80,7 +104,8 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'thermal:lumium_ingot', type: 'minecraft:crafting_shapeless' })
         event.remove({ output: 'thermal:signalum_ingot', type: 'minecraft:crafting_shapeless' })
         event.remove({ output: 'thermal:enderium_ingot', type: 'minecraft:crafting_shapeless' })
-
+        event.remove({ output: 'mekanism:ingot_osmium', type: 'minecraft:smelting' })
+        event.remove({ output: 'mekanism:ingot_osmium', type: 'minecraft:blasting' })
 
         event.shaped(
                 Item.of('tarotcards:the_high_priestess'),
@@ -196,7 +221,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'thermal:steel_gear',
                         B: 'minecraft:flint',
-                        E: 'concatenationcore:circuit',
+                        E: '#concatenation:higher_circuits',
                         C: '#concatenation:high_priestess_casing',
                         A: 'minecraft:piston'
                 }
@@ -238,7 +263,7 @@ ServerEvents.recipes(event => {
                         C: 'thermal:signalum_ingot',
                         A: 'createmetallurgy:steel_ingot',
                         E: 'concatenationcore:signalum_coil',
-                        B: 'concatenationcore:circuit'
+                        B: '#concatenation:higher_circuits'
                 }
         )
         event.shaped(
@@ -403,52 +428,98 @@ ServerEvents.recipes(event => {
                 }
         ).keepIngredient('concatenationcore:full_cups')
         event.shaped(
-                Item.of('mcore:steel_sheet', 8),
+                Item.of('simplyjetpacks:jetpack_vanilla1'),
                 [
-                        'ABC',
-                        'CCD',
-                        '   '
+                        'ABA',
+                        'CDC',
+                        'EFE'
                 ],
                 {
-                        B: '#concatenation:hammers',
-                        C: 'createmetallurgy:steel_ingot',
-                        D: 'tconstruct:hepatizon_ingot',
-                        A: 'concatenationcore:full_swords'
+                        C: 'minecraft:iron_ingot',
+                        B: '#concatenation:higher_circuits',
+                        D: 'simplyjetpacks:leather_strap',
+                        A: 'thermal:steel_plate',
+                        E: 'simplyjetpacks:thruster_vanilla1',
+                        F: 'tarotcards:the_high_priestess'
                 }
-        ).keepIngredient('concatenationcore:full_swords')
+        ).keepIngredient('tarotcards:the_high_priestess')
         event.shaped(
-                Item.of('mcore:titanium_sheet', 8),
+                Item.of('simplyjetpacks:jetpack_te1'),
                 [
-                        'ABC',
-                        'CDE',
-                        '   '
+                        'ABA',
+                        'CDC',
+                        'EFE'
                 ],
                 {
-                        E: 'concatenationcore:celestial_calralite',
-                        B: '#concatenation:hammers',
-                        A: 'concatenationcore:full_swords',
-                        C: 'mcore:titanium_ingot',
-                        D: 'createmetallurgy:tungsten_ingot'
+                        E: 'simplyjetpacks:thruster_te1',
+                        B: '#concatenation:higher_circuits',
+                        D: 'simplyjetpacks:leather_strap',
+                        A: 'thermal:steel_plate',
+                        C: 'thermal:lead_ingot',
+                        F: 'rftoolspower:power_core1'
                 }
-        ).keepIngredient('concatenationcore:full_swords')
-        event.shapeless(
-                Item.of('minecraft:wooden_sword'),
+        )
+        event.shaped(
+                Item.of('mekanism:metallurgic_infuser'),
                 [
-                        'minecraft:stick',
-                        'concatenationcore:full_swords'
-                ]
-        ).keepIngredient('concatenationcore:full_swords')
-        event.shapeless(
-                Item.of('asr:wooden_giant_sword'),
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        A: 'createmetallurgy:steel_block',
+                        D: 'rftoolsbase:infused_diamond',
+                        B: '#concatenation:higher_circuits',
+                        C: 'mekanism:ingot_osmium',
+                        E: 'mekanism:steel_casing'
+                }
+        )
+        event.shaped(
+                Item.of('mekanism:steel_casing'),
                 [
-                        'minecraft:stick',
-                        'concatenationcore:full_swords',
-                        'minecraft:stick'
-                ]
-        ).keepIngredient('concatenationcore:full_swords')
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        D: 'concatenationcore:compacted_steel',
+                        E: 'concatenationcore:full_pentacles',
+                        A: 'mekanism:ingot_osmium',
+                        B: 'industrialforegoing:machine_frame_advanced',
+                        C: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('solarflux:sp_3'),
+                [
+                        'AAA',
+                        'BCB',
+                        'DED'
+                ],
+                {
+                        B: 'createmetallurgy:steel_ingot',
+                        E: '#concatenation:higher_circuits',
+                        C: 'thermal:lumium_ingot',
+                        A: 'solarflux:photovoltaic_cell_2',
+                        D: 'rftoolspower:power_core1'
+                }
+        )
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.pulverizer(Item.of('thermal:signalum_dust').withChance(1.5), 'thermal:signalum_plate')
         event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 4000), 'thermal:ice_charge'])
         event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 4000), 'concatenationcore:ice_shard'])
+
+        event.recipes.industrialforegoing.dissolution_chamber(
+                ['rftoolspower:power_core2', 'thermal:energy_cell_frame', 'rftoolspower:power_core2', 'concatenationcore:signalum_coil', 'concatenationcore:signalum_coil', 'rftoolspower:power_core2', 'tconstruct:hepatizon_ingot', 'rftoolspower:power_core2'],
+                'thermal:redstone',
+                'thermal:energy_cell',
+                100
+        )
+        event.recipes.industrialforegoing.dissolution_chamber(
+                ['solarflux:photovoltaic_cell_1', 'solarflux:photovoltaic_cell_1', 'solarflux:photovoltaic_cell_1', 'thermal:lapis_gear', 'thermal:lapis_gear', '#forge:plates/steel', '#forge:ingots/steel', '#forge:plates/steel'],
+                'thermal:glowstone',
+                'solarflux:photovoltaic_cell_2',
+                100
+        )
 });

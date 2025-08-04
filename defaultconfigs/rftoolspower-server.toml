@@ -108,7 +108,7 @@
 	[general.powercell]
 		#Maximum RF a single tier1 cell can hold
 		#Range: 1 ~ 2000000000
-		tier1MaxRF = 250000
+		tier1MaxRF = 150000
 		#Maximum RF a single tier2 cell can hold
 		#Range: 1 ~ 2000000000
 		tier2MaxRF = 2000000

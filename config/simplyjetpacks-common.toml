@@ -7,11 +7,11 @@
 		#Enable Vanilla Jetpacks Integration.
 		enableIntegrationVanilla = true
 		#Enable Immersive Engineering Jetpacks Integration.
-		enableIntegrationImmersiveEngineering = true
+		enableIntegrationImmersiveEngineering = false
 		#Enable Mekanism Jetpacks Integration.
-		enableIntegrationMekanism = true
+		enableIntegrationMekanism = false
 		#Enable EnderIO Jetpacks Integration.
-		enableIntegrationEnderIO = true
+		enableIntegrationEnderIO = false
 		#Enable Thermal Expansion Jetpacks Integration.
 		enableIntegrationThermalExpansion = true
 		#Enable Thermal Dynamics Jetpacks Integration.
@@ -1004,5 +1004,5 @@
 	#Misc Configurations
 	[simplyjetpacks-common.misc]
 		#Enable Advancements on Player join.
-		enableJoinAdvancements = true
+		enableJoinAdvancements = false
 
