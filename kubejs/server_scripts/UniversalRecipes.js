@@ -154,4 +154,41 @@ ServerEvents.recipes(event => {
                         'minecraft:bucket'
                 ]
         ).keepIngredient('concatenationcore:full_cups')
+
+        event.shaped(
+                Item.of('concatenationcore:mixing_tool'),
+                [
+                        ' A ',
+                        'ABA',
+                        ' A '
+                ],
+                {
+                        B: '#concatenation:mixing_tools',
+                        A: 'minecraft:iron_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:cutting_tool'),
+                [
+                        ' A ',
+                        'ABA',
+                        ' A '
+                ],
+                {
+                        B: '#concatenation:cutting_tools',
+                        A: 'minecraft:iron_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:breaking_tool'),
+                [
+                        ' A ',
+                        'ABA',
+                        ' A '
+                ],
+                {
+                        B: '#concatenation:breaking_tools',
+                        A: 'minecraft:iron_ingot'
+                }
+        )
 });

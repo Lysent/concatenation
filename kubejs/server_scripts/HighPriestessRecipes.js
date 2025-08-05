@@ -504,6 +504,20 @@ ServerEvents.recipes(event => {
                         D: 'rftoolspower:power_core1'
                 }
         )
+        event.shaped(
+                Item.of('concatenationcore:primed_calculation_processor'),
+                [
+                        'AB ',
+                        ' C ',
+                        ' D '
+                ],
+                {
+                        C: 'mekanism:basic_control_circuit',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'ae2:printed_calculation_processor',
+                        D: 'ae2:printed_silicon'
+                }
+        )
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.pulverizer(Item.of('thermal:signalum_dust').withChance(1.5), 'thermal:signalum_plate')

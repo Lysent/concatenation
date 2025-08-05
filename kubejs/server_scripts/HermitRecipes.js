@@ -11,7 +11,8 @@ ServerEvents.recipes(event => {
                 'create:fluid_tank',
                 'create_enchantment_industry:enchanting_guide',
                 'createbigcannons:cast_iron_ingot',
-                'createmetallurgy:coke'
+                'createmetallurgy:coke',
+                'createdeco:zinc_sheet'
         ]
 
         remove.forEach(item => {
@@ -26,6 +27,11 @@ ServerEvents.recipes(event => {
                 { mod: 'createbigcannons' },
                 'createbigcannons:cast_iron_ingot',
                 'tfmg:cast_iron_ingot'
+        )
+        event.replaceInput(
+                { input: 'createdeco:zinc_sheet' },
+                'createdeco:zinc_sheet',
+                'createaddition:zinc_sheet'
         )
 
         event.replaceInput(
@@ -93,9 +99,9 @@ ServerEvents.recipes(event => {
                         'minecraft:clay_ball',
                         'minecraft:sand',
                         'minecraft:gravel',
-                        '#concatenation:mixing_tools'
+                        'concatenationcore:mixing_tool'
                 ]
-        ).damageIngredient('#concatenation:mixing_tools')
+        ).damageIngredient('concatenationcore:mixing_tool')
         event.shapeless(
                 Item.of('tconstruct:grout', 4),
                 [
@@ -107,9 +113,9 @@ ServerEvents.recipes(event => {
                         'minecraft:gravel',
                         'minecraft:gravel',
                         'minecraft:gravel',
-                        '#concatenation:mixing_tools'
+                        'concatenationcore:mixing_tool'
                 ]
-        ).damageIngredient('#concatenation:mixing_tools')
+        ).damageIngredient('concatenationcore:mixing_tool')
         event.shaped(
                 Item.of('industrialforegoing:machine_frame_simple'),
                 [
@@ -275,5 +281,13 @@ ServerEvents.recipes(event => {
                         B: 'create:sturdy_sheet',
                         A: 'elementalcraft:springaline_shard'
                 }
+        )
+        event.shapeless(
+                Item.of('thermal:coal_coke'),
+                [
+                        'concatenationcore:breaking_tool',
+                        'minecraft:charcoal',
+                        'tfmg:coal_coke'
+                ]
         )
 });

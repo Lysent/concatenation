@@ -902,10 +902,10 @@ ServerEvents.recipes(event => {
                         '   '
                 ],
                 {
-                        A: '#concatenation:cutting_tools',
+                        A: 'concatenationcore:cutting_tool',
                         B: 'createmetallurgy:iron_dust'
                 }
-        ).damageIngredient('#concatenation:breaking_tools')
+        ).damageIngredient('concatenationcore:breaking_tool')
         event.shaped(
                 Item.of('concatenationcore:crushed_zinc', 3),
                 [
@@ -915,9 +915,9 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         B: 'createmetallurgy:zinc_dust',
-                        A: '#concatenation:cutting_tools'
+                        A: 'concatenationcore:cutting_tool'
                 }
-        ).damageIngredient('#concatenation:breaking_tools')
+        ).damageIngredient('concatenationcore:breaking_tool')
 
         event.recipes.thermal.pulverizer(Item.of('createmetallurgy:zinc_dust').withChance(1.5), 'create:zinc_ingot').energy(100)
 });

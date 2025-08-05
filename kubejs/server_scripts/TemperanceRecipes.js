@@ -42,9 +42,9 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         B: 'hexerei:infused_fabric',
-                        A: '#concatenation:cutting_tools'
+                        A: 'concatenationcore:cutting_tool'
                 }
-        ).damageIngredient('#concatenation:cutting_tools')
+        ).damageIngredient('concatenationcore:cutting_tool')
         event.shaped(
                 Item.of('hexerei:broom_thruster_brush'),
                 [

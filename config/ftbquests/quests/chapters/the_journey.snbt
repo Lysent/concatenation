@@ -3279,6 +3279,20 @@
 		{
 			dependencies: ["6A5FC0572660FB1E"]
 			id: "71AF6583ACE3E366"
+			rewards: [{
+				count: 7
+				id: "59810A75F8BF8D40"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:sourceberry_bush"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "42E9D98328029485"
 				item: {
@@ -3314,8 +3328,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: 17.0d
+			x: 12.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["3DF92A514A6B22AF"]
@@ -3334,8 +3348,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: 18.0d
+			x: 13.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["6A5FC0572660FB1E"]
@@ -3359,6 +3373,20 @@
 		{
 			dependencies: ["3DF92A514A6B22AF"]
 			id: "54DA52C7F14D64E9"
+			rewards: [{
+				count: 4
+				id: "0AAC6AE02BB7535B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:amethyst_block"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0C9D756D43C09872"
@@ -4065,6 +4093,11 @@
 				id: "ars_nouveau:enchanting_apparatus"
 			}
 			id: "71BB28D5234F5991"
+			rewards: [{
+				id: "130C120502CC052D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [
 				{
 					id: "2F2EA5D4CC65FACF"
@@ -4112,6 +4145,19 @@
 		{
 			dependencies: ["54DA52C7F14D64E9"]
 			id: "4AAD5BFB42654744"
+			rewards: [{
+				id: "0872C28DABAAF426"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:glyph_craft"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EFE8FE554AD0FDC"
 				item: {
@@ -4131,6 +4177,19 @@
 		{
 			dependencies: ["54DA52C7F14D64E9"]
 			id: "03F5F8D8A4E7D749"
+			rewards: [{
+				id: "18C386B1928DA321"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:source_jar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "40E422E69A1D4BCB"
 				item: {
@@ -6668,7 +6727,7 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
+			x: -6.5d
 			y: 21.0d
 		}
 		{
@@ -6689,7 +6748,7 @@
 				type: "item"
 			}]
 			title: "A Pair Of Giants"
-			x: -8.5d
+			x: -6.5d
 			y: 22.0d
 		}
 		{
@@ -6709,7 +6768,7 @@
 				type: "item"
 			}]
 			title: "The Age of Engines"
-			x: -8.5d
+			x: -6.5d
 			y: 23.0d
 		}
 		{
@@ -6948,56 +7007,31 @@
 				}
 			]
 			title: "Foundry Machines"
-			x: -4.5d
+			x: -4.0d
 			y: 19.0d
 		}
 		{
-			dependencies: ["5C37D62CC88F677F"]
+			dependencies: ["15B4E0B3C70D372F"]
+			hide_dependency_lines: true
 			id: "3CC948E467CCC4C6"
-			tasks: [
-				{
-					id: "6858A538ADEAFAF2"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:ingots/steel"
-						}
+			tasks: [{
+				id: "7E773BF5E1360240"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/aluminum"
 					}
-					title: "Any #forge:ingots/steel"
-					type: "item"
 				}
-				{
-					id: "2EC126FC032C0DE5"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:ingots/cast_iron"
-						}
-					}
-					title: "Any #forge:ingots/cast_iron"
-					type: "item"
-				}
-				{
-					id: "7E773BF5E1360240"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:ingots/aluminum"
-						}
-					}
-					title: "Any #forge:ingots/aluminum"
-					type: "item"
-				}
-			]
-			title: "Steel and its brothers"
+				title: "Any #forge:ingots/aluminum"
+				type: "item"
+			}]
+			title: "Aluminium"
 			x: -4.0d
 			y: 20.0d
 		}
 		{
-			dependencies: ["3CC948E467CCC4C6"]
+			dependencies: ["54B73403ADB72017"]
 			id: "0DBEF77B203B8850"
 			rewards: [{
 				count: 8
@@ -7042,7 +7076,7 @@
 				}
 			]
 			title: "Steel Piping"
-			x: -4.5d
+			x: -5.5d
 			y: 21.0d
 		}
 		{
@@ -7143,7 +7177,7 @@
 				}
 			]
 			title: "O I L"
-			x: -4.5d
+			x: -5.5d
 			y: 22.0d
 		}
 		{
@@ -7192,7 +7226,7 @@
 				}
 			]
 			title: "The Refinery"
-			x: -4.5d
+			x: -5.5d
 			y: 23.0d
 		}
 		{
@@ -7241,7 +7275,7 @@
 				}
 			]
 			title: "The Age of Engines"
-			x: -4.5d
+			x: -5.5d
 			y: 24.0d
 		}
 		{
@@ -8109,7 +8143,11 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["51F0251F529BE03C"]
+			dependencies: [
+				"51F0251F529BE03C"
+				"36318C8D65509470"
+			]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "4AE782719D5A61F7"
 			rewards: [{
@@ -8265,7 +8303,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
+			x: -8.5d
 			y: 21.0d
 		}
 		{
@@ -9250,8 +9288,8 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
-			y: 22.5d
+			x: -8.049999999999999d
+			y: 22.424999999999997d
 		}
 		{
 			dependencies: ["04DD33AF3AA672CD"]
@@ -12490,6 +12528,196 @@
 			}]
 			x: -22.0d
 			y: 12.5d
+		}
+		{
+			dependencies: ["547DFAC1D247643C"]
+			id: "3A2A8FA6C9D7C1F2"
+			tasks: [
+				{
+					id: "45531A0E3536D52B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:coke_oven"
+					}
+					type: "item"
+				}
+				{
+					id: "4504B36D316986BA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:coal_coke"
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"3A2A8FA6C9D7C1F2"
+				"5C37D62CC88F677F"
+			]
+			id: "54B73403ADB72017"
+			tasks: [{
+				id: "08E810B17E283B57"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createmetallurgy:steel_ingot"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3DF92A514A6B22AF"]
+			id: "08E10ADC80A20D8E"
+			rewards: [{
+				id: "68AF404CB90498BF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "elementalcraft:purecrystal"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0FE7F81E2DBF322D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_nouveau:water_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "2EEE92B62E582260"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_nouveau:air_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "3702BAD406FEE024"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_nouveau:fire_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "671D44D0CD00292F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_nouveau:earth_essence"
+					}
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["08E10ADC80A20D8E"]
+			id: "170CD0A639906705"
+			rewards: [{
+				count: 2
+				id: "05ABB74683BF9C68"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "concatenationcore:sourcesilver"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4980CF4EEBFEA090"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_nouveau:conjuration_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "78306FE7FD42E6EC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_nouveau:manipulation_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "0049CAFC4F67BA5B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_nouveau:abjuration_essence"
+					}
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 17.0d
 		}
 	]
 	title: "The Journey"

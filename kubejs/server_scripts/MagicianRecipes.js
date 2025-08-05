@@ -264,7 +264,7 @@ ServerEvents.recipes(event => {
                 {
                         C: 'minecraft:gold_ingot',
                         A: 'ars_nouveau:sourcestone',
-                        D: 'elementalcraft:pure_element_holder_core',
+                        D: 'concatenationcore:specialized_holder',
                         B: 'concatenationcore:sourcesilver'
                 }
         )
@@ -389,9 +389,9 @@ ServerEvents.recipes(event => {
                 {
                         B: 'concatenationcore:acclimated_shard',
                         C: 'create:sand_paper',
-                        A: '#concatenation:breaking_tools'
+                        A: 'concatenationcore:breaking_tool'
                 }
-        ).damageIngredient('#concatenation:breaking_tools')
+        ).damageIngredient('concatenationcore:breaking_tool')
         event.shaped(
                 Item.of('minecraft:netherite_scrap'),
                 [
@@ -402,16 +402,16 @@ ServerEvents.recipes(event => {
                 {
                         C: 'elementalcraft:firecrystal',
                         B: 'concatenationcore:acclimated_shard',
-                        A: '#concatenation:cutting_tools'
+                        A: 'concatenationcore:cutting_tool'
                 }
-        ).damageIngredient('#concatenation:cutting_tools')
+        ).damageIngredient('concatenationcore:cutting_tool')
         event.shapeless(
                 Item.of('ars_nouveau:magebloom_fiber', 4),
                 [
                         'minecraft:diamond_sword',
                         'ars_nouveau:magebloom'
                 ]
-        ).damageIngredient('#concatenation:breaking_tools')
+        ).damageIngredient('concatenationcore:breaking_tool')
         event.shapeless(
                 Item.of('ars_nouveau:magebloom_fiber', 4),
                 [
@@ -428,14 +428,14 @@ ServerEvents.recipes(event => {
                 ['ars_nouveau:drygmy_shard', 'concatenationcore:alatoris_fiber', 'ars_nouveau:whirlisprig_shards', 'concatenationcore:alatoris_fiber', 'ars_nouveau:starbuncle_shards', 'concatenationcore:alatoris_fiber', 'ars_nouveau:wixie_shards', 'concatenationcore:alatoris_fiber'],
                 'ars_nouveau:novice_spell_book',
                 'ars_nouveau:apprentice_spell_book',
-                50000,
+                5000,
                 true
         )
         event.recipes.ars_nouveau.enchanting_apparatus(
                 ['ars_elemental:fire_focus', 'concatenationcore:experienced_paper', 'ars_elemental:water_focus', 'concatenationcore:experienced_paper', 'ars_elemental:air_focus', 'concatenationcore:experienced_paper', 'ars_elemental:earth_focus', 'concatenationcore:experienced_paper'],
                 'ars_nouveau:apprentice_spell_book',
                 'ars_nouveau:archmage_spell_book',
-                150000,
+                100000,
                 true
         )
 
