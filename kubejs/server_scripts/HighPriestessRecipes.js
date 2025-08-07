@@ -42,7 +42,8 @@ ServerEvents.recipes(event => {
                 'simplyjetpacks:jetpack_vanilla1',
                 'simplyjetpacks:jetpack_te1',
                 'mekanism:metallurgic_infuser',
-                'mekanism:steel_casing'
+                'mekanism:steel_casing',
+                'rftoolsbase:machine_frame'
         ]
 
         remove.forEach(item => {
@@ -112,13 +113,14 @@ ServerEvents.recipes(event => {
                 [
                         'ABA',
                         'CDC',
-                        'ACA'
+                        'AEA'
                 ],
                 {
                         D: '#concatenation:tech_cards',
                         A: 'concatenationcore:gold_paper',
                         B: '#concatenation:high_priestess_casing',
-                        C: 'thermal:steel_dust'
+                        C: 'thermal:steel_dust',
+                        E: 'thermal:diamond_dust'
                 }
         ).keepIngredient('#concatenation:tech_cards')
         event.shaped(
@@ -509,13 +511,27 @@ ServerEvents.recipes(event => {
                 [
                         'AB ',
                         ' C ',
-                        ' D '
+                        '   '
                 ],
                 {
                         C: 'mekanism:basic_control_circuit',
                         A: 'concatenationcore:ironclad_hammer',
-                        B: 'ae2:printed_calculation_processor',
-                        D: 'ae2:printed_silicon'
+                        B: 'mekanism:ingot_osmium',
+                }
+        )
+        event.shaped(
+                Item.of('rftoolsbase:machine_frame'),
+                [
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        D: 'tarotcards:justice',
+                        C: 'rftoolsbase:infused_diamond',
+                        E: 'thermal:energy_cell',
+                        B: 'mekanism:ultimate_control_circuit',
+                        A: 'concatenationcore:concatenator'
                 }
         )
 
@@ -523,6 +539,7 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.pulverizer(Item.of('thermal:signalum_dust').withChance(1.5), 'thermal:signalum_plate')
         event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 4000), 'thermal:ice_charge'])
         event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 4000), 'concatenationcore:ice_shard'])
+        event.recipes.thermal.smelter('concatenationcore:galvanized_iron_nugget', ['create:zinc_nugget', 'create:zinc_nugget', 'minecraft:iron_nugget']).energy(4000)
 
         event.recipes.industrialforegoing.dissolution_chamber(
                 ['rftoolspower:power_core2', 'thermal:energy_cell_frame', 'rftoolspower:power_core2', 'concatenationcore:signalum_coil', 'concatenationcore:signalum_coil', 'rftoolspower:power_core2', 'tconstruct:hepatizon_ingot', 'rftoolspower:power_core2'],

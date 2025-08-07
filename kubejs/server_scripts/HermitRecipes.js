@@ -219,14 +219,15 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of('concatenationcore:primed_calculation_processor'),
                 [
-                        ' A ',
+                        'DA ',
                         ' B ',
                         ' C '
                 ],
                 {
                         C: '#forge:plates/silver',
                         B: 'ae2:calculation_processor',
-                        A: '#forge:ingots/electrum'
+                        A: '#forge:ingots/electrum',
+                        D: 'concatenationcore:ironclad_hammer'
                 }
         )
         event.shaped(

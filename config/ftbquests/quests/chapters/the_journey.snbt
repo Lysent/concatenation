@@ -11,9 +11,9 @@
 		image: "concatenationcore:textures/black-stone.png"
 		order: -1
 		rotation: 0.0d
-		width: 250.0d
-		x: 1.0d
-		y: 1.0d
+		width: 350.0d
+		x: 0.0d
+		y: 0.0d
 	}]
 	order_index: 1
 	quest_links: [ ]
@@ -12507,8 +12507,8 @@
 				}
 				type: "item"
 			}]
-			x: -21.5d
-			y: 18.5d
+			x: -23.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["3AF5EB2526EAD40C"]
@@ -12718,6 +12718,234 @@
 			]
 			x: 17.5d
 			y: 17.0d
+		}
+		{
+			dependencies: ["3900C73EA601F27C"]
+			id: "1974390B046B7B6A"
+			tasks: [{
+				id: "612DEA6824CE4179"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "concatenationcore:primed_calculation_processor"
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["1974390B046B7B6A"]
+			id: "47C95E5CB83C274D"
+			tasks: [{
+				id: "3F0FBB4C963EC6A7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:crafting_unit"
+				}
+				type: "item"
+			}]
+			x: -24.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["137E5079D198BF5C"]
+			id: "293F8BB2AE925A83"
+			tasks: [{
+				id: "6C5327AAB7D02C4E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "concatenationcore:concatenator"
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["2B825471FE41A521"]
+			id: "16425F7B3E364B17"
+			tasks: [{
+				id: "4CD45D31F0E1325C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rftoolsbase:machine_frame"
+				}
+				type: "item"
+			}]
+			x: -26.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["137E5079D198BF5C"]
+			id: "39AE05BD2C306FB0"
+			tasks: [
+				{
+					id: "6E77AF1D37826AA8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mekanism:mekasuit_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "071FE780CA20CCDC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mekanism:mekasuit_bodyarmor"
+					}
+					type: "item"
+				}
+				{
+					id: "0E4B497A25871877"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mekanism:mekasuit_pants"
+					}
+					type: "item"
+				}
+				{
+					id: "423E84899465D1E9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mekanism:mekasuit_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -21.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["293F8BB2AE925A83"]
+			id: "2B825471FE41A521"
+			size: 1.4d
+			tasks: [{
+				id: "678BDB15F6E434AE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:justice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Justice"
+			x: -24.75d
+			y: 20.25d
+		}
+		{
+			dependencies: ["137E5079D198BF5C"]
+			id: "258CC7EECC8A710B"
+			tasks: [{
+				id: "32A1D5283EF35B68"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:digital_miner"
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"199BA50861FD9E27"
+				"301D160C2B3F2B79"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4E4E81226BED0E7C"
+			size: 1.25d
+			tasks: [{
+				id: "55D724FE27C61EF7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:the_emperor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"301D160C2B3F2B79"
+				"27BBE74203C33C95"
+			]
+			hide_dependency_lines: true
+			id: "0D61335A0B07300D"
+			size: 1.25d
+			tasks: [{
+				id: "58F5FA81DA5EB05B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:the_lovers"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 26.5d
+			y: 8.5d
 		}
 	]
 	title: "The Journey"

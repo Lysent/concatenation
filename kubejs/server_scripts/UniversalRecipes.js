@@ -191,4 +191,19 @@ ServerEvents.recipes(event => {
                         A: 'minecraft:iron_ingot'
                 }
         )
+
+        event.shaped(
+                Item.of('concatenationcore:concatenator'),
+                [
+                        'ABC',
+                        'D  ',
+                        '   '
+                ],
+                {
+                        C: 'concatenationcore:celestial_calralite',
+                        A: 'createmetallurgy:steel_ingot',
+                        D: 'rftoolsbase:infused_diamond',
+                        B: 'mekanism:ingot_osmium'
+                }
+        )
 });
