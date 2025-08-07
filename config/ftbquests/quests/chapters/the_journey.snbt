@@ -11858,7 +11858,9 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
 					id: "6F399409C42F1F08"
@@ -11884,7 +11886,9 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
 					id: "5BFA4808FAC4418B"
@@ -11910,7 +11914,9 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
 					id: "6A5AE2E3773BA659"
@@ -11936,7 +11942,9 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
 					id: "5F22CCE2A1BAE403"
@@ -11962,7 +11970,9 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
 					id: "2BEFDFD62C416AE1"
@@ -11988,7 +11998,9 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			title: "Complete Eldritch Research"
