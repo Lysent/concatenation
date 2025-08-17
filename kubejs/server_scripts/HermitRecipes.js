@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('solarflux:sp_2'),
+                Item.of('solarflux:sp_2', 2),
                 [
                         'AAA',
                         'ABA',
@@ -226,7 +226,7 @@ ServerEvents.recipes(event => {
                 {
                         C: '#forge:plates/silver',
                         B: 'ae2:calculation_processor',
-                        A: '#forge:ingots/electrum',
+                        A: '#forge:gears/electrum',
                         D: 'concatenationcore:ironclad_hammer'
                 }
         )
@@ -239,7 +239,7 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         B: 'create:brass_ingot',
-                        C: 'concatenationcore:circuit',
+                        C: '#concatenation:circuits',
                         A: 'solarflux:mirror'
                 }
         )

@@ -672,27 +672,27 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('solarflux:sp_1'),
+                Item.of('solarflux:sp_1', 4),
                 [
                         'AAA',
                         'BCB',
                         'BBB'
                 ],
                 {
-                        C: '#forge:circuits',
+                        C: 'concatenationcore:altcircuit',
                         B: 'minecraft:iron_ingot',
                         A: 'solarflux:mirror'
                 }
         )
         event.shaped(
-                Item.of('solarflux:sp_2'),
+                Item.of('solarflux:sp_2', 4),
                 [
                         'ABA',
                         'BCB',
                         'ABA'
                 ],
                 {
-                        C: 'concatenationcore:altcircuit',
+                        C: '#concatenation:circuits',
                         A: 'solarflux:sp_1',
                         B: 'concatenationcore:alclad'
                 }

@@ -40,3 +40,4 @@ patchouli_data.json
 /config/**/*client.toml
 /config/inventoryprofilesnext
 Distant_Horizons_server_data
+welcomescreen_cache.json

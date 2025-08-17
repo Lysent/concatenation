@@ -49,7 +49,7 @@
 
 	[general.general]
 		#The energy usage multiplier for networks.
-		energyConsumptionMultiplier = 0
+		energyConsumptionMultiplier = 2
 		#The base energy usage for the fluid reader.
 		fluidReaderBaseConsumption = 1
 		#The base energy usage for the display panel when it has a variable.

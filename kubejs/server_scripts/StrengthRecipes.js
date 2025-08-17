@@ -13,7 +13,12 @@ ServerEvents.recipes(event => {
                 'tacz:ammo_box',
                 'tacz:workbench_a',
                 'tacz:workbench_c',
-                'tacz:gun_smith_table'
+                'tacz:gun_smith_table',
+                'mcore:steel_helmet',
+                'mcore:steel_chestplate',
+                'mcore:steel_leggings',
+                'mcore:steel_boots',
+                'psi:cad_assembler'
         ]
 
         remove.forEach(item => {
@@ -51,7 +56,7 @@ ServerEvents.recipes(event => {
                         F: 'minecraft:respawn_anchor',
                         E: 'minecraft:crying_obsidian'
                 }
-        )
+        ).keepIngredient('tarotcards:strength')
         event.shaped(
                 Item.of('concatenationcore:celestial_calralite'),
                 [
@@ -63,9 +68,9 @@ ServerEvents.recipes(event => {
                         B: 'tconstruct:raw_cobalt',
                         D: 'minecraft:fire_charge',
                         C: 'createmetallurgy:raw_wolframite',
-                        A: 'minecraft:diamond_pickaxe'
+                        A: 'concatenationcore:breaking_tool'
                 }
-        ).damageIngredient('minecraft:diamond_pickaxe')
+        ).damageIngredient('concatenationcore:breaking_tool')
         event.shaped(
                 Item.of('concatenationcore:celestial_calralite'),
                 [
@@ -77,9 +82,9 @@ ServerEvents.recipes(event => {
                         B: 'tconstruct:raw_cobalt',
                         C: 'createmetallurgy:raw_wolframite',
                         D: 'elementalcraft:fire_shard',
-                        A: 'minecraft:diamond_pickaxe'
+                        A: 'concatenationcore:breaking_tool'
                 }
-        ).damageIngredient('minecraft:diamond_pickaxe')
+        ).damageIngredient('concatenationcore:breaking_tool')
         event.shaped(
                 Item.of('concatenationcore:celestial_calralite'),
                 [
@@ -91,9 +96,9 @@ ServerEvents.recipes(event => {
                         B: 'tconstruct:raw_cobalt',
                         C: 'createmetallurgy:raw_wolframite',
                         D: 'ars_nouveau:fire_essence',
-                        A: 'minecraft:diamond_pickaxe'
+                        A: 'concatenationcore:breaking_tool'
                 }
-        ).damageIngredient('minecraft:diamond_pickaxe')
+        ).damageIngredient('concatenationcore:breaking_tool')
         event.shaped(
                 Item.of('tconstruct:soulsteel_ingot'),
                 [
@@ -121,7 +126,7 @@ ServerEvents.recipes(event => {
                         A: 'concatenationcore:soleipse',
                         B: 'tconstruct:soulsteel_ingot'
                 }
-        ).keepIngredient('#concatenation:strength')
+        ).keepIngredient('tarotcards:strength')
         event.shaped(
                 Item.of('celestisynth:solar_crystal_boots'),
                 [
@@ -134,7 +139,7 @@ ServerEvents.recipes(event => {
                         A: 'concatenationcore:soleipse',
                         B: 'tconstruct:soulsteel_ingot'
                 }
-        ).keepIngredient('#concatenation:strength')
+        ).keepIngredient('tarotcards:strength')
         event.shaped(
                 Item.of('celestisynth:solar_crystal_leggings'),
                 [
@@ -147,7 +152,7 @@ ServerEvents.recipes(event => {
                         A: 'concatenationcore:soleipse',
                         B: 'tconstruct:soulsteel_ingot'
                 }
-        ).keepIngredient('#concatenation:strength')
+        ).keepIngredient('tarotcards:strength')
         event.shaped(
                 Item.of('celestisynth:solar_crystal_chestplate'),
                 [
@@ -160,7 +165,7 @@ ServerEvents.recipes(event => {
                         A: 'concatenationcore:soleipse',
                         C: 'tconstruct:soulsteel_ingot'
                 }
-        ).keepIngredient('#concatenation:strength')
+        ).keepIngredient('tarotcards:strength')
 
         event.shaped(
                 Item.of('celestisynth:lunar_stone_helmet'),
@@ -174,7 +179,7 @@ ServerEvents.recipes(event => {
                         A: 'concatenationcore:lunepse',
                         B: 'tconstruct:soulsteel_ingot'
                 }
-        ).keepIngredient('#concatenation:strength')
+        ).keepIngredient('tarotcards:strength')
         event.shaped(
                 Item.of('celestisynth:lunar_stone_boots'),
                 [
@@ -187,7 +192,7 @@ ServerEvents.recipes(event => {
                         A: 'concatenationcore:lunepse',
                         B: 'tconstruct:soulsteel_ingot'
                 }
-        ).keepIngredient('#concatenation:strength')
+        ).keepIngredient('tarotcards:strength')
         event.shaped(
                 Item.of('celestisynth:lunar_stone_leggings'),
                 [
@@ -200,7 +205,7 @@ ServerEvents.recipes(event => {
                         A: 'concatenationcore:lunepse',
                         B: 'tconstruct:soulsteel_ingot'
                 }
-        ).keepIngredient('#concatenation:strength')
+        ).keepIngredient('tarotcards:strength')
         event.shaped(
                 Item.of('celestisynth:lunar_stone_chestplate'),
                 [
@@ -213,7 +218,7 @@ ServerEvents.recipes(event => {
                         A: 'concatenationcore:lunepse',
                         C: 'tconstruct:soulsteel_ingot'
                 }
-        ).keepIngredient('#concatenation:strength')
+        ).keepIngredient('tarotcards:strength')
         event.shaped(
                 Item.of('concatenationcore:soleipse'),
                 [
@@ -403,11 +408,11 @@ ServerEvents.recipes(event => {
         )
         event.shaped(
                 Item.of('marbledsarsenal:black_plate_carrier_light',
-                '{CurioAttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"body"}]}'),
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"body"}]}'),
                 [
-                'A A',
-                'BCB',
-                'ADA'
+                        'A A',
+                        'BCB',
+                        'ADA'
                 ],
                 {
                         D: 'createmetallurgy:steel_ingot',
@@ -418,11 +423,11 @@ ServerEvents.recipes(event => {
         )
         event.shaped(
                 Item.of('marbledsarsenal:black_plate_carrier_heavy',
-                '{CurioAttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:8,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"body"}]}'),
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:8,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"body"}]}'),
                 [
-                'A A',
-                'BCB',
-                'ADA'
+                        'A A',
+                        'BCB',
+                        'ADA'
                 ],
                 {
                         D: 'marbledsarsenal:armor_plate',
@@ -445,4 +450,32 @@ ServerEvents.recipes(event => {
                         'marbledsarsenal:black_plate_carrier_heavy'
                 ]
         )
+
+        // Wands
+        event.shaped(
+                Item.of('psi:cad_assembler'),
+                [
+                        'AAA',
+                        'BCB',
+                        'BBB'
+                ],
+                {
+                        B: 'createmetallurgy:steel_ingot',
+                        A: 'create:mechanical_crafter',
+                        C: 'concatenationcore:full_wands'
+                }
+        ).keepIngredient('concatenationcore:full_wands')
+        event.shaped(
+                Item.of('psi:cad_assembler'),
+                [
+                        'ABA',
+                        'ACA',
+                        'AAA'
+                ],
+                {
+                        A: 'createmetallurgy:steel_ingot',
+                        C: 'concatenationcore:full_wands',
+                        B: 'thermal:machine_crafter'
+                }
+        ).keepIngredient('concatenationcore:full_wands')
 });

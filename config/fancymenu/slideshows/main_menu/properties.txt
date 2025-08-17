@@ -6,6 +6,7 @@ slideshow-meta {
    height = 1080
    x = 0
    y = 0
-   duration = 5.0
+   duration = 25.0
    fadespeed = 12.0
+   randomize = true
 }

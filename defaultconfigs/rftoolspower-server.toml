@@ -90,10 +90,10 @@
 	[general.coalgenerator]
 		#Amount of RF generated per tick
 		#Range: > 0
-		generatePerTick = 500
+		generatePerTick = 250
 		#Amount of ticks generated per coal
 		#Range: > 0
-		ticksPerCoal = 600
+		ticksPerCoal = 300
 		#Maximum RF storage that the generator can hold
 		#Range: > 0
 		generatorMaxRF = 500000

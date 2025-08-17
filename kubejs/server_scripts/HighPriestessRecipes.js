@@ -43,7 +43,14 @@ ServerEvents.recipes(event => {
                 'simplyjetpacks:jetpack_te1',
                 'mekanism:metallurgic_infuser',
                 'mekanism:steel_casing',
-                'rftoolsbase:machine_frame'
+                'rftoolsbase:machine_frame',
+                'integrateddynamics:part_display_panel',
+                'industrialforegoing:machine_frame_advanced',
+                'mekanism:digital_miner',
+                'industrialforegoing:infinity_charger',
+                'mekanism:basic_universal_cable',
+                'mekanism:advanced_universal_cable',
+                'mekanism:energized_smelter'
         ]
 
         remove.forEach(item => {
@@ -73,6 +80,31 @@ ServerEvents.recipes(event => {
                 'mekanism:steel_casing',
                 'industrialforegoing:machine_frame_advanced'
         );
+        event.replaceInput(
+                { input: 'rftoolsutility:crafter1' },
+                'rftoolsutility:crafter1',
+                'thermal:machine_crafter'
+        );
+        event.replaceOutput(
+                { output: 'mekanism:digital_miner' },
+                'mekanism:steel_casing',
+                'thermal:laser_diode'
+        );
+        event.replaceInput(
+                { mod: 'mekanism' },
+                'minecraft:iron_ingot',
+                'mekanism:ingot_osmium'
+        );
+        event.replaceOutput(
+                { output: 'rftoolsstorage:modular_storage' },
+                'rftoolsbase:machine_frame',
+                '#concatenation:high_priestess_casing'
+        );
+        event.replaceOutput(
+                { output: 'rftoolsstorage:storage_scanner' },
+                'rftoolsbase:machine_frame',
+                '#concatenation:high_priestess_casing'
+        );
 
         replaceCasing.forEach(machine => {
                 event.replaceInput(
@@ -96,6 +128,16 @@ ServerEvents.recipes(event => {
                 { mod: 'mcore' },
                 'mcore:titanium_ingot',
                 'mcore:titanium_sheet'
+        );
+        event.replaceInput(
+                { mod: 'integrateddynamics' },
+                'minecraft:redstone',
+                'concatenationcore:stickyredstone'
+        );
+        event.replaceInput(
+                { mod: 'mekanism' },
+                'minecraft:redstone',
+                'concatenationcore:stickyredstone'
         );
 
         event.remove({ output: 'thermal:lumium_dust', type: 'minecraft:crafting_shapeless' })
@@ -490,9 +532,24 @@ ServerEvents.recipes(event => {
                         B: 'industrialforegoing:machine_frame_advanced',
                         C: 'thermal:steel_plate'
                 }
+        ).keepIngredient('concatenationcore:full_pentacles')
+        event.shaped(
+                Item.of('solarflux:sp_3', 2),
+                [
+                        'AAA',
+                        'BCB',
+                        'DED'
+                ],
+                {
+                        B: 'createmetallurgy:steel_ingot',
+                        E: '#concatenation:higher_circuits',
+                        C: 'thermal:signalum_ingot',
+                        A: 'solarflux:photovoltaic_cell_1',
+                        D: 'rftoolspower:power_core1'
+                }
         )
         event.shaped(
-                Item.of('solarflux:sp_3'),
+                Item.of('solarflux:sp_4', 4),
                 [
                         'AAA',
                         'BCB',
@@ -503,7 +560,7 @@ ServerEvents.recipes(event => {
                         E: '#concatenation:higher_circuits',
                         C: 'thermal:lumium_ingot',
                         A: 'solarflux:photovoltaic_cell_2',
-                        D: 'rftoolspower:power_core1'
+                        D: 'solarflux:sp_3'
                 }
         )
         event.shaped(
@@ -528,18 +585,155 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         D: 'tarotcards:justice',
-                        C: 'rftoolsbase:infused_diamond',
+                        C: 'create:shadow_steel',
                         E: 'thermal:energy_cell',
                         B: 'mekanism:ultimate_control_circuit',
-                        A: 'concatenationcore:concatenator'
+                        A: 'concatenationcore:daladite'
+                }
+        ).keepIngredient('tarotcards:justice')
+        event.shaped(
+                Item.of('integrateddynamics:part_display_panel'),
+                [
+                        ' A ',
+                        'BCB',
+                        ' D '
+                ],
+                {
+                        B: 'integrateddynamics:part_static_light_panel',
+                        A: 'integrateddynamics:variable_transformer_output',
+                        D: 'concatenationcore:primed_calculation_processor',
+                        C: 'integrateddynamics:menril_berries'
                 }
         )
+        event.shaped(
+                Item.of('thermal:charge_bench'),
+                [
+                        'ABA',
+                        'CDC',
+                        'EFE'
+                ],
+                {
+                        D: 'thermal:tinker_bench',
+                        E: 'thermal:invar_ingot',
+                        F: 'thermal:energy_cell',
+                        B: 'thermal:upgrade_augment_2',
+                        A: 'thermal:lumium_ingot',
+                        C: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:laser_diode'),
+                [
+                        'ABA',
+                        'CDE',
+                        'FGF'
+                ],
+                {
+                        E: 'industrialforegoing:fluid_laser_base',
+                        D: 'industrialforegoing:ore_laser_base',
+                        G: 'concatenationcore:compacted_steel',
+                        B: 'concatenationcore:stickyredstone',
+                        F: 'thermal:rf_coil_augment',
+                        C: 'industrialforegoing:laser_drill',
+                        A: 'thermal:diamond_gear'
+                }
+        )
+        event.shaped(
+                Item.of('mekanism:digital_miner'),
+                [
+                        'ABA',
+                        'CDC',
+                        'EFE'
+                ],
+                {
+                        A: 'mekanism:alloy_atomic',
+                        C: 'mekanism:logistical_sorter',
+                        F: 'thermal:laser_diode',
+                        D: 'mekanism:robit',
+                        E: 'mekanism:teleportation_core',
+                        B: 'mekanism:elite_control_circuit'
+                }
+        )
+        event.shaped(
+                Item.of('industrialforegoing:infinity_charger'),
+                [
+                        'AAA',
+                        'BCB',
+                        'DDD'
+                ],
+                {
+                        A: 'industrialforegoing:plastic',
+                        D: 'createmetallurgy:steel_ingot',
+                        B: 'thermal:energy_cell',
+                        C: 'thermal:charge_bench'
+                }
+        )
+        event.shapeless(
+                Item.of('createmetallurgy:steel_block', 9),
+                [
+                        'concatenationcore:compacted_steel'
+                ]
+        )
+        event.shaped(
+                Item.of('mekanism:advanced_universal_cable', 8),
+                [
+                        'ABA',
+                        ' C ',
+                        'ABA'
+                ],
+                {
+                        B: 'thermal:energy_duct',
+                        C: 'mekanism:basic_control_circuit',
+                        A: 'createmetallurgy:steel_ingot'
+                }
+        )
+        event.shapeless(
+                Item.of('mekanism:basic_universal_cable'),
+                [
+                        'thermal:energy_duct'
+                ]
+        )
+        event.shapeless(
+                Item.of('thermal:energy_duct'),
+                [
+                        'mekanism:basic_universal_cable'
+                ]
+        )
+        event.shaped(
+                Item.of('mekanism:energized_smelter'),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'createmetallurgy:steel_ingot',
+                        B: 'thermal:machine_furnace'
+                }
+        )
+        event.shaped(
+                Item.of('tarotcards:justice'),
+                [
+                        'ABA',
+                        'CDE',
+                        'ABA'
+                ],
+                {
+                        B: 'concatenationcore:daladite',
+                        E: 'mekanism:pellet_antimatter',
+                        A: 'concatenationcore:gold_paper',
+                        D: 'concatenationcore:full_pentacles',
+                        C: 'mekanism:reprocessed_fissile_fragment'
+                }
+        ).keepIngredient('concatenationcore:full_pentacles')
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.pulverizer(Item.of('thermal:signalum_dust').withChance(1.5), 'thermal:signalum_plate')
         event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 4000), 'thermal:ice_charge'])
         event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 4000), 'concatenationcore:ice_shard'])
         event.recipes.thermal.smelter('concatenationcore:galvanized_iron_nugget', ['create:zinc_nugget', 'create:zinc_nugget', 'minecraft:iron_nugget']).energy(4000)
+        event.recipes.thermal.smelter('concatenationcore:daladite', ['concatenationcore:celestial_calralite', 'rftoolsbase:infused_diamond', 'mekanism:ingot_refined_obsidian']).energy(35000)
+        event.recipes.thermal.smelter('create:shadow_steel', ['rftoolsbase:infused_diamond', 'minecraft:nether_star', 'concatenationcore:daladite']).energy(1000000)
 
         event.recipes.industrialforegoing.dissolution_chamber(
                 ['rftoolspower:power_core2', 'thermal:energy_cell_frame', 'rftoolspower:power_core2', 'concatenationcore:signalum_coil', 'concatenationcore:signalum_coil', 'rftoolspower:power_core2', 'tconstruct:hepatizon_ingot', 'rftoolspower:power_core2'],
@@ -553,4 +747,52 @@ ServerEvents.recipes(event => {
                 'solarflux:photovoltaic_cell_2',
                 100
         )
+        event.recipes.industrialforegoing.dissolution_chamber(
+                ['industrialforegoing:plastic', 'thermal:machine_frame', 'industrialforegoing:plastic', 'thermal:enderium_gear', 'thermal:enderium_gear', 'thermal:rose_gold_plate', 'thermal:diamond_gear', 'thermal:rose_gold_plate'],
+                'industrialforegoing:pink_slime',
+                'industrialforegoing:machine_frame_advanced',
+                100
+        )
+        event.recipes.industrialforegoing.dissolution_chamber(
+                ['industrialforegoing:plastic', 'thermal:machine_frame', 'industrialforegoing:plastic', 'minecraft:netherite_scrap', 'minecraft:netherite_scrap', 'thermal:rose_gold_plate', 'thermal:diamond_gear', 'thermal:rose_gold_plate'],
+                'industrialforegoing:pink_slime',
+                'industrialforegoing:machine_frame_advanced',
+                100
+        )
+        event.recipes.industrialforegoing.fluid_extractor(
+                'integrateddynamics:menril_log',
+                'integrateddynamics:menril_log_stripped',
+                0.5,
+                Fluid.of('industrialforegoing:latex', 9)
+        );
+        event.recipes.industrialforegoing.fluid_extractor(
+                'ars_nouveau:blue_archwood_log',
+                'ars_nouveau:stripped_blue_archwood_log',
+                0.5,
+                Fluid.of('industrialforegoing:latex', 5)
+        );
+        event.recipes.industrialforegoing.fluid_extractor(
+                'thermal:rubberwood_log',
+                'thermal:stripped_rubberwood_log',
+                0.5,
+                Fluid.of('industrialforegoing:latex', 10)
+        );
+        event.recipes.industrialforegoing.fluid_extractor(
+                'concatenationcore:compacted_stripped_wood',
+                'thermal:sawdust_block',
+                0.8,
+                Fluid.of('industrialforegoing:latex', 6)
+        );
+        event.recipes.industrialforegoing.fluid_extractor(
+                'concatenationcore:compacted_wood',
+                'concatenationcore:compacted_stripped_wood',
+                0.8,
+                Fluid.of('industrialforegoing:latex', 7)
+        );
+        event.recipes.industrialforegoing.fluid_extractor(
+                'concatenationcore:twice_compacted_wood',
+                'concatenationcore:compacted_wood',
+                0.8,
+                Fluid.of('industrialforegoing:latex', 8)
+        );
 });

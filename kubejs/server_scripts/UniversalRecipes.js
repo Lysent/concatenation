@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of(
                         "concatenationcore:full_cups",
-                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
                 ),
                 [
                         'ABA',
@@ -98,21 +98,39 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of(
                         "concatenationcore:full_wands",
-                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
                 ),
                 [
-                        "CCC",
-                        "CCC",
-                        "CCC"
+                        'ABA',
+                        'BCB',
+                        'ABA'
                 ],
                 {
-                        C: "concatenationcore:bricksword"
+                        B: 'mekanism:ingot_refined_glowstone',
+                        C: 'mekanism:meka_tool',
+                        A: 'thermal:gold_coin'
                 }
-        );
+        ).keepIngredient('mekanism:meka_tool')
+        event.shaped(
+                Item.of('concatenationcore:full_wands'),
+                [
+                        'ABA',
+                        'CDE',
+                        'AFA'
+                ],
+                {
+                        A: 'createdeco:gold_coin',
+                        E: 'tarotcards:the_magician',
+                        C: 'tarotcards:judgement',
+                        D: 'constructionwand:diamond_wand',
+                        F: 'elementalcraft:springaline_shard',
+                        B: 'ars_nouveau:air_essence'
+                }
+        ).keepIngredient('tarotcards:the_magician').keepIngredient('tarotcards:judgement')
         event.shaped(
                 Item.of(
                         "concatenationcore:full_swords",
-                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
                 ),
                 [
                         'ABA',
@@ -131,7 +149,7 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of(
                         "concatenationcore:full_pentacles",
-                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
                 ),
                 [
                         'ABA',
@@ -189,21 +207,6 @@ ServerEvents.recipes(event => {
                 {
                         B: '#concatenation:breaking_tools',
                         A: 'minecraft:iron_ingot'
-                }
-        )
-
-        event.shaped(
-                Item.of('concatenationcore:concatenator'),
-                [
-                        'ABC',
-                        'D  ',
-                        '   '
-                ],
-                {
-                        C: 'concatenationcore:celestial_calralite',
-                        A: 'createmetallurgy:steel_ingot',
-                        D: 'rftoolsbase:infused_diamond',
-                        B: 'mekanism:ingot_osmium'
                 }
         )
 });

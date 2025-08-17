@@ -402,13 +402,13 @@ ServerEvents.recipes(event => {
                 {
                         C: 'elementalcraft:firecrystal',
                         B: 'concatenationcore:acclimated_shard',
-                        A: 'concatenationcore:cutting_tool'
+                        A: 'concatenationcore:breaking_tool'
                 }
-        ).damageIngredient('concatenationcore:cutting_tool')
+        ).damageIngredient('concatenationcore:breaking_tool')
         event.shapeless(
                 Item.of('ars_nouveau:magebloom_fiber', 4),
                 [
-                        'minecraft:diamond_sword',
+                        'concatenationcore:cutting_tool',
                         'ars_nouveau:magebloom'
                 ]
         ).damageIngredient('concatenationcore:breaking_tool')
@@ -438,5 +438,11 @@ ServerEvents.recipes(event => {
                 100000,
                 true
         )
-
+        event.recipes.ars_nouveau.enchanting_apparatus(
+                ['irons_spellbooks:arcane_essence', 'ars_nouveau:manipulation_essence', 'irons_spellbooks:arcane_essence', 'irons_spellbooks:rare_ink'],
+                'concatenationcore:sourcesilver',
+                'concatenationcore:ectorite',
+                5000,
+                true
+        )
 });

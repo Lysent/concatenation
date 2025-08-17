@@ -141,7 +141,7 @@
 		#Range: 0.0 ~ 1.0E9
 		makeFrame = 15.0
 		#Range: 0.0 ~ 1.0E9
-		breakBlockBase = 15.0
+		breakBlockBase = 10.0
 		#Range: 0.0 ~ 1.0E9
 		breakBlockFluid = 125.0
 		#Range: 0.0 ~ 1.0E9

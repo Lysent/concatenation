@@ -23,8 +23,16 @@ ServerEvents.tags('item', event => {
         'concatenationcore:circuit',
         'concatenationcore:altcircuit'
     ];
+    const mekanismCircuits = [
+        'mekanism:basic_control_circuit',
+        'mekanism:advanced_control_circuit',
+        'mekanism:elite_control_circuit',
+        'mekanism:ultimate_control_circuit'
+    ]
     add('concatenation:lower_circuits', baseCircuits);
     add('forge:circuits', baseCircuits);
+    add('concatenation:circuits', baseCircuits);
+    add('concatenation:circuits', mekanismCircuits);
 
     add('concatenation:higher_circuits', [
         'concatenationcore:circuit',
