@@ -2,8 +2,8 @@ type = slideshow
 
 slideshow-meta {
    name = main_menu
-   width = 1920
-   height = 1080
+   width = 2000
+   height = 1330
    x = 0
    y = 0
    duration = 25.0

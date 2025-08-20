@@ -174,4 +174,16 @@ ServerEvents.tags('item', event => {
         "ars_nouveau:void_prism",
         "hexerei:crystal_ball"
     ]);
+
+    const knives = [
+        'ae2:certus_quartz_cutting_knife',
+        'ae2:nether_quartz_cutting_knife',
+        'bloodmagic:sacrificialdagger',
+        'concatenationcore:cutting_tool'
+    ]
+    add('forge:tools', knives);
+    add('minecraft:tools', knives);
+    add('forge:tools/knives', knives);
+    add('farmersdelight:tools/knives', knives);
+    add('farmersdelight:straw_harvesters', knives);
 });

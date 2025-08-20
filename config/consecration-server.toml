@@ -21,7 +21,7 @@
 	giveDefaultUndeadUndying = true
 	#The percent damage reduction against non-vulnerable damage.
 	#Range: 0 ~ 100
-	damageReduction = 50
+	damageReduction = 60
 	#The undying natural health regeneration in half-hearts per second.
 	#Range: 0 ~ 1000
 	healthRegeneration = 0.5

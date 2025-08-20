@@ -1,6 +1,23 @@
 ServerEvents.recipes(event => {
 
+        event.replaceInput(
+                { mod: 'born_in_chaos_v1' },
+                'born_in_chaos_v1:dark_metal_ingot',
+                'concatenationcore:dense_alloy'
+        );
+
+        const remove = [
+                'born_in_chaos_v1:dark_upgrade',
+                'born_in_chaos_v1:dark_metal_block',
+                'born_in_chaos_v1:dark_grid'
+        ]
+
+        remove.forEach(item => {
+                event.remove({ output: item })
+        })
+
         event.remove({ output: 'patchouli:guide_book', type: 'minecraft:crafting_shapeless' })
+        event.remove({ output: 'born_in_chaos_v1:dark_metal_nugget', type: 'minecraft:crafting_shapeless' })
 
         event.shapeless(
                 Item.of('patchouli:guide_book', '{"patchouli:book":"via_romana:guide"}'),
@@ -208,5 +225,137 @@ ServerEvents.recipes(event => {
                         B: '#concatenation:breaking_tools',
                         A: 'minecraft:iron_ingot'
                 }
+        )
+
+        // Empress
+        event.shaped(
+                Item.of('tarotcards:the_empress'),
+                [
+                        'ABC',
+                        'DEF',
+                        'CGA'
+                ],
+                {
+                        F: 'farmersdelight:roast_chicken_block',
+                        E: 'tarotcards:wheel_of_fortune',
+                        A: 'minecraft:gold_ingot',
+                        G: 'farmersdelight:pasta_with_meatballs',
+                        C: 'minecraft:glowstone',
+                        B: 'immersive_weathering:golden_moss_clump',
+                        D: 'minecraft:pumpkin_pie'
+                }
+        ).keepIngredient('tarotcards:wheel_of_fortune')
+        event.shapeless(
+                Item.of('farmersdelight:rice'),
+                [
+                        'thermal:rice_seeds'
+                ]
+        )
+        event.shapeless(
+                Item.of('farmersdelight:rice'),
+                [
+                        'minecolonies:rice'
+                ]
+        )
+        event.shapeless(
+                Item.of('farmersdelight:tomato'),
+                [
+                        'thermal:tomato'
+                ]
+        )
+        event.shapeless(
+                Item.of('farmersdelight:tomato'),
+                [
+                        'minecolonies:tomato'
+                ]
+        )
+        event.shapeless(
+                Item.of('farmersdelight:cabbage'),
+                [
+                        'minecolonies:cabbage'
+                ]
+        )
+        event.shapeless(
+                Item.of('thermal:corn'),
+                [
+                        'minecolonies:corn'
+                ]
+        )
+
+        // Death
+        event.shaped(
+                Item.of('tarotcards:death'),
+                [
+                        'ABA',
+                        'CDE',
+                        'AFA'
+                ],
+                {
+                        D: 'tarotcards:wheel_of_fortune',
+                        A: 'concatenationcore:glowing_gold_block',
+                        B: 'born_in_chaos_v1:shattered_skull',
+                        E: 'born_in_chaos_v1:transformative_flower',
+                        C: 'born_in_chaos_v1:sea_terror_eye',
+                        F: 'born_in_chaos_v1:bone_heart'
+                }
+        ).keepIngredient('tarotcards:wheel_of_fortune')
+
+        event.shaped(
+                Item.of('born_in_chaos_v1:dark_upgrade'),
+                [
+                        'ABA',
+                        'CDC',
+                        'CEC'
+                ],
+                {
+                        D: 'tarotcards:death',
+                        E: 'minecraft:netherite_upgrade_smithing_template',
+                        A: 'born_in_chaos_v1:dark_metal_nugget',
+                        B: 'born_in_chaos_v1:dark_upgrade',
+                        C: 'born_in_chaos_v1:seedof_chaos'
+                }
+        ).keepIngredient('tarotcards:death')
+        event.shaped(
+                Item.of('concatenationcore:dense_alloy'),
+                [
+                        'ADA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'minecraft:iron_ingot',
+                        A: 'minecraft:deepslate',
+                        C: 'born_in_chaos_v1:dark_metal_ingot',
+                        D: 'tarotcards:death'
+                }
+        ).keepIngredient('tarotcards:death')
+
+        event.shaped(
+                Item.of('born_in_chaos_v1:dark_metal_block'),
+                [
+                        'AAA',
+                        'AAA',
+                        'AAA'
+                ],
+                {
+                        A: 'born_in_chaos_v1:dark_metal_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('born_in_chaos_v1:dark_grid', 24),
+                [
+                        'AAA',
+                        'AAA',
+                        '   '
+                ],
+                {
+                        A: 'born_in_chaos_v1:dark_metal_ingot'
+                }
+        )
+        event.shapeless(
+                Item.of('born_in_chaos_v1:dark_metal_nugget', 9),
+                [
+                        'born_in_chaos_v1:dark_metal_ingot'
+                ]
         )
 });

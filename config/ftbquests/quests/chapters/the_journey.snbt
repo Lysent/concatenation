@@ -7,15 +7,14 @@
 	icon: "tarotcards:tarot_deck"
 	id: "7C44AFC336C0AE69"
 	images: [{
-		height: 1.0d
-		image: "concatenationcore:textures/black-stone.png"
-		order: -1
+		height: 43.0d
+		image: "concatenationcore:textures/channels3.png"
 		rotation: 0.0d
-		width: 1.0d
-		x: 0.0d
-		y: 0.0d
+		width: 58.25d
+		x: -0.5d
+		y: 2.0d
 	}]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -35,6 +34,7 @@
 				type: "item"
 			}]
 			size: 1.25d
+			subtitle: "Resource gathering, machinery, logistics"
 			tasks: [{
 				id: "359C4698A0B46508"
 				item: {
@@ -51,8 +51,8 @@
 				weak_nbt_match: true
 			}]
 			title: "Hierophant Pathway"
-			x: -2.5d
-			y: -1.0d
+			x: -1.875d
+			y: -1.25d
 		}
 		{
 			id: "2157576FC7005917"
@@ -71,6 +71,7 @@
 				type: "item"
 			}]
 			size: 1.25d
+			subtitle: "Holy Smiting, Elemental Power"
 			tasks: [{
 				id: "1F50749F52835134"
 				item: {
@@ -87,8 +88,8 @@
 				weak_nbt_match: true
 			}]
 			title: "Magician Pathway"
-			x: 1.5d
-			y: 2.5d
+			x: 1.875d
+			y: 1.875d
 		}
 		{
 			id: "2970C1ADE44898FF"
@@ -124,6 +125,7 @@
 				}
 			]
 			size: 1.25d
+			subtitle: "Occult, flight, gardening"
 			tasks: [{
 				id: "089EE2807179886C"
 				item: {
@@ -141,7 +143,7 @@
 			}]
 			title: "Temperance Pathway"
 			x: 2.5d
-			y: -1.0d
+			y: -1.25d
 		}
 		{
 			id: "06A4BEEE42830A85"
@@ -160,6 +162,7 @@
 				type: "item"
 			}]
 			size: 1.25d
+			subtitle: "Tinkering, Processing, Creating"
 			tasks: [{
 				id: "0C914BD8D10A926F"
 				item: {
@@ -176,8 +179,8 @@
 				weak_nbt_match: true
 			}]
 			title: "Hermit Pathway"
-			x: -1.5d
-			y: 2.5d
+			x: -1.25d
+			y: 1.875d
 		}
 		{
 			hide_dependent_lines: true
@@ -194,6 +197,7 @@
 				xp_levels: 1
 			}]
 			size: 1.25d
+			subtitle: "Every possibility"
 			tasks: [{
 				id: "37655A529CD6B9F4"
 				stat: "minecraft:walk_one_cm"
@@ -201,8 +205,8 @@
 				value: 500
 			}]
 			title: "Fool Pathway"
-			x: 0.10000000000000009d
-			y: -3.0d
+			x: 0.25d
+			y: -2.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -210,9 +214,21 @@
 			hide_dependent_lines: true
 			id: "0BD5BADADC18CC3D"
 			rewards: [{
-				id: "6E0DF49A7922FA74"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 2
+				id: "60DC33210E3EBB9D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				team_reward: false
+				type: "item"
 			}]
 			tasks: [{
 				id: "12A760AF88731FEC"
@@ -229,10 +245,11 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -5.0d
+			y: -5.3d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
+			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "7295B2DEC479349F"
 			rewards: [{
@@ -253,11 +270,13 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["2157576FC7005917"]
+			description: ["A book that analyzes knowledge through elemental glass to lend you answers. It contains most of the knowledge needed for progression through the Magician Path, such as the workings of the apparatus to refine elemental power. If I can't answer your question in this travel diary, then perhaps this other source can."]
+			hide_dependency_lines: true
 			id: "610EC84496C3AF1B"
 			rewards: [{
 				id: "427FE1F526666331"
@@ -280,17 +299,36 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
+			hide_dependency_lines: true
 			id: "5528A8B3F2AE6D2F"
-			rewards: [{
-				id: "7909932E25727A88"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7909932E25727A88"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "1A063B66D03FDB5B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "628F39BF4EBFB5DB"
 				item: {
@@ -305,8 +343,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5999999999999996d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -435,11 +473,28 @@
 			}]
 			title: "Shield"
 			x: 0.5d
-			y: -5.0d
+			y: -5.3d
 		}
 		{
 			dependencies: ["73F4AAF2267BB33B"]
+			hide_dependency_lines: true
 			id: "6F736EF54A792577"
+			rewards: [{
+				count: 3
+				id: "60140AA8ABAD501D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3813F82A0B6866F7"
 				item: {
@@ -457,27 +512,44 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6F736EF54A792577"]
 			id: "3F53C388105917F6"
-			rewards: [{
-				id: "4948A959B89F8873"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			rewards: [
+				{
+					id: "4948A959B89F8873"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "concatenationcore:hammer"
+						tag: {
+							Damage: 0
 						}
 					}
-					id: "concatenationcore:hammer"
-					tag: {
-						Damage: 0
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4989EDC1F956FE83"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5A9A92E241A904E0"
 				item: {
@@ -492,10 +564,10 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["3F53C388105917F6"]
+			dependencies: ["5746BB5C34ED74C7"]
 			id: "1A0E2D5ACAF189AC"
 			rewards: [{
 				count: 5
@@ -526,8 +598,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.049999999999999d
-			y: -2.3d
+			x: -9.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -564,25 +636,52 @@
 			}]
 			title: "Wheel of Fortune"
 			x: 0.0d
-			y: -6.5d
+			y: -6.8d
 		}
 		{
 			dependencies: ["2157576FC7005917"]
+			description: [
+				"A dull shard of crystalline matter, without attunement to an elemental power. Its surface is cloudy, brittle, and lacks the vibrant hues of an active crystal. Alone, it serves no purpose but as raw material, awaiting restoration or containment."
+				""
+				"Easily found in the earth’s crust, often mistaken for common quartz. Excavation with simple pickaxe tools suffices, though you will want to gather as many of them as you can."
+				""
+				"{@pagebreak}"
+				"I have picked up many of these lifeless shards along forgotten roads. At first, I thought them worthless, a distraction from hunger and cold. Yet, in certain places, shrines long abandoned, you may find plenty of them - and in fulfilled elemental form too."
+			]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "58500620F2876A16"
-			rewards: [{
-				id: "65A06A505A6A6FEC"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			rewards: [
+				{
+					id: "65A06A505A6A6FEC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0CF1EBFE59A43047"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
 						}
 					}
-					id: "minecraft:gold_ingot"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "5D32069B797C09AA"
 				item: {
@@ -596,8 +695,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 5.5d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -620,7 +719,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -4.0d
+			y: -4.3d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -649,7 +748,7 @@
 			}]
 			title: "Consecration"
 			x: 2.0d
-			y: -4.0d
+			y: -4.3d
 		}
 		{
 			dependencies: [
@@ -697,8 +796,8 @@
 				type: "item"
 			}]
 			title: "Dawn of Logistics"
-			x: -4.5d
-			y: 1.5d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1D9002F6E0272ABC"]
@@ -741,8 +840,8 @@
 				type: "item"
 			}]
 			title: "Steam Transportation"
-			x: -5.5d
-			y: 2.5d
+			x: -5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
@@ -784,8 +883,8 @@
 				type: "item"
 			}]
 			title: "Router"
-			x: -5.5d
-			y: 3.5d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
@@ -803,8 +902,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: 2.5d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
@@ -892,8 +991,8 @@
 				type: "item"
 			}]
 			title: "The Chariot"
-			x: -6.5d
-			y: 3.5d
+			x: -6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
@@ -916,7 +1015,7 @@
 			}]
 			title: "The Chariot"
 			x: -7.5d
-			y: 4.375d
+			y: 5.0d
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
@@ -961,7 +1060,7 @@
 			}]
 			title: "Electric"
 			x: -9.0d
-			y: 5.85d
+			y: 6.3d
 		}
 		{
 			dependencies: ["73F4AAF2267BB33B"]
@@ -981,8 +1080,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.6499999999999995d
-			y: 1.7999999999999998d
+			x: -8.55d
+			y: 2.6999999999999997d
 		}
 		{
 			dependencies: ["73F4AAF2267BB33B"]
@@ -1002,8 +1101,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.55d
-			y: 0.8999999999999999d
+			x: -9.450000000000001d
+			y: 1.7999999999999998d
 		}
 		{
 			dependencies: [
@@ -1025,13 +1124,19 @@
 				}
 				type: "item"
 			}]
-			x: -8.55d
-			y: 1.7999999999999998d
+			x: -9.450000000000001d
+			y: 2.6999999999999997d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
 			hide_dependency_lines: true
 			id: "1A9FA3C3DD29BFDB"
+			rewards: [{
+				count: 16
+				id: "2B0423B9B2266C97"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C177C5B54E555C4"
 				item: {
@@ -1046,7 +1151,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -6.5d
+			y: -6.8d
 		}
 		{
 			dependencies: ["73C5D7FC9AB3E5F8"]
@@ -1065,8 +1170,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.450000000000001d
-			y: 2.6999999999999997d
+			x: -10.350000000000001d
+			y: 3.5999999999999996d
 		}
 		{
 			dependencies: ["4493DC75D8CE4857"]
@@ -1085,8 +1190,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.549999999999999d
-			y: 3.15d
+			x: -9.45d
+			y: 4.05d
 		}
 		{
 			dependencies: ["4493DC75D8CE4857"]
@@ -1105,8 +1210,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.9d
-			y: 1.7999999999999998d
+			x: -10.8d
+			y: 2.6999999999999997d
 		}
 		{
 			dependencies: [
@@ -1128,8 +1233,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.35d
-			y: 3.5999999999999996d
+			x: -11.25d
+			y: 4.5d
 		}
 		{
 			dependencies: ["396320452B50120B"]
@@ -1148,8 +1253,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.25d
-			y: 4.5d
+			x: -12.15d
+			y: 5.4d
 		}
 		{
 			dependencies: [
@@ -1171,8 +1276,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.149999999999999d
-			y: 5.3999999999999995d
+			x: -13.049999999999999d
+			y: 6.3d
 		}
 		{
 			dependencies: ["73C5D7FC9AB3E5F8"]
@@ -1194,8 +1299,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.450000000000001d
-			y: 0.8999999999999999d
+			x: -8.549999999999999d
+			y: 3.5999999999999996d
 		}
 		{
 			dependencies: ["58FF082917ADFA66"]
@@ -1214,8 +1319,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.35d
-			y: 4.95d
+			x: -11.25d
+			y: 5.8500000000000005d
 		}
 		{
 			dependencies: ["58FF082917ADFA66"]
@@ -1249,8 +1354,8 @@
 					type: "item"
 				}
 			]
-			x: -11.7d
-			y: 3.5999999999999996d
+			x: -12.6d
+			y: 4.5d
 		}
 		{
 			dependencies: ["31750A18D07A8904"]
@@ -1268,8 +1373,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 7.0d
+			x: -0.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5F7CEE33D11A352F"]
@@ -1287,12 +1392,27 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["5B6717870A814E8C"]
 			id: "0964BD6C4413A9C9"
+			rewards: [{
+				id: "2F69D11469D5A573"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "30A3A4581FCAC5CE"
@@ -1309,8 +1429,8 @@
 				weak_nbt_match: true
 			}]
 			title: "The Mighty Smeltery"
-			x: -3.0d
-			y: 9.0d
+			x: -4.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -1328,8 +1448,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 10.5d
+			x: -5.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -1347,8 +1467,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 10.5d
+			x: -5.5d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -1391,16 +1511,31 @@
 				}
 				type: "item"
 			}]
-			x: -16.125d
-			y: 5.425000000000001d
+			x: -17.25d
+			y: 0.1750000000000007d
 		}
 		{
 			dependencies: [
-				"2E2A38A96D401883"
 				"1A0E2D5ACAF189AC"
+				"5BAA69CBD6B64BEA"
 			]
-			hide_dependency_lines: true
+			dependency_requirement: "one_completed"
 			id: "5F92E8FC88D86566"
+			rewards: [{
+				id: "0E45ABEFE5CD2F56"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "0CB30AE718F7C1E9"
@@ -1415,8 +1550,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: -2.5d
+			x: -11.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -1441,7 +1576,7 @@
 				type: "item"
 			}]
 			x: -6.324999999999999d
-			y: -7.475d
+			y: -5.175d
 		}
 		{
 			dependencies: ["7BB90DEFC570E065"]
@@ -1461,7 +1596,7 @@
 				type: "item"
 			}]
 			x: -8.625d
-			y: -6.324999999999999d
+			y: -4.6d
 		}
 		{
 			dependencies: ["73CD8163D268BA95"]
@@ -1526,8 +1661,8 @@
 				title: "Shrike or Experience Item"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -7.5d
+			x: -4.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -1570,8 +1705,8 @@
 				type: "item"
 			}]
 			title: "Find an Ancient City"
-			x: -1.5d
-			y: -8.0d
+			x: -1.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["58CFB61E7D4DE729"]
@@ -1694,11 +1829,26 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -9.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["7DD14D1827FF575E"]
 			id: "7CD059E89A322EA1"
+			rewards: [{
+				id: "32F962D36C538ECA"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "21A950DAE54FEF5D"
 				item: {
@@ -1712,8 +1862,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.5d
+			x: -5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7CD059E89A322EA1"]
@@ -1731,8 +1881,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: -5.5d
+			x: -7.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7CD059E89A322EA1"]
@@ -1746,6 +1896,21 @@
 				id: "concatenationcore:berry_incubator"
 			}
 			id: "58CFB61E7D4DE729"
+			rewards: [{
+				id: "626E69ECE07ABDFF"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2EC9A5BCD8CAA5DB"
@@ -1776,7 +1941,7 @@
 			]
 			title: "Grow Panvita"
 			x: -5.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["45EBD68510E9742C"]
@@ -1889,46 +2054,28 @@
 				title: "Any Vat"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -10.5d
+			x: -9.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6F736EF54A792577"]
 			id: "7DD14D1827FF575E"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
+			tasks: [{
+				id: "3D8A93A0719526F7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
 						}
-						id: "ae2:sky_stone_block"
 					}
-					id: "2FDEBEE282C4E99A"
-					structure: "ae2:meteorite"
-					title: "Find a Meteor"
-					type: "structure"
+					id: "ae2:sky_stone_block"
 				}
-				{
-					count: 48L
-					id: "3D8A93A0719526F7"
-					item: {
-						Count: 48
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "ae2:sky_stone_block"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "Find a fallen meteor"
 			x: -4.0d
-			y: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1951,7 +2098,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: -4.05d
+			y: -3.15d
 		}
 		{
 			dependencies: ["2E2A38A96D401883"]
@@ -1971,11 +2118,26 @@
 				type: "item"
 			}]
 			x: -10.35d
-			y: -4.95d
+			y: -3.5999999999999996d
 		}
 		{
 			dependencies: ["545CB21B2B59BA32"]
 			id: "0FFAF6B077B281C3"
+			rewards: [{
+				id: "7D7EC7CF345F51DD"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6640DB687FCC9FF2"
 				item: {
@@ -1990,7 +2152,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: -5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1A0E2D5ACAF189AC"]
@@ -2036,11 +2198,11 @@
 				title: "Experience Pump or Pump"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -0.5d
+			x: -9.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["1A0E2D5ACAF189AC"]
+			dependencies: ["5F92E8FC88D86566"]
 			id: "6ABEAF3BEADE0BF2"
 			tasks: [{
 				id: "2D62DCE07EAED017"
@@ -2055,8 +2217,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: -2.5d
+			x: -13.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1A0E2D5ACAF189AC"]
@@ -2075,8 +2237,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -0.5d
+			x: -8.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2104737FF0D2E4E7"]
@@ -2095,7 +2257,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -2154,8 +2316,8 @@
 				type: "item"
 			}]
 			title: "Core of the System"
-			x: -10.5d
-			y: -9.0d
+			x: -11.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -2189,7 +2351,7 @@
 				}
 			]
 			x: -11.0d
-			y: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["05C3E83BCCEF20A2"]
@@ -2208,7 +2370,7 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: -8.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0F2FB52232FC40C5"]
@@ -2242,24 +2404,17 @@
 					type: "item"
 				}
 			]
-			x: -11.5d
-			y: -10.0d
+			x: -12.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["58500620F2876A16"]
+			description: ["The small element container is the basis for any small elemental system. Most elemental instruments need to be placed on top of a container, such as the elemental extractor. When broken, it will retain most of the element inside. Pipes can be attached to its sides, which then can be toggled  to output element."]
 			id: "42EF54B7ABFC5789"
 			rewards: [{
-				count: 2
+				count: 16
 				id: "2DC8B29C95726C1E"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "elementalcraft:elementpipe_impaired"
-				}
+				item: "elementalcraft:elementpipe_impaired"
 				type: "item"
 			}]
 			tasks: [{
@@ -2275,21 +2430,24 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 6.5d
+			x: 3.625d
+			y: 5.125d
 		}
 		{
 			dependencies: ["42EF54B7ABFC5789"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "elementalcraft:extractor"
-			}
+			description: [
+				"To start your proper elemental setup, you will want to either find an elemental source in the wild - floating circles of colour depending on the element - or make use of an element evaporator to evaporate raw or powerful natural shards into elemental power. I would recommend finding a source instead, as it's more reliable. Finding all four sources in one place is miraculous though. Noting down the location of the new sources found is crucial. "
+				""
+				"{@pagebreak}"
+				"Then, place down an elemental container two blocks from the source and an extractor right below it to start the extraction process. Beware that these sources are very fragile."
+			]
+			icon: "elementalcraft:extractor"
 			id: "1F58B572150DAE32"
+			rewards: [{
+				id: "6028145179247222"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "292945F517EC143D"
 				item: {
@@ -2327,11 +2485,12 @@
 				type: "item"
 			}]
 			title: "Elemental Extraction"
-			x: 6.5d
-			y: 7.5d
+			x: 4.625d
+			y: 6.125d
 		}
 		{
 			dependencies: ["1F58B572150DAE32"]
+			description: ["The element infuser can enhance almost all of your tools with a special effect depending on the elemental used. However, only one effect can be active at a time per tool or armor piece. It is also used in the crafting of ingredients required for more advanced instruments."]
 			id: "12F6BD166085B3B5"
 			tasks: [{
 				id: "56583FD7B3E6FB3E"
@@ -2346,12 +2505,19 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 8.5d
+			x: 5.625d
+			y: 7.125d
 		}
 		{
 			dependencies: ["1F58B572150DAE32"]
+			description: ["The fire furnace is a powerful version of the regular furnace that, while connected to a fire source, will effectively have infinite fuel. Fire sources are quite tricky to find, however. They are most common in hot biomes and the Nether. You will rarely find them in most places common to man."]
 			id: "24B4C5E2BD7E2F32"
+			rewards: [{
+				count: 4
+				id: "1C6DABBFB28C15B1"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CCD1A88E4F820F1"
 				item: {
@@ -2365,8 +2531,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.5d
+			x: 6.125d
+			y: 5.125d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
@@ -2384,8 +2550,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: 9.5d
+			x: 6.625d
+			y: 8.125d
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
@@ -2403,8 +2569,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 11.0d
+			x: 7.625d
+			y: 9.625d
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
@@ -2422,8 +2588,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 10.0d
+			x: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -2444,8 +2610,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: 11.0d
+			x: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -2486,8 +2652,8 @@
 				type: "item"
 			}]
 			title: "Growth or Harvest Shrine"
-			x: 13.0d
-			y: 10.5d
+			x: 10.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -2505,8 +2671,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 11.5d
+			x: 10.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -2524,8 +2690,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: 12.5d
+			x: 10.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -2543,8 +2709,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 13.0d
+			x: 9.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -2562,31 +2728,42 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 12.5d
+			x: 8.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
+			description: ["&o&7A drawn note is left on the entry"]
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
 				id: "minecraft:diamond_pickaxe"
 				tag: {
 					Damage: 0
 				}
 			}
 			id: "7B6FCB0173A693EC"
+			rewards: [{
+				id: "24F490059001E30A"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "668AFA07DC9A9D1C"
 				title: "Tool Infusion"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: 9.5d
+			x: 4.625d
+			y: 8.125d
 		}
 		{
 			dependencies: ["4E9AB3BBC0D575C4"]
@@ -2619,8 +2796,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: 12.0d
+			x: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
@@ -2692,8 +2869,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 14.0d
+			x: 2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
@@ -2711,8 +2888,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 15.0d
+			x: 1.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
@@ -2730,8 +2907,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 12.5d
+			x: 5.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["5DF3CE9894B8409C"]
@@ -2812,8 +2989,8 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 13.5d
+			x: 3.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["2A33F6E189A28CDF"]
@@ -2831,8 +3008,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 14.5d
+			x: 2.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["51E48EAB50B0971E"]
@@ -2850,8 +3027,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 17.0d
+			x: 1.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
@@ -2869,8 +3046,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 11.0d
+			x: 5.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
@@ -2929,8 +3106,8 @@
 				title: "Any Displacement Plate"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 16.0d
+			x: 1.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
@@ -2948,8 +3125,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 13.0d
+			x: 7.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["51E48EAB50B0971E"]
@@ -3210,11 +3387,12 @@
 				title: "Any Jewel"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 16.0d
+			x: 3.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["330D9AAC0CD81668"]
+			hide_dependency_lines: true
 			id: "6EB5A9ACC0090BC7"
 			tasks: [{
 				id: "39EFF219AAA904C0"
@@ -3229,8 +3407,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 14.0d
+			x: 8.0d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -3257,8 +3435,8 @@
 				type: "item"
 			}]
 			title: "The Sun"
-			x: 12.649999999999999d
-			y: 16.099999999999998d
+			x: 10.149999999999999d
+			y: 13.0d
 		}
 		{
 			dependencies: ["330D9AAC0CD81668"]
@@ -3276,8 +3454,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: 14.0d
+			x: 6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6A5FC0572660FB1E"]
@@ -3310,8 +3488,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 18.0d
+			x: 12.0d
+			y: 14.900000000000002d
 		}
 		{
 			dependencies: ["6A5FC0572660FB1E"]
@@ -3331,8 +3509,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 18.0d
+			x: 9.5d
+			y: 14.900000000000002d
 		}
 		{
 			dependencies: ["3DF92A514A6B22AF"]
@@ -3351,12 +3529,27 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: 19.0d
+			x: 10.5d
+			y: 15.900000000000002d
 		}
 		{
 			dependencies: ["6A5FC0572660FB1E"]
 			id: "3DF92A514A6B22AF"
+			rewards: [{
+				id: "5667C2991588FD71"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E9AABA499FD8F99"
 				item: {
@@ -3370,8 +3563,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: 19.0d
+			x: 13.0d
+			y: 15.900000000000002d
 		}
 		{
 			dependencies: ["3DF92A514A6B22AF"]
@@ -3418,8 +3611,8 @@
 					type: "item"
 				}
 			]
-			x: 16.5d
-			y: 20.0d
+			x: 14.0d
+			y: 16.900000000000002d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -3497,8 +3690,8 @@
 				title: "Any Mage Equipment"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 21.5d
+			x: 9.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -3570,8 +3763,8 @@
 				}
 			]
 			title: "Sorcerer Set"
-			x: 13.0d
-			y: 22.0d
+			x: 11.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -3643,8 +3836,8 @@
 				}
 			]
 			title: "Arcanist Set"
-			x: 12.0d
-			y: 22.5d
+			x: 10.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -3716,8 +3909,8 @@
 				}
 			]
 			title: "Battlemage Set"
-			x: 11.0d
-			y: 23.0d
+			x: 9.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -3789,8 +3982,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: 25.5d
+			x: 9.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -3862,8 +4055,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 24.5d
+			x: 10.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -3935,8 +4128,8 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
-			y: 25.5d
+			x: 11.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -4008,8 +4201,8 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: 24.0d
+			x: 11.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -4081,8 +4274,8 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
-			y: 25.0d
+			x: 12.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["54DA52C7F14D64E9"]
@@ -4142,8 +4335,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 21.0d
+			x: 12.5d
+			y: 17.900000000000002d
 		}
 		{
 			dependencies: ["54DA52C7F14D64E9"]
@@ -4174,8 +4367,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: 19.0d
+			x: 15.0d
+			y: 15.900000000000002d
 		}
 		{
 			dependencies: ["54DA52C7F14D64E9"]
@@ -4206,8 +4399,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
-			y: 20.0d
+			x: 15.5d
+			y: 17.0d
 		}
 		{
 			dependencies: [
@@ -4231,8 +4424,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 23.0d
+			x: 13.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["03F5F8D8A4E7D749"]
@@ -4300,8 +4493,8 @@
 				title: "Any Sourcelink"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 19.0d
+			x: 16.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["44240C2BEF40998D"]
@@ -4531,8 +4724,8 @@
 				title: "Any Thread"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 24.0d
+			x: 14.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -4550,8 +4743,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: 21.0d
+			x: 15.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["3683C013E2CDB6DC"]
@@ -4624,8 +4817,8 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
-			y: 22.0d
+			x: 16.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["4FD664E0F7A92893"]
@@ -4644,8 +4837,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: 23.0d
+			x: 17.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["3683C013E2CDB6DC"]
@@ -4911,8 +5104,8 @@
 				title: "Any Ritual except Wilden"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 21.0d
+			x: 17.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -4999,8 +5192,8 @@
 				title: "Any Small Mage Equipment"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 22.0d
+			x: 8.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -5018,8 +5211,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.0d
-			y: 22.0d
+			x: 13.5d
+			y: 18.900000000000002d
 		}
 		{
 			dependencies: ["6A5FC0572660FB1E"]
@@ -5087,8 +5280,8 @@
 				title: "Any Archwood Log"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 17.0d
+			x: 11.0d
+			y: 13.900000000000002d
 		}
 		{
 			dependencies: [
@@ -5110,8 +5303,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.5d
-			y: 25.0d
+			x: 19.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["65C15526A590FDF9"]
@@ -5129,8 +5322,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.0d
-			y: 22.0d
+			x: 18.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -5189,8 +5382,8 @@
 				title: "Any Lesser Focus"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 25.0d
+			x: 16.5d
+			y: 22.5d
 		}
 		{
 			dependencies: [
@@ -5252,8 +5445,8 @@
 					type: "item"
 				}
 			]
-			x: 20.5d
-			y: 24.0d
+			x: 18.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["4080496891426ACB"]
@@ -5271,8 +5464,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
-			y: 23.0d
+			x: 19.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
@@ -5293,12 +5486,27 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 8.5d
+			x: 7.625d
+			y: 7.125d
 		}
 		{
 			dependencies: ["02CAE7DE326720EA"]
 			id: "7E1C64AA0AA235C2"
+			rewards: [{
+				id: "4E83193BB6983CCC"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "20A4244FEDD769DE"
@@ -5313,8 +5521,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.35d
-			y: 7.475d
+			x: 8.475d
+			y: 6.1d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -5329,13 +5537,18 @@
 				id: "minecraft:oak_hanging_sign"
 			}
 			id: "5B1114E8AD48A9D4"
+			rewards: [{
+				id: "5EE1045CF5A195EC"
+				item: "minecolonies:supplychestdeployer"
+				type: "item"
+			}]
 			tasks: [{
 				id: "248EFACDC86C287B"
 				title: "Via Romana"
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: -6.5d
+			y: -6.8d
 		}
 		{
 			dependencies: ["03F5F8D8A4E7D749"]
@@ -5353,8 +5566,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
-			y: 20.0d
+			x: 17.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -5447,13 +5660,29 @@
 			]
 			title: "Find a Witch's Hut"
 			x: 1.5d
-			y: -8.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
 			description: ["The Mixing Cauldron can also be used for more efficient potion"]
 			hide_dependency_lines: true
 			id: "3B8127AF958727B0"
+			rewards: [{
+				count: 2
+				id: "2FC85BDDB5D2E9B7"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6FDF2B0B4C629AB0"
 				item: {
@@ -5468,7 +5697,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -5486,8 +5715,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -4.5d
+			x: 8.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["08656304775DB207"]
@@ -5542,8 +5771,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -6.0d
+			x: 8.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["0CC91D0458ACB827"]
@@ -5562,7 +5791,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: -4.5d
 		}
 		{
@@ -5582,7 +5811,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: -6.0d
 		}
 		{
@@ -5602,8 +5831,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -7.5d
+			x: 10.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -5637,8 +5866,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: -3.0d
+			x: 9.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -5660,8 +5889,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -6.0d
+			x: 6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0CC91D0458ACB827"]
@@ -5690,7 +5919,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0BBFD1B138A5DA3D"]
@@ -5736,7 +5965,7 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
+			x: 12.0d
 			y: -4.5d
 		}
 		{
@@ -5798,7 +6027,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["50DF4F514B4C87B9"]
@@ -5846,7 +6075,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -5871,17 +6100,36 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
+			x: 12.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
 			id: "4134F85EED507D7B"
-			rewards: [{
-				id: "582E25BEE0F312D2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "52B64EC57097F4EE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "14717A9744338FED"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+			]
 			size: 0.8d
 			tasks: [{
 				id: "49394A1CABCCB8CC"
@@ -5950,7 +6198,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -5.0d
+			y: -5.3d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -5968,12 +6216,27 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.5d
+			x: 6.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
 			id: "7B7ECE9C646B974B"
+			rewards: [{
+				id: "15BA491843358A2D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1BBCE9CD2A6F81E9"
 				item: {
@@ -5987,8 +6250,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.5d
+			x: 8.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -6008,7 +6271,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0419D82408E8C7B0"]
@@ -6026,12 +6289,11 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 0.5d
+			x: 10.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
-			hide_dependency_lines: true
 			id: "6EB3E5667F8481FC"
 			tasks: [{
 				id: "583111F990D92E4D"
@@ -6047,8 +6309,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -1.5d
+			x: 10.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0BBFD1B138A5DA3D"]
@@ -6066,7 +6328,7 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
+			x: 13.5d
 			y: -4.5d
 		}
 		{
@@ -6085,8 +6347,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -0.5d
+			x: 9.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0BBFD1B138A5DA3D"]
@@ -6133,7 +6395,7 @@
 				type: "item"
 			}]
 			title: "Any Broom Tip"
-			x: 12.5d
+			x: 12.0d
 			y: -6.0d
 		}
 		{
@@ -6259,8 +6521,8 @@
 				}
 			]
 			title: "Collect Every Herb"
-			x: 12.0d
-			y: -1.5d
+			x: 11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -6280,7 +6542,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -6347,7 +6609,7 @@
 				}
 			]
 			x: 12.0d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -6406,7 +6668,7 @@
 				}
 			]
 			x: 18.0d
-			y: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["54D2E4556B238BE4"]
@@ -6429,7 +6691,7 @@
 			}]
 			title: "The Moon"
 			x: 16.474999999999998d
-			y: 3.175d
+			y: 0.6750000000000007d
 		}
 		{
 			dependencies: ["48182227AA27C096"]
@@ -6447,8 +6709,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 10.5d
+			x: -6.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["48182227AA27C096"]
@@ -6466,8 +6728,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 12.0d
+			x: -5.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["06856516470E742D"]
@@ -6500,8 +6762,8 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: 12.0d
+			x: -6.5d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -6540,7 +6802,7 @@
 			]
 			title: "Gearboxes"
 			x: -8.0d
-			y: 14.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["335D849D587BCE73"]
@@ -6573,8 +6835,8 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: 15.0d
+			x: -9.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["7948CF780F8B6C0B"]
@@ -6592,8 +6854,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 15.0d
+			x: -8.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["6B25C523000F8937"]
@@ -6627,8 +6889,8 @@
 				}
 			]
 			title: "Press \\& Mixer"
-			x: -7.0d
-			y: 16.0d
+			x: -9.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -6688,8 +6950,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 17.0d
+			x: -8.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -6707,8 +6969,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 17.0d
+			x: -11.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -6727,8 +6989,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 18.0d
+			x: -11.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["782EDA8D4D2B9CA6"]
@@ -6746,8 +7008,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: 19.0d
+			x: -11.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["57DB683E290787AA"]
@@ -6765,8 +7027,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: 20.0d
+			x: -12.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["2F7137679E3E480B"]
@@ -6785,8 +7047,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: 21.0d
+			x: -11.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["53D5A1A751227C9A"]
@@ -6806,8 +7068,8 @@
 				type: "item"
 			}]
 			title: "A Pair Of Giants"
-			x: -6.5d
-			y: 22.0d
+			x: -11.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["15B4E0B3C70D372F"]
@@ -6826,8 +7088,8 @@
 				type: "item"
 			}]
 			title: "The Age of Engines"
-			x: -6.5d
-			y: 23.0d
+			x: -11.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["57DB683E290787AA"]
@@ -6845,8 +7107,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: 19.0d
+			x: -12.5d
+			y: 18.5d
 		}
 		{
 			dependencies: [
@@ -6867,8 +7129,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: 21.0d
+			x: -12.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["39DB90AC7E1BF135"]
@@ -6901,8 +7163,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 18.0d
+			x: -8.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -6921,8 +7183,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
-			y: 16.0d
+			x: -11.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["34860EFC2864214C"]
@@ -6982,8 +7244,8 @@
 				}
 			]
 			title: "Power Connection"
-			x: -9.5d
-			y: 18.0d
+			x: -12.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["749F271CD9E35A16"]
@@ -7017,8 +7279,8 @@
 				}
 			]
 			title: "Power Transformation"
-			x: -9.5d
-			y: 19.5d
+			x: -14.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["547DFAC1D247643C"]
@@ -7065,8 +7327,8 @@
 				}
 			]
 			title: "Foundry Machines"
-			x: -4.0d
-			y: 19.0d
+			x: -7.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["15B4E0B3C70D372F"]
@@ -7085,8 +7347,8 @@
 				type: "item"
 			}]
 			title: "Aluminium"
-			x: -4.0d
-			y: 20.0d
+			x: -7.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["54B73403ADB72017"]
@@ -7134,8 +7396,8 @@
 				}
 			]
 			title: "Steel Piping"
-			x: -5.5d
-			y: 21.0d
+			x: -9.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["0DBEF77B203B8850"]
@@ -7235,8 +7497,8 @@
 				}
 			]
 			title: "O I L"
-			x: -5.5d
-			y: 22.0d
+			x: -9.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["549AF60315DC3760"]
@@ -7284,8 +7546,8 @@
 				}
 			]
 			title: "The Refinery"
-			x: -5.5d
-			y: 23.0d
+			x: -10.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["1704DE3E7DDE8A77"]
@@ -7333,8 +7595,8 @@
 				}
 			]
 			title: "The Age of Engines"
-			x: -5.5d
-			y: 24.0d
+			x: -10.5d
+			y: 24.5d
 		}
 		{
 			dependencies: ["65C1B6B2B147028E"]
@@ -7352,12 +7614,27 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 12.0d
+			x: -7.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
 			id: "40EA73BEA023C14A"
+			rewards: [{
+				id: "6B00225D36878DED"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4AB8BFEBE390B269"
 				item: {
@@ -7372,7 +7649,7 @@
 				type: "item"
 			}]
 			x: 21.0d
-			y: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -7391,7 +7668,7 @@
 				type: "item"
 			}]
 			x: 21.0d
-			y: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -7411,7 +7688,7 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["25A618A3B28B8DEE"]
@@ -7430,12 +7707,27 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
 			hide_dependency_lines: true
 			id: "087234557EE4E2A3"
+			rewards: [{
+				id: "5BAD20BD25D2BBFC"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "40D59995C7545AA8"
@@ -7464,7 +7756,7 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
+			x: -2.0d
 			y: 5.5d
 		}
 		{
@@ -7498,13 +7790,28 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
+			x: -2.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
 			hide_dependency_lines: true
 			id: "13FC54673932E4F0"
+			rewards: [{
+				id: "6E30FD1FCBF1D624"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "54430EF73C97F540"
@@ -7533,8 +7840,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 5.5d
+			x: -3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["13FC54673932E4F0"]
@@ -7552,8 +7859,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 7.0d
+			x: -3.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -7737,7 +8044,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -5.0d
+			y: -5.3d
 		}
 		{
 			dependencies: ["6CE0DB1AEB597BCE"]
@@ -7760,7 +8067,7 @@
 				weak_nbt_match: true
 			}]
 			x: 21.5d
-			y: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -7779,7 +8086,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0D2E04D30E54E6C8"]
@@ -7801,7 +8108,7 @@
 				type: "item"
 			}]
 			x: 22.0d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -7827,7 +8134,7 @@
 				type: "item"
 			}]
 			x: 20.5d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3E73EAD0A0A295F5"]
@@ -7899,7 +8206,7 @@
 				}
 			]
 			x: 23.5d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -7933,12 +8240,28 @@
 				}
 			]
 			x: 18.5d
-			y: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
 			hide_dependency_lines: true
 			id: "31750A18D07A8904"
+			rewards: [{
+				count: 3
+				id: "42B660800DADB1A6"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "71F4072568DA10C0"
 				item: {
@@ -7952,8 +8275,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.5d
+			x: -0.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -7986,8 +8309,8 @@
 					type: "item"
 				}
 			]
-			x: -17.625d
-			y: 5.925000000000001d
+			x: -18.75d
+			y: 0.6750000000000007d
 		}
 		{
 			dependencies: ["2E2A38A96D401883"]
@@ -8079,8 +8402,8 @@
 				}
 			]
 			title: "Hierophant's Way"
-			x: -16.825d
-			y: 4.625d
+			x: -17.95d
+			y: -0.625d
 		}
 		{
 			dependencies: [
@@ -8160,8 +8483,8 @@
 				}
 			]
 			title: "High Priestess' Way"
-			x: -18.175d
-			y: 7.175000000000001d
+			x: -19.3d
+			y: 1.9250000000000007d
 		}
 		{
 			dependencies: ["59D783372A16F858"]
@@ -8179,8 +8502,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 13.0d
+			x: -4.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -8198,8 +8521,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 10.5d
+			x: -4.0d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -8241,8 +8564,8 @@
 				type: "item"
 			}]
 			title: "The High Priestess"
-			x: -19.75d
-			y: 8.674999999999997d
+			x: -20.875d
+			y: 3.424999999999997d
 		}
 		{
 			dependencies: ["61F2F0F9E0158106"]
@@ -8262,8 +8585,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.75d
-			y: 6.3d
+			x: -5.3999999999999995d
+			y: 8.1d
 		}
 		{
 			dependencies: ["5B8A16E0E3A1794D"]
@@ -8282,8 +8605,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.85d
-			y: 8.1d
+			x: -8.1d
+			y: 9.45d
 		}
 		{
 			dependencies: ["5B8A16E0E3A1794D"]
@@ -8302,8 +8625,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.75d
-			y: 9.0d
+			x: -9.0d
+			y: 8.549999999999999d
 		}
 		{
 			dependencies: ["61F2F0F9E0158106"]
@@ -8323,8 +8646,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.6499999999999995d
-			y: 6.75d
+			x: -6.75d
+			y: 7.2d
 		}
 		{
 			dependencies: ["129D0C37D4A27A2B"]
@@ -8343,8 +8666,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 7.5d
+			x: -7.6499999999999995d
+			y: 8.1d
 		}
 		{
 			dependencies: ["2F7137679E3E480B"]
@@ -8362,20 +8685,22 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: 21.0d
+			x: -13.5d
+			y: 20.5d
 		}
 		{
 			description: [
 				"Know that I did not set out on this journey in search of glory, nor to clash blades with some legendary foe. There are no grand achievements here. I left home in the eternal darkness, with only a lantern, the Fool card, and my trusty CZ 75 in hand. I hope you will not encounter these same circumstances. "
 				""
+				"{@pagebreak}"
 				"I write this book as I come across strange lands, experiencing different magical and technological systems. You will find observations, notes, and tasks within these pages. Quests, if you like. Some are mine, some were given to me by strangers and travellers. These may give you clues on the inner workings of this world."
 				""
+				"{@pagebreak}"
 				"The Fool is the first of the tarot, but it bears the number zero. It is the mark of the beginning with infinite possibility. It chose me. Perhaps you will choose your own."
 				""
 				"May your road ahead rise to forge your own pathway"
 				""
-				"- Eleonore, The Fool"
+				"&e- Eleonore, The Fool"
 			]
 			icon: "ftbquests:book"
 			id: "2CEDBC536409D424"
@@ -8398,36 +8723,39 @@
 				}
 				type: "item"
 			}]
+			size: 1.0d
 			subtitle: "To whoever finds this"
 			tasks: [{
 				id: "02DFC16AE3D5AAD6"
 				title: "Preface"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 0.25d
+			y: -0.5d
 		}
 		{
 			description: [
-				"Concatenation is a modpack with diverging pathways. The quests are representative of the changed progression of effectively every mod in this pack. You may want to examine the quest tree more closely, restart and choose another pathway if you believe you might be in the wrong one. "
+				"&aConcatenation is a modpack with diverging pathways. The quests are representative of the changed progression of effectively every mod in this pack. You may want to examine the quest tree more closely, restart and choose another pathway if you believe you might be in the wrong one. "
 				""
-				"A starting pathway only determines the start of progression as it is intended to add together different pathways (mods), hence the name of the modpack. "
+				"{@pagebreak}"
+				"&aA starting pathway only determines the start of progression as it is intended to add together different pathways (mods), hence the name of the modpack. "
 				""
-				"Everything is currently a work in progress, explaining the current lack of quests, quest descriptions and some mods being locked for the moment. "
+				"{@pagebreak}"
+				"&aIf you would like a deeper explanation on the preface, look into Concatenation Gehenna (when it releases), the sister pack where the player embarks on the exact same journey as Eleonore writing the quests. Her journey differs in that the Fool Pathway has all of the possible starts at once, given that they find what they need through exploration. "
 				""
-				"If you would like a deeper explanation on the preface, while look into Concatenation Gehenna (when it releases), the sister pack where the player embarks on the exact same journey as Eleonore writing the quests. Her journey differs in that the Fool Pathway has all of the possible starts at once, given that they find what they need through exploration. "
-				"- Mitemi, Modpack Author"
+				"&e- Mitemi, Modpack Author&r"
 			]
 			icon: "concatenationcore:gold_paper"
 			id: "1EFB1193B63BA522"
 			size: 0.7d
+			subtitle: "The Journey"
 			tasks: [{
 				id: "39D037CFA531CEB1"
 				title: "Mod Author's Note"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 1.05d
+			x: 0.25d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -8435,6 +8763,22 @@
 				"13B6EECFB6B3911E"
 			]
 			id: "7948CF780F8B6C0B"
+			rewards: [{
+				count: 3
+				id: "5049AD3E2EA17650"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "28498CCBD4B8BB79"
@@ -8451,8 +8795,8 @@
 				type: "item"
 			}]
 			title: "The Tower"
-			x: -5.5d
-			y: 13.5d
+			x: -6.324999999999999d
+			y: 16.099999999999998d
 		}
 		{
 			dependencies: ["255F91EE26FB166D"]
@@ -8474,7 +8818,7 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3EA4408A8F86B825"]
@@ -8496,7 +8840,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3EA4408A8F86B825"]
@@ -8536,7 +8880,7 @@
 				}
 			]
 			x: 17.5d
-			y: -3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -8627,7 +8971,7 @@
 				}
 			]
 			title: "Cultist Armor"
-			x: 9.5d
+			x: 9.0d
 			y: -4.5d
 		}
 		{
@@ -8650,8 +8994,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: 4.5d
+			x: 12.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5D6BE53739B45840"]
@@ -8669,8 +9013,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 5.5d
+			x: 13.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -8696,8 +9040,8 @@
 				type: "item"
 			}]
 			title: "The Star"
-			x: 16.674999999999997d
-			y: 8.049999999999999d
+			x: 16.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["545CB21B2B59BA32"]
@@ -8717,7 +9061,7 @@
 				type: "item"
 			}]
 			x: -10.875d
-			y: -3.75d
+			y: -2.25d
 		}
 		{
 			dependencies: [
@@ -8742,8 +9086,8 @@
 				type: "item"
 			}]
 			title: "Strength"
-			x: 0.5d
-			y: 14.0d
+			x: 0.3d
+			y: 17.5d
 		}
 		{
 			dependencies: ["05C581711196984B"]
@@ -8761,8 +9105,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 16.5d
+			x: 0.3d
+			y: 20.0d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -8782,7 +9126,7 @@
 				type: "item"
 			}]
 			x: -10.35d
-			y: -6.3d
+			y: -4.95d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -8813,8 +9157,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.125d
-			y: 4.925000000000001d
+			x: -19.25d
+			y: -0.3249999999999993d
 		}
 		{
 			dependencies: ["405495BB2F379536"]
@@ -8904,13 +9248,29 @@
 				title: "Any Non-Stirling Dynamo"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 3.375d
+			x: -20.125d
+			y: -1.875d
 		}
 		{
 			dependencies: ["3A27EA4C48429EA7"]
 			hide_dependency_lines: true
 			id: "6AABF2BA290CD429"
+			rewards: [{
+				count: 3
+				id: "04CEC8A04EFC06A1"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			size: 0.8d
 			tasks: [
 				{
@@ -8984,8 +9344,8 @@
 				}
 			]
 			title: "Hermit's Way"
-			x: -15.225000000000001d
-			y: 5.824999999999999d
+			x: -16.35d
+			y: 0.5749999999999993d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -9003,8 +9363,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 16.0d
+			x: -9.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["4E774C5B363CBBA8"]
@@ -9075,8 +9435,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 16.5d
+			x: 1.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["07C4F5356EFBBE09"]
@@ -9148,7 +9508,7 @@
 				}
 			]
 			x: -1.0d
-			y: 16.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["3CC948E467CCC4C6"]
@@ -9169,8 +9529,8 @@
 				type: "item"
 			}]
 			title: "Judgement"
-			x: -2.5d
-			y: 20.0d
+			x: -6.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
@@ -9188,8 +9548,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 15.5d
+			x: 2.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
@@ -9207,8 +9567,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: -1.0d
+			x: -10.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
@@ -9226,8 +9586,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: -1.0d
+			x: -11.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
@@ -9245,8 +9605,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
-			y: -1.0d
+			x: -12.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
@@ -9264,8 +9624,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 20.0d
+			x: -5.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
@@ -9286,8 +9646,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 21.0d
+			x: -5.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
@@ -9308,8 +9668,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 19.0d
+			x: -5.0d
+			y: 20.5d
 		}
 		{
 			dependencies: [
@@ -9347,8 +9707,8 @@
 					type: "item"
 				}
 			]
-			x: -8.049999999999999d
-			y: 22.424999999999997d
+			x: -13.049999999999999d
+			y: 21.924999999999997d
 		}
 		{
 			dependencies: ["04DD33AF3AA672CD"]
@@ -9367,7 +9727,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 15.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["188786E302DE3681"]
@@ -9385,8 +9745,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 15.5d
+			x: 1.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["3060CAEE078FE9A0"]
@@ -9405,7 +9765,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 14.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["3060CAEE078FE9A0"]
@@ -9423,8 +9783,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 14.5d
+			x: 1.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["3060CAEE078FE9A0"]
@@ -9442,8 +9802,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 15.5d
+			x: 0.3d
+			y: 19.0d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -9461,8 +9821,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.875d
-			y: 6.675000000000001d
+			x: -18.0d
+			y: 1.4250000000000007d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -9506,8 +9866,8 @@
 					type: "item"
 				}
 			]
-			x: -15.5d
-			y: 6.925000000000001d
+			x: -16.625d
+			y: 1.6750000000000007d
 		}
 		{
 			dependencies: ["2A13540D4E396260"]
@@ -9525,8 +9885,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.875d
-			y: 7.675000000000001d
+			x: -20.0d
+			y: 2.4250000000000007d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -9545,30 +9905,29 @@
 				}
 				type: "item"
 			}]
-			x: -14.375d
-			y: 7.675000000000001d
+			x: -15.5d
+			y: 2.4250000000000007d
 		}
 		{
-			dependencies: ["032A60B0D79C6ACB"]
-			hide_dependency_lines: true
+			dependencies: [
+				"1B74A356EED36832"
+				"1BC80E0D5599DCCA"
+				"64655F5EE797B52B"
+			]
+			dependency_requirement: "one_completed"
 			id: "0D70725FEAF0DC7B"
 			size: 1.15d
 			tasks: [{
-				id: "6C0DAA6D71B056FE"
+				id: "307636A88E99B398"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "tarotcards:the_hanged_man"
+					id: "tarotcards:death"
 					tag: { }
 				}
 				type: "item"
 			}]
 			x: 4.6d
-			y: -9.2d
+			y: -10.924999999999999d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -9587,8 +9946,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 11.5d
+			x: -4.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -9606,8 +9965,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 9.5d
+			x: 9.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["34457CDE76EDFEAC"]
@@ -9626,12 +9985,28 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 8.625d
+			x: 10.5d
+			y: 7.125d
 		}
 		{
 			dependencies: ["4AE782719D5A61F7"]
 			id: "55E53ED9BDDE16AA"
+			rewards: [{
+				count: 2
+				id: "7AEAE69DEA2F9E03"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			size: 1.05d
 			tasks: [{
 				id: "098850C86E5851F8"
@@ -9646,8 +10021,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.875d
-			y: 9.675d
+			x: -22.0d
+			y: 4.425000000000001d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -9666,8 +10041,8 @@
 				}
 				type: "item"
 			}]
-			x: -21.0d
-			y: 5.375d
+			x: -22.125d
+			y: 0.125d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -9686,8 +10061,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.0d
-			y: 5.875d
+			x: -23.125d
+			y: 0.625d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -9706,8 +10081,8 @@
 				}
 				type: "item"
 			}]
-			x: -23.125d
-			y: 6.75d
+			x: -24.25d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -9736,8 +10111,8 @@
 				}
 				type: "item"
 			}]
-			x: -24.5d
-			y: 11.375d
+			x: -25.625d
+			y: 6.125d
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
@@ -9755,8 +10130,8 @@
 				}
 				type: "item"
 			}]
-			x: -23.0d
-			y: 12.375d
+			x: -24.25d
+			y: 7.125d
 		}
 		{
 			dependencies: ["4D66CC58CC466767"]
@@ -9799,8 +10174,8 @@
 					type: "item"
 				}
 			]
-			x: -16.174999999999997d
-			y: 7.974999999999998d
+			x: -17.299999999999997d
+			y: 2.724999999999998d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -9818,8 +10193,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.5d
-			y: 12.375d
+			x: -26.625d
+			y: 7.125d
 		}
 		{
 			dependencies: ["23F4055CA5B50F60"]
@@ -9837,8 +10212,8 @@
 				}
 				type: "item"
 			}]
-			x: -27.0d
-			y: 11.375d
+			x: -28.125d
+			y: 6.125d
 		}
 		{
 			dependencies: ["6BDF163C7FC006CB"]
@@ -9856,8 +10231,8 @@
 				}
 				type: "item"
 			}]
-			x: -28.5d
-			y: 10.375d
+			x: -29.625d
+			y: 5.125d
 		}
 		{
 			dependencies: [
@@ -9879,8 +10254,8 @@
 				}
 				type: "item"
 			}]
-			x: -24.0d
-			y: 13.875d
+			x: -25.125d
+			y: 8.625d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -9900,8 +10275,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.0d
-			y: 12.549999999999999d
+			x: -19.125d
+			y: 7.299999999999999d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -9919,8 +10294,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.5d
-			y: 9.0d
+			x: -23.625d
+			y: 3.75d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -9938,8 +10313,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.5d
-			y: 10.875d
+			x: -19.625d
+			y: 5.625d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -9959,8 +10334,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.7d
-			y: 11.7d
+			x: -20.825d
+			y: 6.449999999999999d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -9979,8 +10354,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.875d
-			y: 8.675d
+			x: -16.0d
+			y: 3.4250000000000007d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -10000,8 +10375,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -25.5d
-			y: 15.375d
+			x: -26.625d
+			y: 10.125d
 		}
 		{
 			dependencies: ["4D66CC58CC466767"]
@@ -10034,12 +10409,27 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -15.524999999999999d
-			y: 10.5d
+			x: -16.65d
+			y: 5.25d
 		}
 		{
 			dependencies: ["10A7F0DA56020A8C"]
 			id: "4C8C2AA343360B7D"
+			rewards: [{
+				id: "130BF690D42A79AF"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "297F1DB9458EBF1E"
@@ -10068,8 +10458,8 @@
 					type: "item"
 				}
 			]
-			x: -14.5d
-			y: 12.075000000000001d
+			x: -15.625d
+			y: 6.825000000000001d
 		}
 		{
 			dependencies: [
@@ -10132,8 +10522,8 @@
 				title: "Any Menril Wood"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 12.075000000000001d
+			x: -17.125d
+			y: 6.825000000000001d
 		}
 		{
 			dependencies: ["4C8C2AA343360B7D"]
@@ -10166,8 +10556,8 @@
 					type: "item"
 				}
 			]
-			x: -13.5d
-			y: 11.575000000000001d
+			x: -14.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -10189,8 +10579,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.0d
-			y: 13.575000000000001d
+			x: -17.125d
+			y: 8.325000000000001d
 		}
 		{
 			dependencies: ["58D41204FAEC60DF"]
@@ -10208,8 +10598,8 @@
 				}
 				type: "item"
 			}]
-			x: -17.0d
-			y: 15.075000000000001d
+			x: -18.125d
+			y: 9.825000000000001d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -10228,8 +10618,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.5d
-			y: 4.875d
+			x: -23.625d
+			y: -0.375d
 		}
 		{
 			dependencies: ["58D41204FAEC60DF"]
@@ -10247,8 +10637,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.0d
-			y: 15.075000000000001d
+			x: -17.125d
+			y: 9.825000000000001d
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
@@ -10268,8 +10658,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 0.0d
-			y: 21.45d
+			x: -4.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["6CC9A41A95921C52"]
@@ -10287,8 +10677,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 21.5d
+			x: -2.5d
+			y: 24.05d
 		}
 		{
 			dependencies: ["073D163854FFBC13"]
@@ -10334,8 +10724,8 @@
 					type: "item"
 				}
 			]
-			x: -16.0d
-			y: 16.575000000000003d
+			x: -17.125d
+			y: 11.325000000000003d
 		}
 		{
 			dependencies: ["58D41204FAEC60DF"]
@@ -10353,8 +10743,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.0d
-			y: 15.075000000000001d
+			x: -16.25d
+			y: 9.625d
 		}
 		{
 			dependencies: ["4C8C2AA343360B7D"]
@@ -10372,8 +10762,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 13.575000000000001d
+			x: -15.25d
+			y: 8.625d
 		}
 		{
 			dependencies: ["4E44852EB1DA116A"]
@@ -10391,8 +10781,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 15.200000000000001d
+			x: -15.25d
+			y: 10.125d
 		}
 		{
 			dependencies: ["3D1C47F3A9B804B4"]
@@ -10414,8 +10804,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 3.0d
-			y: 24.5d
+			x: -1.0d
+			y: 27.05d
 		}
 		{
 			dependencies: [
@@ -10442,8 +10832,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -12.5d
-			y: 10.0d
+			x: -17.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6CC9A41A95921C52"]
@@ -10619,8 +11009,8 @@
 				}
 			]
 			title: "Reinforced Steel Armor"
-			x: 0.0d
-			y: 23.0d
+			x: -4.0d
+			y: 25.55d
 		}
 		{
 			dependencies: ["029A616076E8CEAE"]
@@ -10796,8 +11186,8 @@
 				}
 			]
 			title: "Hadfield Steel Armor"
-			x: 1.5d
-			y: 23.0d
+			x: -2.5d
+			y: 25.55d
 		}
 		{
 			dependencies: ["3D1C47F3A9B804B4"]
@@ -10973,8 +11363,8 @@
 				}
 			]
 			title: "Juggernaut Armor"
-			x: 3.0d
-			y: 23.0d
+			x: -1.0d
+			y: 25.55d
 		}
 		{
 			dependencies: ["029A616076E8CEAE"]
@@ -10992,8 +11382,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 21.5d
+			x: -1.0d
+			y: 24.05d
 		}
 		{
 			dependencies: ["736444B92EEE2C59"]
@@ -11018,8 +11408,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 20.0d
+			x: -3.85d
+			y: 21.45d
 		}
 		{
 			dependencies: ["1AFE9864E4F4DFB0"]
@@ -11037,8 +11427,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.5d
-			y: 9.0d
+			x: 20.825000000000003d
+			y: 6.950000000000001d
 		}
 		{
 			dependencies: [
@@ -11051,8 +11441,8 @@
 				item: "irons_spellbooks:cinder_essence"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 11.0d
+			x: 20.825000000000003d
+			y: 8.950000000000001d
 		}
 		{
 			dependencies: ["6FC66F464CF54CF4"]
@@ -11070,8 +11460,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
-			y: 11.0d
+			x: 19.825000000000003d
+			y: 8.950000000000001d
 		}
 		{
 			dependencies: [
@@ -11193,8 +11583,8 @@
 				type: "item"
 			}]
 			title: "Any mage hood"
-			x: 20.5d
-			y: 12.0d
+			x: 19.825000000000003d
+			y: 9.950000000000001d
 		}
 		{
 			dependencies: [
@@ -11216,8 +11606,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
-			y: 10.0d
+			x: 18.325000000000003d
+			y: 7.950000000000001d
 		}
 		{
 			dependencies: [
@@ -11239,8 +11629,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
-			y: 11.0d
+			x: 18.325000000000003d
+			y: 8.950000000000001d
 		}
 		{
 			dependencies: ["37AA006B7ABACDC8"]
@@ -11259,8 +11649,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
-			y: 12.0d
+			x: 18.325000000000003d
+			y: 9.950000000000001d
 		}
 		{
 			dependencies: [
@@ -11282,8 +11672,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
-			y: 13.0d
+			x: 18.325000000000003d
+			y: 10.950000000000001d
 		}
 		{
 			dependencies: ["37AA006B7ABACDC8"]
@@ -11302,8 +11692,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
-			y: 14.0d
+			x: 18.325000000000003d
+			y: 11.950000000000001d
 		}
 		{
 			dependencies: ["63B383DE2EEFE2F3"]
@@ -11345,8 +11735,8 @@
 				}
 			]
 			title: "Eldritch Research"
-			x: 20.5d
-			y: 14.0d
+			x: 19.825000000000003d
+			y: 11.950000000000001d
 		}
 		{
 			dependencies: ["2611BFF44437C940"]
@@ -11364,8 +11754,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
-			y: 13.0d
+			x: 19.825000000000003d
+			y: 10.950000000000001d
 		}
 		{
 			dependencies: ["74EA3C5BD8FF2DEB"]
@@ -11478,8 +11868,8 @@
 				type: "item"
 			}]
 			title: "Any arcane bauble"
-			x: 21.5d
-			y: 13.0d
+			x: 20.825000000000003d
+			y: 10.950000000000001d
 		}
 		{
 			dependencies: ["51D3EFAF0C58197A"]
@@ -11581,8 +11971,8 @@
 				type: "item"
 			}]
 			title: "Any unique spellbook"
-			x: 21.5d
-			y: 12.0d
+			x: 20.825000000000003d
+			y: 9.950000000000001d
 		}
 		{
 			dependencies: ["47F1E172DB0819FC"]
@@ -11639,8 +12029,8 @@
 				type: "item"
 			}]
 			title: "Any basic spellbook"
-			x: 20.5d
-			y: 10.0d
+			x: 19.825000000000003d
+			y: 7.950000000000001d
 		}
 		{
 			dependencies: ["4FBF9D1E551B2EC8"]
@@ -11697,8 +12087,8 @@
 				type: "item"
 			}]
 			title: "Any apprentice spellbook"
-			x: 21.5d
-			y: 10.0d
+			x: 20.825000000000003d
+			y: 7.950000000000001d
 		}
 		{
 			dependencies: [
@@ -11823,8 +12213,8 @@
 				type: "item"
 			}]
 			title: "Any upgrade orb"
-			x: 21.5d
-			y: 14.0d
+			x: 20.825000000000003d
+			y: 11.950000000000001d
 		}
 		{
 			dependencies: ["1AFE9864E4F4DFB0"]
@@ -11842,12 +12232,27 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: 11.0d
+			x: 17.325000000000003d
+			y: 8.950000000000001d
 		}
 		{
 			dependencies: ["14DFB74A4390006D"]
 			id: "1AFE9864E4F4DFB0"
+			rewards: [{
+				id: "25F405BF2DBF63C7"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5DA2022930B5A27F"
 				item: {
@@ -11861,8 +12266,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: 9.0d
+			x: 17.325000000000003d
+			y: 6.950000000000001d
 		}
 		{
 			dependencies: ["1177AE48181D8F17"]
@@ -11880,8 +12285,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: 13.0d
+			x: 17.325000000000003d
+			y: 10.950000000000001d
 		}
 		{
 			dependencies: ["1E133F321CC64E1F"]
@@ -12057,8 +12462,8 @@
 				}
 			]
 			title: "Complete Eldritch Research"
-			x: 20.5d
-			y: 15.0d
+			x: 19.825000000000003d
+			y: 12.950000000000001d
 		}
 		{
 			dependencies: ["40EA73BEA023C14A"]
@@ -12080,7 +12485,7 @@
 				type: "item"
 			}]
 			x: 22.5d
-			y: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2DC6C224BD1881C9"]
@@ -12099,7 +12504,7 @@
 				type: "item"
 			}]
 			x: 24.0d
-			y: 5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["40EA73BEA023C14A"]
@@ -12118,7 +12523,7 @@
 				type: "item"
 			}]
 			x: 22.5d
-			y: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["51EDC749A53FF0D3"]
@@ -12136,8 +12541,8 @@
 				}
 				type: "item"
 			}]
-			x: 24.0d
-			y: 3.0d
+			x: 24.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3913EED76917339E"]
@@ -12156,7 +12561,7 @@
 				type: "item"
 			}]
 			x: 19.5d
-			y: -1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6D27277DA055DFBC"]
@@ -12191,7 +12596,7 @@
 				}
 			]
 			x: 19.5d
-			y: -2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["579E8F816742653C"]
@@ -12210,8 +12615,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: -3.0d
+			x: 20.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6D27277DA055DFBC"]
@@ -12230,7 +12635,7 @@
 				type: "item"
 			}]
 			x: 20.5d
-			y: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["639817BED42EBC3A"]
@@ -12248,8 +12653,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: -5.0d
+			x: 21.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["29289B6D4610B9D4"]
@@ -12267,8 +12672,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: -4.0d
+			x: 20.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["40EA73BEA023C14A"]
@@ -12391,7 +12796,7 @@
 			]
 			title: "Blood Logistics"
 			x: 22.0d
-			y: 6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6CE0DB1AEB597BCE"]
@@ -12439,7 +12844,7 @@
 			]
 			title: "Aura Farming"
 			x: 23.0d
-			y: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["209C0E2550C84C69"]
@@ -12458,7 +12863,7 @@
 				type: "item"
 			}]
 			x: 19.0d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2A13540D4E396260"]
@@ -12502,8 +12907,8 @@
 				title: "Any Iron or Lead Jetpack"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 9.0d
+			x: -18.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["662F8F7426A07A9D"]
@@ -12521,13 +12926,29 @@
 				}
 				type: "item"
 			}]
-			x: -27.5d
-			y: 17.375d
+			x: -28.625d
+			y: 12.125d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
 			hide_dependency_lines: true
 			id: "2EDD432C547674F0"
+			rewards: [{
+				count: 2
+				id: "14FE83380976F29B"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "595942E08ABCA858"
 				item: {
@@ -12553,8 +12974,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: 9.0d
+			x: -17.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["137E5079D198BF5C"]
@@ -12572,8 +12993,8 @@
 				}
 				type: "item"
 			}]
-			x: -28.5d
-			y: 18.375d
+			x: -29.625d
+			y: 13.125d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -12592,8 +13013,8 @@
 				}
 				type: "item"
 			}]
-			x: -24.5d
-			y: 9.875d
+			x: -25.625d
+			y: 4.625d
 		}
 		{
 			dependencies: ["547DFAC1D247643C"]
@@ -12626,8 +13047,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 19.0d
+			x: -8.5d
+			y: 19.5d
 		}
 		{
 			dependencies: [
@@ -12648,8 +13069,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 20.0d
+			x: -8.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["3DF92A514A6B22AF"]
@@ -12721,8 +13142,8 @@
 					type: "item"
 				}
 			]
-			x: 16.5d
-			y: 18.0d
+			x: 14.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["08E10ADC80A20D8E"]
@@ -12782,8 +13203,8 @@
 					type: "item"
 				}
 			]
-			x: 17.5d
-			y: 17.0d
+			x: 15.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
@@ -12801,8 +13222,8 @@
 				}
 				type: "item"
 			}]
-			x: -29.875d
-			y: 17.375d
+			x: -31.0d
+			y: 12.125d
 		}
 		{
 			dependencies: ["1974390B046B7B6A"]
@@ -12835,8 +13256,8 @@
 					type: "item"
 				}
 			]
-			x: -30.875d
-			y: 16.375d
+			x: -32.0d
+			y: 11.125d
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
@@ -12869,8 +13290,8 @@
 					type: "item"
 				}
 			]
-			x: -32.0d
-			y: 21.0d
+			x: -33.25d
+			y: 15.625d
 		}
 		{
 			dependencies: ["2B825471FE41A521"]
@@ -12888,8 +13309,8 @@
 				}
 				type: "item"
 			}]
-			x: -34.5d
-			y: 24.375d
+			x: -35.25d
+			y: 17.625d
 		}
 		{
 			dependencies: [
@@ -12951,8 +13372,8 @@
 					type: "item"
 				}
 			]
-			x: -27.0d
-			y: 21.375d
+			x: -28.125d
+			y: 16.125d
 		}
 		{
 			dependencies: [
@@ -12977,8 +13398,8 @@
 				type: "item"
 			}]
 			title: "Justice"
-			x: -33.199999999999996d
-			y: 23.175d
+			x: -33.65d
+			y: 17.224999999999998d
 		}
 		{
 			dependencies: [
@@ -12999,8 +13420,8 @@
 				}
 				type: "item"
 			}]
-			x: -24.5d
-			y: 18.375d
+			x: -25.625d
+			y: 13.125d
 		}
 		{
 			dependencies: [
@@ -13072,8 +13493,8 @@
 				}
 				type: "item"
 			}]
-			x: -26.0d
-			y: 10.375d
+			x: -27.125d
+			y: 5.125d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -13091,8 +13512,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.0d
-			y: 10.375d
+			x: -23.125d
+			y: 5.125d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -13110,8 +13531,8 @@
 				}
 				type: "item"
 			}]
-			x: -21.0d
-			y: 10.875d
+			x: -22.125d
+			y: 5.625d
 		}
 		{
 			dependencies: [
@@ -13132,8 +13553,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.0d
-			y: 11.375d
+			x: -23.125d
+			y: 6.125d
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
@@ -13151,8 +13572,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.0d
-			y: 12.875d
+			x: -23.25d
+			y: 7.625d
 		}
 		{
 			dependencies: ["1974390B046B7B6A"]
@@ -13185,8 +13606,8 @@
 					type: "item"
 				}
 			]
-			x: -32.0d
-			y: 17.375d
+			x: -33.25d
+			y: 11.625d
 		}
 		{
 			dependencies: ["1974390B046B7B6A"]
@@ -13220,8 +13641,8 @@
 					type: "item"
 				}
 			]
-			x: -29.5d
-			y: 15.375d
+			x: -30.625d
+			y: 10.125d
 		}
 		{
 			dependencies: [
@@ -13285,8 +13706,8 @@
 					type: "item"
 				}
 			]
-			x: -30.5d
-			y: 13.875d
+			x: -31.625d
+			y: 8.625d
 		}
 		{
 			dependencies: ["4880C58AEB23BEEC"]
@@ -13347,8 +13768,8 @@
 					type: "item"
 				}
 			]
-			x: -31.5d
-			y: 12.875d
+			x: -32.625d
+			y: 7.625d
 		}
 		{
 			dependencies: ["2BA18EB25877001F"]
@@ -13409,8 +13830,8 @@
 					type: "item"
 				}
 			]
-			x: -32.5d
-			y: 11.875d
+			x: -33.75d
+			y: 6.625d
 		}
 		{
 			dependencies: ["47C95E5CB83C274D"]
@@ -13428,8 +13849,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.0d
-			y: 15.875d
+			x: -32.75d
+			y: 10.625d
 		}
 		{
 			dependencies: ["47C95E5CB83C274D"]
@@ -13447,8 +13868,8 @@
 				}
 				type: "item"
 			}]
-			x: -31.0d
-			y: 15.375d
+			x: -32.125d
+			y: 10.125d
 		}
 		{
 			dependencies: ["6EA8FF0A2426916D"]
@@ -13466,8 +13887,8 @@
 				}
 				type: "item"
 			}]
-			x: -27.0d
-			y: 9.375d
+			x: -28.125d
+			y: 4.125d
 		}
 		{
 			dependencies: ["3C2CD34C769A34FC"]
@@ -13485,8 +13906,8 @@
 				}
 				type: "item"
 			}]
-			x: -28.0d
-			y: 8.375d
+			x: -29.125d
+			y: 3.125d
 		}
 		{
 			dependencies: ["5C1996BF7424D743"]
@@ -13504,8 +13925,8 @@
 				}
 				type: "item"
 			}]
-			x: -29.0d
-			y: 7.375d
+			x: -30.125d
+			y: 2.125d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -13524,8 +13945,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.4d
-			y: 5.775d
+			x: -20.525d
+			y: 0.5250000000000004d
 		}
 		{
 			dependencies: [
@@ -13547,8 +13968,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.6d
-			y: 6.575d
+			x: -21.725d
+			y: 1.3250000000000002d
 		}
 		{
 			dependencies: [
@@ -13571,8 +13992,8 @@
 				}
 				type: "item"
 			}]
-			x: -21.8d
-			y: 7.375d
+			x: -22.925d
+			y: 2.125d
 		}
 		{
 			dependencies: ["2EDD432C547674F0"]
@@ -13590,8 +14011,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: 9.0d
+			x: -16.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["25E533314EFCD83A"]
@@ -13641,8 +14062,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.0d
-			y: 4.375d
+			x: -21.125d
+			y: -0.875d
 		}
 		{
 			dependencies: ["25E533314EFCD83A"]
@@ -13701,8 +14122,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.5d
-			y: 3.375d
+			x: -21.625d
+			y: -1.875d
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
@@ -13737,8 +14158,8 @@
 					type: "item"
 				}
 			]
-			x: -18.425d
-			y: 13.4d
+			x: -19.55d
+			y: 8.15d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -13799,8 +14220,8 @@
 					type: "item"
 				}
 			]
-			x: -22.5d
-			y: 15.375d
+			x: -23.625d
+			y: 10.125d
 		}
 		{
 			dependencies: [
@@ -13821,8 +14242,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.0d
-			y: 16.875d
+			x: -23.125d
+			y: 11.625d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -13843,8 +14264,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.125d
-			y: 12.549999999999999d
+			x: -21.25d
+			y: 7.299999999999999d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -13900,8 +14321,8 @@
 					type: "item"
 				}
 			]
-			x: -23.5d
-			y: 16.375d
+			x: -24.625d
+			y: 11.125d
 		}
 		{
 			dependencies: ["1F63B99669BB1002"]
@@ -13919,8 +14340,8 @@
 				}
 				type: "item"
 			}]
-			x: -24.0d
-			y: 17.375d
+			x: -25.125d
+			y: 12.125d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -13999,8 +14420,8 @@
 					type: "item"
 				}
 			]
-			x: -25.5d
-			y: 13.875d
+			x: -26.625d
+			y: 8.625d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -14018,8 +14439,8 @@
 				}
 				type: "item"
 			}]
-			x: -21.5d
-			y: 14.375d
+			x: -22.625d
+			y: 9.125d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
@@ -14044,8 +14465,8 @@
 				}
 				type: "item"
 			}]
-			x: -21.0d
-			y: 15.875d
+			x: -22.125d
+			y: 10.625d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
@@ -14098,8 +14519,8 @@
 					type: "item"
 				}
 			]
-			x: -20.0d
-			y: 15.375d
+			x: -21.125d
+			y: 10.125d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
@@ -14156,8 +14577,8 @@
 					type: "item"
 				}
 			]
-			x: -20.0d
-			y: 14.375d
+			x: -21.125d
+			y: 9.125d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
@@ -14187,8 +14608,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.0d
-			y: 16.175d
+			x: -20.125d
+			y: 10.925d
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
@@ -14207,8 +14628,8 @@
 				}
 				type: "item"
 			}]
-			x: -28.6d
-			y: 16.975d
+			x: -29.725d
+			y: 11.725000000000001d
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
@@ -14241,8 +14662,8 @@
 					type: "item"
 				}
 			]
-			x: -26.5d
-			y: 18.375d
+			x: -27.625d
+			y: 13.125d
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
@@ -14260,8 +14681,8 @@
 				}
 				type: "item"
 			}]
-			x: -29.5d
-			y: 19.375d
+			x: -30.625d
+			y: 14.125d
 		}
 		{
 			dependencies: ["6B8090BCBDEE94FD"]
@@ -14294,8 +14715,8 @@
 					type: "item"
 				}
 			]
-			x: -30.5d
-			y: 20.375d
+			x: -31.625d
+			y: 15.125d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -14467,8 +14888,8 @@
 					type: "item"
 				}
 			]
-			x: -12.5d
-			y: 8.0d
+			x: -17.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5F12CF1071CE8A45"]
@@ -14486,8 +14907,8 @@
 				}
 				type: "item"
 			}]
-			x: -26.5d
-			y: 16.375d
+			x: -27.625d
+			y: 11.125d
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
@@ -14658,8 +15079,8 @@
 					type: "item"
 				}
 			]
-			x: -31.0d
-			y: 18.875d
+			x: -32.125d
+			y: 13.625d
 		}
 		{
 			dependencies: ["490912716C7BB2C6"]
@@ -14677,8 +15098,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.0d
-			y: 19.375d
+			x: -26.125d
+			y: 14.125d
 		}
 		{
 			dependencies: ["35AEE847FE74A61B"]
@@ -14696,8 +15117,8 @@
 				}
 				type: "item"
 			}]
-			x: -24.0d
-			y: 20.375d
+			x: -25.125d
+			y: 15.125d
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
@@ -14715,8 +15136,8 @@
 				}
 				type: "item"
 			}]
-			x: -29.0d
-			y: 20.875d
+			x: -30.125d
+			y: 15.625d
 		}
 		{
 			dependencies: [
@@ -14737,8 +15158,8 @@
 				}
 				type: "item"
 			}]
-			x: -28.0d
-			y: 20.375d
+			x: -29.125d
+			y: 15.125d
 		}
 		{
 			dependencies: [
@@ -14761,8 +15182,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 25.0d
+			x: 5.749999999999999d
+			y: 21.849999999999998d
 		}
 		{
 			dependencies: ["679D7B535BE7E8B2"]
@@ -14780,8 +15201,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 26.5d
+			x: 5.5d
+			y: 23.5d
 		}
 		{
 			dependencies: ["490912716C7BB2C6"]
@@ -14814,8 +15235,8 @@
 					type: "item"
 				}
 			]
-			x: -26.0d
-			y: 19.875d
+			x: -27.125d
+			y: 14.625d
 		}
 		{
 			dependencies: ["490912716C7BB2C6"]
@@ -14833,8 +15254,8 @@
 				}
 				type: "item"
 			}]
-			x: -27.0d
-			y: 19.375d
+			x: -28.125d
+			y: 14.125d
 		}
 		{
 			dependencies: [
@@ -14855,8 +15276,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
-			y: 16.0d
+			x: 18.325000000000003d
+			y: 13.950000000000001d
 		}
 		{
 			dependencies: [
@@ -14900,8 +15321,8 @@
 				}
 				type: "item"
 			}]
-			x: 24.0d
-			y: 7.5d
+			x: 23.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -14925,8 +15346,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 12.5d
+			x: 0.3d
+			y: 16.0d
 		}
 		{
 			dependencies: ["4D5CBC1FE2A1E72B"]
@@ -14945,8 +15366,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.849999999999998d
-			y: 12.125d
+			x: -19.974999999999998d
+			y: 6.875d
 		}
 		{
 			dependencies: ["5D51BC92697C39DD"]
@@ -14964,8 +15385,8 @@
 				}
 				type: "item"
 			}]
-			x: -31.0d
-			y: 22.0d
+			x: -32.125d
+			y: 16.75d
 		}
 		{
 			dependencies: ["5D51BC92697C39DD"]
@@ -14983,8 +15404,8 @@
 				}
 				type: "item"
 			}]
-			x: -30.5d
-			y: 23.0d
+			x: -31.625d
+			y: 17.75d
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
@@ -15002,8 +15423,8 @@
 				}
 				type: "item"
 			}]
-			x: -30.0d
-			y: 21.875d
+			x: -31.125d
+			y: 16.625d
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
@@ -15022,8 +15443,8 @@
 				}
 				type: "item"
 			}]
-			x: -36.0d
-			y: 25.625d
+			x: -36.375d
+			y: 18.625d
 		}
 		{
 			dependencies: ["2B825471FE41A521"]
@@ -15041,8 +15462,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.5d
-			y: 24.375d
+			x: -33.25d
+			y: 18.625d
 		}
 		{
 			dependencies: ["1221A32C145FCE8B"]
@@ -15060,8 +15481,8 @@
 				}
 				type: "item"
 			}]
-			x: -31.5d
-			y: 25.375d
+			x: -33.25d
+			y: 20.125d
 		}
 		{
 			dependencies: ["2638CC10E4FF66C1"]
@@ -15080,8 +15501,8 @@
 				}
 				type: "item"
 			}]
-			x: -17.0d
-			y: 9.0d
+			x: -18.125d
+			y: 3.75d
 		}
 		{
 			dependencies: ["57E0A183AE783034"]
@@ -15100,8 +15521,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.0d
-			y: 9.45d
+			x: -19.125d
+			y: 4.199999999999999d
 		}
 		{
 			dependencies: ["57E0A183AE783034"]
@@ -15147,8 +15568,1342 @@
 					type: "item"
 				}
 			]
-			x: -17.0d
-			y: 10.0d
+			x: -18.125d
+			y: 4.75d
+		}
+		{
+			dependencies: [
+				"01514A831E1895F9"
+				"7363621391F2E8EC"
+				"4551222320CBAE77"
+			]
+			dependency_requirement: "one_completed"
+			hide_text_until_complete: false
+			id: "1203CDC5DF26F779"
+			rewards: [{
+				count: 2
+				id: "6AEDC47E0B82D8D0"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
+			size: 1.15d
+			tasks: [{
+				id: "1D0CAF628E5205F8"
+				item: {
+					Count: 1
+					id: "tarotcards:the_empress"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.4499999999999997d
+			y: -10.924999999999999d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			id: "7363621391F2E8EC"
+			rewards: [{
+				id: "1E979AAB5CD387B0"
+				item: "minecraft:campfire"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0124946C947D6FFD"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "1A6514834C1F9D17"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "0382A1895229C044"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			id: "01514A831E1895F9"
+			rewards: [{
+				id: "630AC479BCEAE296"
+				item: {
+					Count: 1
+					id: "concatenationcore:cutting_tool"
+					tag: {
+						Damage: 7
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "61A4D8DD93D54095"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["01514A831E1895F9"]
+			id: "11F3F832B62CA7D8"
+			tasks: [{
+				id: "53DF70ADB14D7580"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/knives"
+					}
+				}
+				title: "Any #forge:tools/knives"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			id: "4551222320CBAE77"
+			rewards: [{
+				id: "5D4D5364B0321BB5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				advancement: "farmersdelight:main/get_fd_seed"
+				criterion: ""
+				id: "5366A60025FA8B55"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"45EBD68510E9742C"
+				"01514A831E1895F9"
+			]
+			id: "1A4F94909BAEF4FE"
+			tasks: [{
+				id: "0AC94A9BA821EDA5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "createmetallurgy:iron_dust"
+							}
+							{
+								Count: 1b
+								id: "createmetallurgy:copper_dust"
+							}
+							{
+								Count: 1b
+								id: "createmetallurgy:gold_dust"
+							}
+							{
+								Count: 1b
+								id: "thermal:tin_dust"
+							}
+							{
+								Count: 1b
+								id: "createmetallurgy:zinc_dust"
+							}
+							{
+								Count: 1b
+								id: "thermal:silver_dust"
+							}
+							{
+								Count: 1b
+								id: "thermal:nickel_dust"
+							}
+							{
+								Count: 1b
+								id: "thermal:lead_dust"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1203CDC5DF26F779"]
+			id: "65459A4FC403ECCC"
+			rewards: [{
+				id: "7CEC9475FDD885E0"
+				item: "minecraft:enchanted_golden_apple"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DA3C948B3A7F5B6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "farmersdelight:milk_bottle"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:hot_cocoa"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:apple_cider"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:melon_juice"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1203CDC5DF26F779"]
+			id: "6FA676418967B7F8"
+			rewards: [{
+				count: 32
+				id: "4CD428F99FABA448"
+				item: "minecraft:pumpkin_pie"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "5230C65CE3ADA90B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "farmersdelight:baked_cod_stew"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:noodle_soup"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:vegetable_soup"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:pumpkin_soup"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:beef_stew"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:bone_broth"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:cooked_rice"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:chicken_soup"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:fish_stew"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:fried_rice"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1203CDC5DF26F779"]
+			id: "6BAF5CA877FE5287"
+			rewards: [{
+				id: "5200D5388D388C76"
+				item: "minecraft:enchanted_golden_apple"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "70A75F3623629551"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "farmersdelight:fruit_salad"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:mixed_salad"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1203CDC5DF26F779"]
+			id: "210A3840AB892F5E"
+			rewards: [{
+				count: 64
+				id: "152CD646D486FBE3"
+				item: "minecraft:pumpkin_pie"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "5015363C40C1169B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "farmersdelight:baked_cod_stew"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:noodle_soup"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:bacon_and_eggs"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:pasta_with_meatballs"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:pasta_with_mutton_chop"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:mushroom_rice"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:stuffed_pumpkin"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:honey_glazed_ham"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:shepherds_pie"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:vegetable_noodles"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:steak_and_potatoes"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:ratatouille"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:squid_ink_pasta"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:grilled_salmon"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:roast_chicken_block"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:roast_chicken"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["11F3F832B62CA7D8"]
+			id: "654437FC63847DDE"
+			rewards: [{
+				count: 15
+				id: "3A473F3D26972F37"
+				item: "farmersdelight:smoked_ham"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "farmersdelight:main/get_ham"
+				criterion: ""
+				id: "7007815A6E74E249"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4551222320CBAE77"]
+			id: "07216B5B04E8B927"
+			rewards: [{
+				count: 5
+				id: "66D960A4EB687A28"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "farmersdelight:main/plant_rice"
+				criterion: ""
+				id: "4A06BD15D779954F"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["07216B5B04E8B927"]
+			id: "38EFD638C974B3E6"
+			rewards: [{
+				count: 64
+				id: "73D8179E0198FB1A"
+				item: "minecraft:pumpkin_pie"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "farmersdelight:main/plant_all_crops"
+				criterion: ""
+				id: "6328D565E6069F84"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			id: "1B74A356EED36832"
+			tasks: [{
+				id: "10724C94977CD3BA"
+				item: "born_in_chaos_v1:seedof_chaos"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			id: "1BC80E0D5599DCCA"
+			tasks: [{
+				id: "5F693C18494019F1"
+				item: "born_in_chaos_v1:pieceofdarkmetal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0D70725FEAF0DC7B"]
+			id: "369EB408D49E5415"
+			tasks: [
+				{
+					id: "74FED63F0FEAF66F"
+					item: "born_in_chaos_v1:dark_metal_ingot"
+					type: "item"
+				}
+				{
+					id: "28D1827774F907E6"
+					item: "concatenationcore:dense_alloy"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["369EB408D49E5415"]
+			id: "6E6759704F7023AB"
+			tasks: [{
+				id: "17E638EC51074711"
+				item: "born_in_chaos_v1:dark_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6E6759704F7023AB"]
+			id: "074D1EAC06904845"
+			tasks: [
+				{
+					id: "56F95FCEDFAF3573"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "652DC3E34AFC6751"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BCF5AC05F7BE35B"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FD58A597961735F"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["369EB408D49E5415"]
+			id: "3BDE972F9EB52CF5"
+			tasks: [
+				{
+					id: "41F33A8F31D98A7B"
+					item: "born_in_chaos_v1:monster_skin"
+					type: "item"
+				}
+				{
+					id: "29CAC70348120799"
+					item: "born_in_chaos_v1:nightmare_stalker_skull"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3BDE972F9EB52CF5"]
+			id: "5309971BB143C533"
+			tasks: [
+				{
+					id: "05C360865DFFFE68"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59522A3131C08358"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4782D92F9C0409FC"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7938FABC8CC4CBEA"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["369EB408D49E5415"]
+			id: "30B2CAB9CBB2CD53"
+			tasks: [{
+				id: "3FBCF3FEA7E027BD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:darkwarblade"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:skullbreaker_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:great_reaper_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["3BDE972F9EB52CF5"]
+			id: "63F2A73E207912AD"
+			tasks: [{
+				id: "0BD712B1A02FA16C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:nightmare_scythe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:soul_cutlass"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:dark_ritual_dagger"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:frostbitten_blade"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0D70725FEAF0DC7B"]
+			hide_dependency_lines: true
+			id: "2235C77100C1C31E"
+			tasks: [{
+				id: "04881821449B5553"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:bonescaller_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			id: "64655F5EE797B52B"
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				icon: "born_in_chaos_v1:nightmare_stalker_skull"
+				id: "1F347DE2E2FD3B9A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3F53C388105917F6"]
+			id: "5746BB5C34ED74C7"
+			tasks: [{
+				id: "4D21290D456F0EF8"
+				item: "concatenationcore:zinc_casing"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11AB2172D3EEA227"]
+			id: "6A14407DA0272406"
+			tasks: [{
+				id: "5D0FDCD342D02524"
+				item: {
+					Count: 1
+					id: "celestisynth:solaris"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["11AB2172D3EEA227"]
+			id: "438A240BD17163B8"
+			tasks: [{
+				id: "578A8CB482FCE0FE"
+				item: {
+					Count: 1
+					id: "celestisynth:crescentia"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["11AB2172D3EEA227"]
+			id: "31A16BA45E6B3CD2"
+			tasks: [{
+				id: "6868EB1BF15BD72E"
+				item: {
+					Count: 1
+					id: "celestisynth:breezebreaker"
+					tag: {
+						Damage: 0
+						csController: { }
+						csExtras: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["11AB2172D3EEA227"]
+			id: "7F2278AF03FA7D0D"
+			tasks: [{
+				id: "2AC7069F67C73A63"
+				item: {
+					Count: 1
+					id: "celestisynth:poltergeist"
+					tag: {
+						Damage: 0
+						csController: { }
+						csExtras: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["11AB2172D3EEA227"]
+			id: "6633713413DCB0E4"
+			tasks: [{
+				id: "5E6DAED1FB3FC8E6"
+				item: {
+					Count: 1
+					id: "celestisynth:aquaflora"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["11AB2172D3EEA227"]
+			id: "7DAD92D1352198F1"
+			tasks: [{
+				id: "665908C1A6CD9063"
+				item: {
+					Count: 1
+					id: "celestisynth:rainfall_serenity"
+					tag: {
+						Damage: 0
+						csExtras: {
+							cs.pull: 0.0f
+							cs.pulling: 0.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["11AB2172D3EEA227"]
+			id: "584B317770EEC53A"
+			tasks: [{
+				id: "29DD7DDC958989F8"
+				item: {
+					Count: 1
+					id: "celestisynth:frostbound"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["11AB2172D3EEA227"]
+			id: "4F9B4BD072704D17"
+			tasks: [{
+				id: "2EF5F25626903E71"
+				item: {
+					Count: 1
+					id: "celestisynth:keres"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.keresStack: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["3A4E23D1BDE1E5ED"]
+			id: "0F048A0A3773C3EF"
+			tasks: [{
+				id: "1E850D9226C1B57E"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0F048A0A3773C3EF"]
+			id: "0837E476FFBC5FB0"
+			tasks: [{
+				id: "5FD175E5DDFACF0A"
+				item: "immersive_aircraft:warship"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["129D0C37D4A27A2B"]
+			id: "39265312C1D58F9A"
+			tasks: [{
+				id: "2132E85ED18503F3"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0964BD6C4413A9C9"]
+			id: "45DF5B6D709F2D85"
+			tasks: [{
+				id: "175F68708550F5A1"
+				item: "tconstruct:manyullyn_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0964BD6C4413A9C9"]
+			id: "5D90648C40D14717"
+			tasks: [
+				{
+					id: "335B7D0FD60566D1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [{
+								Count: 1b
+								id: "tconstruct:broad_axe"
+								tag: {
+									Damage: 0
+									tic_broken: 0b
+									tic_materials: [
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+									]
+									tic_modifiers: [
+										{
+											level: 4
+											name: "tconstruct:experienced"
+										}
+										{
+											level: 1
+											name: "tconstruct:stripping"
+										}
+									]
+									tic_multipliers: {
+										"tconstruct:attack_damage": 1.65f
+										"tconstruct:durability": 4.25f
+										"tconstruct:mining_speed": 0.3f
+									}
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:attack_damage": 10.724999f
+										"tconstruct:attack_speed": 0.69f
+										"tconstruct:durability": 765.0f
+										"tconstruct:harvest_tier": "minecraft:iron"
+										"tconstruct:mining_speed": 2.9325f
+									}
+									tic_volatile_data: {
+										abilities: 1
+										upgrades: 2
+									}
+								}
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45043D6A23970D99"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [{
+								Count: 1b
+								id: "tconstruct:sledge_hammer"
+								tag: {
+									Damage: 0
+									tic_broken: 0b
+									tic_materials: [
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+									]
+									tic_modifiers: [
+										{
+											level: 4
+											name: "tconstruct:experienced"
+										}
+										{
+											level: 2
+											name: "tconstruct:smite"
+										}
+									]
+									tic_multipliers: {
+										"tconstruct:attack_damage": 1.35f
+										"tconstruct:durability": 4.0f
+										"tconstruct:mining_speed": 0.4f
+									}
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:attack_damage": 6.0750003f
+										"tconstruct:attack_speed": 0.86249995f
+										"tconstruct:durability": 720.0f
+										"tconstruct:harvest_tier": "minecraft:iron"
+										"tconstruct:mining_speed": 3.9099998f
+									}
+									tic_volatile_data: {
+										abilities: 1
+										upgrades: 2
+									}
+								}
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24F52C2D1E5455F3"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [{
+								Count: 1b
+								id: "tconstruct:excavator"
+								tag: {
+									Damage: 0
+									tic_broken: 0b
+									tic_materials: [
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+									]
+									tic_modifiers: [
+										{
+											level: 4
+											name: "tconstruct:experienced"
+										}
+										{
+											level: 2
+											name: "tconstruct:knockback"
+										}
+										{
+											level: 1
+											name: "tconstruct:pathing"
+										}
+									]
+									tic_multipliers: {
+										"tconstruct:attack_damage": 1.2f
+										"tconstruct:durability": 3.75f
+										"tconstruct:mining_speed": 0.3f
+									}
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:attack_damage": 3.6000001f
+										"tconstruct:attack_speed": 1.15f
+										"tconstruct:durability": 675.0f
+										"tconstruct:harvest_tier": "minecraft:iron"
+										"tconstruct:mining_speed": 2.9325f
+									}
+									tic_volatile_data: {
+										abilities: 1
+										upgrades: 2
+									}
+								}
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0964BD6C4413A9C9"]
+			id: "6FF3E0F49A96AC0C"
+			tasks: [{
+				id: "535E5619CFF590FB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "tconstruct:vein_hammer"
+							tag: {
+								Damage: 0
+								tic_broken: 0b
+								tic_materials: [
+									"tconstruct:electrum"
+									"tconstruct:electrum"
+									"tconstruct:electrum"
+									"tconstruct:electrum"
+								]
+								tic_modifiers: [
+									{
+										level: 4
+										name: "tconstruct:experienced"
+									}
+									{
+										level: 2
+										name: "tconstruct:pierce"
+									}
+								]
+								tic_multipliers: {
+									"tconstruct:attack_damage": 1.25f
+									"tconstruct:durability": 5.0f
+									"tconstruct:mining_speed": 0.3f
+								}
+								tic_persistent: { }
+								tic_stats: {
+									"tconstruct:attack_damage": 6.875f
+									"tconstruct:attack_speed": 0.9775f
+									"tconstruct:durability": 900.0f
+									"tconstruct:harvest_tier": "minecraft:iron"
+									"tconstruct:mining_speed": 2.9325f
+								}
+								tic_volatile_data: {
+									abilities: 1
+									upgrades: 2
+								}
+							}
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0964BD6C4413A9C9"]
+			id: "49AD4063DDEB0BCE"
+			tasks: [{
+				id: "7AC172F55C79E31D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tconstruct:cleaver"
+								tag: {
+									Damage: 0
+									tic_broken: 0b
+									tic_materials: [
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+									]
+									tic_modifiers: [
+										{
+											level: 4
+											name: "tconstruct:experienced"
+										}
+										{
+											level: 2
+											name: "tconstruct:severing"
+										}
+										{
+											level: 1
+											name: "tconstruct:silky_aoe_shears"
+										}
+									]
+									tic_multipliers: {
+										"tconstruct:attack_damage": 1.5f
+										"tconstruct:durability": 3.5f
+										"tconstruct:mining_speed": 0.25f
+									}
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:attack_damage": 6.75f
+										"tconstruct:attack_speed": 1.15f
+										"tconstruct:durability": 630.0f
+										"tconstruct:harvest_tier": "minecraft:iron"
+										"tconstruct:mining_speed": 2.44375f
+									}
+									tic_volatile_data: {
+										abilities: 1
+										upgrades: 2
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "tconstruct:scythe"
+								tag: {
+									Damage: 0
+									tic_broken: 0b
+									tic_materials: [
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+									]
+									tic_modifiers: [
+										{
+											level: 4
+											name: "tconstruct:experienced"
+										}
+										{
+											level: 1
+											name: "tconstruct:tilling"
+										}
+										{
+											level: 1
+											name: "tconstruct:silky_aoe_shears"
+										}
+										{
+											level: 1
+											name: "tconstruct:harvest"
+										}
+									]
+									tic_multipliers: {
+										"tconstruct:durability": 2.5f
+										"tconstruct:mining_speed": 0.45f
+									}
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:attack_damage": 2.5f
+										"tconstruct:attack_speed": 0.80499995f
+										"tconstruct:durability": 450.0f
+										"tconstruct:harvest_tier": "minecraft:iron"
+										"tconstruct:mining_speed": 4.39875f
+									}
+									tic_volatile_data: {
+										abilities: 1
+										upgrades: 2
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "tconstruct:sword"
+								tag: {
+									Damage: 0
+									tic_broken: 0b
+									tic_materials: [
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+									]
+									tic_modifiers: [
+										{
+											level: 3
+											name: "tconstruct:experienced"
+										}
+										{
+											level: 1
+											name: "tconstruct:silky_shears"
+										}
+									]
+									tic_multipliers: {
+										"tconstruct:durability": 1.1f
+										"tconstruct:mining_speed": 0.5f
+									}
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:attack_damage": 4.5f
+										"tconstruct:attack_speed": 1.84f
+										"tconstruct:durability": 198.0f
+										"tconstruct:harvest_tier": "minecraft:iron"
+										"tconstruct:mining_speed": 4.8875f
+									}
+									tic_volatile_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.0d
 		}
 	]
 	title: "The Journey"

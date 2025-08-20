@@ -34,10 +34,10 @@
     "modId": "almostunified",
     "version": "1.20.1-0.10.0"
   },
-  "amendments-1.20-2.1.2.jar": {
-    "jarName": "amendments-1.20-2.1.2.jar",
+  "amendments-1.20-2.2.0.jar": {
+    "jarName": "amendments-1.20-2.2.0.jar",
     "modId": "amendments",
-    "version": "1.20-2.1.2"
+    "version": "1.20-2.2.0"
   },
   "appleskin-forge-mc1.20.1-2.5.1.jar": {
     "jarName": "appleskin-forge-mc1.20.1-2.5.1.jar",
@@ -154,10 +154,10 @@
     "modId": "carryon",
     "version": "2.1.2.7"
   },
-  "celestisynth-1.20.1-1.3.2.jar": {
-    "jarName": "celestisynth-1.20.1-1.3.2.jar",
+  "celestisynth-1.20.1-1.3.3-all.jar": {
+    "jarName": "celestisynth-1.20.1-1.3.3-all.jar",
     "modId": "celestisynth",
-    "version": "1.20.1-1.3.2"
+    "version": "1.20.1-1.3.3"
   },
   "chat_heads-0.13.18-forge-1.20.jar": {
     "jarName": "chat_heads-0.13.18-forge-1.20.jar",
@@ -219,8 +219,8 @@
     "modId": "commoncapabilities",
     "version": "2.9.7"
   },
-  "concatenationcore-1.0.0-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.0.0-forge-1.20.1.jar",
+  "concatenationcore-1.0.1-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.0.1-forge-1.20.1.jar",
     "modId": "concatenationcore",
     "version": "1.0.0"
   },
@@ -264,10 +264,10 @@
     "modId": "corpse",
     "version": "1.20.1-1.0.21"
   },
-  "corpsecurioscompat-1.20.x-Forge-3.0.2.jar": {
-    "jarName": "corpsecurioscompat-1.20.x-Forge-3.0.2.jar",
+  "corpsecurioscompat-1.20.1-Forge-3.1.2.jar": {
+    "jarName": "corpsecurioscompat-1.20.1-Forge-3.1.2.jar",
     "modId": "corpsecurioscompat",
-    "version": "3.0.2"
+    "version": "3.1.2"
   },
   "cosmeticarmorreworked-1.20.1-v1a.jar": {
     "jarName": "cosmeticarmorreworked-1.20.1-v1a.jar",
