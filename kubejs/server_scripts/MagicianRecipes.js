@@ -16,7 +16,11 @@ ServerEvents.recipes(event => {
                 'elementalcraft:elementpipe_impaired',
                 'ars_nouveau:imbuement_chamber',
                 'ars_nouveau:source_jar',
-                'ars_nouveau:magebloom_fiber'
+                'ars_nouveau:magebloom_fiber',
+                'reliquary:angelheart_vial',
+                'reliquary:angelic_feather',
+                'reliquary:phoenix_down',
+                'reliquary:alkahestry_tome'
         ]
 
         remove.forEach(item => {
@@ -445,4 +449,182 @@ ServerEvents.recipes(event => {
                 5000,
                 true
         )
+
+        // Hanged Man
+        event.shaped(
+                Item.of('concatenationcore:kestrel_r'),
+                [
+                        'ABC',
+                        'DCE',
+                        'FGA'
+                ],
+                {
+                        G: 'reliquary:rending_gale',
+                        B: 'reliquary:void_tear',
+                        A: 'concatenationcore:gold_paper',
+                        C: 'concatenationcore:bloodstained_steel',
+                        F: 'concatenationcore:kestrel',
+                        D: 'reliquary:magicbane',
+                        E: 'born_in_chaos_v1:transformative_flower'
+                }
+        )
+        event.shaped(
+                Item.of('tarotcards:the_hanged_man'),
+                [
+                        'ABA',
+                        'CDE',
+                        'ABA'
+                ],
+                {
+                        B: 'concatenationcore:blood_powder',
+                        C: 'irons_spellbooks:energized_core',
+                        D: '#concatenation:magic_cards_t2',
+                        A: 'concatenationcore:gold_paper',
+                        E: 'bloodmagic:cyclingcatalyst'
+                }
+        ).keepIngredient('#concatenation:magic_cards_t2')
+        event.shaped(
+                Item.of('tarotcards:the_hanged_man'),
+                [
+                        'ABA',
+                        'CDE',
+                        'ABA'
+                ],
+                {
+                        D: '#concatenation:magic_cards_t2',
+                        A: 'concatenationcore:gold_paper',
+                        B: 'concatenationcore:bloodstained_steel',
+                        E: 'bloodmagic:cyclingcatalyst',
+                        C: 'concatenationcore:alatoris_fiber'
+                }
+        ).keepIngredient('#concatenation:magic_cards_t2')
+        event.shaped(
+                Item.of('tarotcards:the_hanged_man'),
+                [
+                        'ABA',
+                        'CDE',
+                        'ABA'
+                ],
+                {
+                        E: 'irons_spellbooks:energized_core',
+                        D: '#concatenation:magic_cards_t2',
+                        A: 'concatenationcore:gold_paper',
+                        C: 'concatenationcore:alatoris_fiber',
+                        B: 'concatenationcore:ectorite'
+                }
+        ).keepIngredient('#concatenation:magic_cards_t2')
+        event.shaped(
+                Item.of('tarotcards:the_hanged_man'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        C: 'tarotcards:the_sun',
+                        A: 'concatenationcore:gold_paper',
+                        B: 'ars_elemental:mark_of_mastery'
+                }
+        ).keepIngredient('tarotcards:the_sun')
+        event.shaped(
+                Item.of('reliquary:angelheart_vial', 2),
+                [
+                        'ABA',
+                        'CDE',
+                        ' F '
+                ],
+                {
+                        D: 'tarotcards:the_hanged_man',
+                        F: 'reliquary:empty_potion_vial',
+                        A: 'minecraft:glow_berries',
+                        C: 'reliquary:infernal_claw',
+                        E: 'reliquary:fertile_essence',
+                        B: 'concatenationcore:glowing_gold'
+                }
+        ).keepIngredient('tarotcards:the_hanged_man')
+        event.shaped(
+                Item.of('reliquary:angelic_feather'),
+                [
+                        'ABC',
+                        'DE ',
+                        '   '
+                ],
+                {
+                        E: 'tarotcards:the_hanged_man',
+                        A: 'celestisynth:starstruck_feather',
+                        C: 'reliquary:bat_wing',
+                        B: 'reliquary:nebulous_heart',
+                        D: 'reliquary:fertile_essence'
+                }
+        ).keepIngredient('tarotcards:the_hanged_man')
+        event.shaped(
+                Item.of('reliquary:phoenix_down'),
+                [
+                        'ABC',
+                        'CC ',
+                        '   '
+                ],
+                {
+                        C: 'minecraft:blaze_powder',
+                        A: 'reliquary:angelic_feather',
+                        B: 'reliquary:angelheart_vial'
+                }
+        )
+        event.shaped(
+                Item.of('reliquary:alkahestry_tome'),
+                [
+                        'ABC',
+                        'DEF',
+                        'GHI'
+                ],
+                {
+                        B: 'tarotcards:the_hanged_man',
+                        C: 'reliquary:infernal_chalice',
+                        D: 'reliquary:guardian_spike',
+                        E: 'elementalcraft:spell_book',
+                        G: 'reliquary:emperor_chalice',
+                        I: 'minecraft:wither_skeleton_skull',
+                        H: 'tconstruct:soulsteel_ingot',
+                        A: 'minecraft:dragon_head',
+                        F: 'reliquary:eye_of_the_storm'
+                }
+        ).keepIngredient('tarotcards:the_hanged_man')
+        event.shaped(
+                Item.of('reliquary:alkahestry_tome'),
+                [
+                        'ABC',
+                        'DEF',
+                        'GHI'
+                ],
+                {
+                        B: 'tarotcards:the_hanged_man',
+                        C: 'reliquary:infernal_chalice',
+                        D: 'reliquary:guardian_spike',
+                        E: 'irons_spellbooks:netherite_spell_book',
+                        G: 'reliquary:emperor_chalice',
+                        I: 'minecraft:wither_skeleton_skull',
+                        H: 'tconstruct:soulsteel_ingot',
+                        A: 'minecraft:dragon_head',
+                        F: 'reliquary:eye_of_the_storm'
+                }
+        ).keepIngredient('tarotcards:the_hanged_man')
+        event.shaped(
+                Item.of('reliquary:alkahestry_tome'),
+                [
+                        'ABC',
+                        'DEF',
+                        'GHI'
+                ],
+                {
+                        B: 'tarotcards:the_hanged_man',
+                        C: 'reliquary:infernal_chalice',
+                        D: 'reliquary:guardian_spike',
+                        E: 'bloodmagic:archmagebloodorb',
+                        G: 'reliquary:emperor_chalice',
+                        I: 'minecraft:wither_skeleton_skull',
+                        H: 'tconstruct:soulsteel_ingot',
+                        A: 'minecraft:dragon_head',
+                        F: 'reliquary:eye_of_the_storm'
+                }
+        ).keepIngredient('tarotcards:the_hanged_man')
 });

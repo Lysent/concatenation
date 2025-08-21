@@ -343,7 +343,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -1.5d
 		}
 		{
@@ -6629,7 +6629,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.8d
 			y: -2.8d
 		}
 		{
@@ -8487,7 +8487,7 @@
 			y: 1.9250000000000007d
 		}
 		{
-			dependencies: ["59D783372A16F858"]
+			dependencies: ["33BA0ACE3EA7C44B"]
 			id: "54BE967A3164579C"
 			tasks: [{
 				id: "76D10185158CB1CB"
@@ -8502,7 +8502,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: 15.5d
 		}
 		{
@@ -9931,7 +9931,6 @@
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
-			hide_dependency_lines: true
 			id: "33BA0ACE3EA7C44B"
 			tasks: [{
 				id: "2F25BD20E3A91A9C"
@@ -13433,15 +13432,10 @@
 			id: "4E4E81226BED0E7C"
 			size: 1.25d
 			tasks: [{
-				id: "55D724FE27C61EF7"
+				id: "6B416D7B4B898875"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "tarotcards:the_emperor"
+					id: "tarotcards:the_hanged_man"
 					tag: { }
 				}
 				type: "item"
@@ -16903,7 +16897,350 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 12.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4E4E81226BED0E7C"]
+			id: "7D281BDB1C2472F1"
+			size: 1.15d
+			tasks: [{
+				id: "69E34EEB7779B8FF"
+				item: {
+					Count: 1
+					id: "reliquary:alkahestry_tome"
+					tag: {
+						Damage: 1001
+					}
+				}
+				type: "item"
+			}]
+			x: 25.299999999999997d
+			y: 18.4d
+		}
+		{
+			dependencies: ["4E4E81226BED0E7C"]
+			id: "483A8C4A3EE05C52"
+			tasks: [{
+				id: "2310CAC195D888F6"
+				item: "reliquary:angelheart_vial"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"23F4617A86D5F64E"
+				"483A8C4A3EE05C52"
+			]
+			id: "3BC974F6785A43B3"
+			tasks: [{
+				id: "31FE2C17AA05CDF8"
+				item: "reliquary:phoenix_down"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4E4E81226BED0E7C"]
+			id: "23F4617A86D5F64E"
+			tasks: [{
+				id: "50BA59F871D27A44"
+				item: "reliquary:angelic_feather"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4E4E81226BED0E7C"]
+			id: "471939DE22B5426B"
+			size: 0.9d
+			tasks: [{
+				id: "48BBC7D237937923"
+				item: "reliquary:destruction_catalyst"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["4E4E81226BED0E7C"]
+			id: "0901394AD3A5FDAB"
+			tasks: [{
+				id: "47A1211F79140D97"
+				item: "reliquary:fortune_coin"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["7D281BDB1C2472F1"]
+			id: "641652D8289A2AF2"
+			tasks: [{
+				id: "7F2EF4CFDB194DD8"
+				item: "reliquary:glacial_staff"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7D281BDB1C2472F1"]
+			id: "728B9DCC6EEF04E2"
+			tasks: [{
+				id: "74C6E160ED0AF054"
+				item: "reliquary:pyromancer_staff"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7D281BDB1C2472F1"]
+			id: "439A7FD241E5D5E4"
+			tasks: [{
+				id: "21D8996224D0CFE4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								amount: 0
+								filter: {
+									Count: 1b
+									id: "minecraft:feather"
+								}
+							}]
+						}
+					}
+					id: "reliquary:rending_gale"
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["7D281BDB1C2472F1"]
+			id: "1CB0C2CD353BA642"
+			tasks: [{
+				id: "2EC02C31B187FF3F"
+				item: {
+					Count: 1
+					id: "reliquary:serpent_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["7D281BDB1C2472F1"]
+			id: "6FE18A64BEAF0A08"
+			tasks: [{
+				id: "09C668F3104EE04D"
+				item: "reliquary:sojourner_staff"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["4E4E81226BED0E7C"]
+			id: "6D9C35A4B03D6421"
+			tasks: [{
+				id: "6B8DE248E560EF11"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								amount: 0
+								filter: {
+									Count: 1b
+									id: "minecraft:bone_meal"
+								}
+							}]
+						}
+					}
+					id: "reliquary:harvest_rod"
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["6FE18A64BEAF0A08"]
+			id: "2A6F7A84B94F1B7F"
+			tasks: [{
+				id: "3AE1B123A7E8BF18"
+				item: "reliquary:lantern_of_paranoia"
+				type: "item"
+			}]
+			x: 29.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"728B9DCC6EEF04E2"
+				"2A6F7A84B94F1B7F"
+			]
+			id: "5AAC92BF084F5CC7"
+			tasks: [{
+				id: "5BC9A7DEF890290A"
+				item: "reliquary:salamander_eye"
+				type: "item"
+			}]
+			x: 29.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["471939DE22B5426B"]
+			id: "4FB2DA70942ECABD"
+			tasks: [{
+				id: "12558DDB5323CCDB"
+				item: "reliquary:handgun"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["2A6F7A84B94F1B7F"]
+			id: "66DB777A17822FE0"
+			tasks: [{
+				id: "16A8899AB02C7516"
+				item: "reliquary:interdiction_torch"
+				type: "item"
+			}]
+			x: 29.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4E4E81226BED0E7C"]
+			id: "081070F7CBF61207"
+			tasks: [{
+				id: "290562D519F4C6F2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+						}
+					}
+					id: "reliquary:void_tear"
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7D281BDB1C2472F1"]
+			hide_dependency_lines: true
+			id: "34DB9EBB5C296D71"
+			tasks: [{
+				id: "02DA134DDB14AA28"
+				item: "reliquary:witherless_rose"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["4E4E81226BED0E7C"]
+			id: "527DC00929B54279"
+			tasks: [{
+				id: "41030BFA692C2825"
+				item: "reliquary:alkahestry_altar"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4E4E81226BED0E7C"]
+			id: "21E6CA24E283AF68"
+			tasks: [{
+				id: "4AEE0CC94FA9E76E"
+				item: {
+					Count: 1
+					id: "reliquary:magicbane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["21E6CA24E283AF68"]
+			hide_dependency_lines: true
+			id: "50F5D21769C1B356"
+			size: 1.15d
+			tasks: [{
+				id: "1051A989BB0B075A"
+				item: {
+					Count: 1
+					id: "concatenationcore:kestrel_r"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["7D281BDB1C2472F1"]
+			hide_dependency_lines: true
+			id: "4556ED8E14FEA0D9"
+			tasks: [{
+				id: "3DF268B58CB91994"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								amount: 0
+								filter: {
+									Count: 1b
+									id: "minecraft:ender_pearl"
+								}
+							}]
+						}
+					}
+					id: "reliquary:ender_staff"
+					tag: {
+						count: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7D281BDB1C2472F1"]
+			hide_dependency_lines: true
+			id: "7EA2E0871C6D568C"
+			tasks: [{
+				id: "6995D2EB47EB369A"
+				item: "reliquary:hero_medallion"
+				type: "item"
+			}]
+			x: 29.0d
+			y: 24.5d
 		}
 	]
 	title: "The Journey"

@@ -13,6 +13,11 @@ ServerEvents.tags('item', event => {
         'tarotcards:the_hermit',
         'tarotcards:the_magician'
     ]);
+    add('concatenation:magic_cards_t2', [
+        'tarotcards:the_sun',
+        'tarotcards:the_moon',
+        'tarotcards:the_star'
+    ]);
 
     add('concatenation:hammers', [
         'concatenationcore:hammer',
@@ -98,7 +103,8 @@ ServerEvents.tags('item', event => {
         'dimdoors:rift_blade',
         'concatenationcore:shrike',
         'concatenationcore:kestrel',
-        'concatenationcore:kestrel_r'
+        'concatenationcore:kestrel_r',
+        'reliquary:magicbane'
     ]);
 
     const fullSets = [
