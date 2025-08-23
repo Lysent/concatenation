@@ -304,6 +304,7 @@
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
+			description: ["A book written in a language unknown but somehow universally understood. It contains detailed information on various rituals, materials, and methods of ancient witchcraft, and hints at a further developed school of occultism... You can steal these from witches, but I so happened to have collected one, so here you go. I was always offput by the amount of blood required... "]
 			hide_dependency_lines: true
 			id: "5528A8B3F2AE6D2F"
 			rewards: [
@@ -5668,7 +5669,7 @@
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
-			description: ["The Mixing Cauldron can also be used for more efficient potion"]
+			description: ["An essential fixture for anyone delving into witchcraft, used to mix a great many things and infuse them with ancient spiritual power. The Mixing Cauldron can also be used for more efficient potion brewing at its scale. This is also where you'll be bleeding many creature. In fact, this cauldron has the uncanny ability to draw blood, even from vaguely human-shaped wood...  "]
 			hide_dependency_lines: true
 			id: "3B8127AF958727B0"
 			rewards: [{
@@ -5705,6 +5706,7 @@
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
+			description: ["An enhanced fabric woven from strips of leather, dyed and infused with mild spiritual power. You can use it to make the traditional robes of the witches."]
 			id: "08656304775DB207"
 			tasks: [{
 				id: "44FF35C4A6636054"
@@ -5724,6 +5726,7 @@
 		}
 		{
 			dependencies: ["08656304775DB207"]
+			description: ["The ancient vestiments of the traditional witchcraft, it is relatively sturdy for its composition. If you wear these, witches will respect you as an initiate of their craft. Somehow, they did even though I stole the materials to make them right in front of them."]
 			id: "11448A0815CC7548"
 			tasks: [
 				{
@@ -5775,11 +5778,13 @@
 					type: "item"
 				}
 			]
+			title: "Witch Robes"
 			x: 8.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["0CC91D0458ACB827"]
+			description: ["The witch's broom is a classic enchantment, allowing many individual straws to combine and allow a wooden staff to levitate. While the brush eventually wears out, it can be enchanted much in the same way as other tools, making this a long lasting and elegant solution before you can fly purely with personal enchantments or other technologies."]
 			id: "0BBFD1B138A5DA3D"
 			tasks: [{
 				id: "739BBA8A10CB24FE"
@@ -5800,6 +5805,7 @@
 		}
 		{
 			dependencies: ["0BBFD1B138A5DA3D"]
+			description: ["A broom of a stronger staff. An equally romantic version of this mode of transportation."]
 			id: "3EF9977332170323"
 			tasks: [{
 				id: "269DC5423F12CE4F"
@@ -5820,6 +5826,7 @@
 		}
 		{
 			dependencies: ["3EF9977332170323"]
+			description: ["The strongest of the natural broom staves, it is more aerodynamic and, most importantly, fire resistant, great for delves into the various scorching underworlds."]
 			id: "74D920C672740BC9"
 			tasks: [{
 				id: "409892A417E0A087"
@@ -5840,6 +5847,7 @@
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
+			description: ["Blood provided essential spiritual power for ancient witchcraft, but can also provide physical nutrition, should you have enough to spare. Some ancient witches even had a diet entirely comprised of blood, and I did to, fora while. Your stomach learns to accept it, after a while..."]
 			icon: "hexerei:blood_sigil"
 			id: "0CC91D0458ACB827"
 			tasks: [
@@ -5870,6 +5878,7 @@
 					type: "item"
 				}
 			]
+			title: "Acquiring Blood"
 			x: 9.5d
 			y: -2.5d
 		}
@@ -5898,6 +5907,7 @@
 		}
 		{
 			dependencies: ["0CC91D0458ACB827"]
+			description: ["A small on the outside, spacious on the inside little coffer which you can open on the go or set on your desk. It may not be a giant backpack, but it surely is ornate and aesthetically pleasing."]
 			id: "59BB154080D3A193"
 			tasks: [{
 				id: "5477EC9698C3E167"
@@ -5927,6 +5937,7 @@
 		}
 		{
 			dependencies: ["0BBFD1B138A5DA3D"]
+			description: ["Storage on the go, as light and elegant as the vehicle they're made for. Not exactly spacious, though."]
 			id: "3734FBDDFFB8710B"
 			tasks: [
 				{
@@ -5969,11 +5980,13 @@
 					type: "item"
 				}
 			]
+			title: "Broom Satchels"
 			x: 12.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
+			description: ["A polyvalent fixture used to dry many things used in witchcraft. It also has a notable quality to dry the putridity out of the rotten flesh of the undead and turn it into useable leathers."]
 			hide_dependency_lines: true
 			id: "50DF4F514B4C87B9"
 			tasks: [{
@@ -6035,6 +6048,7 @@
 		}
 		{
 			dependencies: ["50DF4F514B4C87B9"]
+			description: ["The standard enchanted broom brush is simple, but imperfect. Fortunately, the Book of Shadows provides us with two improved recipes, one using the natural spiritual power of multiple herbs, and the other using the magic spiritual power formed under the light of the full moon."]
 			id: "2A581A4E957DEF1E"
 			tasks: [{
 				id: "26FC587BA70F32C6"
@@ -6086,6 +6100,7 @@
 				"2A581A4E957DEF1E"
 				"7BB90DEFC570E065"
 			]
+			description: ["Magic can do levitation, but a bunch of rockets can do that too! Much less romantic, but much, much faster."]
 			hide_dependency_lines: true
 			id: "3EB756F4DB633C14"
 			tasks: [{
@@ -6206,6 +6221,7 @@
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
+			description: ["Great for looking at things closer, though I find my eyes can already focus this small. If you wore enough, would you see each thread of the parchment?"]
 			id: "318D381A5B4B1EBC"
 			tasks: [{
 				id: "4E43AE20227DAE0A"
@@ -6225,6 +6241,7 @@
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
+			description: ["This hardened tool can't do much, but you can make crow food and carpet wax with it. Good decoration, sets the witchy mood. If you don't feel like making one, you can probably steal it from a witch village."]
 			id: "7B7ECE9C646B974B"
 			rewards: [{
 				id: "15BA491843358A2D"
@@ -6259,26 +6276,36 @@
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
+			description: ["Moon dust is a strange spiritual material. It's not &ofrom&r the moon, but the spirituality it contains is. Strange, I know. Either way, ancient witchcraft uses it as its powerful spiritual material of predilection. To acquire it, you need to mix the dusts under the gaze of the full moon. This crystal ball from the Book of Shadows should help you identify the true full moon if the sky is blocked."]
 			hide_dependency_lines: true
 			id: "5C78A0206DEDAC4C"
-			tasks: [{
-				id: "40400A8329130C4A"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			tasks: [
+				{
+					id: "40400A8329130C4A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
 						}
+						id: "hexerei:crystal_ball"
 					}
-					id: "hexerei:crystal_ball"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "27244009A17A470A"
+					item: "hexerei:moon_dust"
+					type: "item"
+				}
+			]
+			title: "Gathering Moon Dust"
 			x: 9.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["0419D82408E8C7B0"]
+			description: ["If I had a crow, I would make this for them. A witchcraft playing with life and death, it will help your crow survive, if it ever is placed in danger."]
 			id: "1117DB453133A102"
 			tasks: [{
 				id: "5230ED46D846383B"
@@ -6298,6 +6325,7 @@
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
+			description: ["The witches' drawer. Mostly used to store things that are not herbs."]
 			id: "6EB3E5667F8481FC"
 			tasks: [{
 				id: "583111F990D92E4D"
@@ -6318,6 +6346,7 @@
 		}
 		{
 			dependencies: ["0BBFD1B138A5DA3D"]
+			description: ["Piloting a broom is an ancient art, but the traditional side-mount can be inconvenient at times. This sturdy seat allows you to face straight ahead while flying, or even to carry a friend with you. Not that I have anyone to fly with under the moonlight..."]
 			id: "662F30B73F2476FE"
 			tasks: [{
 				id: "0FD75E1E0D95A84B"
@@ -6337,6 +6366,7 @@
 		}
 		{
 			dependencies: ["7B7ECE9C646B974B"]
+			description: ["Befriend the crows! I never got around to doing that myself, but I'm sure these smart birds can do something for you."]
 			id: "0419D82408E8C7B0"
 			tasks: [{
 				id: "57ACAE12E606A63C"
@@ -6351,11 +6381,13 @@
 				}
 				type: "item"
 			}]
+			title: "Crow Food"
 			x: 9.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["0BBFD1B138A5DA3D"]
+			description: ["While brooms are certainly enchanted, they're still made of, essentially, sticks. These broom tips will allow you to momentarily dip through water, fire, or lava, without having to constantly worry about your brush getting too damp to fly, or your broomstaff simply combusting. Or, you could just avoid water and fire, I guess."]
 			id: "683A75AC5D42BFB1"
 			tasks: [{
 				id: "161EEAC175C35EEE"
@@ -6398,12 +6430,13 @@
 				}
 				type: "item"
 			}]
-			title: "Any Broom Tip"
+			title: "Broom Tips"
 			x: 12.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["6EB3E5667F8481FC"]
+			description: ["You will find these various herbs come in handy for most witchcraft, but their spiritual power can also carry over to the neighbouring school of sorcery."]
 			id: "6E411BC41B854476"
 			tasks: [
 				{
@@ -6530,6 +6563,7 @@
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
+			description: ["This dipping rack allows you to soak candles with various potion effects. Ever wanted to spread the aroma of poison in your room? Well, it's very useful for a quick escape..."]
 			hide_dependency_lines: true
 			id: "49375BCA090B1198"
 			tasks: [{
@@ -6550,6 +6584,7 @@
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
+			description: ["Owls are observant and smart birds, and by providing them a comfortable depot, you can get them to transport packages to other witches. However, I never had anyone to send packages to, so I never cared to learn how to address these packages."]
 			hide_dependency_lines: true
 			id: "448610C2D1BD5805"
 			tasks: [
@@ -6617,6 +6652,7 @@
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
+			description: ["Many witchcrafts scribed in the Book of Shadows require spiritually-permeable woods, staple herbs, or other organics and inorganics found by witches in swamps. This petty enchantment on a couple of sticks will prove useful for finding these swamps, in which you may even find practising witches. It's with one of these that I found the ancient witch villages and... &oborrowed&r their stuff."]
 			hide_dependency_lines: true
 			id: "22CF2C758DBACEE0"
 			size: 0.8d
@@ -8980,6 +9016,7 @@
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
+			description: ["This strange sword resonates with the essence of experience within the body, ripping it out as small, marble-sized spheres. A small pain as the price of progress."]
 			hide_dependency_lines: true
 			id: "5D6BE53739B45840"
 			tasks: [{
@@ -9003,6 +9040,7 @@
 		}
 		{
 			dependencies: ["5D6BE53739B45840"]
+			description: ["I once tried to identify what the Descran truly is, but at this point I have simply given up. All you need to know is that this abstract little magically-infused figurine is a great channel of the natural spiritual power of the world, and can be used as the focus in a few magical creations."]
 			id: "54D2E4556B238BE4"
 			tasks: [{
 				id: "52B94C4168556224"
@@ -16070,6 +16108,7 @@
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
+			description: ["Dark metal is an alluring substance, but some demiurge has altered reality to require a dull, grey abomination in its stead."]
 			id: "369EB408D49E5415"
 			tasks: [
 				{
@@ -16083,6 +16122,7 @@
 					type: "item"
 				}
 			]
+			title: "Dark Metal \\& Dense Alloy"
 			x: 5.5d
 			y: -12.5d
 		}
