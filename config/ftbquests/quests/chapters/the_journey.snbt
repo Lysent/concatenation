@@ -2733,7 +2733,11 @@
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
-			description: ["&o&7A drawn note is left on the entry"]
+			description: [
+				"&o&7  A drawn note is left on the entry"
+				""
+				"{image:concatenationcore:textures/element-table.png width:175 height:175 align:center}"
+			]
 			icon: {
 				Count: 1
 				id: "minecraft:diamond_pickaxe"
@@ -13450,6 +13454,17 @@
 			]
 			hide_dependency_lines: true
 			id: "0D61335A0B07300D"
+			rewards: [{
+				id: "1BB61DA5D6382A08"
+				item: {
+					Count: 1
+					id: "modonomicon:modonomicon"
+					tag: {
+						"modonomicon:book_id": "theurgy:the_hermetica"
+					}
+				}
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "58F5FA81DA5EB05B"
@@ -17151,8 +17166,8 @@
 				item: "reliquary:witherless_rose"
 				type: "item"
 			}]
-			x: 28.0d
-			y: 22.0d
+			x: 31.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
@@ -17240,7 +17255,229 @@
 				type: "item"
 			}]
 			x: 29.0d
-			y: 24.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["0D61335A0B07300D"]
+			id: "3763D07C9E3EBB04"
+			tasks: [
+				{
+					id: "2537423E24072297"
+					item: "theurgy:sal_ammoniac_accumulator"
+					type: "item"
+				}
+				{
+					id: "54BC043F0F308B1D"
+					item: "theurgy:sal_ammoniac_tank"
+					type: "item"
+				}
+			]
+			x: 28.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0D61335A0B07300D"]
+			id: "18842926F8B1C64D"
+			tasks: [{
+				id: "4FC77E708F208A01"
+				item: "theurgy:pyromantic_brazier"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["18842926F8B1C64D"]
+			id: "196E58EC65B8C401"
+			tasks: [{
+				id: "479A1ACA4A073A6E"
+				item: "theurgy:liquefaction_cauldron"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["18842926F8B1C64D"]
+			id: "082867418C58A3F7"
+			tasks: [{
+				id: "748C6D3C05A5F941"
+				item: "theurgy:distiller"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["18842926F8B1C64D"]
+			id: "0BFFCDA557C3AC9C"
+			tasks: [{
+				id: "7C811554DCA8D4ED"
+				item: "theurgy:calcination_oven"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0BFFCDA557C3AC9C"]
+			id: "55CA3D58EE9C883B"
+			tasks: [{
+				id: "176615EC9A7CFE23"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "theurgy:alchemical_salt_strata"
+							}
+							{
+								Count: 1b
+								id: "theurgy:alchemical_salt_mineral"
+							}
+							{
+								Count: 1b
+								id: "theurgy:alchemical_salt_crops"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 31.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["082867418C58A3F7"]
+			id: "73BE1AB671E9C173"
+			tasks: [{
+				id: "447A944E03165CA1"
+				item: "theurgy:mercury_shard"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["18842926F8B1C64D"]
+			id: "16E1267D485886E8"
+			tasks: [{
+				id: "3AA51F0094B178FD"
+				item: "theurgy:incubator"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["16E1267D485886E8"]
+			id: "491AFDE6FD8329D1"
+			tasks: [{
+				id: "2B4DC20C95253E13"
+				item: "theurgy:sal_ammoniac_crystal"
+				type: "item"
+			}]
+			x: 33.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["491AFDE6FD8329D1"]
+			id: "4CC297E5C35D87F8"
+			size: 1.15d
+			tasks: [
+				{
+					id: "3D8DD827E4D1E149"
+					item: "theurgy:reformation_source_pedestal"
+					type: "item"
+				}
+				{
+					id: "5F233417C16C9213"
+					item: "theurgy:reformation_target_pedestal"
+					type: "item"
+				}
+				{
+					id: "1A6F19B5A6F57FEF"
+					item: "theurgy:reformation_result_pedestal"
+					type: "item"
+				}
+			]
+			x: 34.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["491AFDE6FD8329D1"]
+			id: "0EC44F3645ABD596"
+			tasks: [
+				{
+					id: "0742019A80BB618E"
+					item: "theurgy:mercury_catalyst"
+					type: "item"
+				}
+				{
+					id: "549F874FD8DACC76"
+					item: "theurgy:caloric_flux_emitter"
+					type: "item"
+				}
+			]
+			x: 33.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["491AFDE6FD8329D1"]
+			id: "29AB1C13F14D1962"
+			tasks: [
+				{
+					id: "33687531D74C0F67"
+					item: "theurgy:digestion_vat"
+					type: "item"
+				}
+				{
+					id: "51ADA95541BED42D"
+					item: "theurgy:purified_gold"
+					type: "item"
+				}
+			]
+			x: 34.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4CC297E5C35D87F8"]
+			id: "57D021A05869800D"
+			tasks: [{
+				id: "2A1B9C2AF3D861F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 35.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"34DB9EBB5C296D71"
+				"57D021A05869800D"
+			]
+			id: "731126727DDCAC54"
+			size: 1.5d
+			tasks: [{
+				id: "05B1E00E85429C8D"
+				item: {
+					Count: 1
+					id: "tarotcards:the_devil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 35.25d
+			y: 17.25d
 		}
 	]
 	title: "The Journey"

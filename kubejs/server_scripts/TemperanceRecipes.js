@@ -6,7 +6,12 @@ ServerEvents.recipes(event => {
                 'bloodmagic:altar',
                 'hexerei:witch_helmet',
                 'hexerei:witch_chesplate',
-                'hexerei:witch_boots'
+                'hexerei:witch_boots',
+                'theurgy:pyromantic_brazier',
+                'theurgy:calcination_oven',
+                'theurgy:liquefaction_cauldron',
+                'theurgy:distiller',
+                'theurgy:incubator'
         ]
 
         remove.forEach(item => {
@@ -166,6 +171,7 @@ ServerEvents.recipes(event => {
                 ]
         )
 
+        // Lovers
         event.shaped(
                 Item.of(
                         "concatenationcore:the_error",
@@ -180,4 +186,235 @@ ServerEvents.recipes(event => {
                         C: "concatenationcore:bricksword"
                 }
         );
+
+        event.shaped(
+                Item.of('tarotcards:the_lovers'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'bloodmagic:weakbloodshard',
+                        A: 'concatenationcore:gold_paper',
+                        C: 'tarotcards:the_moon'
+                }
+        ).keepIngredient('tarotcards:the_moon')
+        event.shaped(
+                Item.of('tarotcards:the_lovers'),
+                [
+                        'ABA',
+                        'CDE',
+                        'ABA'
+                ],
+                {
+                        C: 'concatenationcore:light_totem',
+                        B: 'concatenationcore:blood_powder',
+                        A: 'concatenationcore:gold_paper',
+                        D: '#concatenation:magic_cards_t2',
+                        E: 'irons_spellbooks:rare_ink'
+                }
+        ).keepIngredient('#concatenation:magic_cards_t2')
+        event.shaped(
+                Item.of('tarotcards:the_lovers'),
+                [
+                        'ABA',
+                        'CDE',
+                        'ABA'
+                ],
+                {
+                        E: 'ars_elemental:flashpine_pod',
+                        C: 'concatenationcore:alatoris_fiber',
+                        A: 'concatenationcore:gold_paper',
+                        D: '#concatenation:magic_cards_t2',
+                        B: 'concatenationcore:ectorite'
+                }
+        ).keepIngredient('#concatenation:magic_cards_t2')
+        event.shaped(
+                Item.of('tarotcards:the_lovers'),
+                [
+                        'ABA',
+                        'CDE',
+                        'ABA'
+                ],
+                {
+                        E: 'ars_elemental:flashpine_pod',
+                        C: 'concatenationcore:alatoris_fiber',
+                        A: 'concatenationcore:gold_paper',
+                        B: 'concatenationcore:bloodstained_steel',
+                        D: '#concatenation:magic_cards_t2'
+                }
+        ).keepIngredient('#concatenation:magic_cards_t2')
+
+        event.shaped(
+                Item.of('theurgy:pyromantic_brazier'),
+                [
+                        'ABA',
+                        'ADA',
+                        'CCC'
+                ],
+                {
+                        C: 'minecraft:stone',
+                        A: 'minecraft:copper_block',
+                        B: 'concatenationcore:ectorite',
+                        D: 'tarotcards:the_lovers'
+                }
+        ).keepIngredient('tarotcards:the_lovers')
+        event.shaped(
+                Item.of('theurgy:pyromantic_brazier'),
+                [
+                        'ABA',
+                        'ADA',
+                        'CCC'
+                ],
+                {
+                        C: 'minecraft:stone',
+                        B: 'concatenationcore:bloodstained_steel',
+                        A: 'minecraft:copper_block'
+                }
+        ).keepIngredient('tarotcards:the_lovers')
+        event.shaped(
+                Item.of('theurgy:pyromantic_brazier'),
+                [
+                        'ABA',
+                        'ADA',
+                        'CCC'
+                ],
+                {
+                        C: 'minecraft:stone',
+                        B: 'concatenationcore:blood_powder',
+                        A: 'minecraft:copper_block'
+                }
+        ).keepIngredient('tarotcards:the_lovers')
+        event.shaped(
+                Item.of('theurgy:calcination_oven'),
+                [
+                        ' A ',
+                        'ABA',
+                        ' A '
+                ],
+                {
+                        B: 'elementalcraft:drenched_iron_block',
+                        A: 'minecraft:copper_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('theurgy:calcination_oven'),
+                [
+                        ' A ',
+                        'ABA',
+                        ' A '
+                ],
+                {
+                        A: 'minecraft:copper_ingot',
+                        B: 'bloodmagic:fireritualstone'
+                }
+        )
+        event.shapeless(
+                Item.of('bloodmagic:fireritualstone'),
+                [
+                        'bloodmagic:blankrune',
+                        'bloodmagic:firescribetool'
+                ]
+        )
+        event.shaped(
+                Item.of('theurgy:liquefaction_cauldron'),
+                [
+                        'ABA',
+                        'ACA',
+                        'DDD'
+                ],
+                {
+                        D: 'minecraft:stone',
+                        C: 'irons_spellbooks:alchemist_cauldron',
+                        B: 'minecraft:copper_block',
+                        A: 'minecraft:copper_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('theurgy:liquefaction_cauldron'),
+                [
+                        'ABA',
+                        'AEA',
+                        'DCD'
+                ],
+                {
+                        D: 'minecraft:stone',
+                        C: 'minecraft:cauldron',
+                        B: 'minecraft:copper_block',
+                        A: 'minecraft:copper_ingot',
+                        E: 'ars_nouveau:wixie_charm'
+                }
+        )
+        event.shaped(
+                Item.of('theurgy:distiller'),
+                [
+                        ' A ',
+                        'BCB',
+                        'DDD'
+                ],
+                {
+                        D: 'minecraft:stone',
+                        C: 'elementalcraft:drenched_iron_block',
+                        B: 'minecraft:copper_ingot',
+                        A: 'concatenationcore:ectorite'
+                }
+        )
+        event.shaped(
+                Item.of('theurgy:distiller'),
+                [
+                        ' A ',
+                        'BCB',
+                        'DDD'
+                ],
+                {
+                        D: 'minecraft:stone',
+                        C: 'elementalcraft:drenched_iron_block',
+                        A: 'concatenationcore:bloodstained_steel',
+                        B: 'minecraft:copper_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('theurgy:distiller'),
+                [
+                        ' A ',
+                        'BCB',
+                        'DDD'
+                ],
+                {
+                        D: 'minecraft:stone',
+                        C: 'elementalcraft:drenched_iron_block',
+                        A: 'concatenationcore:blood_powder',
+                        B: 'minecraft:copper_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('theurgy:incubator'),
+                [
+                        'ABA',
+                        'CCC',
+                        'ADA'
+                ],
+                {
+                        A: 'minecraft:stone',
+                        B: '#minecraft:logs',
+                        D: 'minecraft:copper_block',
+                        C: 'concatenationcore:pyrite'
+                }
+        )
+        event.shaped(
+                Item.of('theurgy:incubator'),
+                [
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        A: 'minecraft:stone',
+                        C: 'minecraft:gold_ingot',
+                        B: 'minecraft:oak_log',
+                        E: 'minecraft:copper_block',
+                        D: 'concatenationcore:ectorite'
+                }
+        )
 });
