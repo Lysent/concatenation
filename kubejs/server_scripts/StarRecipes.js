@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
         "irons_spellbooks:inscription_table",
         "irons_spellbooks:scroll_forge",
         "irons_spellbooks:arcane_anvil",
+        "projecte:interdiction_torch"
 
     ].forEach(item => event.remove({ output: item }));
 
@@ -153,7 +154,7 @@ ServerEvents.recipes(event => {
 
     event.shaped( // true cooldown ring
         Item.of(
-            "irons_spellbooks:affinity_ring", 
+            "irons_spellbooks:affinity_ring",
             "{display:{Name:'{\"text\":\"Ring of True Speed\"}'},CurioAttributeModifiers:[{AttributeName:\"irons_spellbooks:cooldown_reduction\",Name:\"irons_spellbooks:cooldown_reduction\",Amount:2,Operation:2,UUID:[I;-1093106719,2113816580,-1757804057,158672533],Slot:\"ring\"},{AttributeName:\"irons_spellbooks:cast_time_reduction\",Name:\"irons_spellbooks:cast_time_reduction\",Amount:0.5,Operation:2,UUID:[I;527994327,1899842476,-1977030579,1597526457],Slot:\"ring\"}]}"
         ),
         [
@@ -166,5 +167,59 @@ ServerEvents.recipes(event => {
             R: "irons_spellbooks:affinity_ring",
         }
     );
+
+    // The Devil
+    event.shaped(
+        Item.of('tarotcards:the_devil'),
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            B: 'projecte:aeternalis_fuel',
+            C: 'projecte:philosophers_stone',
+            A: 'concatenationcore:gold_paper'
+        }
+    )
+    event.shapeless(
+        Item.of('projecte:mobius_fuel'),
+        [
+            'projecte:philosophers_stone',
+            'elementalcraft:elemental_firefuel'
+        ]
+    ).replaceIngredient('elementalcraft:elemental_firefuel', 'minecraft:charcoal')
+    event.shapeless(
+        Item.of('projecte:alchemical_coal', 4),
+        [
+            'projecte:philosophers_stone',
+            'elementalcraft:elemental_firefuel'
+        ]
+    ).replaceIngredient('elementalcraft:elemental_firefuel', 'minecraft:charcoal')
+    event.shapeless(
+        Item.of('projecte:alchemical_coal', 4),
+        [
+            'projecte:philosophers_stone',
+            'projecte:mobius_fuel'
+        ]
+    )
+    event.shapeless(
+        Item.of('projecte:alchemical_coal', 9),
+        [
+            'projecte:alchemical_coal_block'
+        ]
+    )
+    event.shaped(
+        Item.of('projecte:interdiction_torch', 8),
+        [
+            'AB ',
+            '   ',
+            '   '
+        ],
+        {
+            A: 'reliquary:interdiction_torch',
+            B: 'projecte:medium_covalence_dust'
+        }
+    )
 
 });

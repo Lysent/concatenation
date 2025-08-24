@@ -9,7 +9,8 @@ ServerEvents.recipes(event => {
         const remove = [
                 'born_in_chaos_v1:dark_upgrade',
                 'born_in_chaos_v1:dark_metal_block',
-                'born_in_chaos_v1:dark_grid'
+                'born_in_chaos_v1:dark_grid',
+                'farmersdelight:cutting_board'
         ]
 
         remove.forEach(item => {
@@ -226,6 +227,139 @@ ServerEvents.recipes(event => {
                         A: 'minecraft:iron_ingot'
                 }
         )
+        event.shaped(
+                Item.of('concatenationcore:silver_paper'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        C: 'concatenationcore:gold_paper',
+                        B: 'thermal:silver_ingot',
+                        A: 'concatenationcore:glowing_gold'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:concatenator'),
+                [
+                        ' A ',
+                        'BCD',
+                        ' E '
+                ],
+                {
+                        A: 'born_in_chaos_v1:lifestealer_skull',
+                        B: 'ars_technica:spy_monocle',
+                        E: 'ae2:sky_dust',
+                        C: 'concatenationcore:gold_paper',
+                        D: 'concatenationcore:soleipse'
+                }
+        )
+        event.shapeless(
+                Item.of(
+                        "concatenationcore:the_error",
+                        '{display:{Name:\'{"text":"Tarot : The Error","color":"yellow","italic":false}\'},CurioAttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:0.5,Operation:1,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                ),
+                [
+                        'tarotcards:the_lovers',
+                        'concatenationcore:concatenator'
+                ]
+        ).keepIngredient('concatenationcore:concatenator')
+
+        event.shaped(
+                Item.of('tarotcards:the_hierophant'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'concatenationcore:silver_paper',
+                        B: 'createbigcannons:nethersteel_ingot',
+                        C: 'tarotcards:the_high_priestess'
+                }
+        ).keepIngredient('tarotcards:the_high_priestess')
+        event.shaped(
+                Item.of('tarotcards:the_hermit'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'thermal:bronze_ingot',
+                        A: 'concatenationcore:silver_paper',
+                        C: 'tarotcards:the_high_priestess'
+                }
+        ).keepIngredient('tarotcards:the_high_priestess')
+        event.shaped(
+                Item.of('tarotcards:the_hierophant'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ACA'
+                ],
+                {
+                        B: 'concatenationcore:descran',
+                        D: 'tarotcards:temperance',
+                        C: 'concatenationcore:experience_orb',
+                        A: 'concatenationcore:silver_paper'
+                }
+        ).keepIngredient('tarotcards:temperance')
+        event.shaped(
+                Item.of('tarotcards:the_hermit'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        C: 'tarotcards:the_sun',
+                        B: 'elementalcraft:swift_alloy_ingot',
+                        A: 'concatenationcore:silver_paper'
+                }
+        ).keepIngredient('tarotcards:the_sun')
+        event.shaped(
+                Item.of('tarotcards:the_magician'),
+                [
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        E: 'create:blaze_burner',
+                        C: 'create:experience_nugget',
+                        B: 'elementalcraft:inert_crystal',
+                        D: 'tarotcards:the_tower',
+                        A: 'concatenationcore:silver_paper'
+                }
+        ).keepIngredient('tarotcards:the_tower')
+        event.shaped(
+                Item.of('tarotcards:the_magician'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        C: '#concatenation:magic_cards_t2',
+                        B: 'irons_spellbooks:arcane_essence',
+                        A: 'concatenationcore:silver_paper'
+                }
+        ).keepIngredient('#concatenation:magic_cards_t2')
+        event.shaped(
+                Item.of('tarotcards:temperance'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        C: '#concatenation:magic_cards_t2',
+                        B: 'irons_spellbooks:arcane_essence',
+                        A: 'concatenationcore:silver_paper'
+                }
+        ).keepIngredient('#concatenation:magic_cards_t2')
 
         // Empress
         event.shaped(
@@ -281,6 +415,19 @@ ServerEvents.recipes(event => {
                         'minecolonies:corn'
                 ]
         )
+        event.shaped(
+                Item.of('farmersdelight:cutting_board'),
+                [
+                        'ABB',
+                        'ABB',
+                        ' C '
+                ],
+                {
+                        C: 'tarotcards:the_empress',
+                        A: 'minecraft:stick',
+                        B: '#minecraft:planks'
+                }
+        ).keepIngredient('tarotcards:the_empress')
 
         // Death
         event.shaped(

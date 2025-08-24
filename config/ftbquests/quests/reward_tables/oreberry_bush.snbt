@@ -1,0 +1,20 @@
+{
+	id: "7023D307BAE785EE"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 4, item: "oreberriesreplanted:iron_oreberry_bush", random_bonus: 4 }
+		{ count: 4, item: "oreberriesreplanted:gold_oreberry_bush", random_bonus: 4 }
+		{ count: 4, item: "oreberriesreplanted:copper_oreberry_bush", random_bonus: 4 }
+		{ count: 4, item: "oreberriesreplanted:tin_oreberry_bush", random_bonus: 4 }
+		{ count: 4, item: "oreberriesreplanted:aluminum_oreberry_bush", random_bonus: 4 }
+		{ count: 4, item: "oreberriesreplanted:lead_oreberry_bush", random_bonus: 4 }
+		{ count: 4, item: "oreberriesreplanted:nickel_oreberry_bush", random_bonus: 4 }
+		{ count: 4, item: "oreberriesreplanted:uranium_oreberry_bush", random_bonus: 4 }
+		{ count: 4, item: "oreberriesreplanted:osmium_oreberry_bush", random_bonus: 4 }
+		{ count: 4, item: "oreberriesreplanted:zinc_oreberry_bush", random_bonus: 4 }
+		{ count: 4, item: "oreberriesreplanted:silver_oreberry_bush", random_bonus: 4 }
+		{ count: 4, item: "oreberriesreplanted:essence_berry_bush", random_bonus: 4 }
+	]
+	title: "Oreberry Bush"
+}

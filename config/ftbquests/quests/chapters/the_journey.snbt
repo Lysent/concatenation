@@ -7,17 +7,18 @@
 	icon: "tarotcards:tarot_deck"
 	id: "7C44AFC336C0AE69"
 	images: [{
-		height: 43.0d
-		image: "concatenationcore:textures/channels3.png"
+		height: 60.0d
+		image: "concatenationcore:textures/channels4.png"
 		rotation: 0.0d
-		width: 58.25d
-		x: -0.5d
-		y: 2.0d
+		width: 112.0d
+		x: 14.5d
+		y: 8.0d
 	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["{image:concatenationcore:textures/info-hierophant.png width:150 height:125 align:center}"]
 			id: "73F4AAF2267BB33B"
 			rewards: [{
 				id: "6C860A479D3CD959"
@@ -55,6 +56,7 @@
 			y: -1.25d
 		}
 		{
+			description: ["{image:concatenationcore:textures/info-magician.png width:150 height:125 align:center}"]
 			id: "2157576FC7005917"
 			rewards: [{
 				id: "3AEC86CF77EE018C"
@@ -92,6 +94,7 @@
 			y: 1.875d
 		}
 		{
+			description: ["{image:concatenationcore:textures/info-temperance.png width:150 height:125 align:center}"]
 			id: "2970C1ADE44898FF"
 			rewards: [
 				{
@@ -109,8 +112,7 @@
 					type: "item"
 				}
 				{
-					auto: "enabled"
-					command: "/decstages add {team} temperance_pathway true"
+					auto: "invisible"
 					icon: {
 						Count: 1
 						id: "hexerei:witch_helmet"
@@ -118,10 +120,12 @@
 							Damage: 0
 						}
 					}
-					id: "03D125C16CD7CADF"
+					id: "6E80F74B9F3EB273"
+					ignore_reward_blocking: true
+					stage: "temperance"
 					team_reward: false
 					title: "Occult Knowledge"
-					type: "command"
+					type: "gamestage"
 				}
 			]
 			size: 1.25d
@@ -146,6 +150,7 @@
 			y: -1.25d
 		}
 		{
+			description: ["{image:concatenationcore:textures/info-hermit.png width:150 height:125 align:center}"]
 			id: "06A4BEEE42830A85"
 			rewards: [{
 				id: "037E71B3775DC2AF"
@@ -183,6 +188,11 @@
 			y: 1.875d
 		}
 		{
+			description: [
+				"You may have a different path ahead than mine. I am the holder of the Fool Card, the start of a journey of infinite possibilities. This does mean I can adhere to any pathway, provided I found the materials to do so while traveling."
+				""
+				"Ahead I've left a few notes of structures of note and unique pathways. "
+			]
 			hide_dependent_lines: true
 			icon: {
 				Count: 1
@@ -210,6 +220,11 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: [
+				"The backpack is ideal for all of your storage needs on your person. I've had to hunt many cows and chase around sheep for several days to be able to fit all of the trinkets I found on my travels."
+				""
+				"Simply equip it on your back &a(and open it with the default keybind being B)&r&f."
+			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "0BD5BADADC18CC3D"
@@ -249,6 +264,7 @@
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
+			description: ["A guide to tinkering written by a certain Selena. If any of my journal entries cannot help you in this travel diary, then be free to explore this book."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "7295B2DEC479349F"
@@ -349,7 +365,11 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
-			description: [""]
+			description: [
+				"The shield is a key defensive piece of equipment ideal to block ranged attacks and blocks hits. Although the base one might be enough for many, it's still possible to upgrade it."
+				""
+				"The giant swords have a similar ability, being large enough to block hits, but to a much lesser degree."
+			]
 			hide_dependent_lines: true
 			id: "36F8661C6E0C53D8"
 			rewards: [{
@@ -472,12 +492,18 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Shield"
+			title: "Giant Swords and Shields"
 			x: 0.5d
 			y: -5.3d
 		}
 		{
 			dependencies: ["73F4AAF2267BB33B"]
+			description: [
+				"The crushing hammer is the first tool holders of the Hierophant card will find to smash ingots into powder."
+				""
+				"{@pagebreak}"
+				"I've heard that a similar model has been in use for years, however it's made to flatten ingots into plates instead. This model fell into disuse with the industrial revolution. Why take a minute to flatten plates manually when you can spend hours to automate it?"
+			]
 			hide_dependency_lines: true
 			id: "6F736EF54A792577"
 			rewards: [{
@@ -517,6 +543,11 @@
 		}
 		{
 			dependencies: ["6F736EF54A792577"]
+			description: [
+				"Galvanized Iron is a useful materials to build machinery out of, as it immune to rusting as long as the zinc coating is still applied, unlike plain iron you might notice rusting in many locations around the world."
+				"{@pagebreak}"
+				"I've witnessed a castle that was built with iron railings, completely rusted within a year. Fortunately, while it was still inhabited, the resident Magician could clear the rust free of charge with golden tools."
+			]
 			id: "3F53C388105917F6"
 			rewards: [
 				{
@@ -569,6 +600,13 @@
 		}
 		{
 			dependencies: ["5746BB5C34ED74C7"]
+			description: [
+				"The Solid Fuel Quarry is a marvel of engineering, but is an extremely outdated design. It is powered by simple fossil fuels and sports impressive range - all the way to bedrock, but unlucky quarrying can result in a lack of self-sustainability in coal. "
+				"{@pagebreak}"
+				"It is possible to mitigate power issues by digging not at the surface of the world and making a hole through several layers of just stone and dirt, but to quarry underground, closer to the more resourceful layers of the earth."
+				"{@pagebreak}"
+				"The quarry is extremely fragile and is prone to malfunction. If you believe the machine is no longer working, most often than not, you should break and replace it. However, sometimes it's simply finished digging to the bottom of the world. &aDo not chunkload the quarry as it's already chunkloading by itself.&r"
+			]
 			id: "1A0E2D5ACAF189AC"
 			rewards: [{
 				count: 5
@@ -701,6 +739,12 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: [
+				"If you happen to find many tarot cards like I do, you can store them in the Tarot Deck and still retain every effect with them inside."
+				""
+				"{@pagebreak}"
+				"However, the minor arcana hands do not grant you extra hearts while they're inside of the Tarot Deck, despite being able to fit them inside. What a shame."
+			]
 			id: "258486DCF3CBD479"
 			tasks: [{
 				id: "1ED754487E1000F1"
@@ -724,6 +768,11 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: [
+				"The undead have this particularity of being a lot harder to kill, being, you know, already dead. However, they will take a lot more damage when faced with holy weapons - those made of silver or gold. Holders of the Magician card are especially effective against them."
+				""
+				"A more common trick is to light your weapon on fire &a(by equipping a torch in your offhand)&r and to set undead mobs on fire that way. Fire is super effective on the undead. Alternatively, fire aspect is as effective."
+			]
 			icon: "born_in_chaos_v1:shattered_skull"
 			id: "22157DFEF1887E78"
 			rewards: [{
@@ -741,12 +790,22 @@
 				team_reward: false
 				type: "item"
 			}]
-			tasks: [{
-				id: "76ADA30E5D70D5B1"
-				stat: "minecraft:mob_kills"
-				type: "stat"
-				value: 25
-			}]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "0B1A2E352F640724"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "irons_spellbooks:dead_king_corpse"
+					icon: "minecraft:skeleton_skull"
+					id: "3097F26EE10593BA"
+					type: "kill"
+					value: 10L
+				}
+			]
 			title: "Consecration"
 			x: 2.0d
 			y: -4.3d
@@ -757,9 +816,22 @@
 				"06A4BEEE42830A85"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"With a quarry or smeltery setup, or any kind of machinery, there is a need for logistics. Moving things from point A to point B automatically gets tiring if you do it manually."
+				""
+				"Fortunately, early transportation is cheap through water, or more efficient through rail."
+				"{@pagebreak}"
+				"Either the small hull or the train car is the start to a logistics system common to both holders of the Hierophant card and Hermit card."
+			]
 			hide_dependency_lines: true
 			id: "1D9002F6E0272ABC"
 			min_required_dependencies: 1
+			rewards: [{
+				count: 64
+				id: "26E6109829F23A6D"
+				item: "minecraft:rail"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E3EC6DBD95BB9F8"
 				item: {
@@ -797,13 +869,29 @@
 				type: "item"
 			}]
 			title: "Dawn of Logistics"
-			x: -3.5d
-			y: 2.5d
+			x: -5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1D9002F6E0272ABC"]
-			description: [""]
+			description: [
+				"Through locomotion by the force of a steam engine can other barges or train cars be moved. I would recommend reading on this kind of logistics setup in this separate book: On Little Logistics. "
+				"{@pagebreak}"
+				"Alternatively, you can also ponder to determine what a setup should look like. "
+				"&a(Look up the Docking Rails or Barge Dock in EMI (inventory) and hold W to ponder)&r"
+			]
 			id: "0A2A4FED9A1AD865"
+			rewards: [{
+				id: "732774DEBA1832E7"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "littlelogistics:guide"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "69803736698383CC"
 				item: {
@@ -841,12 +929,18 @@
 				type: "item"
 			}]
 			title: "Steam Transportation"
-			x: -5.0d
-			y: 3.5d
+			x: -6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
+			description: ["The router helps direct the course of a locomotive or tugboat "]
 			id: "02FB0A2EF01C7284"
+			rewards: [{
+				id: "48B25CEFE5F88ACE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1DB7BAC29926C96B"
 				item: {
@@ -884,12 +978,22 @@
 				type: "item"
 			}]
 			title: "Router"
-			x: -5.0d
-			y: 4.5d
+			x: -6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
+			description: [
+				"The automatic fishing barge is a great source of food as while it travels, it automatically gathers fish. You can add this to almost any water transport, or make a dedicated system."
+				"{@pagebreak}"
+				"It requires a chest barge behind it to collect fish. You can then deposit the fish when the barge chain docks."
+			]
 			id: "4621354C911AB005"
+			rewards: [{
+				id: "272715C253C3C120"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6922E85623E44CF7"
 				item: {
@@ -903,13 +1007,18 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 3.0d
+			x: -7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
-			description: [""]
+			description: ["The two main things you will want to transport over a distance is either items or liquids. A chest or barrel barge or train car attached to a steam tug or locomotive will transport items and deposit items using docks."]
 			id: "2B597187BD3904C8"
+			rewards: [{
+				id: "394C0EF3C8A02936"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5487AACD809E0AD4"
 				item: {
@@ -991,14 +1100,24 @@
 				title: "Any train car or barge"
 				type: "item"
 			}]
-			title: "The Chariot"
-			x: -6.0d
-			y: 4.0d
+			title: "Chariots"
+			x: -7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
+			description: [
+				"The Chariot Pathway's full potential can't be attained by those of adjacent pathways. However, all Hierophant and Hermit card holders require is the logistics aspect of that pathway. "
+				""
+				"Later on, more advanced logistics requires the Chariot card."
+			]
 			hide_dependent_lines: true
 			id: "35C32229A51A1B7D"
+			rewards: [{
+				id: "16D39A0CA610EC2B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "38DADCDFC7E05C2F"
@@ -1015,13 +1134,18 @@
 				type: "item"
 			}]
 			title: "The Chariot"
-			x: -7.5d
-			y: 5.0d
+			x: -8.75d
+			y: 5.625d
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
-			description: ["&oAny electric locomotive or tug will complete this quest.&r"]
+			description: ["Instead of powering your tugs and locomotives with boring coal, you can now use power instead! This will require a charging station alongside the docking station."]
 			id: "23ECA60515FA9F7B"
+			rewards: [{
+				id: "3DF8B1F5AEC6E9EB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "438701DEEFA176D2"
@@ -1059,14 +1183,29 @@
 				title: "Electric locomotive or electric tug"
 				type: "item"
 			}]
-			title: "Electric"
-			x: -9.0d
+			title: "Electrification"
+			x: -9.9d
 			y: 6.3d
 		}
 		{
 			dependencies: ["73F4AAF2267BB33B"]
 			hide_dependency_lines: true
 			id: "2D48F3383A2E965F"
+			rewards: [{
+				id: "382333FC267B3390"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "3CDFBF4103C29056"
@@ -1088,6 +1227,21 @@
 			dependencies: ["73F4AAF2267BB33B"]
 			hide_dependency_lines: true
 			id: "589E2464D577E345"
+			rewards: [{
+				id: "23F7015E27BB8794"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "459A2200AE8B5A72"
@@ -1111,6 +1265,11 @@
 				"589E2464D577E345"
 			]
 			id: "73C5D7FC9AB3E5F8"
+			rewards: [{
+				id: "3C9899637453F22A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "72F1AFE71B0DEE5A"
@@ -1130,6 +1289,12 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: [
+				"The raft is faster than the regular small boats, but it can still be upgraded. Although faster on open water, while regular small boats can be broken up and carried through land, this raft might be a bit too large to do so easily."
+				""
+				"{@pagebreak}"
+				"The raft has plenty of cargo space &a(shift right click to access the inventory)&r for travel. I only found this out on the return trip after a succesful &mlooting&r trading trip from a large city, with several backpacks already filled. "
+			]
 			hide_dependency_lines: true
 			id: "1A9FA3C3DD29BFDB"
 			rewards: [{
@@ -1157,6 +1322,11 @@
 		{
 			dependencies: ["73C5D7FC9AB3E5F8"]
 			id: "4493DC75D8CE4857"
+			rewards: [{
+				id: "5714E29DD2151B79"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "17FA3216FA92E1DE"
@@ -1177,6 +1347,21 @@
 		{
 			dependencies: ["4493DC75D8CE4857"]
 			id: "0AE56603B8AE581E"
+			rewards: [{
+				id: "2BE78EFA804D1682"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "19BC493ECC9288E5"
@@ -1197,6 +1382,21 @@
 		{
 			dependencies: ["4493DC75D8CE4857"]
 			id: "31D6AD3F17AFD9E5"
+			rewards: [{
+				id: "45D297E6885C9D18"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "380B61D11C2620CE"
@@ -1220,6 +1420,11 @@
 				"31D6AD3F17AFD9E5"
 			]
 			id: "396320452B50120B"
+			rewards: [{
+				id: "762BC65E3B108ADC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "10170EEA4DED25C4"
@@ -1240,6 +1445,11 @@
 		{
 			dependencies: ["396320452B50120B"]
 			id: "58FF082917ADFA66"
+			rewards: [{
+				id: "0CC9E7AE9F50A591"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "542DF1C1F03FC523"
@@ -1263,6 +1473,11 @@
 				"463EFF7D25CB7127"
 			]
 			id: "3A01D45D51A293BD"
+			rewards: [{
+				id: "471591051EFCBDC7"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "7C1837301ED0CADD"
@@ -1283,6 +1498,11 @@
 		{
 			dependencies: ["73C5D7FC9AB3E5F8"]
 			id: "346288110C3DBEF5"
+			rewards: [{
+				id: "61C39BD08E8E613C"
+				type: "xp"
+				xp: 100
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "76CD0139D6666784"
@@ -1306,6 +1526,11 @@
 		{
 			dependencies: ["58FF082917ADFA66"]
 			id: "463EFF7D25CB7127"
+			rewards: [{
+				id: "4D528EE2E6C1C923"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "7A6EF0930E1BF5AF"
@@ -1326,6 +1551,11 @@
 		{
 			dependencies: ["58FF082917ADFA66"]
 			id: "7254694EBCAAEF0D"
+			rewards: [{
+				id: "616796DE8B41664C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.9d
 			tasks: [
 				{
@@ -1360,7 +1590,13 @@
 		}
 		{
 			dependencies: ["31750A18D07A8904"]
+			description: ["Seared Bricks, resistant to heat and molten liquids, forms the basis of the smeltery used for casting, alloying and processing ores."]
 			id: "5F7CEE33D11A352F"
+			rewards: [{
+				id: "0CA9481A30DF8016"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "75254FC88ACB2D0C"
 				item: {
@@ -1379,7 +1615,17 @@
 		}
 		{
 			dependencies: ["5F7CEE33D11A352F"]
+			description: [
+				"The Seared Melter is the smaller version of the smeltery. It has lower capacity and cannot alloy metals properly, however it works to melt and cast basic materials."
+				"{@pagebreak}"
+				"This is particularly useful to cast copper onto seared bricks to manufacture the Seared Controller, the brain of the smeltery."
+			]
 			id: "5B6717870A814E8C"
+			rewards: [{
+				id: "6B46BD54E7F5ECDE"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A2A9316E8FD6195"
 				item: {
@@ -1398,6 +1644,15 @@
 		}
 		{
 			dependencies: ["5B6717870A814E8C"]
+			description: [
+				"The Smeltery is used for ore processing, alloying and further advancement in tinkering. It's a multiblock apparatus requiring a square or rectangular seared bricks structure, also using seared tanks to hold lava required for melting ores."
+				"{@pagebreak}"
+				"Any ore processed through the smeltery instead of simply smelted in a furnace will produce greater yield. Therefore, it's an hallmark of any Hermit card holder to automate this process. Faucets will automatically cast with a redstone signal, and hoppers under a casting table or basin will extract the casted material or tool part."
+				"{@pagebreak}"
+				"More advanced alloys can be produced through the smeltery, such as brass or andesite alloy commonly used by the holders of the Tower card. Beware of smelting many different kinds of ores at once, as you may end up with unwanted alloys."
+				"{@pagebreak}"
+				"Finally, the Smeltery can be used to cast powerful tool parts for specialized tools."
+			]
 			id: "0964BD6C4413A9C9"
 			rewards: [{
 				id: "2F69D11469D5A573"
@@ -1416,18 +1671,19 @@
 			}]
 			size: 1.0d
 			tasks: [{
-				id: "30A3A4581FCAC5CE"
+				id: "1CE945FCC1B4A9B7"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "tconstruct:smeltery_controller"
+						}]
 					}
-					id: "tconstruct:smeltery_controller"
 				}
+				title: "Smeltery Controller"
 				type: "item"
-				weak_nbt_match: true
 			}]
 			title: "The Mighty Smeltery"
 			x: -4.0d
@@ -1436,6 +1692,11 @@
 		{
 			dependencies: ["0964BD6C4413A9C9"]
 			id: "48182227AA27C096"
+			rewards: [{
+				id: "4E2FF38FF01B4820"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0FC4795A3A2B4869"
 				item: {
@@ -1455,6 +1716,11 @@
 		{
 			dependencies: ["0964BD6C4413A9C9"]
 			id: "65C1B6B2B147028E"
+			rewards: [{
+				id: "05DF8E8C5DB45447"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "66AFA9CB41F49185"
 				item: {
@@ -1499,6 +1765,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.25d
 			tasks: [{
 				id: "7D2835F556B395A1"
 				item: {
@@ -1521,22 +1788,34 @@
 				"5BAA69CBD6B64BEA"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"The Electric Quarry is an upgrade in every aspect. It can now contain compact modules instead of requiring large extensions next to itself."
+				""
+				"It does require substantial power usage. Solar panels have a great synergy."
+			]
 			id: "5F92E8FC88D86566"
-			rewards: [{
-				id: "0E45ABEFE5CD2F56"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+			rewards: [
+				{
+					id: "0E45ABEFE5CD2F56"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
 						}
-						type: "building_kit"
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "79C1085CEB924457"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			size: 1.0d
 			tasks: [{
 				id: "0CB30AE718F7C1E9"
@@ -1560,8 +1839,23 @@
 				"58CFB61E7D4DE729"
 			]
 			dependency_requirement: "one_completed"
+			description: ["Panvita can be grafted to essence bushes to clone them. However, their insistance to refuse to reproduce makes it so you must use a large amount of panvita. That is unless you add solified experience orbs during the grafting process."]
 			id: "13ADC7311C00FF45"
 			min_required_dependencies: 1
+			rewards: [
+				{
+					count: 4
+					id: "44C96D358E3B0BD5"
+					item: "concatenationcore:transplant"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "658D77A2F72CE558"
+					table_id: 8080534186586768878L
+					type: "loot"
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				id: "39EAD45DCBFDFEA5"
@@ -1576,12 +1870,19 @@
 				}
 				type: "item"
 			}]
+			title: "Essence Berry Bushes"
 			x: -6.324999999999999d
 			y: -5.175d
 		}
 		{
 			dependencies: ["7BB90DEFC570E065"]
+			description: ["A small charger that can be used to infuse materials with energy. The hand crank is the most frequently used way to powering it manually, but any RF producing device can also be connected to it, such as an adjacent solar panel."]
 			id: "2104737FF0D2E4E7"
+			rewards: [{
+				id: "401E363DCA11E5AB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "53F61C8D83637405"
@@ -1667,15 +1968,12 @@
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "minecraft:echo_shard"
-			}
+			description: [
+				"The underground ancient city is such a frightening place, isn't it? It's all dark, and houses the Warden. What's leftover in their coffers isn't even that good. "
+				"{@pagebreak}"
+				"However, the echo shard is a key component to craft the sword Shrike, required of the Hierophant and Temperance paths. How odd that a technological automation path and an occult path share a common sword between the two? Perhaps there's a greater link than we can see here."
+			]
+			icon: "minecraft:echo_shard"
 			id: "73CD8163D268BA95"
 			rewards: [{
 				count: 9
@@ -1711,7 +2009,22 @@
 		}
 		{
 			dependencies: ["58CFB61E7D4DE729"]
+			description: ["Similarly to essence berry bushes, oreberry bushes can be cloned via grafting panvita. However, essence berry bushes are needed as a base on top of the corresponding ore instead of experience orbs to maximize the yield."]
 			id: "45EBD68510E9742C"
+			rewards: [
+				{
+					count: 4
+					id: "26C85F2604AD5922"
+					item: "concatenationcore:transplant"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31B5B26186DD95C1"
+					table_id: 8080534186586768878L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "624491EFE8654D0F"
 				item: {
@@ -1829,11 +2142,13 @@
 				title: "Any Oreberry Bush"
 				type: "item"
 			}]
+			title: "Oreberry Bushes"
 			x: -8.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["7DD14D1827FF575E"]
+			description: ["It's possible to compact skystone harvested from meteors and smelt it to produce meteorite metal."]
 			id: "7CD059E89A322EA1"
 			rewards: [{
 				id: "32F962D36C538ECA"
@@ -1850,6 +2165,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "Have I seen this somewhere?"
 			tasks: [{
 				id: "21A950DAE54FEF5D"
 				item: {
@@ -1868,7 +2184,20 @@
 		}
 		{
 			dependencies: ["7CD059E89A322EA1"]
+			description: [
+				"Alclad meteorite is a more refined version of smelted meteorite metal. It's used in refined machines that apply energistics and also in an incubator design to grow oreberries."
+				"{@pagebreak}"
+				"Without machinery, manually forging an alclad meteorite ingot requires a crushing hammer and a fire charge. Alternatively, if you have a mage friend, you can ask for some fire-related ingredients."
+				"{@pagebreak}"
+				"Interestingly, the name would suggest this ingot is made from aluminium, but it's not. The mixed meteorite metal may contain some, but it's certainly not 100% aluminium, nor is it clad in it. In fact, its surface is black-purple."
+			]
 			id: "7BB90DEFC570E065"
+			rewards: [{
+				id: "6A91C0B73EB86A76"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			subtitle: "Not actually clad in aluminium"
 			tasks: [{
 				id: "5B0457C527FFC775"
 				item: {
@@ -1887,15 +2216,12 @@
 		}
 		{
 			dependencies: ["7CD059E89A322EA1"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "concatenationcore:berry_incubator"
-			}
+			description: [
+				"Panvita is a universal plant able to be grafted to any other plant and adapt to its host. This is most often used by holders of the Hierophant card to grow more oreberry bushes, which does not grow more of itself naturally."
+				"{@pagebreak}"
+				"The Incubator needs to be filled with water to start the growing process. You can use a water bucket for this purpose."
+			]
+			icon: "concatenationcore:berry_incubator"
 			id: "58CFB61E7D4DE729"
 			rewards: [{
 				id: "626E69ECE07ABDFF"
@@ -1946,7 +2272,18 @@
 		}
 		{
 			dependencies: ["45EBD68510E9742C"]
+			description: [
+				"One of the ways to process oreberries besides smelting them is crushing them in a vat. Place some oreberries in a vat then jump on them to squish them to liquid. Eventually, the liquid will miraculously turn to nuggets. This is a better ratio than smelting or crafting with oreberries."
+				"{@pagebreak}"
+				"Personally, I hate this process. I don't have the time to jump all day on berries, but I can see why this is a long standing traditional process. What are we making here, metal wine?"
+			]
 			id: "69E9C5DEC5F5C313"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C60CDBB8D2B7D0F"
+				table_id: 8080534186586768878L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0983CA0622769E55"
 				item: {
@@ -2055,12 +2392,25 @@
 				title: "Any Vat"
 				type: "item"
 			}]
+			title: "Crushing Berries"
 			x: -9.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["6F736EF54A792577"]
+			description: [
+				"Meteors can be found throughout the world and even underground. The true prize is the special certus quartz growing inside and the alien technology it houses."
+				"{@pagebreak}"
+				"A compass can be made to point to the nearest meteor if you're unsure where to find one. It's pretty obvious when you've found one, as there will be a massive crater. Either that, or it's underground."
+				"{@pagebreak}"
+				"The meteor stone itself is often overlooked, but it's still a robust atmosphere-defying material that is worth collecting for future endeavours."
+			]
 			id: "7DD14D1827FF575E"
+			rewards: [{
+				id: "7698FDC6CF823F85"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3D8A93A0719526F7"
 				item: {
@@ -2083,7 +2433,13 @@
 				"1A0E2D5ACAF189AC"
 				"7BB90DEFC570E065"
 			]
+			description: ["This circuit model is often nicknamed as deficient by most engineers of our age. Everything needs to start somewhere, and this highly inefficient circuit does its job, although the manufacturing process is annoying."]
 			id: "2E2A38A96D401883"
+			rewards: [{
+				id: "3B81EF8DDD0D7702"
+				item: "concatenationcore:altcircuit"
+				type: "item"
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "0E4401227E34B7FE"
@@ -2103,7 +2459,18 @@
 		}
 		{
 			dependencies: ["2E2A38A96D401883"]
+			description: [
+				"Solar panels generate RF during the day and close to nothing during the night."
+				""
+				"They are very simple and can be placed directly adjacent to most machines to power them. They support various upgrades, the most useful being increasing power generation or powering a furnace with its byproduct heat."
+			]
 			id: "545CB21B2B59BA32"
+			rewards: [{
+				count: 2
+				id: "3D748EC05C331E1D"
+				item: "solarflux:sp_1"
+				type: "item"
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "6BD61F991F55AE0D"
@@ -2123,6 +2490,7 @@
 		}
 		{
 			dependencies: ["545CB21B2B59BA32"]
+			description: ["An upgrade of the solar panel, compacting many smaller solar panels into one area. This is more efficient, but marginally better."]
 			id: "0FFAF6B077B281C3"
 			rewards: [{
 				id: "7D7EC7CF345F51DD"
@@ -2157,6 +2525,11 @@
 		}
 		{
 			dependencies: ["1A0E2D5ACAF189AC"]
+			description: [
+				"The Quarry Pump and Quarry Experience Pump are extensions to the quarry. The former can pump liquid through the drill while the latter pumps the experience of any broken ore. To collect the liquid, a tank is required adjacent to the carry, while collecting experience is as simple as tapping on the pump."
+				"{@pagebreak}"
+				"The Quarry Pump can significantly increase power usage in large areas that must be drained of liquid. The quarry will work faster without liquid, though."
+			]
 			id: "7D6F5D64D565F0AB"
 			rewards: [{
 				id: "4F21A585AE316927"
@@ -2204,7 +2577,13 @@
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
+			description: ["The pump is a standalone version of the quarry pump, to pump liquid."]
 			id: "6ABEAF3BEADE0BF2"
+			rewards: [{
+				id: "5942CF79CD8817F1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2D62DCE07EAED017"
 				item: {
@@ -2223,8 +2602,14 @@
 		}
 		{
 			dependencies: ["1A0E2D5ACAF189AC"]
+			description: ["Useful tool for checking precise data of the quarry."]
 			id: "33732E6E6F1DB3C0"
 			optional: true
+			rewards: [{
+				id: "4E44EAA1EDB6331D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "79B758CE475A8FDB"
 				item: {
@@ -2243,7 +2628,17 @@
 		}
 		{
 			dependencies: ["2104737FF0D2E4E7"]
+			description: [
+				"A blue, charged crystal. Its body glimmers faintly with blue light, pulsing as with a very visible current."
+				""
+				"The first time I held one, it crackled against my palm like winter lightning. I was reminded of storms and waves I once watched from the safety of the high ridges."
+			]
 			id: "050A151DEB4BAF79"
+			rewards: [{
+				id: "5316E937BFACFE9A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "279C1883E3442340"
 				item: {
@@ -2262,67 +2657,67 @@
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "ae2:controller"
-			}
+			description: [
+				"The digital storage system requires power to function properly. You can use an ME controller, which accepts power and provides up to 32 channels per side, frequently being the core of many systems."
+				"{@pagebreak}"
+				"Alternatively, you could only use an energy acceptor for the same purpose of solely powering the system."
+				"{@pagebreak}"
+				"I've found many people confused about the use of channels in this kind of system, although it;s very simple. To really simplify it, each channel is one machine you can attach to the ME system. Better cables support more channels."
+			]
+			icon: "ae2:controller"
 			id: "0F2FB52232FC40C5"
+			rewards: [{
+				id: "04B87B8CD7C5A8FA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
-				id: "5965CB70DA926780"
+				id: "54F62141C4CD3951"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
 							{
 								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
 								id: "ae2:controller"
 							}
 							{
 								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
+								id: "ae2:energy_cell"
+								tag: { }
+							}
+							{
+								Count: 1b
 								id: "ae2:energy_acceptor"
 							}
 							{
 								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
 								id: "ae2:cable_energy_acceptor"
 							}
 						]
 					}
 				}
+				title: "Any Energy Input"
 				type: "item"
 			}]
 			title: "Core of the System"
-			x: -11.0d
+			x: -11.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
+			description: [
+				"Digital storage systems are tremendously useful, storing and cataloguing vast quantity of items. Later, they can also be used for autocrafting on demand."
+				""
+				"The start of many systems will be with ME cables and a terminal to acess it."
+			]
 			id: "05C3E83BCCEF20A2"
+			rewards: [{
+				id: "42C76942955AFB0F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "1DB3CAC2144C3C7E"
@@ -2351,12 +2746,19 @@
 					type: "item"
 				}
 			]
-			x: -11.0d
-			y: -6.0d
+			title: "ME Storage System"
+			x: -10.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["05C3E83BCCEF20A2"]
+			description: ["The ME storage bus can access any regular storage medium such as chests and integrate it into the ME system."]
 			id: "25FDD401F054CBAA"
+			rewards: [{
+				id: "3591ED4EA75253B2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0C33D939AF8D0479"
 				item: {
@@ -2374,8 +2776,14 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["0F2FB52232FC40C5"]
+			dependencies: ["05C3E83BCCEF20A2"]
+			description: ["Digital storage is achieved through ME drives. Each byte stores an item, provided it's a standard stackable item. This is the easiest way to sort a lot of items and will prove more and more useful as time goes on, especially when later versions of the system will later unlock autocrafting and remote tablets. "]
 			id: "55380CDFDB4EB17C"
+			rewards: [{
+				id: "47848D1E2DC7E15D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "2128617603304BED"
@@ -2406,7 +2814,7 @@
 				}
 			]
 			x: -12.5d
-			y: -8.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["58500620F2876A16"]
@@ -2537,6 +2945,7 @@
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
+			description: ["A regular ingot with a watery texture, exhibiting the element of water, an essential material. They are manufactured through infusing regular iron ingots with water."]
 			id: "57264B7E24823F02"
 			tasks: [{
 				id: "77D3F138DE82CE24"
@@ -2874,7 +3283,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: 9.0d
 		}
 		{
@@ -2893,7 +3302,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 10.0d
 		}
 		{
@@ -3013,7 +3422,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 10.5d
 		}
 		{
@@ -3032,7 +3441,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 13.5d
 		}
 		{
@@ -3111,7 +3520,7 @@
 				title: "Any Displacement Plate"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 11.0d
 		}
 		{
@@ -3413,7 +3822,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 13.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -3987,7 +4396,7 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 9.5d
 			y: 22.0d
 		}
 		{
@@ -5474,6 +5883,7 @@
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
+			description: ["The warpstone is an utility item, letting you travel to any waystone regardless of where you are situated. This however comes at a price: experience levels, increasing with the distance. In case of emergencies, you may return to a safe space quickly. This is not an absolute escape plan though. I recall a time while fighting a sea monster, I was unable to trigger the waystone while drowning."]
 			id: "02CAE7DE326720EA"
 			tasks: [{
 				id: "266D60B5FCA4B2D7"
@@ -5496,6 +5906,7 @@
 		}
 		{
 			dependencies: ["02CAE7DE326720EA"]
+			description: ["The waystone makes uses of a warpstone to create a relay point in a stabilized location. This mean long-distance travel no longer requires experience. Once upon a time, they were common in every village, even being found randomly in the middle of forests or deserts, probably leftover structures."]
 			id: "7E1C64AA0AA235C2"
 			rewards: [{
 				id: "4E83193BB6983CCC"
@@ -5531,16 +5942,9 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: [""]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "minecraft:oak_hanging_sign"
-			}
+			icon: "minecraft:oak_hanging_sign"
 			id: "5B1114E8AD48A9D4"
 			rewards: [{
 				id: "5EE1045CF5A195EC"
@@ -6124,6 +6528,7 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: ["The builder's best friend or archenemy. Some architects may say this is cheating, but filling out walls, ceilings or floor quickly is useful in any building situation."]
 			id: "4134F85EED507D7B"
 			rewards: [
 				{
@@ -6216,6 +6621,7 @@
 				title: "Any Construction Wand"
 				type: "item"
 			}]
+			title: "Construction Wand"
 			x: -2.0d
 			y: -5.3d
 		}
@@ -7373,6 +7779,7 @@
 		{
 			dependencies: ["15B4E0B3C70D372F"]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "3CC948E467CCC4C6"
 			tasks: [{
 				id: "7E773BF5E1360240"
@@ -7387,7 +7794,7 @@
 				type: "item"
 			}]
 			title: "Aluminium"
-			x: -7.5d
+			x: -7.0d
 			y: 20.5d
 		}
 		{
@@ -7641,6 +8048,11 @@
 		{
 			dependencies: ["65C1B6B2B147028E"]
 			id: "79433FA8ACAACA4E"
+			rewards: [{
+				id: "691DB03A6AE0CB96"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0429758C3E5069CC"
 				item: {
@@ -7802,6 +8214,11 @@
 		{
 			dependencies: ["087234557EE4E2A3"]
 			id: "1FCBF10EB0F49502"
+			rewards: [{
+				id: "611568DBD130C45C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "09340419D96937B4"
@@ -7886,6 +8303,11 @@
 		{
 			dependencies: ["13FC54673932E4F0"]
 			id: "79706E9B3409F8C8"
+			rewards: [{
+				id: "023BFFD4828C559F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1EAA9BF7E64466D3"
 				item: {
@@ -7904,20 +8326,16 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: [
+				"The Hot Air Balloon is a rudimentary form of aerial transportation requiring coal as fuel, but is able to travel large heights. "
+				""
+				"It is actually surprisingly fast."
+			]
 			id: "14EB6CAB3F3E9418"
 			rewards: [{
-				count: 3
-				id: "2C8FD57CE46484B7"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "minecraft:coal_block"
-				}
-				team_reward: false
+				count: 64
+				id: "1ADEF2AD162DAE0A"
+				item: "minecraft:coal"
 				type: "item"
 			}]
 			size: 0.8d
@@ -8083,6 +8501,7 @@
 				title: "Any Hot Air Balloon"
 				type: "item"
 			}]
+			title: "Hot Air Balloon"
 			x: 2.0d
 			y: -5.3d
 		}
@@ -8284,24 +8703,32 @@
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
+			description: ["Grout is the main material needed for the construction of the smeltery. Made from a lot of clay, it can later be cooked into seared bricks."]
 			hide_dependency_lines: true
 			id: "31750A18D07A8904"
-			rewards: [{
-				count: 3
-				id: "42B660800DADB1A6"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+			rewards: [
+				{
+					count: 3
+					id: "42B660800DADB1A6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
 						}
-						type: "building_kit"
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0DAEB4A0FAB3F59B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "71F4072568DA10C0"
 				item: {
@@ -8548,6 +8975,11 @@
 		{
 			dependencies: ["0964BD6C4413A9C9"]
 			id: "59D783372A16F858"
+			rewards: [{
+				id: "42A8A89BE9535657"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4BCA7B068017F327"
 				item: {
@@ -8611,6 +9043,11 @@
 			dependencies: ["61F2F0F9E0158106"]
 			hide_dependency_lines: true
 			id: "548F91724FEC0349"
+			rewards: [{
+				id: "4BA0B48BFA89DF34"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "1862D6ED61079C8F"
@@ -8631,6 +9068,11 @@
 		{
 			dependencies: ["5B8A16E0E3A1794D"]
 			id: "3A4E23D1BDE1E5ED"
+			rewards: [{
+				id: "7563BCA3641B8148"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "72DC6BF159E9C10C"
@@ -8651,6 +9093,11 @@
 		{
 			dependencies: ["5B8A16E0E3A1794D"]
 			id: "6665219B13B97312"
+			rewards: [{
+				id: "0333D82BB4056C8C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "6040AC7803C9CD33"
@@ -8672,6 +9119,11 @@
 			dependencies: ["61F2F0F9E0158106"]
 			hide_dependency_lines: true
 			id: "129D0C37D4A27A2B"
+			rewards: [{
+				id: "65279355BE1D0734"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "1C62EBEFD35691BC"
@@ -8692,6 +9144,11 @@
 		{
 			dependencies: ["129D0C37D4A27A2B"]
 			id: "5B8A16E0E3A1794D"
+			rewards: [{
+				id: "0E2610E8962F4809"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "1B25DCEBE38A80A5"
@@ -9088,6 +9545,12 @@
 		{
 			dependencies: ["545CB21B2B59BA32"]
 			id: "5BAA69CBD6B64BEA"
+			rewards: [{
+				count: 2
+				id: "5F6FF9DAD24F5121"
+				item: "thermal:lead_ingot"
+				type: "item"
+			}]
 			size: 0.75d
 			tasks: [{
 				id: "78E1825BD7F9E8FA"
@@ -9128,8 +9591,8 @@
 				type: "item"
 			}]
 			title: "Strength"
-			x: 0.3d
-			y: 17.5d
+			x: 0.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["05C581711196984B"]
@@ -9147,12 +9610,18 @@
 				}
 				type: "item"
 			}]
-			x: 0.3d
-			y: 20.0d
+			x: 0.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
+			description: ["A generator making use of a fluix block to power itself off the resonant vibrations, passively generating power."]
 			id: "6C023DFE1C136EB3"
+			rewards: [{
+				id: "151000A994AE94A9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "329119223E13592A"
@@ -9477,8 +9946,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 20.0d
+			x: 2.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["07C4F5356EFBBE09"]
@@ -9550,7 +10019,7 @@
 				}
 			]
 			x: -1.0d
-			y: 20.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["3CC948E467CCC4C6"]
@@ -9572,7 +10041,7 @@
 			}]
 			title: "Judgement"
 			x: -6.0d
-			y: 21.5d
+			y: 23.0d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
@@ -9590,12 +10059,18 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 12.0d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
+			description: ["One of the upgrades supported by the electric quarry. Increases the speed of the quarry but also the power usage."]
 			id: "7F3E1C9584311948"
+			rewards: [{
+				id: "65FBCBDE87DEFEFC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "404B80851AE30A45"
 				item: {
@@ -9614,7 +10089,13 @@
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
+			description: ["One of the upgrades supported by the electric quarry. Think of it as an internal continual generator for the quarry."]
 			id: "29622D81B3588FEE"
+			rewards: [{
+				id: "74E2842DC59B5E1F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2482BC9A1934F67B"
 				item: {
@@ -9633,7 +10114,13 @@
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
+			description: ["The marker and its way more useful upgrade - the flexible marker, can be used to increase the mining range of the quarry. Beware that selecting very large areas can be detrimental."]
 			id: "4AB01062358D98BD"
+			rewards: [{
+				id: "16677D503E0AB232"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "72F15971CDB05576"
 				item: {
@@ -9667,7 +10154,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 21.5d
+			y: 23.0d
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
@@ -9689,7 +10176,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 22.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
@@ -9711,7 +10198,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 20.5d
+			y: 22.0d
 		}
 		{
 			dependencies: [
@@ -9769,7 +10256,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 19.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["188786E302DE3681"]
@@ -9787,8 +10274,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 19.0d
+			x: 2.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["3060CAEE078FE9A0"]
@@ -9807,7 +10294,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 18.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["3060CAEE078FE9A0"]
@@ -9825,8 +10312,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 18.0d
+			x: 2.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["3060CAEE078FE9A0"]
@@ -9844,8 +10331,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.3d
-			y: 19.0d
+			x: 0.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -9974,6 +10461,11 @@
 		{
 			dependencies: ["0964BD6C4413A9C9"]
 			id: "33BA0ACE3EA7C44B"
+			rewards: [{
+				id: "21CBEAB74BA7951C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2F25BD20E3A91A9C"
 				item: {
@@ -10597,8 +11089,8 @@
 					type: "item"
 				}
 			]
-			x: -14.5d
-			y: 7.5d
+			x: -15.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -10699,8 +11191,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -4.0d
-			y: 24.0d
+			x: -6.0d
+			y: 26.5d
 		}
 		{
 			dependencies: ["6CC9A41A95921C52"]
@@ -10718,8 +11210,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 24.05d
+			x: -3.5d
+			y: 26.5d
 		}
 		{
 			dependencies: ["073D163854FFBC13"]
@@ -10845,8 +11337,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -1.0d
-			y: 27.05d
+			x: -0.5d
+			y: 29.0d
 		}
 		{
 			dependencies: [
@@ -11050,8 +11542,8 @@
 				}
 			]
 			title: "Reinforced Steel Armor"
-			x: -4.0d
-			y: 25.55d
+			x: -5.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["029A616076E8CEAE"]
@@ -11227,8 +11719,8 @@
 				}
 			]
 			title: "Hadfield Steel Armor"
-			x: -2.5d
-			y: 25.55d
+			x: -3.5d
+			y: 28.5d
 		}
 		{
 			dependencies: ["3D1C47F3A9B804B4"]
@@ -11404,8 +11896,8 @@
 				}
 			]
 			title: "Juggernaut Armor"
-			x: -1.0d
-			y: 25.55d
+			x: -2.0d
+			y: 29.0d
 		}
 		{
 			dependencies: ["029A616076E8CEAE"]
@@ -11423,8 +11915,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 24.05d
+			x: -2.0d
+			y: 27.5d
 		}
 		{
 			dependencies: ["736444B92EEE2C59"]
@@ -11450,7 +11942,7 @@
 				type: "item"
 			}]
 			x: -3.85d
-			y: 21.45d
+			y: 22.95d
 		}
 		{
 			dependencies: ["1AFE9864E4F4DFB0"]
@@ -13350,8 +13842,8 @@
 				}
 				type: "item"
 			}]
-			x: -35.25d
-			y: 17.625d
+			x: -34.75d
+			y: 18.625d
 		}
 		{
 			dependencies: [
@@ -13423,6 +13915,11 @@
 				"385412AAA1631FFF"
 			]
 			id: "2B825471FE41A521"
+			rewards: [{
+				id: "1B3497F691F7F872"
+				item: "rftoolsbase:manual"
+				type: "item"
+			}]
 			size: 1.4d
 			tasks: [{
 				id: "678BDB15F6E434AE"
@@ -13482,8 +13979,8 @@
 				}
 				type: "item"
 			}]
-			x: 23.5d
-			y: 17.0d
+			x: 24.9d
+			y: 19.349999999999998d
 		}
 		{
 			dependencies: [
@@ -13518,8 +14015,8 @@
 				}
 				type: "item"
 			}]
-			x: 26.5d
-			y: 8.5d
+			x: 27.9d
+			y: 10.85d
 		}
 		{
 			dependencies: [
@@ -15229,8 +15726,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.749999999999999d
-			y: 21.849999999999998d
+			x: 8.049999999999999d
+			y: 23.575d
 		}
 		{
 			dependencies: ["679D7B535BE7E8B2"]
@@ -15248,8 +15745,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 23.5d
+			x: 7.5d
+			y: 25.5d
 		}
 		{
 			dependencies: ["490912716C7BB2C6"]
@@ -15346,8 +15843,8 @@
 				}
 				type: "item"
 			}]
-			x: 24.0d
-			y: 12.5d
+			x: 23.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -15393,8 +15890,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.3d
-			y: 16.0d
+			x: 0.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["4D5CBC1FE2A1E72B"]
@@ -15432,8 +15929,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.125d
-			y: 16.75d
+			x: -32.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["5D51BC92697C39DD"]
@@ -15451,8 +15948,8 @@
 				}
 				type: "item"
 			}]
-			x: -31.625d
-			y: 17.75d
+			x: -32.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
@@ -15490,8 +15987,8 @@
 				}
 				type: "item"
 			}]
-			x: -36.375d
-			y: 18.625d
+			x: -35.875d
+			y: 19.625d
 		}
 		{
 			dependencies: ["2B825471FE41A521"]
@@ -15509,8 +16006,8 @@
 				}
 				type: "item"
 			}]
-			x: -33.25d
-			y: 18.625d
+			x: -32.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["1221A32C145FCE8B"]
@@ -15528,8 +16025,8 @@
 				}
 				type: "item"
 			}]
-			x: -33.25d
-			y: 20.125d
+			x: -30.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["2638CC10E4FF66C1"]
@@ -15754,6 +16251,7 @@
 				"45EBD68510E9742C"
 				"01514A831E1895F9"
 			]
+			description: ["One of the ways to process ore berries is by cutting them using a knife and a cutting board. This way, each ore berry is cut to dust and can be smelted to produce one ingot per ore berry. This is a more tedious process, but more rewarding."]
 			id: "1A4F94909BAEF4FE"
 			tasks: [{
 				id: "0AC94A9BA821EDA5"
@@ -15797,8 +16295,10 @@
 						]
 					}
 				}
+				title: "Any Ore Dust"
 				type: "item"
 			}]
+			title: "Cutting Berries"
 			x: -6.5d
 			y: -8.5d
 		}
@@ -16378,7 +16878,13 @@
 		}
 		{
 			dependencies: ["3F53C388105917F6"]
+			description: ["Zinc Casing is a building base making use of galvanized iron to build lasting machinery."]
 			id: "5746BB5C34ED74C7"
+			rewards: [{
+				id: "1AF45666DCF4AC1D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4D21290D456F0EF8"
 				item: "concatenationcore:zinc_casing"
@@ -16403,7 +16909,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 21.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["11AB2172D3EEA227"]
@@ -16421,7 +16927,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 21.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["11AB2172D3EEA227"]
@@ -16440,7 +16946,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 21.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["11AB2172D3EEA227"]
@@ -16459,7 +16965,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 21.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["11AB2172D3EEA227"]
@@ -16477,7 +16983,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 21.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["11AB2172D3EEA227"]
@@ -16498,7 +17004,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 22.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["11AB2172D3EEA227"]
@@ -16516,7 +17022,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 21.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["11AB2172D3EEA227"]
@@ -16536,11 +17042,16 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 22.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["3A4E23D1BDE1E5ED"]
 			id: "0F048A0A3773C3EF"
+			rewards: [{
+				id: "0BC301CE2E270B1D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "1E850D9226C1B57E"
 				item: "immersive_aircraft:cargo_airship"
@@ -16552,17 +17063,27 @@
 		{
 			dependencies: ["0F048A0A3773C3EF"]
 			id: "0837E476FFBC5FB0"
+			rewards: [{
+				id: "17D8FB3DDFE9022C"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
 			tasks: [{
 				id: "5FD175E5DDFACF0A"
 				item: "immersive_aircraft:warship"
 				type: "item"
 			}]
 			x: -10.5d
-			y: 11.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["129D0C37D4A27A2B"]
 			id: "39265312C1D58F9A"
+			rewards: [{
+				id: "314BDA50D382F9B0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "2132E85ED18503F3"
 				item: "immersive_aircraft:quadrocopter"
@@ -16574,6 +17095,11 @@
 		{
 			dependencies: ["0964BD6C4413A9C9"]
 			id: "45DF5B6D709F2D85"
+			rewards: [{
+				id: "01352CE535EC7C0D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "175F68708550F5A1"
 				item: "tconstruct:manyullyn_ingot"
@@ -16585,6 +17111,11 @@
 		{
 			dependencies: ["0964BD6C4413A9C9"]
 			id: "5D90648C40D14717"
+			rewards: [{
+				id: "5481DD2A50E44CAF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "335B7D0FD60566D1"
@@ -16750,6 +17281,11 @@
 		{
 			dependencies: ["0964BD6C4413A9C9"]
 			id: "6FF3E0F49A96AC0C"
+			rewards: [{
+				id: "0735677766088AB0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "535E5619CFF590FB"
 				item: {
@@ -16807,6 +17343,11 @@
 		{
 			dependencies: ["0964BD6C4413A9C9"]
 			id: "49AD4063DDEB0BCE"
+			rewards: [{
+				id: "64DED6371F4AD794"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7AC172F55C79E31D"
 				item: {
@@ -16969,8 +17510,8 @@
 				}
 				type: "item"
 			}]
-			x: 25.299999999999997d
-			y: 18.4d
+			x: 26.699999999999996d
+			y: 20.749999999999996d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
@@ -16980,8 +17521,8 @@
 				item: "reliquary:angelheart_vial"
 				type: "item"
 			}]
-			x: 28.5d
-			y: 16.0d
+			x: 29.9d
+			y: 18.349999999999998d
 		}
 		{
 			dependencies: [
@@ -16994,8 +17535,8 @@
 				item: "reliquary:phoenix_down"
 				type: "item"
 			}]
-			x: 28.5d
-			y: 15.0d
+			x: 29.9d
+			y: 17.349999999999998d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
@@ -17005,8 +17546,8 @@
 				item: "reliquary:angelic_feather"
 				type: "item"
 			}]
-			x: 27.5d
-			y: 15.0d
+			x: 28.9d
+			y: 17.349999999999998d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
@@ -17017,8 +17558,8 @@
 				item: "reliquary:destruction_catalyst"
 				type: "item"
 			}]
-			x: 22.0d
-			y: 21.0d
+			x: 23.4d
+			y: 23.349999999999998d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
@@ -17028,8 +17569,8 @@
 				item: "reliquary:fortune_coin"
 				type: "item"
 			}]
-			x: 23.0d
-			y: 18.5d
+			x: 24.4d
+			y: 20.849999999999998d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -17039,8 +17580,8 @@
 				item: "reliquary:glacial_staff"
 				type: "item"
 			}]
-			x: 24.0d
-			y: 20.0d
+			x: 25.4d
+			y: 22.349999999999998d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -17050,8 +17591,8 @@
 				item: "reliquary:pyromancer_staff"
 				type: "item"
 			}]
-			x: 27.0d
-			y: 20.0d
+			x: 28.4d
+			y: 22.349999999999998d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -17075,8 +17616,8 @@
 				}
 				type: "item"
 			}]
-			x: 26.0d
-			y: 20.5d
+			x: 27.4d
+			y: 22.849999999999998d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -17092,8 +17633,8 @@
 				}
 				type: "item"
 			}]
-			x: 25.0d
-			y: 20.5d
+			x: 26.4d
+			y: 22.849999999999998d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -17103,8 +17644,8 @@
 				item: "reliquary:sojourner_staff"
 				type: "item"
 			}]
-			x: 27.5d
-			y: 18.5d
+			x: 28.9d
+			y: 20.849999999999998d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
@@ -17128,8 +17669,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
-			y: 19.5d
+			x: 23.4d
+			y: 21.849999999999998d
 		}
 		{
 			dependencies: ["6FE18A64BEAF0A08"]
@@ -17139,8 +17680,8 @@
 				item: "reliquary:lantern_of_paranoia"
 				type: "item"
 			}]
-			x: 29.0d
-			y: 18.5d
+			x: 30.4d
+			y: 20.849999999999998d
 		}
 		{
 			dependencies: [
@@ -17153,8 +17694,8 @@
 				item: "reliquary:salamander_eye"
 				type: "item"
 			}]
-			x: 29.0d
-			y: 20.0d
+			x: 30.4d
+			y: 22.349999999999998d
 		}
 		{
 			dependencies: ["471939DE22B5426B"]
@@ -17164,8 +17705,8 @@
 				item: "reliquary:handgun"
 				type: "item"
 			}]
-			x: 22.0d
-			y: 22.5d
+			x: 23.4d
+			y: 24.849999999999998d
 		}
 		{
 			dependencies: ["2A6F7A84B94F1B7F"]
@@ -17175,8 +17716,8 @@
 				item: "reliquary:interdiction_torch"
 				type: "item"
 			}]
-			x: 29.0d
-			y: 17.0d
+			x: 30.4d
+			y: 19.349999999999998d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
@@ -17194,20 +17735,19 @@
 				}
 				type: "item"
 			}]
-			x: 25.0d
-			y: 17.0d
+			x: 26.4d
+			y: 19.349999999999998d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
-			hide_dependency_lines: true
 			id: "34DB9EBB5C296D71"
 			tasks: [{
 				id: "02DA134DDB14AA28"
 				item: "reliquary:witherless_rose"
 				type: "item"
 			}]
-			x: 31.0d
-			y: 18.5d
+			x: 34.9d
+			y: 20.849999999999998d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
@@ -17217,8 +17757,8 @@
 				item: "reliquary:alkahestry_altar"
 				type: "item"
 			}]
-			x: 27.5d
-			y: 17.0d
+			x: 28.9d
+			y: 19.349999999999998d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
@@ -17234,8 +17774,8 @@
 				}
 				type: "item"
 			}]
-			x: 23.0d
-			y: 21.0d
+			x: 24.4d
+			y: 23.349999999999998d
 		}
 		{
 			dependencies: ["21E6CA24E283AF68"]
@@ -17253,8 +17793,8 @@
 				}
 				type: "item"
 			}]
-			x: 24.0d
-			y: 22.0d
+			x: 25.4d
+			y: 24.349999999999998d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -17282,8 +17822,8 @@
 				}
 				type: "item"
 			}]
-			x: 26.0d
-			y: 16.0d
+			x: 27.4d
+			y: 18.349999999999998d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -17294,8 +17834,8 @@
 				item: "reliquary:hero_medallion"
 				type: "item"
 			}]
-			x: 29.0d
-			y: 22.0d
+			x: 30.4d
+			y: 24.349999999999998d
 		}
 		{
 			dependencies: ["0D61335A0B07300D"]
@@ -17312,8 +17852,8 @@
 					type: "item"
 				}
 			]
-			x: 28.5d
-			y: 8.0d
+			x: 29.9d
+			y: 10.35d
 		}
 		{
 			dependencies: ["0D61335A0B07300D"]
@@ -17323,8 +17863,8 @@
 				item: "theurgy:pyromantic_brazier"
 				type: "item"
 			}]
-			x: 28.0d
-			y: 9.5d
+			x: 29.4d
+			y: 11.85d
 		}
 		{
 			dependencies: ["18842926F8B1C64D"]
@@ -17334,8 +17874,8 @@
 				item: "theurgy:liquefaction_cauldron"
 				type: "item"
 			}]
-			x: 30.0d
-			y: 10.5d
+			x: 31.4d
+			y: 12.85d
 		}
 		{
 			dependencies: ["18842926F8B1C64D"]
@@ -17345,8 +17885,8 @@
 				item: "theurgy:distiller"
 				type: "item"
 			}]
-			x: 28.5d
-			y: 11.0d
+			x: 29.9d
+			y: 13.35d
 		}
 		{
 			dependencies: ["18842926F8B1C64D"]
@@ -17356,8 +17896,8 @@
 				item: "theurgy:calcination_oven"
 				type: "item"
 			}]
-			x: 29.5d
-			y: 9.0d
+			x: 30.9d
+			y: 11.35d
 		}
 		{
 			dependencies: ["0BFFCDA557C3AC9C"]
@@ -17386,8 +17926,8 @@
 				}
 				type: "item"
 			}]
-			x: 31.0d
-			y: 9.5d
+			x: 32.4d
+			y: 11.85d
 		}
 		{
 			dependencies: ["082867418C58A3F7"]
@@ -17397,8 +17937,8 @@
 				item: "theurgy:mercury_shard"
 				type: "item"
 			}]
-			x: 30.0d
-			y: 12.0d
+			x: 31.4d
+			y: 14.35d
 		}
 		{
 			dependencies: ["18842926F8B1C64D"]
@@ -17408,22 +17948,11 @@
 				item: "theurgy:incubator"
 				type: "item"
 			}]
-			x: 32.0d
-			y: 11.5d
+			x: 33.4d
+			y: 13.85d
 		}
 		{
-			dependencies: ["16E1267D485886E8"]
-			id: "491AFDE6FD8329D1"
-			tasks: [{
-				id: "2B4DC20C95253E13"
-				item: "theurgy:sal_ammoniac_crystal"
-				type: "item"
-			}]
-			x: 33.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["491AFDE6FD8329D1"]
+			dependencies: ["5432F56480D8CCC3"]
 			id: "4CC297E5C35D87F8"
 			size: 1.15d
 			tasks: [
@@ -17443,11 +17972,11 @@
 					type: "item"
 				}
 			]
-			x: 34.0d
-			y: 12.5d
+			x: 35.9d
+			y: 14.999999999999998d
 		}
 		{
-			dependencies: ["491AFDE6FD8329D1"]
+			dependencies: ["73BE1AB671E9C173"]
 			id: "0EC44F3645ABD596"
 			tasks: [
 				{
@@ -17461,11 +17990,11 @@
 					type: "item"
 				}
 			]
-			x: 33.0d
-			y: 13.5d
+			x: 32.9d
+			y: 15.35d
 		}
 		{
-			dependencies: ["491AFDE6FD8329D1"]
+			dependencies: ["5432F56480D8CCC3"]
 			id: "29AB1C13F14D1962"
 			tasks: [
 				{
@@ -17479,11 +18008,17 @@
 					type: "item"
 				}
 			]
-			x: 34.5d
-			y: 11.5d
+			x: 35.4d
+			y: 13.35d
 		}
 		{
-			dependencies: ["4CC297E5C35D87F8"]
+			dependencies: [
+				"34DB9EBB5C296D71"
+				"09811FE8990DC377"
+				"329502500A01AB87"
+				"5FDE312C630BCFBF"
+				"1275C0782A86ABA7"
+			]
 			id: "57D021A05869800D"
 			tasks: [{
 				id: "2A1B9C2AF3D861F9"
@@ -17497,14 +18032,12 @@
 				}
 				type: "item"
 			}]
-			x: 35.5d
-			y: 13.5d
+			x: 35.9d
+			y: 18.849999999999998d
 		}
 		{
-			dependencies: [
-				"34DB9EBB5C296D71"
-				"57D021A05869800D"
-			]
+			dependencies: ["57D021A05869800D"]
+			hide_dependency_lines: true
 			id: "731126727DDCAC54"
 			size: 1.5d
 			tasks: [{
@@ -17516,8 +18049,850 @@
 				}
 				type: "item"
 			}]
-			x: 35.25d
-			y: 17.25d
+			x: 39.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["29AB1C13F14D1962"]
+			hide_dependency_lines: true
+			id: "5FDE312C630BCFBF"
+			tasks: [{
+				id: "3D6ED7E6698D1248"
+				item: "projecte:low_covalence_dust"
+				type: "item"
+			}]
+			x: 35.4d
+			y: 17.349999999999998d
+		}
+		{
+			dependencies: ["73BE1AB671E9C173"]
+			hide_dependency_lines: true
+			id: "09811FE8990DC377"
+			tasks: [{
+				id: "4B5844752EA07A97"
+				item: "projecte:medium_covalence_dust"
+				type: "item"
+			}]
+			x: 34.4d
+			y: 19.849999999999998d
+		}
+		{
+			dependencies: ["55CA3D58EE9C883B"]
+			hide_dependency_lines: true
+			id: "329502500A01AB87"
+			tasks: [{
+				id: "01BF45C144280062"
+				item: "projecte:high_covalence_dust"
+				type: "item"
+			}]
+			x: 34.4d
+			y: 18.349999999999998d
+		}
+		{
+			dependencies: ["4CC297E5C35D87F8"]
+			id: "1275C0782A86ABA7"
+			tasks: [{
+				id: "02F9FF4B609FE663"
+				item: "theurgy:alchemical_sulfur_metals_precious"
+				type: "item"
+			}]
+			x: 36.4d
+			y: 16.849999999999998d
+		}
+		{
+			dependencies: ["16E1267D485886E8"]
+			id: "5432F56480D8CCC3"
+			tasks: [{
+				id: "45A79F07BF525DF5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "theurgy:alchemical_sulfurs"
+					}
+				}
+				title: "Any #theurgy:alchemical_sulfurs"
+				type: "item"
+			}]
+			x: 34.4d
+			y: 14.35d
+		}
+		{
+			dependencies: ["731126727DDCAC54"]
+			id: "015124A9D4A821AF"
+			tasks: [
+				{
+					id: "1AF83911FC155D2D"
+					item: "projecte:alchemical_coal"
+					type: "item"
+				}
+				{
+					id: "3A22866982F0CB22"
+					item: "projecte:mobius_fuel"
+					type: "item"
+				}
+				{
+					id: "4A7A7101ABB54059"
+					item: "projecte:aeternalis_fuel"
+					type: "item"
+				}
+			]
+			x: 41.25d
+			y: 19.9d
+		}
+		{
+			dependencies: ["015124A9D4A821AF"]
+			dependency_requirement: "one_started"
+			id: "5CFB446EC47CB53D"
+			tasks: [{
+				id: "54DBE632E56256D2"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			x: 44.25d
+			y: 20.9d
+		}
+		{
+			dependencies: ["5CFB446EC47CB53D"]
+			id: "5B29FE8F9F7C91F2"
+			tasks: [{
+				id: "5E43E434D15E3997"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: 45.75d
+			y: 21.4d
+		}
+		{
+			dependencies: ["5CFB446EC47CB53D"]
+			id: "652B290897F2DE42"
+			tasks: [
+				{
+					id: "05CB8F220BE936A5"
+					item: "projecte:dm_helmet"
+					type: "item"
+				}
+				{
+					id: "57D0157411D17AC8"
+					item: "projecte:dm_chestplate"
+					type: "item"
+				}
+				{
+					id: "31391E4220583DA6"
+					item: "projecte:dm_leggings"
+					type: "item"
+				}
+				{
+					id: "457C8758E58818FB"
+					item: "projecte:dm_boots"
+					type: "item"
+				}
+			]
+			x: 43.25d
+			y: 19.4d
+		}
+		{
+			dependencies: ["5CFB446EC47CB53D"]
+			id: "3C4322DE0D3F5600"
+			tasks: [
+				{
+					id: "2519AE1017F64530"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:dm_sword"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1CF6302693BBE60A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:dm_pick"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "04FB3F0C131EA2FF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:dm_axe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0565A517D9DB423B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:dm_shovel"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 44.25d
+			y: 19.4d
+		}
+		{
+			dependencies: ["5B29FE8F9F7C91F2"]
+			id: "0404DD4A0D87F8E3"
+			tasks: [
+				{
+					id: "79799441056DC844"
+					item: "projecte:rm_helmet"
+					type: "item"
+				}
+				{
+					id: "276A142A633021A9"
+					item: "projecte:rm_chestplate"
+					type: "item"
+				}
+				{
+					id: "1F52D10F2DEB1E5D"
+					item: "projecte:rm_leggings"
+					type: "item"
+				}
+				{
+					id: "02F00DE6DED538C8"
+					item: "projecte:rm_boots"
+					type: "item"
+				}
+			]
+			x: 47.25d
+			y: 21.9d
+		}
+		{
+			dependencies: ["5B29FE8F9F7C91F2"]
+			id: "64E7F4D741319837"
+			tasks: [
+				{
+					id: "419A4610247BC8D2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_hammer"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2C8D90B55C234D06"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_pick"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "762E6EC7243F0CB1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_shovel"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 45.75d
+			y: 19.9d
+		}
+		{
+			dependencies: ["5B29FE8F9F7C91F2"]
+			id: "2C9A823433809050"
+			tasks: [
+				{
+					id: "60883705487A76BD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_sword"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "41E70ACE3008D82B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_axe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "40D1CEA75ACE858A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_hoe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4BBEBF41F8F8C44B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_shears"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 46.75d
+			y: 20.4d
+		}
+		{
+			dependencies: ["731126727DDCAC54"]
+			id: "52AD18AF6F36C7DB"
+			tasks: [{
+				id: "04061397D6215E52"
+				item: "projecte:condenser_mk1"
+				type: "item"
+			}]
+			x: 40.25d
+			y: 21.4d
+		}
+		{
+			dependencies: [
+				"015124A9D4A821AF"
+				"52AD18AF6F36C7DB"
+			]
+			id: "225E44D2CE6D6309"
+			tasks: [
+				{
+					id: "73332F9699136AB2"
+					item: "projecte:collector_mk1"
+					type: "item"
+				}
+				{
+					id: "30253480C2A47BDD"
+					item: "projecte:relay_mk1"
+					type: "item"
+				}
+			]
+			x: 41.75d
+			y: 21.9d
+		}
+		{
+			dependencies: [
+				"225E44D2CE6D6309"
+				"5CFB446EC47CB53D"
+			]
+			id: "695A4630322F9D35"
+			tasks: [
+				{
+					id: "4964D6F4FB46AF67"
+					item: "projecte:collector_mk2"
+					type: "item"
+				}
+				{
+					id: "061202AC9D550D5A"
+					item: "projecte:relay_mk2"
+					type: "item"
+				}
+			]
+			x: 43.75d
+			y: 22.9d
+		}
+		{
+			dependencies: [
+				"695A4630322F9D35"
+				"5B29FE8F9F7C91F2"
+			]
+			id: "3DEB1BAED09B87EB"
+			tasks: [
+				{
+					id: "13B2F06D927714C8"
+					item: "projecte:collector_mk3"
+					type: "item"
+				}
+				{
+					id: "5A97E5BFD61582D9"
+					item: "projecte:relay_mk3"
+					type: "item"
+				}
+				{
+					id: "2F66550CA35DCA27"
+					item: "projecte:condenser_mk2"
+					type: "item"
+				}
+			]
+			x: 45.25d
+			y: 23.4d
+		}
+		{
+			dependencies: ["5CFB446EC47CB53D"]
+			id: "15E087C520CD6950"
+			tasks: [{
+				id: "1783501E02AABDF0"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: 43.25d
+			y: 21.4d
+		}
+		{
+			dependencies: ["731126727DDCAC54"]
+			id: "04B76C415BE9F974"
+			tasks: [{
+				id: "1F910B49BA17AADE"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			x: 41.25d
+			y: 18.4d
+		}
+		{
+			dependencies: ["015124A9D4A821AF"]
+			hide_dependency_lines: true
+			id: "772D16E67AD29556"
+			tasks: [
+				{
+					id: "7B8ED676F9927AF9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:klein_star_ein"
+					}
+					type: "item"
+				}
+				{
+					id: "1E1DDE96D90D957A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:klein_star_zwei"
+					}
+					type: "item"
+				}
+				{
+					id: "3D02AC7E64D178A9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:klein_star_drei"
+					}
+					type: "item"
+				}
+				{
+					id: "7FFF2C2A1D1B7F6B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:klein_star_vier"
+					}
+					type: "item"
+				}
+				{
+					id: "7223230E793FB2AF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:klein_star_sphere"
+					}
+					type: "item"
+				}
+			]
+			x: 46.75d
+			y: 23.9d
+		}
+		{
+			dependencies: [
+				"772D16E67AD29556"
+				"0404DD4A0D87F8E3"
+			]
+			id: "47BE5EBEB47FA870"
+			size: 1.15d
+			tasks: [
+				{
+					id: "5E53D791A4A752C8"
+					item: "projecte:gem_helmet"
+					type: "item"
+				}
+				{
+					id: "70C0D898C8FC738E"
+					item: "projecte:gem_chestplate"
+					type: "item"
+				}
+				{
+					id: "09479F0F7D7D685A"
+					item: "projecte:gem_leggings"
+					type: "item"
+				}
+				{
+					id: "442EF2192A24D4BC"
+					item: "projecte:gem_boots"
+					type: "item"
+				}
+			]
+			x: 48.75d
+			y: 23.4d
+		}
+		{
+			dependencies: [
+				"2C9A823433809050"
+				"64E7F4D741319837"
+			]
+			dependency_requirement: "one_started"
+			id: "76CE9FC7D06D6CE8"
+			tasks: [
+				{
+					id: "4BE95068929E96A9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_katar"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "732F45D66A2CAA41"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_morning_star"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 46.75d
+			y: 19.4d
+		}
+		{
+			dependencies: ["5CFB446EC47CB53D"]
+			id: "31817C54C3FFDA2D"
+			tasks: [{
+				id: "1B30584B8FE0C920"
+				item: "projecte:dm_pedestal"
+				type: "item"
+			}]
+			x: 44.75d
+			y: 21.9d
+		}
+		{
+			dependencies: [
+				"66DB777A17822FE0"
+				"09811FE8990DC377"
+			]
+			id: "03C07C1AE7AC4E1A"
+			tasks: [{
+				id: "2AFD44BEC7DC9058"
+				item: "projecte:interdiction_torch"
+				type: "item"
+			}]
+			x: 32.4d
+			y: 19.349999999999998d
+		}
+		{
+			dependencies: ["33FC7F10A56757CB"]
+			id: "24A31DEF16754429"
+			tasks: [{
+				id: "527CC298DD7E76A2"
+				item: "rftoolsbuilder:shape_card_quarry"
+				type: "item"
+			}]
+			x: -37.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["16425F7B3E364B17"]
+			id: "108E54D33D1F4ECB"
+			rewards: [{
+				id: "6CC41B731BDDE8ED"
+				item: "rftoolsdim:common_lost_knowledge"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0F367DF5B87BA22B"
+					item: "rftoolsdim:researcher"
+					type: "item"
+				}
+				{
+					id: "63F4E3D75765F35E"
+					item: "rftoolsdim:knowledge_holder"
+					type: "item"
+				}
+			]
+			x: -36.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["108E54D33D1F4ECB"]
+			id: "4395BDCE434949CB"
+			tasks: [{
+				id: "1E2EB5B9D60AE51C"
+				item: "rftoolsdim:dimlet_workbench"
+				type: "item"
+			}]
+			x: -37.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["4395BDCE434949CB"]
+			id: "560F7D6D12FCE943"
+			tasks: [
+				{
+					id: "3E353731B38D7D14"
+					item: "rftoolsdim:enscriber"
+					type: "item"
+				}
+				{
+					id: "33F3D197B519B213"
+					item: "rftoolsdim:dimension_builder"
+					type: "item"
+				}
+				{
+					id: "7BA9B32FAE37BADE"
+					item: "rftoolsdim:dimension_editor"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -38.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["16425F7B3E364B17"]
+			id: "514AA39464185B58"
+			tasks: [{
+				id: "6BD890C0BD54A880"
+				item: "rftoolsbuilder:shield_block1"
+				type: "item"
+			}]
+			x: -36.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["16425F7B3E364B17"]
+			id: "59B7B81ED4FB2C7C"
+			tasks: [{
+				id: "4E4D869C29E32EE9"
+				item: "rftoolsutility:spawner"
+				type: "item"
+			}]
+			x: -34.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["16425F7B3E364B17"]
+			id: "46214166DD4261B9"
+			tasks: [
+				{
+					id: "3E08D9229916034C"
+					item: "rftoolsutility:matter_transmitter"
+					type: "item"
+				}
+				{
+					id: "6F7FF61CCA840483"
+					item: "rftoolsutility:matter_receiver"
+					type: "item"
+				}
+				{
+					id: "5F55681190C1D32A"
+					item: "rftoolsutility:dialing_device"
+					type: "item"
+				}
+			]
+			x: -33.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["06A4BEEE42830A85"]
+			description: [
+				"The Paxel is a versatile tool and a product of early tool tinkering. It acts as a pickaxe, axe and shovel together, along with dealing decent damage."
+				"{@pagebreak}"
+				"Holders of the Hermit card frequently craft these tools as it is within their early abilities. However, it's often outclassed by more specialized, advanced tools."
+			]
+			hide_dependency_lines: true
+			id: "43C048117A889DD1"
+			rewards: [{
+				id: "39F5E0A00EDA8046"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "10E1F6C2780934A2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/paxels"
+					}
+				}
+				title: "Any Paxel"
+				type: "item"
+			}]
+			title: "The Paxel"
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"545CB21B2B59BA32"
+				"1AB989E044EBCB6D"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "7C436D58D08733CF"
+			rewards: [{
+				id: "41AD529276D51EC3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "41AE0B273B09C497"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "solarflux:furnace_upgrade"
+							}
+							{
+								Count: 1b
+								id: "solarflux:efficiency_upgrade"
+							}
+							{
+								Count: 1b
+								id: "solarflux:transfer_rate_upgrade"
+							}
+							{
+								Count: 1b
+								id: "solarflux:capacity_upgrade"
+							}
+							{
+								Count: 1b
+								id: "solarflux:traversal_upgrade"
+							}
+							{
+								Count: 1b
+								id: "solarflux:dispersive_upgrade"
+							}
+							{
+								Count: 1b
+								id: "solarflux:block_charging_upgrade"
+							}
+						]
+					}
+				}
+				title: "Any Solar Panel Upgrade"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5B6717870A814E8C"]
+			description: [
+				"Liquid metals in the smeltery or seared melter can be cast onto a table with a cast on top, or into a basin to take the shape of a block. "
+				"{@pagebreak}"
+				"A redstone signal on the faucet will automate the casting process, along with a hopper under the casting table or basin."
+			]
+			id: "1E680462C41F3BB5"
+			rewards: [{
+				id: "4A043E6232333093"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "51CF9BE25D468C71"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tconstruct:seared_basin"
+								}
+								{
+									Count: 1b
+									id: "tconstruct:modifier_worktable"
+								}
+							]
+						}
+					}
+					title: "Any Casting Table or Basin"
+					type: "item"
+				}
+				{
+					id: "3025E0F76BFD4623"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "6C012B353DC6E3B1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [{
+								Count: 1b
+								id: "tconstruct:seared_drain"
+							}]
+						}
+					}
+					optional_task: true
+					title: "Seared Drain"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 9.0d
 		}
 	]
 	title: "The Journey"

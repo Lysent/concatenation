@@ -32,6 +32,12 @@ ServerEvents.recipes(event => {
         // event.remove({ output: 'ars_nouveau:apprentice_spell_book', type: 'minecraft:crafting_shapeless' })
         // event.remove({ output: 'ars_nouveau:archmage_spell_book', type: 'minecraft:crafting_shapeless' })
 
+        event.remove({ output: 'projecte:low_covalence_dust', type: 'minecraft:crafting_shapeless' })
+        event.remove({ output: 'projecte:medium_covalence_dust', type: 'minecraft:crafting_shapeless' })
+        event.remove({ output: 'projecte:high_covalence_dust', type: 'minecraft:crafting_shapeless' })
+        event.remove({ output: 'projecte:philosophers_stone', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'projecte:alchemical_coal', type: 'minecraft:crafting_shapeless' })
+
         event.shaped(
                 Item.of('concatenationcore:protean_glass', 4),
                 [
@@ -446,6 +452,13 @@ ServerEvents.recipes(event => {
                 ['irons_spellbooks:arcane_essence', 'ars_nouveau:manipulation_essence', 'irons_spellbooks:arcane_essence', 'irons_spellbooks:rare_ink'],
                 'concatenationcore:sourcesilver',
                 'concatenationcore:ectorite',
+                5000,
+                true
+        )
+        event.recipes.ars_nouveau.enchanting_apparatus(
+                ['theurgy:alchemical_salt_mineral', 'theurgy:sal_ammoniac_crystal', 'theurgy:alchemical_salt_mineral', 'theurgy:sal_ammoniac_crystal', 'theurgy:alchemical_salt_mineral', 'ars_elemental:lesser_earth_focus', 'theurgy:alchemical_salt_mineral', 'ars_elemental:lesser_air_focus'],
+                'ars_nouveau:fire_essence',
+                'projecte:high_covalence_dust',
                 5000,
                 true
         )

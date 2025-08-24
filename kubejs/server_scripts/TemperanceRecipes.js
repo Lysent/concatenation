@@ -11,7 +11,8 @@ ServerEvents.recipes(event => {
                 'theurgy:calcination_oven',
                 'theurgy:liquefaction_cauldron',
                 'theurgy:distiller',
-                'theurgy:incubator'
+                'theurgy:incubator',
+                'reliquary:witherless_rose'
         ]
 
         remove.forEach(item => {
@@ -173,21 +174,6 @@ ServerEvents.recipes(event => {
 
         // Lovers
         event.shaped(
-                Item.of(
-                        "concatenationcore:the_error",
-                        '{display:{Name:\'{"text":"Tarot : The Error","color":"yellow","italic":false}\'},CurioAttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:0.5,Operation:1,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
-                ),
-                [
-                        "CCC",
-                        "CCC",
-                        "CCC"
-                ],
-                {
-                        C: "concatenationcore:bricksword"
-                }
-        );
-
-        event.shaped(
                 Item.of('tarotcards:the_lovers'),
                 [
                         'ABA',
@@ -245,7 +231,13 @@ ServerEvents.recipes(event => {
                         D: '#concatenation:magic_cards_t2'
                 }
         ).keepIngredient('#concatenation:magic_cards_t2')
-
+        event.shapeless(
+                Item.of('tarotcards:the_lovers'),
+                [
+                        'concatenationcore:the_error',
+                        'concatenationcore:concatenator'
+                ]
+        ).keepIngredient('concatenationcore:concatenator')
         event.shaped(
                 Item.of('theurgy:pyromantic_brazier'),
                 [
@@ -270,7 +262,8 @@ ServerEvents.recipes(event => {
                 {
                         C: 'minecraft:stone',
                         B: 'concatenationcore:bloodstained_steel',
-                        A: 'minecraft:copper_block'
+                        A: 'minecraft:copper_block',
+                        D: 'tarotcards:the_lovers'
                 }
         ).keepIngredient('tarotcards:the_lovers')
         event.shaped(
@@ -283,7 +276,8 @@ ServerEvents.recipes(event => {
                 {
                         C: 'minecraft:stone',
                         B: 'concatenationcore:blood_powder',
-                        A: 'minecraft:copper_block'
+                        A: 'minecraft:copper_block',
+                        D: 'tarotcards:the_lovers'
                 }
         ).keepIngredient('tarotcards:the_lovers')
         event.shaped(
@@ -415,6 +409,23 @@ ServerEvents.recipes(event => {
                         B: 'minecraft:oak_log',
                         E: 'minecraft:copper_block',
                         D: 'concatenationcore:ectorite'
+                }
+        )
+
+        event.shaped(
+                Item.of('reliquary:witherless_rose'),
+                [
+                        'ABC',
+                        'BDB',
+                        'EBF'
+                ],
+                {
+                        A: 'reliquary:hero_medallion',
+                        B: 'minecraft:nether_star',
+                        E: 'minecraft:wither_rose',
+                        C: 'reliquary:fertile_lily_pad',
+                        D: 'minecraft:rose_bush',
+                        F: 'elementalcraft:fireite_ingot'
                 }
         )
 });

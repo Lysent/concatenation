@@ -12,7 +12,19 @@ ServerEvents.recipes(event => {
                 'create_enchantment_industry:enchanting_guide',
                 'createbigcannons:cast_iron_ingot',
                 'createmetallurgy:coke',
-                'createdeco:zinc_sheet'
+                'createdeco:zinc_sheet',
+                'mekanismtools:lapis_lazuli_paxel',
+                'mekanismtools:bronze_paxel',
+                'mekanismtools:netherite_paxel',
+                'mekanismtools:diamond_paxel',
+                'mekanismtools:steel_paxel',
+                'mekanismtools:refined_obsidian_paxel',
+                'mekanismtools:refined_glowstone_paxel',
+                'mekanismtools:osmium_paxel',
+                'mekanismtools:gold_paxel',
+                'mekanismtools:stone_paxel',
+                'mekanismtools:wood_paxel',
+                'mekanismtools:iron_paxel'
         ]
 
         remove.forEach(item => {
@@ -244,6 +256,19 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
+                Item.of('solarflux:sp_1', 2),
+                [
+                        'AAA',
+                        'BCB',
+                        'BBB'
+                ],
+                {
+                        B: 'thermal:bronze_ingot',
+                        C: '#concatenation:circuits',
+                        A: 'solarflux:mirror'
+                }
+        )
+        event.shaped(
                 Item.of('create:fluid_tank'),
                 [
                         ' A ',
@@ -291,4 +316,197 @@ ServerEvents.recipes(event => {
                         'tfmg:coal_coke'
                 ]
         )
+
+        event.shaped(
+                Item.of('mekanismtools:wood_paxel'),
+                [
+                        'ABC',
+                        'DEF',
+                        ' E '
+                ],
+                {
+                        D: 'asr:wooden_giant_sword',
+                        C: 'minecraft:wooden_pickaxe',
+                        E: 'minecraft:stick',
+                        F: 'tarotcards:the_hermit',
+                        A: 'minecraft:wooden_axe',
+                        B: 'minecraft:wooden_shovel'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('mekanismtools:stone_paxel'),
+                [
+                        'ABC',
+                        'DEF',
+                        ' E '
+                ],
+                {
+                        A: 'minecraft:stone_axe',
+                        B: 'minecraft:stone_shovel',
+                        D: 'asr:stone_giant_sword',
+                        E: 'minecraft:stick',
+                        F: 'tarotcards:the_hermit',
+                        C: 'minecraft:stone_pickaxe'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('mekanismtools:gold_paxel'),
+                [
+                        'ABC',
+                        'DEF',
+                        ' E '
+                ],
+                {
+                        A: 'minecraft:golden_axe',
+                        D: 'asr:golden_giant_sword',
+                        E: 'minecraft:stick',
+                        F: 'tarotcards:the_hermit',
+                        B: 'minecraft:golden_shovel',
+                        C: 'minecraft:golden_pickaxe'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('mekanismtools:osmium_paxel'),
+                [
+                        'ABC',
+                        'DEF',
+                        ' E '
+                ],
+                {
+                        C: 'mekanismtools:osmium_pickaxe',
+                        D: 'mekanismtools:osmium_sword',
+                        A: 'mekanismtools:osmium_axe',
+                        E: 'minecraft:stick',
+                        F: 'tarotcards:the_hermit',
+                        B: 'mekanismtools:osmium_shovel'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('mekanismtools:refined_glowstone_paxel'),
+                [
+                        'ABC',
+                        'DEF',
+                        ' E '
+                ],
+                {
+                        C: 'mekanismtools:refined_glowstone_pickaxe',
+                        D: 'mekanismtools:refined_glowstone_sword',
+                        A: 'mekanismtools:refined_glowstone_axe',
+                        E: 'minecraft:stick',
+                        F: 'tarotcards:the_hermit',
+                        B: 'mekanismtools:refined_glowstone_shovel'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('mekanismtools:refined_obsidian_paxel'),
+                [
+                        'ABC',
+                        'DEF',
+                        ' E '
+                ],
+                {
+                        A: 'mekanismtools:refined_obsidian_axe',
+                        E: 'minecraft:stick',
+                        F: 'tarotcards:the_hermit',
+                        D: 'mekanismtools:refined_obsidian_sword',
+                        B: 'mekanismtools:refined_obsidian_shovel',
+                        C: 'mekanismtools:refined_obsidian_pickaxe'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('mekanismtools:steel_paxel'),
+                [
+                        'ABC',
+                        'DEF',
+                        ' E '
+                ],
+                {
+                        A: 'mekanismtools:steel_axe',
+                        C: 'mekanismtools:steel_pickaxe',
+                        D: 'mekanismtools:steel_sword',
+                        B: 'mekanismtools:steel_shovel',
+                        E: 'minecraft:stick',
+                        F: 'tarotcards:the_hermit'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('mekanismtools:diamond_paxel'),
+                [
+                        'ABC',
+                        'DEF',
+                        ' E '
+                ],
+                {
+                        B: 'minecraft:diamond_shovel',
+                        A: 'minecraft:diamond_axe',
+                        D: 'asr:diamond_giant_sword',
+                        E: 'minecraft:stick',
+                        F: 'tarotcards:the_hermit',
+                        C: 'minecraft:diamond_pickaxe'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('mekanismtools:netherite_paxel'),
+                [
+                        'ABC',
+                        'DEF',
+                        ' E '
+                ],
+                {
+                        B: 'minecraft:netherite_shovel',
+                        C: 'minecraft:netherite_pickaxe',
+                        E: 'minecraft:stick',
+                        A: 'minecraft:netherite_axe',
+                        F: 'tarotcards:the_hermit',
+                        D: 'minecraft:netherite_sword'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('mekanismtools:bronze_paxel'),
+                [
+                        'ABC',
+                        'DEF',
+                        ' E '
+                ],
+                {
+                        A: 'mekanismtools:bronze_axe',
+                        C: 'mekanismtools:bronze_pickaxe',
+                        B: 'mekanismtools:bronze_shovel',
+                        D: 'mekanismtools:bronze_sword',
+                        E: 'minecraft:stick',
+                        F: 'tarotcards:the_hermit'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('mekanismtools:lapis_lazuli_paxel'),
+                [
+                        'ABC',
+                        'DEF',
+                        ' E '
+                ],
+                {
+                        C: 'mekanismtools:lapis_lazuli_pickaxe',
+                        A: 'mekanismtools:lapis_lazuli_axe',
+                        E: 'minecraft:stick',
+                        B: 'mekanismtools:lapis_lazuli_shovel',
+                        D: 'mekanismtools:lapis_lazuli_sword',
+                        F: 'tarotcards:the_hermit'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('mekanismtools:iron_paxel'),
+                [
+                        'ABC',
+                        'DEF',
+                        ' E '
+                ],
+                {
+                        A: 'minecraft:iron_axe',
+                        B: 'minecraft:iron_shovel',
+                        E: 'minecraft:stick',
+                        C: 'minecraft:iron_pickaxe',
+                        D: 'asr:iron_giant_sword',
+                        F: 'tarotcards:the_hermit'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
 });

@@ -50,7 +50,8 @@ ServerEvents.recipes(event => {
                 'industrialforegoing:infinity_charger',
                 'mekanism:basic_universal_cable',
                 'mekanism:advanced_universal_cable',
-                'mekanism:energized_smelter'
+                'mekanism:energized_smelter',
+                'rftoolsbuilder:shape_card_quarry'
         ]
 
         remove.forEach(item => {
@@ -726,6 +727,27 @@ ServerEvents.recipes(event => {
                         C: 'mekanism:reprocessed_fissile_fragment'
                 }
         ).keepIngredient('concatenationcore:full_pentacles')
+        event.shapeless(
+                Item.of('thermal:laser_diode'),
+                [
+                        'concatenationcore:breaking_tool',
+                        'mekanism:digital_miner'
+                ]
+        )
+        event.shapeless(
+                Item.of('rftoolsbuilder:shape_card_quarry'),
+                [
+                        'concatenationcore:daladite',
+                        'quarryplus:quarry',
+                        'concatenationcore:daladite',
+                        'minecraft:nether_star',
+                        'rftoolsbuilder:shape_card_def',
+                        'minecraft:nether_star',
+                        'concatenationcore:daladite',
+                        'thermal:laser_diode',
+                        'concatenationcore:daladite'
+                ]
+        )
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.pulverizer(Item.of('thermal:signalum_dust').withChance(1.5), 'thermal:signalum_plate')
@@ -734,6 +756,7 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.smelter('concatenationcore:galvanized_iron_nugget', ['create:zinc_nugget', 'create:zinc_nugget', 'minecraft:iron_nugget']).energy(4000)
         event.recipes.thermal.smelter('concatenationcore:daladite', ['concatenationcore:celestial_calralite', 'rftoolsbase:infused_diamond', 'mekanism:ingot_refined_obsidian']).energy(35000)
         event.recipes.thermal.smelter('create:shadow_steel', ['rftoolsbase:infused_diamond', 'minecraft:nether_star', 'concatenationcore:daladite']).energy(1000000)
+        event.recipes.thermal.smelter('concatenationcore:alclad', ['concatenationcore:meteorite', 'concatenationcore:meteorite', '#forge:dusts/zinc']).energy(1000)
 
         event.recipes.industrialforegoing.dissolution_chamber(
                 ['rftoolspower:power_core2', 'thermal:energy_cell_frame', 'rftoolspower:power_core2', 'concatenationcore:signalum_coil', 'concatenationcore:signalum_coil', 'rftoolspower:power_core2', 'tconstruct:hepatizon_ingot', 'rftoolspower:power_core2'],

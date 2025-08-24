@@ -919,5 +919,314 @@ ServerEvents.recipes(event => {
                 }
         ).damageIngredient('concatenationcore:breaking_tool')
 
+        event.shapeless(
+                Item.of('hexerei:mugwort_leaves', 4),
+                [
+                        'concatenationcore:transplant',
+                        'hexerei:mugwort_leaves'
+                ]
+        )
+        event.shapeless(
+                Item.of('hexerei:yellow_dock_flowers', 4),
+                [
+                        'concatenationcore:transplant',
+                        'hexerei:yellow_dock_flowers'
+                ]
+        )
+        event.shapeless(
+                Item.of('hexerei:willow_vines', 4),
+                [
+                        'concatenationcore:transplant',
+                        'hexerei:willow_vines'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:pitcher_plant', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:pitcher_plant'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:mangrove_propagule', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:mangrove_propagule'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:fern', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:fern'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:dandelion', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:dandelion'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:poppy', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:poppy'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:blue_orchid', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:blue_orchid'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:allium', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:allium'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:azure_bluet', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:azure_bluet'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:red_tulip', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:red_tulip'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:orange_tulip', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:orange_tulip'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:white_tulip', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:white_tulip'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:pink_tulip', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:pink_tulip'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:oxeye_daisy', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:oxeye_daisy'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:lily_of_the_valley', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:lily_of_the_valley'
+                ]
+        )
+        event.shapeless(
+                Item.of('hexerei:sage', 4),
+                [
+                        'concatenationcore:transplant',
+                        'hexerei:sage'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:cornflower', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:cornflower'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:torchflower', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:torchflower'
+                ]
+        )
+        event.shapeless(
+                Item.of('immersive_weathering:azalea_flowers', 4),
+                [
+                        'concatenationcore:transplant',
+                        'immersive_weathering:azalea_flowers'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:pink_petals', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:pink_petals'
+                ]
+        )
+        event.shapeless(
+                Item.of('farmersdelight:wild_cabbages', 4),
+                [
+                        'concatenationcore:transplant',
+                        'farmersdelight:wild_cabbages'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:lilac', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:lilac'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:sunflower', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:sunflower'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:rose_bush', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:rose_bush'
+                ]
+        )
+        event.shapeless(
+                Item.of('hexerei:belladonna_flowers', 4),
+                [
+                        'concatenationcore:transplant',
+                        'hexerei:belladonna_flowers'
+                ]
+        )
+        event.shapeless(
+                Item.of('hexerei:mugwort_flowers', 4),
+                [
+                        'concatenationcore:transplant',
+                        'hexerei:mugwort_flowers'
+                ]
+        )
+        event.shapeless(
+                Item.of('born_in_chaos_v1:river_mint', 4),
+                [
+                        'concatenationcore:transplant',
+                        'born_in_chaos_v1:river_mint'
+                ]
+        )
+        event.shapeless(
+                Item.of('farmersdelight:wild_onions', 4),
+                [
+                        'concatenationcore:transplant',
+                        'farmersdelight:wild_onions'
+                ]
+        )
+        event.shapeless(
+                Item.of('farmersdelight:wild_potatoes', 4),
+                [
+                        'concatenationcore:transplant',
+                        'farmersdelight:wild_potatoes'
+                ]
+        )
+        event.shapeless(
+                Item.of('born_in_chaos_v1:marigolds', 4),
+                [
+                        'concatenationcore:transplant',
+                        'born_in_chaos_v1:marigolds'
+                ]
+        )
+        event.shapeless(
+                Item.of('farmersdelight:wild_tomatoes', 4),
+                [
+                        'concatenationcore:transplant',
+                        'farmersdelight:wild_tomatoes'
+                ]
+        )
+        event.shapeless(
+                Item.of('farmersdelight:wild_beetroots', 4),
+                [
+                        'concatenationcore:transplant',
+                        'farmersdelight:wild_beetroots'
+                ]
+        )
+        event.shapeless(
+                Item.of('farmersdelight:wild_carrots', 4),
+                [
+                        'concatenationcore:transplant',
+                        'farmersdelight:wild_carrots'
+                ]
+        )
+        event.shapeless(
+                Item.of('farmersdelight:wild_rice', 4),
+                [
+                        'concatenationcore:transplant',
+                        'farmersdelight:wild_rice'
+                ]
+        )
+        event.shapeless(
+                Item.of('hexerei:belladonna_plant', 4),
+                [
+                        'concatenationcore:transplant',
+                        'hexerei:belladonna_plant'
+                ]
+        )
+        event.shapeless(
+                Item.of('hexerei:mandrake_plant', 4),
+                [
+                        'concatenationcore:transplant',
+                        'hexerei:mandrake_plant'
+                ]
+        )
+        event.shapeless(
+                Item.of('hexerei:mugwort_bush', 4),
+                [
+                        'concatenationcore:transplant',
+                        'hexerei:mugwort_bush'
+                ]
+        )
+        event.shapeless(
+                Item.of('hexerei:yellow_dock_bush', 4),
+                [
+                        'concatenationcore:transplant',
+                        'hexerei:yellow_dock_bush'
+                ]
+        )
+        event.shapeless(
+                Item.of('immersive_weathering:moss_clump', 4),
+                [
+                        'concatenationcore:transplant',
+                        'immersive_weathering:moss_clump'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:red_mushroom', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:red_mushroom'
+                ]
+        )
+        event.shapeless(
+                Item.of('minecraft:brown_mushroom', 4),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:brown_mushroom'
+                ]
+        )
+        event.shapeless(
+                Item.of('immersive_weathering:golden_moss_clump', 4),
+                [
+                        'concatenationcore:transplant',
+                        'immersive_weathering:golden_moss_clump'
+                ]
+        )
+
         event.recipes.thermal.pulverizer(Item.of('createmetallurgy:zinc_dust').withChance(1.5), 'create:zinc_ingot').energy(100)
 });
