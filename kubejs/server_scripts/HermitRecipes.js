@@ -34,6 +34,8 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'create:andesite_alloy', type: 'minecraft:crafting_shaped' })
         // event.remove({ output: 'create:shaft', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'thermal:electrum_ingot', type: 'minecraft:crafting_shapeless' })
+        event.remove({ output: 'thermal:bronze_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:tin_gear', type: 'minecraft:crafting_shaped' })
 
         event.replaceInput(
                 { mod: 'createbigcannons' },
@@ -289,7 +291,7 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         C: 'thermal:obsidian_glass',
-                        E: 'createdeco:industrial_iron_ingot',
+                        E: 'create:brass_ingot',
                         D: 'concatenationcore:circuit',
                         B: 'thermal:bronze_gear',
                         A: 'createdeco:andesite_sheet'
@@ -509,4 +511,11 @@ ServerEvents.recipes(event => {
                         F: 'tarotcards:the_hermit'
                 }
         ).keepIngredient('tarotcards:the_hermit')
+        event.shapeless(
+                Item.of('createdeco:andesite_sheet'),
+                [
+                        '#concatenation:hammers',
+                        'create:andesite_alloy_block'
+                ]
+        )
 });

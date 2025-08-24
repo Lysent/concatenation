@@ -51,7 +51,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Hierophant Pathway"
+			title: "&9Hierophant Pathway"
 			x: -1.875d
 			y: -1.25d
 		}
@@ -89,7 +89,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Magician Pathway"
+			title: "&eMagician Pathway"
 			x: 1.875d
 			y: 1.875d
 		}
@@ -145,7 +145,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Temperance Pathway"
+			title: "&cTemperance Pathway"
 			x: 2.5d
 			y: -1.25d
 		}
@@ -183,7 +183,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Hermit Pathway"
+			title: "&dHermit Pathway"
 			x: -1.25d
 			y: 1.875d
 		}
@@ -579,6 +579,7 @@
 							type: "building_kit"
 						}
 					}
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -611,15 +612,8 @@
 			rewards: [{
 				count: 5
 				id: "7A1519DC28C5867E"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "minecraft:coal_block"
-				}
+				item: "minecraft:coal_block"
+				random_bonus: 5
 				team_reward: false
 				type: "item"
 			}]
@@ -673,7 +667,7 @@
 				type: "xp"
 				value: 30L
 			}]
-			title: "Wheel of Fortune"
+			title: "&eWheel of Fortune"
 			x: 0.0d
 			y: -6.8d
 		}
@@ -1107,9 +1101,9 @@
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
 			description: [
-				"The Chariot Pathway's full potential can't be attained by those of adjacent pathways. However, all Hierophant and Hermit card holders require is the logistics aspect of that pathway. "
+				"&6The Chariot Pathway&r's full potential can't be attained by those of adjacent pathways. However, all &9Hierophant&r and &dHermit&r card holders require is the logistics aspect of that pathway. "
 				""
-				"Later on, more advanced logistics requires the Chariot card."
+				"Later on, more advanced logistics requires the &6Chariot&r card."
 			]
 			hide_dependent_lines: true
 			id: "35C32229A51A1B7D"
@@ -1133,7 +1127,7 @@
 				}
 				type: "item"
 			}]
-			title: "The Chariot"
+			title: "&6The Chariot"
 			x: -8.75d
 			y: 5.625d
 		}
@@ -1667,30 +1661,51 @@
 						type: "building_kit"
 					}
 				}
+				random_bonus: 1
 				type: "item"
 			}]
 			size: 1.0d
-			tasks: [{
-				id: "1CE945FCC1B4A9B7"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [{
-							Count: 1b
-							id: "tconstruct:smeltery_controller"
-						}]
+			tasks: [
+				{
+					id: "1CE945FCC1B4A9B7"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [{
+								Count: 1b
+								id: "tconstruct:smeltery_controller"
+							}]
+						}
 					}
+					title: "Smeltery Controller"
+					type: "item"
 				}
-				title: "Smeltery Controller"
-				type: "item"
-			}]
+				{
+					id: "1438ECB8489A608B"
+					item: "tconstruct:seared_fuel_tank"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "190DE08E5529E144"
+					item: { Count: 18, id: "tconstruct:seared_bricks" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "The Mighty Smeltery"
 			x: -4.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
+			description: [
+				"Andesite alloy might be the most important material of the Tower pathway."
+				""
+				"It is made from casting either molten zinc or molten iron on an andesite block in a casting basin."
+			]
 			id: "48182227AA27C096"
 			rewards: [{
 				id: "4E2FF38FF01B4820"
@@ -1715,6 +1730,11 @@
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
+			description: [
+				"Brass is a crucial material of the Tower pathway, frequently used in expansive machinery."
+				""
+				"It is made from alloying 1 part copper and 1 part zinc."
+			]
 			id: "65C1B6B2B147028E"
 			rewards: [{
 				id: "05DF8E8C5DB45447"
@@ -1746,25 +1766,37 @@
 				"54BE967A3164579C"
 				"6AABF2BA290CD429"
 			]
+			description: [
+				"The Simple Machine Frame is the base for High Priestess pathway machines. It works well as a template for contained machine blocks, as the frame already contains basic electronics and a sturdy casing."
+				"{@pagebreak}"
+				"Later on, the High Priestess pathway has its distinctive and more efficient method of manufacturing these machine frames."
+			]
 			hide_dependency_lines: true
 			id: "36318C8D65509470"
 			min_required_dependencies: 3
-			rewards: [{
-				id: "63C183473E8D438D"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			rewards: [
+				{
+					id: "63C183473E8D438D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "thermal:guidebook"
 						}
 					}
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "thermal:guidebook"
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2861D7A653920151"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				id: "7D2835F556B395A1"
@@ -1779,6 +1811,7 @@
 				}
 				type: "item"
 			}]
+			title: "&bSimple Machine Frame"
 			x: -17.25d
 			y: 0.1750000000000007d
 		}
@@ -1808,6 +1841,7 @@
 							type: "building_kit"
 						}
 					}
+					random_bonus: 2
 					type: "item"
 				}
 				{
@@ -2163,6 +2197,7 @@
 						type: "building_kit"
 					}
 				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Have I seen this somewhere?"
@@ -2195,6 +2230,7 @@
 			rewards: [{
 				id: "6A91C0B73EB86A76"
 				item: "minecraft:bone"
+				random_bonus: 9
 				type: "item"
 			}]
 			subtitle: "Not actually clad in aluminium"
@@ -2236,6 +2272,7 @@
 						type: "building_kit"
 					}
 				}
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [
@@ -2433,7 +2470,12 @@
 				"1A0E2D5ACAF189AC"
 				"7BB90DEFC570E065"
 			]
-			description: ["This circuit model is often nicknamed as deficient by most engineers of our age. Everything needs to start somewhere, and this highly inefficient circuit does its job, although the manufacturing process is annoying."]
+			description: [
+				"This circuit model is often nicknamed as deficient by most engineers of our age. Everything needs to start somewhere, and this highly inefficient circuit does its job, although the manufacturing process is annoying."
+				"{@pagebreak}"
+				"This is used in the process of"
+				"{ \"text\": \" unlocking the High Priestess pathway as well.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51211E92BC865FDC\" } }"
+			]
 			id: "2E2A38A96D401883"
 			rewards: [{
 				id: "3B81EF8DDD0D7702"
@@ -2901,6 +2943,11 @@
 			dependencies: ["1F58B572150DAE32"]
 			description: ["The element infuser can enhance almost all of your tools with a special effect depending on the elemental used. However, only one effect can be active at a time per tool or armor piece. It is also used in the crafting of ingredients required for more advanced instruments."]
 			id: "12F6BD166085B3B5"
+			rewards: [{
+				id: "5D7E0F7F58DD4A0D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "56583FD7B3E6FB3E"
 				item: {
@@ -2947,6 +2994,11 @@
 			dependencies: ["12F6BD166085B3B5"]
 			description: ["A regular ingot with a watery texture, exhibiting the element of water, an essential material. They are manufactured through infusing regular iron ingots with water."]
 			id: "57264B7E24823F02"
+			rewards: [{
+				id: "3E9A2597B1AA32C5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "77D3F138DE82CE24"
 				item: {
@@ -2965,7 +3017,19 @@
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
+			description: [
+				"The element binder assembles various ingredients using elemental power to produce new materials."
+				""
+				"Notable materials include the "
+				"{ \"text\": \"swift alloy ingot and springaline shard.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4FA1B8DD76B592DD\" } }"
+			]
 			id: "4E9AB3BBC0D575C4"
+			rewards: [{
+				id: "5A03644D5B50EBD0"
+				item: "minecraft:amethyst_cluster"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A489CA80B994489"
 				item: {
@@ -2984,7 +3048,17 @@
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
+			description: [
+				"The Element Container has larger storage available than the smaller element container. "
+				""
+				"Intuitively based on the appearance of subsequent element apparatus and this container, you will need an element container for them."
+			]
 			id: "539A664D885AAA1C"
+			rewards: [{
+				id: "38CB0E424EFE7418"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "188FD3312F9B7EF1"
 				item: {
@@ -3006,6 +3080,7 @@
 				"539A664D885AAA1C"
 				"4E9AB3BBC0D575C4"
 			]
+			description: ["The shrine is the base for various utility shrines that use elemental power to perform various tasks."]
 			id: "3B824E760CC7B14B"
 			tasks: [{
 				id: "79AFF8EA6573FA70"
@@ -3025,7 +3100,19 @@
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
+			description: [
+				"The growth and harvest shrines can be combined together for an automatic magical farm that grows crops faster and harvests crops itself."
+				"{@pagebreak}"
+				"The harvest shrine has an upgrade to automatically replant crops."
+				""
+				"You however need both a water and earth source nearby for such a setup."
+			]
 			id: "1359145FFF98EEC4"
+			rewards: [{
+				id: "4549E61BF082CA3F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1DD3DCE11C69B0AB"
 				item: {
@@ -3067,7 +3154,17 @@
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
+			description: [
+				"The lumber shrine automatically cuts down trees."
+				""
+				"Similarly to the harvest shrine, it can also be upgraded to replant saplings."
+			]
 			id: "1E988E360B7AB9C1"
+			rewards: [{
+				id: "2BFAEF6080E66696"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "276F51933B5B0594"
 				item: {
@@ -3086,7 +3183,19 @@
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
+			description: [
+				"The Ore Shrine is one of the most useful elemental shrines. It is a magical quarry harvesting the ores below even if it's at the surface of the world."
+				"{@pagebreak}"
+				"It is most especially useful in the Netherworld to avoid dangerous mining. Magician card holders will later need to acquire Fireite ingots, requiring ancient debris. "
+				"{@pagebreak}"
+				"The most frustrating part of this shrine is that it spews its ore everywhere. You might require a vacuum shrine nearby to collect the yield."
+			]
 			id: "0BC1E2D2A0FE4141"
+			rewards: [{
+				id: "57DD32FC6016D316"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "77A1A0A78B7563AC"
 				item: {
@@ -3105,7 +3214,17 @@
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
+			description: [
+				"The sweet shrine automatically feeds nearby people."
+				"{@pagebreak}"
+				"How it does this is debatable. Does it turn water element into a nutritious fluid that enters the mouth without anyone noticing?"
+			]
 			id: "43801EFF78294E96"
+			rewards: [{
+				id: "6F86CA54340D818E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3D5E489092E539A6"
 				item: {
@@ -3124,7 +3243,13 @@
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
+			description: ["The spawning shrine summons mobs around itself every 5 seconds. This can be useful for a mob farm."]
 			id: "5323FC721657F04B"
+			rewards: [{
+				id: "35F9C91EFE8D00F5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3146A815BEAF87E3"
 				item: {
@@ -3181,7 +3306,21 @@
 		}
 		{
 			dependencies: ["4E9AB3BBC0D575C4"]
+			description: [
+				"Swift alloy and the springaline shard are two materials required for subsequent elemental apparatus."
+				"{@pagebreak}"
+				"The swift alloy must be produced at the element binder in its specific sequence - gold ingot, drenched ingot, copper ingot, redstone and air crystal."
+				""
+				"The springaline shard is also produced at the element binder but its production can be made renewable with the budding shrine upgrade."
+			]
 			id: "4FA1B8DD76B592DD"
+			rewards: [{
+				count: 5
+				id: "7883D5862BB6F6B9"
+				item: "elementalcraft:inert_crystal"
+				random_bonus: 10
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "170322B4CF3C919D"
@@ -3210,12 +3349,23 @@
 					type: "item"
 				}
 			]
+			title: "Swift Alloy \\& Springaline Shard"
 			x: 6.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
+			description: [
+				"Element extraction can be improved as more advanced recipes need more source. It is often more useful to upgrade the element pipes than the element extractor."
+				"{@pagebreak}"
+				"Element reservoirs store a gigantic quantity of elements but are restricted to their corresponding element."
+			]
 			id: "01383DAE3AE95A28"
+			rewards: [{
+				id: "04C1F7DFFADF1482"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "63DEDA20A3C5B70B"
@@ -3283,12 +3433,23 @@
 					type: "item"
 				}
 			]
+			title: "Improved Extraction and Containment"
 			x: 2.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
+			description: [
+				"The ore purifier can multiply the yield of ores. You will need a silk touch effect to process an ore block in the ore purifier into purified ore. While most ores do not need this extra process, some ores such as regular iron and gold can be purified with their raw ore forms instead of their block."
+				"{@pagebreak}"
+				"The pure ore chunk can then be smelted."
+			]
 			id: "193DD74E480D6269"
+			rewards: [{
+				id: "72B47A815DE79850"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6C763900C0893224"
 				item: {
@@ -3307,7 +3468,18 @@
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
+			description: [
+				"The gem crystalizer is used to produce gems of various quality."
+				""
+				"Place a diamond or gem along with the corresponding crystal to start the process. You can then add elemental shards to enhance the gem making process."
+			]
 			id: "5DF3CE9894B8409C"
+			rewards: [{
+				id: "7237D6D89521710F"
+				item: "elementalcraft:swift_alloy_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "75E170FED63725FA"
 				item: {
@@ -3326,16 +3498,22 @@
 		}
 		{
 			dependencies: ["5DF3CE9894B8409C"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "elementalcraft:pureinfuser"
-			}
+			description: ["The Pure Infuser requires a multiblock ritual setup, each pedestal aligned orthogonally. Each of these pedestals requires to be powered with elements."]
+			icon: "elementalcraft:pureinfuser"
 			id: "2A33F6E189A28CDF"
+			rewards: [
+				{
+					id: "15AA3AFB4CBD459E"
+					item: "elementalcraft:inert_crystal"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "349BC5AA3A7BC136"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "69DE60705338B190"
@@ -3408,7 +3586,24 @@
 		}
 		{
 			dependencies: ["2A33F6E189A28CDF"]
+			description: [
+				"When placing the corresponding crystal on each powered elemental pedestal and a diamond on the pure infuser at the center, the process for the infusion of a pure crystal will begin."
+				"{@pagebreak}"
+				"The pure crystal is attuned to every element, yet none at the same time. It's a perfect base for many advanced apparatus and elemental tools. This is also the gateway to spellcrafting."
+			]
 			id: "6635F7B2CD984F4F"
+			rewards: [
+				{
+					id: "5171A5A8B8E9A787"
+					item: "elementalcraft:purecrystal"
+					type: "item"
+				}
+				{
+					id: "241E1BC4EF7DD07F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "29AAA82934E66F36"
 				item: {
@@ -3446,7 +3641,18 @@
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
+			description: [
+				"The solar element synthesizer produces elements with one of the respective lens and access to the sun."
+				""
+				"This is a good artificial source of elements, but it does beat a nearby source."
+			]
 			id: "62AACEE921B65C83"
+			rewards: [{
+				count: 16
+				id: "13605E745F25D720"
+				item: "elementalcraft:springaline_shard"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CF4D7850936851C"
 				item: {
@@ -3465,7 +3671,18 @@
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
+			description: [
+				"Bring your sources home! The displacement plate is made for moving sources without severe damage."
+				"{@pagebreak}"
+				"A source analysis lens and a springaline shard is also required to analyze the element source before moving it."
+			]
 			id: "54218CCAAF11DC4B"
+			rewards: [{
+				id: "646EBF62F8CB1EAE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Bring the sources home!"
 			tasks: [{
 				id: "359446DE36C753B1"
 				item: {
@@ -3520,12 +3737,19 @@
 				title: "Any Displacement Plate"
 				type: "item"
 			}]
+			title: "Displacement Plate"
 			x: 1.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
 			id: "330D9AAC0CD81668"
+			rewards: [{
+				count: 3
+				id: "0B89197E22FDCEDD"
+				item: "elementalcraft:scroll_paper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F663D17CCB8824F"
 				item: {
@@ -3544,7 +3768,13 @@
 		}
 		{
 			dependencies: ["51E48EAB50B0971E"]
+			description: ["Jewels can be applied to tools and armour for special effects. This will consume the corresponding element the jewel requires, from an element holder on the person."]
 			id: "0FEAAED9134BC54E"
+			rewards: [{
+				id: "5F78F78F1B9F84FB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "47FCC76BFC961B52"
 				item: {
@@ -3801,6 +4031,7 @@
 				title: "Any Jewel"
 				type: "item"
 			}]
+			title: "Jewels"
 			x: 3.0d
 			y: 13.5d
 		}
@@ -3808,6 +4039,11 @@
 			dependencies: ["330D9AAC0CD81668"]
 			hide_dependency_lines: true
 			id: "6EB5A9ACC0090BC7"
+			rewards: [{
+				id: "7F8310AB724AA6B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "39EFF219AAA904C0"
 				item: {
@@ -3821,7 +4057,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 12.5d
 		}
 		{
@@ -3831,8 +4067,18 @@
 				"51E48EAB50B0971E"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"The &eSun Pathway&r delves mainly into spellcrafting, gaining the ability to cast a vast variety of spells. Mages will don the armour they prefer between variations either more suited for mana optimization or for defensive prowess."
+				"{@pagebreak}"
+				"It is adjacent to the &7Tower Pathway&r, the &6Strength Pathway&r, and the &fStar Pathway&r"
+			]
 			hide_dependency_lines: true
 			id: "6A5FC0572660FB1E"
+			rewards: [{
+				id: "212EF8CC1DECFE86"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "1A781A1097E058A4"
@@ -3848,13 +4094,18 @@
 				}
 				type: "item"
 			}]
-			title: "The Sun"
+			title: "&eThe Sun"
 			x: 10.149999999999999d
 			y: 13.0d
 		}
 		{
 			dependencies: ["330D9AAC0CD81668"]
 			id: "578FA11F7AEEFB8D"
+			rewards: [{
+				id: "63DD085780C13366"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3BF036925EBB9E84"
 				item: {
@@ -3982,19 +4233,16 @@
 		}
 		{
 			dependencies: ["3DF92A514A6B22AF"]
+			description: [
+				"Source gems are produced in an imbuement chamber, converted from amethyst shards."
+				""
+				"Sourcesilver requires mundane silver first, wrapping source gems around a silver ingot."
+			]
 			id: "54DA52C7F14D64E9"
 			rewards: [{
 				count: 4
 				id: "0AAC6AE02BB7535B"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "minecraft:amethyst_block"
-				}
+				item: "minecraft:amethyst_cluster"
 				type: "item"
 			}]
 			tasks: [
@@ -5885,6 +6133,11 @@
 			dependencies: ["57264B7E24823F02"]
 			description: ["The warpstone is an utility item, letting you travel to any waystone regardless of where you are situated. This however comes at a price: experience levels, increasing with the distance. In case of emergencies, you may return to a safe space quickly. This is not an absolute escape plan though. I recall a time while fighting a sea monster, I was unable to trigger the waystone while drowning."]
 			id: "02CAE7DE326720EA"
+			rewards: [{
+				id: "2E8E7B9F8F245D84"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "266D60B5FCA4B2D7"
 				item: {
@@ -5908,21 +6161,29 @@
 			dependencies: ["02CAE7DE326720EA"]
 			description: ["The waystone makes uses of a warpstone to create a relay point in a stabilized location. This mean long-distance travel no longer requires experience. Once upon a time, they were common in every village, even being found randomly in the middle of forests or deserts, probably leftover structures."]
 			id: "7E1C64AA0AA235C2"
-			rewards: [{
-				id: "4E83193BB6983CCC"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+			rewards: [
+				{
+					id: "4E83193BB6983CCC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
 						}
-						type: "building_kit"
 					}
+					random_bonus: 1
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "30AD2C1C4830EF5F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				id: "20A4244FEDD769DE"
@@ -7135,7 +7396,7 @@
 				}
 				type: "item"
 			}]
-			title: "The Moon"
+			title: "&4The Moon"
 			x: 16.474999999999998d
 			y: 0.6750000000000007d
 		}
@@ -8163,6 +8424,15 @@
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
+			description: [
+				"The Tinker Station will be the first workstation of many tinkering Hermit card holders. It facilitates the assembly of tool parts into specialized tools. It can later be upgraded into the Tinker's Anvil."
+				""
+				"Modifiers can also be applied to tinker tools using this table."
+				"{@pagebreak}"
+				"The part builder serves to build rudimentary tool parts and casts."
+				""
+				"Any tinkering workstation can be connected to adjacent inventories such as chests or workstations."
+			]
 			hide_dependency_lines: true
 			id: "087234557EE4E2A3"
 			rewards: [{
@@ -8178,6 +8448,7 @@
 						type: "building_kit"
 					}
 				}
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [
@@ -8208,11 +8479,17 @@
 					type: "item"
 				}
 			]
+			title: "Early Tinkering"
 			x: -2.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["087234557EE4E2A3"]
+			description: [
+				"The Tinker's Anvil is a more advanced version of the Tinker Station, able to assemble metal cast tool parts and a greater variety of tools."
+				"{@pagebreak}"
+				"The Modifier Worktable serves to adjust, extract or hide modifiers."
+			]
 			id: "1FCBF10EB0F49502"
 			rewards: [{
 				id: "611568DBD130C45C"
@@ -8231,6 +8508,7 @@
 						}
 						id: "tconstruct:modifier_worktable"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -8247,11 +8525,17 @@
 					type: "item"
 				}
 			]
+			title: "Tinkering"
 			x: -2.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
+			description: [
+				"The part chest is specialized to hold solely tool parts in an optimized manner, unlike a regular chest."
+				""
+				"The Tinker's Chest is flexible, able to hold a larger variety of items but in lower stackable quantities. It holds 64 slots but in stacks of 16 instead of 64."
+			]
 			hide_dependency_lines: true
 			id: "13FC54673932E4F0"
 			rewards: [{
@@ -8267,6 +8551,7 @@
 						type: "building_kit"
 					}
 				}
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [
@@ -8297,11 +8582,13 @@
 					type: "item"
 				}
 			]
+			title: "Efficient Tinkering Storage"
 			x: -3.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["13FC54673932E4F0"]
+			description: ["The cast chest serves to store solely casts in an optimized manner."]
 			id: "79706E9B3409F8C8"
 			rewards: [{
 				id: "023BFFD4828C559F"
@@ -8747,6 +9034,11 @@
 		}
 		{
 			dependencies: ["36318C8D65509470"]
+			description: [
+				"Steel can be produced by smelting coal coke and iron in an induction smelter."
+				""
+				"Coal coke can be produced in the pyrolizer from regular coal."
+			]
 			id: "33F8735D8322AFE6"
 			tasks: [
 				{
@@ -8775,12 +9067,20 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0A681FD7360B7403"
+					item: "createmetallurgy:steel_ingot"
+					optional_task: true
+					type: "item"
+				}
 			]
+			title: "Steel Making"
 			x: -18.75d
 			y: 0.6750000000000007d
 		}
 		{
 			dependencies: ["2E2A38A96D401883"]
+			description: ["The &9Hierophant&r's natural progression is to attain the &bHigh Priestess pathway&r as well. Above, I have written down the materials required to make the simple machine frame from the &9Hierophant&r's side."]
 			hide_dependency_lines: true
 			id: "51211E92BC865FDC"
 			rewards: [{
@@ -8797,6 +9097,7 @@
 				type: "item"
 			}]
 			size: 0.8d
+			subtitle: "Unlocking the High Priestess Pathway"
 			tasks: [
 				{
 					count: 2L
@@ -8877,6 +9178,12 @@
 				"33F8735D8322AFE6"
 				"51302FFECDC0E0A7"
 			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The High Priestess pathway's own distinctive method of producing their own simple casing uses the materials I've noted above."
+				"{@pagebreak}"
+				"As steel is frequently used, it may prove useful to semi-automate its process."
+			]
 			id: "2A13540D4E396260"
 			rewards: [{
 				id: "75FBD354F5D7E194"
@@ -8955,7 +9262,22 @@
 		}
 		{
 			dependencies: ["33BA0ACE3EA7C44B"]
+			description: [
+				"Although primarly made by &bHigh Priestess&r card holders, &dHermit&r card holders can adhere to the &bHigh Priestess&r path as well by making these same circuits."
+				""
+				"&dHermits&r can switch to this pathway "
+				"{ \"text\": \"through one of the alternate ways to make their casing.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AABF2BA290CD429\" } }"
+				"{@pagebreak}"
+				"If you're confused about where to find the &bHigh Priestess&r pathway journal entries in this book, look around the blue section. It is still an adjacent path to the &dHermit&r despite the fact it's not obvious."
+			]
 			id: "54BE967A3164579C"
+			rewards: [{
+				id: "3C5EF3C38D81EBD1"
+				item: "concatenationcore:circuit"
+				type: "item"
+			}]
+			size: 1.1d
+			subtitle: "Unlocking the High Priestess Pathway"
 			tasks: [{
 				id: "76D10185158CB1CB"
 				item: {
@@ -8969,11 +9291,16 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 15.5d
+			x: -4.4d
+			y: 15.950000000000001d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
+			description: [
+				"Electrum is a material frequently used in circuits and electronic machinery, especially by the High Priestess and Hierophant pathways."
+				""
+				"It is made from alloying 1 part gold and 1 part silver."
+			]
 			id: "59D783372A16F858"
 			rewards: [{
 				id: "42A8A89BE9535657"
@@ -9004,22 +9331,29 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "4AE782719D5A61F7"
-			rewards: [{
-				id: "2A278D042718DBA9"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			rewards: [
+				{
+					id: "2A278D042718DBA9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
 						}
 					}
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "industrialforegoing:industrial_foregoing"
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "256972EC8615FBC0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			size: 1.2d
 			tasks: [{
 				id: "233B089D0B071031"
@@ -9035,7 +9369,7 @@
 				}
 				type: "item"
 			}]
-			title: "The High Priestess"
+			title: "&bThe High Priestess"
 			x: -20.875d
 			y: 3.424999999999997d
 		}
@@ -9227,6 +9561,7 @@
 				title: "Preface"
 				type: "checkmark"
 			}]
+			title: "&ePreface"
 			x: 0.25d
 			y: -0.5d
 		}
@@ -9237,10 +9572,12 @@
 				"{@pagebreak}"
 				"&aA starting pathway only determines the start of progression as it is intended to add together different pathways (mods), hence the name of the modpack. "
 				""
+				"&aMany journal entries use terminology proper to this pack. Card holders are those who choose a certain pathway. When an Hermit crafts the Tower card, they will be both a Hermit card holder and Tower card holder. The name of a pathway generally refers to a mod such as Tower being Create and its addons while Hermit is Tinkers' Construct."
+				""
 				"{@pagebreak}"
 				"&aIf you would like a deeper explanation on the preface, look into Concatenation Gehenna (when it releases), the sister pack where the player embarks on the exact same journey as Eleonore writing the quests. Her journey differs in that the Fool Pathway has all of the possible starts at once, given that they find what they need through exploration. "
 				""
-				"&e- Mitemi, Modpack Author&r"
+				"&e- Mitemi and Tikup, Modpack Authors&r"
 			]
 			icon: "concatenationcore:gold_paper"
 			id: "1EFB1193B63BA522"
@@ -9251,6 +9588,7 @@
 				title: "Mod Author's Note"
 				type: "checkmark"
 			}]
+			title: "&eMod Author's Note"
 			x: 0.25d
 			y: 0.5d
 		}
@@ -9544,6 +9882,7 @@
 		}
 		{
 			dependencies: ["545CB21B2B59BA32"]
+			description: ["The fluxduct transports RF power and distributes it across all connected machines."]
 			id: "5BAA69CBD6B64BEA"
 			rewards: [{
 				count: 2
@@ -9573,8 +9912,14 @@
 				"59D783372A16F858"
 				"4FA1B8DD76B592DD"
 			]
+			description: ["The &6Strength Pathway&r is a mighty fusion of the &eMagician&r and &dHermit&r pathways, with the ability to produce some of the most powerful weapon in the land, along with decent but not specialized armour sets."]
 			hide_dependency_lines: true
 			id: "3060CAEE078FE9A0"
+			rewards: [{
+				id: "5B2450B41D122B20"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "2A6BBDEB8C9B08B3"
@@ -9590,7 +9935,7 @@
 				}
 				type: "item"
 			}]
-			title: "Strength"
+			title: "&6Strength"
 			x: 0.5d
 			y: 20.0d
 		}
@@ -9764,6 +10109,15 @@
 		}
 		{
 			dependencies: ["3A27EA4C48429EA7"]
+			description: [
+				"I have written down the materials required for a &dHermit&r to craft the Simple Machine Frame of the &bHigh Priestess&r pathway. "
+				""
+				"Through this, it's possible to switch pathways from &dHermit&r to &9Hierophant&r and vice versa."
+				"{@pagebreak}"
+				"This will require the regular andesite alloy flattened into a plate, either with help of machinery from the &7Tower pathway&r or inefficiently with the help of a crushing hammer. "
+				"{@pagebreak}"
+				"You will also need to cast bronze into a gear cast to manufacture the bronze gears required."
+			]
 			hide_dependency_lines: true
 			id: "6AABF2BA290CD429"
 			rewards: [{
@@ -9783,6 +10137,7 @@
 				type: "item"
 			}]
 			size: 0.8d
+			subtitle: "Unlocking the High Priestess Pathway"
 			tasks: [
 				{
 					count: 2L
@@ -9801,15 +10156,7 @@
 				{
 					count: 2L
 					id: "0C6B3FCFC6368068"
-					item: {
-						Count: 2
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "createdeco:industrial_iron_ingot"
-					}
+					item: "create:brass_ingot"
 					type: "item"
 				}
 				{
@@ -10023,7 +10370,13 @@
 		}
 		{
 			dependencies: ["3CC948E467CCC4C6"]
+			description: ["The &3Judgement Pathway&r has access to powerful firearms which can be manufactured with resources common to the &7Tower Pathway&r. "]
 			id: "3F86C492412EBA3F"
+			rewards: [{
+				id: "1A04DDE80D9E5411"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "75AA9D315F15101E"
@@ -10039,13 +10392,33 @@
 				}
 				type: "item"
 			}]
-			title: "Judgement"
+			title: "&3Judgement"
 			x: -6.0d
 			y: 23.0d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
+			description: [
+				"Fireite is an advanced alloy, made from a pure crystal, netherite, swift alloy and a springaline shard."
+				"{@pagebreak}"
+				"A common way for Magician card holders to harvest large quantities of ancient debris is to setup an Ore Shrine in the Netherworld."
+				""
+				"Furthermore, dimensional shards can be refined into ancient debris. They are often acquired as a byproduct of ancient debris mining. The Magician pathway has a uniquely efficient processing method, requiring fire crystals."
+			]
 			id: "51E48EAB50B0971E"
+			rewards: [
+				{
+					id: "711E560E47D4C3F0"
+					item: "rftoolsbase:dimensionalshard"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "3EA566E3F8A2EAA5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "2A961A4BE5B91E36"
 				item: {
@@ -10455,11 +10828,17 @@
 				}
 				type: "item"
 			}]
+			title: "&4Death"
 			x: 4.6d
 			y: -10.924999999999999d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
+			description: [
+				"Rose gold is a crucial material of the Tower pathway, frequently used in expansive machinery."
+				""
+				"It is made from alloying 1 part copper and 1 part gold."
+			]
 			id: "33BA0ACE3EA7C44B"
 			rewards: [{
 				id: "21CBEAB74BA7951C"
@@ -10484,7 +10863,20 @@
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
+			description: [
+				"The budding shrine is an especially useful shrine for renewable amethyst production close to home."
+				""
+				"It requires a steady flow of earth element, so using it next to an earth source is recommended. Check it every once in a while to see if it's grown a full size amethyst cluster."
+				"{@pagebreak}"
+				"It can also be upgraded to produce"
+				"{ \"text\": \"springaline shards instead.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"32679005B33A591B\" } }"
+			]
 			id: "34457CDE76EDFEAC"
+			rewards: [{
+				id: "4E4C11CD83955585"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "40537F2E8F7EC36E"
 				item: {
@@ -10503,7 +10895,20 @@
 		}
 		{
 			dependencies: ["34457CDE76EDFEAC"]
+			description: [
+				"One of the main strengths of the budding shrine is that it can be upgraded with this Springaline Shrine Upgrade. "
+				""
+				"Springaline can become a renewable resource growing in someone's home."
+				"{@pagebreak}"
+				"However, this consumes more earth source than a normal shrine."
+			]
 			id: "32679005B33A591B"
+			rewards: [{
+				count: 3
+				id: "0B8865F241D4897C"
+				item: "minecraft:amethyst_cluster"
+				type: "item"
+			}]
 			size: 0.75d
 			tasks: [{
 				id: "11FA2227669283AC"
@@ -10893,6 +11298,11 @@
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
 			id: "5F12CF1071CE8A45"
+			rewards: [{
+				id: "1C9B5E2B85F1CF38"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "6A6B9F75043B5291"
@@ -10914,19 +11324,26 @@
 		{
 			dependencies: ["4D66CC58CC466767"]
 			id: "10A7F0DA56020A8C"
-			rewards: [{
-				id: "538EF4CA22CD2B7A"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			rewards: [
+				{
+					id: "538EF4CA22CD2B7A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
 						}
+						id: "integrateddynamics:on_the_dynamics_of_integration"
 					}
-					id: "integrateddynamics:on_the_dynamics_of_integration"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "335D89A12104BE95"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				id: "361F6FC92508FC23"
@@ -11176,6 +11593,11 @@
 		{
 			dependencies: ["3F86C492412EBA3F"]
 			id: "6CC9A41A95921C52"
+			rewards: [{
+				id: "3ACCED049E01FB49"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "764D04B909D8AD0C"
@@ -13935,7 +14357,7 @@
 				}
 				type: "item"
 			}]
-			title: "Justice"
+			title: "&2Justice"
 			x: -33.65d
 			y: 17.224999999999998d
 		}
@@ -13979,6 +14401,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4The Hanged Man"
 			x: 24.9d
 			y: 19.349999999999998d
 		}
@@ -14015,6 +14438,7 @@
 				}
 				type: "item"
 			}]
+			title: "&3The Lovers"
 			x: 27.9d
 			y: 10.85d
 		}
@@ -15432,6 +15856,7 @@
 					type: "item"
 				}
 			]
+			title: "Steel Armor"
 			x: -17.5d
 			y: -4.5d
 		}
@@ -15712,6 +16137,11 @@
 			]
 			hide_dependency_lines: true
 			id: "679D7B535BE7E8B2"
+			rewards: [{
+				id: "4F1FA52B077C21EB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "3C234481D0AFB2DC"
@@ -15874,9 +16304,23 @@
 				"3060CAEE078FE9A0"
 				"3F86C492412EBA3F"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "one_started"
+			description: [
+				"The Calralite ingot, often nicknamed as Celestial Calralite is a powerful material fit for high grade armours and weapons."
+				""
+				"It is also used in high-tech machinery by the High Priestess pathway."
+				"{@pagebreak}"
+				"Quite ironically, the most efficient way of gathering the materials for this alloy is by mining in the Netherworld. "
+				""
+				"Magician card holders can especially make great use of the ore shrine to yield great quantities of cobalt and wolframite."
+			]
 			hide_dependency_lines: true
 			id: "6853E3A8E74D815A"
+			rewards: [{
+				id: "15FEE0284C3C75C5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7F9B690C8A47F47D"
 				item: {
@@ -16150,6 +16594,7 @@
 				}
 				type: "item"
 			}]
+			title: "&5The Empress"
 			x: -3.4499999999999997d
 			y: -10.924999999999999d
 		}
@@ -17094,6 +17539,11 @@
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
+			description: [
+				"Mayullyn is one of the best quality materials around, with impressive durability and performance."
+				""
+				"It is made from alloying 3 parts cobalt and 1 part ancient debris."
+			]
 			id: "45DF5B6D709F2D85"
 			rewards: [{
 				id: "01352CE535EC7C0D"
@@ -17110,6 +17560,11 @@
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
+			description: [
+				"Specialized tools can be assembled with tool parts for more efficient mining, woodcutting and shoveling. Although you can assemble tools with the simple Tinker Station, I would recommend casting stronger metals into tool parts for greater durability, speed, and damage."
+				"{@pagebreak}"
+				"The Broadaxe can cut a tree in a single shot. The Sledge Hammer can mine in a 3x3 area and the excavator similarly digs in a 3x3 area. "
+			]
 			id: "5D90648C40D14717"
 			rewards: [{
 				id: "5481DD2A50E44CAF"
@@ -17166,6 +17621,7 @@
 							}]
 						}
 					}
+					title: "Any Broadaxe"
 					type: "item"
 				}
 				{
@@ -17217,6 +17673,7 @@
 							}]
 						}
 					}
+					title: "Any Sledge Hammer"
 					type: "item"
 				}
 				{
@@ -17272,14 +17729,21 @@
 							}]
 						}
 					}
+					title: "Any Excavator"
 					type: "item"
 				}
 			]
+			title: "Specialized Tools"
 			x: -2.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
+			description: [
+				"The vein hammer is a useful specialized tool for the lazy miners that want to dig out an entire vein of ores at once."
+				""
+				"It also mines blocks of the similar type within a small area."
+			]
 			id: "6FF3E0F49A96AC0C"
 			rewards: [{
 				id: "0735677766088AB0"
@@ -17335,13 +17799,26 @@
 						}]
 					}
 				}
+				title: "Any Vein Hammer"
 				type: "item"
 			}]
+			title: "Vein Hammer"
 			x: -1.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
+			description: [
+				"Although an axe doubles as a good weapon and woodcutting tool, it is not specialized for combat. There are various melee weapon designs to choose from, each having their advantages and downsides."
+				"{@pagebreak}"
+				"The regular sword is familiar to most. Decent attack speed and decent damage. It does not have the blocking abilities of the giant sword, but it is still an efficient weapon."
+				"{@pagebreak}"
+				"The dagger has faster attack speed, but lower damage. The main advantage is that is has a lower manufacturing cost. It can be dual wielded."
+				"{@pagebreak}"
+				"The cleaver is closer to an axe, but is a larger more powerful sword. It has the advantage of a sweeping attack over the axe, and has a greater chance of beheading mobs."
+				"{@pagebreak}"
+				"Although the scythe is a harvesting tool foremost, it almost works as an area of effect weapon."
+			]
 			id: "49AD4063DDEB0BCE"
 			rewards: [{
 				id: "64DED6371F4AD794"
@@ -17349,12 +17826,51 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "7AC172F55C79E31D"
+				id: "1B25CEF4A3F1AA4C"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
+							{
+								Count: 1b
+								id: "tconstruct:sword"
+								tag: {
+									Damage: 0
+									tic_broken: 0b
+									tic_materials: [
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+									]
+									tic_modifiers: [
+										{
+											level: 3
+											name: "tconstruct:experienced"
+										}
+										{
+											level: 1
+											name: "tconstruct:silky_shears"
+										}
+									]
+									tic_multipliers: {
+										"tconstruct:durability": 1.1f
+										"tconstruct:mining_speed": 0.5f
+									}
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:attack_damage": 4.5f
+										"tconstruct:attack_speed": 1.84f
+										"tconstruct:durability": 198.0f
+										"tconstruct:harvest_tier": "minecraft:iron"
+										"tconstruct:mining_speed": 4.8875f
+									}
+									tic_volatile_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}
 							{
 								Count: 1b
 								id: "tconstruct:cleaver"
@@ -17397,6 +17913,56 @@
 									tic_volatile_data: {
 										abilities: 1
 										upgrades: 2
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "tconstruct:dagger"
+								tag: {
+									Damage: 0
+									tic_broken: 0b
+									tic_materials: [
+										"tconstruct:electrum"
+										"tconstruct:electrum"
+									]
+									tic_modifiers: [
+										{
+											level: 2
+											name: "tconstruct:experienced"
+										}
+										{
+											level: 1
+											name: "tconstruct:offhand_attack"
+										}
+										{
+											level: 1
+											name: "tconstruct:padded"
+										}
+										{
+											level: 1
+											name: "tconstruct:silky_shears"
+										}
+									]
+									tic_multipliers: {
+										"tconstruct:attack_damage": 0.65f
+										"tconstruct:durability": 0.75f
+										"tconstruct:mining_speed": 0.75f
+									}
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:attack_damage": 2.925f
+										"tconstruct:attack_speed": 2.3f
+										"tconstruct:block_amount": 10.0f
+										"tconstruct:durability": 135.0f
+										"tconstruct:harvest_tier": "minecraft:iron"
+										"tconstruct:mining_speed": 7.3312497f
+										"tconstruct:use_item_speed": 1.0f
+									}
+									tic_volatile_data: {
+										abilities: 1
+										"tconstruct:duel_wielding": 1b
+										upgrades: 3
 									}
 								}
 							}
@@ -17448,50 +18014,13 @@
 									}
 								}
 							}
-							{
-								Count: 1b
-								id: "tconstruct:sword"
-								tag: {
-									Damage: 0
-									tic_broken: 0b
-									tic_materials: [
-										"tconstruct:electrum"
-										"tconstruct:electrum"
-										"tconstruct:electrum"
-									]
-									tic_modifiers: [
-										{
-											level: 3
-											name: "tconstruct:experienced"
-										}
-										{
-											level: 1
-											name: "tconstruct:silky_shears"
-										}
-									]
-									tic_multipliers: {
-										"tconstruct:durability": 1.1f
-										"tconstruct:mining_speed": 0.5f
-									}
-									tic_persistent: { }
-									tic_stats: {
-										"tconstruct:attack_damage": 4.5f
-										"tconstruct:attack_speed": 1.84f
-										"tconstruct:durability": 198.0f
-										"tconstruct:harvest_tier": "minecraft:iron"
-										"tconstruct:mining_speed": 4.8875f
-									}
-									tic_volatile_data: {
-										abilities: 1
-										upgrades: 3
-									}
-								}
-							}
 						]
 					}
 				}
+				title: "Any Sword, Cleaver, Dagger or Scythe"
 				type: "item"
 			}]
+			title: "Melee Weapons"
 			x: -2.5d
 			y: 11.5d
 		}
@@ -18049,6 +18578,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4The Devil"
 			x: 39.0d
 			y: 19.5d
 		}
@@ -18891,6 +19421,7 @@
 					type: "item"
 				}
 			]
+			title: "Casting"
 			x: -1.0d
 			y: 9.0d
 		}
