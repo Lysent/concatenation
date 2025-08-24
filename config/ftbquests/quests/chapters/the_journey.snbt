@@ -112,7 +112,9 @@
 					type: "item"
 				}
 				{
-					auto: "invisible"
+					auto: "enabled"
+					command: "/decstages add @a Temperance_Pathway"
+					elevate_perms: true
 					icon: {
 						Count: 1
 						id: "hexerei:witch_helmet"
@@ -120,12 +122,10 @@
 							Damage: 0
 						}
 					}
-					id: "6E80F74B9F3EB273"
-					ignore_reward_blocking: true
-					stage: "temperance"
+					id: "60AC080C82AF6055"
+					silent: true
 					team_reward: false
-					title: "Occult Knowledge"
-					type: "gamestage"
+					type: "command"
 				}
 			]
 			size: 1.25d

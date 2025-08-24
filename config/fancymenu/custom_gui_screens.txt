@@ -11,6 +11,7 @@ custom_gui {
   transparent_world_background_overlay = false
   pause_game = true
 }
+
 custom_gui {
   identifier = welcomescreen_welcome
   title = 
@@ -19,3 +20,4 @@ custom_gui {
   transparent_world_background_overlay = false
   pause_game = true
 }
+
