@@ -7141,6 +7141,7 @@
 		}
 		{
 			dependencies: ["48182227AA27C096"]
+			description: ["Without the Hermit, shafts are, oddly, a rarity. While I've found shafts in abandoned workshops and factories, the surviving villagers around the land keep a stock of just about every mechanical component except the basic shaft."]
 			id: "06856516470E742D"
 			tasks: [{
 				id: "58DC9414FDC47C6D"
@@ -7160,6 +7161,7 @@
 		}
 		{
 			dependencies: ["48182227AA27C096"]
+			description: ["It's a box, what do you want me to say? You can make all sorts of mechanical... machines in this."]
 			id: "13B6EECFB6B3911E"
 			tasks: [{
 				id: "08BE7FAAA453C079"
@@ -7179,6 +7181,7 @@
 		}
 		{
 			dependencies: ["06856516470E742D"]
+			description: ["The lack of shafts has forced me to make... 'small cog shafts' a couple of times. It also seems like the trees have been weakened by some force, meaning large cogwheels require sturdier construction."]
 			id: "139E166A1202B454"
 			tasks: [
 				{
@@ -7216,6 +7219,7 @@
 				"139E166A1202B454"
 				"13B6EECFB6B3911E"
 			]
+			description: ["Change the direction of your rotation. Do you want an anecdote for this too?"]
 			hide_dependency_lines: true
 			id: "335D849D587BCE73"
 			tasks: [
@@ -7252,6 +7256,7 @@
 		}
 		{
 			dependencies: ["335D849D587BCE73"]
+			description: ["With these you can dynamically start and stop rotation through a shaft, and change its direction."]
 			id: "455C0A8247EDCCF6"
 			tasks: [
 				{
@@ -7286,6 +7291,7 @@
 		}
 		{
 			dependencies: ["7948CF780F8B6C0B"]
+			description: ["You can slate a stack's worth of stuff on this. Very good flat surface to bonk stuff on."]
 			id: "6B25C523000F8937"
 			tasks: [{
 				id: "79D010122225DCA5"
@@ -7305,6 +7311,7 @@
 		}
 		{
 			dependencies: ["6B25C523000F8937"]
+			description: ["BONK! Pressing and mixing are the base manufacturing methods of Tower engineering."]
 			id: "5ED52058EC7A215C"
 			tasks: [
 				{
@@ -7341,6 +7348,7 @@
 		{
 			dependencies: ["5ED52058EC7A215C"]
 			dependency_requirement: "one_started"
+			description: ["You can make big barrels of fluids and items with this, which can be quite useful to provide many access surfaces."]
 			id: "39DB90AC7E1BF135"
 			tasks: [
 				{
@@ -7401,6 +7409,7 @@
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
+			description: ["Humanity's quest for power usually amounts to boiling water to make steam spin something. This is one of those things."]
 			id: "56F69616D04213D9"
 			tasks: [{
 				id: "7C8940F4512A3713"
@@ -7421,6 +7430,7 @@
 		{
 			dependencies: ["5ED52058EC7A215C"]
 			dependency_requirement: "one_started"
+			description: ["These are always a pain to make, because of all of the sanding. Fortunately, the mechanical sander exists. You should probably invest in that. Just don't stand on it, or it'll sand your shoes off, and then your feet."]
 			id: "782EDA8D4D2B9CA6"
 			tasks: [{
 				id: "59D2EDE3200D9C0E"
@@ -7459,6 +7469,7 @@
 		}
 		{
 			dependencies: ["57DB683E290787AA"]
+			description: ["Fine and complex machinery is often made with brass, by virtue of its low friction."]
 			id: "2F7137679E3E480B"
 			tasks: [{
 				id: "1C8E181EE3B9F94D"
@@ -7478,6 +7489,7 @@
 		}
 		{
 			dependencies: ["2F7137679E3E480B"]
+			description: ["It may be a chore, but you'll need these mechanical crafters to make the crushing wheels, as well as other specific items. To craft without filling every slot of the crafter, you can simply provide redstone power, even just a button next to it will do."]
 			id: "53D5A1A751227C9A"
 			tasks: [{
 				count: 21L
@@ -7498,6 +7510,7 @@
 		}
 		{
 			dependencies: ["53D5A1A751227C9A"]
+			description: ["A great many stones and ores can be further processed with this crushing. Just don't get yourself stuck in there."]
 			id: "15B4E0B3C70D372F"
 			tasks: [{
 				count: 2L
@@ -7519,7 +7532,9 @@
 		}
 		{
 			dependencies: ["15B4E0B3C70D372F"]
+			description: ["I never had use for a train. You should make one, though. Because it's cool."]
 			id: "692DE80F324E6700"
+			subtitle: "Choo choo!"
 			tasks: [{
 				id: "2BE7A4BE3BD8EFF1"
 				item: {
@@ -7539,6 +7554,7 @@
 		}
 		{
 			dependencies: ["57DB683E290787AA"]
+			description: ["These mechanisms, though mildly annoying to assemble, are the foundation of more complex machines."]
 			id: "61F2F0F9E0158106"
 			tasks: [{
 				id: "203F453D332C208E"
@@ -7580,6 +7596,7 @@
 		}
 		{
 			dependencies: ["39DB90AC7E1BF135"]
+			description: ["It makes fluids go. Well, until you start mixing them. Don't do that."]
 			id: "547DFAC1D247643C"
 			tasks: [
 				{
@@ -7615,6 +7632,7 @@
 		{
 			dependencies: ["5ED52058EC7A215C"]
 			dependency_requirement: "one_started"
+			description: ["The roller is the tool for drawing rods and wires, and the first stone on the path to turning rotational force to and from electricity."]
 			id: "34860EFC2864214C"
 			tasks: [{
 				id: "701E3953E944A9B5"
@@ -7634,6 +7652,7 @@
 		}
 		{
 			dependencies: ["34860EFC2864214C"]
+			description: ["Wire things together!"]
 			id: "749F271CD9E35A16"
 			tasks: [
 				{
@@ -7695,6 +7714,7 @@
 		}
 		{
 			dependencies: ["749F271CD9E35A16"]
+			description: ["Motors and generators are fundamentally the same thing, but driven in reverse."]
 			id: "29728950590EB2BB"
 			tasks: [
 				{
@@ -7730,6 +7750,7 @@
 		}
 		{
 			dependencies: ["547DFAC1D247643C"]
+			description: ["This foundry is surprisingly difficult to use. For its main use, steelmaking, the coke should be inserted into a glass foundry top, then the hatch closed. Dumping the coke right into the side of the basin does not work. Trust me, I tried. For several hours."]
 			id: "5C37D62CC88F677F"
 			tasks: [
 				{
@@ -7778,6 +7799,7 @@
 		}
 		{
 			dependencies: ["15B4E0B3C70D372F"]
+			description: ["A versatile lightweight metal, extracted from bauxite."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "3CC948E467CCC4C6"
@@ -7799,6 +7821,7 @@
 		}
 		{
 			dependencies: ["54B73403ADB72017"]
+			description: ["Steel tanks are required for the processing of oil. The steel pipes are more or less aesthetic, though."]
 			id: "0DBEF77B203B8850"
 			rewards: [{
 				count: 8
@@ -7848,7 +7871,7 @@
 		}
 		{
 			dependencies: ["0DBEF77B203B8850"]
-			description: ["You can use the Surface Scanner to find a suitable oil well."]
+			description: ["Sink a pipe to an oil source, and build a pumpjack above to extract raw petroleum. You can use the Surface Scanner to find a suitable oil well."]
 			id: "549AF60315DC3760"
 			tasks: [
 				{
@@ -7949,6 +7972,7 @@
 		}
 		{
 			dependencies: ["549AF60315DC3760"]
+			description: ["The distillation towers are built according to the pictographic diagrams in the recipes. Excess of a byproduct will clog the tower, so it can be pumped out into flarestacks. This probably releases a ton of greenhouse gases, but should we care?"]
 			id: "1704DE3E7DDE8A77"
 			rewards: [{
 				count: 6
@@ -7998,6 +8022,7 @@
 		}
 		{
 			dependencies: ["1704DE3E7DDE8A77"]
+			description: ["Engines intake a matching fuel and exhaust carbon dioxide."]
 			id: "5A2127E1FA8C7DE3"
 			rewards: [{
 				count: 8
@@ -9168,7 +9193,9 @@
 		}
 		{
 			dependencies: ["2F7137679E3E480B"]
+			description: ["A blaze trapped and forced to act as a sentient fireplace. You can feed it flammable items, or give it a bamboo straw so you can pump liquids into it."]
 			id: "4BC31DEA551E23FE"
+			subtitle: "Why is this fella all the way down over here?"
 			tasks: [{
 				id: "270CDD3B95713636"
 				item: {
@@ -9259,6 +9286,7 @@
 				"139E166A1202B454"
 				"13B6EECFB6B3911E"
 			]
+			description: ["With the Tower pathway, you can create many mechanical and kinetic things. If you ever find yourself needing further detail about this or that machine, it seems just pondering their existance for a while and an explanation will get magically projected into your eyes."]
 			id: "7948CF780F8B6C0B"
 			rewards: [{
 				count: 3
@@ -10209,6 +10237,7 @@
 				"4BC31DEA551E23FE"
 				"4FA1B8DD76B592DD"
 			]
+			description: ["Who needs magical enchanting when you have mass production? These machines were a great use to me, as enchantments are scarce on the hostile surface."]
 			hide_dependency_lines: true
 			id: "46AF90F7869F29F3"
 			size: 1.15d
@@ -13575,6 +13604,7 @@
 		}
 		{
 			dependencies: ["547DFAC1D247643C"]
+			description: ["A large oven that can bake the creosote out of coal. It's not perfect, however, and the coke it produces will most often need to get mixed with charcoal."]
 			id: "3A2A8FA6C9D7C1F2"
 			tasks: [
 				{
@@ -13612,7 +13642,9 @@
 				"3A2A8FA6C9D7C1F2"
 				"5C37D62CC88F677F"
 			]
+			description: ["Steel is the material of heavy machinery, the pathway to oil processing and self-contained engines."]
 			id: "54B73403ADB72017"
+			subtitle: "Made of steel! Made of steel."
 			tasks: [{
 				id: "08E810B17E283B57"
 				item: {
