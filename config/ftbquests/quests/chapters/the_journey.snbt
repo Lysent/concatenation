@@ -9521,6 +9521,10 @@
 				"6635F7B2CD984F4F"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"The Star pathway is the neutral ground between the virtuous and the evil of magic, featuring spells from both. The main caveat of embarking upon this path is that most if not everything must be acquired through exploration. "
+				"However, if you already have some skills in magic, you may be able to reproduce some of the magical materials."
+			]
 			hide_dependency_lines: true
 			id: "14DFB74A4390006D"
 			size: 1.15d
@@ -11946,6 +11950,7 @@
 		}
 		{
 			dependencies: ["1AFE9864E4F4DFB0"]
+			description: ["A magically-conductive, clay-like essence which can be used to craft various materials and items in sorcery."]
 			id: "37AA006B7ABACDC8"
 			tasks: [{
 				id: "3AECB12DA95926FE"
@@ -11968,6 +11973,7 @@
 				"37AA006B7ABACDC8"
 				"6FC66F464CF54CF4"
 			]
+			description: ["Demonic ash, seems to be perpetually smoldering. I never used it for proper magic, but it does make for a good hand warmer."]
 			id: "5145276716FB2377"
 			tasks: [{
 				id: "12A527D734EF42E0"
@@ -11979,6 +11985,7 @@
 		}
 		{
 			dependencies: ["6FC66F464CF54CF4"]
+			description: ["Runestones can be enchanted to craft school-specific garments or the corresponding upgrade orb."]
 			id: "446F8F31B5E96194"
 			tasks: [{
 				id: "7F697C5DFA649E27"
@@ -12001,6 +12008,7 @@
 				"446F8F31B5E96194"
 				"51D3EFAF0C58197A"
 			]
+			description: ["Each of the scools of scribed sorcery have a traditional garment which help in the power and efficiency of casting the corresponding spells. Have you chosen yours?"]
 			id: "0493EC94E8A9F325"
 			tasks: [{
 				id: "34EE10B8CFE37528"
@@ -12124,6 +12132,7 @@
 				"37AA006B7ABACDC8"
 				"1AFE9864E4F4DFB0"
 			]
+			description: ["The most mundane of the magical inks, it can scribe the weakest of spells."]
 			hide_dependency_lines: true
 			id: "47F1E172DB0819FC"
 			tasks: [{
@@ -12147,6 +12156,7 @@
 				"37AA006B7ABACDC8"
 				"1177AE48181D8F17"
 			]
+			description: ["A magical ink fortified with copper, it is composed of four units of common ink."]
 			hide_dependency_lines: true
 			id: "6FC66F464CF54CF4"
 			tasks: [{
@@ -12167,6 +12177,7 @@
 		}
 		{
 			dependencies: ["37AA006B7ABACDC8"]
+			description: ["Rare ink is often skipped over, but is the gateway into the strongest strata of spell enscription. Bein four times as concentrated as its prior tier, it is exalted from sixteen common inks."]
 			hide_dependency_lines: true
 			id: "51D3EFAF0C58197A"
 			tasks: [{
@@ -12190,6 +12201,7 @@
 				"37AA006B7ABACDC8"
 				"59468EAF45257207"
 			]
+			description: ["Epic ink is something you will most likely want to access in synchronicity with enchanted baubles. The Epic tier will bring you closer to the unstoppable power of mastered magic. Being once again fourfold concentrated from Rare ink, one Epic ink is formed from sixty-four bottles of common ink."]
 			hide_dependency_lines: true
 			id: "2611BFF44437C940"
 			tasks: [{
@@ -12210,6 +12222,7 @@
 		}
 		{
 			dependencies: ["37AA006B7ABACDC8"]
+			description: ["Legendary ink is the final, perfected spell-scribing ink, and allows one to break through into the Legendary tier of spells. After this point, enhancing the legendary spells amounts to overscribing them in the Arcane Anvil. This is the final four-fold exaltation of magical ink, and so is formed, at its base, from two-hundred-fifty-six, or four stacks of vials of common ink."]
 			hide_dependency_lines: true
 			id: "63B383DE2EEFE2F3"
 			tasks: [{
@@ -12230,6 +12243,7 @@
 		}
 		{
 			dependencies: ["63B383DE2EEFE2F3"]
+			description: ["There are ancient spells, legendary and long forgotten, seemingly researched by a society destroyed by their use. It seems like the scribings of these spells are unique, irrepoductible without the forgotten Art. To restore these otherworldly and powerful spells, you will need to restore diagrams from scraps of ancient knowledge and pressed into a core of Echo, which will allow you to accomodate the knowledge and produce one of these spells."]
 			id: "1E133F321CC64E1F"
 			tasks: [
 				{
@@ -12273,6 +12287,7 @@
 		}
 		{
 			dependencies: ["2611BFF44437C940"]
+			description: ["An ancient arcane material similar to netherite, it can be found at the bottoms of the world, or synthesized if you have magical knowledge and capabilities of the same level. It's extremely permeable to mana, and so quite useful for crafting various baubles, amulets, etc."]
 			id: "74EA3C5BD8FF2DEB"
 			tasks: [{
 				id: "0A0F536864EFE808"
@@ -12292,6 +12307,7 @@
 		}
 		{
 			dependencies: ["74EA3C5BD8FF2DEB"]
+			description: ["A mage needs to press every advantage they can get. While you can find some of these rings, amulets, or otherwise, some must be personally crafted."]
 			id: "03184CB5028CCC5B"
 			tasks: [{
 				id: "7D84FBCE5E883706"
@@ -12406,6 +12422,7 @@
 		}
 		{
 			dependencies: ["51D3EFAF0C58197A"]
+			description: ["These spellbooks are the unique craft of masters of a school of sorcery, and are a perfect trophy for a sorcerer of the corresponding school."]
 			id: "70AA51D04E41558B"
 			tasks: [{
 				id: "67AB5237996693A1"
@@ -12509,6 +12526,7 @@
 		}
 		{
 			dependencies: ["47F1E172DB0819FC"]
+			description: ["The simplest of spellbooks. I used one to scribble in, once."]
 			id: "4FBF9D1E551B2EC8"
 			tasks: [{
 				id: "259FA62132E6BF38"
@@ -12567,6 +12585,7 @@
 		}
 		{
 			dependencies: ["4FBF9D1E551B2EC8"]
+			description: ["Now we're talking. These spellbooks will provide helpful boons for the sorcerery apprentice."]
 			id: "7A5E60664DFB06C6"
 			tasks: [{
 				id: "027F8B967911404B"
@@ -12628,6 +12647,7 @@
 				"03184CB5028CCC5B"
 				"63B383DE2EEFE2F3"
 			]
+			description: ["The upgrade orbs allow to infuse a specific quality into armour and scribed spellbooks. Do note, however, that these various items have a limited capability to handle these small magical vessels."]
 			id: "1BB2ECC452AFB4DB"
 			tasks: [{
 				id: "31CAE4BB8CD0F301"
@@ -12751,6 +12771,7 @@
 		}
 		{
 			dependencies: ["1AFE9864E4F4DFB0"]
+			description: ["The Scroll Forge allows you to scribe your own magic scrolls, provided you have ink containing enough magical essence and the proper foci."]
 			id: "1177AE48181D8F17"
 			tasks: [{
 				id: "735762BEB5AE60C0"
@@ -12770,6 +12791,7 @@
 		}
 		{
 			dependencies: ["14DFB74A4390006D"]
+			description: ["This table has the necessary implements to study and transcribe spell scrolls to and from a spellbook. "]
 			id: "1AFE9864E4F4DFB0"
 			rewards: [{
 				id: "25F405BF2DBF63C7"
@@ -12804,6 +12826,7 @@
 		}
 		{
 			dependencies: ["1177AE48181D8F17"]
+			description: ["Allows you to smack more ink into scrolls, or orbs into armor. This is the workbench that will allow you to reach the final exaltation of spells."]
 			id: "59468EAF45257207"
 			tasks: [{
 				id: "58B84A55A4FEDB69"
@@ -12823,6 +12846,7 @@
 		}
 		{
 			dependencies: ["1E133F321CC64E1F"]
+			description: ["If one were to restore the entirety of the Cycle of Eldritch Scribings, it is likely it would allow one to develop the true ancient arts of Alchemy and Artifice. I regrettably never managed to find the entirety of the ancient knowledge, but it was of no matter since fully-formed alchemical implements do exist, somewhere in the world..."]
 			id: "301D160C2B3F2B79"
 			tasks: [
 				{
