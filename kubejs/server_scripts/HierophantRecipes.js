@@ -10,7 +10,9 @@ ServerEvents.recipes(event => {
                 'solarflux:photovoltaic_cell_1',
                 'concatenationcore:crushed_iron',
                 'concatenationcore:stickyredstone',
-                'create_enchantment_industry:printer'
+                'create_enchantment_industry:printer',
+                'createmetallurgy:graphite',
+                'createmetallurgy:graphite_gear_mold'
 
         ]
 
@@ -20,6 +22,27 @@ ServerEvents.recipes(event => {
 
         event.remove({ output: 'solarflux:sp_1', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'solarflux:sp_2', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:iron_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:tin_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:gold_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:copper_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:lead_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:silver_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:nickel_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:steel_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:rose_gold_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:bronze_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:electrum_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:invar_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:constantan_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:signalum_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:lumium_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:enderium_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:lapis_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:diamond_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:emerald_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:quartz_gear', type: 'minecraft:crafting_shaped' })
+
 
         event.shaped(
                 Item.of('quarryplus:solid_fuel_quarry'),
@@ -143,40 +166,7 @@ ServerEvents.recipes(event => {
                         'concatenationcore:meteorite',
                         'concatenationcore:crushed_zinc',
                         'concatenationcore:crushed_zinc',
-                        'minecraft:fire_charge',
-                        '#concatenation:hammers'
-                ]
-        )
-        event.shapeless(
-                Item.of('concatenationcore:alclad'),
-                [
-                        'concatenationcore:meteorite',
-                        'concatenationcore:meteorite',
-                        'concatenationcore:crushed_zinc',
-                        'concatenationcore:crushed_zinc',
-                        'elementalcraft:fire_shard',
-                        '#concatenation:hammers'
-                ]
-        )
-        event.shapeless(
-                Item.of('concatenationcore:alclad'),
-                [
-                        'concatenationcore:meteorite',
-                        'concatenationcore:meteorite',
-                        'concatenationcore:crushed_zinc',
-                        'concatenationcore:crushed_zinc',
-                        'elementalcraft:firecrystal',
-                        '#concatenation:hammers'
-                ]
-        )
-        event.shapeless(
-                Item.of('concatenationcore:alclad'),
-                [
-                        'concatenationcore:meteorite',
-                        'concatenationcore:meteorite',
-                        'concatenationcore:crushed_zinc',
-                        'concatenationcore:crushed_zinc',
-                        'ars_nouveau:fire_essence',
+                        '#concatenation:firing_item',
                         '#concatenation:hammers'
                 ]
         )
@@ -1226,6 +1216,333 @@ ServerEvents.recipes(event => {
                         'concatenationcore:transplant',
                         'immersive_weathering:golden_moss_clump'
                 ]
+        )
+        event.shaped(
+                Item.of('createmetallurgy:graphite', 4),
+                [
+                        'ABB',
+                        'BCD',
+                        'BDD'
+                ],
+                {
+                        D: 'minecraft:clay_ball',
+                        C: 'minecraft:coal_block',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'minecraft:coal'
+                }
+        )
+        event.shaped(
+                Item.of('createmetallurgy:graphite_gear_mold', 4),
+                [
+                        'ABC',
+                        'BDB',
+                        ' B '
+                ],
+                {
+                        D: 'hammerlib:gears/wooden',
+                        C: '#concatenation:firing_item',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:tin_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'thermal:tin_ingot',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:iron_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'minecraft:iron_ingot',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:gold_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'minecraft:gold_ingot',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:copper_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'thermal:copper_ingot',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:lead_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'thermal:lead_ingot',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:silver_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'thermal:silver_ingot',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:nickel_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'thermal:nickel_ingot',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:steel_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'thermal:steel_ingot',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:rose_gold_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'thermal:rose_gold_ingot',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:bronze_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'thermal:bronze_ingot',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:electrum_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'thermal:electrum_ingot',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:invar_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'thermal:invar_ingot',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:constantan_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'thermal:constantan_ingot',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:signalum_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'thermal:signalum_ingot',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:lumium_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'thermal:lumium_ingot',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:enderium_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'thermal:enderium_ingot',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:lapis_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'minecraft:lapis_lazuli',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:diamond_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'minecraft:diamond',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:emerald_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'minecraft:emerald',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
+        )
+
+        event.shaped(
+                Item.of('thermal:quartz_gear'),
+                [
+                        'ABC',
+                        'CCC',
+                        'CD '
+                ],
+                {
+                        D: 'minecraft:iron_nugget',
+                        C: 'minecraft:quartz',
+                        A: 'concatenationcore:ironclad_hammer',
+                        B: 'createmetallurgy:graphite_gear_mold'
+                }
         )
 
         event.recipes.thermal.pulverizer(Item.of('createmetallurgy:zinc_dust').withChance(1.5), 'create:zinc_ingot').energy(100)

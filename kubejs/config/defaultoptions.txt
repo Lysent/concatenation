@@ -21,7 +21,7 @@ toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
-mouseSensitivity:0.5
+mouseSensitivity:0.5019063600352114
 fov:0.5
 screenEffectScale:1.0
 fovEffectScale:1.0
@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","tacz_resources","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","fabric","resources/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","resources/LowOnFire_1.20.1.zip","resources/Stay_True_1.20.zip","resources/Nobushleaves.zip","resources/cubic-sun-moon-v1.8.1a.zip"]
-incompatibleResourcePacks:["builtin/towntalk","resources/Nobushleaves.zip"]
+resourcePacks:["vanilla","tacz_resources","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","fabric","resources/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","resources/LowOnFire_1.20.1.zip","resources/Stay_True_1.20.zip","resources/cubic-sun-moon-v1.8.1a.zip","resources/Icon Journey 1.1.zip","resources/Old+Iron+Chest.zip","resources/ReApplied.zip"]
+incompatibleResourcePacks:["builtin/towntalk","resources/Nobushleaves.zip","resources/Icon Journey 1.1.zip","resources/Old+Iron+Chest.zip","resources/ReApplied.zip","resources/Soleil-Roumain-Tips.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -135,7 +135,7 @@ key_key.modernfix.config:key.keyboard.unknown
 key_key.corpse.death_history:key.keyboard.u
 key_key.industrialforegoing.backpack.desc:key.keyboard.unknown
 key_key.curios.open.desc:key.keyboard.g
-key_iris.keybind.reload:key.keyboard.r
+key_iris.keybind.reload:key.keyboard.r:CONTROL
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_key.hpm.fire:key.keyboard.h
@@ -172,14 +172,6 @@ key_key.cofh.mode_change_decrement:key.keyboard.b
 key_psimisc.keybind:key.keyboard.c
 key_key.integrateddynamics.logic_programmer_focus_search:key.keyboard.f:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:key.keyboard.r:ALT
-key_key.spellbookopen:key.keyboard.z
-key_key.gui-key-modifier:key.keyboard.left.control
-key_key.spellbookchord:key.keyboard.unknown
-key_key.open-belt-pouch:key.keyboard.b
-key_key.cast-hand-slot:key.keyboard.unknown
-key_key.cast-belt-slot:key.keyboard.unknown
-key_key.cast-back-slot:key.keyboard.unknown
-key_key.cast-any-slot:key.keyboard.c
 key_key.structurize.teleport:key.keyboard.unknown
 key_key.structurize.move_forward:key.keyboard.up
 key_key.structurize.move_back:key.keyboard.down
@@ -280,7 +272,7 @@ key_key.tacz.open_config.desc:key.keyboard.t:ALT
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_create.keyinfo.ponder:key.keyboard.w
-key_chloride.zoom:key.keyboard.c
+key_chloride.zoom:key.keyboard.v
 key_key.journeymap.zoom_in:key.keyboard.equal
 key_key.journeymap.zoom_out:key.keyboard.minus
 key_key.journeymap.minimap_type:key.keyboard.left.bracket
@@ -324,8 +316,25 @@ key_key.ae2.wireless_pattern_encoding_terminal:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_keybind.reliquary.fortune_coin:key.keyboard.unknown
 key_key.ars_elemental.open_pouch:key.keyboard.j
+key_key.irons_spellbooks.spell_wheel:key.keyboard.r
+key_key.irons_spellbooks.spellbook_cast:key.keyboard.v
+key_key.irons_spellbooks.spell_bar_modifier:key.keyboard.left.alt
+key_key.irons_spellbooks.spell_quick_cast_1:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_2:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_3:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_4:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_5:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_6:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_7:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_8:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_9:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_10:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_11:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_12:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_13:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_14:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_15:key.keyboard.unknown
 key_key.minecolonies.toggle_goggles:key.keyboard.unknown
-key_justzoom.keybinds.keybind.zoom:key.keyboard.v
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0

@@ -51,7 +51,8 @@ ServerEvents.recipes(event => {
                 'mekanism:basic_universal_cable',
                 'mekanism:advanced_universal_cable',
                 'mekanism:energized_smelter',
-                'rftoolsbuilder:shape_card_quarry'
+                'rftoolsbuilder:shape_card_quarry',
+                'thermal:upgrade_augment_1'
         ]
 
         remove.forEach(item => {
@@ -306,9 +307,23 @@ ServerEvents.recipes(event => {
                 {
                         D: 'thermal:lumium_gear',
                         C: 'thermal:signalum_ingot',
-                        A: 'createmetallurgy:steel_ingot',
+                        A: 'createmetallurgy:steel_plate',
                         E: 'concatenationcore:signalum_coil',
                         B: '#concatenation:higher_circuits'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:upgrade_augment_1'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        A: 'thermal:invar_plate',
+                        B: 'minecraft:glass',
+                        C: '#concatenation:higher_circuits',
+                        D: 'thermal:gold_gear'
                 }
         )
         event.shaped(

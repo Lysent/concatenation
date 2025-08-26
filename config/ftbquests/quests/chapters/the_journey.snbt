@@ -544,7 +544,7 @@
 		{
 			dependencies: ["6F736EF54A792577"]
 			description: [
-				"Galvanized Iron is a useful materials to build machinery out of, as it immune to rusting as long as the zinc coating is still applied, unlike plain iron you might notice rusting in many locations around the world."
+				"Galvanized Iron is a useful materials to build machinery out of, as it is immune to rusting as long as the zinc coating is still applied, unlike plain iron you might notice rusting in many locations around the world."
 				"{@pagebreak}"
 				"I've witnessed a castle that was built with iron railings, completely rusted within a year. Fortunately, while it was still inhabited, the resident Magician could clear the rust free of charge with golden tools."
 			]
@@ -9065,6 +9065,11 @@
 				"Coal coke can be produced in the pyrolizer from regular coal."
 			]
 			id: "33F8735D8322AFE6"
+			rewards: [{
+				id: "103FA4918040E036"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "254352718BC6E9A1"
@@ -9354,6 +9359,7 @@
 				"36318C8D65509470"
 			]
 			dependency_requirement: "one_completed"
+			description: ["The &bHigh Priestess&r pathway is the traditional technological path based on automation of modular single machines usually contained within a block of space, united together into an entire facility."]
 			hide_dependency_lines: true
 			id: "4AE782719D5A61F7"
 			rewards: [
@@ -10018,20 +10024,28 @@
 		}
 		{
 			dependencies: ["36318C8D65509470"]
+			description: ["A dynamo generating power through the burning of fossil fuels such as coal, or biofuels such as wood."]
 			id: "405495BB2F379536"
-			rewards: [{
-				id: "69631D8A598D88BD"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			rewards: [
+				{
+					id: "69631D8A598D88BD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
 						}
+						id: "industrialforegoing:machine_frame_simple"
 					}
-					id: "industrialforegoing:machine_frame_simple"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "08CEF17A7F2FE9CE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "72D5278A007CB2C5"
 				item: {
@@ -10051,19 +10065,26 @@
 		{
 			dependencies: ["405495BB2F379536"]
 			id: "42353FA6F7027E06"
-			rewards: [{
-				id: "18C379294CC091C5"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			rewards: [
+				{
+					id: "18C379294CC091C5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
 						}
+						id: "thermal:machine_frame"
 					}
-					id: "thermal:machine_frame"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "38113F85E94E0610"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "0AD483B0D732BEDA"
 				item: {
@@ -10742,7 +10763,24 @@
 		}
 		{
 			dependencies: ["36318C8D65509470"]
+			description: [
+				"The multiservo press has various uses and is most useful to manufacture large quantities of plates, gears and coins."
+				"{@pagebreak}"
+				"The manual process of plate making and gear making can be quite tedious, therefore it is any High Priestess card holder's priority to automate this process."
+			]
 			id: "51302FFECDC0E0A7"
+			rewards: [
+				{
+					id: "269169C91A9F991A"
+					item: "thermal:diamond_gear"
+					type: "item"
+				}
+				{
+					id: "00996ED14EA0ABD5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "5893865D8DF1FC65"
 				item: {
@@ -10761,16 +10799,18 @@
 		}
 		{
 			dependencies: ["36318C8D65509470"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "thermal:energy_duct"
-			}
+			description: [
+				"The fluxduct transports RF power and distributes it across all connected machines."
+				""
+				"It can also be turned into a universal cable which can later be upgraded. The basic universal cable has same transfer rate as the fluxduct."
+			]
+			icon: "thermal:energy_duct"
 			id: "4D66CC58CC466767"
+			rewards: [{
+				id: "5E3150A7C2BE5195"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.75d
 			tasks: [
 				{
@@ -10806,7 +10846,13 @@
 		}
 		{
 			dependencies: ["2A13540D4E396260"]
+			description: ["The pulverizer can efficiently grind items to dust."]
 			id: "51F0251F529BE03C"
+			rewards: [{
+				id: "75869CA476172FB1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "10A38B480D001D74"
 				item: {
@@ -10827,6 +10873,11 @@
 			dependencies: ["36318C8D65509470"]
 			hide_dependency_lines: true
 			id: "333D89A47DCEEC3D"
+			rewards: [{
+				id: "187C7059B809018A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3F7F65F01FB91F4B"
 				item: {
@@ -10999,6 +11050,12 @@
 			dependencies: ["33F8735D8322AFE6"]
 			hide_dependency_lines: true
 			id: "5938433F947FABD5"
+			rewards: [{
+				id: "3E932FC9858BB2C8"
+				item: "thermal:signalum_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C9F2DB2929F0CB7"
 				item: {
@@ -11019,6 +11076,12 @@
 			dependencies: ["33F8735D8322AFE6"]
 			hide_dependency_lines: true
 			id: "46F756D518053599"
+			rewards: [{
+				id: "4ED675DB03E0970E"
+				item: "thermal:lumium_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "79B0E490EB9AB77C"
 				item: {
@@ -11039,6 +11102,11 @@
 			dependencies: ["33F8735D8322AFE6"]
 			hide_dependency_lines: true
 			id: "2DFD2B7661869743"
+			rewards: [{
+				id: "1BD3D35F5D46417B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0463B90E248E8D66"
 				item: {
@@ -11106,16 +11174,14 @@
 		}
 		{
 			dependencies: ["4D66CC58CC466767"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "rftoolspower:cell1"
-			}
+			description: ["The powercell is the first form of storing RF power. It can be set to accept an input or with the right click of the smart wrench on one of its faces."]
+			icon: "rftoolspower:cell1"
 			id: "2638CC10E4FF66C1"
+			rewards: [{
+				id: "29C5BA55F0DDF7C8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.9d
 			tasks: [
 				{
@@ -11312,6 +11378,11 @@
 			dependencies: ["36318C8D65509470"]
 			hide_dependency_lines: true
 			id: "4C5A2566E0BD8D23"
+			rewards: [{
+				id: "20A3605A8B4684C0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2AC65F3835982ECB"
 				item: {
@@ -11356,6 +11427,7 @@
 		}
 		{
 			dependencies: ["4D66CC58CC466767"]
+			description: ["The Minor Arcana of the Cup is a branch under the High Priestess pathway, delving more intensively into logistics through cables."]
 			id: "10A7F0DA56020A8C"
 			rewards: [
 				{
@@ -11450,16 +11522,18 @@
 				"7EB335BB570C5F7F"
 			]
 			dependency_requirement: "one_completed"
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "integrateddynamics:menril_sapling"
-			}
+			description: [
+				"Menryl trees can be found scattered throughout the world. They will usually be harvested for their titular menryl."
+				""
+				"If you have trouble finding such trees, it is possible to artificially grow a sapling using the blast chiller."
+			]
+			icon: "integrateddynamics:menril_sapling"
 			id: "10C786520F0893C9"
+			rewards: [{
+				id: "18F17BFD59556316"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6295558AE7C034BF"
 				item: {
@@ -11588,6 +11662,11 @@
 			dependencies: ["33F8735D8322AFE6"]
 			hide_dependency_lines: true
 			id: "7AAA4B368A0F6CD0"
+			rewards: [{
+				id: "1F436D9EC8E4FBA0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "46EA218680993E0C"
 				item: {
@@ -14954,7 +15033,13 @@
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
+			description: ["This box of invar filled with electronics is used to upgrade some thermal machinery."]
 			id: "25E533314EFCD83A"
+			rewards: [{
+				id: "235E767B34DD9F1D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.8d
 			tasks: [{
 				id: "6DE9D718B13E4FD4"
@@ -15046,11 +15131,6 @@
 				id: "5C0448ADA38A976C"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -15084,6 +15164,7 @@
 						]
 					}
 				}
+				title: "Any Capacity Upgrade"
 				type: "item"
 			}]
 			x: -21.125d
@@ -15097,11 +15178,6 @@
 				id: "44C1301669159844"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -15144,6 +15220,7 @@
 						]
 					}
 				}
+				title: "Any Other Upgrade"
 				type: "item"
 			}]
 			x: -21.625d
@@ -16531,6 +16608,11 @@
 		{
 			dependencies: ["2638CC10E4FF66C1"]
 			id: "57E0A183AE783034"
+			rewards: [{
+				id: "26F0D4C77E3DB962"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.1d
 			tasks: [{
 				id: "1F5BE0F76CE5741D"
@@ -16551,6 +16633,11 @@
 		{
 			dependencies: ["57E0A183AE783034"]
 			id: "07F5DEF929339543"
+			rewards: [{
+				id: "77EB2022016A63AB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "006FC3EF15FE0832"
@@ -16580,6 +16667,11 @@
 				id: "rftoolsbase:tablet"
 			}
 			id: "67512CE704637A76"
+			rewards: [{
+				id: "1AF2EE2CC8B57350"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.9d
 			tasks: [
 				{
