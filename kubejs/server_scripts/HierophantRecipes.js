@@ -1299,7 +1299,7 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         D: 'minecraft:iron_nugget',
-                        C: 'thermal:copper_ingot',
+                        C: 'minecraft:copper_ingot',
                         A: 'concatenationcore:ironclad_hammer',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
