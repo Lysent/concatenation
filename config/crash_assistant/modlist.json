@@ -684,11 +684,6 @@
     "modId": "journeymap",
     "version": "5.10.3"
   },
-  "justzoom_forge_2.1.1_MC_1.20.1.jar": {
-    "jarName": "justzoom_forge_2.1.1_MC_1.20.1.jar",
-    "modId": "justzoom",
-    "version": "2.1.1"
-  },
   "kjsindustrialforegoing-1.0.jar": {
     "jarName": "kjsindustrialforegoing-1.0.jar",
     "modId": "kjsindustrialforegoing",
@@ -1224,6 +1219,11 @@
     "jarName": "welcomescreen-forge-1.0.0-1.20.1.jar",
     "modId": "welcomescreen",
     "version": "1.0.0"
+  },
+  "wits-1.1.0+1.20.1-forge.jar": {
+    "jarName": "wits-1.1.0+1.20.1-forge.jar",
+    "modId": "wits",
+    "version": "1.1.0+1.20.1-forge"
   },
   "world_preview-forge-1.20.1-1.3.1.jar": {
     "jarName": "world_preview-forge-1.20.1-1.3.1.jar",

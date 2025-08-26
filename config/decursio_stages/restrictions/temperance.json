@@ -1,6 +1,22 @@
 {
   "Restriction Data": {
     "stage": "Temperance_Pathway",
-    "modList": ["hexerei"]
+    "itemList": [
+      {
+        "item": "hexerei:book_of_shadows"
+      },
+      {
+        "item": "hexerei:mixing_cauldron"
+      }
+    ]
+  },
+
+  "Settings": {
+    "dropItemsFromInventory": true,
+    "canPickupItems": false,
+    "itemsPickupDelay": 15, 
+    "canUseItems": false,
+    "canBreakBlocks": true,
+    "canRightClickBlocks": false
   }
 }

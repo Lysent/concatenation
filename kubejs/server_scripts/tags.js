@@ -24,6 +24,13 @@ ServerEvents.tags('item', event => {
         'concatenationcore:ironclad_hammer'
     ]);
 
+    add('concatenation:firing_item', [
+        'minecraft:fire_charge',
+        'elementalcraft:firecrystal',
+        'elementalcraft:fire_shard',
+        'ars_nouveau:fire_essence'
+    ]);
+
     const baseCircuits = [
         'concatenationcore:circuit',
         'concatenationcore:altcircuit'
