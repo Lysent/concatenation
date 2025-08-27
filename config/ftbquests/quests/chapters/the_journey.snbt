@@ -606,7 +606,7 @@
 				"{@pagebreak}"
 				"It is possible to mitigate power issues by digging not at the surface of the world and making a hole through several layers of just stone and dirt, but to quarry underground, closer to the more resourceful layers of the earth."
 				"{@pagebreak}"
-				"The quarry is extremely fragile and is prone to malfunction. If you believe the machine is no longer working, most often than not, you should break and replace it. However, sometimes it's simply finished digging to the bottom of the world. &aDo not chunkload the quarry as it's already chunkloading by itself.&r"
+				"The quarry is extremely fragile and is prone to malfunction. If you believe the machine is no longer working, most often than not, you should break and replace it - be warned that breaking it with fuel still inside &awill void the fuel!&r However, sometimes it's simply finished digging to the bottom of the world. &aDo not chunkload the quarry as it's already chunkloading by itself.&r"
 			]
 			id: "1A0E2D5ACAF189AC"
 			rewards: [{
@@ -793,7 +793,7 @@
 					value: 10L
 				}
 				{
-					entity: "irons_spellbooks:dead_king_corpse"
+					entity: "minecraft:skeleton"
 					icon: "minecraft:skeleton_skull"
 					id: "3097F26EE10593BA"
 					type: "kill"
