@@ -399,33 +399,9 @@ ServerEvents.recipes(event => {
                 ]
         )
         event.shapeless(
-                Item.of('farmersdelight:rice'),
-                [
-                        'minecolonies:rice'
-                ]
-        )
-        event.shapeless(
                 Item.of('farmersdelight:tomato'),
                 [
                         'thermal:tomato'
-                ]
-        )
-        event.shapeless(
-                Item.of('farmersdelight:tomato'),
-                [
-                        'minecolonies:tomato'
-                ]
-        )
-        event.shapeless(
-                Item.of('farmersdelight:cabbage'),
-                [
-                        'minecolonies:cabbage'
-                ]
-        )
-        event.shapeless(
-                Item.of('thermal:corn'),
-                [
-                        'minecolonies:corn'
                 ]
         )
         event.shaped(

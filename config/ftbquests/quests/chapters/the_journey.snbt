@@ -6237,11 +6237,6 @@
 			id: "5B1114E8AD48A9D4"
 			rewards: [
 				{
-					id: "5EE1045CF5A195EC"
-					item: "minecolonies:supplychestdeployer"
-					type: "item"
-				}
-				{
 					id: "4C0B630D366DB73D"
 					item: {
 						Count: 1
