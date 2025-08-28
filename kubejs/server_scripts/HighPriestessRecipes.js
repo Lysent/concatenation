@@ -97,13 +97,18 @@ ServerEvents.recipes(event => {
                 'minecraft:iron_ingot',
                 'mekanism:ingot_osmium'
         );
-        event.replaceOutput(
+        event.replaceInput(
                 { output: 'rftoolsstorage:modular_storage' },
                 'rftoolsbase:machine_frame',
                 '#concatenation:high_priestess_casing'
         );
-        event.replaceOutput(
+        event.replaceInput(
                 { output: 'rftoolsstorage:storage_scanner' },
+                'rftoolsbase:machine_frame',
+                '#concatenation:high_priestess_casing'
+        );
+        event.replaceInput(
+                { output: 'rftoolsutility:crafter1' },
                 'rftoolsbase:machine_frame',
                 '#concatenation:high_priestess_casing'
         );
@@ -307,7 +312,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'thermal:lumium_gear',
                         C: 'thermal:signalum_ingot',
-                        A: 'createmetallurgy:steel_plate',
+                        A: 'thermal:steel_plate',
                         E: 'concatenationcore:signalum_coil',
                         B: '#concatenation:higher_circuits'
                 }
@@ -766,6 +771,8 @@ ServerEvents.recipes(event => {
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.pulverizer(Item.of('thermal:signalum_dust').withChance(1.5), 'thermal:signalum_plate')
+        event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_lead').withChance(1.25), '#tfmg:stone_types/galena')
+        event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_aluminum').withChance(1.25), '#tfmg:stone_types/bauxite')
         event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 4000), 'thermal:ice_charge'])
         event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 4000), 'concatenationcore:ice_shard'])
         event.recipes.thermal.smelter('concatenationcore:galvanized_iron_nugget', ['create:zinc_nugget', 'create:zinc_nugget', 'minecraft:iron_nugget']).energy(4000)
@@ -795,6 +802,12 @@ ServerEvents.recipes(event => {
                 ['industrialforegoing:plastic', 'thermal:machine_frame', 'industrialforegoing:plastic', 'minecraft:netherite_scrap', 'minecraft:netherite_scrap', 'thermal:rose_gold_plate', 'thermal:diamond_gear', 'thermal:rose_gold_plate'],
                 'industrialforegoing:pink_slime',
                 'industrialforegoing:machine_frame_advanced',
+                100
+        )
+        event.recipes.industrialforegoing.dissolution_chamber(
+                ['concatenationcore:galvanized_iron_casing', 'industrialforegoing:laser_lens4', 'concatenationcore:galvanized_iron_casing', 'concatenationcore:circuit', 'concatenationcore:circuit', 'concatenationcore:galvanized_iron_casing', 'thermal:energy_cell', 'concatenationcore:galvanized_iron_casing'],
+                'thermal:glowstone',
+                'quarryplus:workbench',
                 100
         )
         event.recipes.industrialforegoing.fluid_extractor(

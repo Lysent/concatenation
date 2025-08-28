@@ -1482,10 +1482,6 @@
         "isSelected": true
       },
       {
-        "path": "config\\openloader\\resources\\Nobushleaves.zip",
-        "isSelected": true
-      },
-      {
         "path": "config\\openloader\\resources\\Old+Iron+Chest.zip",
         "isSelected": true
       },
@@ -10762,6 +10758,10 @@
         "isSelected": false
       },
       {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\wits-1.1.0+1.20.1-forge.mod_data.json",
+        "isSelected": false
+      },
+      {
         "path": "local\\crash_assistant\\mod_data_cache_v2\\world_preview-forge-1.20.1-1.3.1.mod_data.json",
         "isSelected": false
       },
@@ -10778,11 +10778,11 @@
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\2288_1756117177655.info",
+        "path": "local\\crash_assistant\\14252_1756169464701.info",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\2288_1756117177655_app.jar",
+        "path": "local\\crash_assistant\\14252_1756169464701_app.jar",
         "isSelected": false
       },
       {
@@ -10790,19 +10790,19 @@
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\joined_world_pid2288.tmp",
+        "path": "local\\crash_assistant\\joined_world_pid14252.tmp",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\normal_stop_pid2288.tmp",
+        "path": "local\\crash_assistant\\normal_stop_pid14252.tmp",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\renderer_pid2288.tmp",
+        "path": "local\\crash_assistant\\renderer_pid14252.tmp",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\successful_launch_pid2288.tmp",
+        "path": "local\\crash_assistant\\successful_launch_pid14252.tmp",
         "isSelected": false
       },
       {
@@ -12190,6 +12190,22 @@
         "isSelected": false
       },
       {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-25_06-20-05.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-25_19-20-35.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-25_20-23-53.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-25_20-44-24.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\kubejs",
         "isSelected": false
       },
@@ -12814,6 +12830,22 @@
         "isSelected": false
       },
       {
+        "path": "logs\\2025-08-25-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-08-25-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-08-25-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-08-25-4.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\latest.log",
         "isSelected": false
       },
@@ -13315,6 +13347,22 @@
       },
       {
         "path": "logs\\quarry-debug-2025-08-24-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-08-25-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-08-25-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-08-25-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-08-25-4.log.gz",
         "isSelected": false
       },
       {
@@ -15559,6 +15607,10 @@
       },
       {
         "path": "mods\\welcomescreen-forge-1.0.0-1.20.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\wits-1.1.0+1.20.1-forge.jar",
         "isSelected": true
       },
       {
@@ -24510,6 +24562,10 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World (18)\\region\\r.5.-5.mca",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World (18)\\region\\r.5.0.mca",
         "isSelected": false
       },
@@ -24523,6 +24579,10 @@
       },
       {
         "path": "saves\\New World (18)\\region\\r.5.3.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\region\\r.5.4.mca",
         "isSelected": false
       },
       {
