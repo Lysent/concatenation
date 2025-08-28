@@ -66,7 +66,7 @@
 	replacer_module = false
 	solid_fuel_quarry = true
 	spawner_controller = false
-	workbench = false
+	workbench = true
 
 #Power settings of each machines
 [powers]

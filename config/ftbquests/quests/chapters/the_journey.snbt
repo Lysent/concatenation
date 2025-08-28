@@ -191,7 +191,7 @@
 			description: [
 				"You may have a different path ahead than mine. I am the holder of the Fool Card, the start of a journey of infinite possibilities. This does mean I can adhere to any pathway, provided I found the materials to do so while traveling."
 				""
-				"Ahead I've left a few notes of structures of note and unique pathways. "
+				"Almost any pathway can adhere to the following paths above. I've also included notes common to any path, about the understanding of this world."
 			]
 			hide_dependent_lines: true
 			icon: {
@@ -286,8 +286,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2157576FC7005917"]
@@ -606,7 +606,7 @@
 				"{@pagebreak}"
 				"It is possible to mitigate power issues by digging not at the surface of the world and making a hole through several layers of just stone and dirt, but to quarry underground, closer to the more resourceful layers of the earth."
 				"{@pagebreak}"
-				"The quarry is extremely fragile and is prone to malfunction. If you believe the machine is no longer working, most often than not, you should break and replace it. However, sometimes it's simply finished digging to the bottom of the world. &aDo not chunkload the quarry as it's already chunkloading by itself.&r"
+				"The quarry is extremely fragile and is prone to malfunction. If you believe the machine is no longer working, most often than not, you should break and replace it - be warned that breaking it with fuel still inside will &lvoid the fuel&r! However, sometimes it's simply finished digging to the bottom of the world. &aDo not chunkload the quarry as it's already chunkloading by itself.&r"
 			]
 			id: "1A0E2D5ACAF189AC"
 			rewards: [{
@@ -740,6 +740,11 @@
 				"However, the minor arcana hands do not grant you extra hearts while they're inside of the Tarot Deck, despite being able to fit them inside. What a shame."
 			]
 			id: "258486DCF3CBD479"
+			rewards: [{
+				id: "5737DCC9C3196B2B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1ED754487E1000F1"
 				item: {
@@ -793,7 +798,7 @@
 					value: 10L
 				}
 				{
-					entity: "irons_spellbooks:dead_king_corpse"
+					entity: "minecraft:skeleton"
 					icon: "minecraft:skeleton_skull"
 					id: "3097F26EE10593BA"
 					type: "kill"
@@ -1297,6 +1302,7 @@
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
+			subtitle: "Sail the Seas"
 			tasks: [{
 				id: "0C177C5B54E555C4"
 				item: {
@@ -1604,7 +1610,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 7.5d
 		}
 		{
@@ -1869,11 +1875,15 @@
 		}
 		{
 			dependencies: [
-				"640ED9A58F8DD165"
 				"58CFB61E7D4DE729"
+				"1A92809F87231FE1"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Panvita can be grafted to essence bushes to clone them. However, their insistance to refuse to reproduce makes it so you must use a large amount of panvita. That is unless you add solified experience orbs during the grafting process."]
+			description: [
+				"Panvita can be grafted to essence bushes to clone them. However, their insistance to refuse to reproduce makes it so you must use a large amount of panvita. That is unless you add solified experience orbs during the grafting process."
+				"{@pagebreak}"
+				"While oreberry bushes can only be planted in the dark, essence berry bushes can also be planted in the light."
+			]
 			id: "13ADC7311C00FF45"
 			min_required_dependencies: 1
 			rewards: [
@@ -1938,17 +1948,17 @@
 			dependencies: ["73CD8163D268BA95"]
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
 				id: "concatenationcore:shrike"
 				tag: {
 					Damage: 0
 				}
 			}
 			id: "640ED9A58F8DD165"
+			rewards: [{
+				id: "16E1899EA7076316"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "739322D4AA26B6F5"
 				item: {
@@ -2043,7 +2053,11 @@
 		}
 		{
 			dependencies: ["58CFB61E7D4DE729"]
-			description: ["Similarly to essence berry bushes, oreberry bushes can be cloned via grafting panvita. However, essence berry bushes are needed as a base on top of the corresponding ore instead of experience orbs to maximize the yield."]
+			description: [
+				"Similarly to essence berry bushes, oreberry bushes can be cloned via grafting panvita. However, essence berry bushes are needed as a base on top of the corresponding ore instead of experience orbs to maximize the yield."
+				"{@pagebreak}"
+				"While oreberry bushes can only be planted in the dark, essence berry bushes can also be planted in the light."
+			]
 			id: "45EBD68510E9742C"
 			rewards: [
 				{
@@ -2253,9 +2267,15 @@
 		{
 			dependencies: ["7CD059E89A322EA1"]
 			description: [
-				"Panvita is a universal plant able to be grafted to any other plant and adapt to its host. This is most often used by holders of the Hierophant card to grow more oreberry bushes, which does not grow more of itself naturally."
+				"Panvita is a universal plant able to be grafted to any other plant and adapt to its host. This is most often used by holders of the Hierophant card to grow more oreberry bushes, which do not reproduce naturally, requiring panvita to be grafted to them. "
+				""
+				"Panvita exclusively grows via the incubator."
 				"{@pagebreak}"
-				"The Incubator needs to be filled with water to start the growing process. You can use a water bucket for this purpose."
+				"The Incubator needs to be filled with water to start the growing process. You can use a water bucket for this purpose. Panvita will start to grow with a minimum of 100mb of water and will consume 80mb on growth."
+				""
+				"You will have to wait in all likeliness for a few days for a single panvita to grow, although it may take less time."
+				"{@pagebreak}"
+				"Panvita can be grafted to a wide variety of plants, flowers, mushrooms, or can be turned to bonemeal."
 			]
 			icon: "concatenationcore:berry_incubator"
 			id: "58CFB61E7D4DE729"
@@ -2819,7 +2839,11 @@
 		}
 		{
 			dependencies: ["05C3E83BCCEF20A2"]
-			description: ["Digital storage is achieved through ME drives. Each byte stores an item, provided it's a standard stackable item. This is the easiest way to sort a lot of items and will prove more and more useful as time goes on, especially when later versions of the system will later unlock autocrafting and remote tablets. "]
+			description: [
+				"Digital storage is achieved through ME drives. Each byte stores an item, provided it's a standard stackable item. "
+				""
+				"This is the easiest way to sort a lot of items and will prove more and more useful as time goes on, especially when later versions of the system will later unlock autocrafting and remote tablets. "
+			]
 			id: "55380CDFDB4EB17C"
 			rewards: [{
 				id: "47848D1E2DC7E15D"
@@ -6203,15 +6227,33 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
-			description: [""]
+			description: [
+				"Anyone of any path can create man-made paths, whether they be path blocks made through a shovel interaction with the dirt, wood, stone, bricks, etc. "
+				""
+				"You have to place a sign anywhere within a man-made path and place a second one anywhere else. To link the two, you have to sneak punch the first and then sneak punch the second sign. Then, whenever you punch the sign, you will fast travel to the other end."
+			]
 			hide_dependency_lines: true
 			icon: "minecraft:oak_hanging_sign"
 			id: "5B1114E8AD48A9D4"
-			rewards: [{
-				id: "5EE1045CF5A195EC"
-				item: "minecolonies:supplychestdeployer"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5EE1045CF5A195EC"
+					item: "minecolonies:supplychestdeployer"
+					type: "item"
+				}
+				{
+					id: "4C0B630D366DB73D"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "via_romana:guide"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Fast Travel Anywhere"
 			tasks: [{
 				id: "248EFACDC86C287B"
 				title: "Via Romana"
@@ -6337,22 +6379,29 @@
 			description: ["An essential fixture for anyone delving into witchcraft, used to mix a great many things and infuse them with ancient spiritual power. The Mixing Cauldron can also be used for more efficient potion brewing at its scale. This is also where you'll be bleeding many creature. In fact, this cauldron has the uncanny ability to draw blood, even from vaguely human-shaped wood...  "]
 			hide_dependency_lines: true
 			id: "3B8127AF958727B0"
-			rewards: [{
-				count: 2
-				id: "2FC85BDDB5D2E9B7"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+			rewards: [
+				{
+					count: 2
+					id: "2FC85BDDB5D2E9B7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
 						}
-						type: "building_kit"
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "76DED46B548EAF01"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "6FDF2B0B4C629AB0"
 				item: {
@@ -6373,6 +6422,11 @@
 			dependencies: ["3B8127AF958727B0"]
 			description: ["An enhanced fabric woven from strips of leather, dyed and infused with mild spiritual power. You can use it to make the traditional robes of the witches."]
 			id: "08656304775DB207"
+			rewards: [{
+				id: "6790C05FF2AACBB4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "44FF35C4A6636054"
 				item: {
@@ -6393,6 +6447,11 @@
 			dependencies: ["08656304775DB207"]
 			description: ["The ancient vestiments of the traditional witchcraft, it is relatively sturdy for its composition. If you wear these, witches will respect you as an initiate of their craft. Somehow, they did even though I stole the materials to make them right in front of them."]
 			id: "11448A0815CC7548"
+			rewards: [{
+				id: "1FE911769E9153F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "085A89C4B628BF97"
@@ -6451,6 +6510,11 @@
 			dependencies: ["0CC91D0458ACB827"]
 			description: ["The witch's broom is a classic enchantment, allowing many individual straws to combine and allow a wooden staff to levitate. While the brush eventually wears out, it can be enchanted much in the same way as other tools, making this a long lasting and elegant solution before you can fly purely with personal enchantments or other technologies."]
 			id: "0BBFD1B138A5DA3D"
+			rewards: [{
+				id: "0BCD10AD01925755"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "739BBA8A10CB24FE"
 				item: {
@@ -6472,6 +6536,11 @@
 			dependencies: ["0BBFD1B138A5DA3D"]
 			description: ["A broom of a stronger staff. An equally romantic version of this mode of transportation."]
 			id: "3EF9977332170323"
+			rewards: [{
+				id: "39F0B957CA43E7BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "269DC5423F12CE4F"
 				item: {
@@ -6493,6 +6562,11 @@
 			dependencies: ["3EF9977332170323"]
 			description: ["The strongest of the natural broom staves, it is more aerodynamic and, most importantly, fire resistant, great for delves into the various scorching underworlds."]
 			id: "74D920C672740BC9"
+			rewards: [{
+				id: "0783B0B561490768"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "409892A417E0A087"
 				item: {
@@ -6515,6 +6589,11 @@
 			description: ["Blood provided essential spiritual power for ancient witchcraft, but can also provide physical nutrition, should you have enough to spare. Some ancient witches even had a diet entirely comprised of blood, and I did to, fora while. Your stomach learns to accept it, after a while..."]
 			icon: "hexerei:blood_sigil"
 			id: "0CC91D0458ACB827"
+			rewards: [{
+				id: "7253CC69945F41B8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "127CDCEA390AB79C"
@@ -6551,6 +6630,11 @@
 			dependencies: ["3B8127AF958727B0"]
 			hide_dependency_lines: true
 			id: "01D68B8537CA69EA"
+			rewards: [{
+				id: "46155ADAC45C717F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "7321E1DD222A27D3"
 				item: {
@@ -6572,8 +6656,17 @@
 		}
 		{
 			dependencies: ["0CC91D0458ACB827"]
-			description: ["A small on the outside, spacious on the inside little coffer which you can open on the go or set on your desk. It may not be a giant backpack, but it surely is ornate and aesthetically pleasing."]
+			description: [
+				"A small on the outside, spacious on the inside little coffer which you can open on the go or set on your desk. It may not be a giant backpack, but it surely is ornate and aesthetically pleasing."
+				""
+				"You can also open this inside of your inventory."
+			]
 			id: "59BB154080D3A193"
+			rewards: [{
+				id: "2C47BF6AF3D96619"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5477EC9698C3E167"
 				item: {
@@ -6604,6 +6697,11 @@
 			dependencies: ["0BBFD1B138A5DA3D"]
 			description: ["Storage on the go, as light and elegant as the vehicle they're made for. Not exactly spacious, though."]
 			id: "3734FBDDFFB8710B"
+			rewards: [{
+				id: "599021F70E1A947E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "1D36A694A9541A6F"
@@ -6654,6 +6752,11 @@
 			description: ["A polyvalent fixture used to dry many things used in witchcraft. It also has a notable quality to dry the putridity out of the rotten flesh of the undead and turn it into useable leathers."]
 			hide_dependency_lines: true
 			id: "50DF4F514B4C87B9"
+			rewards: [{
+				id: "2810B85AA3452C1B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3DEAE681D34EFAFB"
 				item: {
@@ -6715,6 +6818,11 @@
 			dependencies: ["50DF4F514B4C87B9"]
 			description: ["The standard enchanted broom brush is simple, but imperfect. Fortunately, the Book of Shadows provides us with two improved recipes, one using the natural spiritual power of multiple herbs, and the other using the magic spiritual power formed under the light of the full moon."]
 			id: "2A581A4E957DEF1E"
+			rewards: [{
+				id: "1E6280F9B975DA9F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "26FC587BA70F32C6"
 				item: {
@@ -6768,6 +6876,11 @@
 			description: ["Magic can do levitation, but a bunch of rockets can do that too! Much less romantic, but much, much faster."]
 			hide_dependency_lines: true
 			id: "3EB756F4DB633C14"
+			rewards: [{
+				id: "769B043AE47C7CF1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "78BB24A23721AD6B"
 				item: {
@@ -6816,6 +6929,7 @@
 				}
 			]
 			size: 0.8d
+			subtitle: "Build a Base, Quickly"
 			tasks: [{
 				id: "49394A1CABCCB8CC"
 				item: {
@@ -6890,6 +7004,11 @@
 			dependencies: ["3B8127AF958727B0"]
 			description: ["Great for looking at things closer, though I find my eyes can already focus this small. If you wore enough, would you see each thread of the parchment?"]
 			id: "318D381A5B4B1EBC"
+			rewards: [{
+				id: "3326D31B6285AFA9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4E43AE20227DAE0A"
 				item: {
@@ -6910,21 +7029,28 @@
 			dependencies: ["3B8127AF958727B0"]
 			description: ["This hardened tool can't do much, but you can make crow food and carpet wax with it. Good decoration, sets the witchy mood. If you don't feel like making one, you can probably steal it from a witch village."]
 			id: "7B7ECE9C646B974B"
-			rewards: [{
-				id: "15BA491843358A2D"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+			rewards: [
+				{
+					id: "15BA491843358A2D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
 						}
-						type: "building_kit"
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "650AA3B51C9ABA50"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "1BBCE9CD2A6F81E9"
 				item: {
@@ -6946,6 +7072,11 @@
 			description: ["Moon dust is a strange spiritual material. It's not &ofrom&r the moon, but the spirituality it contains is. Strange, I know. Either way, ancient witchcraft uses it as its powerful spiritual material of predilection. To acquire it, you need to mix the dusts under the gaze of the full moon. This crystal ball from the Book of Shadows should help you identify the true full moon if the sky is blocked."]
 			hide_dependency_lines: true
 			id: "5C78A0206DEDAC4C"
+			rewards: [{
+				id: "006A183D162B3DA7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "40400A8329130C4A"
@@ -6974,6 +7105,11 @@
 			dependencies: ["0419D82408E8C7B0"]
 			description: ["If I had a crow, I would make this for them. A witchcraft playing with life and death, it will help your crow survive, if it ever is placed in danger."]
 			id: "1117DB453133A102"
+			rewards: [{
+				id: "44CDCB038129C51A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5230ED46D846383B"
 				item: {
@@ -6994,6 +7130,11 @@
 			dependencies: ["3B8127AF958727B0"]
 			description: ["The witches' drawer. Mostly used to store things that are not herbs."]
 			id: "6EB3E5667F8481FC"
+			rewards: [{
+				id: "63E3B2F7351CBAA5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "583111F990D92E4D"
 				item: {
@@ -7015,6 +7156,11 @@
 			dependencies: ["0BBFD1B138A5DA3D"]
 			description: ["Piloting a broom is an ancient art, but the traditional side-mount can be inconvenient at times. This sturdy seat allows you to face straight ahead while flying, or even to carry a friend with you. Not that I have anyone to fly with under the moonlight..."]
 			id: "662F30B73F2476FE"
+			rewards: [{
+				id: "0344530A516BA3D2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0FD75E1E0D95A84B"
 				item: {
@@ -7035,6 +7181,11 @@
 			dependencies: ["7B7ECE9C646B974B"]
 			description: ["Befriend the crows! I never got around to doing that myself, but I'm sure these smart birds can do something for you."]
 			id: "0419D82408E8C7B0"
+			rewards: [{
+				id: "310E266CFD238E29"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "57ACAE12E606A63C"
 				item: {
@@ -7056,6 +7207,11 @@
 			dependencies: ["0BBFD1B138A5DA3D"]
 			description: ["While brooms are certainly enchanted, they're still made of, essentially, sticks. These broom tips will allow you to momentarily dip through water, fire, or lava, without having to constantly worry about your brush getting too damp to fly, or your broomstaff simply combusting. Or, you could just avoid water and fire, I guess."]
 			id: "683A75AC5D42BFB1"
+			rewards: [{
+				id: "73994C70E497F024"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "161EEAC175C35EEE"
 				item: {
@@ -7105,6 +7261,11 @@
 			dependencies: ["6EB3E5667F8481FC"]
 			description: ["You will find these various herbs come in handy for most witchcraft, but their spiritual power can also carry over to the neighbouring school of sorcery."]
 			id: "6E411BC41B854476"
+			rewards: [{
+				id: "32B6B440B8088BD0"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [
 				{
 					id: "2E98187A71672490"
@@ -7233,6 +7394,11 @@
 			description: ["This dipping rack allows you to soak candles with various potion effects. Ever wanted to spread the aroma of poison in your room? Well, it's very useful for a quick escape..."]
 			hide_dependency_lines: true
 			id: "49375BCA090B1198"
+			rewards: [{
+				id: "4FD480EDA026ED55"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "29B5B4FC8621BF4A"
 				item: {
@@ -7254,6 +7420,11 @@
 			description: ["Owls are observant and smart birds, and by providing them a comfortable depot, you can get them to transport packages to other witches. However, I never had anyone to send packages to, so I never cared to learn how to address these packages."]
 			hide_dependency_lines: true
 			id: "448610C2D1BD5805"
+			rewards: [{
+				id: "35925CC88DE3661C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "3A5155B578BF1152"
@@ -7381,6 +7552,11 @@
 			dependencies: ["54D2E4556B238BE4"]
 			hide_dependency_lines: true
 			id: "00E41146BE22270E"
+			rewards: [{
+				id: "3F3B1CD40F452AF7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "42C01D885FBAB066"
@@ -7404,6 +7580,11 @@
 			dependencies: ["48182227AA27C096"]
 			description: ["Without the Hermit, shafts are, oddly, a rarity. While I've found shafts in abandoned workshops and factories, the surviving villagers around the land keep a stock of just about every mechanical component except the basic shaft."]
 			id: "06856516470E742D"
+			rewards: [{
+				id: "22CC61399C50F99F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "58DC9414FDC47C6D"
 				item: {
@@ -7424,6 +7605,11 @@
 			dependencies: ["48182227AA27C096"]
 			description: ["It's a box, what do you want me to say? You can make all sorts of mechanical... machines in this."]
 			id: "13B6EECFB6B3911E"
+			rewards: [{
+				id: "1B7930D86F9B4314"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "08BE7FAAA453C079"
 				item: {
@@ -7444,6 +7630,11 @@
 			dependencies: ["06856516470E742D"]
 			description: ["The lack of shafts has forced me to make... 'small cog shafts' a couple of times. It also seems like the trees have been weakened by some force, meaning large cogwheels require sturdier construction."]
 			id: "139E166A1202B454"
+			rewards: [{
+				id: "190DC3C7FEC3C8D2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "741B53BF3E65E739"
@@ -7483,6 +7674,11 @@
 			description: ["Change the direction of your rotation. Do you want an anecdote for this too?"]
 			hide_dependency_lines: true
 			id: "335D849D587BCE73"
+			rewards: [{
+				id: "17DB62C012FF42A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "0574F7E86F38A143"
@@ -7513,12 +7709,17 @@
 			]
 			title: "Gearboxes"
 			x: -8.0d
-			y: 13.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["335D849D587BCE73"]
 			description: ["With these you can dynamically start and stop rotation through a shaft, and change its direction."]
 			id: "455C0A8247EDCCF6"
+			rewards: [{
+				id: "63A6AFBED030A030"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "5C42A10542A5B4C3"
@@ -7547,8 +7748,8 @@
 					type: "item"
 				}
 			]
-			x: -9.5d
-			y: 13.5d
+			x: -8.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["7948CF780F8B6C0B"]
@@ -7574,6 +7775,11 @@
 			dependencies: ["6B25C523000F8937"]
 			description: ["BONK! Pressing and mixing are the base manufacturing methods of Tower engineering."]
 			id: "5ED52058EC7A215C"
+			rewards: [{
+				id: "1EFC37B316D44115"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "0E528643D212C8F8"
@@ -7611,6 +7817,11 @@
 			dependency_requirement: "one_started"
 			description: ["You can make big barrels of fluids and items with this, which can be quite useful to provide many access surfaces."]
 			id: "39DB90AC7E1BF135"
+			rewards: [{
+				id: "4C928546973755AC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "3E07EDCEE1CC847E"
@@ -7672,6 +7883,11 @@
 			dependencies: ["5ED52058EC7A215C"]
 			description: ["Humanity's quest for power usually amounts to boiling water to make steam spin something. This is one of those things."]
 			id: "56F69616D04213D9"
+			rewards: [{
+				id: "679B6C07AE30FC43"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "7C8940F4512A3713"
 				item: {
@@ -7685,14 +7901,19 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: 16.5d
+			x: -10.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
 			dependency_requirement: "one_started"
 			description: ["These are always a pain to make, because of all of the sanding. Fortunately, the mechanical sander exists. You should probably invest in that. Just don't stand on it, or it'll sand your shoes off, and then your feet."]
 			id: "782EDA8D4D2B9CA6"
+			rewards: [{
+				id: "7FB3792C7352087C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "59D2EDE3200D9C0E"
 				item: {
@@ -7706,12 +7927,17 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: 17.5d
+			x: -10.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["782EDA8D4D2B9CA6"]
 			id: "57DB683E290787AA"
+			rewards: [{
+				id: "19297176701CE4DE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1E7CC37DD4741D99"
 				item: {
@@ -7725,13 +7951,18 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: 18.5d
+			x: -10.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["57DB683E290787AA"]
 			description: ["Fine and complex machinery is often made with brass, by virtue of its low friction."]
 			id: "2F7137679E3E480B"
+			rewards: [{
+				id: "0F831C2D2C5B54E0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1C8E181EE3B9F94D"
 				item: {
@@ -7746,12 +7977,17 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: 19.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["2F7137679E3E480B"]
 			description: ["It may be a chore, but you'll need these mechanical crafters to make the crushing wheels, as well as other specific items. To craft without filling every slot of the crafter, you can simply provide redstone power, even just a button next to it will do."]
 			id: "53D5A1A751227C9A"
+			rewards: [{
+				id: "2693CA4A822336B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				count: 21L
 				id: "43E3052D6063E591"
@@ -7767,12 +8003,17 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 20.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["53D5A1A751227C9A"]
 			description: ["A great many stones and ores can be further processed with this crushing. Just don't get yourself stuck in there."]
 			id: "15B4E0B3C70D372F"
+			rewards: [{
+				id: "69D886EFF85E0E58"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				count: 2L
 				id: "747B5E1861382155"
@@ -7789,12 +8030,17 @@
 			}]
 			title: "A Pair Of Giants"
 			x: -11.5d
-			y: 21.5d
+			y: 23.0d
 		}
 		{
 			dependencies: ["15B4E0B3C70D372F"]
 			description: ["I never had use for a train. You should make one, though. Because it's cool."]
 			id: "692DE80F324E6700"
+			rewards: [{
+				id: "116FAE9B88BBACFC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Choo choo!"
 			tasks: [{
 				id: "2BE7A4BE3BD8EFF1"
@@ -7811,12 +8057,17 @@
 			}]
 			title: "The Age of Engines"
 			x: -11.5d
-			y: 22.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["57DB683E290787AA"]
 			description: ["These mechanisms, though mildly annoying to assemble, are the foundation of more complex machines."]
 			id: "61F2F0F9E0158106"
+			rewards: [{
+				id: "27B27070CE6A643B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "203F453D332C208E"
 				item: {
@@ -7831,7 +8082,7 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: 18.5d
+			y: 20.0d
 		}
 		{
 			dependencies: [
@@ -7839,6 +8090,11 @@
 				"2F7137679E3E480B"
 			]
 			id: "16C3238AD95BF1F1"
+			rewards: [{
+				id: "664D38B07A5824E6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "71EBA6012A22953B"
 				item: {
@@ -7853,12 +8109,17 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: 20.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["39DB90AC7E1BF135"]
 			description: ["It makes fluids go. Well, until you start mixing them. Don't do that."]
 			id: "547DFAC1D247643C"
+			rewards: [{
+				id: "4E1DC2022B81464B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "2D0CAE4B6C775A8C"
@@ -7895,6 +8156,11 @@
 			dependency_requirement: "one_started"
 			description: ["The roller is the tool for drawing rods and wires, and the first stone on the path to turning rotational force to and from electricity."]
 			id: "34860EFC2864214C"
+			rewards: [{
+				id: "0F255A812AB18F2D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "701E3953E944A9B5"
 				item: {
@@ -7908,13 +8174,18 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: 15.0d
+			x: -10.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["34860EFC2864214C"]
 			description: ["Wire things together!"]
 			id: "749F271CD9E35A16"
+			rewards: [{
+				id: "3A05238C977EF787"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "52BBE0CAECC06183"
@@ -7970,13 +8241,18 @@
 				}
 			]
 			title: "Power Connection"
-			x: -12.5d
-			y: 15.0d
+			x: -12.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["749F271CD9E35A16"]
 			description: ["Motors and generators are fundamentally the same thing, but driven in reverse."]
 			id: "29728950590EB2BB"
+			rewards: [{
+				id: "68D6AA160DE841BB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "733A56597F60B926"
@@ -8006,13 +8282,18 @@
 				}
 			]
 			title: "Power Transformation"
-			x: -14.0d
-			y: 15.0d
+			x: -13.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["547DFAC1D247643C"]
 			description: ["This foundry is surprisingly difficult to use. For its main use, steelmaking, the coke should be inserted into a glass foundry top, then the hatch closed. Dumping the coke right into the side of the basin does not work. Trust me, I tried. For several hours."]
 			id: "5C37D62CC88F677F"
+			rewards: [{
+				id: "7B423058160B4E14"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "40592A21B122EC69"
@@ -8064,6 +8345,11 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "3CC948E467CCC4C6"
+			rewards: [{
+				id: "32171CEEED841A45"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7E773BF5E1360240"
 				item: {
@@ -8505,8 +8791,8 @@
 				}
 			]
 			title: "Early Tinkering"
-			x: -2.0d
-			y: 5.5d
+			x: -3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["087234557EE4E2A3"]
@@ -8551,8 +8837,8 @@
 				}
 			]
 			title: "Tinkering"
-			x: -2.0d
-			y: 7.0d
+			x: -3.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -8608,8 +8894,8 @@
 				}
 			]
 			title: "Efficient Tinkering Storage"
-			x: -3.5d
-			y: 6.0d
+			x: -6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["13FC54673932E4F0"]
@@ -8633,8 +8919,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: 7.5d
+			x: -6.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -8651,6 +8937,7 @@
 				type: "item"
 			}]
 			size: 0.8d
+			subtitle: "Travel in 19th Century Fashion"
 			tasks: [{
 				id: "65E3E9C68427EC95"
 				item: {
@@ -9054,7 +9341,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 6.0d
 		}
 		{
@@ -9301,12 +9588,19 @@
 				"If you're confused about where to find the &bHigh Priestess&r pathway journal entries in this book, look around the blue section. It is still an adjacent path to the &dHermit&r despite the fact it's not obvious."
 			]
 			id: "54BE967A3164579C"
-			rewards: [{
-				id: "3C5EF3C38D81EBD1"
-				item: "concatenationcore:circuit"
-				type: "item"
-			}]
-			size: 1.1d
+			rewards: [
+				{
+					id: "3C5EF3C38D81EBD1"
+					item: "concatenationcore:circuit"
+					type: "item"
+				}
+				{
+					id: "2E64F438C3AB329D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.15d
 			subtitle: "Unlocking the High Priestess Pathway"
 			tasks: [{
 				id: "76D10185158CB1CB"
@@ -9427,8 +9721,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.3999999999999995d
-			y: 8.1d
+			x: -9.75d
+			y: 12.599999999999998d
 		}
 		{
 			dependencies: ["5B8A16E0E3A1794D"]
@@ -9452,8 +9746,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.1d
-			y: 9.45d
+			x: -12.149999999999999d
+			y: 13.95d
 		}
 		{
 			dependencies: ["5B8A16E0E3A1794D"]
@@ -9477,8 +9771,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: 8.549999999999999d
+			x: -13.049999999999999d
+			y: 13.5d
 		}
 		{
 			dependencies: ["61F2F0F9E0158106"]
@@ -9503,8 +9797,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.75d
-			y: 7.2d
+			x: -11.1d
+			y: 11.7d
 		}
 		{
 			dependencies: ["129D0C37D4A27A2B"]
@@ -9528,13 +9822,18 @@
 				}
 				type: "item"
 			}]
-			x: -7.6499999999999995d
-			y: 8.1d
+			x: -12.0d
+			y: 12.599999999999998d
 		}
 		{
 			dependencies: ["2F7137679E3E480B"]
 			description: ["A blaze trapped and forced to act as a sentient fireplace. You can feed it flammable items, or give it a bamboo straw so you can pump liquids into it."]
 			id: "4BC31DEA551E23FE"
+			rewards: [{
+				id: "59508AAB0E9ADB71"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Why is this fella all the way down over here?"
 			tasks: [{
 				id: "270CDD3B95713636"
@@ -9550,7 +9849,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 20.5d
+			y: 22.0d
 		}
 		{
 			description: [
@@ -9632,22 +9931,29 @@
 			]
 			description: ["With the Tower pathway, you can create many mechanical and kinetic things. If you ever find yourself needing further detail about this or that machine, it seems just pondering their existance for a while and an explanation will get magically projected into your eyes."]
 			id: "7948CF780F8B6C0B"
-			rewards: [{
-				count: 3
-				id: "5049AD3E2EA17650"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+			rewards: [
+				{
+					count: 3
+					id: "5049AD3E2EA17650"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
 						}
-						type: "building_kit"
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "531544BD7C182EF5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				id: "28498CCBD4B8BB79"
@@ -9756,19 +10062,24 @@
 				"0CC91D0458ACB827"
 				"08656304775DB207"
 			]
+			description: [
+				"Cultist Armor has nothing special going for it, but has sufficient defensive prowess on par with diamond armor."
+				""
+				"As Witch Armor has no leggings, you may want to use this armor set's pants."
+			]
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
 				id: "concatenationcore:cultist_armor_leggings"
 				tag: {
 					Damage: 0
 				}
 			}
 			id: "6D79D8CC7CDDF1D0"
+			rewards: [{
+				id: "4E8FD61D37898077"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.0d
 			tasks: [
 				{
@@ -9848,6 +10159,11 @@
 			description: ["This strange sword resonates with the essence of experience within the body, ripping it out as small, marble-sized spheres. A small pain as the price of progress."]
 			hide_dependency_lines: true
 			id: "5D6BE53739B45840"
+			rewards: [{
+				id: "0FC3792D0F580031"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "1725A15B12D0D31C"
 				item: {
@@ -9871,6 +10187,11 @@
 			dependencies: ["5D6BE53739B45840"]
 			description: ["I once tried to identify what the Descran truly is, but at this point I have simply given up. All you need to know is that this abstract little magically-infused figurine is a great channel of the natural spiritual power of the world, and can be used as the focus in a few magical creations."]
 			id: "54D2E4556B238BE4"
+			rewards: [{
+				id: "4A5E2AFB202313C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "52B94C4168556224"
 				item: {
@@ -9899,6 +10220,11 @@
 			]
 			hide_dependency_lines: true
 			id: "14DFB74A4390006D"
+			rewards: [{
+				id: "69CB27DCF3AEB05E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "0256B20E000FF08B"
@@ -10064,6 +10390,11 @@
 		}
 		{
 			dependencies: ["405495BB2F379536"]
+			description: [
+				"There are many other ways of producing power using various other dynamo types."
+				""
+				"The most notable ones are the magmatic dynamo and the lapiary dynamo, producing RF power from lava and precious gems respectively."
+			]
 			id: "42353FA6F7027E06"
 			rewards: [
 				{
@@ -10261,6 +10592,11 @@
 		{
 			dependencies: ["5ED52058EC7A215C"]
 			id: "3A27EA4C48429EA7"
+			rewards: [{
+				id: "4ECE9C3AFE094A3B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0A30C64BB6E1616F"
 				item: {
@@ -10634,6 +10970,11 @@
 			description: ["Who needs magical enchanting when you have mass production? These machines were a great use to me, as enchantments are scarce on the hostile surface."]
 			hide_dependency_lines: true
 			id: "46AF90F7869F29F3"
+			rewards: [{
+				id: "20BED18C9B453BE3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [
 				{
@@ -10664,7 +11005,7 @@
 				}
 			]
 			x: -13.049999999999999d
-			y: 21.924999999999997d
+			y: 23.424999999999997d
 		}
 		{
 			dependencies: ["04DD33AF3AA672CD"]
@@ -10846,7 +11187,11 @@
 		}
 		{
 			dependencies: ["2A13540D4E396260"]
-			description: ["The pulverizer can efficiently grind items to dust."]
+			description: [
+				"The pulverizer can efficiently grind items to dust."
+				""
+				"This can be used to process some materials such as aluminium."
+			]
 			id: "51F0251F529BE03C"
 			rewards: [{
 				id: "75869CA476172FB1"
@@ -10871,6 +11216,7 @@
 		}
 		{
 			dependencies: ["36318C8D65509470"]
+			description: ["The Redstone Furnaces uses RF power to cook and smelt items instead of regular fuels."]
 			hide_dependency_lines: true
 			id: "333D89A47DCEEC3D"
 			rewards: [{
@@ -10902,6 +11248,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "0D70725FEAF0DC7B"
+			rewards: [{
+				id: "77E2888BB0C5675C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "307636A88E99B398"
@@ -11012,6 +11363,7 @@
 		}
 		{
 			dependencies: ["4AE782719D5A61F7"]
+			description: ["This is a more advanced version of the machine frame able to conform to more machine templates. "]
 			id: "55E53ED9BDDE16AA"
 			rewards: [{
 				count: 2
@@ -11129,6 +11481,12 @@
 				"0539F37797C36F1C"
 			]
 			id: "4289386C093E7AE9"
+			rewards: [{
+				count: 16
+				id: "73CE3A6D5930477B"
+				item: "thermal:energy_duct"
+				type: "item"
+			}]
 			tasks: [{
 				id: "10456A608BBA708E"
 				item: {
@@ -11156,6 +11514,11 @@
 		{
 			dependencies: ["5A609181C445CAAB"]
 			id: "3AF5EB2526EAD40C"
+			rewards: [{
+				id: "6364A99F088418C1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3F84342320020EFE"
 				item: {
@@ -11296,8 +11659,21 @@
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
+			description: [
+				"The Phytogenic Insulator can be used to artificially grow various plants and crops."
+				""
+				"It requires fertilizer for faster growth."
+				"{@pagebreak}"
+				"It can pair nicely with the incubator, as panvita can be used to produce phyto-grow."
+			]
 			hide_dependency_lines: true
 			id: "7923120C58E4B567"
+			rewards: [{
+				count: 4
+				id: "534A87495B9BE500"
+				item: "concatenationcore:transplant"
+				type: "item"
+			}]
 			size: 0.85d
 			tasks: [{
 				id: "1FE055F622DF81EE"
@@ -11317,7 +11693,14 @@
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
+			description: ["The Magma Crucible is used to melt solid blocks into their liquid forms such as redstone blocks or glowstone blocks."]
 			id: "0539F37797C36F1C"
+			rewards: [{
+				count: 4
+				id: "02E1E12D922E90E9"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
 			tasks: [{
 				id: "03421464F0E6463C"
 				item: {
@@ -11336,7 +11719,13 @@
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
+			description: ["The blast chiller is used to cool various liquids."]
 			id: "7EB335BB570C5F7F"
+			rewards: [{
+				id: "5D2518A742710724"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6228EC3263FD14C2"
 				item: {
@@ -11355,8 +11744,14 @@
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
+			description: ["The Sequential Fabricator is an automatic crafting machine."]
 			hide_dependency_lines: true
 			id: "4D5CBC1FE2A1E72B"
+			rewards: [{
+				id: "3E74A26752C8B47E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.85d
 			tasks: [{
 				id: "5A0FB0B408F5E349"
@@ -11376,6 +11771,7 @@
 		}
 		{
 			dependencies: ["36318C8D65509470"]
+			description: ["The sawmill can cut various blocks."]
 			hide_dependency_lines: true
 			id: "4C5A2566E0BD8D23"
 			rewards: [{
@@ -11880,8 +12276,18 @@
 				"7AAA4B368A0F6CD0"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"The Light Plate Carrier can be worn as is on the chest as armour, but it is more useful to wear it under your clothes and armor set to gain extra defensiveness. "
+				""
+				"&a(Plate carriers can also be worn in the \"Body\" curio slot for +4 armor)&r"
+			]
 			hide_dependency_lines: true
 			id: "44CF40523871B36F"
+			rewards: [{
+				id: "20BBE78E1D3D2548"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "262E6413A40FDC56"
 				item: {
@@ -13956,6 +14362,11 @@
 			dependencies: ["2A13540D4E396260"]
 			hide_dependency_lines: true
 			id: "1B09621238805777"
+			rewards: [{
+				id: "7647171158822F1B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0213ADB40BB130E0"
 				item: {
@@ -14018,6 +14429,7 @@
 		}
 		{
 			dependencies: ["36318C8D65509470"]
+			description: ["The Tinkers' Workbench is used to charge items."]
 			hide_dependency_lines: true
 			id: "2EDD432C547674F0"
 			rewards: [{
@@ -14107,6 +14519,11 @@
 			dependencies: ["547DFAC1D247643C"]
 			description: ["A large oven that can bake the creosote out of coal. It's not perfect, however, and the coke it produces will most often need to get mixed with charcoal."]
 			id: "3A2A8FA6C9D7C1F2"
+			rewards: [{
+				id: "679EF1019B4DBBB8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "45531A0E3536D52B"
@@ -14145,6 +14562,11 @@
 			]
 			description: ["Steel is the material of heavy machinery, the pathway to oil processing and self-contained engines."]
 			id: "54B73403ADB72017"
+			rewards: [{
+				id: "1593CF024901CDCF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Made of steel! Made of steel."
 			tasks: [{
 				id: "08E810B17E283B57"
@@ -14472,11 +14894,18 @@
 				"385412AAA1631FFF"
 			]
 			id: "2B825471FE41A521"
-			rewards: [{
-				id: "1B3497F691F7F872"
-				item: "rftoolsbase:manual"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1B3497F691F7F872"
+					item: "rftoolsbase:manual"
+					type: "item"
+				}
+				{
+					id: "194D7BCBC6926BFB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			size: 1.4d
 			tasks: [{
 				id: "678BDB15F6E434AE"
@@ -14526,6 +14955,11 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "4E4E81226BED0E7C"
+			rewards: [{
+				id: "1BF473F4724D7AFF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "6B416D7B4B898875"
@@ -14547,17 +14981,24 @@
 			]
 			hide_dependency_lines: true
 			id: "0D61335A0B07300D"
-			rewards: [{
-				id: "1BB61DA5D6382A08"
-				item: {
-					Count: 1
-					id: "modonomicon:modonomicon"
-					tag: {
-						"modonomicon:book_id": "theurgy:the_hermetica"
+			rewards: [
+				{
+					id: "1BB61DA5D6382A08"
+					item: {
+						Count: 1
+						id: "modonomicon:modonomicon"
+						tag: {
+							"modonomicon:book_id": "theurgy:the_hermetica"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0F5FC6D7DA78D764"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				id: "58F5FA81DA5EB05B"
@@ -14601,7 +15042,13 @@
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
+			description: ["You will first need a fluid extractor. You can directly output the liquid of the fluid extractor to an adjacent latex processing unit, or use pipes."]
 			id: "5D99FA4015175987"
+			rewards: [{
+				id: "25CC41F7897774A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "269CEEED2BEC4138"
 				item: {
@@ -14620,7 +15067,19 @@
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
+			description: [
+				"The Fluid Extractor produces liquid latex from logs. Place a log in front of the fluid extractor and it will begin the process. Powering the fluid extractor can speed up this process, as you will need 1000mb of latex to make plastic."
+				"{@pagebreak}"
+				"The amount of latex extracted depends on the log type. Of the basic logs, acacia is the most efficient, at a rate of 3mb/s. Rubberwood produces 10mb/s and menryl wood produces 9mb/s."
+				"{@pagebreak}"
+				"The most interesting type is the twice compacted log, which produces 8mb/s, but instead of turning into a stripped log after running out of latex, it reverts to compacted wood, before becoming stripped compacted wood and then finally turning to sawdust. Everytime the wood downgrades, it produces a little less latex."
+			]
 			id: "2ABC7A5821829378"
+			rewards: [{
+				id: "0C9F9AA4B082C988"
+				item: "concatenationcore:twice_compacted_wood"
+				type: "item"
+			}]
 			tasks: [{
 				id: "47B2E7AEC30A1F43"
 				item: {
@@ -14642,7 +15101,13 @@
 				"5D99FA4015175987"
 				"2ABC7A5821829378"
 			]
+			description: ["Plastic is a versatile material that can be made from latex."]
 			id: "5A609181C445CAAB"
+			rewards: [{
+				id: "712186FA2533CD9B"
+				item: "industrialforegoing:latex_bucket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "267C2B72B7D557E4"
 				item: {
@@ -15033,7 +15498,11 @@
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
-			description: ["This box of invar filled with electronics is used to upgrade some thermal machinery."]
+			description: [
+				"This box of invar filled with electronics is used to upgrade some thermal machinery."
+				""
+				"You can insert this in a thermal series machine to upgrade all of its base stats by a factor of 2x."
+			]
 			id: "25E533314EFCD83A"
 			rewards: [{
 				id: "235E767B34DD9F1D"
@@ -15107,6 +15576,11 @@
 		{
 			dependencies: ["2EDD432C547674F0"]
 			id: "5EF25296893D9C32"
+			rewards: [{
+				id: "1CE08BA52251658A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "65CC85B328027298"
 				item: {
@@ -15348,9 +15822,15 @@
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
+			description: ["The resourceful furnace is an upgrade of the redstone furnace. It can process three different items at once, and outputs liquid experience."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "6E002AD18DA96561"
+			rewards: [{
+				id: "5321FDD47DA98646"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.85d
 			tasks: [{
 				id: "51DF052727E2CEBD"
@@ -15821,8 +16301,18 @@
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
+			description: [
+				"Steel Armor is a decent armor set. Its defensive prowess is decent - on par with diamond armor, but cheaper in base cost materials. However, the process to turn coal and iron to steel is more time consuming."
+				"{@pagebreak}"
+				"There are two versions of steel armor you can make. One is heavier, having less defenses but resists knockback significantly. The other doesn't have this knockback resistance, but has less weak points, thus more defensive prowess."
+			]
 			hide_dependency_lines: true
 			id: "06460D3BD2DB0E21"
+			rewards: [{
+				id: "67C477A362362566"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "6C3EF526B2C29176"
@@ -16607,6 +17097,13 @@
 		}
 		{
 			dependencies: ["2638CC10E4FF66C1"]
+			description: [
+				"The Storage Scanner is a powerful early storage system form. It can scan an area of 20 blocks around itself and read the inventory of any block in its range."
+				""
+				"A tablet can be connected to this scanner for remote storage."
+				"{@pagebreak}"
+				"Sadly, this system lacks any of the future upgrades of an Applied Energistics system, such as autocrafting."
+			]
 			id: "57E0A183AE783034"
 			rewards: [{
 				id: "26F0D4C77E3DB962"
@@ -16632,6 +17129,8 @@
 		}
 		{
 			dependencies: ["57E0A183AE783034"]
+			description: ["The Modular Storage is a digital storage block similar to the Applied Energistics ME Drive. A storage module can be inserted and will digitally store items."]
+			icon: "rftoolsstorage:modular_storage"
 			id: "07F5DEF929339543"
 			rewards: [{
 				id: "77EB2022016A63AB"
@@ -16639,33 +17138,37 @@
 				xp_levels: 1
 			}]
 			size: 0.9d
-			tasks: [{
-				id: "006FC3EF15FE0832"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			tasks: [
+				{
+					id: "006FC3EF15FE0832"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
 						}
+						id: "rftoolsstorage:modular_storage"
 					}
-					id: "rftoolsstorage:modular_storage"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3028F29834DDEB3F"
+					item: "rftoolsstorage:storage_module0"
+					type: "item"
+				}
+			]
 			x: -19.125d
 			y: 4.199999999999999d
 		}
 		{
 			dependencies: ["57E0A183AE783034"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "rftoolsbase:tablet"
-			}
+			description: [
+				"This tablet can be connected to many things, but the odds are that you will only care about the storage scanner. First, you will need to obtain a storage control module and then link it to a storage scanner (right click). You can then insert the storage control module in a tablet. "
+				""
+				"You can also directly put a storage module into the tablet, for a more fancy version of a backpack."
+			]
+			icon: "rftoolsbase:tablet"
 			id: "67512CE704637A76"
 			rewards: [{
 				id: "1AF2EE2CC8B57350"
@@ -16704,34 +17207,41 @@
 					type: "item"
 				}
 			]
+			title: "Tablet"
 			x: -18.125d
 			y: 4.75d
 		}
 		{
 			dependencies: [
-				"01514A831E1895F9"
 				"7363621391F2E8EC"
 				"4551222320CBAE77"
 			]
 			dependency_requirement: "one_completed"
 			hide_text_until_complete: false
 			id: "1203CDC5DF26F779"
-			rewards: [{
-				count: 2
-				id: "6AEDC47E0B82D8D0"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+			rewards: [
+				{
+					count: 2
+					id: "6AEDC47E0B82D8D0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
 						}
-						type: "building_kit"
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "370B48993DB74242"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				id: "1D0CAF628E5205F8"
@@ -16782,7 +17292,7 @@
 			y: -9.5d
 		}
 		{
-			dependencies: ["524067700E07EB06"]
+			dependencies: ["1203CDC5DF26F779"]
 			id: "01514A831E1895F9"
 			rewards: [{
 				id: "630AC479BCEAE296"
@@ -16816,7 +17326,7 @@
 						value: "forge:tools/knives"
 					}
 				}
-				title: "Any #forge:tools/knives"
+				title: "Any Knives"
 				type: "item"
 			}]
 			x: -6.0d
@@ -16930,6 +17440,7 @@
 						]
 					}
 				}
+				title: "Any Drink"
 				type: "item"
 			}]
 			x: -3.5d
@@ -16995,6 +17506,7 @@
 						]
 					}
 				}
+				title: "Any Comforting Food"
 				type: "item"
 			}]
 			x: -4.5d
@@ -17116,6 +17628,7 @@
 						]
 					}
 				}
+				title: "Any Nourishing Food"
 				type: "item"
 			}]
 			x: -5.5d
@@ -17650,8 +18163,8 @@
 				item: "immersive_aircraft:cargo_airship"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 10.5d
+			x: -13.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["0F048A0A3773C3EF"]
@@ -17666,8 +18179,8 @@
 				item: "immersive_aircraft:warship"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 10.0d
+			x: -14.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["129D0C37D4A27A2B"]
@@ -17682,8 +18195,8 @@
 				item: "immersive_aircraft:quadrocopter"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 9.0d
+			x: -10.85d
+			y: 13.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -18716,6 +19229,11 @@
 			dependencies: ["57D021A05869800D"]
 			hide_dependency_lines: true
 			id: "731126727DDCAC54"
+			rewards: [{
+				id: "0B0CA4411EA0108E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "05B1E00E85429C8D"
@@ -19453,7 +19971,7 @@
 			}]
 			title: "The Paxel"
 			x: -3.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -19572,6 +20090,24 @@
 			title: "Casting"
 			x: -1.0d
 			y: 9.0d
+		}
+		{
+			dependencies: ["640ED9A58F8DD165"]
+			description: ["The experience orb is obtained through purging your own experience from your body with the Shrike sword &a(right click with the sword, with experience levels)&r While you can simply consume these orbs to gain back your levels, they are also used in various recipes."]
+			id: "1A92809F87231FE1"
+			rewards: [{
+				id: "0A9B69F35643A743"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 0.7d
+			tasks: [{
+				id: "2C7D8944A63BA99A"
+				item: "concatenationcore:experience_orb"
+				type: "item"
+			}]
+			x: -5.6d
+			y: -5.95d
 		}
 	]
 	title: "The Journey"

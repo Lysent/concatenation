@@ -12,7 +12,14 @@ ServerEvents.recipes(event => {
                 'concatenationcore:stickyredstone',
                 'create_enchantment_industry:printer',
                 'createmetallurgy:graphite',
-                'createmetallurgy:graphite_gear_mold'
+                'createmetallurgy:graphite_gear_mold',
+                'quarryplus:quarry',
+                'quarryplus:pump_plus',
+                'quarryplus:exp_pump',
+                'quarryplus:adv_pump',
+                'quarryplus:fuel_module_normal',
+                'quarryplus:repeat_tick_module',
+                'quarryplus:filter_module'
 
         ]
 
@@ -735,10 +742,10 @@ ServerEvents.recipes(event => {
                         'AEA'
                 ],
                 {
-                        B: '#forge:circuits',
+                        B: '#concatenation:higher_circuits',
                         E: 'concatenationcore:pump_rotor',
                         D: 'quarryplus:solid_fuel_quarry',
-                        A: 'createdeco:zinc_support',
+                        A: 'concatenationcore:galvanized_iron_casing',
                         C: 'concatenationcore:white_alclad'
                 }
         )
@@ -1544,6 +1551,38 @@ ServerEvents.recipes(event => {
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
+        event.shapeless(
+                Item.of('minecraft:bone_meal', 64),
+                [
+                        'concatenationcore:transplant'
+                ]
+        )
+        event.shapeless(
+                Item.of('thermal:compost'),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:dirt'
+                ]
+        )
+        event.shapeless(
+                Item.of('create:tree_fertilizer'),
+                [
+                        'concatenationcore:transplant',
+                        'minecraft:bone_meal'
+                ]
+        )
+        event.shapeless(
+                Item.of('thermal:phytogro', 8),
+                [
+                        'concatenationcore:transplant',
+                        'thermal:apatite_dust'
+                ]
+        )
+
+        event.recipes.minecraft.blasting(
+                'minecraft:glass',
+                'minecraft:sand'
+        ).xp(0.1).cookingTime(100);
 
         event.recipes.thermal.pulverizer(Item.of('createmetallurgy:zinc_dust').withChance(1.5), 'create:zinc_ingot').energy(100)
 });
