@@ -276,6 +276,19 @@ ServerEvents.recipes(event => {
                 {
                         A: 'concatenationcore:silver_paper',
                         B: 'createbigcannons:nethersteel_ingot',
+                        C: 'tarotcards:the_tower'
+                }
+        ).keepIngredient('tarotcards:the_tower')
+        event.shaped(
+                Item.of('tarotcards:the_hierophant'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'concatenationcore:silver_paper',
+                        B: 'thermal:signalum_ingot',
                         C: 'tarotcards:the_high_priestess'
                 }
         ).keepIngredient('tarotcards:the_high_priestess')
@@ -370,10 +383,10 @@ ServerEvents.recipes(event => {
                         'CGA'
                 ],
                 {
-                        F: 'farmersdelight:roast_chicken_block',
+                        F: 'farmersdelight:chicken_soup',
                         E: 'tarotcards:wheel_of_fortune',
                         A: 'minecraft:gold_ingot',
-                        G: 'farmersdelight:pasta_with_meatballs',
+                        G: 'farmersdelight:chocolate_pie',
                         C: 'minecraft:glowstone',
                         B: 'immersive_weathering:golden_moss_clump',
                         D: 'minecraft:pumpkin_pie'
