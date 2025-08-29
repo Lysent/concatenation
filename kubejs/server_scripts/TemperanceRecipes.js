@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
                 'bloodmagic:sacrificaldagger',
                 'bloodmagic:altar',
                 'hexerei:witch_helmet',
-                'hexerei:witch_chesplate',
+                'hexerei:witch_chestplate',
                 'hexerei:witch_boots',
                 'theurgy:pyromantic_brazier',
                 'theurgy:calcination_oven',
@@ -101,9 +101,9 @@ ServerEvents.recipes(event => {
                 [
                         'reliquary:nebulous_heart',
                         'concatenationcore:gold_handle',
-                        'tarotcards:the_moon'
+                        '#concatenation:magic_cards_t2'
                 ]
-        ).keepIngredient('tarotcards:the_moon')
+        ).keepIngredient('#concatenation:magic_cards_t2')
         event.shaped(
                 Item.of('dimdoors:rift_blade'),
                 [

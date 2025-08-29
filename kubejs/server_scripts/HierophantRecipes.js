@@ -1381,7 +1381,7 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         D: 'minecraft:iron_nugget',
-                        C: 'thermal:rose_gold_ingot',
+                        C: '#forge:ingots/rose_gold',
                         A: 'concatenationcore:ironclad_hammer',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
