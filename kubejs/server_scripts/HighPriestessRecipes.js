@@ -25,7 +25,6 @@ ServerEvents.recipes(event => {
                 'integrateddynamics:mechanical_drying_basin',
                 'integrateddynamics:cable',
                 'integratedtunnels:part_interface_energy',
-                'integrateddynamics:variable',
                 'mcore:steel_axe',
                 'mcore:steel_pickaxe',
                 'mcore:steel_sword',
@@ -156,6 +155,8 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'thermal:enderium_ingot', type: 'minecraft:crafting_shapeless' })
         event.remove({ output: 'mekanism:ingot_osmium', type: 'minecraft:smelting' })
         event.remove({ output: 'mekanism:ingot_osmium', type: 'minecraft:blasting' })
+        event.remove({ output: 'tconstruct:rose_gold_ingot', type: 'thermal:smelter' })
+        event.remove({ output: 'integrateddynamics:variable', type: 'minecraft:crafting_shaped' })
 
         event.shaped(
                 Item.of('tarotcards:the_high_priestess'),
@@ -768,17 +769,26 @@ ServerEvents.recipes(event => {
                         'concatenationcore:daladite'
                 ]
         )
+        event.shapeless(
+                Item.of('integrateddynamics:variable'),
+                [
+                        'integrateddynamics:variable'
+                ]
+        )
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.pulverizer(Item.of('thermal:signalum_dust').withChance(1.5), 'thermal:signalum_plate')
         event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_lead').withChance(1.25), '#tfmg:stone_types/galena')
         event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_aluminum').withChance(1.25), '#tfmg:stone_types/bauxite')
+        event.recipes.thermal.pulverizer(Item.of('mekanism:dust_osmium').withChance(1.5), 'mekanism:raw_osmium')
+        event.recipes.thermal.pulverizer(Item.of('mekanism:dust_osmium').withChance(1.99), 'create:crushed_raw_osmium')
         event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 4000), 'thermal:ice_charge'])
         event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 4000), 'concatenationcore:ice_shard'])
         event.recipes.thermal.smelter('concatenationcore:galvanized_iron_nugget', ['create:zinc_nugget', 'create:zinc_nugget', 'minecraft:iron_nugget']).energy(4000)
         event.recipes.thermal.smelter('concatenationcore:daladite', ['concatenationcore:celestial_calralite', 'rftoolsbase:infused_diamond', 'mekanism:ingot_refined_obsidian']).energy(35000)
         event.recipes.thermal.smelter('create:shadow_steel', ['rftoolsbase:infused_diamond', 'minecraft:nether_star', 'concatenationcore:daladite']).energy(1000000)
         event.recipes.thermal.smelter('concatenationcore:alclad', ['concatenationcore:meteorite', 'concatenationcore:meteorite', '#forge:dusts/zinc']).energy(1000)
+        event.recipes.thermal.smelter('mekanism:ingot_osmium', ['mekanism:dust_osmium', 'mekanism:dust_osmium', 'mekanism:dust_osmium']).energy(5000)
 
         event.recipes.industrialforegoing.dissolution_chamber(
                 ['rftoolspower:power_core2', 'thermal:energy_cell_frame', 'rftoolspower:power_core2', 'concatenationcore:signalum_coil', 'concatenationcore:signalum_coil', 'rftoolspower:power_core2', 'tconstruct:hepatizon_ingot', 'rftoolspower:power_core2'],

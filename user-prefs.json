@@ -570,6 +570,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\chunky\\tasks\\minecraft",
+        "isSelected": true
+      },
+      {
         "path": "config\\chunky\\config.json",
         "isSelected": true
       },
@@ -687,46 +691,6 @@
       },
       {
         "path": "config\\fancymenu\\assets",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\assets\\eleonore",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\assets\\eleonore\\title-eleanor-pxl.png",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\assets\\eleonore\\title-eleanor-pxlsmooth.png",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\assets\\eleonore\\title-eleanor2250.png",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\assets\\eleonore\\title-eleonomore-pxl.png",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\assets\\eleonore\\title-eleonomore-pxlsmooth.png",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\assets\\eleonore\\title-eleonomore.png",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\assets\\eleonore\\title-eleonomore2.png",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\assets\\eleonore\\TitleEleanor-px.png",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\assets\\eleonore\\TitleEleanor-px2.png",
         "isSelected": true
       },
       {
@@ -10778,11 +10742,11 @@
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\14252_1756169464701.info",
+        "path": "local\\crash_assistant\\44616_1756348089139.info",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\14252_1756169464701_app.jar",
+        "path": "local\\crash_assistant\\44616_1756348089139_app.jar",
         "isSelected": false
       },
       {
@@ -10790,19 +10754,15 @@
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\joined_world_pid14252.tmp",
+        "path": "local\\crash_assistant\\joined_world_pid44616.tmp",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\normal_stop_pid14252.tmp",
+        "path": "local\\crash_assistant\\renderer_pid44616.tmp",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\renderer_pid14252.tmp",
-        "isSelected": false
-      },
-      {
-        "path": "local\\crash_assistant\\successful_launch_pid14252.tmp",
+        "path": "local\\crash_assistant\\successful_launch_pid44616.tmp",
         "isSelected": false
       },
       {
@@ -12138,18 +12098,6 @@
         "isSelected": false
       },
       {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-17_23-55-46.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-19_23-32-21.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-20_11-47-34.log.gz",
-        "isSelected": false
-      },
-      {
         "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-20_21-12-12.log.gz",
         "isSelected": false
       },
@@ -12203,6 +12151,14 @@
       },
       {
         "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-25_20-44-24.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-25_20-51-11.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-27_20-24-10.log.gz",
         "isSelected": false
       },
       {
@@ -12846,6 +12802,14 @@
         "isSelected": false
       },
       {
+        "path": "logs\\2025-08-25-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-08-27-1.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\latest.log",
         "isSelected": false
       },
@@ -13350,10 +13314,6 @@
         "isSelected": false
       },
       {
-        "path": "logs\\quarry-debug-2025-08-25-1.log.gz",
-        "isSelected": false
-      },
-      {
         "path": "logs\\quarry-debug-2025-08-25-2.log.gz",
         "isSelected": false
       },
@@ -13363,6 +13323,18 @@
       },
       {
         "path": "logs\\quarry-debug-2025-08-25-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-08-25-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-08-25-6.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-08-27-1.log.gz",
         "isSelected": false
       },
       {
@@ -24583,6 +24555,10 @@
       },
       {
         "path": "saves\\New World (18)\\region\\r.5.4.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\region\\r.5.5.mca",
         "isSelected": false
       },
       {
