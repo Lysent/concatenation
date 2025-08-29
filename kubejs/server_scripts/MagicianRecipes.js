@@ -20,7 +20,16 @@ ServerEvents.recipes(event => {
                 'reliquary:angelheart_vial',
                 'reliquary:angelic_feather',
                 'reliquary:phoenix_down',
-                'reliquary:alkahestry_tome'
+                'reliquary:alkahestry_tome',
+                'reliquary:serpent_staff',
+                'reliquary:rending_gale',
+                'reliquary:glacial_staff',
+                'reliquary:pyromancer_staff',
+                'reliquary:sojourner_staff',
+                'reliquary:lantern_of_paranoia',
+                'reliquary:interdiction_torch',
+                'reliquary:salamander_eye',
+                'reliquary:magicbane'
         ]
 
         remove.forEach(item => {
@@ -37,6 +46,12 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'projecte:high_covalence_dust', type: 'minecraft:crafting_shapeless' })
         event.remove({ output: 'projecte:philosophers_stone', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'projecte:alchemical_coal', type: 'minecraft:crafting_shapeless' })
+
+        event.replaceInput(
+                { output: 'reliquary:handgun' },
+                'reliquary:slime_pearl',
+                'reliquary:destruction_catalyst'
+        );
 
         event.shaped(
                 Item.of('concatenationcore:protean_glass', 4),
@@ -640,4 +655,140 @@ ServerEvents.recipes(event => {
                         F: 'reliquary:eye_of_the_storm'
                 }
         ).keepIngredient('tarotcards:the_hanged_man')
+
+        event.shaped(
+                Item.of('reliquary:rending_gale'),
+                [
+                        'ABC',
+                        'DEB',
+                        'FDA'
+                ],
+                {
+                        D: 'minecraft:gold_ingot',
+                        A: 'reliquary:bat_wing',
+                        B: 'reliquary:void_tear',
+                        E: 'reliquary:alkahestry_tome',
+                        F: 'minecraft:stick',
+                        C: 'reliquary:eye_of_the_storm'
+                }
+        ).keepIngredient('reliquary:alkahestry_tome')
+        event.shaped(
+                Item.of('reliquary:glacial_staff'),
+                [
+                        'ABC',
+                        'DEB',
+                        'FDA'
+                ],
+                {
+                        A: 'reliquary:frozen_core',
+                        B: 'reliquary:void_tear',
+                        C: 'reliquary:shears_of_winter',
+                        D: 'minecraft:diamond',
+                        E: 'reliquary:alkahestry_tome',
+                        F: 'reliquary:ice_magus_rod'
+                }
+        ).keepIngredient('reliquary:alkahestry_tome')
+        event.shaped(
+                Item.of('reliquary:pyromancer_staff'),
+                [
+                        ' AB',
+                        'CDE',
+                        'FC '
+                ],
+                {
+                        B: 'reliquary:infernal_claws',
+                        A: 'reliquary:void_tear',
+                        E: 'reliquary:infernal_tear',
+                        D: 'reliquary:alkahestry_tome',
+                        F: 'reliquary:ice_magus_rod',
+                        C: 'reliquary:molten_core'
+                }
+        ).keepIngredient('reliquary:alkahestry_tome')
+        event.shaped(
+                Item.of('reliquary:sojourner_staff'),
+                [
+                        'ABC',
+                        'DEB',
+                        'FDA'
+                ],
+                {
+                        A: 'minecraft:gold_ingot',
+                        F: 'elementalcraft:hardened_handle',
+                        B: 'reliquary:void_tear',
+                        E: 'reliquary:alkahestry_tome',
+                        D: 'reliquary:molten_core',
+                        C: 'concatenationcore:glowing_gold'
+                }
+        ).keepIngredient('reliquary:alkahestry_tome')
+        event.shaped(
+                Item.of('reliquary:serpent_staff'),
+                [
+                        'ABC',
+                        'DEB',
+                        'FDA'
+                ],
+                {
+                        B: 'reliquary:void_tear',
+                        E: 'reliquary:alkahestry_tome',
+                        F: 'minecraft:stick',
+                        A: 'reliquary:chelicerae',
+                        C: 'celestisynth:eyebomination',
+                        D: 'reliquary:kraken_shell'
+                }
+        ).keepIngredient('reliquary:alkahestry_tome')
+        event.shaped(
+                Item.of('reliquary:lantern_of_paranoia'),
+                [
+                        'AB ',
+                        ' C ',
+                        ' D '
+                ],
+                {
+                        D: 'elementalcraft:springaline_lantern',
+                        A: 'reliquary:sojourner_staff',
+                        B: 'torchmaster:feral_flare_lantern',
+                        C: 'reliquary:molten_core'
+                }
+        ).keepIngredient('reliquary:sojourner_staff')
+        event.shaped(
+                Item.of('reliquary:interdiction_torch', 4),
+                [
+                        'ABC',
+                        '   ',
+                        '   '
+                ],
+                {
+                        B: 'minecraft:blaze_rod',
+                        A: 'reliquary:lantern_of_paranoia',
+                        C: 'reliquary:nebulous_heart'
+                }
+        ).keepIngredient('reliquary:lantern_of_paranoia')
+        event.shaped(
+                Item.of('reliquary:salamander_eye'),
+                [
+                        'ABC',
+                        'D  ',
+                        '   '
+                ],
+                {
+                        C: 'reliquary:frozen_core',
+                        A: 'reliquary:pyromancer_staff',
+                        D: 'torchmaster:frozen_pearl',
+                        B: 'reliquary:molten_core'
+                }
+        )
+        event.shaped(
+                Item.of('reliquary:magicbane'),
+                [
+                        ' AB',
+                        'ACA',
+                        'DA '
+                ],
+                {
+                        C: 'reliquary:fortune_coin',
+                        B: 'asr:golden_giant_sword',
+                        A: 'concatenationcore:sourcesilver',
+                        D: 'concatenationcore:nebulous_handle'
+                }
+        )
 });

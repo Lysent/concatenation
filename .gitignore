@@ -23,7 +23,6 @@ logs
 *.log
 
 # various config, caches, etc
-emi.json
 modernfix
 /**/README.*
 about.txt
@@ -31,7 +30,6 @@ about.txt
 fml.toml
 embeddium-*.json
 indigo-renderer.properties
-DistantHorizons.toml
 config/world_preview
 patchouli_data.json
 /config/oculus.properties

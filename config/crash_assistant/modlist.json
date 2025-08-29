@@ -19,20 +19,20 @@
     "modId": "aiimprovements",
     "version": "0.5.2"
   },
-  "alltheleaks-1.0.1+1.20.1-forge.jar": {
-    "jarName": "alltheleaks-1.0.1+1.20.1-forge.jar",
+  "alltheleaks-1.0.2+1.20.1-forge.jar": {
+    "jarName": "alltheleaks-1.0.2+1.20.1-forge.jar",
     "modId": "alltheleaks",
-    "version": "1.0.1+1.20.1-forge"
+    "version": "1.0.2+1.20.1-forge"
   },
   "almanac-1.20.x-forge-1.0.2.jar": {
     "jarName": "almanac-1.20.x-forge-1.0.2.jar",
     "modId": "almanac",
     "version": "1.0.2"
   },
-  "almostunified-forge-1.20.1-0.10.0.jar": {
-    "jarName": "almostunified-forge-1.20.1-0.10.0.jar",
+  "almostunified-forge-1.20.1-0.10.1.jar": {
+    "jarName": "almostunified-forge-1.20.1-0.10.1.jar",
     "modId": "almostunified",
-    "version": "1.20.1-0.10.0"
+    "version": "1.20.1-0.10.1"
   },
   "amendments-1.20-2.2.1.jar": {
     "jarName": "amendments-1.20-2.2.1.jar",
@@ -219,10 +219,10 @@
     "modId": "commoncapabilities",
     "version": "2.9.7"
   },
-  "concatenationcore-1.0.2-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.0.2-forge-1.20.1.jar",
+  "concatenationcore-1.0.3-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.0.3-forge-1.20.1.jar",
     "modId": "concatenationcore",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   "connectivity-1.20.1-7.1.jar": {
     "jarName": "connectivity-1.20.1-7.1.jar",
@@ -509,6 +509,11 @@
     "modId": "fastboot",
     "version": "1.2"
   },
+  "FastLeafDecay-32.jar": {
+    "jarName": "FastLeafDecay-32.jar",
+    "modId": "fastleafdecay",
+    "version": "32"
+  },
   "FastSuite-1.20.1-5.1.0.jar": {
     "jarName": "FastSuite-1.20.1-5.1.0.jar",
     "modId": "fastsuite",
@@ -741,6 +746,11 @@
     "jarName": "lmft-1.0.4+1.20.1-forge.jar",
     "modId": "lmft",
     "version": "1.0.4+1.20.1"
+  },
+  "lootr-forge-1.20-0.7.35.92.jar": {
+    "jarName": "lootr-forge-1.20-0.7.35.92.jar",
+    "modId": "lootr",
+    "version": "0.7.35.92"
   },
   "lukis-grand-capitals-1.1.2.jar": {
     "jarName": "lukis-grand-capitals-1.1.2.jar",

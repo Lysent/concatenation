@@ -10,7 +10,8 @@ ServerEvents.recipes(event => {
                 'born_in_chaos_v1:dark_upgrade',
                 'born_in_chaos_v1:dark_metal_block',
                 'born_in_chaos_v1:dark_grid',
-                'farmersdelight:cutting_board'
+                'farmersdelight:cutting_board',
+                'concatenationcore:gold_paper'
         ]
 
         remove.forEach(item => {
@@ -517,5 +518,37 @@ ServerEvents.recipes(event => {
                 [
                         'born_in_chaos_v1:dark_metal_ingot'
                 ]
+        )
+
+        event.shapeless(
+                Item.of('thermal:raw_lead'),
+                [
+                        '#forge:raw_materials/lead'
+                ]
+        )
+        event.shapeless(
+                Item.of('thermal:raw_nickel'),
+                [
+                        '#forge:raw_materials/nickel'
+                ]
+        )
+        event.shapeless(
+                Item.of('thermal:raw_tin'),
+                [
+                        '#forge:raw_materials/tin'
+                ]
+        )
+
+        event.shaped(
+                Item.of('concatenationcore:gold_paper'),
+                [
+                        'ABA',
+                        'BBB',
+                        'ABA'
+                ],
+                {
+                        B: 'minecraft:paper',
+                        A: 'concatenationcore:glowing_gold'
+                }
         )
 });

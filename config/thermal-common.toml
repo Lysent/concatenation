@@ -21,7 +21,7 @@
 
 		[World.Features.Nickel]
 			#Whether this feature should naturally spawn in the world.
-			Enable = true
+			Enable = false
 
 		[World.Features."Rubberwood Trees"]
 			#Whether this feature should naturally spawn in the world.
