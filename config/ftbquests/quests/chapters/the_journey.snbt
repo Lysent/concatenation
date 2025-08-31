@@ -11513,6 +11513,7 @@
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
+			description: ["The Dissolution Chamber is a more advanced crafting machine."]
 			id: "3AF5EB2526EAD40C"
 			rewards: [{
 				id: "6364A99F088418C1"
@@ -15126,7 +15127,17 @@
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
+			description: [
+				"The Mob Slaughter Factory can be used to produce liquid meat or more importantly: pink slime, which is used in the manufacturing of higher quality machine casings."
+				"{@pagebreak}"
+				"To obtain pink slime, activate the mob slaughter factory with a mob in front, which will be instantly slaughtered and turned to slime."
+			]
 			id: "107A1E1AB9252A58"
+			rewards: [{
+				id: "1D140D90A4C87932"
+				item: "industrialforegoing:pink_slime_bucket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "043D4276CB1B5ECE"
 				item: {
@@ -17724,7 +17735,13 @@
 				}
 				{
 					id: "28D1827774F907E6"
-					item: "concatenationcore:dense_alloy"
+					item: {
+						Count: 1
+						id: "concatenationcore:dense_alloy"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -20108,6 +20125,115 @@
 			}]
 			x: -5.6d
 			y: -5.95d
+		}
+		{
+			dependencies: ["2DFD2B7661869743"]
+			id: "1AD20894C1E7AFA7"
+			rewards: [{
+				id: "28F7BF6D7976BB2A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0BED60CCD37C92F3"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2DFD2B7661869743"]
+			id: "3FBBA09E3A0249F2"
+			rewards: [{
+				id: "08E540D8DA2F4083"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2C0D1878111FE483"
+				item: "enderstorage:ender_tank"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E1C64AA0AA235C2"]
+			id: "29886789989F6CE9"
+			size: 0.75d
+			tasks: [
+				{
+					id: "48536178A27167FA"
+					item: "enderstorage:ender_chest"
+					type: "item"
+				}
+				{
+					id: "532EDACE53E8568F"
+					item: "enderstorage:ender_tank"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2157576FC7005917"]
+			description: [
+				"Sublime Gold Tools are a remarkably shinier upgrade to regular golden tools, unique to the Magician Pathway."
+				""
+				"These tools are nearly unbreakable, and retain the valuable properties of gold - being fast and highly enchantable. However, their mining level still remains low, and glowing gold is needed to reinforce the handles, increasing their cost substantially."
+				"{@pagebreak}"
+				"You may find this useful to give to your companions or various other people you meet on your journey."
+			]
+			hide_dependency_lines: true
+			id: "58B8BFC90B0E9F74"
+			rewards: [{
+				id: "02A4CA6A5CB48DF9"
+				item: "concatenationcore:glowing_gold"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D97F840C62F8A47"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "concatenationcore:sublime_gold_sword"
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:sublime_gold_giant_sword"
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:sublime_gold_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:sublime_gold_axe"
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:sublime_gold_shovel"
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:sublime_gold_hoe"
+							}
+						]
+					}
+				}
+				title: "Any Sublime Gold Tool"
+				type: "item"
+			}]
+			title: "Sublime Gold Tools"
+			x: 2.0d
+			y: 6.5d
 		}
 	]
 	title: "The Journey"
