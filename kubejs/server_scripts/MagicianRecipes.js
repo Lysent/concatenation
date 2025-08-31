@@ -29,7 +29,8 @@ ServerEvents.recipes(event => {
                 'reliquary:lantern_of_paranoia',
                 'reliquary:interdiction_torch',
                 'reliquary:salamander_eye',
-                'reliquary:magicbane'
+                'reliquary:magicbane',
+                'concatenationcore:gold_stick'
         ]
 
         remove.forEach(item => {
@@ -51,6 +52,11 @@ ServerEvents.recipes(event => {
                 { output: 'reliquary:handgun' },
                 'reliquary:slime_pearl',
                 'reliquary:destruction_catalyst'
+        );
+        event.replaceInput(
+                { output: 'waystones:warp_plate' },
+                'minecraft:flint',
+                'elementalcraft:aircrystal'
         );
 
         event.shaped(
@@ -791,4 +797,45 @@ ServerEvents.recipes(event => {
                         D: 'concatenationcore:nebulous_handle'
                 }
         )
+        event.shaped(
+                Item.of('enderstorage:ender_chest'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        D: 'minecraft:ender_chest',
+                        C: '#waystones:warp_shards',
+                        A: 'minecraft:blaze_rod',
+                        B: 'minecraft:obsidian'
+                }
+        )
+        event.shaped(
+                Item.of('enderstorage:ender_tank'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        D: 'minecraft:ender_chest',
+                        C: 'elementalcraft:burnt_glass',
+                        A: 'minecraft:blaze_rod',
+                        B: 'minecraft:obsidian'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:gold_stick'),
+                [
+                        'ABC',
+                        '   ',
+                        '   '
+                ],
+                {
+                        A: 'concatenationcore:cutting_tool',
+                        C: 'tarotcards:the_magician',
+                        B: 'concatenationcore:gold_handle'
+                }
+        ).keepIngredient('concatenationcore:gold_stick')
 });

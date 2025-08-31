@@ -217,7 +217,7 @@ element {
 
 element {
   button_element_executable_block_identifier = db33c7be-2458-472f-ab0f-6107a53bb82c-1751927330932
-  [executable_action_instance:c13eef5c-f1c9-4d28-8865-e98f340030d8-1751927443566][action_type:openlink] = https://revers.fandom.com/wiki/Revers_Wiki
+  [executable_action_instance:c13eef5c-f1c9-4d28-8865-e98f340030d8-1751927443566][action_type:openlink] = https://revers.fandom.com/wiki/Concatenation/FAQ
   [executable_block:db33c7be-2458-472f-ab0f-6107a53bb82c-1751927330932][type:generic] = [executables:c13eef5c-f1c9-4d28-8865-e98f340030d8-1751927443566;]
   backgroundnormal = [source:local]/config/fancymenu/assets/wiki-button.png
   backgroundhovered = [source:local]/config/fancymenu/assets/wiki-hover.png

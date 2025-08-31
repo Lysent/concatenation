@@ -111,8 +111,28 @@ ServerEvents.tags('item', event => {
         'concatenationcore:shrike',
         'concatenationcore:kestrel',
         'concatenationcore:kestrel_r',
-        'reliquary:magicbane'
+        'reliquary:magicbane',
+        'asr:gilded_wooden_shield',
+        'asr:gilded_stone_shield',
+        'asr:gilded_skull_shield',
+        'asr:gilded_iron_shield',
+        'asr:gilded_netherquartz_shield',
+        'asr:gilded_ender_shield',
+        'asr:gilded_diamond_shield'
     ]);
+
+    const sublime = [
+        'concatenationcore:sublime_gold_pickaxe',
+        'concatenationcore:sublime_gold_shovel',
+        'concatenationcore:sublime_gold_sword',
+        'concatenationcore:sublime_gold_giant_sword',
+        'concatenationcore:sublime_gold_hoe',
+        'concatenationcore:sublime_gold_axe'
+    ];
+
+    add('tarotcards:golden', sublime);
+    add('forge:tools', sublime);
+    add('forge:tools/gold', sublime);
 
     const fullSets = [
         'concatenationcore:the_error',

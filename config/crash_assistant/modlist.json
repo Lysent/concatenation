@@ -204,6 +204,11 @@
     "modId": "cobweb",
     "version": "1.0.1"
   },
+  "CodeChickenLib-1.20.1-4.4.0.516-universal.jar": {
+    "jarName": "CodeChickenLib-1.20.1-4.4.0.516-universal.jar",
+    "modId": "codechickenlib",
+    "version": "4.4.0.516"
+  },
   "cofh_core-1.20.1-11.0.2.56.jar": {
     "jarName": "cofh_core-1.20.1-11.0.2.56.jar",
     "modId": "cofh_core",
@@ -219,10 +224,10 @@
     "modId": "commoncapabilities",
     "version": "2.9.7"
   },
-  "concatenationcore-1.0.3-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.0.3-forge-1.20.1.jar",
+  "concatenationcore-1.0.4.1-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.0.4.1-forge-1.20.1.jar",
     "modId": "concatenationcore",
-    "version": "1.0.3"
+    "version": "1.0.4.1"
   },
   "connectivity-1.20.1-7.1.jar": {
     "jarName": "connectivity-1.20.1-7.1.jar",
@@ -479,6 +484,11 @@
     "modId": "enchdesc",
     "version": "17.1.19"
   },
+  "EnderStorage-1.20.1-2.11.0.188-universal.jar": {
+    "jarName": "EnderStorage-1.20.1-2.11.0.188-universal.jar",
+    "modId": "enderstorage",
+    "version": "2.11.0.188"
+  },
   "fancymenu_forge_3.6.2_MC_1.20.1.jar": {
     "jarName": "fancymenu_forge_3.6.2_MC_1.20.1.jar",
     "modId": "fancymenu",
@@ -523,6 +533,11 @@
     "jarName": "ftb-chunks-modded-1.20+1.1.9.jar",
     "modId": "ftbchunks_modded",
     "version": "1.1.9"
+  },
+  "ftb-essentials-forge-2001.2.3.jar": {
+    "jarName": "ftb-essentials-forge-2001.2.3.jar",
+    "modId": "ftbessentials",
+    "version": "2001.2.3"
   },
   "ftb-library-forge-2001.2.10.jar": {
     "jarName": "ftb-library-forge-2001.2.10.jar",
@@ -731,6 +746,11 @@
     "jarName": "lmft-1.0.4+1.20.1-forge.jar",
     "modId": "lmft",
     "version": "1.0.4+1.20.1"
+  },
+  "lootjs-forge-1.20.1-2.13.0.jar": {
+    "jarName": "lootjs-forge-1.20.1-2.13.0.jar",
+    "modId": "lootjs",
+    "version": "1.20.1-2.13.0"
   },
   "lootr-forge-1.20-0.7.35.92.jar": {
     "jarName": "lootr-forge-1.20-0.7.35.92.jar",
@@ -1129,6 +1149,11 @@
     "jarName": "trading_floor-1.1.7+forge-1.20.1.jar",
     "modId": "trading_floor",
     "version": "1.1.7+forge-1.20.1"
+  },
+  "tru.e-ending-v1.1.0c.jar": {
+    "jarName": "tru.e-ending-v1.1.0c.jar",
+    "modId": "mr_limesplatus_ending",
+    "version": "1-v1.1.0c"
   },
   "txnilib-forge-1.0.24-1.20.1.jar": {
     "jarName": "txnilib-forge-1.0.24-1.20.1.jar",

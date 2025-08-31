@@ -12,7 +12,8 @@ ServerEvents.recipes(event => {
                 'theurgy:liquefaction_cauldron',
                 'theurgy:distiller',
                 'theurgy:incubator',
-                'reliquary:witherless_rose'
+                'reliquary:witherless_rose',
+                'enderstorage:ender_pouch'
         ]
 
         remove.forEach(item => {
@@ -426,6 +427,20 @@ ServerEvents.recipes(event => {
                         C: 'reliquary:fertile_lily_pad',
                         D: 'minecraft:rose_bush',
                         F: 'elementalcraft:fireite_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('enderstorage:ender_pouch'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        D: 'hexerei:ender_satchel',
+                        A: 'minecraft:leather',
+                        B: 'minecraft:blaze_powder',
+                        C: 'minecraft:quartz'
                 }
         )
 });

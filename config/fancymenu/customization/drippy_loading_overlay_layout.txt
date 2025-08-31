@@ -13,7 +13,7 @@ layout-meta {
 }
 
 menu_background {
-  image_path = [source:local]/config/fancymenu/assets/title-eleonore.png
+  image_path = [source:local]/config/fancymenu/assets/title-eleonomore.png
   slide = false
   repeat_texture = false
   fallback_path = [source:local]/config/fancymenu/assets/gehennabackground.png
