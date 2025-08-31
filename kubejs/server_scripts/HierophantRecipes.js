@@ -1057,13 +1057,6 @@ ServerEvents.recipes(event => {
                 ]
         )
         event.shapeless(
-                Item.of('immersive_weathering:azalea_flowers', 4),
-                [
-                        'concatenationcore:transplant',
-                        'immersive_weathering:azalea_flowers'
-                ]
-        )
-        event.shapeless(
                 Item.of('minecraft:pink_petals', 4),
                 [
                         'concatenationcore:transplant',
@@ -1197,13 +1190,6 @@ ServerEvents.recipes(event => {
                 ]
         )
         event.shapeless(
-                Item.of('immersive_weathering:moss_clump', 4),
-                [
-                        'concatenationcore:transplant',
-                        'immersive_weathering:moss_clump'
-                ]
-        )
-        event.shapeless(
                 Item.of('minecraft:red_mushroom', 4),
                 [
                         'concatenationcore:transplant',
@@ -1215,13 +1201,6 @@ ServerEvents.recipes(event => {
                 [
                         'concatenationcore:transplant',
                         'minecraft:brown_mushroom'
-                ]
-        )
-        event.shapeless(
-                Item.of('immersive_weathering:golden_moss_clump', 4),
-                [
-                        'concatenationcore:transplant',
-                        'immersive_weathering:golden_moss_clump'
                 ]
         )
         event.shaped(

@@ -534,11 +534,6 @@
     "modId": "ftbchunks_modded",
     "version": "1.1.9"
   },
-  "ftb-essentials-forge-2001.2.3.jar": {
-    "jarName": "ftb-essentials-forge-2001.2.3.jar",
-    "modId": "ftbessentials",
-    "version": "2001.2.3"
-  },
   "ftb-library-forge-2001.2.10.jar": {
     "jarName": "ftb-library-forge-2001.2.10.jar",
     "modId": "ftblibrary",
@@ -1149,11 +1144,6 @@
     "jarName": "trading_floor-1.1.7+forge-1.20.1.jar",
     "modId": "trading_floor",
     "version": "1.1.7+forge-1.20.1"
-  },
-  "tru.e-ending-v1.1.0c.jar": {
-    "jarName": "tru.e-ending-v1.1.0c.jar",
-    "modId": "mr_limesplatus_ending",
-    "version": "1-v1.1.0c"
   },
   "txnilib-forge-1.0.24-1.20.1.jar": {
     "jarName": "txnilib-forge-1.0.24-1.20.1.jar",

@@ -71,18 +71,6 @@ ServerEvents.recipes(event => {
                 ]
         )
         event.shaped(
-                Item.of('immersive_weathering:steel_wool'),
-                [
-                        'AAA',
-                        'ABB',
-                        '   '
-                ],
-                {
-                        A: 'thermal:steel_nugget',
-                        B: 'minecraft:string'
-                }
-        )
-        event.shaped(
                 Item.of('hpm:swashbuckleritem'),
                 [
                         ' AB',
