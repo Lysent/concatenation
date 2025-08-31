@@ -51,7 +51,9 @@ ServerEvents.recipes(event => {
                 'mekanism:advanced_universal_cable',
                 'mekanism:energized_smelter',
                 'rftoolsbuilder:shape_card_quarry',
-                'thermal:upgrade_augment_1'
+                'thermal:upgrade_augment_1',
+                'enderstorage:ender_chest',
+                'enderstorage:ender_tank'
         ]
 
         remove.forEach(item => {
@@ -775,6 +777,75 @@ ServerEvents.recipes(event => {
                         'integrateddynamics:variable'
                 ]
         )
+        event.shaped(
+                Item.of('enderstorage:ender_chest'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        D: 'minecraft:ender_chest',
+                        A: 'minecraft:blaze_rod',
+                        B: 'minecraft:obsidian',
+                        C: 'thermal:enderium_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('enderstorage:ender_tank'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        D: 'minecraft:ender_chest',
+                        C: 'thermal:enderium_glass',
+                        A: 'minecraft:blaze_rod',
+                        B: 'minecraft:obsidian'
+                }
+        )
+        event.shaped(
+                Item.of('solarflux:photovoltaic_cell_3'),
+                [
+                        'AAA',
+                        'BCB',
+                        '   '
+                ],
+                {
+                        A: 'integratedterminals:menril_glass',
+                        B: 'createmetallurgy:steel_ingot',
+                        C: 'solarflux:photovoltaic_cell_2'
+                }
+        )
+        event.shaped(
+                Item.of('solarflux:photovoltaic_cell_3'),
+                [
+                        'AAA',
+                        'BCB',
+                        '   '
+                ],
+                {
+                        A: 'elementalcraft:springaline_glass',
+                        B: 'createmetallurgy:steel_ingot',
+                        C: 'solarflux:photovoltaic_cell_2'
+                }
+        )
+        event.shaped(
+                Item.of('solarflux:sp_5', 2),
+                [
+                        'AAA',
+                        'BCB',
+                        'DED'
+                ],
+                {
+                        B: 'industrialforegoing:plastic',
+                        C: 'thermal:lumium_gear',
+                        A: 'solarflux:photovoltaic_cell_3',
+                        E: '#concatenation:higher_circuits',
+                        D: 'solarflux:sp_4'
+                }
+        )
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.pulverizer(Item.of('thermal:signalum_dust').withChance(1.5), 'thermal:signalum_plate')
@@ -784,7 +855,7 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.pulverizer(Item.of('mekanism:dust_osmium').withChance(1.99), 'create:crushed_raw_osmium')
         event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 4000), 'thermal:ice_charge'])
         event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 4000), 'concatenationcore:ice_shard'])
-        event.recipes.thermal.smelter('concatenationcore:galvanized_iron_nugget', ['create:zinc_nugget', 'create:zinc_nugget', 'minecraft:iron_nugget']).energy(4000)
+        event.recipes.thermal.smelter('concatenationcore:galvanized_iron_nugget', ['create:zinc_nugget', 'concatenationcore:double_nugget']).energy(4000)
         event.recipes.thermal.smelter('concatenationcore:daladite', ['concatenationcore:celestial_calralite', 'rftoolsbase:infused_diamond', 'mekanism:ingot_refined_obsidian']).energy(35000)
         event.recipes.thermal.smelter('create:shadow_steel', ['rftoolsbase:infused_diamond', 'minecraft:nether_star', 'concatenationcore:daladite']).energy(1000000)
         event.recipes.thermal.smelter('concatenationcore:alclad', ['concatenationcore:meteorite', 'concatenationcore:meteorite', '#forge:dusts/zinc']).energy(1000)

@@ -551,4 +551,17 @@ ServerEvents.recipes(event => {
                         A: 'concatenationcore:glowing_gold'
                 }
         )
+        event.shaped(
+                Item.of('tarotcards:the_emperor'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        C: 'minecolonies:ancienttome',
+                        A: 'concatenationcore:gold_paper',
+                        B: 'minecolonies:sifter_mesh_diamond'
+                }
+        )
 });
