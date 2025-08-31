@@ -7512,6 +7512,7 @@
 		}
 		{
 			dependencies: ["00E41146BE22270E"]
+			description: ["Compell the lifeforce out of you veins with a little bit of threatening. As opposed to the blood used for witchcraft, this new Art directly manipulates the life essence around your soul. You may want to enlist the help of any friends you have if you can't supply enough blood to the altar."]
 			id: "068DF533DB041F37"
 			size: 1.0d
 			tasks: [
@@ -8643,6 +8644,7 @@
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
+			description: ["Alchemy is a complex and spiritually-charged process. Now its gates open to you, under the guidance of life essence. "]
 			id: "40EA73BEA023C14A"
 			rewards: [{
 				id: "6B00225D36878DED"
@@ -8677,6 +8679,7 @@
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
+			description: ["While the alchemy table works with life essence, the hellfire forge works with demonic will. The wold of will manipulation is a relatively complex one, so be prepared if you do decide to embark on it. I, for one, never needed to delve into this art, but you may not have the luxury of alternative technologies."]
 			id: "6CE0DB1AEB597BCE"
 			tasks: [{
 				id: "2D0885007F6B27D1"
@@ -8696,6 +8699,7 @@
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
+			description: ["These large runestones can be further inscribed with enchantments to augment the structure of a blood altar. Each tier of altar will require more to be used, to further allow for more advanced imbuements."]
 			id: "25A618A3B28B8DEE"
 			tasks: [{
 				count: 9L
@@ -8716,6 +8720,7 @@
 		}
 		{
 			dependencies: ["25A618A3B28B8DEE"]
+			description: ["Tired of bloodletting? If you have a steady source of creatures to kill, this dagger will allow you to efficiently rend the life force from their corporeal form. The world I lived in never lacked hostiles, that's for sure."]
 			id: "255F91EE26FB166D"
 			tasks: [{
 				id: "37EA8119BA50E3C4"
@@ -9106,6 +9111,7 @@
 		}
 		{
 			dependencies: ["6CE0DB1AEB597BCE"]
+			description: ["These strangely-shaped gems can hold and stabilise demonic will within them, acting as portable reservoirs. They also automatically absorb it from kills performed with a sentient sword, which is an added bonus."]
 			id: "0D2E04D30E54E6C8"
 			tasks: [{
 				id: "44A38A04BF79BC8F"
@@ -9129,6 +9135,7 @@
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
+			description: ["An enchanted barbed snare to bootstrap any aspiring sanguimancer into the extraction of willpower from the souls of animated things. Unfortunately, they don't actually impede the movement of creatures that much, so they don't have much use afterwards."]
 			id: "4CD27FD09EF16094"
 			tasks: [{
 				id: "0EE8BA404B791B13"
@@ -9148,6 +9155,11 @@
 		}
 		{
 			dependencies: ["0D2E04D30E54E6C8"]
+			description: [
+				"The sentient sword is vaguely aware of its existance, and grows more powerful the more demonic will is nearby. Its most important attribute, however, is certainly how it seems to rip demonic will straight out of its victims, no ensnaring required."
+				""
+				"I once had a sentient sword. I believe it liked the smell of strawberries..."
+			]
 			id: "3E73EAD0A0A295F5"
 			tasks: [{
 				id: "6554577A8F60DB12"
@@ -9174,6 +9186,7 @@
 				"3E73EAD0A0A295F5"
 			]
 			dependency_requirement: "one_completed"
+			description: ["The willpower of animated things. It's more sinister than life essence, and I believe it comes from a place deep beyond this world. While life essence, the impetus, maintains the physical form, will is the elusive, emotional 'soul' of things that guides their purpose."]
 			id: "346C594E62FFDB7A"
 			tasks: [{
 				id: "4ABDAE32F6BC60EC"
@@ -9196,6 +9209,7 @@
 		}
 		{
 			dependencies: ["3E73EAD0A0A295F5"]
+			description: ["All your tools can be made sentient! Though you may hear whispers, worry not, they probably aren't conspiring against you."]
 			id: "29FA37C27A60B1E0"
 			tasks: [
 				{
@@ -9268,6 +9282,7 @@
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
+			description: ["Life essence can be infused into various items to grant them special abilities. Stone sheets can be imbued to make them conductive to magic, and precious stones like diamonds can be infused to become blood orbs, which allow you to connect a channel to your life network."]
 			id: "209C0E2550C84C69"
 			tasks: [
 				{
@@ -9297,6 +9312,7 @@
 					type: "item"
 				}
 			]
+			title: "Basic Blood Crafting"
 			x: 18.5d
 			y: -1.0d
 		}
@@ -9975,6 +9991,7 @@
 		}
 		{
 			dependencies: ["255F91EE26FB166D"]
+			description: ["An enhancement to the idea of a weapon that slices through the metaphysical, this blade will allow you to make use of the old art of dimensional doors. Beware, though, it seems the alternate plane these doors channel through has suffered some kind of damage since the old days... It's best if you stick to bridging locations outside of the eerie black void, unless you intend to banish people to limbo."]
 			id: "3EA4408A8F86B825"
 			tasks: [{
 				id: "6E8E8BC2A87E5933"
@@ -9997,6 +10014,7 @@
 		}
 		{
 			dependencies: ["3EA4408A8F86B825"]
+			description: ["Sometimes there are rifts. Sometimes those rifts are undesireable."]
 			id: "2480B881634C80B7"
 			tasks: [{
 				id: "0E51A9E37759BAB4"
@@ -10019,6 +10037,7 @@
 		}
 		{
 			dependencies: ["3EA4408A8F86B825"]
+			description: ["These tools allow you to bridge two points in space, forming a rift between them, which you can then stabilise into proper channels using dimensional doors. Rift signatures also seem to be affected by enchantments, which may allow you to make them last a little longer."]
 			id: "5C35A413987F2EC6"
 			tasks: [
 				{
@@ -13961,6 +13980,7 @@
 		}
 		{
 			dependencies: ["40EA73BEA023C14A"]
+			description: ["These ashes can be used to draw out alchemical arrays, a kind of magic circle. These will allow you to perform certain enchantments and cantrips, particularly for sigils or some small rituals."]
 			id: "2DC6C224BD1881C9"
 			tasks: [{
 				id: "025C057BEBF75AFB"
@@ -13983,6 +14003,7 @@
 		}
 		{
 			dependencies: ["2DC6C224BD1881C9"]
+			description: ["This sigil is by far one of the most important in sanguimancy, as it allows you to see the numerical quantity of life essence contained within blood altars or your life network."]
 			id: "27BBE74203C33C95"
 			tasks: [{
 				id: "07D024FC495ECDE4"
@@ -14002,6 +14023,7 @@
 		}
 		{
 			dependencies: ["40EA73BEA023C14A"]
+			description: ["The alchemical reaction chamber, or ARC, is a useful machine for extra ore processing, recycling, or particular extractions such as separating blood shards out of saturated tau fruit."]
 			id: "51EDC749A53FF0D3"
 			tasks: [{
 				id: "56E0404A51517B1C"
@@ -14021,6 +14043,7 @@
 		}
 		{
 			dependencies: ["51EDC749A53FF0D3"]
+			description: ["The weak blood shard is a product of the demonic tau fruit and can be used in the creation of the penultimate instruments of sanguimancy, as well as to unveil the true secrets of alchemy."]
 			id: "51CDC5BD509CE535"
 			tasks: [{
 				id: "3D92F93FDD37245F"
@@ -14040,6 +14063,10 @@
 		}
 		{
 			dependencies: ["3913EED76917339E"]
+			description: [
+				"Large rituals require ritual stones, and this stone is the core of it all. While you're at it, you should probably fill up your life essence network, you'll need that power for activation."
+				"Rituals are complex things with many variations, so you should read up on them in the Science of Blood."
+			]
 			id: "6D27277DA055DFBC"
 			tasks: [{
 				id: "0247DD7DDC3F8084"
@@ -14059,6 +14086,11 @@
 		}
 		{
 			dependencies: ["6D27277DA055DFBC"]
+			description: [
+				"I personally believe time is a precious resource. While you may not be in the same circumstances ans I am, surely you do too. The ritual diviner is an indispensable tool for this cause, as it builds up the structure of rituals automatically using the stones on your person. After that, you'll need an activation crystal to open the ritual's structure up to your personal life essence."
+				""
+				"At this point, you may want to challenge the gateway to what lies beyond: The Hidden Realm."
+			]
 			id: "579E8F816742653C"
 			tasks: [
 				{
@@ -14094,6 +14126,11 @@
 		}
 		{
 			dependencies: ["579E8F816742653C"]
+			description: [
+				"An upgraded ritual diviner, for the more advanced operations. Prepare with all of the strength you can acquire, because the next steps in this art require the exploration of the palace of demons: The Endless realm."
+				""
+				"I never got far within the demon realm. In fact, a lot of the threats and monsters in there are more powerful than the nightmares on the surface world, and the maze-like geometry of their palace makes them hard to avoid."
+			]
 			id: "29289B6D4610B9D4"
 			tasks: [{
 				id: "7F1FEAB4ACA7A230"
@@ -14114,6 +14151,7 @@
 		}
 		{
 			dependencies: ["6D27277DA055DFBC"]
+			description: ["This funny-looking wrench thing allows you to interface with activated rituals, allowing you to control their area of effect and other properties."]
 			id: "1AE3C9A1202FE409"
 			tasks: [{
 				id: "18C1ABBFAC17202C"
@@ -14133,6 +14171,7 @@
 		}
 		{
 			dependencies: ["639817BED42EBC3A"]
+			description: ["These hell-forged mechanisms from within the mines are made of finely crafted demonite and can provide additional enhancements to the runes empowering your altar, though are usually not necessary. There are many complementary powers and technologies in this world, so you need not only dedicated yourself to one."]
 			id: "32DA8E4E34681D50"
 			tasks: [{
 				id: "4D423D255A09CBD3"
@@ -14152,6 +14191,7 @@
 		}
 		{
 			dependencies: ["29289B6D4610B9D4"]
+			description: ["This metal native to the demon realm is the highest order material of sanguimancy, and the most permeable to demonic will. Beyond this point, your infrastructure is no longer limited by your knowledge of the art, but rather by how many resources you can dedicate to it."]
 			id: "639817BED42EBC3A"
 			tasks: [{
 				id: "5556AD35B00359B8"
@@ -14171,6 +14211,10 @@
 		}
 		{
 			dependencies: ["40EA73BEA023C14A"]
+			description: [
+				"As a result of performing alchemy using life essence, some items can be imbued with a thimble of sapience, allowing these objects to perform logistical tasks automatically. "
+				"These proved quite useful when I did not have access to other forms of logistics in the wilderness, and they have a certain advantage in that they transmit through the air, regardless of line of sight."
+			]
 			id: "234F7C53CB615880"
 			tasks: [
 				{
@@ -14342,6 +14386,7 @@
 		}
 		{
 			dependencies: ["209C0E2550C84C69"]
+			description: ["A better blood orb. Be careful, though, as a blood orb belonging to you will pull from your own life essence, regardless of who is using it."]
 			id: "3913EED76917339E"
 			tasks: [{
 				id: "01731E058A1CDC1F"
