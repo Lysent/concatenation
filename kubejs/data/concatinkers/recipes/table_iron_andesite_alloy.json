@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "forge:andesite"
+  },
+  "cast_consumed": true,
+  "cooling_time": 10,
+  "fluid": {
+    "amount": 10,
+    "tag": "forge:molten_iron"
+  },
+  "result": "create:andesite_alloy"
+}

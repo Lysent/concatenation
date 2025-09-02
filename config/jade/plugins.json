@@ -5,8 +5,8 @@
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -51,12 +51,17 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "minecolonies_compatibility": {
+    "crop.age": true,
+    "postbox.requested": true,
+    "stash.requested": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
     "block_face": false,
     "coordinates": false,
-    "registry_name": "OFF",
+    "registry_name": "ADVANCED_TOOLTIPS",
     "mod_name": true
   },
   "balm": {

@@ -822,6 +822,18 @@
         "isSelected": true
       },
       {
+        "path": "config\\fancymenu\\slideshows\\main_menu\\images\\title-eleonomore3.png",
+        "isSelected": true
+      },
+      {
+        "path": "config\\fancymenu\\slideshows\\main_menu\\images\\title-eleonomore4.png",
+        "isSelected": true
+      },
+      {
+        "path": "config\\fancymenu\\slideshows\\main_menu\\images\\title-eleonomore5.png",
+        "isSelected": true
+      },
+      {
         "path": "config\\fancymenu\\slideshows\\main_menu\\images\\title-eleonore.png",
         "isSelected": true
       },
@@ -1426,7 +1438,135 @@
         "isSelected": true
       },
       {
-        "path": "config\\openloader\\resources\\ConcatenationTips.zip",
+        "path": "config\\openloader\\resources\\ConcatenationTips",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\00.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\01.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\02.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\03.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\04.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\05.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\06.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\07.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\08.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\09.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\10.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\11.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\12.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\13.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\14.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\15.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\16.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\17.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\18.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\19.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\20.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\21.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\22.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\23.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\24.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\25.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\26.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\27.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\openloader\\resources\\ConcatenationTips\\pack.mcmeta",
         "isSelected": true
       },
       {
@@ -1806,6 +1946,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\ccl.cfg",
+        "isSelected": true
+      },
+      {
         "path": "config\\chat_heads.json5",
         "isSelected": true
       },
@@ -1995,6 +2139,10 @@
       },
       {
         "path": "config\\enchdesc.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\EnderStorage.cfg",
         "isSelected": true
       },
       {
@@ -2584,6 +2732,10 @@
       {
         "path": "defaultconfigs\\create-server.toml",
         "isSelected": true
+      },
+      {
+        "path": "defaultconfigs\\ftbessentials-server.snbt",
+        "isSelected": false
       },
       {
         "path": "defaultconfigs\\ftbqoptimizer.snbt",
@@ -6722,6 +6874,154 @@
         "isSelected": false
       },
       {
+        "path": "journeymap\\data\\sp\\New World (26)",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\addon-data",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\addon-data\\minecolonies",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\addon-data\\minecolonies\\overworld",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\addon-data\\minecolonies\\overworld\\border.json",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\biome",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\biome\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\biome\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\biome\\0,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\biome\\0,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\cache\\r.-1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\cache\\r.-1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\cache\\r.0.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\cache\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\day",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\day\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\day\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\day\\0,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\day\\0,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\night",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\night\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\night\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\night\\0,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\night\\0,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\topo",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\topo\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\topo\\cache\\r.-1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\topo\\cache\\r.-1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\topo\\cache\\r.0.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\topo\\cache\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\topo\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\topo\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\topo\\0,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\overworld\\topo\\0,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (26)\\waypoints",
+        "isSelected": false
+      },
+      {
         "path": "journeymap\\data\\sp\\New World (3)",
         "isSelected": false
       },
@@ -8646,6 +8946,10 @@
         "isSelected": true
       },
       {
+        "path": "kubejs\\server_scripts\\OreUnification.js",
+        "isSelected": false
+      },
+      {
         "path": "kubejs\\server_scripts\\StarRecipes.js",
         "isSelected": true
       },
@@ -9930,6 +10234,10 @@
         "isSelected": false
       },
       {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\CodeChickenLib-1.20.1-4.4.0.516-universal.mod_data.json",
+        "isSelected": false
+      },
+      {
         "path": "local\\crash_assistant\\mod_data_cache_v2\\cofh_core-1.20.1-11.0.2.56.mod_data.json",
         "isSelected": false
       },
@@ -9963,6 +10271,14 @@
       },
       {
         "path": "local\\crash_assistant\\mod_data_cache_v2\\concatenationcore-1.0.3-forge-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\concatenationcore-1.0.4-forge-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\concatenationcore-1.0.4.1-forge-1.20.1.mod_data.json",
         "isSelected": false
       },
       {
@@ -10202,6 +10518,10 @@
         "isSelected": false
       },
       {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\EnderStorage-1.20.1-2.11.0.188-universal.mod_data.json",
+        "isSelected": false
+      },
+      {
         "path": "local\\crash_assistant\\mod_data_cache_v2\\fancymenu_forge_3.5.2_MC_1.20.1.mod_data.json",
         "isSelected": false
       },
@@ -10239,6 +10559,10 @@
       },
       {
         "path": "local\\crash_assistant\\mod_data_cache_v2\\ftb-chunks-modded-1.20+1.1.9.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\ftb-essentials-forge-2001.2.3.mod_data.json",
         "isSelected": false
       },
       {
@@ -10451,6 +10775,10 @@
       },
       {
         "path": "local\\crash_assistant\\mod_data_cache_v2\\lmft-1.0.4+1.20.1-forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\lootjs-forge-1.20.1-2.13.0.mod_data.json",
         "isSelected": false
       },
       {
@@ -10898,6 +11226,10 @@
         "isSelected": false
       },
       {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\tru.e-ending-v1.1.0c.mod_data.json",
+        "isSelected": false
+      },
+      {
         "path": "local\\crash_assistant\\mod_data_cache_v2\\txnilib-forge-1.0.24-1.20.1.mod_data.json",
         "isSelected": false
       },
@@ -10978,11 +11310,19 @@
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\42304_1756428669292.info",
+        "path": "local\\crash_assistant\\12300_1756603876617.info",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\42304_1756428669292_app.jar",
+        "path": "local\\crash_assistant\\12300_1756603876617_app.jar",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\16496_1756601022568.info",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\16496_1756601022568_app.jar",
         "isSelected": false
       },
       {
@@ -10990,19 +11330,19 @@
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\joined_world_pid42304.tmp",
+        "path": "local\\crash_assistant\\joined_world_pid12300.tmp",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\normal_stop_pid42304.tmp",
+        "path": "local\\crash_assistant\\normal_stop_pid12300.tmp",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\renderer_pid42304.tmp",
+        "path": "local\\crash_assistant\\renderer_pid12300.tmp",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\successful_launch_pid42304.tmp",
+        "path": "local\\crash_assistant\\successful_launch_pid12300.tmp",
         "isSelected": false
       },
       {
@@ -11243,6 +11583,50 @@
       },
       {
         "path": "local\\ftbchunks\\data\\2c0e1a3f-8b2e-46a2-8ed1-7de9bce30488\\dimensions.txt",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\35b75339-7dd9-43ec-afef-abbee4aaa37b",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\35b75339-7dd9-43ec-afef-abbee4aaa37b\\minecraft_overworld",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\35b75339-7dd9-43ec-afef-abbee4aaa37b\\minecraft_overworld\\0EA5F-0EA5F.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\35b75339-7dd9-43ec-afef-abbee4aaa37b\\minecraft_overworld\\0EA5F-0EA60.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\35b75339-7dd9-43ec-afef-abbee4aaa37b\\minecraft_overworld\\0EA60-0EA5F.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\35b75339-7dd9-43ec-afef-abbee4aaa37b\\minecraft_overworld\\0EA60-0EA60.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\35b75339-7dd9-43ec-afef-abbee4aaa37b\\minecraft_overworld\\dimension.regions",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\35b75339-7dd9-43ec-afef-abbee4aaa37b\\minecraft_overworld\\waypoints.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\35b75339-7dd9-43ec-afef-abbee4aaa37b\\biome_map.txt",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\35b75339-7dd9-43ec-afef-abbee4aaa37b\\block_map.txt",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\35b75339-7dd9-43ec-afef-abbee4aaa37b\\dimensions.txt",
         "isSelected": false
       },
       {
@@ -12358,26 +12742,6 @@
         "isSelected": false
       },
       {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-20_21-12-12.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-22_22-27-20.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-23_13-32-36.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-23_13-50-24.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-23_14-21-17.log.gz",
-        "isSelected": false
-      },
-      {
         "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-23_17-28-22.log.gz",
         "isSelected": false
       },
@@ -12431,6 +12795,38 @@
       },
       {
         "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-28_17-03-34.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-28_20-51-16.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-29_20-59-26.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-30_18-37-38.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-30_18-44-31.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-30_19-15-18.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-30_19-38-06.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-30_20-13-49.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-30_20-43-49.log.gz",
         "isSelected": false
       },
       {
@@ -13098,6 +13494,38 @@
         "isSelected": false
       },
       {
+        "path": "logs\\2025-08-28-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-08-29-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-08-30-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-08-30-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-08-30-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-08-30-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-08-30-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-08-30-6.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\latest.log",
         "isSelected": false
       },
@@ -13630,11 +14058,39 @@
         "isSelected": false
       },
       {
-        "path": "logs\\quarry-debug-2025-08-28-1.log.gz",
+        "path": "logs\\quarry-debug-2025-08-28-2.log.gz",
         "isSelected": false
       },
       {
-        "path": "logs\\quarry-debug-2025-08-28-2.log.gz",
+        "path": "logs\\quarry-debug-2025-08-28-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-08-28-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-08-29-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-08-30-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-08-30-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-08-30-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-08-30-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-08-30-5.log.gz",
         "isSelected": false
       },
       {
@@ -13786,11 +14242,107 @@
         "isSelected": false
       },
       {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_base_terminator_0_5e324b3fff.nbt",
+        "isSelected": false
+      },
+      {
         "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_crossing_0_682a9ab05e.nbt",
         "isSelected": false
       },
       {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_crossing_1_00ba2bc459.nbt",
+        "isSelected": false
+      },
+      {
         "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_crossing_2_3fca19fa61.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_crossing_3_bridge_c517212dc9.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_crossing_4_bridge_mini_bbac8c236d.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_crossing_5_5a35fe1adb.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_crossing_terminator_0_af1d76b6e2.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_part_0_42a2b42bd3.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_part_1_3bc8f5db74.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_part_2_e75148cff3.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_part_3_e3e7f925b5.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_part_4_f585d51b2d.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_ranged_illager_0_74b4c100da.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_ranged_skeleton_1_db77348c06.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_roof_terminator_0_ab79a65d2e.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_skeleton_assassin_0_097ccd80fd.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_skeleton_assassin_1_99fe8e96ef.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_skeleton_juggernaut_0_8d1b6f5200.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_skeleton_juggernaut_1_9cfa21c3cd.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_skeleton_juggernaut_2_2b3265ee44.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_small_room_0_0070e208b6.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_small_room_1_c0c61a82cf.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_small_room_2_84d7c2abfc.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_small_room_3_5e2e034980.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_small_room_terminator_0_c329014197.nbt",
         "isSelected": false
       },
       {
@@ -14090,6 +14642,10 @@
         "isSelected": false
       },
       {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_heavenly_conqueror_heavenly_conqueror_part_1_b8b12295d9.nbt",
+        "isSelected": false
+      },
+      {
         "path": "modernfix\\structureCacheV1\\dungeons_arise_heavenly_conqueror_heavenly_conqueror_part_3_32bd1ae2d2.nbt",
         "isSelected": false
       },
@@ -14266,6 +14822,14 @@
         "isSelected": false
       },
       {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_jungle_tree_house_jungle_tree_house_husk_0_9336d663b6.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_jungle_tree_house_jungle_tree_house_skeleton_0_3713743dd5.nbt",
+        "isSelected": false
+      },
+      {
         "path": "modernfix\\structureCacheV1\\dungeons_arise_keep_kayra_keep_kayra_main_0_adaf93d65b.nbt",
         "isSelected": false
       },
@@ -14342,6 +14906,10 @@
         "isSelected": false
       },
       {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mushroom_house_mushroom_house_bottom_1_f4f52708cd.nbt",
+        "isSelected": false
+      },
+      {
         "path": "modernfix\\structureCacheV1\\dungeons_arise_mushroom_house_mushroom_house_bottom_2_6d894f474b.nbt",
         "isSelected": false
       },
@@ -14367,6 +14935,10 @@
       },
       {
         "path": "modernfix\\structureCacheV1\\dungeons_arise_mushroom_mines_mushroom_mines_part_0_1497612195.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mushroom_mines_mushroom_mines_part_1_1b76022040.nbt",
         "isSelected": false
       },
       {
@@ -15114,6 +15686,38 @@
         "isSelected": false
       },
       {
+        "path": "modernfix\\structureCacheV1\\minecolonies_asian_townhall_d5f1e02041.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\minecolonies_caledonia_townhall_bb08d8d014.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\minecolonies_colonial_townhall1_75f4a664fe.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\minecolonies_desertoasis_townhall1_a90cfe7dc2.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\minecolonies_incan_townhall1_5614073fc7.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\minecolonies_lostmesacity_townhall1_7382e2bc5d.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\minecolonies_medieval_birch_townhall_4853c82eaf.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\minecolonies_medieval_dark_oak_townhall_138abc57dd.nbt",
+        "isSelected": false
+      },
+      {
         "path": "modernfix\\structureCacheV1\\minecolonies_medieval_oak_builder1_9a083d0cac.nbt",
         "isSelected": false
       },
@@ -15227,6 +15831,10 @@
       },
       {
         "path": "modernfix\\structureCacheV1\\minecolonies_medieval_spruce_townhall_a01637dae6.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\minecolonies_shire_townhall1_06ab699587.nbt",
         "isSelected": false
       },
       {
@@ -15510,6 +16118,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\CodeChickenLib-1.20.1-4.4.0.516-universal.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\cofh_core-1.20.1-11.0.2.56.jar",
         "isSelected": true
       },
@@ -15522,7 +16134,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\concatenationcore-1.0.3-forge-1.20.1.jar",
+        "path": "mods\\concatenationcore-1.0.4.1-forge-1.20.1.jar",
         "isSelected": true
       },
       {
@@ -15738,6 +16350,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\EnderStorage-1.20.1-2.11.0.188-universal.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\fancymenu_forge_3.6.2_MC_1.20.1.jar",
         "isSelected": true
       },
@@ -15771,6 +16387,10 @@
       },
       {
         "path": "mods\\ftb-chunks-modded-1.20+1.1.9.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\ftb-essentials-forge-2001.2.3.jar",
         "isSelected": true
       },
       {
@@ -15943,6 +16563,10 @@
       },
       {
         "path": "mods\\lmft-1.0.4+1.20.1-forge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\lootjs-forge-1.20.1-2.13.0.jar",
         "isSelected": true
       },
       {
@@ -16287,6 +16911,10 @@
       },
       {
         "path": "mods\\trading_floor-1.1.7+forge-1.20.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\tru.e-ending-v1.1.0c.jar",
         "isSelected": true
       },
       {
@@ -24474,6 +25102,10 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World (18)\\EnderStorage",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World (18)\\entities",
         "isSelected": false
       },
@@ -24558,6 +25190,18 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World (18)\\ftbessentials",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\ftbessentials\\playerdata",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\ftbessentials\\playerdata\\ddd660aa-a0a4-4273-b1e9-1799ac99308f.snbt",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World (18)\\ftbquests",
         "isSelected": false
       },
@@ -24599,6 +25243,30 @@
       },
       {
         "path": "saves\\New World (18)\\integratedscripting\\integratedscripting.d.ts",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\minecolonies",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\minecolonies\\minecraft",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\minecolonies\\minecraft\\overworld",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\minecolonies\\minecraft\\overworld\\colony1.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\minecolonies\\colonies-2025-08-30_21.28.44.zip",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\minecolonies\\colonies.dat",
         "isSelected": false
       },
       {
@@ -28403,6 +29071,10 @@
       },
       {
         "path": "saves\\New World (18)\\serverconfig\\ftbchunks-world.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\serverconfig\\ftbessentials.snbt",
         "isSelected": false
       },
       {
@@ -34478,6 +35150,818 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World (26)",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\advancements",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\advancements\\ddd660aa-a0a4-4273-b1e9-1799ac99308f.json",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\chunk_activity_info",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\chunk_activity_info\\overworld.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\starterkit",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\starterkit\\tracking.json",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\an_redstone_signals.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\command_storage_spawnanimations.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\DistantHorizons.sqlite",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\integratedcrafting_GlobalCounterData.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\integrateddynamics_GlobalCounterData.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\integrateddynamics_Labels.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\integrateddynamics_Networks.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\JMPlayerSettings.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\mekanism_SecurityFrequencyHandler.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\mfix_strongholds.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\modonomicon_book_states.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\neruina.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\raids.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\random_sequences.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\RFToolsDimensions.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\ritchiesprojectilelib_chunk_manager.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\scoreboard.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\seasons.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\simple_hot_air_balloons_mapvars.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\TitaniumReward.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\data\\WorldUUID.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\datapacks",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\DIM-1",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\DIM-1\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\DIM-1\\data\\an_redstone_signals.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\DIM-1\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\DIM-1\\data\\DistantHorizons.sqlite",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\DIM-1\\data\\raids.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\DIM-1\\data\\ritchiesprojectilelib_chunk_manager.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\DIM-1\\data\\seasons.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\DIM1",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\DIM1\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\DIM1\\data\\an_redstone_signals.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\DIM1\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\DIM1\\data\\DistantHorizons.sqlite",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\DIM1\\data\\raids_end.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\DIM1\\data\\ritchiesprojectilelib_chunk_manager.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\DIM1\\data\\seasons.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\ae2",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\ae2\\spatial_storage",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\ae2\\spatial_storage\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\ae2\\spatial_storage\\data\\an_redstone_signals.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\ae2\\spatial_storage\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\ae2\\spatial_storage\\data\\DistantHorizons.sqlite",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\ae2\\spatial_storage\\data\\raids.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\ae2\\spatial_storage\\data\\ritchiesprojectilelib_chunk_manager.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\ae2\\spatial_storage\\data\\seasons.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\bloodmagic",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\bloodmagic\\dungeon",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\bloodmagic\\dungeon\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\bloodmagic\\dungeon\\data\\an_redstone_signals.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\bloodmagic\\dungeon\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\bloodmagic\\dungeon\\data\\DistantHorizons.sqlite",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\bloodmagic\\dungeon\\data\\raids.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\bloodmagic\\dungeon\\data\\ritchiesprojectilelib_chunk_manager.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\bloodmagic\\dungeon\\data\\seasons.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\dungeon_pockets",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\dungeon_pockets\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\dungeon_pockets\\data\\an_redstone_signals.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\dungeon_pockets\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\dungeon_pockets\\data\\DistantHorizons.sqlite",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\dungeon_pockets\\data\\raids.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\dungeon_pockets\\data\\ritchiesprojectilelib_chunk_manager.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\dungeon_pockets\\data\\seasons.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\limbo",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\limbo\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\limbo\\data\\an_redstone_signals.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\limbo\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\limbo\\data\\DistantHorizons.sqlite",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\limbo\\data\\raids.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\limbo\\data\\ritchiesprojectilelib_chunk_manager.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\limbo\\data\\seasons.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\personal_pockets",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\personal_pockets\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\personal_pockets\\data\\an_redstone_signals.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\personal_pockets\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\personal_pockets\\data\\DistantHorizons.sqlite",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\personal_pockets\\data\\raids.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\personal_pockets\\data\\ritchiesprojectilelib_chunk_manager.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\personal_pockets\\data\\seasons.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\public_pockets",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\public_pockets\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\public_pockets\\data\\an_redstone_signals.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\public_pockets\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\public_pockets\\data\\DistantHorizons.sqlite",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\public_pockets\\data\\raids.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\public_pockets\\data\\ritchiesprojectilelib_chunk_manager.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\dimensions\\dimdoors\\public_pockets\\data\\seasons.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\EnderStorage",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\entities",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\entities\\r.-1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\entities\\r.-1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\entities\\r.0.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\entities\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\ftbchunks",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\ftbchunks\\ddd660aa-a0a4-4273-b1e9-1799ac99308f.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\ftbessentials",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\ftbessentials\\playerdata",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\ftbessentials\\playerdata\\ddd660aa-a0a4-4273-b1e9-1799ac99308f.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\ftbquests",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\ftbquests\\ddd660aa-a0a4-4273-b1e9-1799ac99308f.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\ftbteams",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\ftbteams\\party",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\ftbteams\\player",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\ftbteams\\player\\ddd660aa-a0a4-4273-b1e9-1799ac99308f.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\ftbteams\\server",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\ftbteams\\ftbteams.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\integratedscripting",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\integratedscripting\\scripting-disks",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\integratedscripting\\integratedscripting.d.ts",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\minecolonies",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\minecolonies\\minecraft",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\minecolonies\\minecraft\\overworld",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\minecolonies\\minecraft\\overworld\\colony1.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\minecolonies\\colonies-2025-08-30_21.47.44.zip",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\minecolonies\\colonies.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\playerdata",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\playerdata\\decursio_stages",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\playerdata\\decursio_stages\\ddd660aa-a0a4-4273-b1e9-1799ac99308f.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\playerdata\\via_romana",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\playerdata\\via_romana\\ddd660aa-a0a4-4273-b1e9-1799ac99308f.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\playerdata\\via_romana\\ddd660aa-a0a4-4273-b1e9-1799ac99308f.dat_old",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\playerdata\\ddd660aa-a0a4-4273-b1e9-1799ac99308f.cosarmor",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\playerdata\\ddd660aa-a0a4-4273-b1e9-1799ac99308f.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\playerdata\\ddd660aa-a0a4-4273-b1e9-1799ac99308f.dat_old",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\poi",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\poi\\r.-1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\poi\\r.-1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\poi\\r.0.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\poi\\r.0.-2.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\poi\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.-1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.-1.-2.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.-1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.-1.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.-2.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.-2.-2.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.-2.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.-2.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.-3.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.-3.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.0.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.0.-2.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.0.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.1.-2.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\region\\r.1.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\chunkactivitytracker-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\cofh_core-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\constructionwand-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\corpse-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\create-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\createbigcannons-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\create_connected-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\create_dd-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\create_enchantment_industry-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\curios-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\fastleafdecay-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\forge-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\ftbchunks-world.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\ftbessentials.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\irons_spellbooks-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\journeymap-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\littlelogistics-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\mantle-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\mcjtylib-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\minecolonies-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\quarryplus-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\railways-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\rftoolsbase-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\rftoolsbuilder-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\rftoolsdim-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\rftoolspower-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\rftoolsstorage-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\rftoolsutility-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\ritchiesprojectilelib-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\structurize-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\tacz-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\tfmg-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\thermal-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\serverconfig\\theurgy-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\stats",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\stats\\ddd660aa-a0a4-4273-b1e9-1799ac99308f.json",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\icon.png",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\kubejs_persistent_data.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\level.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\level.dat_old",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (26)\\session.lock",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World (3)",
         "isSelected": false
       },
@@ -39706,6 +41190,10 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World (9)\\EnderStorage",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World (9)\\entities",
         "isSelected": false
       },
@@ -39751,6 +41239,18 @@
       },
       {
         "path": "saves\\New World (9)\\ftbchunks\\ddd660aa-a0a4-4273-b1e9-1799ac99308f.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (9)\\ftbessentials",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (9)\\ftbessentials\\playerdata",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (9)\\ftbessentials\\playerdata\\ddd660aa-a0a4-4273-b1e9-1799ac99308f.snbt",
         "isSelected": false
       },
       {
@@ -40022,11 +41522,19 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World (9)\\serverconfig\\fastleafdecay-server.toml",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World (9)\\serverconfig\\forge-server.toml",
         "isSelected": false
       },
       {
         "path": "saves\\New World (9)\\serverconfig\\ftbchunks-world.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (9)\\serverconfig\\ftbessentials.snbt",
         "isSelected": false
       },
       {

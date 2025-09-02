@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "oreberriesreplanted:lead_oreberry" }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "thermal:lead_dust",
+      "count": 1
+    },
+    {
+      "item": "thermal:lead_dust",
+      "count": 1,
+      "chance": 0.25
+    }
+  ]
+}

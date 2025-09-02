@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DL",
+    "BQ"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:glass_bottle"
+    },
+	"L": {
+		"item": "minecraft:lapis_lazuli"
+	},
+	"Q": {
+		"item": "minecraft:feather"
+	},
+	"D": {
+		"item": "hexerei:belladonna_berries"
+	}
+  },
+  "result": {
+    "item": "irons_spellbooks:common_ink",
+	"count": 4
+  }
+}

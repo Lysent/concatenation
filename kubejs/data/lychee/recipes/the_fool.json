@@ -1,0 +1,10 @@
+{
+  "type": "lychee:item_exploding",
+  "item_in": {
+    "item": "concatenationcore:the_error"
+  },
+  "post": {
+    "type": "drop_item",
+    "item": "tarotcards:the_fool"
+  }
+}

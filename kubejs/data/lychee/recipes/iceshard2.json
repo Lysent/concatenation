@@ -1,0 +1,22 @@
+{
+    "type": "lychee:item_inside",
+    "item_in": {
+        "item": "ars_nouveau:water_essence"
+    },
+    "block_in": {
+        "blocks": ["water"],
+        "state": {
+            "level": 0
+        }
+    },
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "concatenationcore:ice_shard"
+        },
+        {
+            "type": "place",
+            "block": "*"
+        }
+    ]
+}

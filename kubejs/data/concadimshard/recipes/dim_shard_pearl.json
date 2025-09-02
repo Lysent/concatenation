@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "rftoolsbase:infused_enderpearl"
+	},
+	"experience": 1,
+	"result":"concatenationcore:acclimated_shard"
+}

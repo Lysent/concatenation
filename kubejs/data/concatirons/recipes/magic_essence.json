@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+	{
+		"item": "hexerei:mandrake_flowers"
+	},
+	{
+		"item": "irons_spellbooks:arcane_essence"
+	}
+  ],
+  "result": {
+    "item": "irons_spellbooks:arcane_essence",
+    "count": 4
+  }
+}
