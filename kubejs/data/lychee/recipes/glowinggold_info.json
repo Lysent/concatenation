@@ -1,0 +1,13 @@
+{
+    "type": "lychee:block_interacting",
+    "comment": "Lightning strikes turn gold blocks to glowing gold.",
+    "ghost": true,
+    "item_in": {
+        "item": "minecraft:lightning_rod"
+    },
+    "block_in": "gold_block",
+    "post": {
+        "type": "drop_item",
+        "item": "concatenationcore:glowing_gold_block"
+    }
+}

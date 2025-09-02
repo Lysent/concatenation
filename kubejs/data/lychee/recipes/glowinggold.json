@@ -1,0 +1,9 @@
+{
+    "type": "lychee:lightning_channeling",
+    "post": [
+        {
+            "type": "execute",
+            "command": "fill ~-1 ~-1 ~-1 ~1 ~1 ~1 concatenationcore:glowing_gold_block replace gold_block"
+        }
+    ]
+}

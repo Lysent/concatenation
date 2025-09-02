@@ -1,0 +1,26 @@
+{
+    "type": "bloodmagic:alchemytable",
+    "input": [
+        {
+            "item": "irons_spellbooks:arcane_essence"
+        },
+        {
+            "item": "bloodmagic:tauoil"
+        },
+        {
+            "item": "bloodmagic:weakbloodshard"
+        },
+        {
+            "item": "tconstruct:blood_slime_leaves"
+        },
+        {
+            "item": "bloodmagic:divinationsigil"
+        }
+    ],
+    "output": {
+        "item": "concatenationcore:blood_powder"
+    },
+    "syphon": 2000,
+    "ticks": 200,
+    "upgradeLevel": 3
+}

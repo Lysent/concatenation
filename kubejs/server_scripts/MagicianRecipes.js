@@ -399,7 +399,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('concatenationcore:ice_shard', 2),
+                Item.of('concatenationcore:ice_shard', 4),
                 [
                         'AB ',
                         'BA ',
@@ -837,5 +837,5 @@ ServerEvents.recipes(event => {
                         C: 'tarotcards:the_magician',
                         B: 'concatenationcore:gold_handle'
                 }
-        ).keepIngredient('concatenationcore:gold_stick')
+        ).keepIngredient('tarotcards:the_magician')
 });

@@ -846,6 +846,30 @@ ServerEvents.recipes(event => {
                         D: 'solarflux:sp_4'
                 }
         )
+        event.shapeless(
+                Item.of('thermal:electrum_ingot', 9),
+                [
+                        'thermal:electrum_block'
+                ]
+        )
+        event.shapeless(
+                Item.of('thermal:signalum_ingot', 9),
+                [
+                        'thermal:signalum_block'
+                ]
+        )
+        event.shapeless(
+                Item.of('thermal:enderium_ingot', 9),
+                [
+                        'thermal:enderium_block'
+                ]
+        )
+        event.shapeless(
+                Item.of('thermal:lumium_ingot', 9),
+                [
+                        'thermal:lumium_block'
+                ]
+        )
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.pulverizer(Item.of('thermal:signalum_dust').withChance(1.5), 'thermal:signalum_plate')

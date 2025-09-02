@@ -32,8 +32,8 @@ ServerEvents.tags('item', event => {
     ]);
 
     const baseCircuits = [
-        'concatenationcore:circuit',
-        'concatenationcore:altcircuit'
+        'concatenationcore:altcircuit',
+        'concatenationcore:circuit'
     ];
     const mekanismCircuits = [
         'mekanism:basic_control_circuit',
@@ -219,4 +219,12 @@ ServerEvents.tags('item', event => {
     add('forge:tools/knives', knives);
     add('farmersdelight:tools/knives', knives);
     add('farmersdelight:straw_harvesters', knives);
+
+    add('concatenation:lightning', [
+        'minecraft:lightning_rod',
+        'thermal:lightning_charge',
+        'ars_nouveau:glyph_lightning',
+        'reliquary:rending_gale',
+        'minecraft:trident',
+    ]);
 });

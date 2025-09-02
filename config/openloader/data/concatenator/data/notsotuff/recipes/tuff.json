@@ -1,7 +1,0 @@
-{
-	"type": "minecraft:blasting",
-	"ingredient": {
-		"item": "create:scoria"
-	},
-	"result":"minecraft:tuff"
-}

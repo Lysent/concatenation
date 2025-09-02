@@ -1,0 +1,39 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "concatenationcore:pyrite"
+    },
+    {
+      "item": "concatenationcore:pyrite"
+    },
+    {
+      "item": "concatenationcore:pyrite"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "mna:vinteum_ingot"
+    },
+    {
+      "item": "hexerei:blood_sigil"
+    },
+    {
+      "item": "mna:vinteum_ingot"
+    }
+  ],
+  "output": {
+    "item": "bloodmagic:sacrificialdagger"
+  },
+  "liquidOutput": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "fluidLevelsConsumed": 2000
+}

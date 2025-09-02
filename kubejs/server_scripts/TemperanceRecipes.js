@@ -443,4 +443,17 @@ ServerEvents.recipes(event => {
                         C: 'minecraft:quartz'
                 }
         )
+        event.shaped(
+                Item.of('minecraft:glowstone_dust', 27),
+                [
+                        'ABA',
+                        'A A',
+                        'ACA'
+                ],
+                {
+                        C: 'hexerei:moon_dust',
+                        B: 'concatenationcore:descran',
+                        A: 'concatenationcore:experience_orb'
+                }
+        )
 });

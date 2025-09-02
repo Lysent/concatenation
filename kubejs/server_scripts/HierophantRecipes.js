@@ -1578,6 +1578,20 @@ ServerEvents.recipes(event => {
                         'thermal:apatite_dust'
                 ]
         )
+        event.shaped(
+                Item.of('rftoolspower:coalgenerator'),
+                [
+                        'AAA',
+                        'BCB',
+                        'ADA'
+                ],
+                {
+                        D: '#concatenation:lower_circuits',
+                        A: 'minecraft:iron_ingot',
+                        B: 'thermal:lead_gear',
+                        C: 'minecraft:blast_furnace'
+                }
+        )
 
         event.recipes.minecraft.blasting(
                 'minecraft:glass',

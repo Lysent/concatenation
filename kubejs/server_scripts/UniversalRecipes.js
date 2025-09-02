@@ -564,4 +564,11 @@ ServerEvents.recipes(event => {
                         B: 'minecolonies:sifter_mesh_diamond'
                 }
         )
+        event.shapeless(
+                Item.of('minecraft:glowstone_dust'),
+                [
+                        'concatenationcore:cutting_tool',
+                        'celestisynth:solar_crystal'
+                ]
+        )
 });

@@ -18,7 +18,15 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{image:concatenationcore:textures/info-hierophant.png width:150 height:125 align:center}"]
+			description: [
+				"{image:concatenationcore:textures/info-hierophant.png width:150 height:125 align:center}"
+				"{@pagebreak}"
+				"&9Hierophants&r are apprentice technicians, skilled in automating resources, logistics, and digital storage systems."
+				""
+				"They most often evolve into proper technicians of the &bHigh Priestess pathway&r, as per their destiny. Sometimes, they instead become &dHermits&r through the &bHigh Priestess pathway&r."
+				"{@pagebreak}"
+				"To switch to this path, only &7the Tower&r and &dthe Hermit&r (through &bthe High Priestess&r) are considered adjacent. Engineers and tinkerers can craft &9the Hierophant&r card with silver paper and their own unique ingredients."
+			]
 			id: "73F4AAF2267BB33B"
 			rewards: [{
 				id: "6C860A479D3CD959"
@@ -56,7 +64,15 @@
 			y: -1.25d
 		}
 		{
-			description: ["{image:concatenationcore:textures/info-magician.png width:150 height:125 align:center}"]
+			description: [
+				"{image:concatenationcore:textures/info-magician.png width:150 height:125 align:center}"
+				"{@pagebreak}"
+				"Embark on the path of an elementist, delving into control over elemental sources. The tarot perk of the &eMagician&r is that golden weapons do not break. Especially useful when you are to consider that golden weapons are holy in nature, inflicting more damage to the undead."
+				"{@pagebreak}"
+				"To switch to this path from an adjacent path, only engineers of &7the Tower&r pathway or arcanists from the &fStar pathway&r are considered adjacent. These two paths can craft &ethe Magician&r card themselves using silver paper instead of the regular gold paper."
+				""
+				"Elementists often evolve into mages of the &6Sun pathway&r or arcanists of the &fStar pathway&r."
+			]
 			id: "2157576FC7005917"
 			rewards: [{
 				id: "3AEC86CF77EE018C"
@@ -94,7 +110,17 @@
 			y: 1.875d
 		}
 		{
-			description: ["{image:concatenationcore:textures/info-temperance.png width:150 height:125 align:center}"]
+			description: [
+				"{image:concatenationcore:textures/info-temperance.png width:150 height:125 align:center}"
+				"{@pagebreak}"
+				"Witches of the &cTemperance pathway&r adhere to researching the occult and an isolated lifestyle, growing their various herbs in peace. Their peers are often jealous of their multiple trinkets: the flying broom, large coffer replacing the backpack, magic-resistant armour, etc. "
+				""
+				"They have a reputation for progressing the fastest through the pathways. However, they lack a proper foundation compared to other paths."
+				"{@pagebreak}"
+				"To switch to this pathway, only arcanists of the &fStar pathway&r are considered adjacent. Some elementists may consider adhering to &cTemperance&r by crafting its card."
+				""
+				"Most witches of &cTemperance&r evolve into either arcanists of the &fStar pathway&r or cultists of the &4Moon pathway&r.  "
+			]
 			id: "2970C1ADE44898FF"
 			rewards: [
 				{
@@ -150,7 +176,15 @@
 			y: -1.25d
 		}
 		{
-			description: ["{image:concatenationcore:textures/info-hermit.png width:150 height:125 align:center}"]
+			description: [
+				"{image:concatenationcore:textures/info-hermit.png width:150 height:125 align:center}"
+				"{@pagebreak}"
+				"Delve into the &dHermit pathway&r to become a tinkerer, skilled in resource processing and casting elaborate tools."
+				""
+				"Tinkerers often evolve into engineers of the &7Tower pathway&r, making elaborate contraptions. They can also choose instead to evolve into technicians of the &bHigh Priestess pathway&r."
+				"{@pagebreak}"
+				"To switch to this pathway, only &6the Sun&r and &bHigh Priestess&r pathways are adjacent. Mages and technicians can craft &dthe Hermit&r card using silver paper and their respective ingredients. "
+			]
 			id: "06A4BEEE42830A85"
 			rewards: [{
 				id: "037E71B3775DC2AF"
@@ -189,9 +223,9 @@
 		}
 		{
 			description: [
-				"You may have a different path ahead than mine. I am the holder of the Fool Card, the start of a journey of infinite possibilities. This does mean I can adhere to any pathway, provided I found the materials to do so while traveling."
+				"You may have a different path ahead than mine. I am the holder of &fthe Fool&r Card, the start of a journey of infinite possibilities. This does mean I can adhere to any pathway, provided I found the materials to do so while traveling."
 				""
-				"Almost any pathway can adhere to the following paths above. I've also included notes common to any path, about the understanding of this world."
+				"&nAlmost any pathway can adhere to the following paths above.&r I've also included notes common to any path, about the understanding of this world."
 			]
 			hide_dependent_lines: true
 			icon: {
@@ -544,7 +578,7 @@
 		{
 			dependencies: ["6F736EF54A792577"]
 			description: [
-				"Galvanized Iron is a useful materials to build machinery out of, as it is immune to rusting as long as the zinc coating is still applied, unlike plain iron you might notice rusting in many locations around the world."
+				"Galvanized Iron is a useful material to build machinery out of, as it is immune to rusting as long as the zinc coating is still applied, unlike plain iron you might notice rusting in many locations around the world."
 				"{@pagebreak}"
 				"I've witnessed a castle that was built with iron railings, completely rusted within a year. Fortunately, while it was still inhabited, the resident Magician could clear the rust free of charge with golden tools."
 			]
@@ -679,7 +713,7 @@
 				"Easily found in the earth’s crust, often mistaken for common quartz. Excavation with simple pickaxe tools suffices, though you will want to gather as many of them as you can."
 				""
 				"{@pagebreak}"
-				"I have picked up many of these lifeless shards along forgotten roads. At first, I thought them worthless, a distraction from hunger and cold. Yet, in certain places, shrines long abandoned, you may find plenty of them - and in fulfilled elemental form too."
+				"At first, I thought them worthless. However, elementists highly prize them. Yet, in certain places, shrines long abandoned, you may find plenty of them - and in fulfilled elemental form too."
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -2269,7 +2303,7 @@
 			description: [
 				"Panvita is a universal plant able to be grafted to any other plant and adapt to its host. This is most often used by holders of the Hierophant card to grow more oreberry bushes, which do not reproduce naturally, requiring panvita to be grafted to them. "
 				""
-				"Panvita exclusively grows via the incubator."
+				"&lPanvita exclusively grows via the incubator.&r"
 				"{@pagebreak}"
 				"The Incubator needs to be filled with water to start the growing process. You can use a water bucket for this purpose. Panvita will start to grow with a minimum of 100mb of water and will consume 80mb on growth."
 				""
@@ -2279,22 +2313,29 @@
 			]
 			icon: "concatenationcore:berry_incubator"
 			id: "58CFB61E7D4DE729"
-			rewards: [{
-				id: "626E69ECE07ABDFF"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+			rewards: [
+				{
+					id: "626E69ECE07ABDFF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
 						}
-						type: "building_kit"
 					}
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "7F505068F82819E0"
+					item: "concatenationcore:transplant"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2EC9A5BCD8CAA5DB"
@@ -2516,8 +2557,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: -3.15d
+			x: -8.549999999999999d
+			y: -2.6999999999999997d
 		}
 		{
 			dependencies: ["2E2A38A96D401883"]
@@ -2547,7 +2588,7 @@
 				}
 				type: "item"
 			}]
-			x: -10.35d
+			x: -9.9d
 			y: -3.5999999999999996d
 		}
 		{
@@ -2582,7 +2623,7 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
+			x: -11.5d
 			y: -4.0d
 		}
 		{
@@ -3646,6 +3687,11 @@
 		}
 		{
 			dependencies: ["51E48EAB50B0971E"]
+			description: [
+				"The source breeder is quite a complicated apparatus to even the most experienced of elementists. The little knowledge we have on this apparatus is either outdated, lost, or incomplete."
+				"{@pagebreak}"
+				"I've received the advice to forget about this horror and use other alternatives such as finding wild sources and using a displacement plate."
+			]
 			id: "77B0944FD82CEEC4"
 			tasks: [{
 				id: "7CD11D137E92614C"
@@ -3767,6 +3813,11 @@
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
+			description: [
+				"Once a widespread arcane art throughout the land, elemental spells fell out of most mages' favours after the discovery of more advanced spellcrafting. These days, this is a stepping stone to acquire spellcrafting."
+				"{@pagebreak}"
+				"The spell desk allows you to inscribe spells onto scrolls. These scrolls can then be used along with elements to cast various spells, from the more useful, to the least."
+			]
 			id: "330D9AAC0CD81668"
 			rewards: [{
 				count: 3
@@ -4061,6 +4112,7 @@
 		}
 		{
 			dependencies: ["330D9AAC0CD81668"]
+			description: ["The elementist grimoire has been used to store scrolls for the longest of times,"]
 			hide_dependency_lines: true
 			id: "6EB5A9ACC0090BC7"
 			rewards: [{
@@ -4094,7 +4146,7 @@
 			description: [
 				"The &eSun Pathway&r delves mainly into spellcrafting, gaining the ability to cast a vast variety of spells. Mages will don the armour they prefer between variations either more suited for mana optimization or for defensive prowess."
 				"{@pagebreak}"
-				"It is adjacent to the &7Tower Pathway&r, the &6Strength Pathway&r, and the &fStar Pathway&r"
+				"It is adjacent to the &7Tower Pathway&r, the &6Strength Pathway&r, and the &fStar Pathway&r. Most mages of the Sun Pathway evolve from Magician Elementists."
 			]
 			hide_dependency_lines: true
 			id: "6A5FC0572660FB1E"
@@ -4124,6 +4176,11 @@
 		}
 		{
 			dependencies: ["330D9AAC0CD81668"]
+			description: [
+				"Spell scrolls can be applied onto a focus with an anvil. One focus can hold multiple spells."
+				"{@pagebreak}"
+				"&aShift-scroll to switch between spells."
+			]
 			id: "578FA11F7AEEFB8D"
 			rewards: [{
 				id: "63DD085780C13366"
@@ -4148,6 +4205,11 @@
 		}
 		{
 			dependencies: ["6A5FC0572660FB1E"]
+			description: [
+				"The Novice Spellbook is the first tool of any mage delving into spellcrafting. It is an instrument capable of casting elaborate spells with myriad utilities."
+				""
+				"When opening the spellbook, you can add together glyphs to create a spell. The longer and more complicated the spell, the more mana it will consume. Similarly, more powerful spells do the same."
+			]
 			id: "71AF6583ACE3E366"
 			rewards: [{
 				count: 7
@@ -4183,8 +4245,19 @@
 		{
 			dependencies: ["6A5FC0572660FB1E"]
 			dependency_requirement: "all_started"
+			description: [
+				"Sourceberries double as a source of.. well, source energy and also a food source. Eating a sourcberry will increase mana regeneration temporarily."
+				""
+				"Baking something with sourceberries, such as a berry roll or pie, can increase the mana regeneration and nourishment."
+			]
 			hide_dependency_lines: true
 			id: "3CA659FFA729615D"
+			rewards: [{
+				count: 3
+				id: "0AB5ED185FC3798B"
+				item: "ars_nouveau:source_berry_roll"
+				type: "item"
+			}]
 			tasks: [{
 				id: "406A9AE4D131D419"
 				item: {
@@ -4203,8 +4276,20 @@
 		}
 		{
 			dependencies: ["3DF92A514A6B22AF"]
+			description: [
+				"To first obtain magebloom, you need to enchant regular seeds into magebloom seeds. "
+				""
+				"Magebloom grows like any other crop, and similarly to sourceberries, produces more source than other crops."
+				"{@pagebreak}"
+				"Magebloom is usually cut into fiber to be used as cloth for the armour of novice and powerful mages alike, used in robes and battle armour."
+			]
 			hide_dependency_lines: true
 			id: "22412430101B4977"
+			rewards: [{
+				id: "54A0182F8E26EFE4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "35136D97CBD9CCE2"
 				item: {
@@ -4223,6 +4308,7 @@
 		}
 		{
 			dependencies: ["6A5FC0572660FB1E"]
+			description: ["The Imbuement Chamber is a magical apparatus capable of infusing materials with source."]
 			id: "3DF92A514A6B22AF"
 			rewards: [{
 				id: "5667C2991588FD71"
@@ -4304,6 +4390,11 @@
 			dependencies: ["71BB28D5234F5991"]
 			hide_dependency_lines: true
 			id: "09D828A8998F6CAD"
+			rewards: [{
+				id: "50B42EC14AB49BAA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "760FB2371AF8CACF"
 				item: {
@@ -4382,6 +4473,11 @@
 		{
 			dependencies: ["71BB28D5234F5991"]
 			id: "6BE193169C2DB9F9"
+			rewards: [{
+				id: "3C83010A5E60989E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "70CA61CFC255E919"
@@ -4455,6 +4551,11 @@
 		{
 			dependencies: ["71BB28D5234F5991"]
 			id: "09B5ECAA8C4F6057"
+			rewards: [{
+				id: "10A0455C36414BD6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "111FC7464C3B17EB"
@@ -4528,6 +4629,11 @@
 		{
 			dependencies: ["71BB28D5234F5991"]
 			id: "7636B9A479C4AB82"
+			rewards: [{
+				id: "32F2BF3904478118"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "4D58AD522AC18B8D"
@@ -4602,6 +4708,11 @@
 			dependencies: ["15F2CFDE130BEC2D"]
 			hide_dependency_lines: true
 			id: "7D7E738B3324CCC3"
+			rewards: [{
+				id: "28A16E64CB545291"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "638B1966F303EB81"
@@ -4675,6 +4786,11 @@
 			dependencies: ["15F2CFDE130BEC2D"]
 			hide_dependency_lines: true
 			id: "5AC8D71864EEA396"
+			rewards: [{
+				id: "6C5423F7820641BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "2C5010202A9231EA"
@@ -4748,6 +4864,11 @@
 			dependencies: ["15F2CFDE130BEC2D"]
 			hide_dependency_lines: true
 			id: "684EC9A9A6EF71CF"
+			rewards: [{
+				id: "30E5A41F23D31235"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "29012A41BEF6F8EA"
@@ -4821,6 +4942,11 @@
 			dependencies: ["15F2CFDE130BEC2D"]
 			hide_dependency_lines: true
 			id: "7D40DE3BA384AFB0"
+			rewards: [{
+				id: "5B17F9F5FF3CAB51"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "0F2122FDC378B0B9"
@@ -4894,6 +5020,11 @@
 			dependencies: ["15F2CFDE130BEC2D"]
 			hide_dependency_lines: true
 			id: "61915BF7CF963C6C"
+			rewards: [{
+				id: "0E59F3002D523EA6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "7EA377B5F7B980C0"
@@ -5026,6 +5157,7 @@
 		}
 		{
 			dependencies: ["54DA52C7F14D64E9"]
+			description: ["The scribe's table is any mage's best friend for spellcrafting. Glyphs can be made at this table to learn more spell components. You may need to get inspired by various ingredients, no matter how common or mundane."]
 			id: "4AAD5BFB42654744"
 			rewards: [{
 				id: "0872C28DABAAF426"
@@ -5058,6 +5190,11 @@
 		}
 		{
 			dependencies: ["54DA52C7F14D64E9"]
+			description: [
+				"Source jars contain source, which will enter automatically, or rather, magically, with adjacent sourcelinks. Magical instruments using source also use up the contents of the jar in the same way."
+				"{@pagebreak}"
+				"They are quite enjoyable to carry in your hands, despite several mages telling me that I should just put them in my backpack instead, since I can only carry one at a time. It feels closer to the art!"
+			]
 			id: "03F5F8D8A4E7D749"
 			rewards: [{
 				id: "18C386B1928DA321"
@@ -5097,6 +5234,11 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "44240C2BEF40998D"
+			rewards: [{
+				id: "66B7B030D92B067A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "694F770CCAEA4CA7"
 				item: {
@@ -5116,6 +5258,11 @@
 		{
 			dependencies: ["03F5F8D8A4E7D749"]
 			id: "2478F23E892A1AD7"
+			rewards: [{
+				id: "28DBDA3F1BE8F153"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "616836C8CF7847CF"
 				item: {
@@ -5179,12 +5326,18 @@
 				title: "Any Sourcelink"
 				type: "item"
 			}]
+			title: "Sourcelinks"
 			x: 16.5d
 			y: 16.0d
 		}
 		{
 			dependencies: ["44240C2BEF40998D"]
 			id: "6889E63B4D46CD15"
+			rewards: [{
+				id: "3AD8D31C8E5B323F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "356861E39880C64C"
 				item: {
@@ -5416,6 +5569,11 @@
 		{
 			dependencies: ["71BB28D5234F5991"]
 			id: "3683C013E2CDB6DC"
+			rewards: [{
+				id: "1970C1FEFAC9AD75"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2BD85D3AB1DDBDA9"
 				item: {
@@ -5509,6 +5667,11 @@
 		{
 			dependencies: ["4FD664E0F7A92893"]
 			id: "65C15526A590FDF9"
+			rewards: [{
+				id: "08EB47A75EF9F571"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "1710883B8E63874A"
@@ -5529,6 +5692,11 @@
 		{
 			dependencies: ["3683C013E2CDB6DC"]
 			id: "4080496891426ACB"
+			rewards: [{
+				id: "5D414DE3A1358F51"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4E92FF3B5F9BD1F1"
 				item: {
@@ -5797,6 +5965,11 @@
 			dependencies: ["71BB28D5234F5991"]
 			hide_dependency_lines: true
 			id: "6825EAE108FEAE02"
+			rewards: [{
+				id: "41F916618C71B5A5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1FADA0924830D284"
 				item: {
@@ -5884,6 +6057,11 @@
 		{
 			dependencies: ["71BB28D5234F5991"]
 			id: "3CB40DE1FBC306E5"
+			rewards: [{
+				id: "741344787E0D91AD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4E3EE7C306D8408D"
 				item: {
@@ -5902,7 +6080,17 @@
 		}
 		{
 			dependencies: ["6A5FC0572660FB1E"]
+			description: [
+				"Archwood is a magical great tree, from the size and looks, probably centenarian trees. Mages enjoy making magical forests their home, as the abundance of archwood is a great positive."
+				""
+				"It is used to make many magical instruments and can also be turned to fuel to generate source."
+			]
 			id: "6558118AA4D275B3"
+			rewards: [{
+				id: "36965167A8578B2D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5F7F2F67B53A91A6"
 				item: {
@@ -5975,6 +6163,11 @@
 				"5306B96BF30D32BD"
 			]
 			id: "199BA50861FD9E27"
+			rewards: [{
+				id: "7E88C8DE3AC63F74"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.1d
 			tasks: [{
 				id: "6401066FB519A6AC"
@@ -5995,6 +6188,11 @@
 		{
 			dependencies: ["65C15526A590FDF9"]
 			id: "15F2CFDE130BEC2D"
+			rewards: [{
+				id: "676B2E0A757A9EF0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "13234A13CF6B0107"
 				item: {
@@ -6014,6 +6212,11 @@
 		{
 			dependencies: ["71BB28D5234F5991"]
 			id: "0E552646DDCDCA4A"
+			rewards: [{
+				id: "5EC7F5B1788B35A5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "41E8522DFC51BA22"
 				item: {
@@ -6077,6 +6280,11 @@
 				"15F2CFDE130BEC2D"
 			]
 			id: "1E37E99BEE301A2A"
+			rewards: [{
+				id: "1D778EF5ADF3E98C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "7DDF527A0DF91389"
@@ -6131,12 +6339,18 @@
 					type: "item"
 				}
 			]
+			title: "Greater Focuses"
 			x: 18.0d
 			y: 21.5d
 		}
 		{
 			dependencies: ["4080496891426ACB"]
 			id: "5306B96BF30D32BD"
+			rewards: [{
+				id: "120B88DB32F49761"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "66FFD5430CB31413"
 				item: {
@@ -6265,6 +6479,11 @@
 		{
 			dependencies: ["03F5F8D8A4E7D749"]
 			id: "5A785E9F42A6E64E"
+			rewards: [{
+				id: "1A154933D0657AFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0906496DFEA85D7E"
 				item: {
@@ -7259,7 +7478,11 @@
 		}
 		{
 			dependencies: ["6EB3E5667F8481FC"]
-			description: ["You will find these various herbs come in handy for most witchcraft, but their spiritual power can also carry over to the neighbouring school of sorcery."]
+			description: [
+				"You will find these various herbs come in handy for most witchcraft, but their spiritual power can also carry over to the neighbouring school of sorcery."
+				"{@pagebreak}"
+				"The mandrake plant is strange, in that you can still pick it even if it isn't done growing, which gives you nothing of value. You have to wait for the little half-petals to become full."
+			]
 			id: "6E411BC41B854476"
 			rewards: [{
 				id: "32B6B440B8088BD0"
@@ -7551,6 +7774,11 @@
 		}
 		{
 			dependencies: ["54D2E4556B238BE4"]
+			description: [
+				"The &4Moon Pathway&r delves further into the occult rather than witchcraft."
+				"{@pagebreak}"
+				"It is adjacent to the T&cemperance Pathway&r and &fStar Pathway&r."
+			]
 			hide_dependency_lines: true
 			id: "00E41146BE22270E"
 			rewards: [{
@@ -10264,7 +10492,11 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["545CB21B2B59BA32"]
+			dependencies: [
+				"545CB21B2B59BA32"
+				"23F4055CA5B50F60"
+			]
+			dependency_requirement: "one_completed"
 			description: ["The fluxduct transports RF power and distributes it across all connected machines."]
 			id: "5BAA69CBD6B64BEA"
 			rewards: [{
@@ -10287,8 +10519,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.875d
-			y: -2.25d
+			x: -11.5d
+			y: -2.625d
 		}
 		{
 			dependencies: [
@@ -11499,6 +11731,11 @@
 				"3AF5EB2526EAD40C"
 				"0539F37797C36F1C"
 			]
+			description: [
+				"The redstone flux cell can store more energy than the basic powercell."
+				""
+				"Its crafting process is more elaborate, requiring the Dissolution Chamber. Then, the most important part of its materials is the liquid destabilized redstone, molten through a magma crucible."
+			]
 			id: "4289386C093E7AE9"
 			rewards: [{
 				count: 16
@@ -11598,8 +11835,13 @@
 			y: 2.724999999999998d
 		}
 		{
-			dependencies: ["4A8A1D4B99AB1DCA"]
+			dependencies: ["2E2A38A96D401883"]
 			id: "23F4055CA5B50F60"
+			rewards: [{
+				id: "4E11D70B7622FBC1"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3F8C242F59433BC7"
 				item: {
@@ -11613,12 +11855,17 @@
 				}
 				type: "item"
 			}]
-			x: -26.625d
-			y: 7.125d
+			x: -10.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["23F4055CA5B50F60"]
+			dependencies: ["4A8A1D4B99AB1DCA"]
 			id: "6BDF163C7FC006CB"
+			rewards: [{
+				id: "738F878FFD8FC53F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1739695A7CE198AF"
 				item: {
@@ -11632,12 +11879,17 @@
 				}
 				type: "item"
 			}]
-			x: -28.125d
-			y: 6.125d
+			x: -27.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6BDF163C7FC006CB"]
 			id: "4A0E8159A5427A76"
+			rewards: [{
+				id: "626ED0A9538A30BB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2BBC5CFD563BF745"
 				item: {
@@ -11651,8 +11903,8 @@
 				}
 				type: "item"
 			}]
-			x: -29.625d
-			y: 5.125d
+			x: -28.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -11660,6 +11912,11 @@
 				"107A1E1AB9252A58"
 			]
 			id: "4A8A1D4B99AB1DCA"
+			rewards: [{
+				id: "34B9065C40F1053C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "540DA6F9E7F973B6"
@@ -12001,6 +12258,11 @@
 		{
 			dependencies: ["4C8C2AA343360B7D"]
 			id: "47C008A8A80FCEE1"
+			rewards: [{
+				id: "70755773691BE8B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "1C4ADA26859003DF"
@@ -12039,6 +12301,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "58D41204FAEC60DF"
+			rewards: [{
+				id: "4E27C141D9DF25AB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "505FA5BB368AD9CE"
 				item: {
@@ -12232,6 +12499,11 @@
 		{
 			dependencies: ["4C8C2AA343360B7D"]
 			id: "4E44852EB1DA116A"
+			rewards: [{
+				id: "552CA9AEDA7AB0BB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "067A5D8A20B01E13"
 				item: {
@@ -14545,6 +14817,11 @@
 			dependencies: ["33F8735D8322AFE6"]
 			hide_dependency_lines: true
 			id: "1AB989E044EBCB6D"
+			rewards: [{
+				id: "2CCC35D6CE262172"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "30848CACC28E095F"
 				item: {
@@ -14632,6 +14909,11 @@
 		}
 		{
 			dependencies: ["3DF92A514A6B22AF"]
+			description: [
+				"Essences are a clear manifestation of magical energy in a condensed form. They are often used to aid spellcrafting."
+				""
+				"The first four elemental essences can be produced from infusing elemental crystals into essences via the elemental infuser."
+			]
 			id: "08E10ADC80A20D8E"
 			rewards: [{
 				id: "68AF404CB90498BF"
@@ -14700,11 +14982,13 @@
 					type: "item"
 				}
 			]
+			title: "Elemental Essences"
 			x: 14.0d
 			y: 15.0d
 		}
 		{
 			dependencies: ["08E10ADC80A20D8E"]
+			description: ["These more advanced essences do not exist as per the elemental forces of nature. You will need to produce them in an Imbuement Chamber."]
 			id: "170CD0A639906705"
 			rewards: [{
 				count: 2
@@ -14761,6 +15045,7 @@
 					type: "item"
 				}
 			]
+			title: "Advanced Essences"
 			x: 15.5d
 			y: 14.5d
 		}
@@ -15070,6 +15355,11 @@
 				"3AF5EB2526EAD40C"
 			]
 			id: "6EA8FF0A2426916D"
+			rewards: [{
+				id: "13184AB1C1A20B9E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "7BBDF600515BFCD7"
 				item: {
@@ -15498,6 +15788,11 @@
 		{
 			dependencies: ["6EA8FF0A2426916D"]
 			id: "3C2CD34C769A34FC"
+			rewards: [{
+				id: "63A84E02009BCD8B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "6ECBFB9394E43D3C"
 				item: {
@@ -15517,6 +15812,11 @@
 		{
 			dependencies: ["3C2CD34C769A34FC"]
 			id: "5C1996BF7424D743"
+			rewards: [{
+				id: "01727C60C0662169"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
 			tasks: [{
 				id: "19A049AFBABC28E7"
 				item: {
@@ -15536,6 +15836,11 @@
 		{
 			dependencies: ["5C1996BF7424D743"]
 			id: "5A9344E85F427B47"
+			rewards: [{
+				id: "6EFC4CC7C43C5F73"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "75504F57534B1A69"
 				item: {
@@ -15760,6 +16065,11 @@
 			dependencies: ["5A609181C445CAAB"]
 			hide_dependency_lines: true
 			id: "6FBF6EB0E0A69B9E"
+			rewards: [{
+				id: "7936F56332C6087C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.85d
 			tasks: [
 				{
@@ -15795,6 +16105,11 @@
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
 			id: "64BEF811F139E0CB"
+			rewards: [{
+				id: "44A2590085B60A2D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "7DE6AE780CCF6AD2"
@@ -15860,6 +16175,11 @@
 				"1F63B99669BB1002"
 			]
 			id: "19FDA9AB1906E74C"
+			rewards: [{
+				id: "3610CB494E308964"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "129B8FEAA1D9F21C"
 				item: {
@@ -15907,6 +16227,11 @@
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
 			id: "1F63B99669BB1002"
+			rewards: [{
+				id: "311AD2A6574BE448"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 1.2d
 			tasks: [
 				{
@@ -15964,6 +16289,11 @@
 		{
 			dependencies: ["1F63B99669BB1002"]
 			id: "0EAA48E8F905201B"
+			rewards: [{
+				id: "25A7863BDDCED409"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6E00F3AC1976CC75"
 				item: {
@@ -15983,6 +16313,11 @@
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
 			id: "27D7FB2FA68A3BC4"
+			rewards: [{
+				id: "5B9A7D991F436CF8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "62E5754266A0CDEB"
@@ -16057,12 +16392,18 @@
 					type: "item"
 				}
 			]
+			title: "Addons"
 			x: -26.625d
 			y: 8.625d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
 			id: "7223BE78D2D053A8"
+			rewards: [{
+				id: "3C6377705B03CB92"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0290AEA07C2B9E3D"
 				item: {
@@ -17019,6 +17360,11 @@
 		{
 			dependencies: ["4D5CBC1FE2A1E72B"]
 			id: "7BAC3AE0CD4FC36D"
+			rewards: [{
+				id: "3EF3991EEE65453D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.85d
 			tasks: [{
 				id: "1D95EFC6D7F86B63"
@@ -20089,8 +20435,8 @@
 				title: "Any Solar Panel Upgrade"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -2.5d
+			x: -13.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5B6717870A814E8C"]
@@ -20230,15 +20576,25 @@
 				"These tools are nearly unbreakable, and retain the valuable properties of gold - being fast and highly enchantable. However, their mining level still remains low, and glowing gold is needed to reinforce the handles, increasing their cost substantially."
 				"{@pagebreak}"
 				"You may find this useful to give to your companions or various other people you meet on your journey."
+				""
+				"The sublime golden giant sword loses its ability to block, but gains great damaging prowess. All of these tools inherit the holy properties of their predecessors."
 			]
 			hide_dependency_lines: true
 			id: "58B8BFC90B0E9F74"
-			rewards: [{
-				id: "02A4CA6A5CB48DF9"
-				item: "concatenationcore:glowing_gold"
-				team_reward: false
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "02A4CA6A5CB48DF9"
+					item: "concatenationcore:glowing_gold"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "3F7B871C323AE081"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 0.9d
 			tasks: [{
 				id: "0D97F840C62F8A47"
 				item: {
@@ -20277,8 +20633,258 @@
 				type: "item"
 			}]
 			title: "Sublime Gold Tools"
-			x: 2.0d
-			y: 6.5d
+			x: 1.7999999999999998d
+			y: 6.3d
+		}
+		{
+			dependencies: ["12F6BD166085B3B5"]
+			description: [
+				"Frozen Ice Armour is an elementist's early friend, on par with the protection of Netherite armour, at a much lower cost."
+				"{@pagebreak}"
+				"Crafted from ice shards, these can be produced after separating the most pure sections of blue ice into a shard. Alternatively, consuming water using water essence or a crude water crystal will also work."
+			]
+			hide_dependency_lines: true
+			id: "5E730A986B251858"
+			rewards: [
+				{
+					id: "25D1626EC15F5080"
+					item: "elementalcraft:watercrystal_block"
+					type: "item"
+				}
+				{
+					id: "25A16227C1AB6518"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 0.9d
+			tasks: [
+				{
+					id: "7893F9181C6F45FB"
+					item: {
+						Count: 1
+						id: "concatenationcore:condensed_ice_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "671F65CDDE2E4EDF"
+					item: {
+						Count: 1
+						id: "concatenationcore:condensed_ice_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3074B4A8EBD34E67"
+					item: {
+						Count: 1
+						id: "concatenationcore:condensed_ice_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "193FAD227167A2D6"
+					item: {
+						Count: 1
+						id: "concatenationcore:condensed_ice_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Frozen Ice Armor"
+			x: 1.7999999999999998d
+			y: 7.3d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: ["The megatorch prevents mobs from spawning in a large radius around itself."]
+			id: "288329048ACCA1E3"
+			rewards: [{
+				id: "133A101C0F89968B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "3767175CF3868F32"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"Iron chests and their other material upgraded versions, can store many more items than regular chests."
+				""
+				"On the other hand, drawers can hold a large quantity of a single item. They can also be upgraded or connected with a drawer controller."
+				"{@pagebreak}"
+				"Compacting drawers can be used for storing ores and ingots, which can be withdrawn in nugget, ingot, or block form."
+			]
+			id: "47F28365AC7EE987"
+			rewards: [{
+				id: "2EC646FE7FB8E297"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 0.9d
+			tasks: [
+				{
+					id: "0D779FDA4E0CFA35"
+					item: "ironchest:iron_chest"
+					type: "item"
+				}
+				{
+					id: "310CBAB3F86B77C3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "storagedrawers:drawers"
+						}
+					}
+					title: "Any Drawers"
+					type: "item"
+				}
+			]
+			title: "Early Storage"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["330D9AAC0CD81668"]
+			description: [
+				"Element holders can store quite a large amount of their respective elements. They are usually filled up right at the source, and can be emptied into an element container."
+				""
+				"One of their primary uses is using the elements stored within to cast spells."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "50D50468F52D7FA1"
+			rewards: [{
+				id: "056086904F87D75E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0FBB9BE697A5029F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										element_amount: 0
+										element_capacity: 10000
+										element_type: "air"
+									}
+								}
+								id: "elementalcraft:element_holder_air"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										element_amount: 0
+										element_capacity: 10000
+										element_type: "fire"
+									}
+								}
+								id: "elementalcraft:element_holder_fire"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										element_amount: 0
+										element_capacity: 10000
+										element_type: "water"
+									}
+								}
+								id: "elementalcraft:element_holder_water"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										element_amount: 0
+										element_capacity: 10000
+										element_type: "earth"
+									}
+								}
+								id: "elementalcraft:element_holder_earth"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										air: 0
+										earth: 0
+										fire: 0
+										water: 0
+									}
+								}
+								id: "elementalcraft:pure_element_holder"
+							}
+						]
+					}
+				}
+				title: "Any Element Holder"
+				type: "item"
+			}]
+			title: "Element Holder"
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"The Lantern is a useful light source whenever you wish to explore during the night, or go caving far underground. You can strap your lantern to your belt if you have to juggle between too many items."
+				""
+				"&a(Shift right click with a lantern in your hands)"
+			]
+			id: "2E7B48B182BBD94D"
+			rewards: [{
+				id: "07C971455490564E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4F2EB42EA12FAC94"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
 		}
 	]
 	title: "The Journey"

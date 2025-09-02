@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "oreberriesreplanted:zinc_oreberry" }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "createmetallurgy:zinc_dust",
+      "count": 1
+    },
+    {
+      "item": "createmetallurgy:zinc_dust",
+      "count": 1,
+      "chance": 0.25
+    }
+  ]
+}

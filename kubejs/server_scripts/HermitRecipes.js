@@ -238,7 +238,7 @@ ServerEvents.recipes(event => {
                         ' C '
                 ],
                 {
-                        C: '#forge:plates/silver',
+                        C: 'thermal:silver_block',
                         B: 'ae2:calculation_processor',
                         A: '#forge:gears/electrum',
                         D: 'concatenationcore:ironclad_hammer'
