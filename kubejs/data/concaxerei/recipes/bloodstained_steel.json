@@ -1,0 +1,39 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "ingredients": [
+    {
+      "item": "concatenationcore:sourcesilver"
+    },
+    {
+      "item": "concatenationcore:pyrite"
+    },
+    {
+      "item": "bloodmagic:tauoil"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "bloodmagic:tauoil"
+    },
+    {
+      "item": "concatenationcore:pyrite"
+    },
+    {
+      "item": "concatenationcore:sourcesilver"
+    }
+  ],
+  "output": {
+    "item": "concatenationcore:bloodstained_steel"
+  },
+  "liquidOutput": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "fluidLevelsConsumed": 200
+}

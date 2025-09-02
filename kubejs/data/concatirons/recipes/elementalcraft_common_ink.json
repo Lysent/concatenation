@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DL",
+    "BQ"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:glass_bottle"
+    },
+	"L": {
+		"item": "minecraft:lapis_lazuli"
+	},
+	"Q": {
+		"item": "minecraft:feather"
+	},
+	"D": {
+		"item": "elementalcraft:powerful_earth_shard"
+	}
+  },
+  "result": {
+    "item": "irons_spellbooks:common_ink",
+	"count": 2
+  }
+}

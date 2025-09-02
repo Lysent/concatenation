@@ -1,0 +1,11 @@
+{
+  "type": "elementalcraft:infusion",
+  "output": {
+    "item": "ars_nouveau:fire_essence"
+  },
+  "element_type": "fire",
+  "element_amount": 4500,
+  "input": {
+    "item": "elementalcraft:firecrystal"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "lychee:block_interacting",
+    "comment": "Panvita grows via the Berry Incubator. Fill the incubator with water. May take multiple days of growing.",
+    "ghost": true,
+    "item_in": {
+        "item": "water_bucket"
+    },
+    "block_in": "concatenationcore:berry_incubator",
+    "post": {
+        "type": "drop_item",
+        "item": "concatenationcore:transplant"
+    }
+}

@@ -90,7 +90,7 @@
 	[general.coalgenerator]
 		#Amount of RF generated per tick
 		#Range: > 0
-		generatePerTick = 250
+		generatePerTick = 60
 		#Amount of ticks generated per coal
 		#Range: > 0
 		ticksPerCoal = 300

@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "oreberriesreplanted:iron_oreberry" }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "createmetallurgy:iron_dust",
+      "count": 1
+    },
+    {
+      "item": "createmetallurgy:iron_dust",
+      "count": 1,
+      "chance": 0.25
+    }
+  ]
+}

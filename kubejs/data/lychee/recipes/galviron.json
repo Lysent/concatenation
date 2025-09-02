@@ -1,0 +1,10 @@
+{
+  "type": "lychee:item_burning",
+  "item_in": {
+    "item": "concatenationcore:unfired_galvanized_iron"
+  },
+  "post": {
+    "type": "drop_item",
+    "item": "concatenationcore:galvanized_iron_nugget"
+  }
+}

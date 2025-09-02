@@ -1,0 +1,11 @@
+{
+    "type": "lychee:dripstone_dripping",
+    "source_block": "tconstruct:molten_refined_glowstone_fluid",
+    "target_block": "stone",
+    "post": [
+        {
+            "type": "place",
+            "block": "glowstone_block"
+        }
+    ]
+}

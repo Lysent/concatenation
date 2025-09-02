@@ -1,0 +1,10 @@
+{
+  "type": "lychee:item_burning",
+  "item_in": {
+    "item": "rftoolsbase:infused_diamond"
+  },
+  "post": {
+    "type": "drop_item",
+    "item": "concatenationcore:acclimated_shard"
+  }
+}
