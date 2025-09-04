@@ -1704,7 +1704,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			size: 1.0d
+			size: 1.1d
 			tasks: [
 				{
 					id: "1CE945FCC1B4A9B7"
@@ -1736,8 +1736,8 @@
 				}
 			]
 			title: "The Mighty Smeltery"
-			x: -4.0d
-			y: 10.5d
+			x: -4.4d
+			y: 10.450000000000001d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -1765,8 +1765,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 13.0d
+			x: -5.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -1794,8 +1794,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 11.0d
+			x: -7.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -7828,7 +7828,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 13.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["48182227AA27C096"]
@@ -7852,8 +7852,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 14.5d
+			x: -5.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["06856516470E742D"]
@@ -8867,8 +8867,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 11.0d
+			x: -9.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -9024,8 +9024,8 @@
 				}
 			]
 			title: "Early Tinkering"
-			x: -3.5d
-			y: 6.0d
+			x: -4.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["087234557EE4E2A3"]
@@ -9070,8 +9070,8 @@
 				}
 			]
 			title: "Tinkering"
-			x: -3.5d
-			y: 7.5d
+			x: -4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -9859,8 +9859,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.4d
-			y: 15.950000000000001d
+			x: -4.0249999999999995d
+			y: 16.099999999999998d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -9889,7 +9889,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 13.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -11519,7 +11519,8 @@
 			y: -10.924999999999999d
 		}
 		{
-			dependencies: ["0964BD6C4413A9C9"]
+			dependencies: ["59D783372A16F858"]
+			dependency_requirement: "one_completed"
 			description: [
 				"Rose gold is a crucial material of the Tower pathway, frequently used in expansive machinery."
 				""
@@ -15280,9 +15281,11 @@
 		}
 		{
 			dependencies: [
-				"199BA50861FD9E27"
-				"301D160C2B3F2B79"
+				"20B05E0586A665F7"
+				"11821BF8131FC267"
+				"24A205A470740B0F"
 			]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "4E4E81226BED0E7C"
@@ -15307,9 +15310,11 @@
 		}
 		{
 			dependencies: [
-				"301D160C2B3F2B79"
-				"27BBE74203C33C95"
+				"11821BF8131FC267"
+				"24A205A470740B0F"
+				"20B05E0586A665F7"
 			]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "0D61335A0B07300D"
 			rewards: [
@@ -16882,7 +16887,17 @@
 		}
 		{
 			dependencies: ["5F12CF1071CE8A45"]
+			description: [
+				"There are multiple ways to process osmium. The simplest is to smelt the raw ore block into an induction smelter."
+				""
+				"The most common way lies in grinding raw osmium to dust, smelt the dust to nuggets in the induction smelter and then assemble an osmium ingot."
+			]
 			id: "662F8F7426A07A9D"
+			rewards: [{
+				id: "1B49E23723DDE8B1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1969C6359350820F"
 				item: {
@@ -18613,6 +18628,7 @@
 				""
 				"It is made from alloying 3 parts cobalt and 1 part ancient debris."
 			]
+			hide_dependency_lines: true
 			id: "45DF5B6D709F2D85"
 			rewards: [{
 				id: "01352CE535EC7C0D"
@@ -18624,8 +18640,8 @@
 				item: "tconstruct:manyullyn_ingot"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 13.0d
+			x: -2.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -20378,8 +20394,8 @@
 				type: "item"
 			}]
 			title: "The Paxel"
-			x: -3.5d
-			y: 4.5d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -20883,7 +20899,29 @@
 				item: "minecraft:lantern"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"The seasons change, and so does the availability of crops. Some crops can only grow in the summer, or spring, or autumn."
+				""
+				"There exists some varieties of crops that can grow in multiple seasons depending on their species. For instance, regular onions can only be grown in spring and autumn, while ishikura onions can be grown in winter and autumn."
+			]
+			id: "01787B3BD1903BA3"
+			rewards: [{
+				id: "75E53CC6DF992539"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "68C353B5335CCCE3"
+				item: "sereneseasons:calendar"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Seasons"
+			x: -3.5d
 			y: -6.0d
 		}
 	]

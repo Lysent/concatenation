@@ -548,19 +548,6 @@ ServerEvents.recipes(event => {
                 }
         ).keepIngredient('#concatenation:magic_cards_t2')
         event.shaped(
-                Item.of('tarotcards:the_hanged_man'),
-                [
-                        'ABA',
-                        'BCB',
-                        'ABA'
-                ],
-                {
-                        C: 'tarotcards:the_sun',
-                        A: 'concatenationcore:gold_paper',
-                        B: 'ars_elemental:mark_of_mastery'
-                }
-        ).keepIngredient('tarotcards:the_sun')
-        event.shaped(
                 Item.of('reliquary:angelheart_vial', 2),
                 [
                         'ABA',
