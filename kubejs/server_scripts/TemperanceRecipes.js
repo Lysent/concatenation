@@ -178,19 +178,6 @@ ServerEvents.recipes(event => {
                 Item.of('tarotcards:the_lovers'),
                 [
                         'ABA',
-                        'BCB',
-                        'ABA'
-                ],
-                {
-                        B: 'bloodmagic:weakbloodshard',
-                        A: 'concatenationcore:gold_paper',
-                        C: 'tarotcards:the_moon'
-                }
-        ).keepIngredient('tarotcards:the_moon')
-        event.shaped(
-                Item.of('tarotcards:the_lovers'),
-                [
-                        'ABA',
                         'CDE',
                         'ABA'
                 ],
@@ -199,7 +186,7 @@ ServerEvents.recipes(event => {
                         B: 'concatenationcore:blood_powder',
                         A: 'concatenationcore:gold_paper',
                         D: '#concatenation:magic_cards_t2',
-                        E: 'irons_spellbooks:rare_ink'
+                        E: 'irons_spellbooks:eldritch_manuscript'
                 }
         ).keepIngredient('#concatenation:magic_cards_t2')
         event.shaped(

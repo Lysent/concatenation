@@ -877,13 +877,13 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_aluminum').withChance(1.25), '#tfmg:stone_types/bauxite')
         event.recipes.thermal.pulverizer(Item.of('mekanism:dust_osmium').withChance(1.5), 'mekanism:raw_osmium')
         event.recipes.thermal.pulverizer(Item.of('mekanism:dust_osmium').withChance(1.99), 'create:crushed_raw_osmium')
-        event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 4000), 'thermal:ice_charge'])
-        event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 4000), 'concatenationcore:ice_shard'])
-        event.recipes.thermal.smelter('concatenationcore:galvanized_iron_nugget', ['create:zinc_nugget', 'concatenationcore:double_nugget']).energy(4000)
-        event.recipes.thermal.smelter('concatenationcore:daladite', ['concatenationcore:celestial_calralite', 'rftoolsbase:infused_diamond', 'mekanism:ingot_refined_obsidian']).energy(35000)
+        event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 20000), 'thermal:ice_charge'])
+        event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 20000), 'concatenationcore:ice_shard'])
+        event.recipes.thermal.smelter('concatenationcore:galvanized_iron_nugget', ['create:zinc_nugget', 'concatenationcore:double_nugget']).energy(8000)
+        event.recipes.thermal.smelter('concatenationcore:daladite', ['concatenationcore:celestial_calralite', 'rftoolsbase:infused_diamond', 'mekanism:ingot_refined_obsidian']).energy(55000)
         event.recipes.thermal.smelter('create:shadow_steel', ['rftoolsbase:infused_diamond', 'minecraft:nether_star', 'concatenationcore:daladite']).energy(1000000)
-        event.recipes.thermal.smelter('concatenationcore:alclad', ['concatenationcore:meteorite', 'concatenationcore:meteorite', '#forge:dusts/zinc']).energy(1000)
-        event.recipes.thermal.smelter('mekanism:ingot_osmium', ['mekanism:dust_osmium', 'mekanism:dust_osmium', 'mekanism:dust_osmium']).energy(5000)
+        event.recipes.thermal.smelter('concatenationcore:alclad', ['concatenationcore:meteorite', 'concatenationcore:meteorite', '#forge:dusts/zinc']).energy(2500)
+        event.recipes.thermal.smelter(Item.of('mekanism:nugget_osmium', 3), ['mekanism:dust_osmium']).energy(25000)
 
         event.recipes.industrialforegoing.dissolution_chamber(
                 ['rftoolspower:power_core2', 'thermal:energy_cell_frame', 'rftoolspower:power_core2', 'concatenationcore:signalum_coil', 'concatenationcore:signalum_coil', 'rftoolspower:power_core2', 'tconstruct:hepatizon_ingot', 'rftoolspower:power_core2'],
