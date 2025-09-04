@@ -90,7 +90,7 @@
 	#The multiplier applied to the base xp cost when teleporting to a global waystone through any method.
 	globalWaystoneXpCostMultiplier = 2.5
 	#The multiplier applied to the base xp cost when teleporting using a Warp Stone item (not the Waystone block, Konstantin)
-	warpStoneXpCostMultiplier = 1.5
+	warpStoneXpCostMultiplier = 0.0
 	#The multiplier applied to the base xp cost when teleporting from one waystone to another.
 	waystoneXpCostMultiplier = 0.0
 	#The multiplier applied to the base xp cost when teleporting from one sharestone to another.
