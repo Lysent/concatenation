@@ -1336,4 +1336,17 @@ ServerEvents.recipes(event => {
                         A: 'minecraft:stone_bricks'
                 }
         )
+        event.shaped(
+                Item.of('concatenationcore:sublime_gold_hoe'),
+                [
+                        'AA ',
+                        ' BC',
+                        ' B '
+                ],
+                {
+                        A: 'minecraft:gold_ingot',
+                        C: 'tarotcards:the_magician',
+                        B: 'minecraft:stick'
+                }
+        ).keepIngredient('tarotcards:the_magician')
 });

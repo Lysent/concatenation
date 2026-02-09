@@ -21981,6 +21981,8 @@
 				"You may find this useful to give to your companions or various other people you meet on your journey."
 				""
 				"The Sublime Golden Giant Sword loses its ability to block, but gains great damaging prowess. All of these tools inherit the holy properties of their predecessors."
+				"{@pagebreak}"
+				"For an unknown reason, The Magician card's power simply refuses to activate on the regular gold hoe. To remedy this, the Sublime Gold Hoe with infinite durability can be made and serves the same function. Magicians have refined the making of Sublime Gold Hoes to make it cheaper, a functional recipe embedded within the card."
 			]
 			hide_dependency_lines: true
 			id: "58B8BFC90B0E9F74"
@@ -21998,43 +22000,51 @@
 				}
 			]
 			size: 0.9d
-			tasks: [{
-				id: "0D97F840C62F8A47"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "concatenationcore:sublime_gold_sword"
-							}
-							{
-								Count: 1b
-								id: "concatenationcore:sublime_gold_giant_sword"
-							}
-							{
-								Count: 1b
-								id: "concatenationcore:sublime_gold_pickaxe"
-							}
-							{
-								Count: 1b
-								id: "concatenationcore:sublime_gold_axe"
-							}
-							{
-								Count: 1b
-								id: "concatenationcore:sublime_gold_shovel"
-							}
-							{
-								Count: 1b
-								id: "concatenationcore:sublime_gold_hoe"
-							}
-						]
+			tasks: [
+				{
+					id: "0D97F840C62F8A47"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "concatenationcore:sublime_gold_sword"
+								}
+								{
+									Count: 1b
+									id: "concatenationcore:sublime_gold_giant_sword"
+								}
+								{
+									Count: 1b
+									id: "concatenationcore:sublime_gold_pickaxe"
+								}
+								{
+									Count: 1b
+									id: "concatenationcore:sublime_gold_axe"
+								}
+								{
+									Count: 1b
+									id: "concatenationcore:sublime_gold_shovel"
+								}
+								{
+									Count: 1b
+									id: "concatenationcore:sublime_gold_hoe"
+								}
+							]
+						}
 					}
+					title: "Any Sublime Gold Tool"
+					type: "item"
 				}
-				title: "Any Sublime Gold Tool"
-				type: "item"
-			}]
+				{
+					id: "722FAFBB268150E7"
+					item: "concatenationcore:sublime_gold_hoe"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Sublime Gold Tools"
 			x: 1.7999999999999998d
 			y: 9.0d
@@ -23596,9 +23606,11 @@
 				""
 				"&2Do not go mining in Dis. Nothing good will happen to you. Except perhaps large fortunes.&r"
 				"{@pagebreak}"
-				"&2There are vast black seas in Dis, and ores are most commonly found under sea level. One great benefit of Dis is that both Overworld and &Nether ores&r&2 are found there. The marble is still very useful, though. It can be compacted and then crushed into various powders.&r"
+				"&2There are vast black seas in Dis, and ores are most commonly found under sea level. One great benefit of Dis is that both Overworld and Nether ores&r&2 are found there. The marble is still very useful, though. It can be compacted and then crushed into various powders.&r"
 				""
 				"&2The resulting apatite powder can then be crushed even further into other kinds of powders. There are faint traces of diamonds in the marble of Dis.&r"
+				"{@pagebreak}"
+				"&2Dis gems can be found uncommonly throughout Dis"
 				"{@pagebreak}"
 				"&2How did the door to Dis open? While trying to open a rift, I seem to have pierced through some kind of barrier formed from gray fog. My rift blade broke, but I ended up in this place. With the quartz and diamonds I had, I turned some of this normal marble into an elevated one, which someone managed to turn into a portal. After years of researching how to return, I've finally done it.&r"
 			]
@@ -23625,6 +23637,17 @@
 				{
 					id: "3932F86B266DFF71"
 					item: "perdition:marmor_elevated"
+					type: "item"
+				}
+				{
+					id: "3629AF525D3DE632"
+					item: {
+						Count: 1
+						id: "perdition:dis_gem_crown_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -24451,7 +24474,7 @@
 				"{@pagebreak}"
 				"&7“Since you have found this log, then you will also know how you got here, but for the sake of completeness, I will list the ways that one can arrive here. The most common way is for one to fall into the void, which is lurking beneath every other dimension, but is most visible within the End. If you did not fall into the void, then you were taken by an Abductor, and you have my sincerest condolences. That could not have been a pleasant experience.”"
 				"{@pagebreak}"
-				"&7“As for why I have come down to these depths, I am seeking to recover my compatriot, Koby, from this place. He was taken by an Abductor right before my eyes, so I am hoping to find him down here and return to the Overworld safely. As I am exploring previously undocumented territory, I decided to record what you are listening to now so as to prevent any unnecessary tragedies unfolding as a result of this place.”"
+				"&7“As for why I have come down to these depths, I am seeking to recover my compatriot, Kory, from this place. He was taken by an Abductor right before my eyes, so I am hoping to find him down here and return to the Overworld safely. As I am exploring previously undocumented territory, I decided to record what you are listening to now so as to prevent any unnecessary tragedies unfolding as a result of this place.”"
 			]
 			hide_dependent_lines: true
 			id: "4E62B2BDC912CCA1"
@@ -24538,7 +24561,7 @@
 				"{@pagebreak}"
 				"&7“...She asked me why I hadn’t left yet, and I told her that I was looking for my friend who was taken here by a cult. She looked away and said no more. "
 				"{@pagebreak}"
-				"&7\"Please be okay, Koby. I’ll get you back.”"
+				"&7\"Please be okay, Kory. I’ll get you back.”"
 			]
 			id: "0E766B6E883A49CB"
 			rewards: [{
@@ -24570,7 +24593,7 @@
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
 			description: [
-				"&7“...I do not like this place. I am currently passing through ancient ruins within a desert of black sand. The iconography of these ruins greatly resembles the Monoliths of Limbo, which were also lost when all the doors shut. Even though I did not dabble much with the occult myself, I am still familiar with these red eyes due to Koby showing me pictures that he had taken on his own travels… I feel like I am being watched.”"
+				"&7“...I do not like this place. I am currently passing through ancient ruins within a desert of black sand. The iconography of these ruins greatly resembles the Monoliths of Limbo, which were also lost when all the doors shut. Even though I did not dabble much with the occult myself, I am still familiar with these red eyes due to Kory showing me pictures that he had taken on his own travels… I feel like I am being watched.”"
 				"{@pagebreak}"
 				"&7“Occasionally, a creature embedded in the stone will leap out and attack me, only to retreat back into its shell whenever it is not being observed. The monolithic stone that it uses to cover its body is impervious to traditional weaponry, but in return it is vulnerable to being attacked with a pickaxe.”"
 				"{@pagebreak}"
@@ -25051,7 +25074,7 @@
 			description: [
 				"&7“...This guy, huh? Must be real pretentious to live in a castle like this.” "
 				"&b“Yes. He’s the leader of the &cCult of Catastrophe&b and is the sole holder of Sacred Cinnabar, which we need in order to manipulate Voidrium in any meaningful way.” "
-				"&7“...Even without that, I would’ve liked to beat this guy’s head in at some point. He’s the wretch that helped that other wretch kidnap Koby. Let’s get him.”"
+				"&7“...Even without that, I would’ve liked to beat this guy’s head in at some point. He’s the wretch that helped that other wretch kidnap Kory. Let’s get him.”"
 				"{@pagebreak}"
 				"&7\"For the listener, we're currently headed to the Overlooking Citadel. It's hard to miss.\""
 			]
@@ -25081,7 +25104,7 @@
 		{
 			dependencies: ["19E4A89845D3BF5D"]
 			description: [
-				"&7“...While we fought the Apostle of Catastrophe, he spewed nothing but mad ravings, but right before I landed the killing blow, he confessed that he gave Koby to the &bWeaver of Souls&7.”"
+				"&7“...While we fought the Apostle of Catastrophe, he spewed nothing but mad ravings, but right before I landed the killing blow, he confessed that he gave Kory to the &bWeaver of Souls&7.”"
 				"&b“He was next on our list anyhow. After defeating the Apostle and gearing up, I think we’re finally ready to take on the Weaver.”"
 				"{@pagebreak}"
 				"&7“Right. He’s in the very center of the void, underground within the Sepulchre. One more fight, then we can resurface and everything will be &ljust fine&r.”"
@@ -32924,6 +32947,24 @@
 			}]
 			x: -20.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["0D70725FEAF0DC7B"]
+			hide_dependency_lines: true
+			id: "3FDB9D96C75A54B2"
+			rewards: [{
+				id: "4AC390932C3EC62E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "157AA104958BB497"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			title: "Taming the Dread Hound"
+			x: 16.0d
+			y: -13.5d
 		}
 	]
 	title: "The Journey"

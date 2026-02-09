@@ -679,4 +679,13 @@ ServerEvents.tags('item', event => {
     add('forge:coal_coke', [
         'tfmg:coal_coke'
     ])
+
+    add('concatenation:nightmare_catalyst', [
+        'born_in_chaos_v1:nightmare_stalker_skull',
+        'the_deep_void:hunters_helmet'
+    ])
+
+    add('concatenation:facades', [
+        'ae2:facade'
+    ])
 });
