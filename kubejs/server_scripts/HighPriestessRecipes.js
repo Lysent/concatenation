@@ -1799,6 +1799,37 @@ ServerEvents.recipes(event => {
         event.recipes.mekanism.enriching('mekanism:enriched_redstone', 'concatenationcore:stickyredstone')
         event.recipes.mekanism.crushing('createmetallurgy:iron_dust', 'minecraft:iron_ingot')
 
+        event.recipes.thermal.lapidary_fuel('perdition:dis_gem').energy(50000)
+        event.recipes.thermal.lapidary_fuel('perdition:cut_dis_gem').energy(750000)
+        event.recipes.thermal.lapidary_fuel('mekanism:fluorite_gem').energy(10000)
+        event.recipes.thermal.lapidary_fuel('thermal:apatite').energy(5000)
+        event.recipes.thermal.lapidary_fuel('thermal:cinnabar').energy(5000)
+        event.recipes.thermal.lapidary_fuel('theurgy:sal_ammoniac_crystal').energy(300)
+        event.recipes.thermal.lapidary_fuel('ae2:certus_quartz_crystal').energy(60000)
+        event.recipes.thermal.lapidary_fuel('ae2:charged_certus_quartz_crystal').energy(95000)
+        event.recipes.thermal.lapidary_fuel('minecraft:quartz').energy(50)
+        event.recipes.thermal.lapidary_fuel('minecraft:emerald').energy(10000)
+        event.recipes.thermal.lapidary_fuel('elementalcraft:crude_fire_gem').energy(550000)
+        event.recipes.thermal.lapidary_fuel('elementalcraft:fine_fire_gem').energy(700000)
+        event.recipes.thermal.lapidary_fuel('elementalcraft:pristine_fire_gem').energy(900000)
+        event.recipes.thermal.lapidary_fuel('elementalcraft:crude_air_gem').energy(500000)
+        event.recipes.thermal.lapidary_fuel('elementalcraft:fine_air_gem').energy(650000)
+        event.recipes.thermal.lapidary_fuel('elementalcraft:pristine_air_gem').energy(850000)
+        event.recipes.thermal.lapidary_fuel('elementalcraft:crude_earth_gem').energy(450000)
+        event.recipes.thermal.lapidary_fuel('elementalcraft:fine_earth_gem').energy(600000)
+        event.recipes.thermal.lapidary_fuel('elementalcraft:pristine_earth_gem').energy(800000)
+        event.recipes.thermal.lapidary_fuel('elementalcraft:crude_water_gem').energy(350000)
+        event.recipes.thermal.lapidary_fuel('elementalcraft:fine_water_gem').energy(500000)
+        event.recipes.thermal.lapidary_fuel('elementalcraft:pristine_water_gem').energy(700000)
+        event.recipes.thermal.lapidary_fuel('elementalcraft:pristine_water_gem').energy(700000)
+
+        event.recipes.thermal.lapidary_fuel('psi:psigem').energy(550000)
+        event.recipes.thermal.lapidary_fuel('the_deep_void:lavendite').energy(150000)
+        event.recipes.thermal.lapidary_fuel('the_deep_void:onyx').energy(150000)
+        event.recipes.thermal.lapidary_fuel('the_deep_void:grim_gem').energy(200000)
+        event.recipes.thermal.lapidary_fuel('the_deep_void:voidrium_gem').energy(2000000)
+
+
         const oreberries = [
                 { berry: 'tin', result: 'thermal:tin_nugget', ore: 'thermal:tin_ore', deepslate: 'thermal:deepslate_tin_ore' },
                 { berry: 'aluminum', result: 'tfmg:aluminum_nugget', ore: 'tfmg:bauxite', deepslate: 'tfmg:aluminum_block' },
