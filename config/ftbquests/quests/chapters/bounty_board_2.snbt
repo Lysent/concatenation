@@ -1,0 +1,143 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bounty_board_2"
+	group: "4AEECD5B848DA3A1"
+	icon: {
+		Count: 1
+		id: "the_deep_void:forbidden_tome"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6EF96D49109B6053"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7EA94EAAF138DFFE"
+			tasks: [{
+				entity: "the_deep_void:masked_hunter"
+				icon: "the_deep_void:head_of_the_hunter"
+				id: "01B260B507619242"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63906D4F4224E53D"]
+			id: "7AFD27153C1E2BA6"
+			tasks: [{
+				entity: "the_deep_void:centigaze"
+				icon: "the_deep_void:void_lens"
+				id: "55990F8EDCBE0561"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63906D4F4224E53D"]
+			id: "067E356551B95640"
+			tasks: [{
+				entity: "the_deep_void:everhunger"
+				icon: {
+					Count: 1
+					id: "the_deep_void:flesh_glove"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "30636BBBD6C69B75"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63906D4F4224E53D"]
+			id: "07CFCD8943FF36FA"
+			tasks: [{
+				entity: "the_deep_void:elder_mimic"
+				icon: "the_deep_void:misted_heart"
+				id: "1A415C29DBFBE2D5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63906D4F4224E53D"]
+			id: "39422C2B2FF444F5"
+			tasks: [{
+				entity: "the_deep_void:rooted"
+				icon: "the_deep_void:disturbing_root"
+				id: "5719B2CD25917E9A"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63906D4F4224E53D"]
+			id: "0C979E10F46F24C6"
+			tasks: [
+				{
+					entity: "the_deep_void:prison_guard"
+					icon: {
+						Count: 1
+						id: "the_deep_void:onyx_naginata"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "374E2DAD38DE9EF8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "the_deep_void:penitent"
+					icon: {
+						Count: 1
+						id: "the_deep_void:penitent_cross"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4F0B2EF9211147ED"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "the_deep_void:gaoler"
+					icon: "the_deep_void:cage"
+					id: "08C77713DA2FC52F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Gaol of Heretics"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "63906D4F4224E53D"
+			tasks: [{
+				dimension: "the_deep_void:deep_void"
+				icon: "the_deep_void:book_of_ancient_knowledge"
+				id: "26391E2B3386C547"
+				title: "A Note..?"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+	]
+	title: "Bounty Board...?"
+}

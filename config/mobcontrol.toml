@@ -1,0 +1,632 @@
+################################################################################
+# Mob Control Config
+################################################################################
+
+[general]
+# debug spams the logs with a bunch of extra logging when set to true.
+# Don't enable unless you like spammy log files, or you're troubleshooting.
+debug=false
+
+# Mod compatability: This disables mob checks during initial generation of world
+use-generation-check=false
+
+################################################################################
+# NOTE: Rules are executed in order from top to bottom, and the first rule that.
+# matches all conditions will take precedence.
+
+# NOTE: The below rule is an example that can be safely ignored, and is for
+# documentational purposes only. This rule attempts to explain each of the
+# parameters with their various intricacies. If we can better word or explain a
+# parameter, then let us know.
+
+################################################################################
+# [[mob]] - Defines the mob and holds one or more [[mob.rules]].
+################################################################################
+[[mob]]
+# name is the mod and mob to control.
+# Required
+# Type: String or Array of Strings
+# Syntax: "mod:mob" or "mod:*" or "*:*" or "*"
+# NOTE: Use * for a wildcard match.
+# Examples:
+#   "*"
+#   "minecraft:zombie"
+#   "minecraft:*"
+#   ["minecraft:skeleton", "minecraft:creeper", "custom:*"]
+name="mod:mob"
+
+################################################################################
+# [[mob.rule]] - Define one or more rules to control the mob.
+################################################################################
+[[mob.rule]]
+# name gives the rule a name to reference from a "copy" command (see below).
+# Optional
+# Type: String
+name="example-rule"
+
+# copy uses the named rule as a base, and anything you define will override.
+# Optional
+# Type: String
+# NOTE: Must match an existing "name", mob.rule, otherwise, will be ignored.
+# NOTE: Currently the named rule must be a rule in the same mob and before.
+copy="example-base-rule"
+
+# type defines if this rule will be used for spawners, natural, or all types.
+# Optional, defaulting to block
+# Type: String or array of strings
+# Options:
+#   block   - Blocks the mob from spawning.
+#   all     - Applies to all sources (control, natural, spawner, trigger, etc.).
+#   control - Similar to natural, but uses repeat option to force spawning for
+#             complete control.
+#   natural - Applies to naturally spawning mobs, ignoring the repeat option.
+#   spawner - Applies to spawners (monster spawners and trial spawners).
+#             Trial spawners ignore repeat option.
+#   trigger - Applies to subset of mobs that are spawned under various
+#             triggerable conditions, such as:
+#                Player built: iron golems, snow golems, wither, etc.
+#                Effects (infested, oozing, summon, etc.): Silverfish, slime, etc. (Version 1.21.2 and greater)
+#                Sculk Shrieker: Warden (Version 1.21.2 and greater)
+#                Thrown egg: Chicken
+# Examples:
+#   type="all"
+#   type="spawner"
+type="all"
+
+# run is the probability to spawn.
+# Optional, defaulting to 100, which will always match
+# Type: Numeric, between 0 and 100
+run=50
+
+# repeat is the number of ticks before attempting to run the rule again.
+# Optional, defaulting to 0 for control and [200,800] for spawners
+# Type: Numeric or Range
+# NOTE: 20 ticks is 1 real world second.
+# NOTE: Natural spawning mobs ignore the repeat and use vanilla logic.
+# Examples:
+#   300 = 15 real world seconds
+#   1200 = 1 real world minute
+#   24000 = 20 real world minutes (1 day in game)
+#   72000 = 1 real world hour (3 days in game)
+#   [200,800] = A random amount between 10 real world seconds to 40 real world
+#               seconds
+repeat=[200,800]
+
+# cool-down is the number of ticks before allowing the rule to run again after
+# a successful spawn event.
+# Optional
+# Type: Numeric or Range
+# NOTE: 20 ticks is 1 real world second.
+# Examples:
+#   300 = 15 real world seconds
+#   1200 = 1 real world minute
+#   24000 = 20 real world minutes (1 day in game)
+#   72000 = 1 real world hour (3 days in game)
+#   [200,800] = A random amount between 10 real world seconds to 40 real world
+#               seconds
+cool-down=[6000,7000]
+
+################################################################################
+# CONDITIONS - Parameters to control rule matching.
+################################################################################
+
+# dimension defines which dimensions to enforce the rule on.
+# Optional, defaulting to all
+# Type: String or array of strings
+# Syntax: "mod:dimension" or "mod:*" or "*:*" or "*"
+# NOTE: Use * for a wildcard match.
+# Examples:
+#   "*"
+#   "minecraft:overworld"
+#   "minecraft:*"
+#   ["minecraft:overworld", "minecraft:the_nether", "custom:*"]
+dimension=["minecraft:overworld"]
+
+# biome defines which biomes to enforce the rule on.
+# Optional, defaulting to all
+# Type: String or array of strings
+# Syntax: "mod:biome" or "mod:*" or "*:*" or "*"
+# NOTE: Use * for a wildcard match.
+# Examples:
+#   "*"
+#   "minecraft:savanna"
+#   "minecraft:*"
+#   ["minecraft:savanna", "minecraft:forest", "custom:*"]
+biome=["minecraft:savanna"]
+
+# biome-tag defines which biome tags to enforce the rule on.
+# Optional, defaulting to all
+# Type: String or array of strings
+# Syntax: "mod:biome-tag" or "mod:*" or "*:*" or "*"
+# NOTE: Use * for a wildcard match.
+# Examples:
+#   "*"
+#   "minecraft:is_dense"
+#   "minecraft:*"
+#   ["minecraft:is_dense", "minecraft:is_wet", "custom:*"]
+biome-tag=["minecraft:spawns_warm_variant_frogs"]
+
+# structure defines which structures to enforce the rule on.
+# Optional, defaulting to all
+# Type: String or array of strings
+# Syntax: "mod:structure" or "mod:*" or "*:*" or "*"
+# NOTE: Use * for a wildcard match.
+# NOTE: Use none to match only if there aren't any structures.
+# Examples:
+#   "*"
+#   "none"
+#   "minecraft:village_savanna"
+#   "minecraft:*"
+#   ["minecraft:village_savanna", "minecraft:mineshaft", "custom:*"]
+structure=["minecraft:village_savanna"]
+
+# day is the Minecraft day to check.
+# Optional
+# Type: Numeric or Range
+# Examples:
+#   Specific day: 5
+#   Range: [5,10]
+#   Less than: "<5"
+#   Greater than: ">5"
+day=[3,10]
+
+# time-of-day is the Minecraft time of day to check.
+# Optional
+# Type: Numeric or Range, between 0 and 24000
+# NOTE: See https://minecraft.fandom.com/wiki/Daylight_cycle for the 24-hour
+#       Minecraft day explanation.
+# Examples:
+#   Specific time (noon): 6000
+#   Range (noon to sunset): [6000,12000]
+#   Less than (before noon): <6000
+#   Greater than (after sunset): >12000
+time-of-day=">12000"
+
+# weather enforces the current weather matches the conditions defined.
+# Optional, defaulting to all weather conditions
+# Type: String or array of strings
+# Conditions:
+#   clear - Weather is clear (not the other options below).
+#   rain - Weather is raining or snowing in cold biomes.
+#   thunder - Weather is thunderstorming or blizzard in cold biomes.
+# Examples:
+#   "clear"
+#   ["rain", "thunder"]
+weather="clear"
+
+# light-sky is the sky's light level.
+# Optional, defaulting to vanilla
+# Type: Numeric or range, between 0 and 15
+# NOTE: 0 is complete darkness, and 15 is broad daylight.
+# Examples:
+#   Specific light level: 0
+#   Range: [0,7]
+#   Less than: "<10"
+#   Greater than: ">10"
+light-sky="<10"
+
+# light-block is the block's light level.
+# Optional, defaulting to vanilla
+# Type: Numeric or range, between 0 and 15
+# NOTE: 0 is complete darkness, and 15 is broad daylight.
+# Examples:
+#   Specific light level: 0
+#   Range: [0,7]
+#   Less than: "<7"
+#   Greater than: ">7"
+light-block="<7"
+
+# can-see-sky will check above the mob to ensure the sky is visible
+# Optional, defaulting to undefined
+# Type: Boolean
+# Syntax: "yes" or "no", "true" or "false", 0 or 1
+# Examples:
+#   undefined: Don't run check
+#   1, yes, or true: Spawn position must have sky above -- outside
+#   0, no, or false: Spawn position must have a ceiling -- in cave / structure
+can-see-sky="no"
+
+# is-baby will check if the mob is spawning in as a baby
+# Optional, defaulting to undefined
+# Type: Boolean
+# Syntax: "yes" or "no", "true" or "false", 0 or 1
+# Examples:
+#   undefined: Don't run check
+#   1, yes, or true: Allow if baby
+#   0, no, or false: Allow if not baby
+is-baby="no"
+
+# max-per-mob is the maximum number of mobs allowed on the server at once.
+# Optional
+# Type: Numeric
+max-per-mob=99999
+
+# max-per-player is the maximum number of mobs allowed per player on the server
+# at once. It is determined at the time of spawning, and, therefore, if a player
+# disconnected, then mobs will not be removed.
+# Optional
+# Type: Numeric
+max-per-player=99999
+
+################################################################################
+# SPAWN - Parameters to define spawning attributes.
+################################################################################
+# spawn.additional-checks will run checks for obstructions when spawning
+# Optional, defaulting to no
+# Type: Boolean
+# Syntax: "yes" or "no", "true" or "false", 0 or 1
+spawn.additional-checks="no"
+
+# spawn.count is the number of mobs to spawn.
+# Optional, defaulting to 1
+# Type: Numeric or Range
+# Examples:
+#   Specific count: 5
+#   Range: [5,10]
+#   Less than: "<5"
+#   Greater than: ">5"
+spawn.count=5
+
+# spawn.distance is the minimum / maximum distance to spawn the mob around the
+# source. The source can either be a player or a spawner.
+# Optional, defaulting to 0 and 4 for spawners, otherwise between 24 and 128
+# Type: Numeric or Range
+# Examples:
+#   Specific distance: 5
+#   Range: [5,10]
+#   Less than: "<5"
+#   Greater than: ">5"
+spawn.distance=[10,20]
+
+# spawn.at-y is the y level that mob will spawn in the dimension.
+# Optional, defaulting to between -256 and 256
+# Type: Numeric or Range, between -256 and 256
+# Examples:
+#   Specific y level: 5
+#   Range: [-256,-50]
+#   Less than: "<5"
+#   Greater than: ">5"
+spawn.at-y=[-256,-50]
+
+# convert is the mod:mob to change the spawning mob into.
+# Optional
+# Type: String or Array of Strings
+# Syntax: "mod:mob"
+# Examples:
+#   "minecraft:zombie"
+#   ["minecraft:skeleton", "minecraft:creeper", "custom:mob"]
+spawn.convert="mod:mob"
+
+################################################################################
+# SET - Parameters to set abilities.
+################################################################################
+
+# set.allow-attack defines which mobs can be targeted for attacking. This can
+# be used to stop a mob from attacking other mobs in the event of an accidental
+# hit, such as skeletons with a bow hitting other mobs or skeletons with a bow.
+# NOTE: By default, any mobs specified in the "set.attack" option will be
+#       automatically included in this list as well.
+# Optional, defaulting to vanilla
+# Type: String or array of strings
+# Syntax: "mod:mob" or "player"
+# Examples:
+#   "player"
+#   "minecraft:skeleton"
+#   ["minecraft:skeleton", "minecraft:allay", "custom:mob"]
+set.allow-attack=["player", "mincreaft:skeleton"]
+
+# set.attack defines mich mobs will be attacked on sight.
+# Optional, defaulting to vanilla
+# Type: String or array of strings
+# Syntax: "mod:mob" or "player"
+# Examples:
+#   "player"
+#   "minecraft:skeleton"
+#   ["minecraft:skeleton", "minecraft:allay", "custom:mob"]
+set.attack=["player", "mincreaft:skeleton"]
+
+# set.baby is the probability the mob will spawn as a baby.
+# Optional, defaulting to vanilla
+# Type: Numeric, between 0 and 100
+set.baby=50
+
+# set.break-block is the probability the mob will break blocks.
+# Optional, defaulting to 0
+# Type: Numeric, between 0 and 100
+set.break-block=25
+
+# set.can-lead is the probability the mob can be leashed with a lead
+# Optional, defaulting to 0
+# Type: Numeric, between 0 and 100
+set.can-lead=0
+
+# set.climb is the probability the mob will be able to climb up other mobs.
+# Optional, defaulting to 0
+# Type: Numeric, between 0 and 100
+set.climb=75
+
+# set.cut-grass is the probability the mob will cut down grass.
+# Optional, defaulting to 0
+# Type: Numeric, between 0 and 100
+set.cut-grass=75
+
+# set.damage is the base amount of damage the mob will inflict.
+# NOTE: This only affects melee attacks
+# Optional, defaulting to vanilla
+# Type: Numeric or Range
+set.damage=[10,20]
+
+# set.eat-plants is the probability the mob will eat plants and crops.
+# Optional, defaulting to 0
+# Type: Numeric, between 0 and 100
+set.eat-plants=50
+
+# eat-plants-heals is the probability the mob will heal from eating plants,
+# if you have set.eat-plants enabled.
+# Optional, defaulting to 0
+# Type: Numeric, between 0 and 100
+set.eat-plants-heals=25
+
+# set.follow-range is range a mob will follow its target.
+# Optional, defaulting to vanilla
+# Type: Numeric or Range
+set.follow-range=[32,64]
+
+# set.flying-speed is the base speed at which flying mobs can fly.
+# Optional, defaulting to vanilla
+# Type: Numeric or Range
+set.flying-speed=[7,10]
+
+# set.health is starting health of the mob.
+# Optional, defaulting to vanilla
+# Type: Numeric or Range
+set.health=[50,100]
+
+# set.knockback applies to mobs with physical attacks giving them the ability
+# to knock backwards the player when hit.
+# Optional, defaulting to vanilla
+# Type: Numeric or Range
+set.knockback=[10,70]
+
+# set.movement-speed is the base speed at which mobs can move.
+# Optional, defaulting to vanilla
+# Type: Numeric or Range
+set.movement-speed=[20,30]
+
+# set.name the name of the mob.
+# Optional, defaulting to vanilla
+# Type: String
+# NOTE: See https://minecraft.fandom.com/wiki/Formatting_codes for color codes
+#       to add some color to your mob's name.
+set.name="§2M§4o§4n§bs§ct§ee§6r§u!"
+
+# set.name-always-shown defines if the name is always visible on the mob.
+# Optional, defaulting to vanilla
+# Type: Boolean
+# Syntax: "yes" or "no", "true" or "false", 0 or 1
+set.name-always-shown="yes"
+
+# set.on-hurt defines what the mob will do when hurt.
+# Optional, defaulting to vanilla
+# Type: String
+# Options:
+#   one - If hurt, then the one mob will attack.
+#   all - If hurt, then the mob, and others of the same type, will attack.
+set.on-hurt="one"
+
+# set.place-block is the probability the mob will place blocks.
+# Optional, defaulting to 0
+# Type: Numeric, between 0 and 100
+set.place-block=50
+
+# set.plant-trees is the probability the mob will plant biome appropriate trees.
+# Optional, defaulting to 0
+# Type: Numeric, between 0 and 100
+set.plant-trees=75
+
+# set.plant-flowers is the probability the mob will plant biome appropriate
+# flowers.
+# Optional, defaulting to 0
+# Type: Numeric, between 0 and 100
+set.plant-flowers=25
+
+# set.size defines the size of the mob by scaling the model.
+# Optional, defaulting to vanilla
+# Type: Numeric or Range
+set.size=[80,120]
+
+# set.spread-fire is the probability the mob will spread fire to others if on
+# fire.
+# Optional, defaulting to 0
+# Type: Numeric, between 0 and 100
+set.spread-fire=100
+
+# set.sunburn is the probability the mob will burn under the sun.
+# Optional, defaulting to 0, except phantoms, skeletons, and zombies,
+# which will default to 100.
+# Type: Numeric, between 0 and 100
+set.sunburn=0
+
+# set.xp is the experience points dropped by the mob after killing.
+# Optional, defaulting to vanilla
+# Type: Numeric or Range
+set.xp=[10,50]
+
+################################################################################
+# SLOT - Parameters to define armor and items in hand.
+################################################################################
+# slot.head is a list of items or a single item for the mob's head.
+# Optional, defaulting to empty
+# Type: Table with a required name and optional weight.
+# Syntax:
+#   [[mob.rule.chest]]
+#   name="mod:item"
+#   weight=number - Default: 1
+#   drop=number - Default: 0
+# NOTE: If a list of items is provided, then an item will be randomly selected.
+# NOTE: The optional weight parameter will affect the probability of selection.
+# NOTE: The optional drop parameter will is the probability of the item
+#       dropping upon mob's death. Range is 0-100 defaulting to 0
+# NOTE: The name parameter supports the "give" command's SNBT formatting. Use
+#       a give command generator and take only the item name + the text that
+#       follows, such as:
+#       Generator Provides:
+#           /give @a iron_sword[enchantments={mending:1}]
+#       Change to:
+#           name="iron_sword[enchantments={mending:1}]"
+#       Example give command generator (be sure to use the correct MC version):
+#           https://www.gamergeeks.net/apps/minecraft/give-command-generator
+#       If the item has double quotes, then ensure to escape, as such:
+#           name="wooden_sword{display:{Name:'[\"\",{\"text\":\"Toothpick\",\"italic\":false}]'},Enchantments:[{lvl:1,id:mending}]}"
+# Examples:
+#   [[mob.rule.head]]
+#   name="minecraft:golden_helmet"
+#   weight=1
+#   [[mob.rule.head]]
+#   name="minecraft:air"
+#   weight=3
+[[mob.rule.head]]
+name="minecraft:golden_helmet"
+[[mob.rule.head]]
+name="minecraft:diamond_helmet"
+
+# slot.chest is a list of items or a single item for the mob's chest.
+# Optional, defaulting to empty
+# Type: Table with a required name and optional weight.
+# NOTE: See slot.head for syntax and example.
+[[mob.rule.chest]]
+
+# slot.legs is a list of items or a single item for the mob's legs.
+# Optional, defaulting to empty
+# Type: Table with a required name and optional weight.
+# NOTE: See slot.head for syntax and example.
+[[mob.rule.legs]]
+
+# slot.feet is a list of items or a single item for the mob's feet.
+# Optional, defaulting to empty
+# Type: Table with a required name and optional weight.
+# NOTE: See slot.head for syntax and example.
+[[mob.rule.feet]]
+name="minecraft:leather_boots"
+
+# slot.main is a list of items or a single item for the mob's main hand.
+# Optional, defaulting to empty
+# Type: Table with a required name and optional weight.
+# NOTE: See slot.head for syntax and example.
+[[mob.rule.mainhand]]
+name="minecraft:wooden_sword"
+[[mob.rule.mainhand]]
+name="minecraft:golden_sword"
+[[mob.rule.mainhand]]
+name='golden_sword[custom_name=[{"text":"Ole Yellower","italic":false}],lore=[[{"text":"A sword from past times","italic":false}]],enchantments={mending:1,sweeping_edge:3}]'
+
+# slot.main is a list of items or a single item for the mob's offhand.
+# Optional, defaulting to empty
+# Type: Table with a required name and optional weight.
+# NOTE: See slot.head for syntax and example.
+[[mob.rule.offhand]]
+
+################################################################################
+# LOOT - Parameters to define loot dropped upon death.
+################################################################################
+# loot is a list of items or a single item to drop if the player kills the mob.
+# Optional, defaulting to vanilla
+# Type: Table with a required name and optional weight, group, and quantity.
+# Syntax:
+#   [[mob.rule.loot]]
+#   name="mod:item"
+#   group=string or number - Default: blank
+#   weight=number - Default: 1
+#   quantity=number, or range of numbers - Default: 1
+# NOTE: If a list of items is provided, then an item will be randomly selected.
+# NOTE: The optional group will give you the ability to drop more than one item.
+#       If group is not set, then it will default to blank.
+# NOTE: The optional weight parameter will affect the probability of selection.
+# NOTE: The name parameter supports SNBT formatting.
+#       See slot.head for more information.
+[[mob.rule.loot]]
+name="minecraft:apple"
+group="a"
+quantity=[1,3]
+
+[[mob.rule.loot]]
+name="minecraft:air"
+group="b"
+weight=3
+
+[[mob.rule.loot]]
+name="minecraft:golden_apple"
+group="b"
+weight=1
+quantity=1
+
+[[mob.rule.loot]]
+name="minecraft:air"
+group="c"
+weight=3
+
+[[mob.rule.loot]]
+name='golden_helmet[custom_name=[{"text":"Helmet of Breathing","italic":false}],enchantments={aqua_affinity:1}]'
+group="c"
+weight=1
+quantity=1
+
+################################################################################
+# EFFECT - Parameters to define effects to set on mobs.
+################################################################################
+# effect is a list of effects or a single effect to apply to the mob.
+# Optional
+# Type: Table with a required name and optional weight, group, duration,
+#       amplifier, ambient, and particles.
+# Syntax:
+#   [[mob.rule.effect]]
+#   name="mod:effect"
+#   group=string or number - Default: blank
+#   weight=number - Default: 1
+#   duration=number, or range of numbers - Default: -1 (Infinite)
+#   amplifier=number, or range of numbers - Default: 0
+#   ambient=boolean - Default: false
+#   particles=boolean - Default: true
+# NOTE: If a list of effects is provided, then an effect will be randomly
+#       selected. For vanilla effects, see:
+#       http://minecraft.fandom.com/wiki/Effect
+# NOTE: The optional group will give you the ability to give more than one
+#       effect.
+#       If group is not set, then it will default to blank.
+# NOTE: The optional weight parameter will affect the probability of selection.
+# NOTE: The optional duration parameter will default to -1, which is infinite.
+[[mob.rule.effect]]
+name="minecraft:glowing"
+group="a"
+particles="no"
+
+[[mob.rule.effect]]
+name="minecraft:strength"
+group="b"
+particles="no"
+amplifier=2
+weight=3
+
+[[mob.rule.effect]]
+name="minecraft:regeneration"
+group="b"
+particles="no"
+amplifier=1
+weight=3
+
+################################################################################
+# Add your custom rules below the next line
+################################################################################
+
+
+
+
+
+################################################################################
+# Add your custom rules above the previous line
+################################################################################
+# Allow all by default. You can change "all" to "block" to block mobs by default.
+[[mob]]
+name="*"
+[[mob.rule]]
+type="all"

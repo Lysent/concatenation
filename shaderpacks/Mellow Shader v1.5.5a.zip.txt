@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#Thu Feb 05 23:08:17 EST 2026
-=======
-#Sun Feb 08 21:17:59 EST 2026
->>>>>>> parent of 689b005 (Revert "Merge branch 'main' into main")
+#Mon Feb 09 11:04:15 PST 2026
 WATER_ALPHA=0.5
 REFLECTIONS=0
 TONEMAP_MIN_R=0.03
