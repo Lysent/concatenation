@@ -1244,7 +1244,7 @@ ServerEvents.recipes(event => {
                 Item.of('concatenationcore:stalker_ward'),
                 [
                         'concatenationcore:protection_charm',
-                        'born_in_chaos_v1:nightmare_stalker_skull',
+                        '#concatenation:nightmare_catalyst',
                         'born_in_chaos_v1:fire_dust',
                         'concatenationcore:experience_orb',
                         'minecraft:glow_ink_sac',
