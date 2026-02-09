@@ -36,12 +36,6 @@
 	StalkerDespawnTimer = 6000.0
 	#How long before a Voidborn spawns when in total darkness (in ticks)
 	VoidbornSpawnTimer = 600.0
-	#If a respawn entity should be summoned when a boss dies
-	SummonBossRespawn = true
-	#By how much the Stalker Timer is reduced when the player is in light
-	LightReduceStalkerTimer = 4.0
-	#The light level (and under) at which the Stalker can spawn if the Player is in that light level range for long enough
-	StalkerLightLevel = 1.0
 
 [Misc]
 	#Whether the ''Seek Light'' warning should appear when the Stalker is close or not (Happens only one time)
@@ -87,8 +81,6 @@
 	VoidbornHealth = 12.0
 	#How long before the Voidborn can get hit again (in ticks)
 	VoidbornHitCooldown = 60.0
-	#If bosses should go back to idling when there are no players nearby
-	BossIdles = true
 
 ["Gameplay Changes"]
 	#When a player dies, they get sent to the Deep Void
@@ -166,8 +158,12 @@
 	ShadestormShadeArrow = 2.5
 	#Damage dealt by the big arrow in an AOE (+ original damage)
 	ShadestormBigArrow = 15.0
+	#Damage dealt after the first hit
+	SoulSeekerRepeatedDamage = 12.0
 	#Damage dealt in an AOE each tick
 	VoodooDoll = 12.0
+	#Damage dealt in an AOE each tick
+	SoulSeekerThrown = 10.0
 	#Damage dealt in an AOE
 	TheHarvest = 20.0
 	#Damage dealt in an AOE each tick (ignores armor)
@@ -186,6 +182,10 @@
 	ApostasySoulFusedShot = 9.0
 	#Damage (velocity increases that number)
 	KnifeGlove = 18.0
+	#Damage dealt in an AOE
+	VoidMatterGreatsword = 30.0
+	#Damage dealt if the entity does not have broken armor (full damage, not an addition)
+	RustyClawsExtraDamage = 14.0
 	#Damage per projectile
 	IchorSwordSpit = 21.0
 	#Damage per projectile
@@ -202,13 +202,13 @@
 	#Extra damage when on low health
 	RottenTongueDamage = 25.0
 	BloodBowSpike = 10.0
-	OnyxNaginataReachAddition = 3.0
+	OnyxNaginataReachAddition = 2.0
 	Needlefish = 7.0
 	#Ignores armor
 	TombstoneDoom = 50.0
 	KnifeBandolierFullChargeHit = 25.0
 	#How long it takes before the knife bandolier is fully charged (in ticks)
-	KnifeBandolierTimeBeforeCharge = 30.0
+	KnifeBandolierTimeBeforeCharge = 90.0
 	#Damage per knife
 	KnifeBandolierKnife = 15.0
 	#Damage in an AOE each tick
@@ -220,15 +220,7 @@
 	TheCatcherExtraDamage = 8.0
 	#For how long can the player fly (in ticks)
 	FlyWingsDuration = 200.0
-	PenitentCrossReachAddition = 2.0
-	#The amount healed when using the dark slash (per entity in the AOE)
-	SoulReaperLifesteal = 0.8
-	#Damage (velocity increases that number)
-	EldritchMaw = 12.0
-	#Damage dealt when the effect expires. The damage is equal to the level of the effect * value (ignores armor)
-	AbyssalMarkBurst = 20.0
-	#Distance is multiplied by this value. The result multiplies the initial damage
-	Sharpshooter = 0.5
+	PenitentCrossReachAddition = 1.0
 
 ["Hive's Watcher"]
 	#Damage each tick
