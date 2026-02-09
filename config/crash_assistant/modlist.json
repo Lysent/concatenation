@@ -104,11 +104,6 @@
     "modId": "asr",
     "version": "0.2"
   },
-  "asr-crashfix-1.0.1-forge-1.20.1.jar": {
-    "jarName": "asr-crashfix-1.0.1-forge-1.20.1.jar",
-    "modId": "asr_crashfix",
-    "version": "1.0.1"
-  },
   "AsyncParticles-2.3.11+1.20.1.jar": {
     "jarName": "AsyncParticles-2.3.11+1.20.1.jar",
     "modId": "asyncparticles",
@@ -129,10 +124,10 @@
     "modId": "attributefix",
     "version": "21.0.4"
   },
-  "attributesetter-2.0.2-forge.jar": {
-    "jarName": "attributesetter-2.0.2-forge.jar",
+  "attributesetter-2.0.1-forge.jar": {
+    "jarName": "attributesetter-2.0.1-forge.jar",
     "modId": "attributesetter",
-    "version": "2.0.2-forge"
+    "version": "2.0.1-forge"
   },
   "BadOptimizations-2.4.0-1.20.1.jar": {
     "jarName": "BadOptimizations-2.4.0-1.20.1.jar",
@@ -144,10 +139,10 @@
     "modId": "baguettelib",
     "version": "1.0.0"
   },
-  "balm-forge-1.20.1-7.3.38-all.jar": {
-    "jarName": "balm-forge-1.20.1-7.3.38-all.jar",
+  "balm-forge-1.20.1-7.3.31-all.jar": {
+    "jarName": "balm-forge-1.20.1-7.3.31-all.jar",
     "modId": "balm",
-    "version": "7.3.38"
+    "version": "7.3.31"
   },
   "BetterAdvancements-Forge-1.20.1-0.4.2.25.jar": {
     "jarName": "BetterAdvancements-Forge-1.20.1-0.4.2.25.jar",
@@ -329,10 +324,10 @@
     "modId": "concatenationcompat",
     "version": "1.0.2"
   },
-  "concatenationcore-1.3.6-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.3.6-forge-1.20.1.jar",
+  "concatenationcore-1.3.4-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.3.4-forge-1.20.1.jar",
     "modId": "concatenationcore",
-    "version": "1.3.6"
+    "version": "1.3.4"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -422,10 +417,10 @@
     "modId": "craftingstation",
     "version": "1.20.1-1.3.3"
   },
-  "craftingtweaks-forge-1.20.1-18.2.8.jar": {
-    "jarName": "craftingtweaks-forge-1.20.1-18.2.8.jar",
+  "craftingtweaks-forge-1.20.1-18.2.5.jar": {
+    "jarName": "craftingtweaks-forge-1.20.1-18.2.5.jar",
     "modId": "craftingtweaks",
-    "version": "18.2.8"
+    "version": "18.2.5"
   },
   "CrashAssistant-forge-1.19.2-1.20.1-1.9.8.jar": {
     "jarName": "CrashAssistant-forge-1.19.2-1.20.1-1.9.8.jar",
@@ -492,6 +487,11 @@
     "modId": "createdeco",
     "version": "2.0.3-1.20.1-forge"
   },
+  "createimmersivetacz-1.4-1.20.1.jar": {
+    "jarName": "createimmersivetacz-1.4-1.20.1.jar",
+    "modId": "createimmersivetacz",
+    "version": "1.4-1.20.1"
+  },
   "createmetallurgy-0.0.7-HF-1.20.1.jar": {
     "jarName": "createmetallurgy-0.0.7-HF-1.20.1.jar",
     "modId": "createmetallurgy",
@@ -516,6 +516,11 @@
     "jarName": "curios-forge-5.14.1+1.20.1.jar",
     "modId": "curios",
     "version": "5.14.1+1.20.1"
+  },
+  "curvyquests-1.0.1.jar": {
+    "jarName": "curvyquests-1.0.1.jar",
+    "modId": "curvyquests",
+    "version": "1.0.1"
   },
   "customvillagertrades-forge-20.25.0.jar": {
     "jarName": "customvillagertrades-forge-20.25.0.jar",
@@ -747,10 +752,10 @@
     "modId": "ferritecore",
     "version": "6.0.1"
   },
-  "flerovium-forge-1.20.1-1.2.18-all.jar": {
-    "jarName": "flerovium-forge-1.20.1-1.2.18-all.jar",
+  "flerovium-forge-1.20.1-1.2.16-all.jar": {
+    "jarName": "flerovium-forge-1.20.1-1.2.16-all.jar",
     "modId": "flerovium",
-    "version": "1.2.18"
+    "version": "1.2.16"
   },
   "framework-forge-1.20.1-0.7.15.jar": {
     "jarName": "framework-forge-1.20.1-0.7.15.jar",
@@ -1190,15 +1195,10 @@
     "modId": "minecolonies_tweaks",
     "version": "2.95"
   },
-  "mobcontrol-1.20.1-1.5.15.jar": {
-    "jarName": "mobcontrol-1.20.1-1.5.15.jar",
-    "modId": "mobcontrol",
-    "version": "1.5.15"
-  },
-  "mobtimizations-forge-1.20.1-1.0.1.jar": {
-    "jarName": "mobtimizations-forge-1.20.1-1.0.1.jar",
+  "mobtimizations-forge-1.20.1-1.0.0.jar": {
+    "jarName": "mobtimizations-forge-1.20.1-1.0.0.jar",
     "modId": "mobtimizations",
-    "version": "1.20.1-1.0.1"
+    "version": "1.20.1-1.0.0"
   },
   "modelfix-1.15.jar": {
     "jarName": "modelfix-1.15.jar",
@@ -1329,6 +1329,11 @@
     "jarName": "OreBerries-Replanted-1.20.1-0.5.2.jar",
     "modId": "oreberriesreplanted",
     "version": "0.5.2"
+  },
+  "packanalytics-forge-1.0.4-1.20.1.jar": {
+    "jarName": "packanalytics-forge-1.0.4-1.20.1.jar",
+    "modId": "packanalytics",
+    "version": "1.0.4"
   },
   "packetfixer-3.3.1-1.18-1.20.4-merged.jar": {
     "jarName": "packetfixer-3.3.1-1.18-1.20.4-merged.jar",
@@ -1718,10 +1723,15 @@
     "modId": "tacztweaks",
     "version": "2.13.0"
   },
-  "tagfixes-1.0.4-forge-1.20.1.jar": {
-    "jarName": "tagfixes-1.0.4-forge-1.20.1.jar",
+  "tagfixes-1.0.3-forge-1.20.1.jar": {
+    "jarName": "tagfixes-1.0.3-forge-1.20.1.jar",
     "modId": "tagfixes",
-    "version": "1.0.4"
+    "version": "1.0.2"
+  },
+  "tamestalker-1.0.6.jar": {
+    "jarName": "tamestalker-1.0.6.jar",
+    "modId": "nightmaretamer",
+    "version": "1.0.6"
   },
   "tangiblecommands-1.0.0-forge-1.20.1.jar": {
     "jarName": "tangiblecommands-1.0.0-forge-1.20.1.jar",
@@ -1758,15 +1768,10 @@
     "modId": "tfmg",
     "version": "1.0.2c"
   },
-  "tfmg-lag-fix-1.0.0-forge-1.20.1.jar": {
-    "jarName": "tfmg-lag-fix-1.0.0-forge-1.20.1.jar",
-    "modId": "tfmg_patch",
-    "version": "1.0.0"
-  },
-  "the_deep_void-1.96.9.1-forge-1.20.1.jar": {
-    "jarName": "the_deep_void-1.96.9.1-forge-1.20.1.jar",
+  "the_deep_void-1.96.8-forge-1.20.1.jar": {
+    "jarName": "the_deep_void-1.96.8-forge-1.20.1.jar",
     "modId": "the_deep_void",
-    "version": "1.96.9"
+    "version": "1.96.8.1"
   },
   "thermal_cultivation-1.20.1-11.0.1.24.jar": {
     "jarName": "thermal_cultivation-1.20.1-11.0.1.24.jar",
@@ -1913,10 +1918,10 @@
     "modId": "usefulbackpacks",
     "version": "2.0.1.124"
   },
-  "VanillaBackport-forge-1.20.1-1.1.5.4.jar": {
-    "jarName": "VanillaBackport-forge-1.20.1-1.1.5.4.jar",
+  "VanillaBackport-forge-1.20.1-1.1.5.3.jar": {
+    "jarName": "VanillaBackport-forge-1.20.1-1.1.5.3.jar",
     "modId": "vanillabackport",
-    "version": "1.1.5.4"
+    "version": "1.1.5.3"
   },
   "veinmining-forge-1.5.0+1.20.1.jar": {
     "jarName": "veinmining-forge-1.5.0+1.20.1.jar",

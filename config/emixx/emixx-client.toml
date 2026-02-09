@@ -3,7 +3,7 @@
 	enableCreativeModeTabs = false
 	syncSelectedCreativeModeTab = false
 	enableBerryTheme = false
-	disabledCreativeModeTabs = ["minecraft:op_blocks", "born_in_chaos_v1:debugging_bornin_chaos", "create_central_kitchen:base", "hammerlib:root", "create_easy_structures:create_easy_structures", "lootr:lootr", "realmrpg_wyrms:realm_rpg_wyrms_tab", "domum_ornamentum:floating_carpets", "modonomicon:modonomicon", "tacz:stock", "tacz:grip", "cyberspace:cyberspace_wip_tab", "tacz:muzzle", "tacz:laser", "multipiston:general"]
+	disabledCreativeModeTabs = ["minecraft:op_blocks", "itemfilters:default", "tacz:muzzle", "tacz:laser", "appmek:main", "tacz:ammo", "multipiston:general", "tacz:shotgun", "born_in_chaos_v1:debugging_bornin_chaos", "create_central_kitchen:base", "hammerlib:root", "create_easy_structures:create_easy_structures", "lootr:lootr", "realmrpg_wyrms:realm_rpg_wyrms_tab", "domum_ornamentum:floating_carpets", "modonomicon:modonomicon", "tacz:stock", "tacz:grip", "cyberspace:cyberspace_wip_tab"]
 
 [stackGroups]
 	enableStackGroups = true

@@ -23,9 +23,9 @@
 				"{@pagebreak}"
 				"&9Hierophants&r are apprentice technicians, skilled in automating resources, logistics, and digital storage systems."
 				""
-				"They most often evolve into proper technicians of &bthe High Priestess Pathway&r, as per their destiny. Sometimes, they instead become &dHermits&r through &bthe High Priestess Pathway&r."
+				"They most often evolve into proper technicians of the &bHigh Priestess pathway&r, as per their destiny. Sometimes, they instead become &dHermits&r through the &bHigh Priestess pathway&r."
 				"{@pagebreak}"
-				"To switch to this Path, only &7the Tower&r and &dthe Hermit&r (through &bthe High Priestess&r) are considered adjacent. Engineers and tinkerers can craft &9the Hierophant&r card with silver paper and their own unique ingredients."
+				"To switch to this path, only &7the Tower&r and &dthe Hermit&r (through &bthe High Priestess&r) are considered adjacent. Engineers and tinkerers can craft &9the Hierophant&r card with silver paper and their own unique ingredients."
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -71,9 +71,9 @@
 				"{@pagebreak}"
 				"Embark on the path of an elementalist, delving into control over elemental sources. The tarot perk of the &eMagician&r is that golden weapons do not break. Especially useful when you are to consider that golden weapons are holy in nature, inflicting more damage to the undead."
 				"{@pagebreak}"
-				"To switch to this Path, only engineers of &7the Tower Pathway&r or arcanists from &fthe Star Pathway&r are considered adjacent. These two Paths can craft &ethe Magician&r card themselves using silver paper instead of the regular gold paper."
+				"To switch to this path from an adjacent path, only engineers of &7the Tower&r pathway or arcanists from the &fStar pathway&r are considered adjacent. These two paths can craft &ethe Magician&r card themselves using silver paper instead of the regular gold paper."
 				""
-				"Elementalists often evolve into mages of &6the Sun Pathway&r or arcanists of &fthe Star Pathway&r."
+				"Elementalists often evolve into mages of the &6Sun pathway&r or arcanists of the &fStar pathway&r."
 			]
 			id: "2157576FC7005917"
 			rewards: [{
@@ -115,13 +115,13 @@
 			description: [
 				"{image:concatenationcore:textures/infographic_temperance.png width:150 height:125 align:center}"
 				"{@pagebreak}"
-				"Witches of the &cTemperance Pathway&r adhere to researching the occult and an isolated lifestyle, growing their various herbs in peace. Their peers are often jealous of their multiple trinkets: the flying broom, large coffer replacing the backpack, magic-resistant armour, etc. "
+				"Witches of the &cTemperance pathway&r adhere to researching the occult and an isolated lifestyle, growing their various herbs in peace. Their peers are often jealous of their multiple trinkets: the flying broom, large coffer replacing the backpack, magic-resistant armour, etc. "
 				""
-				"They have a reputation for progressing the fastest through the Pathways. However, they lack a proper foundation compared to other Paths."
+				"They have a reputation for progressing the fastest through the pathways. However, they lack a proper foundation compared to other paths."
 				"{@pagebreak}"
-				"To switch to this Pathway, only arcanists of &fthe Star Pathway&r are considered adjacent. Some elementalists may consider adhering to &cTemperance&r by crafting its card."
+				"To switch to this pathway, only arcanists of the &fStar pathway&r are considered adjacent. Some elementalists may consider adhering to &cTemperance&r by crafting its card."
 				""
-				"Most witches of &cTemperance&r evolve into either arcanists of &fthe Star Pathway&r or cultists of &4the Moon Pathway&r.  "
+				"Most witches of &cTemperance&r evolve into either arcanists of the &fStar pathway&r or cultists of the &4Moon pathway&r.  "
 			]
 			hide_dependent_lines: true
 			id: "2970C1ADE44898FF"
@@ -183,11 +183,11 @@
 			description: [
 				"{image:concatenationcore:textures/infographic_hermit.png width:150 height:125 align:center}"
 				"{@pagebreak}"
-				"Delve into &dthe Hermit Pathway&r to become a tinkerer, skilled in resource processing and casting elaborate tools."
+				"Delve into the &dHermit pathway&r to become a tinkerer, skilled in resource processing and casting elaborate tools."
 				""
-				"Tinkerers often evolve into engineers of &7the Tower Pathway&r, making intricate contraptions. They can also choose instead to evolve into technicians of &bthe High Priestess Pathway&r."
+				"Tinkerers often evolve into engineers of the &7Tower pathway&r, making elaborate contraptions. They can also choose instead to evolve into technicians of the &bHigh Priestess pathway&r."
 				"{@pagebreak}"
-				"To switch to this Path, only &6the Sun&r and &bHigh Priestess&r Pathways are adjacent. Mages and technicians can craft &dthe Hermit&r card using silver paper and their respective ingredients. "
+				"To switch to this pathway, only &6the Sun&r and &bHigh Priestess&r pathways are adjacent. Mages and technicians can craft &dthe Hermit&r card using silver paper and their respective ingredients. "
 			]
 			hide_dependent_lines: true
 			id: "06A4BEEE42830A85"
@@ -376,7 +376,7 @@
 		{
 			dependencies: ["4DF2955C7F793389"]
 			description: [
-				"Galvanized Iron is a useful material to build machinery out of, as it is immune to rusting as long as the zinc coating is still applied, unlike plain iron, which you might notice rusting in many locations around the world."
+				"Galvanized Iron is a useful material to build machinery out of, as it is immune to rusting as long as the zinc coating is still applied, unlike plain iron you might notice rusting in many locations around the world."
 				"{@pagebreak}"
 				"I've witnessed a castle that was built with iron railings, completely rusted within a year. Fortunately, while it was still inhabited, the resident Magician could clear the rust free of charge with golden tools."
 			]
@@ -424,7 +424,7 @@
 			description: [
 				"The Solid Fuel Quarry is a marvel of engineering, but is an extremely outdated design. It is powered by simple fossil fuels and sports impressive range - all the way to bedrock, but unlucky quarrying can result in a lack of self-sustainability in coal. It deposits the materials it has mined in adjacent chests."
 				"{@pagebreak}"
-				"It is possible to mitigate power issues by digging not at the surface of the world and making a hole through several layers of just stone and dirt, but by quarrying underground, closer to the more resource-rich layers of the earth."
+				"It is possible to mitigate power issues by digging not at the surface of the world and making a hole through several layers of just stone and dirt, but by quarrying underground, closer to the more resourceful layers of the earth."
 				"{@pagebreak}"
 				"The quarry is extremely fragile and is prone to malfunction. If you believe the machine is no longer working, most often than not, you should break and replace it - be warned that breaking it with fuel still inside will &lvoid the fuel&r! However, sometimes it's simply finished digging to the bottom of the world. &aDo not chunkload the quarry as it's already chunkloading by itself.&r"
 			]
@@ -717,7 +717,7 @@
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
-			description: ["The two main things you will want to transport over a distance are items and liquids. A chest or barrel barge or train car attached to a steam tug or locomotive will transport and deposit items using docks."]
+			description: ["The two main things you will want to transport over a distance are either items or liquids. A chest or barrel barge or train car attached to a steam tug or locomotive will transport and deposit items using docks."]
 			id: "2B597187BD3904C8"
 			rewards: [{
 				id: "394C0EF3C8A02936"
@@ -812,7 +812,7 @@
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
 			description: [
-				"&6The Chariot Pathway&r's full potential can't be attained by those of adjacent Paths. However, all that &9Hierophant&r and &dHermit&r card holders require is the logistics aspect of that pathway. "
+				"&6The Chariot Pathway&r's full potential can't be attained by those of adjacent pathways. However, all &9Hierophant&r and &dHermit&r card holders require is the logistics aspect of that pathway. "
 				""
 				"Later on, more advanced logistics require the &6Chariot&r card."
 			]
@@ -1396,7 +1396,7 @@
 		{
 			dependencies: ["0964BD6C4413A9C9"]
 			description: [
-				"Andesite alloy might be the most important material of the Tower Pathway."
+				"Andesite alloy might be the most important material of the Tower pathway."
 				""
 				"It is made by casting either molten zinc or molten iron on an andesite block in a casting basin."
 			]
@@ -1427,7 +1427,7 @@
 		{
 			dependencies: ["4557B51A13938B2F"]
 			description: [
-				"Brass is a crucial material of the Tower Pathway, frequently used in expansive machinery."
+				"Brass is a crucial material of the Tower pathway, frequently used in expansive machinery."
 				""
 				"It is made from alloying one part copper and one part zinc."
 			]
@@ -1461,9 +1461,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The Simple Machine Frame is the base for High Priestess Pathway machines. It works well as a template for contained machine blocks, as the frame already contains basic electronics and a sturdy casing."
+				"The Simple Machine Frame is the base for High Priestess pathway machines. It works well as a template for contained machine blocks, as the frame already contains basic electronics and a sturdy casing."
 				"{@pagebreak}"
-				"Later on, the High Priestess Pathway has its distinctive and more efficient method of manufacturing these machine frames."
+				"Later on, the High Priestess pathway has its distinctive and more efficient method of manufacturing these machine frames."
 			]
 			id: "36318C8D65509470"
 			min_required_dependencies: 1
@@ -1943,7 +1943,7 @@
 				""
 				"You will have to wait in all likelihood for a few days for a single panvita to grow, although it may take less time."
 				"{@pagebreak}"
-				"Panvita can be grafted to a wide variety of plants, flowers, and mushrooms, or can be turned into bonemeal."
+				"Panvita can be grafted to a wide variety of plants, flowers, mushrooms, or can be turned to bonemeal."
 			]
 			icon: "concatenationcore:berry_incubator"
 			id: "58CFB61E7D4DE729"
@@ -2185,7 +2185,7 @@
 				"This circuit model is often labeled as deficient by most engineers of our age. Everything needs to start somewhere, and this highly inefficient circuit does its job, although the manufacturing process is annoying."
 				"{@pagebreak}"
 				"This is used in the process of"
-				"{ \"text\": \"unlocking the High Priestess Pathway as well.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51211E92BC865FDC\" } }"
+				"{ \"text\": \"unlocking the High Priestess pathway as well.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51211E92BC865FDC\" } }"
 			]
 			id: "2E2A38A96D401883"
 			rewards: [{
@@ -2587,7 +2587,7 @@
 			description: [
 				"The small element container is the basis for any small elemental system. Most elemental instruments need to be placed on top of a container, such as the elemental extractor. When broken, it will retain most of the element inside. "
 				""
-				"Pipes can be attached to its sides, which then can be toggled to output the element by &a(right-click)&r tapping on them to transfer it to other containers."
+				"Pipes can be attached to its sides, which then can be toggled to output the element by &a(right-click)&r tapping on them to transfer to other containers."
 			]
 			id: "42EF54B7ABFC5789"
 			rewards: [
@@ -2622,7 +2622,7 @@
 		{
 			dependencies: ["42EF54B7ABFC5789"]
 			description: [
-				"To start your proper elemental setup, you will want to either find an &lelemental source&r in the wild - floating circles of colour depending on the element - or make use of an element evaporator to evaporate raw or powerful natural shards into elemental power. "
+				"To start your proper elemental setup, you will want to either find an &lelemental source&r in the wild - floating circles of color depending on the element - or make use of an element evaporator to evaporate raw or powerful natural shards into elemental power. "
 				""
 				"I would recommend finding a source instead, as it's more reliable. Finding all four sources in one place is miraculous, though. Noting down the location of the new sources found is crucial. "
 				"{@pagebreak}"
@@ -2852,11 +2852,11 @@
 		{
 			dependencies: ["3B824E760CC7B14B"]
 			description: [
-				"The Growth and Harvest Shrines can be combined for an automatic magical farm that grows crops faster and harvests crops itself."
+				"The growth and harvest shrines can be combined for an automatic magical farm that grows crops faster and harvests crops itself."
 				"{@pagebreak}"
-				"The Harvest Shrine has an upgrade to automatically replant crops."
+				"The harvest shrine has an upgrade to automatically replant crops."
 				""
-				"You, however, need both a water and an earth source nearby for such a setup."
+				"You, however, need both a water and earth source nearby for such a setup."
 			]
 			id: "1359145FFF98EEC4"
 			rewards: [{
@@ -2906,9 +2906,9 @@
 		{
 			dependencies: ["3B824E760CC7B14B"]
 			description: [
-				"The Lumber Shrine automatically cuts down trees."
+				"The lumber shrine automatically cuts down trees."
 				""
-				"Similar to the Harvest Shrine, it can also be upgraded to replant saplings."
+				"Similar to the harvest shrine, it can also be upgraded to replant saplings."
 			]
 			id: "1E988E360B7AB9C1"
 			rewards: [{
@@ -2935,11 +2935,11 @@
 		{
 			dependencies: ["3B824E760CC7B14B"]
 			description: [
-				"The Ore Shrine is one of the most useful elemental shrines. It is a magical quarry that harvests ores from below, even if placed at the surface of the world."
+				"The Ore Shrine is one of the most useful elemental shrines. It is a magical quarry harvesting the ores below even if it's at the surface of the world."
 				"{@pagebreak}"
 				"It is most especially useful in the Netherworld to avoid dangerous mining. Magician card holders will later need to acquire Fireite ingots, requiring ancient debris. "
 				"{@pagebreak}"
-				"The most frustrating part of this shrine is that it spews its ore everywhere. You might require a Vacuum Shrine nearby to collect the yield."
+				"The most frustrating part of this shrine is that it spews its ore everywhere. You might require a vacuum shrine nearby to collect the yield."
 			]
 			id: "0BC1E2D2A0FE4141"
 			rewards: [
@@ -2982,7 +2982,7 @@
 		{
 			dependencies: ["3B824E760CC7B14B"]
 			description: [
-				"The Sweet Shrine automatically feeds nearby people."
+				"The sweet shrine automatically feeds nearby people."
 				"{@pagebreak}"
 				"How it does this is debatable. Does it turn water element into a nutritious fluid that enters the mouth without anyone noticing?"
 			]
@@ -3010,7 +3010,7 @@
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
-			description: ["The Spawning Shrine summons mobs around itself every five seconds. This can be useful for a mob farm."]
+			description: ["The spawning shrine summons mobs around itself every five seconds. This can be useful for a mob farm."]
 			id: "5323FC721657F04B"
 			rewards: [{
 				id: "35F9C91EFE8D00F5"
@@ -3078,7 +3078,7 @@
 				"{@pagebreak}"
 				"The swift alloy must be produced at the element binder in its specific sequence: gold ingot, drenched ingot, copper ingot, redstone, and air crystal."
 				""
-				"The springaline shard is also produced at the element binder, but its production can be made renewable with the Budding Shrine upgrade."
+				"The springaline shard is also produced at the element binder, but its production can be made renewable with the budding shrine upgrade."
 			]
 			id: "4FA1B8DD76B592DD"
 			rewards: [{
@@ -3206,7 +3206,7 @@
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
-			description: ["The ore purifier can multiply the yield of ores. You will need a Silk Touch effect to process an ore block in the ore purifier into purified ore. While most ores require this extra process, some ores, such as regular iron and gold, can be purified using their raw ore forms instead of their blocks."]
+			description: ["The ore purifier can multiply the yield of ores. You will need a Silk Touch effect to process an ore block in the ore purifier into purified ore. While most ores do not need this extra process, some ores, such as regular iron and gold, can be purified with their raw ore forms instead of their blocks."]
 			id: "193DD74E480D6269"
 			rewards: [{
 				id: "72B47A815DE79850"
@@ -3511,7 +3511,7 @@
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
 			description: [
-				"Once a widespread arcane art throughout the land, elemental spells fell out of most mages' favours after the discovery of more advanced spellcrafting. These days, this is a stepping stone to acquire spellcrafting."
+				"Once a widespread arcane art throughout the land, elemental spells fell out of most mages' favors after the discovery of more advanced spellcrafting. These days, this is a stepping stone to acquire spellcrafting."
 				"{@pagebreak}"
 				"The spell desk allows you to inscribe spells onto scrolls. These scrolls can then be used along with elements to cast various spells, from the most useful, to the least."
 			]
@@ -3856,9 +3856,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&6The Sun Pathway&r delves mainly into spellcrafting, gaining the ability to cast a vast variety of spells. Mages will don the armour they prefer between variations either more suited for mana optimization or for defensive prowess."
+				"The &eSun Pathway&r delves mainly into spellcrafting, gaining the ability to cast a vast variety of spells. Mages will don the armour they prefer between variations either more suited for mana optimization or for defensive prowess."
 				"{@pagebreak}"
-				"It is adjacent to &7the Tower Pathway&r, the &6Strength Pathway&r, and &fthe Star Pathway&r. Most mages of &6the Sun Pathway&r evolve from &eMagician&r elementalists."
+				"It is adjacent to the &7Tower Pathway&r, the &6Strength Pathway&r, and the &fStar Pathway&r. Most mages of the Sun Pathway evolve from Magician elementalists."
 			]
 			hide_dependency_lines: true
 			id: "6A5FC0572660FB1E"
@@ -4102,7 +4102,7 @@
 		{
 			dependencies: ["71BB28D5234F5991"]
 			description: [
-				"Most mage equipment can seem very unbecoming of many mages, but serves great utility. The enchanter's wand and mirror both provide a discount on spells inscribed and provide additional amplification and duration, respectively."
+				"Most mage equipment can seem very unbecoming of many mages, but serves great utility. The enchanter's wand and mirror both provide a discount on spells inscribed and provide additional amplification and duration respectively."
 				""
 				"The Enchanter's Shield is used to block attacks effectively and converts the damage into a short burst of extra mana regeneration and spell damage."
 			]
@@ -4441,9 +4441,9 @@
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
 			description: [
-				"The Technomancer set is the most unique, not following an elemental school and instead being a product of a fusion with the adjacent Tower Pathway."
+				"The Technomancer set is the most unique, not following an elemental school and instead being a product of a fusion with the adjacent Tower pathway."
 				""
-				"Personally, it is my archmage set of choice. While it doesn't boast an elemental affinity for increasing a certain elemental spell's potency and reducing damage from a specific source, it does feature slightly higher mana regeneration and capacity. It also reduces damage from Tower Pathway machinery."
+				"Personally, it is my archmage set of choice. While it doesn't boast an elemental affinity of increasing a certain elemental spell's potency and reducing damage from a specific source, it does feature slightly higher mana regeneration and capacity. It does reduce damage from Tower pathway machinery."
 			]
 			hide_dependency_lines: true
 			id: "7D7E738B3324CCC3"
@@ -6789,7 +6789,7 @@
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
-			description: ["A polyvalent fixture used to dry many things for witchcraft. It also has the notable ability to dry putridity out from the rotten flesh of the undead, turning it into usable leather."]
+			description: ["A polyvalent fixture used to dry many things used in witchcraft. It also has a notable quality to dry the putridity out of the rotten flesh of the undead and turn it into usable leather."]
 			hide_dependency_lines: true
 			id: "50DF4F514B4C87B9"
 			rewards: [{
@@ -7573,7 +7573,7 @@
 		{
 			dependencies: ["54D2E4556B238BE4"]
 			description: [
-				"&4The Moon Pathway&r delves further into the occult rather than witchcraft."
+				"The &4Moon Pathway&r delves further into the occult rather than witchcraft."
 				""
 				"Chorus fruit needed for this card can be found in structures around the world."
 				"{@pagebreak}"
@@ -8071,7 +8071,7 @@
 		}
 		{
 			dependencies: ["53D5A1A751227C9A"]
-			description: ["A great many stones and ores can be further processed by crushing. Just don't get yourself stuck in there."]
+			description: ["A great many stones and ores can be further processed with this crushing. Just don't get yourself stuck in there."]
 			id: "15B4E0B3C70D372F"
 			rewards: [{
 				id: "69D886EFF85E0E58"
@@ -9338,7 +9338,7 @@
 				"03A0AB8C01849917"
 				"0C490675BD4137E8"
 			]
-			description: ["&9The Hierophant&r's natural progression is to attain &bthe High Priestess Pathway&r as well. Above, I have written down the materials required to make the simple machine frame from &9the Hierophant&r's side."]
+			description: ["The &9Hierophant&r's natural progression is to attain the &bHigh Priestess pathway&r as well. Above, I have written down the materials required to make the simple machine frame from the &9Hierophant&r's side."]
 			hide_dependent_lines: true
 			id: "51211E92BC865FDC"
 			rewards: [{
@@ -9430,7 +9430,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The High Priestess Pathway's distinctive method of producing their own simple casing uses the materials I've noted above."
+				"The High Priestess pathway's distinctive method of producing their own simple casing uses the materials I've noted above."
 				"{@pagebreak}"
 				"As steel is frequently used, it may prove useful to semi-automate its process."
 			]
@@ -9516,12 +9516,12 @@
 				"59D783372A16F858"
 			]
 			description: [
-				"Although primarily made by &bHigh Priestess&r card holders, &dHermit&r card holders can adhere to the &bHigh Priestess Path&r as well by making these same circuits."
+				"Although primarily made by &bHigh Priestess&r card holders, &dHermit&r card holders can adhere to the &bHigh Priestess&r path as well by making these same circuits."
 				""
-				"&dHermits&r can switch to this Pathway "
+				"&dHermits&r can switch to this pathway "
 				"{ \"text\": \"through one of the alternate ways to make their casing.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AABF2BA290CD429\" } }"
 				"{@pagebreak}"
-				"If you're confused about where to find &bthe High Priestess Pathway&r journal entries in this book, look around the blue section. It is still an adjacent Path to &dthe Hermit&r, despite the fact that it's not obvious."
+				"If you're confused about where to find the &bHigh Priestess&r pathway journal entries in this book, look around the blue section. It is still an adjacent path to the &dHermit&r despite the fact it's not obvious."
 			]
 			id: "54BE967A3164579C"
 			rewards: [
@@ -9557,7 +9557,7 @@
 		{
 			dependencies: ["4557B51A13938B2F"]
 			description: [
-				"Electrum is a material frequently used in circuits and electronic machinery, especially by the High Priestess and Hierophant Pathways."
+				"Electrum is a material frequently used in circuits and electronic machinery, especially by the High Priestess and Hierophant pathways."
 				""
 				"It is made from alloying one part gold and one part silver."
 			]
@@ -9587,7 +9587,7 @@
 		{
 			dependencies: ["51F0251F529BE03C"]
 			dependency_requirement: "one_completed"
-			description: ["&bThe High Priestess Pathway&r is the traditional technological Path based on automation of modular, single machines, usually contained within a block of space, united into an entire facility."]
+			description: ["The &bHigh Priestess&r pathway is the traditional technological path based on automation of modular, single machines, usually contained within a block of space, united into an entire facility."]
 			id: "4AE782719D5A61F7"
 			rewards: [
 				{
@@ -9803,7 +9803,7 @@
 				"51211E92BC865FDC"
 			]
 			dependency_requirement: "one_started"
-			description: ["With the Tower Pathway, you can create many mechanical and kinetic things. If you ever find yourself needing further detail about this or that machine, it seems that by just pondering their existence for a while, an explanation will be magically projected into your eyes."]
+			description: ["With the Tower pathway, you can create many mechanical and kinetic things. If you ever find yourself needing further detail about this or that machine, it seems that by just pondering their existence for a while, an explanation will get magically projected into your eyes."]
 			id: "7948CF780F8B6C0B"
 			rewards: [
 				{
@@ -10039,7 +10039,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The Star Pathway is the neutral ground between the virtuous and the evil of magic, featuring spells from both. The main caveat of embarking upon this Path is that most, if not everything, must be acquired through exploration. "
+				"The Star pathway is the neutral ground between the virtuous and the evil of magic, featuring spells from both. The main caveat of embarking upon this path is that most, if not everything, must be acquired through exploration. "
 				"However, if you already have some skills in magic, you may be able to reproduce some of the magical materials."
 			]
 			hide_dependency_lines: true
@@ -10114,7 +10114,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The &6Strength Pathway&r is a mighty fusion of the &eMagician&r and &dHermit&r Pathways, with the ability to produce some of the most powerful weapons in the land, along with decent but not specialized armour sets."
+				"The &6Strength Pathway&r is a mighty fusion of the &eMagician&r and &dHermit&r pathways, with the ability to produce some of the most powerful weapons in the land, along with decent but not specialized armour sets."
 				"{@pagebreak}"
 				"I have not partaken in the forging of celestial weapons myself, so I will have to delegate the following journal entries to notes I've found from a celestial smith named &6Fala&r. I had met her in a smithing mountain town, where she was compiling an encyclopedia on everything related to a forge, regular and celestial. The following notes are from that unfinished encyclopedia."
 			]
@@ -10235,7 +10235,7 @@
 		{
 			dependencies: ["405495BB2F379536"]
 			description: [
-				"There are many other ways of producing power using various dynamo types."
+				"There are many other ways of producing power using various other dynamo types."
 				""
 				"The most notable ones are the magmatic dynamo and the lapidary dynamo, producing RF power from lava and precious gems, respectively."
 			]
@@ -10338,11 +10338,11 @@
 		{
 			dependencies: ["65C1B6B2B147028E"]
 			description: [
-				"I have written down the materials required for a &dHermit&r to craft the Simple Machine Frame of &bthe High Priestess Pathway&r. "
+				"I have written down the materials required for a &dHermit&r to craft the Simple Machine Frame of the &bHigh Priestess&r pathway. "
 				""
-				"Through this, it's possible to switch Paths from &dHermit&r to &9Hierophant&r and vice versa."
+				"Through this, it's possible to switch pathways from &dHermit&r to &9Hierophant&r and vice versa."
 				"{@pagebreak}"
-				"This will require the regular andesite alloy flattened into a plate, either with the help of machinery from &7the Tower Pathway&r or inefficiently with the help of a crushing hammer. "
+				"This will require the regular andesite alloy flattened into a plate, either with the help of machinery from the &7Tower pathway&r or inefficiently with the help of a crushing hammer. "
 				"{@pagebreak}"
 				"You will also need to cast bronze into a gear cast to manufacture the bronze gears required."
 			]
@@ -10465,7 +10465,7 @@
 				""
 				"&6This combination creates a powerful synergy. This results in an armour that not only protects but also empowers its wearer, making it a favourite among those who value both defensive and offensive capabilities.&r"
 				"{@pagebreak}"
-				"&6It possesses various special abilities such as substantial defensive prowess, knockback resistance, additional mana, magic resistance, and of course, increasing the potency of celestial-grade weapons.&r"
+				"&6It possesses various special abilities such as substantial defensive prowess, knockback resistance, additional mana, magic resistance, and of course: increasing the potency of celestial-grade weapons.&r"
 				""
 				"&6The uniqueness of Solar Crystal Armour is that it protects its wearer by casting a burst of flames when attacked.&r"
 			]
@@ -10634,7 +10634,7 @@
 		}
 		{
 			dependencies: ["3CC948E467CCC4C6"]
-			description: ["The &3Judgement Pathway&r has access to powerful firearms which can be manufactured with resources common to &7the Tower Pathway&r. "]
+			description: ["The &3Judgement Pathway&r has access to powerful firearms which can be manufactured with resources common to the &7Tower Pathway&r. "]
 			id: "3F86C492412EBA3F"
 			rewards: [{
 				id: "1A04DDE80D9E5411"
@@ -10667,7 +10667,7 @@
 				"{@pagebreak}"
 				"A common way for Magician card holders to harvest large quantities of ancient debris is to set up an Ore Shrine in the Netherworld."
 				""
-				"Furthermore, dimensional shards can be refined into ancient debris. They are often acquired as a byproduct of ancient debris mining. The Magician Pathway has a uniquely efficient processing method, requiring fire crystals."
+				"Furthermore, dimensional shards can be refined into ancient debris. They are often acquired as a byproduct of ancient debris mining. The Magician pathway has a uniquely efficient processing method, requiring fire crystals."
 			]
 			id: "51E48EAB50B0971E"
 			rewards: [
@@ -10814,7 +10814,7 @@
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
-			description: ["The assembly table fell into disuse for most engineers of the Tower Pathway, as it is more effective to mass-produce ammunition."]
+			description: ["The assembly table fell into disuse for most engineers of the Tower pathway, as it is more effective to mass-produce ammunition."]
 			id: "3E615BD9F6833A17"
 			rewards: [{
 				count: 4
@@ -11072,7 +11072,7 @@
 			description: [
 				"The multiservo press has various uses and is most useful to manufacture large quantities of plates, gears and coins."
 				"{@pagebreak}"
-				"The manual process of plate-making and gear-making can be quite tedious; therefore, it is any High Priestess card holder's priority to automate this process."
+				"The manual process of plate-making and gear-making can be quite tedious, therefore it is any High Priestess card holder's priority to automate this process."
 			]
 			id: "51302FFECDC0E0A7"
 			rewards: [
@@ -11220,7 +11220,7 @@
 				"64655F5EE797B52B"
 			]
 			dependency_requirement: "one_completed"
-			description: ["The &4Death Pathway&r delves into all sorts of dangers posed by chaotic entities. Classifying and identifying these beings and their weaknesses is one fascinating aspect of this Path, but very much overshadowed by the unique gear this Pathway provides, forged from various monster parts. This even includes a tiny bit of necromancy."]
+			description: ["The &4Death Pathway&r delves into all sorts of dangers posed by chaotic entities. Classifying and identifying these beings and their weaknesses is one fascinating aspect of this path, but very much overshadowed by the unique gear this pathway provides, forged from various monster parts. This even includes a tiny bit of necromancy."]
 			id: "0D70725FEAF0DC7B"
 			rewards: [{
 				id: "77E2888BB0C5675C"
@@ -11245,7 +11245,7 @@
 			dependencies: ["4557B51A13938B2F"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Rose gold is a crucial material of the Tower Pathway, frequently used in expansive machinery."
+				"Rose gold is a crucial material of the Tower pathway, frequently used in expansive machinery."
 				""
 				"It is made by alloying one part copper and one part gold."
 			]
@@ -11275,7 +11275,7 @@
 		{
 			dependencies: ["3B824E760CC7B14B"]
 			description: [
-				"The Budding Shrine is an especially useful shrine for renewable amethyst production close to home."
+				"The budding shrine is an especially useful shrine for renewable amethyst production close to home."
 				""
 				"It requires a steady flow of earth element, so using it next to an earth source is recommended. Check it every once in a while to see if it's grown a full-size amethyst cluster."
 				"{@pagebreak}"
@@ -11315,7 +11315,7 @@
 		{
 			dependencies: ["34457CDE76EDFEAC"]
 			description: [
-				"One of the main strengths of the Budding Shrine is that it can be upgraded with this Springaline Shrine Upgrade. "
+				"One of the main strengths of the budding shrine is that it can be upgraded with this Springaline Shrine Upgrade. "
 				""
 				"Springaline can become a renewable resource growing in someone's home."
 				"{@pagebreak}"
@@ -11671,7 +11671,7 @@
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
 			description: [
-				"The Phytogenic Insolator can be used to artificially grow various plants and crops."
+				"The Phytogenic Insulator can be used to artificially grow various plants and crops."
 				""
 				"It requires fertilizer for faster growth."
 				"{@pagebreak}"
@@ -11786,7 +11786,7 @@
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
-			description: ["The &5Minor Arcana of Pentacles&r is a branch under the High Priestess Pathway, delving more intensively into high-tech mechanisms, automation, refinement, and power armour."]
+			description: ["The &5Minor Arcana of Pentacles&r is a branch under the High Priestess pathway, delving more intensively into high-tech mechanisms, automation, refinement, and power armour."]
 			id: "5F12CF1071CE8A45"
 			rewards: [{
 				id: "1C9B5E2B85F1CF38"
@@ -11818,7 +11818,7 @@
 				"0F2FB52232FC40C5"
 			]
 			dependency_requirement: "one_started"
-			description: ["The &9Minor Arcana of the Cup&r is a branch under the High Priestess Pathway, delving more intensively into logistics through cables."]
+			description: ["The &9Minor Arcana of the Cup&r is a branch under the High Priestess pathway, delving more intensively into logistics through cables."]
 			id: "10A7F0DA56020A8C"
 			rewards: [
 				{
@@ -12133,7 +12133,7 @@
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
-			description: ["The Swords is a minor arcana under the Judgement Pathway, specializing in the manufacturing of highly durable military-grade armour, whatever that means."]
+			description: ["The Swords is a minor arcana under the Judgement pathway, specializing in the manufacturing of highly durable military-grade armour, whatever that means."]
 			id: "6CC9A41A95921C52"
 			rewards: [{
 				id: "1B638B0B9ED65EC4"
@@ -13049,7 +13049,7 @@
 				"37AA006B7ABACDC8"
 				"6FC66F464CF54CF4"
 			]
-			description: ["Demonic ash, seems to be perpetually smouldering. I never used it for proper magic, but it does make for a good hand warmer."]
+			description: ["Demonic ash, seems to be perpetually smoldering. I never used it for proper magic, but it does make for a good hand warmer."]
 			id: "5145276716FB2377"
 			rewards: [{
 				id: "7C3426700E0D1F82"
@@ -14004,7 +14004,7 @@
 		}
 		{
 			dependencies: ["1E133F321CC64E1F"]
-			description: ["If one were to restore the entirety of the Cycle of Eldritch Scribings, it is likely it would allow one to develop the true ancient arts of Alchemy and Artifice. I regrettably never managed to find the entirety of the ancient knowledge, but it was of no matter since fully formed alchemical implements do exist, somewhere in the world..."]
+			description: ["If one were to restore the entirety of the Cycle of Eldritch Scribings, it is likely it would allow one to develop the true ancient arts of Alchemy and Artifice. I regrettably never managed to find the entirety of the ancient knowledge, but it was of no matter since fully-formed alchemical implements do exist, somewhere in the world..."]
 			id: "301D160C2B3F2B79"
 			rewards: [{
 				id: "4424841C11CCF47F"
@@ -15390,13 +15390,13 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&4The Hanged Man Pathway&r delves mainly into relics, crafting and collecting them. To do thus, a substantial amount of monster hunting is required."
+				"The &4Hanged Man Pathway&r delves mainly into relics, crafting and collecting them. To do thus, a substantial amount of monster hunting is required."
 				""
-				"During my time in the City of Sparkon, I met a reliquerer of this Pathway, who had evolved from an archmage, as a couple of mages do."
+				"During my time in the City of Sparkon, I met a reliquerer of this pathway, who had evolved from an archmage, as a couple of mages do."
 				"{@pagebreak}"
 				"His name is &cSantiago&r. He left me a couple of notes, and I've also written down a couple of our dialogues. Although he's a native to Sparkon, he spent more time outside of the city out on monster hunting raids to collect the rarest of ingredients. While he is officially an archmage as well as a reliquerer, he really did the bare minimum to be able to pass as an archmage."
 				"{@pagebreak}"
-				"It is adjacent to &6The Sun Pathway&r, &fThe Star Pathway&r and &4The Moon Pathway&r."
+				"It is adjacent to the &eSun Pathway&r, &fStar Pathway&r and &4Moon Pathway&r."
 			]
 			hide_dependency_lines: true
 			id: "4E4E81226BED0E7C"
@@ -15431,9 +15431,9 @@
 				""
 				"On my way to the city of Sparkon, I happened upon an airship full of alchemists that turned out to be heading in the same direction that I was, so I hitched a ride with them."
 				"{@pagebreak}"
-				"As I was particularly interested in their quest of pursuing the Philosopher’s Stone, I proposed an exchange. I would give them pointers regarding the magics that I had mastered up until that point, and in return they would train me in the art of alchemy. I’d say that it was a worthwhile trade, even if some of their methods seemed archaic compared to some of the more industrious Pathways."
+				"As I was particularly interested in their quest of pursuing the Philosopher’s Stone, I proposed an exchange. I would give them pointers regarding the magics that I had mastered up until that point, and in return they would train me in the art of alchemy. I’d say that it was a worthwhile trade, even if some of their methods seemed archaic compared to some of the more industrious pathways."
 				"{@pagebreak}"
-				"&3The Lovers&r is adjacent to &6The Sun Pathway&r, &fThe Star Pathway&r, and &4The Moon Pathway&r."
+				"The Lovers is adjacent to &eThe Sun Pathway, &fThe Star Pathway, &7and &4The Moon Pathway."
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -16020,7 +16020,7 @@
 			description: [
 				"This box of invar filled with electronics is used to upgrade some thermal machinery."
 				""
-				"You can insert this into a thermal series machine to upgrade all of its base stats by a factor of two."
+				"You can insert this in a thermal series machine to upgrade all of its base stats by a factor of two."
 			]
 			hide_dependency_lines: true
 			id: "25E533314EFCD83A"
@@ -16515,7 +16515,7 @@
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
 			description: [
-				"Some addons are available for the Industrial Foregoing generation of machines. They range from increasing efficiency and speed to increasing range. "
+				"Some addons are available for the Industrial Foregoing generation of machines. They range from increasing efficiency and speed to range. "
 				""
 				"Addons are crafted in the dissolution chamber."
 			]
@@ -16735,7 +16735,7 @@
 		{
 			dependencies: ["7223BE78D2D053A8"]
 			description: [
-				"The Infinity Hammer is not made for crafting or mining, but rather for combat. It can target a larger area of attack based on its stored RF power. It has an ability to slam the ground, and can behead mobs more easily, similar to the Cleaver that Hermit tinkerers have access to."
+				"The Infinity Hammer is not made for crafting or mining, but rather for combat. It can target a larger area of attack based on its stored RF power. It has an ability to slam the ground, and can behead mobs easier, similar to the Cleaver that Hermit tinkerers have access to."
 				"{@pagebreak}"
 				"The Infinity Trident works similarly, growing more powerful with more RF power stored, but as a throwable weapon. This high-tech weapon synthesizes the typical trident enchantments with RF power. The artificial riptide of this tool does not require rain. This can make for a powerful transportation tool."
 			]
@@ -16976,7 +16976,7 @@
 		{
 			dependencies: ["33F8735D8322AFE6"]
 			description: [
-				"Steel Armour is a decent armour set. Its defensive prowess is respectable - on par with diamond armour, but cheaper in base cost materials. However, the process to turn coal and iron into steel is more time-consuming."
+				"Steel Armour is a decent armour set. Its defensive prowess is respectable - on par with diamond armour, but cheaper in base cost materials. However, the process to turn coal and iron to steel is more time-consuming."
 				"{@pagebreak}"
 				"There are two versions of steel armour you can make. One is heavier, having fewer defenses but resisting knockback significantly. The other doesn't have this knockback resistance, but has fewer weak points, thus more defenses."
 			]
@@ -17467,7 +17467,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&3The Hand of Wands&r is a minor arcana that can be accessed by the &eMagician&r, &6Sun&r, &7Tower&r, and &dHermit&r Pathways. It delves into adding together magic and technology by performing spellcasting through the more convenient handgun format. It is an art in its own right."
+				"&3The Hand of Wands&r is a minor arcana that can be accessed by the &eMagician&r, &6Sun&r, &7Tower&r, and &dHermit&r pathways. It delves into adding together magic and technology by performing spellcasting through the more convenient handgun format. It is an art in its own right."
 				"{@pagebreak}"
 				"While I did not delve into rifled spellcasting myself, I have met on my travels a curious wizard by the name of &3Van&r. He left me these notes you can subsequently read. He seems to be one of the co-authors of the &3Encyclopaedia Psionica&r. Do not trust his every word. I may have drunk from my own blood and performed cultist rituals, but it seems rifled spellcasting is the discipline that truly renders mages mad."
 				"{@pagebreak}"
@@ -17678,13 +17678,13 @@
 			]
 			dependency_requirement: "one_started"
 			description: [
-				"The Calralite ingot, often nicknamed Celestial Calralite, is a powerful material fit for high-grade armour and weapons."
+				"The Calralite ingot, often nicknamed Celestial Calralite, is a powerful material fit for high-grade armors and weapons."
 				""
-				"It is also used in high-tech machinery by the High Priestess Pathway."
+				"It is also used in high-tech machinery by the High Priestess pathway."
 				"{@pagebreak}"
 				"Quite ironically, the most efficient way of gathering the materials for this alloy is by mining in the Netherworld. "
 				""
-				"Magician card holders can especially make great use of the Ore Shrine to yield great quantities of cobalt and wolframite."
+				"Magician card holders can especially make great use of the ore shrine to yield great quantities of cobalt and wolframite."
 			]
 			hide_dependency_lines: true
 			id: "6853E3A8E74D815A"
@@ -17974,7 +17974,7 @@
 			description: [
 				"This tablet can be connected to many things, but the odds are that you will only care about the storage scanner. First, you will need to obtain a storage control module and then link it to a storage scanner (right-click). You can then insert the storage control module into a tablet. "
 				""
-				"You can also directly put a storage module into the tablet, for a fancier version of a backpack."
+				"You can also directly put a storage module into the tablet, for a more fancy version of a backpack."
 			]
 			icon: "rftoolsbase:tablet"
 			id: "67512CE704637A76"
@@ -18029,7 +18029,7 @@
 			description: [
 				"&5The Empress Pathway&r delves into agriculture, animal husbandry, aquaculture, every single food endeavour imaginable. "
 				""
-				"Unfortunately, I haven't quite found a person that truly embodied this Pathway and thus I haven't been able to learn more than the basics of cooking, much less processed food production."
+				"Unfortunately, I haven't quite found a person that truly embodied this pathway and thus I haven't been able to learn more than the basics of cooking, much less processed food production."
 			]
 			hide_text_until_complete: false
 			id: "1203CDC5DF26F779"
@@ -18146,7 +18146,7 @@
 		}
 		{
 			dependencies: ["01514A831E1895F9"]
-			description: ["More than just regular knives are considered appropriate for cooking. There are also the rarer quartz knives and the sturdy cutting tool made from the blade of a sword. More eccentric is the use of the sacrificial knife unique to cultists."]
+			description: ["More than just the regular knives are considered appropriate for cooking. There are also the rarer quartz knives and the sturdy cutting tool made from the blade of a sword. More eccentric is the use of the sacrificial knife unique to cultists."]
 			id: "11F3F832B62CA7D8"
 			rewards: [{
 				count: 16
@@ -18256,7 +18256,7 @@
 			description: [
 				"There are four beneficial drinks that can be concocted, nourishing and granting additional effects."
 				""
-				"Bottling milk can be an easier way to transport and drink it, clearing effects when drunk. Hot Cocoa only clears harmful effects. Apple Cider grants absorption for a minute, while Melon Juice restores some of your health."
+				"Bottling milk can be an easier way to transport and drink it, clearing effects when drunk. Hot Cocoa only clears harmful effects. Apple Cider grants absorption for a minute while Melon Juice restores some of your health."
 			]
 			hide_dependency_lines: true
 			id: "65459A4FC403ECCC"
@@ -18736,7 +18736,7 @@
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
-			description: ["Monstrous hounds and the nightmare stalker naturally possess a durable and protective hide. This may prove useful for making armour."]
+			description: ["Monstrous hounds and the nightmare stalker naturally possess a durable and protective hide. This may prove to be useful to make armour."]
 			id: "3BDE972F9EB52CF5"
 			rewards: [{
 				id: "2761D279A08C8335"
@@ -18878,7 +18878,7 @@
 		{
 			dependencies: ["3BDE972F9EB52CF5"]
 			description: [
-				"Nightmare weapons feature weaker strikes compared to dark metal weapons but make up for it by being technically considered holy weapons. This status is quite puzzling. One theory that can be thought of is that these weapons are so unholy in nature that they loop around to being holy. Or rather, they simply have the same property of being more effective on the undead."
+				"Nightmare weapons feature weaker strikes compared to dark metal weapons but make up for it by being technically considered holy weapons. This status is quite puzzling. One theory that can be thought of is that these weapons are so unholy in nature, that they loop around to being holy. Or rather, they simply have the same property of being more effective on the undead."
 				""
 				"All of these weapons have their strength enhanced when wearing a full nightmare set."
 			]
@@ -18986,7 +18986,7 @@
 				"{@pagebreak}"
 				"It lurks in the shadows, invisible except for white eyes in the dark, until it finds its prey and pounces in a surprise attack, withering its victim to weaken it and leeching off their blood."
 				""
-				"While dangerous, once it loses the element of surprise, it is weak to holy or fire weaponry, and can be outrun quite easily."
+				"While dangerous, once it loses the element of surprise, it is weak to holy or fire weaponry, as well as being able to be outrun quite easily."
 				"{@pagebreak}"
 				"The megatorch helps to keep Nightmare Stalkers away, but is not infallible."
 			]
@@ -20444,7 +20444,7 @@
 		{
 			dependencies: ["081070F7CBF61207"]
 			description: [
-				"&c\"If you ever thought that ender pearls offered a distinct lack of options in forms of teleportation, this one might be a favourable pick for you. Instead of relying on strength of arm to dictate where you end up, the Ender Staff has three distinct modes that allow for more controlled self-teleportation. It has a basic mode which launches an ender pearl as normal, but it also has a long range mode that discharges the projectile with significantly less regard for gravity, allowing for significantly further instant transportation. \"&r"
+				"&c\"If you ever thought that ender pearls offered a distinct lack of options in forms of teleportation, this one might be a favorable pick for you. Instead of relying on strength of arm to dictate where you end up, the Ender Staff has three distinct modes that allow for more controlled self-teleportation. It has a basic mode which launches an ender pearl as normal, but it also has a long range mode that discharges the projectile with significantly less regard for gravity, allowing for significantly further instant transportation. \"&r"
 				"{@pagebreak}"
 				"&c\"Additionally, it features a waypoint mode, which instantly sends you to the last Wraith Node you interacted with. Overall a very solid relic.\"&r"
 				""
@@ -20767,7 +20767,7 @@
 			description: [
 				"Alchemical digestion is the process of exaltation, which is the act of increasing a material’s “tier.” For example, by combining four Niters obtained from a common metal, like copper, the digestion vat would return a Niter that corresponds to abundant metals, like iron and zinc."
 				"{@pagebreak}"
-				"This process first requires the creation of Purified Gold, which is produced by digesting gold with an alchemical salt. By purifying gold, its reactions with other elements are removed, making it an excellent catalyst for digestion. Despite this, Purified Gold is rather worthless outside of the realm of alchemy..."
+				"This process first requires the creation of Purified Gold, which is produced by digesting gold with an alchemical salt. By purifying gold, its reactions with other elements are removed, making it an excellent catalyst for digestion. Despite this, Purified Gold is rather worthless outside of the realm of alchemy…"
 			]
 			id: "29AB1C13F14D1962"
 			rewards: [{
@@ -21923,7 +21923,7 @@
 		}
 		{
 			dependencies: ["2DFD2B7661869743"]
-			description: ["Linked Ender Chests are a version of ender chests better suited for industrial use. Automation can be more efficient by directly linking parts of various contraptions across dimensions by sending items with the Ender Chest or liquids with the Ender Tank."]
+			description: ["Linked Ender Chests are a version of ender chests better suited for industrial use. Automation can be more efficient by directly linking parts of various contraptions across dimensions by sending items or liquid with the Ender Tank."]
 			id: "1AD20894C1E7AFA7"
 			rewards: [{
 				id: "28F7BF6D7976BB2A"
@@ -21947,7 +21947,7 @@
 		}
 		{
 			dependencies: ["7E1C64AA0AA235C2"]
-			description: ["Linked Ender Chests are a version of ender chests better suited for industrial use. Automation can be more efficient by directly linking parts of various contraptions across dimensions by sending items with the Ender Chest or liquids with the Ender Tank."]
+			description: ["Linked Ender Chests are a version of ender chests better suited for industrial use. Automation can be more efficient by directly linking parts of various contraptions across dimensions by sending items or liquid with the Ender Tank."]
 			id: "29886789989F6CE9"
 			rewards: [{
 				count: 4
@@ -21981,8 +21981,6 @@
 				"You may find this useful to give to your companions or various other people you meet on your journey."
 				""
 				"The Sublime Golden Giant Sword loses its ability to block, but gains great damaging prowess. All of these tools inherit the holy properties of their predecessors."
-				"{@pagebreak}"
-				"For an unknown reason, The Magician card's power simply refuses to activate on the regular gold hoe. To remedy this, the Sublime Gold Hoe with infinite durability can be made and serves the same function. Magicians have refined the making of Sublime Gold Hoes to make it cheaper, a functional recipe embedded within the card."
 			]
 			hide_dependency_lines: true
 			id: "58B8BFC90B0E9F74"
@@ -22000,51 +21998,43 @@
 				}
 			]
 			size: 0.9d
-			tasks: [
-				{
-					id: "0D97F840C62F8A47"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "concatenationcore:sublime_gold_sword"
-								}
-								{
-									Count: 1b
-									id: "concatenationcore:sublime_gold_giant_sword"
-								}
-								{
-									Count: 1b
-									id: "concatenationcore:sublime_gold_pickaxe"
-								}
-								{
-									Count: 1b
-									id: "concatenationcore:sublime_gold_axe"
-								}
-								{
-									Count: 1b
-									id: "concatenationcore:sublime_gold_shovel"
-								}
-								{
-									Count: 1b
-									id: "concatenationcore:sublime_gold_hoe"
-								}
-							]
-						}
+			tasks: [{
+				id: "0D97F840C62F8A47"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "concatenationcore:sublime_gold_sword"
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:sublime_gold_giant_sword"
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:sublime_gold_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:sublime_gold_axe"
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:sublime_gold_shovel"
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:sublime_gold_hoe"
+							}
+						]
 					}
-					title: "Any Sublime Gold Tool"
-					type: "item"
 				}
-				{
-					id: "722FAFBB268150E7"
-					item: "concatenationcore:sublime_gold_hoe"
-					optional_task: true
-					type: "item"
-				}
-			]
+				title: "Any Sublime Gold Tool"
+				type: "item"
+			}]
 			title: "Sublime Gold Tools"
 			x: 1.7999999999999998d
 			y: 9.0d
@@ -22466,7 +22456,7 @@
 		{
 			dependencies: ["71BB28D5234F5991"]
 			description: [
-				"The storage lectern was inspired by the sophisticated digital storage systems that the Hierophant and High Priestess Pathways enjoy. While the ledger reports information on stored items in a similar way, the inner mechanisms of this magical storage system work differently."
+				"The storage lectern was inspired by the sophisticated digital storage systems that the Hierophant and High Priestess pathways enjoy. While the ledger reports information on stored items in a similar way, the inner mechanisms of this magical storage system work differently."
 				"{@pagebreak}"
 				"Bookwyrms can be tasked with a dominion wand to connect inventories to the lectern. A more efficient way of doing so is using large or connected inventories, such as diamond chests or drawers."
 			]
@@ -22667,7 +22657,7 @@
 			description: [
 				"The focus of necromancy is a corrupted focus of summoning, able to turn summons into withered undead of considerable strength."
 				""
-				"One of the mages I knew was obsessed with producing one of these rumoured focuses, only known in legends of long-gone lich kings of the past. All of his peers warned him, yet it was not insanity or corruption that brought down the society of magic in Sparkon."
+				"One of the mages I knew was obsessed with producing one of these rumored focuses, only known in legends of long-gone lich kings of the past. All of his peers warned him, yet it was not insanity or corruption that brought down the society of magic in Sparkon."
 			]
 			hide_dependency_lines: true
 			id: "0A2CB31B617B9FA2"
@@ -23326,9 +23316,9 @@
 		{
 			dependencies: ["2970C1ADE44898FF"]
 			description: [
-				"Kestrel is a special sword that can be acquired more easily by witches of the Temperance Pathway. It can be used to teleport."
+				"Kestrel is a special sword that can be acquired more easily by witches of the Temperance pathway. It can be used to teleport."
 				""
-				"This sword will attempt not to teleport you into a wall, therefore the teleportation will be canceled if it would suffocate you inside one. It is recommended to jump or look up before teleporting."
+				"This sword will attempt to not teleport you into a wall, therefore the teleportation will be canceled if it would suffocate you inside one. It is recommended to jump or look up before teleporting."
 			]
 			hide_dependency_lines: true
 			id: "47DF6B172E0C500B"
@@ -23606,11 +23596,9 @@
 				""
 				"&2Do not go mining in Dis. Nothing good will happen to you. Except perhaps large fortunes.&r"
 				"{@pagebreak}"
-				"&2There are vast black seas in Dis, and ores are most commonly found under sea level. One great benefit of Dis is that both Overworld and &lNether ores&r&2 are found there. The marble is still very useful, though. It can be compacted and then crushed into various powders.&r"
+				"&2There are vast black seas in Dis, and ores are most commonly found under sea level. One great benefit of Dis is that both Overworld and &Nether ores&r&2 are found there. The marble is still very useful, though. It can be compacted and then crushed into various powders.&r"
 				""
 				"&2The resulting apatite powder can then be crushed even further into other kinds of powders. There are faint traces of diamonds in the marble of Dis.&r"
-				"{@pagebreak}"
-				"&2Dis gems can be found uncommonly throughout Dis"
 				"{@pagebreak}"
 				"&2How did the door to Dis open? While trying to open a rift, I seem to have pierced through some kind of barrier formed from gray fog. My rift blade broke, but I ended up in this place. With the quartz and diamonds I had, I turned some of this normal marble into an elevated one, which someone managed to turn into a portal. After years of researching how to return, I've finally done it.&r"
 			]
@@ -23637,17 +23625,6 @@
 				{
 					id: "3932F86B266DFF71"
 					item: "perdition:marmor_elevated"
-					type: "item"
-				}
-				{
-					id: "3629AF525D3DE632"
-					item: {
-						Count: 1
-						id: "perdition:dis_gem_crown_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
 					type: "item"
 				}
 			]
@@ -23806,7 +23783,7 @@
 		}
 		{
 			dependencies: ["7923120C58E4B567"]
-			description: ["There are four kinds of very useful artificial spores that can be grown in the Phytogenic Insolator. These can be cooked into redstone, glowstone, gunpowder, or slime."]
+			description: ["There are four kinds of very useful artificial spores that can be grown in the phytogenic insulator. These can be cooked into redstone, glowstone, gunpowder, or slime."]
 			id: "3447434D458C536E"
 			rewards: [{
 				count: 4
@@ -24058,7 +24035,7 @@
 		}
 		{
 			dependencies: ["7D347AB89C552DDA"]
-			description: ["The automation of food processes was a great boon to humanity, although not widespread in all parts of the world yet. I did not meet such a person well-versed in the arts of the food industry, but I can make my reasonable guesses that this would have to be someone of both the Hermit and Empress Pathways."]
+			description: ["The automation of food processes was a great boon to humanity, although not widespread in all parts of the world yet. I did not meet such a person well-versed in the arts of the food industry, but I can make my reasonable guesses that this would have to be someone of both the Hermit and Empress pathways."]
 			id: "3AF4E40C0C27D04B"
 			rewards: [{
 				count: 3
@@ -24159,9 +24136,9 @@
 		{
 			dependencies: ["2345602C410E1787"]
 			description: [
-				"The coffee candy and the shiny eclair both make great use of chocolate to provide a rush of energy to their users. Sadly, with the size of these treats, this boost is very temporary, lasting a dozen seconds or so. "
+				"The coffee candy and the shiny eclair both make great use of chocolate to provide a rush of energy to their users. Sadly, with the size of these treats, this rush is very temporary, lasting a dozen seconds or so. "
 				""
-				"This did not stop athletes from eating some of these coffee candies in a hurry or miners from splurging on an eclair every once in a while."
+				"This did not stop athletes from eating some of these coffee candies in a rush or miners from splurging on an eclair every once in a while."
 			]
 			id: "558BEACDBAF84964"
 			rewards: [{
@@ -24191,7 +24168,7 @@
 			description: [
 				"Various special candies can be found either around the world or held by the undead - the recipe long forgotten and their powers desired. All of the Death card holders I've met were practically hunting anything that did not live and kept looking under carved pumpkins for candy."
 				"{@pagebreak}"
-				"I met a girl on my travels in a small, obscure town in the autumn countryside who had claimed the recipe of some candies from her grandmother and reverse-engineered it to give it mystical power."
+				"I have met one girl on my travels in a small obscure town in the autumn countryside who had claimed the recipe of some candies from her grandmother and reverse-engineered it to give it mystical power."
 				"{@pagebreak}"
 				"She spoke of her grandmother, who once served a powerful vampire lord; the only thing missing in his life was sugar and spice. Legends say that he tasked one of his chefs and one of his mages with creating a mystical candy that even a vampire would crave. This girl that I met was the granddaughter of an apprentice of an apprentice of one of these chefs."
 			]
@@ -24322,10 +24299,10 @@
 						]
 					}
 				}
-				title: "Any Mint Flavour"
+				title: "Any Mint Flavor"
 				type: "item"
 			}]
-			title: "Mint Flavoured Treats"
+			title: "Mint Flavored Treats"
 			x: -15.2d
 			y: -16.95d
 		}
@@ -24349,7 +24326,7 @@
 		}
 		{
 			dependencies: ["5B6678771CE97E00"]
-			description: ["Did I mention I enjoy lamb and mutton? Oh yes, I did. It is quite a tender and juicy meat when cooked perfectly. Shepherd's pie is quite the mix between a simple and fancy meal but is most savoury when fresh. This isn't often the case though, as I tend to use fresh mutton for other recipes."]
+			description: ["Did I mention I enjoy lamb and mutton? Oh yes, I did. It is quite a tender and juicy meat when cooked perfectly. Shepherd's pie is quite the mix between a simple and fancy meal but is most savory when fresh. This isn't often the case though, as I tend to use fresh mutton for other recipes."]
 			id: "4EC6DA569E476416"
 			rewards: [{
 				count: 12
@@ -24466,7 +24443,7 @@
 		{
 			dependencies: ["0D61335A0B07300D"]
 			description: [
-				"&0“Testing... one, two, one, two... Can you hear me...”"
+				"&0“Testing… one, two, one, two… Can you hear me…”"
 				"{@pagebreak}"
 				"&7“Hello. If you are hearing this, then you have found my audio log for my expedition into the Deep Void. My name is"
 				"{\"text\":\"Bernard\",\"obfuscated\":true}. "
@@ -24474,7 +24451,7 @@
 				"{@pagebreak}"
 				"&7“Since you have found this log, then you will also know how you got here, but for the sake of completeness, I will list the ways that one can arrive here. The most common way is for one to fall into the void, which is lurking beneath every other dimension, but is most visible within the End. If you did not fall into the void, then you were taken by an Abductor, and you have my sincerest condolences. That could not have been a pleasant experience.”"
 				"{@pagebreak}"
-				"&7“As for why I have come down to these depths, I am seeking to recover my compatriot, Kory, from this place. He was taken by an Abductor right before my eyes, so I am hoping to find him down here and return to the Overworld safely. As I am exploring previously undocumented territory, I decided to record what you are listening to now so as to prevent any unnecessary tragedies unfolding as a result of this place.”"
+				"&7“As for why I have come down to these depths, I am seeking to recover my compatriot, Koby, from this place. He was taken by an Abductor right before my eyes, so I am hoping to find him down here and return to the Overworld safely. As I am exploring previously undocumented territory, I decided to record what you are listening to now so as to prevent any unnecessary tragedies unfolding as a result of this place.”"
 			]
 			hide_dependent_lines: true
 			id: "4E62B2BDC912CCA1"
@@ -24561,7 +24538,7 @@
 				"{@pagebreak}"
 				"&7“...She asked me why I hadn’t left yet, and I told her that I was looking for my friend who was taken here by a cult. She looked away and said no more. "
 				"{@pagebreak}"
-				"&7\"Please be okay, Kory. I’ll get you back.”"
+				"&7\"Please be okay, Koby. I’ll get you back.”"
 			]
 			id: "0E766B6E883A49CB"
 			rewards: [{
@@ -24593,7 +24570,7 @@
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
 			description: [
-				"&7“...I do not like this place. I am currently passing through ancient ruins within a desert of black sand. The iconography of these ruins greatly resembles the Monoliths of Limbo, which were also lost when all the doors shut. Even though I did not dabble much with the occult myself, I am still familiar with these red eyes due to Koby showing me pictures that he had taken on his own travels... I feel like I am being watched.”"
+				"&7“...I do not like this place. I am currently passing through ancient ruins within a desert of black sand. The iconography of these ruins greatly resembles the Monoliths of Limbo, which were also lost when all the doors shut. Even though I did not dabble much with the occult myself, I am still familiar with these red eyes due to Koby showing me pictures that he had taken on his own travels… I feel like I am being watched.”"
 				"{@pagebreak}"
 				"&7“Occasionally, a creature embedded in the stone will leap out and attack me, only to retreat back into its shell whenever it is not being observed. The monolithic stone that it uses to cover its body is impervious to traditional weaponry, but in return it is vulnerable to being attacked with a pickaxe.”"
 				"{@pagebreak}"
@@ -25006,11 +24983,11 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&b“The Pathway of the  "
+				"&b“The pathway of the  "
 				"{\"text\":\"eidolisteidolisteidolisteidolist\",\"obfuscated\":true,\"color\":\"yellow\"}"
-				"&b, which I will call the Path of the Eidolist, signifies mastery over the eldritch. These unspeakable magics are your tools, these horrific creatures your allies. Nothing scares you, you are the terror.”"
+				"&b, which I will call the path of the Eidolist, signifies mastery over the eldritch. These unspeakable magics are your tools, these horrific creatures your allies. Nothing scares you, you are the terror.”"
 				"{@pagebreak}"
-				"&b“From what I could tell, this Pathway is adjacent to The Lovers. Heh, isn’t that odd?”"
+				"&b“From what I could tell, this pathway is adjacent to The Lovers. Heh, isn’t that odd?”"
 			]
 			hide_until_deps_complete: true
 			id: "55895AB2924ABAFC"
@@ -25074,7 +25051,7 @@
 			description: [
 				"&7“...This guy, huh? Must be real pretentious to live in a castle like this.” "
 				"&b“Yes. He’s the leader of the &cCult of Catastrophe&b and is the sole holder of Sacred Cinnabar, which we need in order to manipulate Voidrium in any meaningful way.” "
-				"&7“...Even without that, I would’ve liked to beat this guy’s head in at some point. He’s the wretch that helped that other wretch kidnap Kory. Let’s get him.”"
+				"&7“...Even without that, I would’ve liked to beat this guy’s head in at some point. He’s the wretch that helped that other wretch kidnap Koby. Let’s get him.”"
 				"{@pagebreak}"
 				"&7\"For the listener, we're currently headed to the Overlooking Citadel. It's hard to miss.\""
 			]
@@ -25104,10 +25081,10 @@
 		{
 			dependencies: ["19E4A89845D3BF5D"]
 			description: [
-				"&7“...While we fought the Apostle of Catastrophe, he spewed nothing but mad ravings, but right before I landed the killing blow, he confessed that he gave Kory to the &bWeaver of Souls&7.”"
+				"&7“...While we fought the Apostle of Catastrophe, he spewed nothing but mad ravings, but right before I landed the killing blow, he confessed that he gave Koby to the &bWeaver of Souls&7.”"
 				"&b“He was next on our list anyhow. After defeating the Apostle and gearing up, I think we’re finally ready to take on the Weaver.”"
 				"{@pagebreak}"
-				"&7“Right. He’s in the very center of the void, underground within the Sepulcher. One more fight, then we can resurface and everything will be &ljust fine&r.”"
+				"&7“Right. He’s in the very center of the void, underground within the Sepulchre. One more fight, then we can resurface and everything will be &ljust fine&r.”"
 			]
 			icon: "the_deep_void:head_of_the_weaver"
 			id: "30BA63BCE8DAD0DE"
@@ -25158,9 +25135,9 @@
 			description: [
 				"&b“...We won. But, while we were fighting the Weaver, shadowed hands pierced through "
 				"{\"text\":\"Bernard\",\"obfuscated\":true}"
-				"&band now he’s in a coma. I can’t remember his name anymore... whenever I try to say it, I feel like I lose control of my body for the entire word. They stole his name. My only friend...”"
+				"&band now he’s in a coma. I can’t remember his name anymore… whenever I try to say it, I feel like I lose control of my body for the entire word. They stole his name. My only friend…”"
 				"{@pagebreak}"
-				"&b“With the Soul Forge, I took the Soul Shards synthesized by the Weaver and combined them with Netherite, which is a material that can only be found outside of this dimension. He just happened to have it on his person...”"
+				"&b“With the Soul Forge, I took the Soul Shards synthesized by the Weaver and combined them with Netherite, which is a material that can only be found outside of this dimension. He just happened to have it on his person…”"
 				"{@pagebreak}"
 				"&b&o“I don’t know what to do now.”&r"
 			]
@@ -25200,7 +25177,7 @@
 			description: [
 				"&b“After agonizing over it for what feels like a decade, I’ve made up my mind. The closest facsimile I've made of returning his soul is this Voodoo Doll, which is undoubtedly an artifact of great power, but it’s not enough.\""
 				"{@pagebreak}"
-				"&b\"I... I avoided thinking about going to the Overworld without him as a guide. But it looks like I’m going to have to search outside of the Deep Void for an answer on how to resuscitate him. This place only knows how to take precious things, not give them back.”"
+				"&b\"I… I avoided thinking about going to the Overworld without him as a guide. But it looks like I’m going to have to search outside of the Deep Void for an answer on how to resuscitate him. This place only knows how to take precious things, not give them back.”"
 				"{@pagebreak}"
 				"&b“Since I believe it was his wish, I’ll be scattering as many copies of this record across the dimension as I can. Hopefully it was of use to you. Goodbye.”"
 			]
@@ -25434,7 +25411,7 @@
 			description: [
 				"&b\"According to this rotten ledger I found, apparently you can actually tame Bone Crawlers! You just need to use this Hatching Enzyme on the egg before they hatch, then you'll have the opportunity to feed it to gain its trust.\""
 				"{@pagebreak}"
-				"&b\"Hmmm... Let's see... to get it to mature, you have to feed it bones. After that... you can either feed it rotten bones or goo balls to make it grow into an Alpha or Mother, respectively... alright!\""
+				"&b\"Hmmm... Let's see... to get it to mature, you have to feed it bones. After that... you can either feed it rotten bones or goo balls to make it grow into an Alpha or Mother respectively... alright!\""
 				"&7\"What are you doing?\""
 				"{@pagebreak}"
 				"&b\"This is my new pet!\""
@@ -25923,13 +25900,13 @@
 			]
 			description: [
 				"&b\"Using the Hard Flesh Ingot, I was able to create a variety of weapons with different uses and unique abilities!\""
-				"&7\"Do note that items made from Hard Flesh are sentient. They are also very hungry.\""
+				"&7\"Do note that items made from Hard Flesh is sentient. They are also very hungry.\""
 				"{@pagebreak}"
 				"&b\"The Hard Flesh Sword drinks the flesh of what it hits. Some of this life force is returned to the wielder, but the sword is rather greedy and keeps most of it to itself.\""
 				"{@pagebreak}"
 				"&7\"From my suggestion, Nyxil tried making a chainsaw out of the hard flesh. It's rather fervent in eating both flesh and trees and bites deep into both.\""
 				"{@pagebreak}"
-				"&b\"By binding the flesh to a book, I created the Necronomicon. It summons flesh fangs to clamp targets in place, and if it manages to successfully consume anything, it creates a friendly Devourer in its place.\""
+				"&b\"By binding the flesh to a book, I created the Necronomicon. It summons flesh fangs to clamp targets in place, and if it manages to successfully consume anything it creates a friendly Devourer in its place.\""
 				"{@pagebreak}"
 				"&b\"...I tried my hand at making another sword, and this one seems to hate sentients other than the wielder. It's constantly trying to coax me into killing"
 				"{\"text\":\"Bernard\",\"obfuscated\":true}"
@@ -26406,7 +26383,7 @@
 		}
 		{
 			dependencies: ["6516D88B029F38F1"]
-			description: ["&b\"I was tired of having my area of operations defaced by the denizens of the Deep Void, so I created the Voidrium Glass. When combined with a powerful enough source of light, it would revoke the right to alter the landscape from those who aren't allowed.\""]
+			description: ["&b\"I was tired of having my area of operations defaced by the denizens of the Deep Void, so I created the Voidrium Glass. When combined with a powerful enough source of light, it would revoke the right to alter the landscape to those who aren't allowed.\""]
 			id: "36E1BA9A10678554"
 			rewards: [
 				{
@@ -26503,7 +26480,7 @@
 		{
 			dependencies: ["152DC73801813764"]
 			description: [
-				"&b\"By constructing a chestpiece out of the Fleshy Bones of the hivemind, I'm able to traverse the flesh infection freely! When wearing it, I'm seen as a Fleshkin and not attacked. The terrain is noticeably less hostile too, with the teeth retracting when I walk over them and the pus sacs not exploding.\""
+				"&b\"By constructing a chestpiece out of the Fleshy Bones of the hivemind, I'm able to traverse the flesh infection freely! When wearing it, I'm seen as a Fleshkin and not attacked. The terrain is noticeably less hostile too, with the teeth retracting when I walk over them and the pus sacks not exploding.\""
 				"{@pagebreak}"
 				"&7\"...May I have one?\""
 				"&b\"Sure. We have enough bones for 2.\""
@@ -26653,7 +26630,7 @@
 		{
 			dependencies: ["1472186B0F51F01B"]
 			description: [
-				"&b\"The sword that I fashioned out of the Primordial Bone Crawler's own claws has a couple of unique properties. Whenever it digs into an already rotting target, it exacerbates the rot, making it more effective. Also, when attacking a poisoned target, it seems to spread the effect to everything around the hit enemy.\""
+				"&b\"The sword that I fashioned out of the Primordial Bone Crawler's own claws has a couple of unique properties. Whenever it digs into an already rotting target, it exacerbates the rot, making it more effective. Also, when attacking a poisoned target, it seemed to spread the effect to everything around the hit enemy.\""
 				"{@pagebreak}"
 				"&b\"It pairs really well with the Crawler Royalty armour, which makes all of your attacks inflict Rot.\""
 			]
@@ -26845,7 +26822,7 @@
 		}
 		{
 			dependencies: ["04FB6C65AF290FFC"]
-			description: ["&7\"The Hard Flesh armour set is incredibly good at defense. Whenever it gets hit, it progressively hardens up in order to better mitigate damage. The only issue is that this makes it very, very hard to move...\""]
+			description: ["&7\"The Hard Flesh armour set is incredibly good at defense. Whenever it gets hit, it progressively hardens up in order to better mitigate damage hit. The only issue is that this makes it very, very hard to move...\""]
 			id: "5CEBC12ED782F3A7"
 			rewards: [{
 				id: "5AC4F8FF7F2C3129"
@@ -26906,7 +26883,7 @@
 			dependencies: ["7CFABDA77781489E"]
 			description: [
 				"&7\"...That looks disgusting.\""
-				"&b\"It's really nutritious! I can't really speak on the flavour, but it'll fill you up completely.\""
+				"&b\"It's really nutritious! I can't really speak on the flavor, but it'll fill you up completely.\""
 				"&7\"I'm not eating that.\""
 			]
 			hide_until_deps_complete: true
@@ -27103,7 +27080,7 @@
 			description: [
 				"&o&7A note is posted over the journal entry on waystones&r&r"
 				""
-				"&2A strange sword that remains one of the few to open a rift to another dimension that resembles some depictions of Limbo in more religious descriptions.&r"
+				"&2A strange sword that remains one of the few to open a rift to another dimension that resembles some depictions of limbo in more religious descriptions.&r"
 				"{@pagebreak}"
 				"&2Purgatory is a strange place, and seems devoid of life at times. It does contain some materials useful to elementalists, serving as great substitutes in many recipes.&r"
 			]
@@ -27133,11 +27110,11 @@
 			description: [
 				"&2Limbo Berries contain elemental purities within them, the plant crystallizing them into their fruit. These berries can thus be turned into inert crystal, providing a renewable source.&r"
 				""
-				"&2However, Limbo berries can only be grown in Purgatory, reacting violently due to incompatibility when grown in other dimensions. Perhaps someone could find a way to grow them back home...&r"
+				"&2However, limbo berries can only be grown in Purgatory, reacting violently due to incompatibility when grown in other dimensions. Perhaps someone could find a way to grow them back home...&r"
 				"{@pagebreak}"
-				"&2After experimentation, it seems that pure soil can be made from pure rock, compatible with Limbo berries for them to be grown in the Overworld."
+				"&2After experimentation, it seems that pure soil can be made from pure rock, compatible with limbo berries for them to be grown in the Overworld."
 				""
-				"&2Further research has made it known that elemental soil can be made from anomalous grass, but all of its nutrients seem sucked out after some growth, letting the Limbo bush wither and die. It is much cheaper though.&r&r"
+				"&2Further research has made it known that elemental soil can be made from anomalous grass, but all of its nutrients seem sucked out after some growth, letting the limbo bush wither and die. It is much cheaper though.&r&r"
 			]
 			icon: "perdition:limbo_berries"
 			id: "07D743EBC4DDD625"
@@ -27184,7 +27161,7 @@
 				"&2After spending time in that other realm, I have even managed to base myself on the properties innate to that purgatory world and create a sword that will allow me to bridge the gap between the two dimensions, opening a rift once again.&r"
 				""
 				"&2Nevertheless, the potion is the basis of that.&r"
-				"&o&2If only I could understand what the murmurs are saying... I wish to die in the know, and not be buried clueless...&r&r"
+				"&o&2If only I could understand what the murmurs are saying… I wish to die in the know, and not be buried clueless…&r&r"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -27279,7 +27256,7 @@
 			description: [
 				"&o&7A note is posted over the journal entry on infusion&r"
 				""
-				"&2Ever since we opened the gates to that other world once again, strange anomalies have begun appearing in our own. These anomalies seem to be quite pure in elemental energy, providing ingredients of great power. Of these, anomalous grass has traces of earth crystals that can be extracted.&r"
+				"&2Ever since we had opened the gates to that other world once again, strange anomalies have begun appearing in our own. These anomalies seem to be quite pure in elemental power, providing ingredients of great power. Of these, anomalous grass has traces of earth crystals that can be extracted.&r"
 			]
 			hide_dependency_lines: true
 			id: "260A42706F064401"
@@ -27326,7 +27303,7 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
-			description: ["&7\"I came across a peculiar-looking shrine today. It made a strange noise when I touched it, but I couldn't tell if anything changed.\""]
+			description: ["&7\"I came across a peculiar-looking shrine today. It made a peculiar noise when I touched it, but I couldn't tell if anything changed.\""]
 			id: "349E92916577CF96"
 			rewards: [
 				{
@@ -27446,7 +27423,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&2Anomalous Shards, much like resonite ore, can be found crystallizing under anomalies, seeping into rock. Thorough digging may be required, but do not be hasty; the process takes a long time and can be accelerated with anomalous technology. "
+				"&2Anomalous Shards, much like resonite ore, can be found crystallizing under anomalies, seeping into rock. Thorough digging may be required, but do not be hasty, the process takes a long time and can be accelerated with anomalous technology. "
 				""
 				"&2They usually appear in shallow ground near anomalies, around two to five blocks of depth from the ground. &r"
 			]
@@ -27515,12 +27492,12 @@
 			]
 			dependency_requirement: "one_started"
 			description: [
-				"&2The &bPrudence Pathway&r &2delves into research of the anomalous, properties that can be studied by both technology and magic alike. Inheriting various traditions from the witches of the &cTemperance Pathway&r&2, they have stuck to fabricating various gadgets that become the envy of their peers with their findings.&r"
+				"&2The &bPrudence Pathway&r &2delves into research of the anomalous, properties that can be studied by both technology and magic alike. Inheriting various traditions from the witches of the &4Temperance Pathway&r&2, they have stuck to fabricating various gadgets that become the envy of their peers with their findings.&r"
 				""
-				"&2The core of the Pathway is the research tablet, a very useful tool developed to analyze anomalies. &nIt is the only way to attain the recipes and knowledge of some objects.&r&r"
+				"&2The core of the pathway is the research tablet, a very useful tool developed to research anomalies. &nIt is the only way to attain the recipes and knowledge of some objects.&r&r"
 				""
 				"{@pagebreak}"
-				"&2It is a culmination of &9The Hierophant&r&2 and &cTemperance&r&2, much like how &6Strength&r&2 is a culmination of &dThe Hermit&r&2 and &eThe Magician&r."
+				"&2It is a culmination of &9The Hierophant&r&2 and &4Temperance&r&2, much like how &6Strength&r&2 is a culmination of &dThe Hermit&r&2 and &eThe Magician&r."
 			]
 			hide_until_deps_complete: false
 			id: "125252660A518C4F"
@@ -28374,7 +28351,7 @@
 			description: [
 				"Many items can be cut or sawed using elemental power instead of our own bare hands, or the RF power that Hierophants use."
 				""
-				"This is of special use in conjunction with the Springaline Budding Shrine to yield more springaline shards more easily."
+				"This is of special use in conjunction with the springaline budding shrine to yield more springaline shards more easily."
 			]
 			id: "6ABB62AA49137211"
 			rewards: [{
@@ -28419,9 +28396,9 @@
 		{
 			dependencies: ["6635F7B2CD984F4F"]
 			description: [
-				"Dimensional shards can be processed into netherite. Usually, these shards can be found as a byproduct of Nether quarrying with an Ore Shrine in the quest for ancient debris, although they spawn in the Overworld and End as well."
+				"Dimensional shards can be processed into netherite. Usually, these shards can be found as a byproduct of Nether quarrying with an ore shrine in the quest for ancient debris, although they spawn in the Overworld and End as well."
 				""
-				"These shards can be turned into either an infused diamond or an infused ender pearl and then cooked or more efficiently - cooked with fire - to turn them into acclimated shards. These can then be infused with fire through either a manual or infusion process to yield greater results for a Magician than other Pathways."
+				"These shards can be turned into either an infused diamond or an infused ender pearl and then cooked or more efficiently - cooked with fire - to turn them into acclimated shards. These can then be infused with fire through either a manual or infusion process to yield greater results for a Magician than other pathways."
 			]
 			id: "526CC6FFEEF2E613"
 			rewards: [{
@@ -28689,7 +28666,7 @@
 		{
 			dependencies: ["2FFA8334D1BEB88A"]
 			description: [
-				"Ferrotin Bronze is an uncertain mixture of iron and bronze, which can be alloyed in an alloy smelter. It doesn't seem like it should yield a proper durable material, but iron coats around the bronze similarly to the zinc of galvanized iron. It's quite strange, honestly."
+				"Ferrotin Bronze is an uncertain mixture between iron and bronze, which can be alloyed in an alloy smelter. It doesn't seem like it should yield a proper durable material, but iron coats around the bronze similarly to the zinc of galvanized iron. It's quite strange, honestly."
 				""
 				"Ferrotin Bronze is often used in metallurgy and some precision tools, as well as a base for some machinery."
 			]
@@ -28825,7 +28802,7 @@
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
 			description: [
-				"Legends of these cakes exist among the hunter and corpse collector communities. They can be cooked, if only rarely, due to their use of a transmuting elixir."
+				"Legends exist among the hunter and corpse collector communities of these cakes, which can be cooked if only rarely due to their use of a transmuting elixir."
 				""
 				"It is said that this cake grants a long and powerful boon."
 			]
@@ -28955,7 +28932,7 @@
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
-			description: ["Some rare weapons can be found on undead lumberjacks and these so-called \"door knights\". These can prove to be useful in a pinch, or as backup weapons. Most hunters keep them as trophies, though."]
+			description: ["Some rare weapons can be found on undead lumberjacks and these so-called \"door knights\". These can prove to be useful in a pinch, or as a backup weapon. Most hunters keep them as a trophy, though."]
 			id: "67077EF335A03D7C"
 			rewards: [{
 				id: "61C1E99FF3C50332"
@@ -29206,7 +29183,7 @@
 			description: [
 				"Pipes can be used to easily connect two places much more efficiently than trains or tugs."
 				""
-				"Pipes require modules to perform a task, and in the case of moving an item from one place to another, they require the suction force of an extraction module."
+				"Pipes require modules to perform a task, and in the case of moving an item from one place to another, it requires a suction force of an extraction module."
 			]
 			id: "334048AFEC728E43"
 			rewards: [
@@ -29271,7 +29248,7 @@
 		{
 			dependencies: ["411A1361299385DF"]
 			description: [
-				"&2The Synthetic Organs can be eaten raw to produce technological augments in oneself. They modify the biology of a being to grow powerful abilities. This comes as superhuman strength, speed, jumping, and even shocking enemies. "
+				"&2The Synthetic Organs can be eaten raw to produce technological augments in oneself. They modify the biology of a being to grow powerful abilities. This comes as superhuman strength, speed, jumping and even shocking enemies. "
 				""
 				"&2These transhumanists now need to sustain themselves on batteries as a counterbalance to these newfound powers."
 			]
@@ -29588,7 +29565,7 @@
 		{
 			dependencies: ["3EEFA2110D38E847"]
 			description: [
-				"Gears come in all sorts of materials. Hand-crafting one requires a gear mold, five of a given material, and an iron nugget (acting as an iron ring) to form a rounded shape."
+				"Gears come in all sorts of materials and require a gear mold along with five of a given material plus an iron nugget to use as an iron ring to form a rounded shape."
 				""
 				"More efficient processes with machines can reduce the time and material costs."
 			]
@@ -29772,13 +29749,13 @@
 		}
 		{
 			description: [
-				"&aConcatenation is a modpack with diverging Pathways. The quests are representative of the changed progression of effectively every mod in this pack. You may want to examine the quest tree more closely, restart and choose another Pathway if you believe you might be in the wrong one. "
+				"&aConcatenation is a modpack with diverging pathways. The quests are representative of the changed progression of effectively every mod in this pack. You may want to examine the quest tree more closely, restart and choose another pathway if you believe you might be in the wrong one. "
 				""
 				"&aMost of the quests are on other pages.&r"
 				"{@pagebreak}"
-				"&aA starting Pathway only determines the start of progression as it is intended to add together different Pathways (mods), hence the name of the modpack. "
+				"&aA starting pathway only determines the start of progression as it is intended to add together different pathways (mods), hence the name of the modpack. "
 				""
-				"&aMany journal entries use terminology proper to this pack. Card holders are those who choose a certain Pathway. When a Hermit crafts the Tower card, they will be both a Hermit card holder and a Tower card holder. The name of a Pathway generally refers to a mod, such as Tower being Create and its addons while Hermit is Tinkers' Construct."
+				"&aMany journal entries use terminology proper to this pack. Card holders are those who choose a certain pathway. When a Hermit crafts the Tower card, they will be both a Hermit card holder and a Tower card holder. The name of a pathway generally refers to a mod such as Tower being Create and its addons while Hermit is Tinkers' Construct."
 				""
 				"{@pagebreak}"
 				"&aIf you would like a deeper explanation on the preface, look into Concatenation Gehenna (when it releases), the sister pack where the player embarks on the exact same journey as Eleonore writing the quests. Her journey differs in that the Fool Pathway has all of the possible starts at once, given that they find what they need through exploration. "
@@ -29814,9 +29791,9 @@
 		}
 		{
 			description: [
-				"You may have a different path ahead than mine. I am the holder of &fthe Fool&r Card, the start of a journey of infinite possibilities. This does mean I can adhere to any Pathway, provided I found the materials to do so while traveling."
+				"You may have a different path ahead than mine. I am the holder of &fthe Fool&r Card, the start of a journey of infinite possibilities. This does mean I can adhere to any pathway, provided I found the materials to do so while traveling."
 				""
-				"&nAlmost any Pathway can adhere to the following Paths above.&r I've also included notes common to any Path, about the understanding of this world."
+				"&nAlmost any pathway can adhere to the following paths above.&r I've also included notes common to any path, about the understanding of this world."
 			]
 			hide_dependent_lines: true
 			icon: {
@@ -29867,7 +29844,7 @@
 			description: [
 				"The undead have this particularity of being a lot harder to kill, as they are, you know, already dead. However, they will take a lot more damage when faced with holy weapons - those made of silver or gold. Holders of the Magician card are especially effective against them."
 				""
-				"A more common trick is to light your weapon on fire &a(by equipping a torch in your offhand)&r and to set undead mobs on fire that way. Fire is super effective against the undead. Alternatively, Fire Aspect is equally effective."
+				"A more common trick is to light your weapon on fire &a(by equipping a torch in your offhand)&r and to set undead mobs on fire that way. Fire is super effective on the undead. Alternatively, Fire Aspect is as effective."
 			]
 			icon: "born_in_chaos_v1:shattered_skull"
 			id: "22157DFEF1887E78"
@@ -30138,7 +30115,7 @@
 		{
 			dependencies: ["524067700E07EB06"]
 			description: [
-				"Anyone of any Path can create man-made paths, such as path blocks made through a shovel interaction with dirt, wood, stone, bricks, etc."
+				"Anyone of any path can create man-made paths, such as path blocks made through a shovel interaction with dirt, wood, stone, bricks, etc."
 				""
 				"&mYou have to place a sign anywhere within a man-made path and place a second one anywhere else. To link the two, you have to sneak punch the first and then sneak punch the second sign. Then, whenever you punch the sign, you will fast travel to the other end.&r"
 			]
@@ -30937,7 +30914,7 @@
 			description: [
 				"The Witch Covens are scattered throughout the world, housing gatherings of witches. These come in many forms, from elaborate villages to walking houses."
 				""
-				"Witches of the Temperance Pathway will find these structures especially useful to gather materials and magical ingredients."
+				"Witches of the Temperance pathway will find these structures especially useful to gather materials and magical ingredients."
 			]
 			id: "0F56E99C05BFF14A"
 			rewards: [
@@ -31105,7 +31082,7 @@
 			description: [
 				"The underground ancient city is such a frightening place, isn't it? It's all dark, and houses the Warden. What's left over in their coffers isn't even that good. "
 				"{@pagebreak}"
-				"However, the echo shard is a key component to craft the sword Shrike, required of the Hierophant and Temperance Pathways. How odd that a technological automation Path and an occult Path share a common sword between the two? Perhaps there's a greater link than we can see here."
+				"However, the echo shard is a key component to craft the sword Shrike, required of the Hierophant and Temperance paths. How odd that a technological automation path and an occult path share a common sword between the two? Perhaps there's a greater link than we can see here."
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:echo_shard"
@@ -31182,11 +31159,11 @@
 		{
 			dependencies: ["032A60B0D79C6ACB"]
 			description: [
-				"I have yet to find this rumoured palace, but I have heard of plenty of legends and tales about it. A lot of adventurers ventured out for the legendary treasures of this palace. "
+				"I have yet to find this rumored palace, but I have heard of plenty of legends and tales about it. A lot of adventurers ventured out for the legendary treasures of this palace. "
 				""
 				"All that I know is that it seems to be a gigantic desert palace."
 				"{@pagebreak}"
-				"I found something close, but not the rumoured Shiraz Palace. It was a sprawling villa built to defy the desert, a holiday home of a very rich lord who normally lived in a complex on a sky island."
+				"I found something close, but not the rumored Shiraz Palace. It was a sprawling villa built to defy the desert, a holiday home of a very rich lord who normally lived in a complex on a sky island."
 			]
 			id: "7C43A27C9882C9F2"
 			rewards: [
@@ -31551,7 +31528,7 @@
 				"524067700E07EB06"
 			]
 			description: [
-				"The World is the final major arcana of the tarot, symbolizing completion. The World arcana is capable of anything, of every starting Pathway, and of time dilation around itself."
+				"The World is the final major arcana of the tarot, symbolizing completion. The World arcana is capable of anything, of every starting pathway, and of time dilution around itself."
 				""
 				"The World card is crafted from every single tarot card, excluding itself. The Error card uses the Aeon singularity to fool the world into recognizing The Fool card, numbered 0, as the World, numbered 22, the last of the arcana."
 			]
@@ -31630,9 +31607,9 @@
 		{
 			dependencies: ["0F3237156DE95B07"]
 			description: [
-				"Gate to Perdition is a pack-wide event with limited-time rewards. Delve into a unique secondary questline sending you on a journey to investigate the disappearance of dimensional doors from the world and how we may reopen the door to Limbo!"
+				"Gate to Perdition is a pack-wide event with limited-time rewards. Delve into a unique secondary questline sending you on a journey to investigate the disappearance of dimensional doors from the world and how we may reopen the door to limbo!"
 				""
-				"Send your own theories on the pack's Discord server in #gate-to-perdition (link available on the title screen). Perhaps this will help the community figure out how to enter Limbo? &lThe most elaborate and ludicrous theory weaver will get a unique custom item added to the pack!&r"
+				"Send your own theories on the pack's Discord server in #gate-to-perdition (link available on the title screen). Perhaps this will help the community figure out how to enter limbo? &lThe most elaborate and ludicrous theory weaver will get a unique custom item added to the pack!&r"
 				"{@pagebreak}"
 				"All of the quests are hidden at the start and you must complete them to unlock the subsequent quest."
 			]
@@ -31692,7 +31669,7 @@
 		{
 			dependencies: ["0AE174C5189819AA"]
 			description: [
-				"The Steam-Powered Crusher is a low-tech machine capable of crushing metals into not quite dust or fine powder, but something close enough. "
+				"The Steam-Powered Crusher is a low-tech machine capable of crushing metals into, not quite dust or fine powder, but something close enough. "
 				""
 				"This is useful in the automation of galvanized iron as the most commonly crushed metals with this machine are, of course, iron and zinc, but also metals harder to crush with your bare hands and a hammer: copper and tin. This can be used to make bronze."
 				"{@pagebreak}"
@@ -31744,7 +31721,7 @@
 		{
 			dependencies: ["4C76FB98A8040661"]
 			description: [
-				"Using the Thermae, a dense metal block can be formed by placing a copper block in the hot dipping bath above the Thermae. A galvanized iron block must be inserted inside the Thermae. With enough liquid galvanized iron contained inside, the galvanization process will start, melting and alloying the copper and galvanized iron blocks."
+				"Using the Thermae, a dense metal block can be formed by placing a copper block in the hot dipping bath above the Thermae. A galvanized iron block must be inserted inside of the Thermae and with enough liquid galvanized iron contained inside, the galvanization process will start, melting and alloying the copper and galvanized iron blocks."
 				""
 				"Copper Block Above + Galvanized Iron Block Inside + 1000mb of Liquid Galvanized Iron = Dense Metal Block"
 			]
@@ -31954,7 +31931,7 @@
 		{
 			dependencies: ["793E50D268C0B230"]
 			description: [
-				"Even though guards patrolled every part of the port, I thought I could either take them head-on, or slip by, but why bother when a technician proposes that you try a cool submarine prototype? Now, this technician wasn't from here; after all, this was a coastal town. I only recently learned that most of the city was built either on reclaimed land or directly on top of the sea. This did mean it was quite easy to construct an underwater hangar to build, let's say, a submarine. Let's hope my travel diary doesn't get wet. I can cast water breathing, but I can't cast it on my book!"
+				"Even though guards patrolled every part of the port, I thought I could either take them head-on, or slip by, but why bother when a technician proposes that you try a cool submarine prototype? Now, this technician wasn't from here, after all, this was a coastal town. I only recently learned that most of the city was built either on reclaimed land or directly on top of the sea. This did mean it was quite easy to build an underwater hangar to build, let's say, a submarine. Let's hope my travel diary doesn't get wet. I can cast water breathing, but I can't cast it on my book!"
 				"{@pagebreak}"
 				"To assemble the submarine, assuming you have one of a similar prototype as I do - who knows, this may get popular and sell like hotcakes - you need to first plunge the cabin of the submarine into water. Submarines don't go well on land. Then, you can attach the other parts of the submarine to the cabin."
 			]
@@ -31976,7 +31953,7 @@
 		}
 		{
 			dependencies: ["793E50D268C0B230"]
-			description: ["For a time, I taught spellcasting and the basics of elemental sources to the few who begged for my knowledge. I don't know why they didn't simply sail across the sea. Over the course of a month, multiple laws on the restriction of magic were imposed, and I quickly had to resort to holding most of my gatherings in secret. At least, I sent most of my apostles overseas since there weren't many elemental sources in the city, as no one had bothered to take care of them. Eventually, all of the exits from the city were heavily guarded. "]
+			description: ["For a time, I taught spellcasting and the basics of elemental sources to the few who begged for my knowledge. I don't know why they didn't simply sail across the sea. Over the course of a month, multiple laws on the restriction of magic were imposed and I quickly had to resort to holding most of my gatherings in secret. At least, I sent most of my apostles overseas since there weren't many elemental sources in the city, as no one had bothered to take care of them. Eventually, all of the exits from the city were heavily guarded. "]
 			id: "47025B4852DC4F90"
 			rewards: [{
 				count: 3
@@ -32018,7 +31995,7 @@
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
-			description: ["From my time in the state of the dwarven mine, I thought I had seen all there was to mining, from gigantic mining machines digging chunk-sized holes, to manual mining and growing ores. This drill model is quite unique, however! Inspired by the multipart mining bores of the Tower Pathway, some Hierophants and Chariot card holders decided to combine their strengths into a more compact, specialized drilling machine."]
+			description: ["From my time in the state of the dwarven mine, I thought I had seen all there was to mining, from gigantic mining machines digging chunk-sized holes, to manual mining and growing ores. This drill model is quite unique, however! Inspired by the multipart mining bores of the Tower pathway, some Hierophants and Chariot card holders decided to combine their strengths into a more concise, specialized drilling machine."]
 			hide_dependency_lines: true
 			id: "5059730ED7CB61E4"
 			rewards: [{
@@ -32137,7 +32114,7 @@
 			description: [
 				"&o&7An extra note is posted over the page&r"
 				""
-				"&2I'm unsure of how this quantum core reacts to our realm. Drawing inspiration from studying the various anomalies and the distant realms that were opened up, we have figured out that by using nuclear power, we can interact, in a way, with another world. Or rather, are we creating another? This seems similar in a way to those accounts of some geniuses managing to create their own dimensions with elaborate machinery."
+				"&2I'm unsure of how this quantum core reacts to our realm. Drawing inspiration from studying the various anomalies and the distant realms that were opened up, we have figured out that by using nuclear power, we can react in a way with another world. Or rather, are we creating another? This seems similar in a way to those accounts of some geniuses managing to create their own dimensions with elaborate machinery."
 			]
 			id: "163FA79484716D9B"
 			rewards: [
@@ -32376,7 +32353,7 @@
 		{
 			dependencies: ["0964BD6C4413A9C9"]
 			description: [
-				"Several machine parts can be cast from the smeltery. These are very useful for both engineers of the Tower Pathway - a Path most Hermits will eventually follow - and technicians of the High Priestess Pathway."
+				"Several machine parts can be cast from the smeltery. These are very useful for both engineers of the Tower Pathway - a path most Hermits will eventually follow - and technicians of the High Priestess pathway."
 				""
 				"Among the most useful machine parts to be cast are gears and wires. The process will waste a lesser amount of resources on average than making them by hand."
 			]
@@ -32587,7 +32564,7 @@
 		{
 			dependencies: ["524067700E07EB06"]
 			description: [
-				"If something is not observed, a different behaviour than expected may appear. These scarecrows affect the behaviour of monsters substantially, drawing them away from peaceful areas, leading to a higher population of the likes of wild and farm animals. "
+				"If something is not observed, a different behavior than expected may appear. These scarecrows affect the behavior of monsters substantially, drawing them away from peaceful areas, leading to a higher population of the likes of wild and farm animals. "
 				""
 				"If placed on top of a monster spawner, monsters will seem to continually be summoned, as if an adventurer were still inside. This is very useful for industrial purposes."
 			]
@@ -32642,7 +32619,7 @@
 		}
 		{
 			dependencies: ["19BCED907816DC38"]
-			description: ["&7\"After leaving the flesh infection, we came across a jailor caravan. Upon clearing out the area, I happened across a unique deposit of tough metal. My normal pickaxe couldn't break through it, but using the Ichor Pickaxe I created after fighting the Watcher, I was able to dissolve its bonds and pick it up.\""]
+			description: ["&7\"After leaving the flesh infection, we came across a jailor caravan. After clearing out the area, I happened across a unique deposit of tough metal. My normal pickaxe couldn't break through it, but using the Ichor Pickaxe I created after fighting the watcher, I was able to dissolve its bonds and pick it up.\""]
 			icon: "the_deep_void:dark_steel_scrap"
 			id: "4145DB3DE1721CEE"
 			rewards: [
@@ -32830,7 +32807,7 @@
 		}
 		{
 			dependencies: ["4145DB3DE1721CEE"]
-			description: ["&7\"I was able to create a new set of armour for Nyxil with the newly foraged Umbral Steel. Using some schematics we found in the encampment, I created a set that resembled a plague doctor's robes, which are able to heal the user while inflicting additional harm to foes.\""]
+			description: ["&7\"I was able to create a new set of armour for Nyxil with the newly foraged Umbral Steel. Using some schematics we found in the encampment, I created a set that resembled a plague doctor's robes, which is able to heal the user while inflicting additional harm to foes.\""]
 			id: "77247F640821AFAD"
 			rewards: [{
 				id: "793FBA6A7E2C37A3"
@@ -32947,24 +32924,6 @@
 			}]
 			x: -20.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["0D70725FEAF0DC7B"]
-			hide_dependency_lines: true
-			id: "3FDB9D96C75A54B2"
-			rewards: [{
-				id: "4AC390932C3EC62E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "157AA104958BB497"
-				item: "minecraft:rotten_flesh"
-				type: "item"
-			}]
-			title: "Taming the Dread Hound"
-			x: 16.0d
-			y: -13.5d
 		}
 	]
 	title: "The Journey"

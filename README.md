@@ -60,7 +60,6 @@ If you wish to contribute to the modpack, please follow the contribution guideli
 - Dudblockman
 - Valorix
 - Porridge
-- Ashh
 
 ---
 

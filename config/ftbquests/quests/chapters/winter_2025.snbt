@@ -11,7 +11,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0F3237156DE95B07"]
 			description: [
 				"&4It's the season of cold! As the little ones enjoy lobbing snowballs at each other and everything that lives, everyone else struggles to shovel snow off their roads."
 				""
