@@ -1,0 +1,8 @@
+[
+  {
+    "matchFluid": [
+      "createmetallurgy:molten_nickel"
+    ],
+    "resultFluid": "tconstruct:molten_nickel"
+  }
+]

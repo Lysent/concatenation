@@ -492,5 +492,46 @@
       "value": 25,
       "operation": "ADDITION"
     }
+  ],
+  "gaoler": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 74,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 5,
+      "operation": "ADDITION"
+    }
+  ],
+  "penitent": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 30,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 60,
+      "operation": "ADDITION"
+    }
+  ],
+  "banished_guard": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
   ]
 }

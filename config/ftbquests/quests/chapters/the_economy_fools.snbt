@@ -2634,7 +2634,7 @@
 				item: "concatenationcore:six_hundred_twenty_five_karaon"
 				type: "item"
 			}]
-			title: "Barely Used Cultist Armor - 625KA"
+			title: "Barely Used Cultist Armour - 625KA"
 			x: 20.0d
 			y: -5.0d
 		}
@@ -3018,7 +3018,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
-			description: ["Used most frequently to bind books; it also functions as basic armor and can be used to make bags."]
+			description: ["Used most frequently to bind books; it also functions as basic armour and can be used to make bags."]
 			hide_dependency_lines: true
 			id: "0FCB4F2C53D0DCC8"
 			rewards: [{
@@ -3496,7 +3496,7 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
-			description: ["Used by those who have drawn the Hand of Swords, this metal alloy can be forged into some of the most resilient armor on the market."]
+			description: ["Used by those who have drawn the Hand of Swords, this metal alloy can be forged into some of the most resilient armour on the market."]
 			hide_dependency_lines: true
 			id: "73801B2FAFFB9A44"
 			rewards: [{

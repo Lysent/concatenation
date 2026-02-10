@@ -1,11 +1,12 @@
-# Concatenation
+# ReversTeam's Concatenation
 
-![Concatenation banner](https://media.forgecdn.net/attachments/description/982024/description_77da6f9d-2935-4752-ae1f-a44bf31fe9ed.png)  
+![Concatenation banner](https://media.forgecdn.net/attachments/description/982024/description_6c4daa2b-140d-48a9-bbf4-cc32db767001.png)
 
-## About  
 Concatenation is a 1.20.1 modpack with four starting pathways to choose from technology to magic to carve a unique path through a branching questline.
 
 Each mod is represented by a pathway and its corresponding tarot cards, each of which can be acquired through progression. The goal of Concatenation is to add together all of the pathways and learn the secret of The World arcana.
+
+If you wish to contribute to the modpack, please follow the contribution guidelines in the [CONTRIBUTING](./CONTRIBUTING.md) file. Additionally, ReversTeam accepts staff applications
 
 ## Features  
 - Four unique starting branching pathways.
@@ -34,20 +35,32 @@ Each mod is represented by a pathway and its corresponding tarot cards, each of 
 #### ReversTeam
 - Mitemi - Lead Developer
 - Tikup - Developer
+- Newlumberjack - Mod Developer
+- Ranger - Pack Developer
 
 - Gravitegg - Playtester
 - Skillode - Playtester
 
 #### Concatenation Division
 - SporiumCorium - Pack Developer
+- MysticSquire - Pack Developer
+- Sem__lan - Writer
+- Ashh - Writer, Proofreader
+- Honeyglazedlady - Artist
+- Synq1xxx - Artist
+- JessePlays - Wiki Editor
 - Waayzii - Wiki Editor
+- Bajan - Wiki Editor
+- Mimnin - Wiki Editor
 
 #### Contributors
 - JebJoya
 - Pikarai
 - Riea
 - Jua2ja2
-- MysticSquire
+- Dudblockman
+- Valorix
+- Porridge
 
 ---
 

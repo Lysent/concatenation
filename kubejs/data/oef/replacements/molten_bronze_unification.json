@@ -1,0 +1,9 @@
+[
+  {
+    "matchFluid": [
+      "createbigcannons:molten_bronze",
+      "createmetallurgy:molten_bronze"
+    ],
+    "resultFluid": "tconstruct:molten_bronze"
+  }
+]

@@ -1,4 +1,0 @@
-{"id":"chipped:sea_lantern","contents":["#item:chipped:sea_lantern","item:minecraft:sea_lantern","item:chipped:broken_sea_lantern","item:chipped:bulbed_sea_lantern","item:chipped:cracked_sea_lantern","item:chipped:double_inlayed_sea_lantern","item:chipped:fancy_sea_lantern","item:chipped:framed_sea_lantern","item:chipped:hived_sea_lantern","item:chipped:inlayed_sea_lantern","item:chipped:ornate_sea_lantern","item:chipped:polished_sea_lantern","item:chipped:reinforced_sea_lantern","item:chipped:sea_lodestone_side","item:chipped:shimmering_sea_lantern","item:chipped:smooth_sea_lantern","item:chipped:special_sea_lantern","item:chipped:thick_inlayed_sea_lantern","item:chipped:tiled_sea_lantern_pillar"],
-  "exclusions": [
-    "item:minecraft:sea_lantern"
-  ]}

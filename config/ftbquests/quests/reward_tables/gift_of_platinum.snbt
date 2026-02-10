@@ -40,12 +40,13 @@
 						}
 					]
 					tic_multipliers: {
+						"tconstruct:attack_damage": 0.75f
 						"tconstruct:durability": 0.75f
 						"tconstruct:mining_speed": 0.75f
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 6.0f
+						"tconstruct:attack_damage": 3.5625f
 						"tconstruct:attack_speed": 3.3000002f
 						"tconstruct:durability": 360.0f
 						"tconstruct:harvest_tier": "minecraft:iron"

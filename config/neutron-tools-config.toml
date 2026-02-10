@@ -1,0 +1,10 @@
+
+[common]
+	crash_commands = false
+	portal_wait_time = 80
+	hunger_multiplier = 1.0
+
+[client]
+	hide_creative_tab_items_from_jei_blacklist = true
+	ensure_no_duplicates_between_creative_tabs = true
+

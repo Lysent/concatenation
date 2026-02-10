@@ -1,0 +1,8 @@
+[
+  {
+    "matchFluid": [
+      "createmetallurgy:molten_constantan"
+    ],
+    "resultFluid": "tconstruct:molten_constantan"
+  }
+]
