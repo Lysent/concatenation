@@ -1,4 +1,0 @@
-{"id":"chipped:glowstone","contents":["#item:chipped:glowstone","item:minecraft:glowstone","item:chipped:broken_glowstone","item:chipped:bulbed_glowstone","item:chipped:cracked_glowstone","item:chipped:double_inlayed_glowstone","item:chipped:edged_glowstone_lantern","item:chipped:fancy_glowstone_lantern","item:chipped:framed_glowstone_lantern","item:chipped:glowing_lodestone_side","item:chipped:glowstone_lantern","item:chipped:hived_glowstone","item:chipped:inlayed_glowstone","item:chipped:nether_engraved_glowstone","item:chipped:ornate_glowstone_lantern","item:chipped:patterned_glowstone","item:chipped:polished_glowstone","item:chipped:shimmering_glowstone","item:chipped:smooth_glowstone","item:chipped:thick_inlayed_glowstone","item:chipped:tiled_glowstone_pillar","item:chipped:wither_engraved_glowstone"],
-  "exclusions": [
-    "item:minecraft:glowstone"
-  ]}

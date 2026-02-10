@@ -679,7 +679,7 @@ ServerEvents.recipes(event => {
                 {
                         B: 'minecraft:iron_ingot',
                         C: 'minecraft:cauldron',
-                        A: 'minecraft:candle',
+                        A: '#minecraft:candles',
                         D: 'tarotcards:temperance'
                 }
         ).keepIngredient('tarotcards:temperance')

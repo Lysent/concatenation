@@ -1,4 +1,0 @@
-{"id":"chipped:hay_block","contents":["#item:chipped:hay_block","item:minecraft:hay_block","item:chipped:antique_hay_block","item:chipped:bundled_hay_block","item:chipped:detailed_hay_block","item:chipped:fertile_hay_block","item:chipped:jungle_hay_block","item:chipped:pale_hay_block","item:chipped:rich_hay_block","item:chipped:swampy_hay_block"],
-  "exclusions": [
-    "item:minecraft:hay_block"
-  ]}

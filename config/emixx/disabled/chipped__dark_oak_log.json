@@ -1,4 +1,0 @@
-{"id":"chipped:dark_oak_log","contents":["#item:chipped:dark_oak_log","item:minecraft:dark_oak_log","item:chipped:bundled_dark_oak_log","item:chipped:center_cut_dark_oak_log","item:chipped:damaged_dark_oak_log","item:chipped:edge_cut_dark_oak_log","item:chipped:firewood_dark_oak_log","item:chipped:flowering_dark_oak_log","item:chipped:mixed_dark_oak_log","item:chipped:nailed_dark_oak_log","item:chipped:overgrown_dark_oak_log","item:chipped:planked_dark_oak_log","item:chipped:reinforced_dark_oak_log"],
-  "exclusions": [
-    "item:minecraft:dark_oak_log"
-  ]}

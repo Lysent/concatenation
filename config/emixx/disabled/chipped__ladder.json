@@ -1,4 +1,0 @@
-{"id":"chipped:ladder","contents":["#item:chipped:ladder","item:minecraft:ladder","item:chipped:crooked_ladder","item:chipped:crooked_plank_ladder","item:chipped:crooked_ropeplank_ladder","item:chipped:metal_ladder","item:chipped:mossy_ladder","item:chipped:plank_ladder","item:chipped:railed_ladder","item:chipped:rope_planked_ladder","item:chipped:roped_ladder","item:chipped:strong_ladder"],
-  "exclusions": [
-    "item:minecraft:ladder"
-  ]}

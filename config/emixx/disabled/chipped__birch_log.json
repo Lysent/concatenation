@@ -1,4 +1,0 @@
-{"id":"chipped:birch_log","contents":["#item:chipped:birch_log","item:minecraft:birch_log","item:chipped:bundled_birch_log","item:chipped:center_cut_birch_log","item:chipped:damaged_birch_log","item:chipped:edge_cut_birch_log","item:chipped:firewood_birch_log","item:chipped:flowering_birch_log","item:chipped:mixed_birch_log","item:chipped:nailed_birch_log","item:chipped:overgrown_birch_log","item:chipped:planked_birch_log","item:chipped:reinforced_birch_log"],
-  "exclusions": [
-    "item:minecraft:birch_log"
-  ]}

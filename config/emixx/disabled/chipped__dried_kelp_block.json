@@ -1,4 +1,0 @@
-{"id":"chipped:dried_kelp_block","contents":["#item:chipped:dried_kelp_block","item:minecraft:dried_kelp_block","item:chipped:bamboo_dried_kelp_block","item:chipped:blue_dried_kelp_block","item:chipped:brown_dried_kelp_block","item:chipped:compact_dried_kelp_block","item:chipped:crimson_dried_kelp_block","item:chipped:leafy_dried_kelp_block","item:chipped:mossy_dried_kelp_block","item:chipped:netherwart_dried_kelp_block","item:chipped:rough_crimson_dried_kelp_block","item:chipped:shroomy_dried_kelp_block","item:chipped:sugarcane_dried_kelp_block","item:chipped:wart_dried_kelp_block"],
-  "exclusions": [
-    "item:minecraft:dried_kelp_block"
-  ]}

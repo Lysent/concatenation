@@ -1,4 +1,0 @@
-{"id":"chipped:oak_log","contents":["#item:chipped:oak_log","item:minecraft:oak_log","item:chipped:bundled_oak_log","item:chipped:center_cut_oak_log","item:chipped:damaged_oak_log","item:chipped:edge_cut_oak_log","item:chipped:firewood_oak_log","item:chipped:flowering_oak_log","item:chipped:mixed_oak_log","item:chipped:nailed_oak_log","item:chipped:overgrown_oak_log","item:chipped:planked_oak_log","item:chipped:reinforced_oak_log"],
-  "exclusions": [
-    "item:minecraft:oak_log"
-  ]}

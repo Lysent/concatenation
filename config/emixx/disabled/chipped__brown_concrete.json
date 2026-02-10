@@ -1,4 +1,0 @@
-{"id":"chipped:brown_concrete","contents":["#item:chipped:brown_concrete","item:minecraft:brown_concrete","item:chipped:brown_concrete_bricks","item:chipped:brown_concrete_tiles","item:chipped:creeper_brown_concrete","item:chipped:grid_brown_concrete","item:chipped:mosaic_brown_concrete","item:chipped:stacked_brown_concrete","item:chipped:stop_brown_concrete","item:chipped:grill_brown_concrete","item:chipped:brown_concrete_panel","item:chipped:pegged_brown_concrete","item:chipped:smooth_brown_concrete","item:chipped:striped_brown_concrete","item:chipped:wired_brown_concrete","item:chipped:brown_concrete_pillar","item:chipped:bolted_brown_concrete","item:chipped:hazard_brown_concrete","item:chipped:railed_brown_concrete","item:chipped:reinforced_brown_concrete","item:chipped:rusted_brown_concrete","item:chipped:warning_brown_concrete"],
-  "exclusions": [
-    "item:minecraft:brown_concrete"
-  ]}

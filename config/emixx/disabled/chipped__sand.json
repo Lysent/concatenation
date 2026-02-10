@@ -1,4 +1,0 @@
-{"id":"chipped:sand","contents":["#item:chipped:sand","item:minecraft:sand","item:chipped:ash_sand","item:chipped:coarse_sand","item:chipped:desert_sand","item:chipped:kelp_sand","item:chipped:lush_red_sand","item:chipped:overgrown_sand","item:chipped:pearl_sand","item:chipped:soft_sand","item:chipped:tar_sand","item:chipped:wet_sand","item:chipped:wet_red_sand","item:chipped:white_sand"],
-  "exclusions": [
-    "item:minecraft:sand"
-  ]}

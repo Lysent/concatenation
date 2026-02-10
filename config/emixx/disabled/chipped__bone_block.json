@@ -1,4 +1,0 @@
-{"id":"chipped:bone_block","contents":["#item:chipped:bone_block","item:minecraft:bone_block","item:chipped:cracked_bone_block","item:chipped:crunched_bone_block","item:chipped:dark_bone_block","item:chipped:double_roped_bone_block","item:chipped:fractured_bone_block","item:chipped:gilded_basalt_bone_block","item:chipped:inscribed_bone_block","item:chipped:reinforced_bone_block","item:chipped:roped_bone_block","item:chipped:tiled_bone_block","item:chipped:weaved_bone_block"],
-  "exclusions": [
-    "item:minecraft:bone_block"
-  ]}

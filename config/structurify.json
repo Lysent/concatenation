@@ -1,309 +1,326 @@
 {
-  "config_version": "1.0.21",
-  "config_datetime": "2025-12-23_17-10-53",
+  "config_version": "2.0.12",
+  "config_datetime": "2026-01-27_23-52-05",
   "general": {
-    "min_structure_distance_from_world_center": 140,
     "disable_all_structures": false,
+    "prevent_structure_overlap": false,
     "enable_global_spacing_and_separation_modifier": true,
     "global_spacing_and_separation_modifier": 1.7
   },
+  "structure_namespaces": [],
   "structures": [],
   "structure_sets": [
     {
+      "spacing": 32,
+      "separation": 8,
       "name": "ae2:meteorite",
       "salt": 124895654,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 32,
-      "separation": 8
+      "override_global_spacing_and_separation_modifier": true
     },
     {
+      "spacing": 29,
+      "separation": 20,
       "name": "ati_structures:underground_medium",
       "salt": 817997296,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 29,
-      "separation": 20
+      "override_global_spacing_and_separation_modifier": true
     },
     {
+      "spacing": 10,
+      "separation": 5,
       "name": "ati_structures:underground_small",
       "salt": 123895344,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 10,
-      "separation": 5
+      "override_global_spacing_and_separation_modifier": true
     },
     {
+      "spacing": 60,
+      "separation": 25,
       "name": "create_easy_structures:big_1",
       "salt": 878977526,
       "frequency": 0.45,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 60,
-      "separation": 25
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 60,
+      "separation": 25,
       "name": "create_easy_structures:big_2",
       "salt": 878785151,
       "frequency": 0.45,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 60,
-      "separation": 25
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 60,
+      "separation": 25,
       "name": "create_easy_structures:camp_1",
       "salt": 541139603,
       "frequency": 0.45,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 60,
-      "separation": 25
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 60,
+      "separation": 25,
       "name": "create_easy_structures:camp_2",
       "salt": 540177731,
       "frequency": 0.45,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 60,
-      "separation": 25
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 60,
+      "separation": 25,
       "name": "create_easy_structures:camp_3",
       "salt": 539985357,
       "frequency": 0.45,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 60,
-      "separation": 25
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 60,
+      "separation": 25,
       "name": "create_easy_structures:camp_4",
       "salt": 540562480,
       "frequency": 0.45,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 60,
-      "separation": 25
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 60,
+      "separation": 25,
       "name": "create_easy_structures:camp_5",
       "salt": 540370106,
       "frequency": 0.45,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 60,
-      "separation": 25
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 60,
+      "separation": 25,
       "name": "create_easy_structures:factory_1",
       "salt": 991993825,
       "frequency": 0.45,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 60,
-      "separation": 25
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 60,
+      "separation": 25,
       "name": "create_easy_structures:factory_2",
       "salt": 991801451,
       "frequency": 0.45,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 60,
-      "separation": 25
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 60,
+      "separation": 25,
       "name": "create_easy_structures:foresttracks",
       "salt": 1204635669,
       "frequency": 0.55,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 60,
-      "separation": 25
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 50,
+      "separation": 25,
       "name": "create_easy_structures:freight_station",
       "salt": 1354297359,
       "frequency": 0.55,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 50,
-      "separation": 25
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 60,
+      "separation": 25,
       "name": "create_easy_structures:house_2",
       "salt": 1601847478,
       "frequency": 0.5,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 60,
-      "separation": 25
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 60,
+      "separation": 25,
       "name": "create_easy_structures:house_3",
       "salt": 1600885606,
       "frequency": 0.5,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 60,
-      "separation": 25
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 60,
+      "separation": 25,
       "name": "create_easy_structures:house_4",
       "salt": 1600693231,
       "frequency": 0.55,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 60,
-      "separation": 25
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 50,
+      "separation": 15,
       "name": "create_easy_structures:undergroundtrain",
       "salt": 1719461658,
       "frequency": 0.7,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 50,
-      "separation": 15
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 60,
+      "separation": 15,
       "name": "create_easy_structures:windmill",
       "salt": 353987075,
       "frequency": 0.5,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 60,
-      "separation": 15
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 60,
+      "separation": 50,
       "name": "dungeons_arise:major_structures",
       "salt": 88371663,
       "frequency": 0.59999996,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 60,
-      "separation": 50
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 35,
+      "separation": 25,
       "name": "dungeons_arise:minor_structures",
       "salt": 342415935,
       "frequency": 0.7,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 35,
-      "separation": 25
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 68,
+      "separation": 60,
       "name": "dungeons_arise_seven_seas:minor_structures",
       "salt": 98123789,
       "frequency": 0.79999995,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 68,
-      "separation": 60
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 45,
+      "separation": 25,
       "name": "farmers_structures:aethers_with_all",
       "salt": 214225994,
       "frequency": 0.9,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 45,
-      "separation": 25
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 21,
+      "separation": 12,
       "name": "hexerei:owl_post_office",
       "salt": 8675309,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 21,
-      "separation": 12
+      "override_global_spacing_and_separation_modifier": true
     },
     {
+      "spacing": 36,
+      "separation": 21,
       "name": "kismet:kismet_structure",
       "salt": 1272244448,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "spacing": 36,
-      "separation": 21
+      "override_global_spacing_and_separation_modifier": false
     },
     {
+      "spacing": 24,
+      "separation": 8,
       "name": "minecraft:ancient_cities",
       "salt": 20083232,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 24,
-      "separation": 8
+      "override_global_spacing_and_separation_modifier": true
     },
     {
+      "spacing": 32,
+      "separation": 8,
       "name": "minecraft:desert_pyramids",
       "salt": 14357617,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 32,
-      "separation": 8
+      "override_global_spacing_and_separation_modifier": true
     },
     {
+      "spacing": 20,
+      "separation": 11,
       "name": "minecraft:end_cities",
       "salt": 10387313,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 20,
-      "separation": 11
+      "override_global_spacing_and_separation_modifier": true
     },
     {
+      "spacing": 32,
+      "separation": 8,
       "name": "minecraft:igloos",
       "salt": 14357618,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 32,
-      "separation": 8
+      "override_global_spacing_and_separation_modifier": true
     },
     {
+      "spacing": 32,
+      "separation": 8,
       "name": "minecraft:jungle_temples",
       "salt": 14357619,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 32,
-      "separation": 8
+      "override_global_spacing_and_separation_modifier": true
     },
     {
+      "spacing": 27,
+      "separation": 4,
       "name": "minecraft:nether_complexes",
       "salt": 30084232,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 27,
-      "separation": 4
+      "override_global_spacing_and_separation_modifier": true
     },
     {
+      "spacing": 32,
+      "separation": 5,
       "name": "minecraft:ocean_monuments",
       "salt": 10387313,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 32,
-      "separation": 5
+      "override_global_spacing_and_separation_modifier": true
     },
     {
+      "spacing": 32,
+      "separation": 8,
       "name": "minecraft:swamp_huts",
       "salt": 14357620,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 32,
-      "separation": 8
+      "override_global_spacing_and_separation_modifier": true
     },
     {
+      "spacing": 34,
+      "separation": 8,
       "name": "minecraft:trail_ruins",
       "salt": 83469867,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 34,
-      "separation": 8
+      "override_global_spacing_and_separation_modifier": true
     },
     {
+      "spacing": 50,
+      "separation": 35,
       "name": "minecraft:villages",
       "salt": 213742069,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 50,
-      "separation": 35
+      "override_global_spacing_and_separation_modifier": true
     },
     {
+      "spacing": 80,
+      "separation": 20,
       "name": "minecraft:woodland_mansions",
       "salt": 10387319,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 80,
-      "separation": 20
+      "override_global_spacing_and_separation_modifier": true
     },
     {
+      "spacing": 14,
+      "separation": 6,
+      "name": "perdition:scintillating_gateway",
+      "salt": 266853446,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "spacing": 10,
+      "separation": 6,
+      "name": "perdition:tau_cross",
+      "salt": 266890446,
+      "frequency": 0.8,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "spacing": 512,
+      "separation": 511,
       "name": "underground_bunkers:minor_structures",
       "salt": 734441625,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 512,
-      "separation": 511
+      "override_global_spacing_and_separation_modifier": true
     }
   ]
 }
