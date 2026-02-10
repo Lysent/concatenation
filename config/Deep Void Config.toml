@@ -202,13 +202,13 @@
 	#Extra damage when on low health
 	RottenTongueDamage = 25.0
 	BloodBowSpike = 10.0
-	OnyxNaginataReachAddition = 2.0
+	OnyxNaginataReachAddition = 3.0
 	Needlefish = 7.0
 	#Ignores armor
 	TombstoneDoom = 50.0
 	KnifeBandolierFullChargeHit = 25.0
 	#How long it takes before the knife bandolier is fully charged (in ticks)
-	KnifeBandolierTimeBeforeCharge = 90.0
+	KnifeBandolierTimeBeforeCharge = 30.0
 	#Damage per knife
 	KnifeBandolierKnife = 15.0
 	#Damage in an AOE each tick
@@ -220,15 +220,15 @@
 	TheCatcherExtraDamage = 8.0
 	#For how long can the player fly (in ticks)
 	FlyWingsDuration = 200.0
-	PenitentCrossReachAddition = 1.0
+	PenitentCrossReachAddition = 2.0
 	#The amount healed when using the dark slash (per entity in the AOE)
 	SoulReaperLifesteal = 0.8
 	#Damage (velocity increases that number)
-	EldritchMaw = 2.0
+	EldritchMaw = 12.0
 	#Damage dealt when the effect expires. The damage is equal to the level of the effect * value (ignores armor)
-	AbyssalMarkBurst = 2.25
+	AbyssalMarkBurst = 20.0
 	#Distance is multiplied by this value. The result multiplies the initial damage
-	Sharpshooter = 0.085
+	Sharpshooter = 0.5
 
 ["Hive's Watcher"]
 	#Damage each tick

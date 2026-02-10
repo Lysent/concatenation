@@ -24736,11 +24736,11 @@
 		{
 			dependencies: ["6B96137C28502D97"]
 			description: [
-				"&7“The &fNightmare &7is a unique creature in the Deep Void, as you cannot simply find it walking around or within a specific biome. It is a creature that only corporealizes as one goes insane, feasting on the psyche of those unfortunate enough to go mad.\""
+				"&7“The &fVoidborn &7is a unique creature in the Deep Void, as you cannot simply find it walking around or within a specific biome. It is a creature that only corporealizes as one goes insane in the depths beneath the depths, feasting on the psyche of those unfortunate enough to go mad in the dark.\""
 				"{@pagebreak}"
-				"&7\"Apparently, if an individual wanted to lure it out and kill it for the matter it consists of, they could also perform a ritual that summons it, involving stabbing oneself in Liquid Void with an Onyx Needle. Its combat tactics revolve around mass hallucinations, making it difficult to pinpoint exactly where it is. A very tricky creature indeed.”"
+				"&7\"Apparently, if an individual wanted to lure it out and kill it for the matter it consists of, they could also perform a ritual that summons it, involving stabbing oneself with an Onyx Needle underground. It fears the light, meaning that to strike at it, you must lure it in by being in total darkness, then attacking when it comes close. A very tricky creature indeed.”"
 			]
-			icon: "the_deep_void:void_matter"
+			icon: "the_deep_void:voided_heart"
 			id: "2F507B7274D8E006"
 			rewards: [
 				{
@@ -24756,12 +24756,17 @@
 			]
 			tasks: [
 				{
-					id: "28639AC4A1FEBA22"
+					id: "1F2FA98A244D3F8E"
+					item: "the_deep_void:voided_heart"
+					type: "item"
+				}
+				{
+					id: "5A43F3D07AACEFDA"
 					item: "the_deep_void:void_matter"
 					type: "item"
 				}
 				{
-					id: "7F103384A26CB69D"
+					id: "7980C1EAE0718F57"
 					item: "the_deep_void:onyx_needle"
 					optional_task: true
 					type: "item"
@@ -32892,14 +32897,19 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["0F9265AD637B7FD7"]
+			dependencies: [
+				"0F9265AD637B7FD7"
+				"5CFB446EC47CB53D"
+			]
 			description: [
 				"&b\"During my experiments, I tried combining the bones of the mimics from the Misted Remnants with a Hexed Doll in order to try and form a vessel for his soul to return to. I even created the doll in his image.\""
 				"{@pagebreak}"
 				"&b\"However, instead of working, it summoned a more powerful mimic that used illusion magic to assist its ability. I vanquished it, of course. Another failure.\""
 			]
+			hide_dependency_lines: true
 			icon: "the_deep_void:misted_heart"
 			id: "38E8B79FA39568EF"
+			min_required_dependencies: 2
 			rewards: [
 				{
 					id: "5A804C9132906CE2"
