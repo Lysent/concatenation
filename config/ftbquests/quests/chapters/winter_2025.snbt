@@ -4,7 +4,6 @@
 	default_quest_shape: ""
 	filename: "winter_2025"
 	group: "4AEECD5B848DA3A1"
-	hide_quest_until_deps_complete: true
 	icon: "supplementaries:present_green"
 	id: "13BE81C89E3978B9"
 	order_index: 2

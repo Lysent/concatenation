@@ -657,10 +657,10 @@
     "modId": "emitrades",
     "version": "1.2.1+mc1.20.1"
   },
-  "emixx-forge-1.2.3.jar": {
-    "jarName": "emixx-forge-1.2.3.jar",
+  "emixx-forge-1.2.6.jar": {
+    "jarName": "emixx-forge-1.2.6.jar",
     "modId": "emixx",
-    "version": "1.2.3"
+    "version": "1.2.6"
   },
   "enchanter_fix-1.6+mc1.20-1.21.8.jar": {
     "jarName": "enchanter_fix-1.6+mc1.20-1.21.8.jar",
@@ -1189,11 +1189,6 @@
     "jarName": "MineColonies_Tweaks-1.20.1-2.95-all.jar",
     "modId": "minecolonies_tweaks",
     "version": "2.95"
-  },
-  "mobcontrol-1.20.1-1.5.15.jar": {
-    "jarName": "mobcontrol-1.20.1-1.5.15.jar",
-    "modId": "mobcontrol",
-    "version": "1.5.15"
   },
   "mobtimizations-forge-1.20.1-1.0.1.jar": {
     "jarName": "mobtimizations-forge-1.20.1-1.0.1.jar",

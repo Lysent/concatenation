@@ -23610,7 +23610,11 @@
 				""
 				"&2The resulting apatite powder can then be crushed even further into other kinds of powders. There are faint traces of diamonds in the marble of Dis.&r"
 				"{@pagebreak}"
-				"&2Dis gems can be found uncommonly throughout Dis"
+				"&2Dis gems can be found uncommonly throughout Dis. They contain rare and powerful materials inside, encased in a resin substance. Splitting the dis gem with lightning can be enough to both free up the core, and perhaps charge it? These gems make for great fuel in a lapiary dynamo, similar to other gems found in Dis or can be used to make special equipment. "
+				""
+				"&2The Dis Wand is a multitool similar to a paxel, with the ability to swat away bad weather in Dis. "
+				""
+				"&2The Dis Crown can be worn to dampen the effects of inter-dimensional travel. No more do we need to carry buckets of milk everywhere!"
 				"{@pagebreak}"
 				"&2How did the door to Dis open? While trying to open a rift, I seem to have pierced through some kind of barrier formed from gray fog. My rift blade broke, but I ended up in this place. With the quartz and diamonds I had, I turned some of this normal marble into an elevated one, which someone managed to turn into a portal. After years of researching how to return, I've finally done it.&r"
 			]
@@ -32950,6 +32954,7 @@
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
+			description: ["Aspiring necromancers can find a friend in the dread hound. While being half-undead creatures of doom, they can still become canine friends similar to wolves while retaining their might. They must still be sustained by their master's innate source of mana to remain friendly. As a result, only one dread hound may be tamed by a would-be necromancer. They can be tamed with rotten flesh."]
 			hide_dependency_lines: true
 			id: "3FDB9D96C75A54B2"
 			rewards: [{

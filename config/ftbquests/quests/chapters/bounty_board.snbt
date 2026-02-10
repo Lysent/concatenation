@@ -9,6 +9,11 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"&4At our local tavern, there is a bounty board on the wall. People post various quests, whether they be landowners, mine owners, random lumberjacks or fishermen. Everyone is threatened by the various monsters that may appear. This is where us hunters come in."
+				""
+				"&4The commissions are often good enough to live off only bounties, but sometimes a bit of adventuring is required. Isn't that just more gambling though? We may not find any loot at all. At least we don't turn to banditry."
+			]
 			hide_dependent_lines: true
 			id: "30784E3952DDFD84"
 			rewards: [{
@@ -307,26 +312,6 @@
 			title: "Monoliths"
 			x: 3.5d
 			y: -1.5d
-		}
-		{
-			dependencies: ["30784E3952DDFD84"]
-			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "tangiblecommands:back_item"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "49A0DCA022848096"
-			size: 0.75d
-			tasks: [{
-				id: "7AC4C9F463823391"
-				title: "Notice"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["30784E3952DDFD84"]
