@@ -249,7 +249,7 @@ element {
 
 element {
   interactable = true
-  source = ^^^%n%Mitemi - Lead Developer, Writer, Artist%n%Tikup - Developer, Writer, Artist%n%Gravitegg - Playtester%n%Skillode - Playtester%n%%n%Concatenation Division%n%SporiumCorium - Pack Developer, Writer%n%Newlumberjack - Pack Developer%n%MysticSquire - Pack Developer%n%Ranger - Pack Developer, Playtester%n%Honeyglazedlady - Artist%n%Sem__lan - Writer%n%Waayzii - Wiki Editor%n%Mimnin - Wiki Editor%n%Bajan - Wiki Editor%n%^^^
+  source = ^^^%n%Mitemi - Lead Developer, Writer, Artist%n%Tikup - Developer, Writer, Artist%n%Newlumberjack - Pack Developer%n%Ranger - Pack Developer, Playtester%n%Gravitegg - Playtester%n%Skillode - Playtester%n%%n%Concatenation Division%n%SporiumCorium - Pack Developer, Writer%n%MysticSquire - Pack Developer%n%Honeyglazedlady - Artist%n%Sem__lan - Writer%n%Ashh - Writer, Proofreader%n%Waayzii - Wiki Editor%n%Mimnin - Wiki Editor%n%Bajan - Wiki Editor%n%^^^
   source_mode = direct
   shadow = true
   scale = 0.75

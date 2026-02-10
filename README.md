@@ -45,6 +45,7 @@ If you wish to contribute to the modpack, please follow the contribution guideli
 - SporiumCorium - Pack Developer
 - MysticSquire - Pack Developer
 - Sem__lan - Writer
+- Ashh - Writer, Proofreader
 - Honeyglazedlady - Artist
 - Synq1xxx - Artist
 - JessePlays - Wiki Editor
@@ -60,7 +61,6 @@ If you wish to contribute to the modpack, please follow the contribution guideli
 - Dudblockman
 - Valorix
 - Porridge
-- Ashh
 
 ---
 
