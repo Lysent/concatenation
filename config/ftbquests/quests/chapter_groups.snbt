@@ -1,3 +1,7 @@
 {
-	chapter_groups: [{ id: "4AEECD5B848DA3A1", title: "Event Questlines" }]
+	chapter_groups: [
+		{ id: "43E75A9CDCFA8796", title: "Eleonore's Travels" }
+		{ id: "0660E8A0F538EACF", title: "Permanent Events" }
+		{ id: "4AEECD5B848DA3A1", title: "Event Questlines" }
+	]
 }

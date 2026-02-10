@@ -1,0 +1,7 @@
+#"minecraft:knockback=100", "minecraft:sharpness=0"
+rules = []
+#刷新权重为0的附魔是否移除可用配方，如铁砧配方，关闭后对应的附魔书将无法使用，也不会在JEI中看到用途，但此类附魔依旧可以存在，可以通过指令等方式为物品附魔。
+dropRecipe = true
+#刷新权重为0的附魔是否完全被移除，开启后，创造模式物品栏和JEI等都会查不到，且会影响到已有此附魔的物品。
+deepDelete = true
+

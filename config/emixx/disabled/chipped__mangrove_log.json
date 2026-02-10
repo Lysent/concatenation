@@ -1,4 +1,0 @@
-{"id":"chipped:mangrove_log","contents":["#item:chipped:mangrove_log","item:minecraft:mangrove_log","item:chipped:bundled_mangrove_log","item:chipped:center_cut_mangrove_log","item:chipped:damaged_mangrove_log","item:chipped:edge_cut_mangrove_log","item:chipped:firewood_mangrove_log","item:chipped:flowering_mangrove_log","item:chipped:mixed_mangrove_log","item:chipped:nailed_mangrove_log","item:chipped:overgrown_mangrove_log","item:chipped:planked_mangrove_log","item:chipped:reinforced_mangrove_log"],
-  "exclusions": [
-    "item:minecraft:mangrove_log"
-  ]}

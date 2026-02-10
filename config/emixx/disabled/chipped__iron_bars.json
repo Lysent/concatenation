@@ -1,4 +1,0 @@
-{"id":"chipped:iron_bars","contents":["#item:chipped:iron_bars","item:minecraft:iron_bars","item:chipped:iron_bars_top","item:chipped:barbed_iron_bars","item:chipped:bolted_iron_bars","item:chipped:chained_iron_bars","item:chipped:crossbolted_iron_bars","item:chipped:crossed_iron_bars","item:chipped:floral_iron_bars","item:chipped:harp_iron_bars","item:chipped:linked_iron_bars","item:chipped:loose_iron_bars","item:chipped:piked_iron_bars","item:chipped:railed_iron_bars","item:chipped:sighthole_iron_bars","item:chipped:stepped_iron_bars","item:chipped:sturdy_iron_bars","item:chipped:supported_iron_bars","item:chipped:thorned_iron_bars","item:chipped:victorian_iron_bars_pikes","item:chipped:vined_iron_bars","item:chipped:woven_iron_bars","item:chipped:zippered_iron_bars"],
-  "exclusions": [
-    "item:minecraft:iron_bars"
-  ]}

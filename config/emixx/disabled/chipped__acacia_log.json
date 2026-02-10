@@ -1,4 +1,0 @@
-{"id":"chipped:acacia_log","contents":["#item:chipped:acacia_log","item:minecraft:acacia_log","item:chipped:bundled_acacia_log","item:chipped:center_cut_acacia_log","item:chipped:damaged_acacia_log","item:chipped:edge_cut_acacia_log","item:chipped:firewood_acacia_log","item:chipped:flowering_acacia_log","item:chipped:mixed_acacia_log","item:chipped:nailed_acacia_log","item:chipped:overgrown_acacia_log","item:chipped:planked_acacia_log","item:chipped:reinforced_acacia_log"],
-  "exclusions": [
-    "item:minecraft:acacia_log"
-  ]}

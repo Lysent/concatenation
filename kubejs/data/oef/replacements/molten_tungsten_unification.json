@@ -1,0 +1,8 @@
+[
+  {
+    "matchFluid": [
+      "createmetallurgy:molten_tungsten"
+    ],
+    "resultFluid": "tconstruct:molten_tungsten"
+  }
+]

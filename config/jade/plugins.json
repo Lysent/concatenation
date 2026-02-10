@@ -110,6 +110,9 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "nightmaretamer": {
+    "stalker_info": true
+  },
   "reliquary": {
     "pedestal": true,
     "altar": true,

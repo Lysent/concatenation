@@ -194,6 +194,11 @@ ServerEvents.recipes(event => {
                 'tconstruct:crafting_station',
                 'craftingstation:crafting_station'
         );
+        event.replaceInput(
+                { output: 'create:clipboard' },
+                'create:andesite_alloy',
+                'minecraft:iron_ingot'
+        );
 
         event.shaped(
                 Item.of('tconstruct:seared_melter'),

@@ -1,4 +1,0 @@
-{"id":"chipped:emerald_block","contents":["#item:chipped:emerald_block","item:minecraft:emerald_block","item:chipped:emerald_block_panels","item:chipped:ancient_emerald_block","item:chipped:chipped_emerald_block","item:chipped:embossed_emerald_block","item:chipped:engraved_emerald_block","item:chipped:layered_emerald_block","item:chipped:plated_emerald_block","item:chipped:polished_emerald_block","item:chipped:reinforced_emerald_block","item:chipped:sheet_emerald_block","item:chipped:shuttered_emerald_block","item:chipped:stacked_emerald_block"],
-  "exclusions": [
-    "item:minecraft:emerald_block"
-  ]}

@@ -1,4 +1,0 @@
-{"id":"chipped:cobweb","contents":["#item:chipped:cobweb","item:minecraft:cobweb","item:chipped:broken_cobweb","item:chipped:hanging_broken_cobweb","item:chipped:cobweb_arch","item:chipped:cobweb_floor","item:chipped:dense_cobweb","item:chipped:hanging_cobweb","item:chipped:scattered_cobweb","item:chipped:stretched_cobweb","item:chipped:stringy_cobweb","item:chipped:thick_cobweb_floor"],
-  "exclusions": [
-    "item:minecraft:cobweb"
-  ]}

@@ -1,0 +1,283 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bounty_board_2"
+	group: "4AEECD5B848DA3A1"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "the_deep_void:forbidden_tome"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6EF96D49109B6053"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["63906D4F4224E53D"]
+			description: [
+				"&o&7As soon as you approach the bounty board, the tablet lights up, projecting 5 different quests. "
+				""
+				"&7Request: Obtain a Centigaze’s eyes. "
+				""
+				"&7Location of Target: Windswept Hollow. "
+				""
+				"&7Description: Centigazes are large insects that burrow in desolate soil and ambush passerby. They have a distinct clicking sound that indicates that they are nearby. "
+				""
+				"&7Compensation will be provided."
+			]
+			id: "7AFD27153C1E2BA6"
+			rewards: [
+				{
+					count: 32
+					id: "2777B9512FE61514"
+					item: "thermal:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "13FD67E9744156EB"
+					item: "irons_spellbooks:invisibility_ring"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "the_deep_void:centigaze"
+				icon: "the_deep_void:void_lens"
+				id: "55990F8EDCBE0561"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Centigaze"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63906D4F4224E53D"]
+			description: [
+				"&o&7As soon as you approach the bounty board, the tablet lights up, projecting 5 different quests. "
+				""
+				"&7Request: Obtain the claws of an Everhunger. "
+				""
+				"&7Location of Target: Gloomy Deathgrounds and Staring Hills. "
+				""
+				"&7Description: The Everhunger is a brutal warden of the flesh infection. Normally it is dormant, but if an intruder is spotted by a Beholder, it will become active and ruthlessly chase down the target. Caution is advised. "
+				""
+				"&7Compensation will be provided."
+			]
+			id: "067E356551B95640"
+			rewards: [
+				{
+					count: 32
+					id: "20010C2CFD972565"
+					item: "thermal:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "3D0570C01A5855A6"
+					item: {
+						Count: 1
+						id: "tangiblecommands:rtp_item"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "the_deep_void:everhunger"
+				icon: {
+					Count: 1
+					id: "the_deep_void:flesh_glove"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "30636BBBD6C69B75"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Everhunger"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63906D4F4224E53D"]
+			description: [
+				"&o&7As soon as you approach the bounty board, the tablet lights up, projecting 5 different quests. "
+				""
+				"&7Request: Obtain a Misted Heart. Location of Target: Unknown, evidence points to the Misted Remnants. "
+				""
+				"&7Description: The Elder Mimic is an elusive target that is the pinnacle of the beings that live within the Misted Remnants. It not only copies the weaponry of what it beholds, it also employs magicks to create illusions and wield shadow bullets. Caution is advised. "
+				""
+				"&7Greater compensation will be provided."
+			]
+			id: "07CFCD8943FF36FA"
+			rewards: [
+				{
+					count: 64
+					id: "2C72700AB9232A6B"
+					item: "thermal:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "0CC1DA3EBF3AD7B9"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "the_deep_void:elder_mimic"
+				icon: "the_deep_void:misted_heart"
+				id: "1A415C29DBFBE2D5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Elder Mimic"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63906D4F4224E53D"]
+			description: [
+				"&o&7As soon as you approach the bounty board, the tablet lights up, projecting 5 different quests."
+				""
+				"&7Request: Obtain 5x Rooted corpses. "
+				""
+				"&7Location of Targets: Watching Undergrowth and Grim Canopy. "
+				""
+				"&7Description: The Rooted are plant-adjacent forms of life, consisting entirely of twisted black roots. Their common combat strategy is to blind their prey and bifurcate into copies of themself to strangle their prey to death. "
+				""
+				"&7Compensation will be provided."
+			]
+			id: "39422C2B2FF444F5"
+			rewards: [
+				{
+					count: 32
+					id: "7C7B9E80B89B429F"
+					item: "thermal:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "73849A899128CD70"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "consecration:undead_protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "the_deep_void:rooted"
+				icon: "the_deep_void:disturbing_root"
+				id: "5719B2CD25917E9A"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Rooted Corpses"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63906D4F4224E53D"]
+			description: [
+				"&o&7As soon as you approach the bounty board, the tablet lights up, projecting 5 different quests. "
+				""
+				"&7Request: Cull a Heretic Gaol encampment. "
+				""
+				"&7Targets: Banished Guard, Gaoler, \\& Penitent. "
+				""
+				"&7Description: The Gaol of Heretics is where cults have sent their criminals and blasphemers. They employ tactics of range advantage, entrapment, \\& brute strength. Evidence of completion is desired but not required. "
+				""
+				"&7Compensation will be provided."
+			]
+			id: "0C979E10F46F24C6"
+			rewards: [
+				{
+					count: 32
+					id: "5D85FC6417770257"
+					item: "thermal:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "056ECD3459F162BA"
+					item: {
+						Count: 1
+						id: "reliquary:magicbane"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "the_deep_void:prison_guard"
+					icon: {
+						Count: 1
+						id: "the_deep_void:onyx_naginata"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "374E2DAD38DE9EF8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "the_deep_void:penitent"
+					icon: {
+						Count: 1
+						id: "the_deep_void:penitent_cross"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4F0B2EF9211147ED"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "the_deep_void:gaoler"
+					icon: "the_deep_void:cage"
+					id: "08C77713DA2FC52F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Gaol of Heretics"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			description: ["&o&7There appears to be a stone tablet nailed to the bounty board that, upon further inspection, projects a message on its surface. These commissions are only available to those who have delved to the darkest depths. Please return when you are qualified. "]
+			id: "63906D4F4224E53D"
+			rewards: [{
+				id: "724568EB88C41E80"
+				item: "born_in_chaos_v1:ai"
+				type: "item"
+			}]
+			subtitle: "Bounty Board?"
+			tasks: [{
+				dimension: "the_deep_void:deep_void"
+				icon: "the_deep_void:book_of_ancient_knowledge"
+				id: "26391E2B3386C547"
+				title: "A Note..?"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+	]
+	subtitle: ["Limited Event"]
+	title: "Bounty Board...?"
+}

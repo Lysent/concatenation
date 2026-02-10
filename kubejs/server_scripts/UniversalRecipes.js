@@ -217,24 +217,24 @@ ServerEvents.recipes(event => {
                         E: 'thermal:energy_cell'
                 }
         ).keepIngredient('tarotcards:the_high_priestess')
-        event.shaped(
-                Item.of(
-                        "concatenationcore:full_vessels",
-                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;640975309,-1644542158,2093428149,1748520931],Slot:"curio"}]}'
-                ),
-                [
-                        'ABA',
-                        'CDC',
-                        'AEA'
-                ],
-                {
-                        A: 'thermal:enderium_coin',
-                        C: 'concatenationcore:compacted_steel',
-                        B: 'mekanism:ingot_osmium',
-                        D: 'tarotcards:the_high_priestess',
-                        E: 'thermal:energy_cell'
-                }
-        ).keepIngredient('tarotcards:the_high_priestess')
+        // event.shaped(
+        //         Item.of(
+        //                 "concatenationcore:full_vessels",
+        //                 '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;640975309,-1644542158,2093428149,1748520931],Slot:"curio"}]}'
+        //         ),
+        //         [
+        //                 'ABA',
+        //                 'CDC',
+        //                 'AEA'
+        //         ],
+        //         {
+        //                 A: 'thermal:enderium_coin',
+        //                 C: 'concatenationcore:compacted_steel',
+        //                 B: 'mekanism:ingot_osmium',
+        //                 D: 'tarotcards:the_high_priestess',
+        //                 E: 'thermal:energy_cell'
+        //         }
+        // ).keepIngredient('tarotcards:the_high_priestess')
 
 
         event.shapeless(
@@ -1195,7 +1195,7 @@ ServerEvents.recipes(event => {
                 Item.of('concatenationcore:stalker_ward'),
                 [
                         'concatenationcore:protection_charm',
-                        'born_in_chaos_v1:nightmare_stalker_skull',
+                        '#concatenation:nightmare_catalyst',
                         'born_in_chaos_v1:fire_dust',
                         'concatenationcore:experience_orb',
                         'minecraft:glow_ink_sac',

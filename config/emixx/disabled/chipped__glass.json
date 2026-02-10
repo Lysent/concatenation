@@ -1,4 +1,0 @@
-{"id":"chipped:glass","contents":["#item:chipped:glass","item:minecraft:glass","item:chipped:circle_oak_glass","item:chipped:fancy_leaded_glass","item:chipped:large_diamond_leaded_glass","item:chipped:lead_woven_glass","item:chipped:oak_snowflake_glass","item:chipped:square_leaded_glass","item:chipped:vertical_leaded_glass","item:chipped:arched_leaded_glass_pillar","item:chipped:clear_leaded_glass","item:chipped:oak_bared_glass","item:chipped:oak_bordered_glass","item:chipped:oak_diamond_bordered_glass","item:chipped:oak_horizontal_lined_glass","item:chipped:oak_large_diamond_glass","item:chipped:oak_line_bared_glass","item:chipped:oak_ornate_bared_glass","item:chipped:oak_woven_glass","item:chipped:ornate_leaded_glass","item:chipped:raster_leaded_glass","item:chipped:small_diamond_leaded_glass","item:chipped:square_oak_glass"],
-  "exclusions": [
-    "item:minecraft:glass"
-  ]}

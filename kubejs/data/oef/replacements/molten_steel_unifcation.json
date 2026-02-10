@@ -1,0 +1,10 @@
+[
+  {
+    "matchFluid": [
+      "tfmg:molten_steel",
+      "createbigcannons:molten_steel",
+      "createmetallurgy:molten_steel"
+    ],
+    "resultFluid": "tconstruct:molten_steel"
+  }
+]

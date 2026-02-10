@@ -1,0 +1,908 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bounty_board"
+	group: "4AEECD5B848DA3A1"
+	icon: "create:clipboard"
+	id: "0C11BA015DF26C52"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&4At our local tavern, there is a bounty board on the wall. People post various quests, whether they be landowners, mine owners, random lumberjacks or fishermen. Everyone is threatened by the various monsters that may appear. This is where us hunters come in."
+				""
+				"&4The commissions are often good enough to live off only bounties, but sometimes a bit of adventuring is required. Isn't that just more gambling though? We may not find any loot at all. At least we don't turn to banditry."
+			]
+			hide_dependent_lines: true
+			id: "30784E3952DDFD84"
+			rewards: [{
+				id: "6B5F0C572E8E85C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Requests, hunts, prizes."
+			tasks: [{
+				id: "678FD058E26E4AE3"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			title: "Bounty Board"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4The Wither is less a creature and more a calamity given form, a floating tangle of skulls and black energy that rots the land as it drifts. We’ve seen its handiwork: craters, twisted trees, and a sky choked with ash where once there was sunlight. Its projectiles don’t just wound, they linger, gnawing at life and hope alike. If we summon it, there will be no turning back; we’ll either stand together long enough to bring it down, or leave behind another scar on the world."]
+			id: "72EA62835F4AEFD9"
+			rewards: [
+				{
+					count: 3
+					id: "3898660F9BD0C542"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2D2729B191597439"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1106AEE6B0DD4E50"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			size: 1.15d
+			tasks: [{
+				advancement: "minecraft:nether/summon_wither"
+				criterion: ""
+				icon: "minecraft:wither_rose"
+				id: "42306210AEE8D040"
+				type: "advancement"
+			}]
+			title: "The Wither"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4We arrived to the sound of bells and screams, pillager banners flapping crimson over fields trampled by ravagers. Crossbow bolts thudded into walls as iron golems roared and threw raiders into the air like rag dolls. Fighting in the cramped streets, dodging panicked villagers and stray arrows, felt more like chaos than heroism. But when the last horn blew and the survivors came out with gifts and shy smiles, it felt like, for once, we’d actually made the world a little better."]
+			id: "443D68F7812B0BD5"
+			rewards: [
+				{
+					count: 64
+					id: "0041E1AB27ABAB8A"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "0610811DCD34C210"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "3B5CE29B882C79FF"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "60EF49777F5E799C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "1267B0022514FD99"
+				type: "advancement"
+			}]
+			title: "The Raid"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4The Bonescaller stands in graveyards like a shepherd, staff tapping softly as skeletons claw their way from the dirt at his command. He doesn’t shout or rage; he murmurs, and the dead obey. We saw him once at a distance, silhouettes rising behind him like a forest of bone, each skull turning in perfect unison. Killing him won’t just be a matter of steel, it will mean wading through his pale congregation while he tears at our courage with whispered curses."]
+			id: "4D814D7620E3E98E"
+			rewards: [
+				{
+					count: 32
+					id: "411A1DE318B98920"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "40D52D0FE246FCDB"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "615982F001444722"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "born_in_chaos_v1:junior_summoner"
+				criterion: ""
+				id: "7FE956C8701781B4"
+				type: "advancement"
+			}]
+			title: "The Bonescaller"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4If the Bonescaller is a shepherd, the Supreme Bonescaller is a high priest of death itself. Wherever he walks, the world goes quiet: candle flames gutter, animals flee, and even the air feels thin and cold. He doesn’t just raise skeletons; he bends entire battlefields of the fallen to his will, weaving them into disciplined ranks. Facing him will be like fighting a whole forgotten war at once, soldiers of every age and armor clattering forward under one terrible mind."]
+			id: "2D597F553C8571B1"
+			rewards: [
+				{
+					id: "1D1F597EA51A44E2"
+					item: {
+						Count: 1
+						id: "summonerscrolls:charged_creeper_summoner_scroll"
+						tag: {
+							Damage: 0
+							cost: 5
+							count: 1
+							damageAmount: 15
+							summon: "summonerscrolls:charged_creeper_summon"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 24
+					id: "4F3358548C9C0671"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4BCEC88D9A650E7E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "born_in_chaos_v1:dismantledto_bones"
+				criterion: ""
+				id: "0FE68674F266CF4D"
+				type: "advancement"
+			}]
+			title: "The Supreme Bonescaller"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4The Glutton Fish lurks in waters that should be too small to hold something that big, yet somehow do. We watched it swallow a cow that strayed too close to the riverbank, the water barely rippling as rows of jagged teeth snapped shut. Its bulk moves with a horrible, lazy grace, drawn to splashing and blood like a living whirlpool. To face it, we’ll have to fight the urge to panic whenever it vanishes below, knowing it could surge up beneath us at any moment."]
+			icon: "born_in_chaos_v1:sea_terror_eye"
+			id: "384C10251DACEE34"
+			rewards: [
+				{
+					id: "37692D254A9AE900"
+					item: {
+						Count: 1
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 24
+					id: "55306D00EDAE4174"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4FDC0BC56366CC4D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "born_in_chaos_v1:glutton_fish"
+				id: "12C22F09893543F1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Glutton Fish"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4We first heard the chittering long before we saw her, a slow, echoing sound that seemed to crawl under our skin. The Mother of Spider sits at the heart of her nest like a bloated jewel, surrounded by webs so thick they muffle sound and swallow light. When she moves, the whole cavern shifts with her, and lesser spiders spill from the ceiling like black rain. If we face her, we’ll need fire and sharp blades, and nerves steady enough not to bolt when the eggs start hatching."]
+			icon: "born_in_chaos_v1:spider_mandible"
+			id: "55B97B5BE5ED5021"
+			rewards: [
+				{
+					count: 32
+					id: "305B6C3C1B0ED7ED"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					count: 18
+					id: "5D730E4C7BF171C0"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "759408058B295E03"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "born_in_chaos_v1:mother_spider"
+				icon: "born_in_chaos_v1:spider_mandible"
+				id: "39C4391CA9195254"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Mother of Spiders"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4On quiet nights, we hear them: low, rumbling howls that roll across the hills, answered by dozens more. The Dire Hound Leader is bigger than any wolf we’ve seen, its eyes burning with a cruel intelligence as it drives the pack like a general on a battlefield. Alone, one hound is trouble; together, under their leader’s command, they’re an army that tears through armor and flesh alike. If we want a chance, we’ll have to separate the leader from the pack, or become bones picked clean under the moon."]
+			icon: "born_in_chaos_v1:gnawed_bones"
+			id: "3DBC73A802DB053D"
+			rewards: [
+				{
+					count: 32
+					id: "39222228D8E5A78C"
+					item: "born_in_chaos_v1:smoked_monster_flesh"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7575A441EBE11C5F"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "72DB18492ED68940"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "born_in_chaos_v1:dire_hound_leader"
+				icon: "born_in_chaos_v1:monster_flesh"
+				id: "6988F3052812B54D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Dread Pack"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4The Chaos Knight rides under a sky that never looks quite right, as if the world itself twists around him. His armor flickers between colors, runes crawling like living things across the metal, and each step of his mount leaves a smear of unstable magic behind. We’ve seen where he’s passed: stone warped into strange shapes, trees half-turned to ash and half to obsidian. To fight him is to stand inside a storm of blades and raw sorcery, hoping your mind holds together longer than his patience."]
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:dark_metal_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1951DD48F717B0DB"
+			rewards: [
+				{
+					id: "59B3D23482AC87CD"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 24
+					id: "51CD2AC3DC6DA4E0"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2B6CCE64A0DB194C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				icon: "born_in_chaos_v1:armor_plate_from_dark_metal"
+				id: "57A33671064268AC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Fallen Chaos Knight"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4Ten thousand is just a number until you start counting the footsteps, the growls, the hisses in the dark. This isn’t about a single beast, but about endurance, about showing up to every skirmish, every ambush, every siege, and walking away one more time. Each mob we fell leaves another mark on our armor and our minds, tiny stories written in cuts and cracks. By the time we reach that number, we won’t be the same people who started this tally."]
+			id: "6CF620CBAD48D019"
+			rewards: [{
+				id: "1ADD9A957F817717"
+				item: "chipped:tropics_melon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75239C01EAD2F634"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 10000
+			}]
+			title: "Ten Thousand Kills"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4There’s a kind of madness in a task like this, how much punishment a body can endure before it simply doesn’t anymore. We’ve learned to read our scars like pages in a book: burns from blaze fire, jagged gouges from creepers, neat punctures from skeleton arrows. Twelve thousand hurts is less about bravery and more about stubbornness, about standing back up when anyone sane would stay down. If we live through it, we’ll know exactly where our limits used to be."]
+			id: "236CDF4D91BC9948"
+			rewards: [{
+				id: "4E09B9B37BE9D459"
+				item: {
+					Count: 1
+					id: "concatenationcore:rython"
+					tag: {
+						CurioAttributeModifiers: [{
+							Amount: 2
+							AttributeName: "generic.max_health"
+							Name: "generic.max_health"
+							Operation: 0
+							Slot: "charm"
+							UUID: [I;
+								-1049641899
+								-1698279708
+								-1222758712
+								1471568110
+							]
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63708C51BFA2A526"
+				stat: "minecraft:damage_taken"
+				type: "stat"
+				value: 12000
+			}]
+			title: "Twelve Thousand Damage"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4The rogue mages travel like walking natural disasters, each one wrapped in their chosen element. We saw the Air Mage riding storms, the Water Mage walking on rivers, the Earth Mage striding through stone, and the Fire Mage leaving glassed sand where grass once grew. Alone, each is a nightmare; together, they turn the battlefield into a puzzle of shifting hazards. To defeat them, we’ll need to break their unity, pull one away, then another—before their combined power grinds us to dust."]
+			id: "3D40D1DB3CD9B0C6"
+			rewards: [
+				{
+					id: "272054D7A477BDA9"
+					item: {
+						Count: 1
+						id: "concatenationcore:windflaw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25007C0079E55A71"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:diamond_spell_book"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "240FCE34E21D2CB1"
+					item: "ars_nouveau:thread_spellpower"
+					type: "item"
+				}
+				{
+					id: "59938EF3366013F6"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "ars_elemental:air_mage"
+					icon: {
+						Count: 1
+						id: "ars_elemental:air_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6D5D200A46167B4A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ars_elemental:earth_mage"
+					icon: {
+						Count: 1
+						id: "ars_elemental:earth_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "09BCC39479FE278C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ars_elemental:fire_mage"
+					icon: {
+						Count: 1
+						id: "ars_elemental:fire_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7DC647ED2C84E39D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ars_elemental:water_mage"
+					icon: {
+						Count: 1
+						id: "ars_elemental:aqua_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1A3B51A18FD64F9A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Rogue Mages"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4The Celestial Monolith looms like a fallen star, a towering shard of otherworldly stone etched with constellations that move when you’re not looking. Around it drift the Traversers, figures that blink in and out of existence, stepping between spaces as easily as we step between blocks. They guard the Monolith like zealots, warping close to strike and vanishing before blades can touch them. Bringing down that star-fracture will mean reading its strange patterns while we survive the guardians flitting through the gaps in reality."]
+			id: "339F7ED63821911B"
+			rewards: [
+				{
+					count: 18
+					id: "54E158DD71EE2836"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "5BDF772E9F61E047"
+					item: {
+						Count: 1
+						id: "tangiblecommands:spawn_item"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "70F1F5046B455E02"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "382518FD1F6F1FA9"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "celestisynth:star_monolith"
+					icon: "celestisynth:star_monolith_blood"
+					id: "374F65FF3F365167"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "celestisynth:traverser"
+					icon: "celestisynth:crimson_piece"
+					id: "109E7A9FF856DD97"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "Monoliths"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4We thought we knew evokers—smug little tyrants hiding behind fangs and fanged spirits—until we heard of the Archevoker. This one commands entire storms of vexes and conjures fanged maws that span whole streets, not just doorways. When he raises his hands, the ground itself sprouts hostile shapes, biting and tearing at anything that moves. To defeat him, we’ll have to close the distance while the world around us tries to chew us apart."]
+			id: "4D6BF7479CE74699"
+			rewards: [
+				{
+					id: "3FDD18FDA737FC1D"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "670FE2A1DAB350D9"
+					item: {
+						Count: 1
+						id: "tangiblecommands:corpse_item"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0FE53E7A1466E4C9"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5DCAD3020A7B708D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "irons_spellbooks:archevoker"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:archevoker_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "09CBEA18B379E97F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Archevoker"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4The Ancient Knight stands watch where the world has forgotten the reason for the watch in the first place. Moss creeps over his armor, and yet every movement he makes is crisp, practiced, and utterly relentless. He doesn’t taunt or rage; he simply tests us, blow after blow, as if measuring us against some old, impossible standard. If we can best him, it won’t feel like a victory over evil—more like earning the respect of a guardian who was never meant to yield."]
+			id: "7CDFBC158801FAF9"
+			rewards: [
+				{
+					id: "2E7F7D72A626EDAA"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					count: 18
+					id: "19EED9A583BC9C79"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "5610365C0BF1DDD6"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "irons_spellbooks:citadel_keeper"
+				icon: "irons_spellbooks:armor_pile"
+				id: "1293E604EB1D4976"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Ancient Knight"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4The Dead King rules a kingdom of dust and silence, seated on a throne of cracked stone and rusted crowns. His armor is ancient, but death has made him patient and terribly strong; every blow he takes rings like a funeral bell. Around him, ghostly knights repeat their last charges, spectral lines of cavalry breaking and reforming in endless loops. To end his reign, we’ll have to break the pattern—shatter the ritual of his unlife and topple the throne that keeps him from rest."]
+			id: "0C0E8CD401D8DF87"
+			rewards: [
+				{
+					count: 3
+					id: "19DE198C82156B70"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "583C2180628E747A"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7A2EE55DC706BCD6"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			size: 1.15d
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:gold_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "624929FC33F50FD1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Dead King"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4The Necromancer treats death like a resource, not an ending. He decorates his lairs with bones not out of vanity, but convenience, like tools for his next spell. Unlike the Bonescallers, he delights in experimentation, stitching together horrors from mismatched parts and giving them grotesque new purpose. Taking him down will mean fighting through creations that should not exist, all while he laughs and carves new sigils into the air with every heartbeat."]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:plagued_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "69F92FE873777D86"
+			tasks: [{
+				entity: "irons_spellbooks:necromancer"
+				icon: {
+					Count: 1
+					id: "reliquary:mob_charm_fragment"
+					tag: {
+						entity: "irons_spellbooks:necromancer"
+					}
+				}
+				id: "29783DA5C93A6DBB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Necromancer"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4Fire and ice shouldn’t work together, but these two make it an art. The Pyromancer bathes the field in searing heat, turning cover to ash, while the Cryomancer steals that same heat away, locking flame and foe alike in jagged prisons of frost. We watched them toy with a band of marauders, freezing them in place before shattering their defenses with roaring firestorms. If we rush one, the other will punish us; we’ll have to dance between extremes, using their own chaos against them."]
+			id: "12B8E3E586F259E2"
+			rewards: [
+				{
+					id: "06B3579997E1E13A"
+					item: {
+						Count: 1
+						id: "tangiblecommands:back_item"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3118B064F911AED5"
+					item: {
+						Count: 1
+						id: "tangiblecommands:bed_item"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 18
+					id: "0363525A3C9D780F"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "31285C4CE5C10971"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "irons_spellbooks:pyromancer"
+					icon: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "344D81539F207E8C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "irons_spellbooks:cryomancer"
+					icon: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4ED34CAA0CEB88C5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ice \\& Fire"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4The Echo of Tyros isn’t truly alive; it’s a memory made manifest, a lingering afterimage of some great champion or tyrant. Its form flickers, half-solid, half-light, attacks phasing through walls and sometimes through us. When it speaks, its voice overlaps itself, as if we’re hearing every version of Tyros across time at once. To silence the Echo, we’ll have to unravel the story it’s trapped in, striking not just at its body but at the pattern that keeps recalling it to the world."]
+			id: "2353722DBB8200E7"
+			rewards: [
+				{
+					id: "2C3EFCD4B982141E"
+					item: {
+						Count: 1
+						id: "concatenationcore:bloody_living_giant_sword"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 12
+									AttributeName: "generic.attack_damage"
+									Name: "generic.attack_damage"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										-513130152
+										566053759
+										-2075885196
+										-607104510
+									]
+								}
+								{
+									Amount: 1
+									AttributeName: "generic.attack_speed"
+									Name: "generic.attack_speed"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										544014363
+										-38516229
+										-1585965233
+										-426489813
+									]
+								}
+								{
+									Amount: 4
+									AttributeName: "generic.max_health"
+									Name: "generic.max_health"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										1815160898
+										1160073178
+										-1247081854
+										-605985969
+									]
+								}
+							]
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "4BEB9B6C1A579D75"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "05E0175B2AA3E6A1"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			size: 1.15d
+			tasks: [{
+				id: "2957AEE63D7D3E46"
+				item: "irons_spellbooks:divine_soulshard"
+				type: "item"
+			}]
+			title: "Echo of Tyros"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: ["&4The Masked Hunter is a horrible beast that appears to be a somewhat recent arrival to this land, and quite frankly, we’d all be better off without them. If you’re near the forest, they’ll make themselves known with their ear-piercing screech, but don’t take them for simple creatures. They’re crafty and sadistic, staying out of sight and setting up traps in order to ensnare and torment any being unfortunate enough to be spotted by them. In addition to their long claws, they also employ poisoned knives in order to whittle down their prey. Be on your guard when pursuing them."]
+			id: "7EA94EAAF138DFFE"
+			rewards: [
+				{
+					id: "789777491AAF3F7D"
+					item: {
+						Count: 1
+						id: "concatenationcore:protection_charm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 24
+					id: "305E484A7C0A60FF"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "41BC7FCD5F68F432"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			size: 1.15d
+			tasks: [{
+				entity: "the_deep_void:masked_hunter"
+				icon: "the_deep_void:head_of_the_hunter"
+				id: "01B260B507619242"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Masked Hunter"
+			x: -4.5d
+			y: -3.0d
+		}
+	]
+	subtitle: ["Limited Event"]
+	title: "Bounty Board"
+}

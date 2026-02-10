@@ -1,0 +1,8 @@
+[
+  {
+    "matchFluid": [
+      "create:honey"
+    ],
+    "resultFluid": "tconstruct:honey"
+  }
+]
