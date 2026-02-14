@@ -693,6 +693,31 @@
 				}
 			}
 			id: "69F92FE873777D86"
+			rewards: [
+				{
+					count: 3
+					id: "7E466D12A102FE2F"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "33FF62B685712FF9"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "06AAF9B3258FE171"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "5179746F1B8E8318"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "irons_spellbooks:necromancer"
 				icon: {
