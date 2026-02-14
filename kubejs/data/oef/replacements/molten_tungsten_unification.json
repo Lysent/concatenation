@@ -1,7 +1,8 @@
 [
   {
     "matchFluid": [
-      "createmetallurgy:molten_tungsten"
+      "createmetallurgy:molten_tungsten",
+      "common_ore_library:molten_tungsten"
     ],
     "resultFluid": "tconstruct:molten_tungsten"
   }

@@ -1,7 +1,8 @@
 [
   {
     "matchFluid": [
-      "createmetallurgy:molten_netherite"
+      "createmetallurgy:molten_netherite",
+      "common_ore_library:molten_netherite"
     ],
     "resultFluid": "tconstruct:molten_netherite"
   }

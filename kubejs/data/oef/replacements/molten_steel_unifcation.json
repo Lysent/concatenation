@@ -3,7 +3,8 @@
     "matchFluid": [
       "tfmg:molten_steel",
       "createbigcannons:molten_steel",
-      "createmetallurgy:molten_steel"
+      "createmetallurgy:molten_steel",
+      "common_ore_library:molten_steel"
     ],
     "resultFluid": "tconstruct:molten_steel"
   }

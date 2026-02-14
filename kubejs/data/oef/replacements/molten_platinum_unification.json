@@ -1,0 +1,8 @@
+[
+  {
+    "matchFluid": [
+      "common_ore_library:molten_platinum"
+    ],
+    "resultFluid": "tconstruct:molten_platinum"
+  }
+]

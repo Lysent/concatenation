@@ -1,0 +1,8 @@
+[
+  {
+    "matchFluid": [
+      "common_ore_library:molten_invar"
+    ],
+    "resultFluid": "tconstruct:molten_invar"
+  }
+]

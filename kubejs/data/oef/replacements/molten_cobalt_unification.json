@@ -1,0 +1,8 @@
+[
+  {
+    "matchFluid": [
+      "common_ore_library:molten_cobalt"
+    ],
+    "resultFluid": "tconstruct:molten_cobalt"
+  }
+]
