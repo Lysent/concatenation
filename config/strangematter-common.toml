@@ -236,6 +236,8 @@
 #Energy System Configuration
 #Control energy generation, consumption, and storage for machines
 [energy]
+	#Display name for energy unit in tooltips and GUIs. RE = Resonite Energy (default), FE = Forge Energy, RF = Redstone Flux
+	energyUnitDisplay = "RF"
 
 	#Resonant Burner Settings
 	[energy.resonant_burner]
@@ -313,7 +315,7 @@
 	costMultiplier = 1.0
 	#Hide Strange Matter recipes in JEI/REI/EMI recipe viewers
 	#When enabled, recipes will only be visible in the Research Tablet.
-	#This encourages players to use the research system to discover recipes.
+	#Items that are results of research-gated recipes will show JEI/EMI info: "Learn this recipe in the Research Tablet."
 	#Defaults to false (recipes visible in recipe viewers)
 	hideRecipesInRecipeViewers = true
 

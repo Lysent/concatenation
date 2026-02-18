@@ -134,10 +134,10 @@
     "modId": "attributefix",
     "version": "21.0.5"
   },
-  "attributesetter-2.0.2-forge.jar": {
-    "jarName": "attributesetter-2.0.2-forge.jar",
+  "attributesetter-2.1-forge.jar": {
+    "jarName": "attributesetter-2.1-forge.jar",
     "modId": "attributesetter",
-    "version": "2.0.2-forge"
+    "version": "2.1-forge"
   },
   "BadOptimizations-2.4.0-1.20.1.jar": {
     "jarName": "BadOptimizations-2.4.0-1.20.1.jar",
@@ -318,6 +318,11 @@
     "jarName": "collective-1.20.1-8.3.jar",
     "modId": "collective",
     "version": "8.3"
+  },
+  "colonypathingedition-1.0.5-ALPHA-5.1.jar": {
+    "jarName": "colonypathingedition-1.0.5-ALPHA-5.1.jar",
+    "modId": "colonypathingedition",
+    "version": "1.0.5-ALPHA-5.1"
   },
   "comforts-forge-6.4.0+1.20.1.jar": {
     "jarName": "comforts-forge-6.4.0+1.20.1.jar",
@@ -667,10 +672,10 @@
     "modId": "emitrades",
     "version": "1.2.1+mc1.20.1"
   },
-  "emixx-forge-1.2.9.jar": {
-    "jarName": "emixx-forge-1.2.9.jar",
+  "emixx-forge-1.2.11.jar": {
+    "jarName": "emixx-forge-1.2.11.jar",
     "modId": "emixx",
-    "version": "1.2.9"
+    "version": "1.2.11"
   },
   "enchanter_fix-1.6+mc1.20-1.21.8.jar": {
     "jarName": "enchanter_fix-1.6+mc1.20-1.21.8.jar",
@@ -842,10 +847,10 @@
     "modId": "glodium",
     "version": "1.20-1.5-forge"
   },
-  "gnetum-2.3.5.jar": {
-    "jarName": "gnetum-2.3.5.jar",
+  "gnetum-2.4.1.jar": {
+    "jarName": "gnetum-2.4.1.jar",
     "modId": "gnetum",
-    "version": "2.3.5"
+    "version": "2.4.1"
   },
   "gpumemleakfix-1.20.1-1.8.jar": {
     "jarName": "gpumemleakfix-1.20.1-1.8.jar",
@@ -967,10 +972,10 @@
     "modId": "itemfilters",
     "version": "2001.1.0-build.59"
   },
-  "Ixeris-3.8.7+1.20.1-forge.jar": {
-    "jarName": "Ixeris-3.8.7+1.20.1-forge.jar",
+  "Ixeris-4.0.1+1.20.1-forge.jar": {
+    "jarName": "Ixeris-4.0.1+1.20.1-forge.jar",
     "modId": "ixeris",
-    "version": "3.8.7+1.20.1-forge"
+    "version": "4.0.1+1.20.1-forge"
   },
   "Jade-1.20.1-Forge-11.13.2.jar": {
     "jarName": "Jade-1.20.1-Forge-11.13.2.jar",
@@ -1190,20 +1195,20 @@
     "modId": "midnightlib",
     "version": "1.9.1"
   },
-  "minecolonies-1.20.1-1.1.1159-snapshot.jar": {
-    "jarName": "minecolonies-1.20.1-1.1.1159-snapshot.jar",
+  "minecolonies-1.20.1-1.1.1160-snapshot.jar": {
+    "jarName": "minecolonies-1.20.1-1.1.1160-snapshot.jar",
     "modId": "minecolonies",
-    "version": "1.20.1-1.1.1159-snapshot"
+    "version": "1.20.1-1.1.1160-snapshot"
   },
-  "MineColonies_Compatibility-1.20.1-2.107.jar": {
-    "jarName": "MineColonies_Compatibility-1.20.1-2.107.jar",
+  "MineColonies_Compatibility-1.20.1-2.110.jar": {
+    "jarName": "MineColonies_Compatibility-1.20.1-2.110.jar",
     "modId": "minecolonies_compatibility",
-    "version": "2.107"
+    "version": "2.110"
   },
-  "MineColonies_Tweaks-1.20.1-2.95-all.jar": {
-    "jarName": "MineColonies_Tweaks-1.20.1-2.95-all.jar",
+  "MineColonies_Tweaks-1.20.1-2.97-all.jar": {
+    "jarName": "MineColonies_Tweaks-1.20.1-2.97-all.jar",
     "modId": "minecolonies_tweaks",
-    "version": "2.95"
+    "version": "2.97"
   },
   "mobtimizations-forge-1.20.1-1.0.1.jar": {
     "jarName": "mobtimizations-forge-1.20.1-1.0.1.jar",
@@ -1658,10 +1663,10 @@
     "modId": "storagedrawers",
     "version": "12.14.3"
   },
-  "strangematter-0.3.0.jar": {
-    "jarName": "strangematter-0.3.0.jar",
+  "strangematter-1.20.1-0.4.0.jar": {
+    "jarName": "strangematter-1.20.1-0.4.0.jar",
     "modId": "strangematter",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   "structure_layout_optimizer-forge-1.0.11.jar": {
     "jarName": "structure_layout_optimizer-forge-1.0.11.jar",
@@ -1723,10 +1728,15 @@
     "modId": "tacztweaks",
     "version": "2.13.0"
   },
-  "tagfixes-1.0.4-forge-1.20.1.jar": {
-    "jarName": "tagfixes-1.0.4-forge-1.20.1.jar",
+  "tagfixes-1.0.5-universal-1.20.1.jar": {
+    "jarName": "tagfixes-1.0.5-universal-1.20.1.jar",
     "modId": "tagfixes",
-    "version": "1.0.4"
+    "version": "1.0.5"
+  },
+  "taglocalizations-1.0.5-universal-1.20.1.jar": {
+    "jarName": "taglocalizations-1.0.5-universal-1.20.1.jar",
+    "modId": "taglocalizations",
+    "version": "1.0.5"
   },
   "tangiblecommands-1.0.0-forge-1.20.1.jar": {
     "jarName": "tangiblecommands-1.0.0-forge-1.20.1.jar",
@@ -1958,10 +1968,10 @@
     "modId": "waves",
     "version": "1.6.1"
   },
-  "waystones-forge-1.20.1-14.1.18.jar": {
-    "jarName": "waystones-forge-1.20.1-14.1.18.jar",
+  "waystones-forge-1.20.1-14.1.19.jar": {
+    "jarName": "waystones-forge-1.20.1-14.1.19.jar",
     "modId": "waystones",
-    "version": "14.1.18"
+    "version": "14.1.19"
   },
   "welcomescreen-forge-1.0.0-1.20.1.jar": {
     "jarName": "welcomescreen-forge-1.0.0-1.20.1.jar",
