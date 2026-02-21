@@ -13,7 +13,12 @@ jobs:
       - name: Create Technic release
         run: |
           mkdir -p temp
-          rsync -av --exclude='.git' --exclude='.github' . temp/
+          shopt -s dotglob
+          for item in *; do
+            if [ "$item" != "temp" ]; then
+              cp -r "$item" temp/
+            fi
+          done
           cd temp
           zip -r ../release.zip .
           mv ../release.zip .
