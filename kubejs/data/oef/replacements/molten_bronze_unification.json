@@ -2,7 +2,8 @@
   {
     "matchFluid": [
       "createbigcannons:molten_bronze",
-      "createmetallurgy:molten_bronze"
+      "createmetallurgy:molten_bronze",
+      "common_ore_library:molten_bronze"
     ],
     "resultFluid": "tconstruct:molten_bronze"
   }

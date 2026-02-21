@@ -1,0 +1,8 @@
+[
+  {
+    "matchFluid": [
+      "common_ore_library:molten_manyullyn"
+    ],
+    "resultFluid": "tconstruct:molten_manyullyn"
+  }
+]

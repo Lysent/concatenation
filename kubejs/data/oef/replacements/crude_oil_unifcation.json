@@ -1,8 +1,8 @@
 [
   {
     "matchFluid": [
-      "tfmg:crude_oil"
+      "thermal:crude_oil"
     ],
-    "resultFluid": "thermal:crude_oil"
+    "resultFluid": "tfmg:crude_oil"
   }
 ]

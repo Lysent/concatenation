@@ -259,6 +259,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["0C11BA015DF26C52"]
 			description: ["&o&7There appears to be a stone tablet nailed to the bounty board that, upon further inspection, projects a message on its surface. These commissions are only available to those who have delved to the darkest depths. Please return when you are qualified. "]
 			id: "63906D4F4224E53D"
 			rewards: [{
