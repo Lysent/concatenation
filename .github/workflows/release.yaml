@@ -12,16 +12,7 @@ jobs:
 
       - name: Create Technic release
         run: |
-          mkdir -p temp
-          shopt -s dotglob
-          for item in *; do
-            if [ "$item" != "temp" ]; then
-              cp -r "$item" temp/
-            fi
-          done
-          cd temp
-          zip -r ../release.zip .
-          mv ../release.zip .
+          zip -r ./release.zip .
 
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v1
