@@ -31,5 +31,4 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('the_deep_void:dark_steel_scrap', 'Umbral Steel Scrap');
   event.renameItem('the_deep_void:dark_steel_deposit', 'Umbral Steel Deposit');
   event.renameItem('the_deep_void:block_of_dark_steel', 'Block of Umbral Steel');
-  event.rename('fluid.bloodmagic.life_essence', 'Life Essence')
 })

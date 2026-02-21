@@ -1,7 +1,8 @@
 [
   {
     "matchFluid": [
-      "createmetallurgy:molten_brass"
+      "createmetallurgy:molten_brass",
+      "common_ore_library:molten_brass"
     ],
     "resultFluid": "tconstruct:molten_brass"
   }

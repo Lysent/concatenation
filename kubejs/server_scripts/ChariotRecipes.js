@@ -372,7 +372,7 @@ ServerEvents.recipes(event => {
                 }
         ).keepIngredient('tarotcards:the_chariot')
         event.shaped(
-                Item.of('prettypipes:pipe', 8),
+                Item.of('prettypipes:pipe', 12),
                 [
                         'ABC',
                         'BDB',

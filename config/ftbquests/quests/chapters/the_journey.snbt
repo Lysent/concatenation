@@ -30154,11 +30154,6 @@
 			hide_dependency_lines: true
 			icon: "via_romana:charting_map"
 			id: "5B1114E8AD48A9D4"
-			rewards: [{
-				id: "5EE1045CF5A195EC"
-				item: "minecolonies:supplychestdeployer"
-				type: "item"
-			}]
 			subtitle: "Fast Travel Anywhere"
 			tasks: [{
 				id: "13AFB0DC1A961548"
@@ -30578,29 +30573,6 @@
 			title: "Early Storage"
 			x: -2.2500000000000004d
 			y: -5.45d
-		}
-		{
-			dependencies: ["524067700E07EB06"]
-			description: [
-				"The seasons change, and so does the availability of crops. Some crops can only grow in the summer, spring, or autumn."
-				""
-				"There exist some varieties of crops that can grow in multiple seasons depending on their species. For instance, regular onions can only be grown in spring and autumn, while ishikura onions can be grown in winter and autumn."
-			]
-			id: "01787B3BD1903BA3"
-			rewards: [{
-				id: "75E53CC6DF992539"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "68C353B5335CCCE3"
-				item: "sereneseasons:calendar"
-				type: "item"
-				weak_nbt_match: true
-			}]
-			title: "Seasons"
-			x: -2.5d
-			y: -6.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -31400,62 +31372,6 @@
 			}]
 			x: -3.5d
 			y: -14.0d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"Underground Bunkers are extremely rare throughout the world. They seem to feature very high-grade technology that we can't quite understand yet, along with military vehicles from the future!"
-				""
-				"There is nothing much in the way of outstanding loot as we cannot decipher most of the technology down there into something usable, but it is a fascinating experience."
-			]
-			id: "3A82D89B99E5D124"
-			rewards: [
-				{
-					count: 7
-					id: "29B191996ACEB5C8"
-					item: "concatenationcore:fortune_fragment"
-					type: "item"
-				}
-				{
-					id: "60C0C79CCABFB65C"
-					item: {
-						Count: 1
-						id: "marbledsarsenal:black_plate_carrier_light"
-						tag: {
-							CurioAttributeModifiers: [{
-								Amount: 4
-								AttributeName: "generic.armor"
-								Name: "generic.armor"
-								Operation: 0
-								Slot: "body"
-								UUID: [I;
-									-1049641899
-									-1698279708
-									-1222758712
-									1471568110
-								]
-							}]
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "marbledsarsenal:un_military_beret"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "43489CB8BA6ED617"
-				structure: "underground_bunkers:underground_bunker"
-				title: "Find the Underground Bunker"
-				type: "structure"
-			}]
-			x: 2.5d
-			y: -15.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
