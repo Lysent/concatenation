@@ -19,20 +19,10 @@
 				"&5Treat them not as friends, but as cogs in the great machine of your civilization. Govern them well, and they will build you a wonder. Neglect them, and you will rule over a graveyard.&r"
 				"{@pagebreak}"
 				"&7&o(If ruling a Graveyard is, in fact, your intent, please close this chapter and refer to the later entry on graveyards.)&r"
+				""
+				"&a(You do not need to find all colonies to start the next quest, only one will suffice.)"
 			]
 			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "irons_spellbooks:villager_spell_book"
-				tag: {
-					ISB_Spells: {
-						data: [ ]
-						maxSpells: 10
-						mustEquip: 1b
-						spellWheel: 1b
-					}
-				}
-			}
 			id: "1BB571557F74D3A1"
 			rewards: [{
 				id: "5118D5653FA17BEF"
@@ -567,6 +557,7 @@
 		}
 		{
 			dependencies: ["1BB571557F74D3A1"]
+			dependency_requirement: "one_started"
 			description: [
 				"&7&o\"I found a city of bricks and left it a city of marble.\"&r"
 				""
@@ -590,6 +581,7 @@
 		}
 		{
 			dependencies: ["1BB571557F74D3A1"]
+			dependency_requirement: "one_started"
 			description: [
 				"&5Some rulers arrive by the tide, others by the winds. Whether you choose a vessel of the sea or the sky, the principle remains: space must be conquered before it is occupied."
 				"{@pagebreak}"

@@ -927,6 +927,142 @@
 			x: -4.5d
 			y: -3.0d
 		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: [
+				"A lonely tower perched where sea meets stone, its lantern long cold and its staircases echo with distant cries. Something stalks within the shadows of its spiraling halls, drawn to the distant chime of ocean winds. To claim the light again, we must face the depths below and the foes that whisper in the dark."
+				""
+				"As many small lighthouses there are, there are larger ones."
+				""
+				"Minor coastal structure near ocean shorelines."
+			]
+			id: "14A7ED9BD35A8F02"
+			tasks: [{
+				icon: "chipped:nice_redstone_lamp"
+				id: "0ADAAD98762950F2"
+				structure: "dungeons_arise:lighthouse"
+				title: "Find the large Lighthouse"
+				type: "structure"
+			}]
+			title: "Find the Large Lighthouse"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: [
+				"We came upon the goods before we heard the rustle of feet in the grass. Crates and barrels lie scattered, some still bearing the promise of trade, but watchful eyes follow every step. The silence here is crafted — and waiting to be broken. Only those who think fast and strike faster will leave with coin in hand."
+				""
+				"A small, plains-spawned campsite structure that can spawn enemies and contain basic loot."
+			]
+			id: "4173A4839729CE17"
+			tasks: [{
+				icon: "minecraft:cyan_wool"
+				id: "2920F8D258ED54A4"
+				structure: "dungeons_arise:merchant_campsite"
+				title: "Find the Merchant Campsite"
+				type: "structure"
+			}]
+			title: "The Merchant Campsite"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: [
+				"The earth here is burnt black as night, veins of obsidian jutting like broken teeth. Every tunnel mouth exhales heavy heat, and distant clatters echo from deep below. This is no ordinary mine — it is a furnace built by forgotten hands, and something stirs in the blazing dark."
+				""
+				"Underground fiery mine structure with hostile spawns and loot."
+			]
+			id: "629DB46306A07CC5"
+			tasks: [{
+				icon: "minecraft:red_nether_bricks"
+				id: "542FA44F25A792ED"
+				structure: "dungeons_arise:scorched_mines"
+				title: "Visit the Scorched Mines"
+				type: "structure"
+			}]
+			title: "The Scorched Mines"
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: [
+				"A circle of aged stone holds dark water like a mirror of the void, reflecting nothing and inviting everything. Toss a coin — or your hope — and listen as the silence shifts. From the depths come whispers and shadowed shapes, as if the well drinks more than mere wishes."
+				""
+				"A surface well structure, jump in for a suprise."
+			]
+			icon: "minecraft:cauldron"
+			id: "5869FB26BB752DC4"
+			tasks: [{
+				icon: "minecraft:cauldron"
+				id: "2669B76806471DA8"
+				structure: "dungeons_arise:wishing_well"
+				title: "Find the Wishing Well"
+				type: "structure"
+			}]
+			title: "The Wishing Well"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: [
+				"Twin spires of ivy and stone rise like sentinels in fields of tangled bloom, their old battlements fractured by roots and rot. Within their halls, the guards of thorn and petal do not slumber lightly. Every corridor twists like a vine, and every room conceals a secret wrapped in bramble."
+				""
+				"A large surface structure with multiple levels, overgrown with vegetation and filled with enemies."
+			]
+			id: "101BF66F49C4B652"
+			tasks: [{
+				icon: "minecraft:poppy"
+				id: "465230A7A0560F83"
+				structure: "dungeons_arise:thornborn_towers"
+				title: "Find the Thornborn Towers"
+				type: "structure"
+			}]
+			title: "Find the Thornborn Towers"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: [
+				"A vessel of cloud and timber drifts where sky meets storm, its decks silent but for the creak of timbers and distant thunder. Up here, wind-borne threats circle with otherworldly grace, and treasure glints between the rafters. To conquer the Challenger, we must be born of the wind and master of its fury."
+				""
+				"Floating airship structure high above ground with aerial mobs and valuable loot."
+			]
+			id: "0F0DEBC4F752BA53"
+			tasks: [{
+				icon: "minecraft:stripped_acacia_wood"
+				id: "720F2B3587313889"
+				structure: "dungeons_arise:heavenly_challenger"
+				title: "Find the Heavenly Challenger"
+				type: "structure"
+			}]
+			title: "The Heavenly Challenger"
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			description: [
+				"A bastion of talons and thunderous cries suspended between sky and ruin, the Aviary holds creatures unlike any found on solid ground. Wings charged with crackling energy beat in furious arcs, and every perch may conceal ruin or reward. Only the most prepared dares step onto these roosting heights."
+				""
+				"End-dimension fortress structure filled with very difficult foes and great loot."
+			]
+			id: "5DB770DBC1D71175"
+			tasks: [{
+				icon: "chipped:circular_magenta_stained_glass_pane"
+				id: "6ACDFEAA88382B57"
+				structure: "dungeons_arise:aviary"
+				title: "Find the Aviary"
+				type: "structure"
+			}]
+			title: "The Aviary"
+			x: 6.0d
+			y: -4.5d
+		}
 	]
 	subtitle: ["Limited Event"]
 	title: "Bounty Board"
