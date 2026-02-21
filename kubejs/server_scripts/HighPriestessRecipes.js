@@ -1789,7 +1789,7 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.smelter(Item.of('mekanism:nugget_osmium', 3), ['mekanism:dust_osmium']).energy(50000)
         event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['mcore:raw_titanium', 'tconstruct:raw_cobalt', 'createmetallurgy:raw_wolframite']).energy(50000)
         event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['tconstruct:cobalt_ingot', 'mcore:titanium_ingot', 'createmetallurgy:tungsten_ingot']).energy(50000)
-        event.recipes.thermal.smelter('common_ore_library:platinum_dust', ['2x thermal:nickel_ingot', 'minecraft:copper_ingot']).energy(10000)
+        //event.recipes.thermal.smelter('common_ore_library:platinum_dust', ['2x thermal:nickel_ingot', 'minecraft:copper_ingot']).energy(10000)
         event.recipes.thermal.smelter('mcore:titanium_ingot', ['mcore:raw_titanium']).energy(1000)
         event.recipes.thermal.crucible(Fluid.of('integrateddynamics:menril_resin', 900), 'integrateddynamics:crystalized_menril_block').energy(9000)
         event.recipes.thermal.crucible(Fluid.of('integrateddynamics:menril_resin', 100), 'integrateddynamics:crystalized_menril_chunk').energy(3000)

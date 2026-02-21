@@ -52,10 +52,23 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
   "minecolonies_compatibility": {
     "crop.age": true,
     "postbox.requested": true,
     "stash.requested": true
+  },
+  "jadeaddons.mcjtylib": {
+    "jadeaddons": true
   },
   "mekanismcovers": {
     "cover_component": true
@@ -94,8 +107,14 @@
   "ars_nouveau": {
     "mob_jar": true
   },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
   "hammerlib": {
     "root": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
   },
   "projecte": {
     "emc_provider": false
@@ -109,9 +128,6 @@
     "slurry": true,
     "energy": true,
     "tooltip_renderer": true
-  },
-  "nightmaretamer": {
-    "stalker_info": true
   },
   "reliquary": {
     "pedestal": true,

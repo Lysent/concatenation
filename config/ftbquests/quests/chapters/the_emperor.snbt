@@ -10,28 +10,19 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"5FB472DF1ACE7FF4"
-				"45AE33EDAF0EEB9C"
-			]
+			dependencies: ["5FB472DF1ACE7FF4"]
 			description: [
-				"&5As you have explored, you may have encountered abandoned colonies. If you like, you can take over an abandoned colony and repair it. This can be a good way to jumpstart your colony. However, if you want the full colony experience, then it’s recommended that you find a good place to settle your colony and start the old fashioned way. Blood, sweat and tears.&r"
+				"&5You may find the ruins of lesser rulers scattered across the lands - rotting monuments to incompetence. Scavenging these abandoned colonies is... resourceful, but true sovereignty is forged from nothing. Prove you are better than those who failed before you.&r"
 				"{@pagebreak}"
-				"&aNote: ReversTeam is not affiliated with this questline as of now.&r"
+				"&5Do not underestimate the cost of a colony. Subjects are a resource more volatile than coal or iron. They require food, housing, and protection, or they will succumb to sickness or rebellion.&r"
+				""
+				"&5Treat them not as friends, but as cogs in the great machine of your civilization. Govern them well, and they will build you a wonder. Neglect them, and you will rule over a graveyard.&r"
+				"{@pagebreak}"
+				"&7&o(If ruling a Graveyard is, in fact, your intent, please close this chapter and refer to the later entry on graveyards.)&r"
+				""
+				"&a(You do not need to find all colonies to start the next quest, only one will suffice.)"
 			]
 			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "irons_spellbooks:villager_spell_book"
-				tag: {
-					ISB_Spells: {
-						data: [ ]
-						maxSpells: 10
-						mustEquip: 1b
-						spellWheel: 1b
-					}
-				}
-			}
 			id: "1BB571557F74D3A1"
 			rewards: [{
 				id: "5118D5653FA17BEF"
@@ -39,11 +30,54 @@
 				xp: 5
 			}]
 			size: 1.5d
-			tasks: [{
-				id: "7BE92C777F0CDFCE"
-				title: "Abandoned Villages"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "1B8E86B96ED70256"
+					structure: "minecolonies:caledonia_colony"
+					type: "structure"
+				}
+				{
+					id: "0FE2FEB62BF10121"
+					structure: "minecolonies:colonial_colony"
+					type: "structure"
+				}
+				{
+					id: "49E837573DAC265B"
+					structure: "minecolonies:incan_colony"
+					type: "structure"
+				}
+				{
+					id: "7E191EAF01B50A41"
+					structure: "minecolonies:shire_colony"
+					type: "structure"
+				}
+				{
+					id: "4FF4FDB29C106F53"
+					structure: "minecolonies:asian_colony"
+					type: "structure"
+				}
+				{
+					id: "6B3F7D8405FD09B5"
+					structure: "minecolonies:lostmesacity_colony"
+					type: "structure"
+				}
+				{
+					id: "1C8B13EF9E9BC041"
+					structure: "minecolonies:medieval_birch_colony"
+					type: "structure"
+				}
+				{
+					id: "4D779A294307CEA9"
+					structure: "minecolonies:medieval_oak_colony"
+					type: "structure"
+				}
+				{
+					id: "4B09F42EC7E29063"
+					structure: "minecolonies:medieval_spruce_colony"
+					type: "structure"
+				}
+			]
+			title: "Lost Colonies"
 			x: -1.5d
 			y: -8.25d
 		}
@@ -54,9 +88,11 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&5The Build Tool is one of the most important tools in the mod. It's how you will place all building from now on. Right+click any solid item to open the build preview GUI. On the right are controls for moving, rotating, raising, and lowering your building. "
+				"&5The Build Tool is any ruler's truly faithful companion. It is the only way to impose order upon your landscape."
 				""
-				"&5Place your Town Hall block and register your colony. However, the first building to be constructed is the builders hut. Your Town Hall cannot be built until you have a completed builders hut."
+				"&5Place the Town Hall block to claim your territory. However, the Builder's Hut must be constructed first. Your Town Hall serves as the heart of the colony, but the Builder is the hands. Construct the hands first!"
+				"{@pagebreak}"
+				"&aRight-click any solid block to open the Build Preview GUI. Use the controls on the right to shift, rotate, and align your building before placing it.&r"
 			]
 			icon: "structurize:sceptergold"
 			id: "0D6E099A1A242153"
@@ -84,9 +120,9 @@
 		{
 			dependencies: ["583A7AA84FEC027F"]
 			description: [
-				"&5Many new buildings and upgrades are locked behind university research so it is worth getting a university built as soon as possible. Researcher will research various upgrades to your colony, and each level unlocks an additional researcher for a total of 5 researchers. Each Researcher can start their own research, but more Researchers does not lower the amount of time each individual research takes."
+				"&5Ignorance is often used to excuse laziness. Construct a University to unlock advanced knowledge. Each level grants space for another researcher, up to five. More researchers allow you to pursue multiple paths of research at the same time, but they do not speed up individual tasks."
 				""
-				"&5Note: Research time is real-world time spent in-game. However, after level 3, Researchers will sometimes use offline time to work on researches."
+				"&5Note: Research will only progress while you are nearby. However, once your scholars reach level 3, they are competent enough to continue their work while you are away."
 			]
 			id: "15B51FB56A64C303"
 			rewards: [
@@ -115,7 +151,7 @@
 		}
 		{
 			dependencies: ["0D6E099A1A242153"]
-			description: ["&5Citizens need to eat in order to work. Until you have a restaurant and a steady supply of food, you will need to put a few pieces of food in their inventory. They’ll eat when they are hungry."]
+			description: ["&5Starving subjects cannot labor. Until you establish a Restaurant for automated distribution, you must hand-feed your workforce. Place food in their inventories. A dead citizen produces nothing but disease."]
 			hide_dependency_lines: true
 			id: "75599A9909C7A8C8"
 			invisible: true
@@ -138,9 +174,9 @@
 		{
 			dependencies: ["0D6E099A1A242153"]
 			description: [
-				"&5Before anything can be built, you need a Builder. The Builder must build their own Builder’s Hut before building any other huts, and they cannot build or upgrade a hut to a higher level than their own hut level. "
+				"&5You cannot rule a pile of rocks without a Builder. They must construct their own Hut before raising any other structure. Furthermore, their skill is bound by their station; they cannot build anything of a higher level than their own Hut."
 				""
-				"&5The builder is arguably the hardest working citizen in your colony. (Second only to you). You are not limited to just one builder. As your colony grows, you may need multiple builders to keep up. "
+				"&5The Builder bears the weight of your ambition. As your demands increase, you will likely require more of them to maintain your colony's expansion. Do not hesitate to recruit for your workforce."
 			]
 			id: "583A7AA84FEC027F"
 			rewards: [
@@ -170,7 +206,7 @@
 		}
 		{
 			dependencies: ["0D6E099A1A242153"]
-			description: ["&5Okay this achievement is kind of a lie. It might be more analogous to “teach a man to fish”.  Regardless, the point is that if you teach your builder to make simple items that fit in a 2x2 crafting grid (like torches) they can craft the item themselves instead of asking for help."]
+			description: ["&5A true sovereign does not whittle sticks for his subordinates. Teach your Builder to craft simple structures that fit a 2x2 grid, such as torches. Once taught, they will cease their incessant begging and produce what is required independently."]
 			hide_dependency_lines: true
 			id: "342A1EF584823D2C"
 			rewards: [
@@ -205,9 +241,11 @@
 		{
 			dependencies: ["0D6E099A1A242153"]
 			description: [
-				"&5What kind of a leader are you?! Your citizens are so hungry, they are eating rotten flesh! Are you eating rotten flesh? Can you spare some bread or apples for the colony? "
+				"&5Disgraceful. Your subjects gorge on rotting flesh because you fail to provide basic sustenance. A sick workforce is a useless one. Do you expect loyalty while they starve?"
 				""
-				"&5It is strongly suggested that you build a restaurant and any of the 5 herding huts or a fisher’s hut. If you have those buildings already, check that buildings have the resources they need to work."
+				"&5Construct a Restaurant. Support it with animal herders or a Fisher's Hut. If these structures exist, ensure they are supplied."
+				""
+				"&5Give them bread and circuses and they will never revolt."
 			]
 			hide_dependency_lines: true
 			id: "65D23E7683812E26"
@@ -237,7 +275,7 @@
 		}
 		{
 			dependencies: ["583A7AA84FEC027F"]
-			description: ["&5The Forester is an essential worker in your colony. They will chop down trees and replant a sapling in the tree’s place. Foresters will chop any tree in the immediate area. However, this area can be restricted using a zoning tool available in the hut block. "]
+			description: ["&5Lumber forms the skeleton of your empire. The Forester harvests this resource and replants to ensure future supply. They will clear the surrounding area indiscriminately unless you impose your will. Use the zoning tool within the hut block to dictate exactly where they are permitted to cut."]
 			id: "23012F6C4C522CEB"
 			rewards: [
 				{
@@ -270,7 +308,7 @@
 		}
 		{
 			dependencies: ["583A7AA84FEC027F"]
-			description: ["&5At the Mine, the Miner will mine for ores and materials. Once they are hired, the Miner will first create a shaft downward to a specific depth depending on the level of the Mine. Once the main shaft is completed, the Miner will then branch out. While mining, sometimes the Miner will get lucky and get an ore block instead of a basic stone block. &7&o(magic!)&r"]
+			description: ["&5Tear the wealth from the earth. The Miner drives a shaft deep into the ground, determined by the Mine's level, before branching out to strip the stone away. They will mostly return with cobblestone, but occasionally, they will unearth precious ore. Do not scowl at the stone; even an Emperor must wait for the Wheel to turn in their favor.&r"]
 			id: "6BB0C51EE8CA5966"
 			rewards: [
 				{
@@ -310,9 +348,9 @@
 		{
 			dependencies: ["583A7AA84FEC027F"]
 			description: [
-				"&5The fisher is an excellent source of early game food for your citizens. Hopefully you have a decent resource for string. With any luck the fisherman will also get some some extra loot. "
+				"&5The waters yield sustenance for those willing to take it. The Fisher provides early provisions, assuming you possess the string to equip them. With persistence, they may even drag up useful debris alongside their catch."
 				""
-				"&5If your colony lacks a natural water source like an ocean or river, you can make do with a 6x6x1 area of water. "
+				"&5If you have settled in a barren land without water, construct a 6x6x1 basin yourself. The fish do not care if the lake is man-made, and neither should you."
 			]
 			id: "0B009391E3F76D6E"
 			rewards: [
@@ -345,7 +383,11 @@
 		}
 		{
 			dependencies: ["583A7AA84FEC027F"]
-			description: ["&5I can finally top playing in the dirt (as much) and hand off my farming duties to someone else. I should probably have the farmer start with carrots since they don't need to be cooked, too..."]
+			description: [
+				"&5There is no dignity in labor that can be delegated. Are you an architect or are you a plowhorse? Construct a Farm and assign a subject to the fields.&r"
+				""
+				"&5I recommend cultivating carrots. They require no fuel to prepare. Every piece of coal saved on cooking is a piece of coal used for smelting iron.&r"
+			]
 			id: "57C889EC980D33D9"
 			rewards: [
 				{
@@ -383,7 +425,11 @@
 		}
 		{
 			dependencies: ["583A7AA84FEC027F"]
-			description: ["&5The warehouse is completed. It might not seem like much, but you can't have much of a trade empire without a place to store things. "]
+			description: [
+				"&5A Warehouse is the distinction between a ruler and a hoarder.&r"
+				""
+				"&5No more hiding your loot in scattered holes like a common wash-bear. If you cannot account for every ingot and log in a central ledger, you do not own them, you are merely borrowing them from the dirt.&r"
+			]
 			id: "67E8B8DCFC93F832"
 			rewards: [
 				{
@@ -422,11 +468,11 @@
 		{
 			dependencies: ["67E8B8DCFC93F832"]
 			description: [
-				"&5The Courier runs back and forth from the Warehouse to all the worker huts in your colony, delivering materials to workers and putting finished products in the Warehouse. The level of the Courier’s Hut will dictate how many items the Courier can carry and the amount of requests they can keep track of at a time."
+				"&5Regrettably, items do not move themselves. Until I discover a spell for that, to bridge the gap between the Miner and the Builder, we are stuck with Couriers.&r"
 				""
-				"&5Courier’s don’t just work on their own. You must build a warehouse, and assign the courier to work at a warehouse. "
-				""
-				"&5Note: If you have multiple Warehouses, Couriers will only see the items in the Warehouse they are assigned to. This is helpful in the late game when troubleshooting requests."
+				"&5Think of them as pack mules in human shape. A novice Courier is weak and... unburdened by intelligence. Upgrade their hut to improve their muscle mass &a(the number of items they can carry)&r&5 and cognitive processing speed &a(the amount of requests they can keep track of a time.)&r"
+				"{@pagebreak}"
+				"&5They must be assigned to a Warehouse to function. Be advised: a Courier is loyal to one Warehouse alone. They will ignore the stockpiles of neighboring buildings even if they are empty. You can use this bureaucratic tunnel vision to organize your logistics.&r"
 			]
 			id: "490628CE108A833A"
 			rewards: [
@@ -459,7 +505,11 @@
 		}
 		{
 			dependencies: ["583A7AA84FEC027F"]
-			description: ["&5With so many colonists working for the greater good it can be difficult to know who needs what. The clipboard is an easy way to see all the requests your workers have."]
+			description: [
+				"&5Your subjects will always want more. To rule is to be eternally pestered.&r"
+				""
+				"&5However, unmet needs breed resentment like stagnant water breeds mosquitoes. Use the Clipboard to view every request currently pending in your domain. You need not grant every wish, but you must at least &lknow&r&5 what they are screaming for.&r"
+			]
 			hide_dependency_lines: true
 			id: "71FCF06A98CC66D7"
 			rewards: [{
@@ -478,9 +528,9 @@
 		{
 			dependencies: ["583A7AA84FEC027F"]
 			description: [
-				"&5Got your eye on a new recruit and need some hay bales? If you place a postbox outside your tavern you can request items from the warehouse and a courier will deliver them to the postbox."
+				"&5Do not degrade yourself by acting as a delivery boy. If you require materials at a remote site - perhaps to bribe a potential recruit at the tavern - construct a Postbox. Your Couriers will fetch the items from the Warehouse.&r"
 				""
-				"&5Similarly, if you have items you want taken to the warehouse, place them in a Stash and a courier will be along shortly to pick them up."
+				"&5Conversely, if you are burdened with debris, dump it into a Stash. A Courier will collect it, assuming they do not get distracted by a butterfly on the return journey.&r"
 			]
 			hide_dependency_lines: true
 			id: "3B40A769EDB26EA2"
@@ -507,10 +557,13 @@
 		}
 		{
 			dependencies: ["1BB571557F74D3A1"]
+			dependency_requirement: "one_started"
 			description: [
-				"&5Clear and flatten an area about 20×20 blocks to make space for your camp. The camp cannot be placed if objects block the area. Right-click the supply camp on the ground to see a 3D preview. Use the arrow controls to position the camp within your cleared space, then click the green checkmark to place it. "
+				"&7&o\"I found a city of bricks and left it a city of marble.\"&r"
 				""
-				"&5If placement fails, the terrain is still in the way, remove obstacles until it fits. Red lines will mark spots that need further clearing."
+				"&5A noble sentiment, but you are currently ruling over a kingdom of dirt. To rectify that, flatten a 20x20 area and establish your foothold.&r"
+				"{@pagebreak}"
+				"&a(The camp cannot be placed if objects block the area. Right-click the supply camp on the ground to see a 3D preview. Use the arrow controls to position the camp within your cleared space, then click the green checkmark to place it. If placement fails, the terrain is still in the way, remove obstacles until it fits. Red lines will mark spots that need further clearing.)&r"
 			]
 			id: "1E1870FAD295DEDE"
 			rewards: [{
@@ -528,7 +581,12 @@
 		}
 		{
 			dependencies: ["1BB571557F74D3A1"]
-			description: ["&5Depending on the pack style you choose, supply ships may need to be placed in water, or in the air. Clear an area large enough to fit your supply ship. This may include digging under water, depending on where you place your ship. The supply ship will not place if there are objects in the way. Right clicking the supply ship on the ground will show a 3D preview of the camp. Using the placement controls arrows, position the ship in your clearing, then click the green checkmark to finalize the placement. If it won’t place, then the terrain is in the way, and you may need to clear the area more. Red lines will appear showing you the areas that need to be cleared."]
+			dependency_requirement: "one_started"
+			description: [
+				"&5Some rulers arrive by the tide, others by the winds. Whether you choose a vessel of the sea or the sky, the principle remains: space must be conquered before it is occupied."
+				"{@pagebreak}"
+				"&a(The ship cannot be placed if objects block the area. Right-click the supply ship on the ground to see a 3D preview. Use the arrow controls to position the camp within your cleared space, then click the green checkmark to place it. If placement fails, the terrain is still in the way, remove obstacles until it fits - these obstacles may be underwater. Red lines will mark spots that need further clearing.)&r"
+			]
 			id: "0F409DACBEB7BBF8"
 			rewards: [{
 				id: "5775E488967BE81A"
@@ -546,9 +604,9 @@
 		{
 			dependencies: ["0D6E099A1A242153"]
 			description: [
-				"&5The Ancient Tome is a glowing book that’s dropped by raiders during raids. If you have the Ancient Tome in your inventory, it will glow when there is going to be a raid that night. "
+				"&5The barbarians possess a crude sort of wisdom. These tomes, stripped from their cold hands, pulse with light when a raid is imminent. Keep one on your person as a warning. Forewarned is forearmed."
 				""
-				"&5In the later game, the Enchanter can convert Ancient Tomes into enchanted books. "
+				"&5Later, should you find a literate subject to staff an Enchanter's Tower, they can distill this savage magic into usable enchanted books."
 			]
 			id: "69EAF1072D492F1A"
 			rewards: [{
@@ -576,7 +634,13 @@
 		}
 		{
 			dependencies: ["0D6E099A1A242153"]
-			description: ["&5While you might think your builder needs glasses sometimes, these goggles won’t help them. The Builders googles are for you. When you put them on your head or in a curio head slot they allow you to preview your buildings at level 5 which is helpful when fitting one building next to another."]
+			description: [
+				"&5Equip these Goggles to preview a structure at Level 5 before construction begins.&r"
+				""
+				"&5Builders are blind instruments, they do not think, they place blocks. If you order them to build a Town Hall inside a lake, they will drown trying to obey you.&r"
+				""
+				"&5I once had an architect block my view of the sunset with a misplaced tower. I buried him beneath the foundation. He supports the colony much better as a structural pillar than he ever did as a planner.&r"
+			]
 			hide_dependency_lines: true
 			id: "120152510AD4B59A"
 			rewards: [{
@@ -602,11 +666,11 @@
 		{
 			dependencies: ["00A3AD4BD4EE0FC7"]
 			description: [
-				"&5The Barracks is the ultimate protection for your colony. The Barracks Towers (unlike the normal Guard tower) will employ and house one Guard for every level built, for a total of 5 Guards per Barracks Tower!"
+				"&5A lone guard tower is a semblance of protection, a deterrant against lowly pickpockets and lazy workers. A Barracks is for war. Unlike the standard tower, a Barracks Tower houses an additional soldier for every level built. Five blades, bows, or firearms per tower.&r"
 				""
-				"&5In the later game you will likely want two barracks chock full of &mexpendable&r &5brave souls."
-				""
-				"&5Tip: At level 3, you can hire spies for 5 gold per raid, these spies will go out into the world and if barbarians are spotted, the spies will tell you exactly where the barbarians are."
+				"&5Do not be stingy with lives. Eventually, you will need two such Barracks, packed with &mexpendable&r &5devoted souls.&r"
+				"{@pagebreak}"
+				"&5King Aethelgard claimed spies were a waste of coin. He saved fifty gold pieces, right up until the moment a raiding party severed his head during supper. Learn from his headless corpse: at Level 3, pay the gold to track the barbarians before they breach your walls.&r"
 			]
 			id: "5A11A2FC20E5CE2A"
 			rewards: [
@@ -672,7 +736,13 @@
 		}
 		{
 			dependencies: ["15B51FB56A64C303"]
-			description: ["&5The Sawmill is where the Carpenter will craft any items made of at least 75% wood. This is the point where the colony really starts to feel like it’s running on its own. Be sure to set up important recipes for items your builder regularly needs. While the sawmill starts with a paltry 10 recipes, the number of recipes you can teach the Sawmill doubles per building level."]
+			description: [
+				"&5Wood is the poor man's stone, but essential nonetheless. The Sawmill houses the Carpenter, who will craft items primarily composed of timber, relieving you of the indignity of manufacturing your own fences.&r"
+				""
+				"&5Do not be fooled into thinking the colony runs itself yet. You must hand-feed the recipes to the Carpenter. Prioritize what your Builder demands most often.&r"
+				"{@pagebreak}"
+				"&5At level 1, the Carpenter is dim-witted, capable of recalling a mere 10 recipes. Upgrade the building, and the recipe capacity doubles per level. I once tried to teach a novice carpenter an 11th recipe. He wept until I burned the blueprint.&r"
+			]
 			id: "0EBB4E5195610A82"
 			rewards: [
 				{
@@ -704,7 +774,13 @@
 		}
 		{
 			dependencies: ["15B51FB56A64C303"]
-			description: ["&5The Composter’s Hut is where the Composter will turn organic materials into compost, which can be used by the Farmer or Florist to fertilize crops or flowers. "]
+			description: [
+				"&5There is a certain irony in ruling: one must manage gold and garbage with equal attention. The Composter's Hut houses a subject designated to churn organic refuse into fertilizer.&r"
+				""
+				"&5It is a smelly, thankless task, which is exactly why you are not doing it. The resulting muck is vital for the Farmer and Florist to accelerate their yields.&r"
+				""
+				"&5Do not fall into the trap of the Royal Gardener who refused to use compost because the stench 'offended his delicate nose.' The famine that winter was far more offensive.&r"
+			]
 			id: "6B0CE8AD86991E28"
 			rewards: [
 				{
@@ -732,11 +808,11 @@
 		{
 			dependencies: ["15B51FB56A64C303"]
 			description: [
-				"&5The Mystical Site is a simple building that increase a colony's overall happiness level. It has no worker and increases colonists' happiness just by existing."
+				"&5The Mystical Site is a monument to superstition. It requires no worker, yet increases happiness simply by looming there. Peasants are easily impressed by glowing rocks.&r"
 				""
-				"&5The Mystical Site also gives a bonus to the maximum resurrection chance of the Undertaker."
+				"&5It also boosts the Undertaker's chance of resurrection. Essential, since your subjects seem intent on dying in the most preventable ways possible.&r"
 				""
-				"&5Before you get too excited. No, there is no benefit or bonus from building multiple mystical sites. "
+				"&5Do not build more than one. The magic does not multiply. If only immortality were that easy...&r"
 			]
 			id: "206159A3C7A78447"
 			rewards: [{
@@ -757,9 +833,9 @@
 		{
 			dependencies: ["583A7AA84FEC027F"]
 			description: [
-				"&5The Guard Tower will employ and house one Guard to protect your colony. Your citizens will appreciate a well guarded colony. A general rule of thumb is two guards for every three citizens."
+				"&5The Guard Tower houses exactly one sentinel. Your subjects are notoriously fragile; they require constant visual reassurance of their safety. Aim for a ratio of two guards for every three civilians.&r"
 				""
-				"&5Guards sleep in guard dowers, freeing up the bed they previously occupied in a residence or tavern allowing you to recruit new colonists. "
+				"&5Once assigned, the guard sleeps in the tower rather than the general housing. This frees up space for a new &mtaxpayer&r&5 citizen. No sense in letting a warm bed go cold.&r"
 			]
 			id: "00A3AD4BD4EE0FC7"
 			rewards: [
@@ -832,7 +908,17 @@
 		}
 		{
 			dependencies: ["15B51FB56A64C303"]
-			description: ["&5The Dyer's Hut is where the Dyer will craft dyes and dye other items, including red nether bricks and dark prismarine. They won't dye concrete or concrete powder, though."]
+			description: [
+				"&5A splash of color often convinces a peasant that their hovel is a palace. The Dyer's Hut houses a specialist dedicated to crafting pigments and staining items, including exotic materials like Red Nether Bricks and Dark Prismarine.&r"
+				"{@pagebreak}"
+				"&5However, they refuse to touch Concrete or Concrete Powder. I once argued this with my Head Dyer.&r"
+				""
+				"&d\"My Lord, concrete is heavy and ruins my delicate mixing spoons.\"&r"
+				"&5\"It is dust and water! Just add the blue!\"&r"
+				"&d\"It requires a mixer, not a cauldron! It won't bind!\"&r"
+				""
+				"&5Insolent, but correct. Leave the concrete to the brutes; the Dyer has soft hands.&r"
+			]
 			id: "52453550206EC770"
 			rewards: [
 				{
@@ -884,9 +970,11 @@
 		{
 			dependencies: ["15B51FB56A64C303"]
 			description: [
-				"&5The Flower Shop is where your Florist will grow flowers for your colony, if given compost and an axe. "
+				"&5The Flower Shop houses the Florist, who cultivates flora for your colony provided they are supplied with compost and an axe. Yes, an axe. Apparently, aggressive pruning is the only method these peasants understand.&r"
 				""
-				"&5One important factor to know is that the flower shop has a daily flower limit based on the hut level. Level 1 has a daily max of 4, level 2 has 8. At level 5 it’s daily max is 20. "
+				"&5Production is strictly capped by the building's level. At level 1, the daily limit is a meager 4 flowers. Level 2 grants you 8.&r"
+				""
+				"&5By level 5, the daily maximum reaches 20. If your dye production requires more volume, simply build another shop.&r"
 			]
 			id: "37E43341FA234E84"
 			rewards: [
@@ -931,7 +1019,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Burry Your First Citizen"
+			subtitle: "Bury Your First Citizen"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/citizen_bury"
 				criterion: ""
@@ -944,7 +1032,11 @@
 		}
 		{
 			dependencies: ["1BB571557F74D3A1"]
-			description: ["&5The rallying banner will summon your Guards to you when used. It’s especially useful in raids, as Guards don’t automatically know where to find the raiders. You must shift + right-click the banner on a Guard tower or Barracks Tower to assigns the Guards in that tower to the rallying banner."]
+			description: [
+				"&5Left to their own devices, your guards will likely stand idle while raiders burn the bakery. They require specific direction.&r"
+				""
+				"&aShift + right-click the Rallying Banner on a Guard Tower or Barracks to link those soldiers to the item. When used, the banner summons them to your side.&r"
+			]
 			hide_dependency_lines: true
 			id: "1C16AEE8E29FB5A0"
 			rewards: [{
@@ -969,7 +1061,11 @@
 		}
 		{
 			dependencies: ["15B51FB56A64C303"]
-			description: ["&5The stonemason is another key profession in the colony. They craft items commonly required by the builder. The stonemason will craft 3x3 recipes made entirely out of cobblestone, stone, andesite, diorite, granite, quartz, purpur, nether bricks, prismarine, sandstones, blackstone, and basalt. They can also craft end stone from cobblestone and an ender pearl after you complete the research."]
+			description: [
+				"&5The Stonemason relieves your Builder of the tedious labor of shaping rock. They are responsible for crafting 3x3 recipes using materials such as cobblestone, granite, quartz, purpur, prismarine, and blackstone.&r"
+				""
+				"&5With the appropriate research, they can also transmute cobblestone and an Ender Pearl into End Stone.&r"
+			]
 			id: "15F03A5E7E14C022"
 			rewards: [
 				{
@@ -1003,8 +1099,9 @@
 		{
 			dependencies: ["5A11A2FC20E5CE2A"]
 			description: [
-				"&5The Combat Academy is where your Knights in Training will train to become Knight. This also allows them to level up without a risk of dying to mobs."
-				"&5The Knights in Training require a sword and shield to practice. They will attack the practice dummies, a pumpkin on top of a bale of hay."
+				"&5Sending raw recruits to the front lines is a waste of investment. The Combat Academy allows Knights in Training to hone their skills without the inconvenience of dying.&r"
+				""
+				"&5Provide them with a sword and shield, and they will vigorously attack practice dummies (very fierce pumpkins atop hay bales). It is hardly glorious, but it ensures they survive long enough to be useful.&r"
 			]
 			id: "4D9DC4973FD340E5"
 			rewards: [
@@ -1049,9 +1146,14 @@
 		{
 			dependencies: ["5A11A2FC20E5CE2A"]
 			description: [
-				"&5The Archery is where your Archers in Training will train to become Archer. This also allows them to level up without a risk of dying to mobs. "
+				"&5Hand a peasant a bow, and they are as likely to shoot their own foot as the enemy. The Archery allows Archers in Training to gain experience with a minimized risk of friendly fire.&r"
 				""
-				"&5The Archers in Training require a bow to practice. They will shoot at the practice targets, a target block"
+				"&5Simply provide them with a bow. They will fire upon Target Blocks until they are competent enough to be trusted with actual defense.&r"
+				"{@pagebreak}"
+				"&d\"My Lord, I struck the center!\"&r"
+				"&5\"That is a cow, recruit. The target is to your left.\"&r"
+				"&d\"...it's moving target practice?\"&r"
+				"&5\"It will be your dinner, if you do not miss the next shot.\"&r"
 			]
 			id: "6D56AD1BEC644A10"
 			rewards: [
@@ -1084,7 +1186,13 @@
 		}
 		{
 			dependencies: ["15B51FB56A64C303"]
-			description: ["&5The Graveyard is where the Undertaker will bury your deceased citizens. When a citizen dies, a grave will spawn at the location of death. The Undertaker will attempt to recover the grave before it despawns. If successful, the Undertaker will return to the graveyard and attempt to revive the citizen. If the citizen cannot be revived, the Undertaker will bury them in the Graveyard. Another grave will be placed with the citizen’s name on it."]
+			description: [
+				"&5I once watched a Level 5 Builder walk into a ravine. I mourned for three days; not the man, no, but the three weeks of training time I lost! It was a staggering blow to my production schedule.&r"
+				""
+				"&5The Undertaker attempts to mitigate this waste. When a subject dies, a grave appears. The Undertaker will rush to retrieve it before the world erases the evidence.&r"
+				""
+				"&5If successful, the subject may be revived to resume their duties. If not, the Undertaker handles their final affairs, and buries them neatly in the Graveyard.&r"
+			]
 			id: "33058894ACD9CB06"
 			rewards: [
 				{
@@ -1122,9 +1230,14 @@
 		{
 			dependencies: ["583A7AA84FEC027F"]
 			description: [
-				"&5Citizens will go to the Residence they are assigned to at night to sleep. The Residence is also a way to get more citizens for your colony. Every residence level adds another bed. More beds means more citizen capacity."
+				"&5Your subjects require a designated place to sleep, lest they wander blindly into the night. The Residence houses them, leveling it increases bed count and population capacity.&r"
 				""
-				"&5It’s worth considering residence locations and the citizens they house. Workers get grumpy when they have to travel long distances to work. Try to move citizens into homes close to where they work. "
+				"&5Don't rush the placement. If a worker must traverse the entire colony to reach their job, their mood - and work ethic - plummets.&r"
+				"{@pagebreak}"
+				"&d\"My Lord, the lumberjack complains the commute is 'unbearable'.\"&r"
+				"&5\"He lives fifty paces from the sawmill.\"&r"
+				"&d\"He claims the terrain is uneven.\"&r"
+				"&5\"Move his house next to the sawblade. If he complains again, move him &linto&r&5 the sawblade.\"&r"
 			]
 			id: "72C749AD9F1C634E"
 			rewards: [
@@ -1157,7 +1270,13 @@
 		}
 		{
 			dependencies: ["15B51FB56A64C303"]
-			description: ["&5Remember in the beginning how it seemed that everyone was sick with Influenza and you had to keep feeding everyone carrots and potatoes? With the hospital built, they can go see the doctor and get cured by the Healer. You or the colony still needs to supply the ingredients."]
+			description: [
+				"&5Do you recall the indignity of the early days? Sprinting between hovels, shoving raw potatoes into the mouths of coughing peasants to stave off influenza? It is hardly behavior befitting a ruler.&r"
+				""
+				"&5Construct the Hospital. The Healer will automatically administer cures to the sick and injured, provided your warehouses supply the necessary ingredients.&r"
+				"{@pagebreak}"
+				"&5Do not hesitate. My cousin, Baron Von Sneze, believed healthcare was a \"luxury for the weak.\" His reign - and his bloodline - ended in a singular, wet explosion of mucus. A tragic, yet avoidable, legacy.&r"
+			]
 			id: "74C114D0C0D4D374"
 			rewards: [
 				{
@@ -1184,9 +1303,9 @@
 		{
 			dependencies: ["15B51FB56A64C303"]
 			description: [
-				"&5The Library is a way for you to raise your adult citizens’ Intelligence skill, which influences skill increases once employed. A citizen will randomly level up their Intelligence as long as they’re assigned to the Library. Paper and books help Library Students increase their skills faster."
+				"&5The Library allows adult citizens to cultivate their Intelligence, a vital attribute that accelerates their skill acquisition in future professions.&r"
 				""
-				"&5Being a Library Student is a full-time job, and a student cannot be employed simultaneously at any other hut."
+				"&5Be aware that scholarship is a singular pursuit: a student cannot labor elsewhere while studying. However, supplying them with paper and books will expedite their education, ensuring they return to the workforce as productive prolateriats rather than disgraceful dullards.&r"
 			]
 			id: "68FC81E133443E76"
 			rewards: [
@@ -1220,7 +1339,11 @@
 		}
 		{
 			dependencies: ["15B51FB56A64C303"]
-			description: ["&5The Blacksmith is a 3x3 crafter and can make any vanilla tools, armour, swords, and shields (no bows or redstone items). You will need to teach the Blacksmith the recipes of the items you want them to create. "]
+			description: [
+				"&5Historically speaking, steel dictates the longevity of most regimes. The Blacksmith operates as a 3x3 crafter, forging vanilla tools, armor, swords, and shields.&r"
+				""
+				"&5Note that they are metalworkers, not fletchers or engineers; they cannot craft bows or redstone devices. Additionally, like every other colonist, they lack initiative. You must teach them specific recipes before they will get to work.&r"
+			]
 			id: "19D03831EB5EED02"
 			rewards: [{
 				count: 16
@@ -1241,9 +1364,11 @@
 		{
 			dependencies: ["15B51FB56A64C303"]
 			description: [
-				"&5The Stone Smeltery is where the Stone Smelter will smelt cobblestone into stone, stone bricks into cracked stone bricks, clay balls into bricks, clay blocks into terracotta, terracotta into glazed terracotta, all types of stone into all types of smooth stone, and logs into charcoal. They can also pop chorus fruits! "
+				"&5Cobblestone is the building material of peasants and desperate refugees. To distinguish yourself from the scum of the earth, build with refined materials. The Stone Smeltery processes raw earth: Cobblestone into Stone, Clay into Bricks or Terracotta, and Logs into Charcoal. They may even pop Chorus Fruit, should your tastes run eccentric.&r"
 				""
-				"&5Be sure to teach the Stone Smelter recipes needed by your colony. Also, be sure to set a fuel type. "
+				"&5You must explicitly teach the Smelter the recipes you desire and designate a fuel type.&r"
+				"{@pagebreak}"
+				"&5Do not neglect aesthetics. I once visited a rival's 'Grand Fortress' constructed entirely of unsmelted cobblestone. I asked him if the masons were on strike or if he was simply stacking debris until the garbage cart arrived. He declared war immediately. It was a short war; his walls were as weak as his taste.&r"
 			]
 			id: "430475E11D259B74"
 			rewards: [
@@ -1271,7 +1396,11 @@
 		}
 		{
 			dependencies: ["15B51FB56A64C303"]
-			description: ["&5The Smeltery is where the Smelter will smelt ores into ingots. The higher the level of the Smeltery, the more furnaces the Smelter will be able to use. A higher level will also have a higher chance to double and even triple the ingot output per block of ore."]
+			description: [
+				"&5Raw ore is heavy, dirty, and useless until refined. The Smeltery designates a worker to process these ores into ingots.&r"
+				""
+				"&5Upgrading this building should be your first priority. Higher levels allow the Smelter to utilize more furnaces simultaneously. More importantly, advanced facilities increase yield efficiency, offering a chance to double or triple the ingot output per ore. Only a novice accepts a mere one-to-one return.&r"
+			]
 			id: "6A60B76053393288"
 			rewards: [
 				{
@@ -1298,7 +1427,11 @@
 		}
 		{
 			dependencies: ["4EEF0962CC249F30"]
-			description: ["&5The Baker will craft bread dough, cookie dough, cake dough, and raw pumpkin pie, then bake these in a furnace to create bread, cookies, cakes, and pumpkin pies. They will only do this upon request, whether from the Cook, the postbox, or as a minimum stock in the Warehouse."]
+			description: [
+				"&5Raw grain is fit only for livestock. The Baker refines ingredients into dough - be it for bread, cookies, cakes, or pumpkin pies - and commits them to the furnace.&r"
+				""
+				"&5Do not expect them to labor without direction, however. They require a specific order to begin: a demand from the Cook, an order via the Postbox, or a directive to maintain minimum stock in the Warehouse.&r"
+			]
 			id: "7B5E2CD676A1A1C4"
 			rewards: [
 				{
@@ -1326,9 +1459,9 @@
 		{
 			dependencies: ["1BB571557F74D3A1"]
 			description: [
-				"&5The resource scroll is an easy way to tell what one of your Builder needs. Sneak + right-click on a Builder’s Hut to register the resource scroll to the builder."
+				"&5Many rulers have driven themselves mad trying to memorize the petty demands of their subordinates. The Resource Scroll catalogues the materials required by a Builder, sparing you the indignity of guessing.&r"
 				""
-				"&5Now when you right-click while holding the resource scroll, you will see all the needed materials for the Builder’s Hut you clicked on."
+				"&a(To bind the scroll, Shift and right-click upon a Builder's Hut. Once linked, right-click the scroll to inspect the needed materials.)&r"
 			]
 			hide_dependency_lines: true
 			id: "085F473094778DCD"
@@ -1353,9 +1486,9 @@
 		{
 			dependencies: ["15B51FB56A64C303"]
 			description: [
-				"&5Possibly one of the most dangerous jobs, especially early on. The Nether Miner travels to the Nether to mine resources. When the miner travels through the portal, there is a chance they may die. So choose your worker carefully."
+				"&5The Nether Mine extracts resources from the infernal dimension. It is a hazardous assignment; every transition through the portal carries a distinct probability of fatality. Assign a subject whose potential loss does not distress you.&r"
 				""
-				"&5The portal in the Nether Mine will transport players to the Nether. However, the Nether Miner does not actually travel into the Nether, nor do they actually mine any blocks in the Nether."
+				"&aNote: The portal in the Nether Mine will transport players to the Nether. However, the Nether Miner does not actually travel into the Nether, nor do they actually mine any blocks in the Nether. However, the risk of death is entirely real."
 			]
 			id: "3B91163DE3DA885C"
 			rewards: [{
@@ -1578,7 +1711,11 @@
 		}
 		{
 			dependencies: ["33058894ACD9CB06"]
-			description: ["&5Just make sure you have unlocked the research \"Raising the Dead\"..."]
+			description: [
+				"&5Before proceeding, verify that you have unlocked the research 'Raising the Dead.'&r"
+				""
+				"&5Emperor Sullivus the Stubborn refused to research this, claiming he 'would not negotiate with the grim reaper.' The reaper was equally unamicable to negotiations, and unionized the local cemetery against Sullivus' colonists. Sullivus was deposed by his own great-grandfather's skeleton. Embarrassing.&r"
+			]
 			id: "696BDC29ACCBBE29"
 			invisible: true
 			rewards: [{
@@ -1625,7 +1762,14 @@
 		}
 		{
 			dependencies: ["583A7AA84FEC027F"]
-			description: ["&5Here's a bed, you will probably need more."]
+			description: [
+				"&5Sleep is a regrettable biological weakness, yet your subjects insist upon it. Without a proper bed, they wander aimlessly or, worse, succumb to nocturnal horrors.&r"
+				""
+				"&d\"Sire, must we provide them with actual pillows?\"&r&5 my Treasurer once asked. &d\"A sack of gravel is cheaper.\"&r"
+				"&5\"Try sleeping on gravel, Jenkins,\" I replied. \"If their backs break, who carries my sedan chair? You?\"&r"
+				""
+				"&5He stopped complaining. Mostly because I made him sleep on gravel for a week.&r"
+			]
 			hide_dependency_lines: true
 			id: "6B26495A9E7D77FC"
 			invisible: true
@@ -1678,7 +1822,11 @@
 		}
 		{
 			dependencies: ["1BB571557F74D3A1"]
-			description: ["&5Is the builder going too slow? With this hammer equiped and the right resources in your inventory, you can help the builder out. Simply click anywhere in the hut being built to place blocks for the builder. "]
+			description: [
+				"&5Builders often move with the urgency of a glacier. If their pace offends you, equip this hammer.&r"
+				""
+				"&5With the requisite materials in your inventory, tap &a(right-click)&r&5 anywhere within the construction zone. You will instantly place the blocks, effectively doing their job for them. It is manual labor, yes, but preferable to waiting.&r"
+			]
 			hide_dependency_lines: true
 			id: "503C5A0CE113962C"
 			rewards: [
@@ -1711,7 +1859,11 @@
 		}
 		{
 			dependencies: ["4EEF0962CC249F30"]
-			description: ["&5The Cookery is where the Chef prepares meals for your citizens. When other buildings request food, the Chef will cook it. Pair the Cookery with your Restaurants to automatically keep them stocked with fresh meals."]
+			description: [
+				"&5The Cookery houses the Chef, whose duty is to convert raw ingredients into edible meals whenever a request is issued.&r"
+				""
+				"&5Ensure this facility feeds into your Restaurants to automatically keep them stocked. A well-managed supply chain prevents the inconvenience of famine.&r"
+			]
 			id: "55851524FDDB6959"
 			rewards: [
 				{
@@ -1736,7 +1888,15 @@
 		}
 		{
 			dependencies: ["206159A3C7A78447"]
-			description: ["&5I hope your citizens apprcaite all that you do for them. Spoiler alert, they don't thay are probably still complaining abount not enough guards, poor housing conditions, or refusing to eat the slop you put in front of them. (only commoners eat steak...)"]
+			description: [
+				"&5When I first grasped the Emperor card, I thought myself a father. I believed that if I built my people a paradise, they would return my protection with loyalty. I was naive.&r"
+				""
+				"&5Do you know what broke me? It was not a rebellion, nor the deaths of my beloved citizens, nor the cruel and savage invaders in every direction. It was the rain.&r"
+				""
+				"&5I once watched an entire construction crew abandon a critical defense wall because of a light drizzle. I stood there, soaking wet, laying the bricks myself while they huddled in a hut complaining about damp boots.&r"
+				"{@pagebreak}"
+				"&5So do not look for love. It is a resource they do not possess. Let them complain about the housing, the guards, the rations. They will demand steak while you hold the wolves at bay. Give them the meat - not because they deserve it, but because a mouth full of food cannot complain about the weather.&r"
+			]
 			id: "5827E9110E4B19F9"
 			invisible: true
 			rewards: [
@@ -1795,9 +1955,11 @@
 		{
 			dependencies: ["583A7AA84FEC027F"]
 			description: [
-				"&5The Town Hall is the central building in your colony. It provides lots of helpful information about your colony such as citizen stats, open work orders, citizen happiness, allies and more. "
+				"&5The Town Hall is your command center. Consult it often.&r"
 				""
-				"&5The settings tab should be a first stop for any new colonist as it contains options for hiring mode, housing assignment mode, and options to allow kids to be born. Also, this is where you can customize your colony flag. Your flag will appear on guard towers and guard shields. "
+				"&5Configure the hiring and housing edicts at your leisure. If you leave these decisions to the citizens, they will breed until they starve or hire the village idiot to guard the treasury.&r"
+				""
+				"&5Finally, select your banner, which will appear on guard towers and shields. Mark your territory. Unmarked property is just free real estate for the next conqueror.&r"
 			]
 			id: "7D3489901AA47547"
 			rewards: [
@@ -1826,11 +1988,11 @@
 		{
 			dependencies: ["583A7AA84FEC027F"]
 			description: [
-				"&5Starving colonists will eat just about anything, including raw food and rotten flesh. Yuck! "
+				"&5Left to their own devices, a starving colonist will consume raw meat or even rotten flesh. While I admire the survival instinct, the resulting sickness is a drain on productivity.&r"
 				""
-				"&5When citizens are hungry, they will come to the Restaurant and the Cook will give them food. (assuming you have food to give them) Consider building a Fisher’s Hut, or a Cowhand’s Hut. "
+				"&5Hungry citizens gather at the Restaurant to receive prepared meals from the Cook, provided you have established supply lines like a Fisher's Hut or Cowhand's Hut.&r"
 				""
-				"&5Note: Make sure to choose a fuel for your cook to use. Some popular options are charcoal, sticks, and planks, although anything with a burn time will work. "
+				"&5Note: The ovens require fuel. Configure the settings to accept charcoal, sticks, or planks. No matter how firey their eyes, your Cook cannot grill a steak by simply glaring at it.&r"
 			]
 			id: "4EEF0962CC249F30"
 			rewards: [
@@ -1859,11 +2021,11 @@
 		{
 			dependencies: ["583A7AA84FEC027F"]
 			description: [
-				"&5Cliches aside, the tavern should be a high priority building in the early game for several reasons. A tavern can house four colonists. Exactly the number that spawned when you created your village. "
+				"&5Construct the Tavern as soon as possible. It provides housing for four citizens, which is precisely the burden you begin with.&r"
 				""
-				"&5After completing the tavern, visitors will stop by to hang out in hopes of being recruited into your colony. You can recruit these visitors by giving them the items they request. "
+				"&5Furthermore, the Tavern attracts visitors seeking residency. You may recruit them by fulfilling their requests for specific items.&r"
 				""
-				"&5You may want to check out their stats before recruiting a visitor because nobody wants to pay too much for a rubbish colonist."
+				"&5Scrutinize their attributes before hiring. Do not squander resources recruiting a subject who is incompetent at everything but breathing and eating!&r"
 			]
 			id: "75CBFD0F90772359"
 			rewards: [
@@ -1892,7 +2054,13 @@
 		}
 		{
 			dependencies: ["15B51FB56A64C303"]
-			description: ["&5The Crusher’s Hut is where the Crusher will take items and crush them into other blocks. Most notably cobblestone = gravel, gravel = sand, sand = clay. One important factor to know is that the crusher has a daily limit based on the hut level. Level 1 has a daily max of 16, level 2 has 64. At level 5 it’s daily max is 999. "]
+			description: [
+				"&5The Crusher performs the mindless labor of pulverizing stone: Cobblestone to Gravel, Gravel to Sand, and Sand to Clay.&r"
+				""
+				"&5Mind the daily quota. A Level 1 hut manages a pitiful 16 items. If you demand a glass palace with such meager production, you'll die of old age before even the ground floor can be glazed.&r"
+				""
+				"&5Invest in upgrades. At Level 2 the limit hits 64, and by Level 5, they can crush 999 items a day. Anything less is just a waste of a good mallet.&r"
+			]
 			id: "07C26C046CDE2507"
 			rewards: [
 				{
@@ -1962,7 +2130,7 @@
 		}
 		{
 			dependencies: ["6A60B76053393288"]
-			description: ["&5A level 3 smeltery applies Fortune II when smelting ores! "]
+			description: ["&5A Level 3 Smeltery applies Fortune II. Do not ask me how burning a rock harder produces twice the iron.&r"]
 			id: "6B80B2314CC47FD6"
 			invisible: true
 			rewards: [
@@ -1990,7 +2158,7 @@
 		}
 		{
 			dependencies: ["6B80B2314CC47FD6"]
-			description: ["&5The smeltery applies Fortune IV when smelting ores! "]
+			description: ["&5The Smeltery now applies Fortune IV when processing ores. In this world, asking dangerous questions such as \"How could a machine possibly extract four ingots from one stone?\" is akin to inviting a malevolent higher existence onto your front doorstep.&r"]
 			id: "0089B6C20C45DDCA"
 			invisible: true
 			rewards: [
@@ -2018,7 +2186,13 @@
 		}
 		{
 			dependencies: ["57C889EC980D33D9"]
-			description: ["&5Assign 5 fields to a single worker."]
+			description: [
+				"&5Do not let your farmers idle. A single worker is perfectly capable of tending to five fields simultaneously. If they aren't sweating, they aren't working.&r"
+				""
+				"&d\"Five fields?\"&r&5 my Head Gardener gasped. &d\"Surely you jest, Emperor? They have but two hands!\"&r"
+				""
+				"&5\"Then they must move those hands faster. And tell them to stop complaining. Back in my day, we farmed volcanoes. Uphill. Both ways.\"&r"
+			]
 			id: "226176A1C73431B5"
 			invisible: true
 			rewards: [

@@ -1,7 +1,8 @@
 [
   {
     "matchFluid": [
-      "createmetallurgy:molten_iron"
+      "createmetallurgy:molten_iron",
+      "common_ore_library:molten_iron"
     ],
     "resultFluid": "tconstruct:molten_iron"
   }

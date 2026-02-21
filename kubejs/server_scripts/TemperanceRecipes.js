@@ -241,21 +241,21 @@ ServerEvents.recipes(event => {
                         B: 'concatenationcore:antimony'
                 }
         ).keepIngredient('#concatenation:magic_cards_t2')
-        event.shaped(
-                Item.of('tarotcards:the_lovers'),
-                [
-                        'ABA',
-                        'CDE',
-                        'ABA'
-                ],
-                {
-                        E: 'ars_elemental:flashpine_pod',
-                        C: 'concatenationcore:alatoris_fiber',
-                        A: 'concatenationcore:gold_paper',
-                        B: 'concatenationcore:antimony',
-                        D: '#concatenation:magic_cards_t2'
-                }
-        ).keepIngredient('#concatenation:magic_cards_t2')
+        // event.shaped(
+        //         Item.of('tarotcards:the_lovers'),
+        //         [
+        //                 'ABA',
+        //                 'CDE',
+        //                 'ABA'
+        //         ],
+        //         {
+        //                 E: 'ars_elemental:flashpine_pod',
+        //                 C: 'concatenationcore:alatoris_fiber',
+        //                 A: 'concatenationcore:gold_paper',
+        //                 B: 'concatenationcore:antimony',
+        //                 D: '#concatenation:magic_cards_t2'
+        //         }
+        // ).keepIngredient('#concatenation:magic_cards_t2')
         event.shapeless(
                 Item.of('tarotcards:the_lovers'),
                 [
