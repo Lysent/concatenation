@@ -12,7 +12,7 @@ jobs:
 
       - name: Create Technic release
         run: |
-          zip -r ./release.zip .
+          zip -r9 release.zip . -x"*.git*"
 
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v1
