@@ -285,11 +285,7 @@
 			tasks: [{
 				advancement: "ars_nouveau:poof_mob"
 				criterion: ""
-				icon: {
-					Count: 1
-					id: "ars_nouveau:starby_gift"
-					tag: { }
-				}
+				icon: "ars_nouveau:starby_gift"
 				id: "73C1BF6573AF8DF8"
 				type: "advancement"
 			}]

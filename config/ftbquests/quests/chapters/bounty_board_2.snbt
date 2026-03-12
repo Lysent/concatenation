@@ -12,7 +12,7 @@
 		}
 	}
 	id: "6EF96D49109B6053"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -259,8 +259,9 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["0C11BA015DF26C52"]
+			dependencies: ["0F3237156DE95B07"]
 			description: ["&o&7There appears to be a stone tablet nailed to the bounty board that, upon further inspection, projects a message on its surface. These commissions are only available to those who have delved to the darkest depths. Please return when you are qualified. "]
+			hide_until_deps_complete: false
 			id: "63906D4F4224E53D"
 			rewards: [{
 				id: "724568EB88C41E80"

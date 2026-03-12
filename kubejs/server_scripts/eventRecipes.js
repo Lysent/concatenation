@@ -161,4 +161,53 @@ ServerEvents.recipes(event => {
         }
     )
 
+    // Timaeus
+
+    event.shaped(
+        Item.of('bountiful:bounty'),
+        [
+            'ABC',
+            'DEF',
+            'GBH'
+        ],
+        {
+            F: 'strangematter:shade_shard_crystal',
+            E: 'concatenationcore:prudence',
+            H: 'strangematter:gravitic_shard_crystal',
+            D: 'strangematter:energetic_shard_crystal',
+            C: 'strangematter:spatial_shard_crystal',
+            B: 'perdition:scintillate_pile',
+            G: 'strangematter:chrono_shard_crystal',
+            A: 'strangematter:insight_shard_crystal'
+        }
+    ).keepIngredient('concatenationcore:prudence')
+
+    event.shaped(
+        Item.of('mokels_bossfight_saphyra:sigil_of_the_red_sun'),
+        [
+            'ABA',
+            'CDE',
+            'ABA'
+        ],
+        {
+            B: 'concatenationcore:fortune_fragment',
+            C: 'tarotcards:the_devil',
+            D: 'bountiful:bounty',
+            E: 'tarotcards:justice',
+            A: 'concatenationcore:silver_paper'
+        }
+    ).keepIngredient('tarotcards:the_devil').keepIngredient('tarotcards:justice')
+    event.shaped(
+    Item.of('mokels_bossfight_saphyra:key_2'),
+    [
+        ' A ',
+        'ABA',
+        ' A '
+    ],
+    {
+        A: 'strangematter:gravitic_shard',
+        B: 'mokels_bossfight_saphyra:sunveil'
+    }
+)
+
 });

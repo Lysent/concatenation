@@ -1,0 +1,286 @@
+# Don't change this! Version used to track needed updates.
+version = 5
+# Enable debug logging for effect conversion and lookup
+# Shows detailed information about effect unification in the log
+# Useful for troubleshooting issues with effect mappings
+debugLogging = false
+
+# Effect mappings for unification
+# 
+# PRIORITY SYSTEM:
+# 1. Exact matches ALWAYS take priority over wildcards
+# 2. Later configs override earlier configs (bottom overrides top)
+# 3. Use exact matches at the bottom to override wildcard patterns
+# 
+# WILDCARD PATTERNS:
+# - \"*:bleeding\" - exact name from any mod
+# - \"*:bleeding*\" - partial match (contains \"bleeding\")
+# - \"modid:effect*\" - prefix match in specific mod
+# - \"*:bleeding* !*:bleeding_immunity\" - with exclusions
+# 
+# FALLBACK TARGETS:
+# - \"primary:effect, fallback:effect\" - tries primary first, then fallback
+
+[[mappings]]
+# Source effect pattern (supports wildcards and exclusions)
+# Examples:
+# - \"*:bleeding\" - exact name from any mod
+# - \"*:bleeding*\" - partial match (contains \"bleeding\")
+# - \"modid:effect*\" - prefix match in specific mod
+# - \"*:bleeding* !*:bleeding_immunity\" - with exclusions
+sourceEffect = "*:bleeding* !*:bleeding*_immunity !*:bleeding*_resistance"
+# Target effect (can contain multiple effects separated by commas for fallback)
+# Example: \"primary:effect, fallback:effect\"
+targetEffect = "majruszsdifficulty:bleeding, attributeslib:bleeding, valoria:bleeding"
+# Multiplier for effect amplifier (source_amplifier * multiplier = target_amplifier)
+amplifierMultiplier = 1.0
+# If true, only changes visual display without converting amplifier
+onlyVisualChange = false
+# If true, source effect is NOT considered as target (prevents source mod handlers from triggering)
+unidirectional = false
+# Additional effects whose applyUpdateEffect() should be called (comma-separated)
+extraApplyEffectTick = ""
+# Effects whose applyUpdateEffect() should be blocked (comma-separated)
+discardEffectTick = ""
+
+[[mappings]]
+# Source effect pattern (supports wildcards and exclusions)
+# Examples:
+# - \"*:bleeding\" - exact name from any mod
+# - \"*:bleeding*\" - partial match (contains \"bleeding\")
+# - \"modid:effect*\" - prefix match in specific mod
+# - \"*:bleeding* !*:bleeding_immunity\" - with exclusions
+sourceEffect = "*:stun* !*:stun*_resistance !*:stun*_immunity"
+# Target effect (can contain multiple effects separated by commas for fallback)
+# Example: \"primary:effect, fallback:effect\"
+targetEffect = "relics:stun, alexscaves:stunned"
+# Multiplier for effect amplifier (source_amplifier * multiplier = target_amplifier)
+amplifierMultiplier = 1.0
+# If true, only changes visual display without converting amplifier
+onlyVisualChange = false
+# If true, source effect is NOT considered as target (prevents source mod handlers from triggering)
+unidirectional = false
+# Additional effects whose applyUpdateEffect() should be called (comma-separated)
+extraApplyEffectTick = "alexscaves:stunned"
+# Effects whose applyUpdateEffect() should be blocked (comma-separated)
+discardEffectTick = "*:stun* !*:stun*_immunity !*:stun*_resistance !relics:stun !alexscaves:stunned"
+
+[[mappings]]
+# Source effect pattern (supports wildcards and exclusions)
+# Examples:
+# - \"*:bleeding\" - exact name from any mod
+# - \"*:bleeding*\" - partial match (contains \"bleeding\")
+# - \"modid:effect*\" - prefix match in specific mod
+# - \"*:bleeding* !*:bleeding_immunity\" - with exclusions
+sourceEffect = "*:freez* !*:freeze*_resistance !*:freeze*_immunity"
+# Target effect (can contain multiple effects separated by commas for fallback)
+# Example: \"primary:effect, fallback:effect\"
+targetEffect = "mowziesmobs:frozen, more_rpg_classes:frozen_solid"
+# Multiplier for effect amplifier (source_amplifier * multiplier = target_amplifier)
+amplifierMultiplier = 1.0
+# If true, only changes visual display without converting amplifier
+onlyVisualChange = false
+# If true, source effect is NOT considered as target (prevents source mod handlers from triggering)
+unidirectional = false
+# Additional effects whose applyUpdateEffect() should be called (comma-separated)
+extraApplyEffectTick = ""
+# Effects whose applyUpdateEffect() should be blocked (comma-separated)
+discardEffectTick = ""
+
+[[mappings]]
+# Source effect pattern (supports wildcards and exclusions)
+# Examples:
+# - \"*:bleeding\" - exact name from any mod
+# - \"*:bleeding*\" - partial match (contains \"bleeding\")
+# - \"modid:effect*\" - prefix match in specific mod
+# - \"*:bleeding* !*:bleeding_immunity\" - with exclusions
+sourceEffect = "*:chilled"
+# Target effect (can contain multiple effects separated by commas for fallback)
+# Example: \"primary:effect, fallback:effect\"
+targetEffect = "irons_spellbooks:chilled"
+# Multiplier for effect amplifier (source_amplifier * multiplier = target_amplifier)
+amplifierMultiplier = 1.0
+# If true, only changes visual display without converting amplifier
+onlyVisualChange = false
+# If true, source effect is NOT considered as target (prevents source mod handlers from triggering)
+unidirectional = false
+# Additional effects whose applyUpdateEffect() should be called (comma-separated)
+extraApplyEffectTick = ""
+# Effects whose applyUpdateEffect() should be blocked (comma-separated)
+discardEffectTick = ""
+
+[[mappings]]
+# Source effect pattern (supports wildcards and exclusions)
+# Examples:
+# - \"*:bleeding\" - exact name from any mod
+# - \"*:bleeding*\" - partial match (contains \"bleeding\")
+# - \"modid:effect*\" - prefix match in specific mod
+# - \"*:bleeding* !*:bleeding_immunity\" - with exclusions
+sourceEffect = "*:immolat*"
+# Target effect (can contain multiple effects separated by commas for fallback)
+# Example: \"primary:effect, fallback:effect\"
+targetEffect = "irons_spellbooks:immolate"
+# Multiplier for effect amplifier (source_amplifier * multiplier = target_amplifier)
+amplifierMultiplier = 1.0
+# If true, only changes visual display without converting amplifier
+onlyVisualChange = false
+# If true, source effect is NOT considered as target (prevents source mod handlers from triggering)
+unidirectional = false
+# Additional effects whose applyUpdateEffect() should be called (comma-separated)
+extraApplyEffectTick = ""
+# Effects whose applyUpdateEffect() should be blocked (comma-separated)
+discardEffectTick = ""
+
+[[mappings]]
+# Source effect pattern (supports wildcards and exclusions)
+# Examples:
+# - \"*:bleeding\" - exact name from any mod
+# - \"*:bleeding*\" - partial match (contains \"bleeding\")
+# - \"modid:effect*\" - prefix match in specific mod
+# - \"*:bleeding* !*:bleeding_immunity\" - with exclusions
+sourceEffect = "*:confusion"
+# Target effect (can contain multiple effects separated by commas for fallback)
+# Example: \"primary:effect, fallback:effect\"
+targetEffect = "relics:confusion"
+# Multiplier for effect amplifier (source_amplifier * multiplier = target_amplifier)
+amplifierMultiplier = 1.0
+# If true, only changes visual display without converting amplifier
+onlyVisualChange = false
+# If true, source effect is NOT considered as target (prevents source mod handlers from triggering)
+unidirectional = false
+# Additional effects whose applyUpdateEffect() should be called (comma-separated)
+extraApplyEffectTick = ""
+# Effects whose applyUpdateEffect() should be blocked (comma-separated)
+discardEffectTick = ""
+
+[[mappings]]
+# Source effect pattern (supports wildcards and exclusions)
+# Examples:
+# - \"*:bleeding\" - exact name from any mod
+# - \"*:bleeding*\" - partial match (contains \"bleeding\")
+# - \"modid:effect*\" - prefix match in specific mod
+# - \"*:bleeding* !*:bleeding_immunity\" - with exclusions
+sourceEffect = "*:knowledge"
+# Target effect (can contain multiple effects separated by commas for fallback)
+# Example: \"primary:effect, fallback:effect\"
+targetEffect = "attributeslib:knowledge"
+# Multiplier for effect amplifier (source_amplifier * multiplier = target_amplifier)
+amplifierMultiplier = 1.0
+# If true, only changes visual display without converting amplifier
+onlyVisualChange = false
+# If true, source effect is NOT considered as target (prevents source mod handlers from triggering)
+unidirectional = false
+# Additional effects whose applyUpdateEffect() should be called (comma-separated)
+extraApplyEffectTick = ""
+# Effects whose applyUpdateEffect() should be blocked (comma-separated)
+discardEffectTick = ""
+
+[[mappings]]
+# Source effect pattern (supports wildcards and exclusions)
+# Examples:
+# - \"*:bleeding\" - exact name from any mod
+# - \"*:bleeding*\" - partial match (contains \"bleeding\")
+# - \"modid:effect*\" - prefix match in specific mod
+# - \"*:bleeding* !*:bleeding_immunity\" - with exclusions
+sourceEffect = "*:sapped"
+# Target effect (can contain multiple effects separated by commas for fallback)
+# Example: \"primary:effect, fallback:effect\"
+targetEffect = "goety:sapped"
+# Multiplier for effect amplifier (source_amplifier * multiplier = target_amplifier)
+amplifierMultiplier = 1.0
+# If true, only changes visual display without converting amplifier
+onlyVisualChange = false
+# If true, source effect is NOT considered as target (prevents source mod handlers from triggering)
+unidirectional = false
+# Additional effects whose applyUpdateEffect() should be called (comma-separated)
+extraApplyEffectTick = ""
+# Effects whose applyUpdateEffect() should be blocked (comma-separated)
+discardEffectTick = ""
+
+[[mappings]]
+# Source effect pattern (supports wildcards and exclusions)
+# Examples:
+# - \"*:bleeding\" - exact name from any mod
+# - \"*:bleeding*\" - partial match (contains \"bleeding\")
+# - \"modid:effect*\" - prefix match in specific mod
+# - \"*:bleeding* !*:bleeding_immunity\" - with exclusions
+sourceEffect = "more_rpg_classes:frozen_solid"
+# Target effect (can contain multiple effects separated by commas for fallback)
+# Example: \"primary:effect, fallback:effect\"
+targetEffect = "mowziesmobs:frozen"
+# Multiplier for effect amplifier (source_amplifier * multiplier = target_amplifier)
+amplifierMultiplier = 1.0
+# If true, only changes visual display without converting amplifier
+onlyVisualChange = false
+# If true, source effect is NOT considered as target (prevents source mod handlers from triggering)
+unidirectional = false
+# Additional effects whose applyUpdateEffect() should be called (comma-separated)
+extraApplyEffectTick = ""
+# Effects whose applyUpdateEffect() should be blocked (comma-separated)
+discardEffectTick = ""
+
+[[mappings]]
+# Source effect pattern (supports wildcards and exclusions)
+# Examples:
+# - \"*:bleeding\" - exact name from any mod
+# - \"*:bleeding*\" - partial match (contains \"bleeding\")
+# - \"modid:effect*\" - prefix match in specific mod
+# - \"*:bleeding* !*:bleeding_immunity\" - with exclusions
+sourceEffect = "more_rpg_classes:frosted"
+# Target effect (can contain multiple effects separated by commas for fallback)
+# Example: \"primary:effect, fallback:effect\"
+targetEffect = "mowziesmobs:frozen, more_rpg_classes:frozen_solid"
+# Multiplier for effect amplifier (source_amplifier * multiplier = target_amplifier)
+amplifierMultiplier = 1.0
+# If true, only changes visual display without converting amplifier
+onlyVisualChange = false
+# If true, source effect is NOT considered as target (prevents source mod handlers from triggering)
+unidirectional = false
+# Additional effects whose applyUpdateEffect() should be called (comma-separated)
+extraApplyEffectTick = ""
+# Effects whose applyUpdateEffect() should be blocked (comma-separated)
+discardEffectTick = ""
+
+[[mappings]]
+# Source effect pattern (supports wildcards and exclusions)
+# Examples:
+# - \"*:bleeding\" - exact name from any mod
+# - \"*:bleeding*\" - partial match (contains \"bleeding\")
+# - \"modid:effect*\" - prefix match in specific mod
+# - \"*:bleeding* !*:bleeding_immunity\" - with exclusions
+sourceEffect = "netherdepthsupgrade:lava_vision"
+# Target effect (can contain multiple effects separated by commas for fallback)
+# Example: \"primary:effect, fallback:effect\"
+targetEffect = "alexsmobs:lava_vision"
+# Multiplier for effect amplifier (source_amplifier * multiplier = target_amplifier)
+amplifierMultiplier = 1.0
+# If true, only changes visual display without converting amplifier
+onlyVisualChange = false
+# If true, source effect is NOT considered as target (prevents source mod handlers from triggering)
+unidirectional = false
+# Additional effects whose applyUpdateEffect() should be called (comma-separated)
+extraApplyEffectTick = ""
+# Effects whose applyUpdateEffect() should be blocked (comma-separated)
+discardEffectTick = ""
+
+[[mappings]]
+# Source effect pattern (supports wildcards and exclusions)
+# Examples:
+# - \"*:bleeding\" - exact name from any mod
+# - \"*:bleeding*\" - partial match (contains \"bleeding\")
+# - \"modid:effect*\" - prefix match in specific mod
+# - \"*:bleeding* !*:bleeding_immunity\" - with exclusions
+sourceEffect = "cataclysm:stun"
+# Target effect (can contain multiple effects separated by commas for fallback)
+# Example: \"primary:effect, fallback:effect\"
+targetEffect = "relics:stun, alexscaves:stunned"
+# Multiplier for effect amplifier (source_amplifier * multiplier = target_amplifier)
+amplifierMultiplier = 1.0
+# If true, only changes visual display without converting amplifier
+onlyVisualChange = false
+# If true, source effect is NOT considered as target (prevents source mod handlers from triggering)
+unidirectional = true
+# Additional effects whose applyUpdateEffect() should be called (comma-separated)
+extraApplyEffectTick = "alexscaves:stunned"
+# Effects whose applyUpdateEffect() should be blocked (comma-separated)
+discardEffectTick = ""

@@ -231,7 +231,7 @@ ServerEvents.tags('item', event => {
     event.add('forge:tools/swords', 'psi:psimetal_sword');
     event.add('minecraft:swords', 'psi:psimetal_sword');
 
-    add('tarotcards:golden', [
+    const golden = [
         'asr:golden_giant_sword',
         'mekanismtools:gold_paxel',
         'farmersdelight:golden_knife',
@@ -270,7 +270,7 @@ ServerEvents.tags('item', event => {
         'ars_nouveau:sorcerer_robes',
         'ars_nouveau:sorcerer_hood',
         'reliquary:mercy_cross'
-    ]);
+    ];
 
     const sublime = [
         'concatenationcore:sublime_gold_pickaxe',
@@ -282,8 +282,11 @@ ServerEvents.tags('item', event => {
     ];
 
     add('tarotcards:golden', sublime);
+    add('minecraft:pligin_loved', sublime);
     add('forge:tools', sublime);
     add('forge:tools/gold', sublime);
+    add('minecraft:pligin_loved', golden);
+    add('tarotcards:golden', golden);
 
     const fullSets = [
         'concatenationcore:the_error',

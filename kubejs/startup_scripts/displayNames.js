@@ -15,3 +15,6 @@ Platform.mods.common_ore_library.name = 'Common';
 //Platform.mods.thoriumreactors.name = 'Thorium Reactors';
 Platform.mods.prettypipes.name = 'Pretty Pipes';
 Platform.mods.thesubmarinemod.name = 'Submarines';
+Platform.mods.tarotcards.name = 'Tarot Cards';
+Platform.mods.simplytents.name = 'Simply Tents';
+Platform.mods.mokels_bossfight_saphyra.name = 'The Shattered Goddess';

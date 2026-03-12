@@ -1,0 +1,686 @@
+{
+  "layers": {
+    "ars_nouveau:mana_hud": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "ars_nouveau:mana_hud"
+    },
+    "ars_nouveau:scry_camera": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "ars_nouveau:scry_camera"
+    },
+    "ars_nouveau:spell_hud": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "ars_nouveau:spell_hud"
+    },
+    "ars_nouveau:tooltip": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "ars_nouveau:tooltip"
+    },
+    "celestisynth:keres_carnage_incarnate": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "celestisynth:keres_carnage_incarnate"
+    },
+    "create:blueprint": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:blueprint"
+    },
+    "create:goggle_info": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:goggle_info"
+    },
+    "create:linked_controller": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:linked_controller"
+    },
+    "create:remaining_air": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:remaining_air"
+    },
+    "create:schematic": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:schematic"
+    },
+    "create:toolbox": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:toolbox"
+    },
+    "create:track_placement": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:track_placement"
+    },
+    "create:train_hud": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:train_hud"
+    },
+    "create:value_settings": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:value_settings"
+    },
+    "createbigcannons:entity_goggles_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "createbigcannons:entity_goggles_overlay"
+    },
+    "createbigcannons:gas_mask_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "createbigcannons:gas_mask_overlay"
+    },
+    "elementalcraft:gauge": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "elementalcraft:gauge"
+    },
+    "elementalcraft:single_translocation_anchor_marker": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "elementalcraft:single_translocation_anchor_marker"
+    },
+    "elementalcraft:translocation_anchor_marker": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "elementalcraft:translocation_anchor_marker"
+    },
+    "hammerlib:tooltip_engine": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "hammerlib:tooltip_engine"
+    },
+    "hexerei:crow_whitelist": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "hexerei:crow_whitelist"
+    },
+    "immersive_aircraft:ia_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "immersive_aircraft:ia_overlay"
+    },
+    "irons_spellbooks:cast_bar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:cast_bar"
+    },
+    "irons_spellbooks:mana_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:mana_overlay"
+    },
+    "irons_spellbooks:recast_bar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:recast_bar"
+    },
+    "irons_spellbooks:screen_effects": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:screen_effects"
+    },
+    "irons_spellbooks:screen_tooltip": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:screen_tooltip"
+    },
+    "irons_spellbooks:spell_bar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:spell_bar"
+    },
+    "irons_spellbooks:spell_wheel": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:spell_wheel"
+    },
+    "kismet:battery_meter": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "kismet:battery_meter"
+    },
+    "mekanism:energy_level": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "mekanism:energy_level"
+    },
+    "mekanism:hud": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "mekanism:hud"
+    },
+    "mekanism:radiation_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "mekanism:radiation_overlay"
+    },
+    "mekanism:status_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "mekanism:status_overlay"
+    },
+    "minecraft:bossbar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "minecraft:bossbar"
+    },
+    "minecraft:chat": {
+      "displacement": {
+        "x": 0,
+        "y": 18
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "UP"
+      },
+      "sync": "minecraft:chat"
+    },
+    "minecraft:effects": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "LEFT",
+        "y": "DOWN"
+      },
+      "sync": "minecraft:effects"
+    },
+    "minecraft:hotbar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "UP"
+      },
+      "sync": "minecraft:hotbar"
+    },
+    "minecraft:other": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "minecraft:other"
+    },
+    "minecraft:players": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "minecraft:players"
+    },
+    "minecraft:sidebar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "LEFT",
+        "y": "NONE"
+      },
+      "sync": "minecraft:sidebar"
+    },
+    "minecraft:subtitles": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "LEFT",
+        "y": "UP"
+      },
+      "sync": "minecraft:subtitles"
+    },
+    "minecraft:titles": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "minecraft:titles"
+    },
+    "minecraft:toasts": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "LEFT",
+        "y": "DOWN"
+      },
+      "sync": "minecraft:toasts"
+    },
+    "modonomicon:multiblock_hud": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "modonomicon:multiblock_hud"
+    },
+    "patchouli:book_right_click": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "patchouli:book_right_click"
+    },
+    "patchouli:multiblock_progress": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "patchouli:multiblock_progress"
+    },
+    "projecte:transmutation_result": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "projecte:transmutation_result"
+    },
+    "psi:hud_item": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "psi:hud_item"
+    },
+    "psi:psi_bar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "psi:psi_bar"
+    },
+    "psi:remaining_items": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "psi:remaining_items"
+    },
+    "psi:socketable_equipped_name": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "psi:socketable_equipped_name"
+    },
+    "refurbished_furniture:cutting_board_helper": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "refurbished_furniture:cutting_board_helper"
+    },
+    "refurbished_furniture:power_indicator": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "refurbished_furniture:power_indicator"
+    },
+    "reliquary:reliquary_hud": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "reliquary:reliquary_hud"
+    },
+    "supplementaries:cannon_charge_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "supplementaries:cannon_charge_overlay"
+    },
+    "supplementaries:quiver_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "supplementaries:quiver_overlay"
+    },
+    "supplementaries:slimed_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "supplementaries:slimed_overlay"
+    },
+    "tacz:tac_gun_hud_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tacz:tac_gun_hud_overlay"
+    },
+    "tacz:tac_heat_bar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tacz:tac_heat_bar"
+    },
+    "tacz:tac_interact_key_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tacz:tac_interact_key_overlay"
+    },
+    "tacz:tac_kill_amount_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tacz:tac_kill_amount_overlay"
+    }
+  }
+}

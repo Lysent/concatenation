@@ -616,11 +616,7 @@
 			tasks: [{
 				consume_items: false
 				id: "36686AEF43C26122"
-				item: {
-					Count: 1
-					id: "tarotcards:the_magician"
-					tag: { }
-				}
+				item: "tarotcards:the_magician"
 				type: "item"
 				weak_nbt_match: true
 			}]
@@ -796,8 +792,8 @@
 				title: "Enter Purgatory"
 				type: "dimension"
 			}]
-			x: -2.175d
-			y: 1.3000000000000003d
+			x: -2.874999999999999d
+			y: 1.4000000000000004d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
@@ -818,8 +814,8 @@
 				item: "perdition:corruptite"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.0d
+			x: -6.199999999999999d
+			y: 1.1d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
@@ -848,8 +844,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -0.5d
+			x: -5.199999999999999d
+			y: -0.4d
 		}
 		{
 			dependencies: [
@@ -890,8 +886,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: 6.5d
+			x: -9.2d
+			y: 6.6d
 		}
 		{
 			dependencies: [
@@ -915,8 +911,8 @@
 				item: "perdition:resin"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.0d
+			x: -5.699999999999999d
+			y: 4.1d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
@@ -947,8 +943,8 @@
 					type: "structure"
 				}
 			]
-			x: -3.5d
-			y: 4.0d
+			x: -4.199999999999999d
+			y: 4.1d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
@@ -965,8 +961,8 @@
 				item: "concatenationcore:woven_pearl"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.5d
+			x: -2.6999999999999993d
+			y: 4.6d
 		}
 		{
 			dependencies: [
@@ -991,8 +987,8 @@
 				item: "hexerei:moon_dust"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 6.0d
+			x: -3.6999999999999993d
+			y: 6.1d
 		}
 		{
 			dependencies: [
@@ -1011,8 +1007,8 @@
 				item: "bloodmagic:demonitegravel"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.0d
+			x: -2.1999999999999993d
+			y: 6.1d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
@@ -1040,8 +1036,8 @@
 				}
 			]
 			title: "Silver and Pyrite"
-			x: -0.5d
-			y: 4.5d
+			x: -1.1999999999999993d
+			y: 4.6d
 		}
 		{
 			dependencies: ["64C5A9EB5083A520"]
@@ -1057,8 +1053,8 @@
 				item: "elementalcraft:swift_alloy_nugget"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: -0.6999999999999993d
+			y: 5.6d
 		}
 		{
 			dependencies: ["7FE36C7E48D2715B"]
@@ -1080,8 +1076,8 @@
 				item: "perdition:dis_gem"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 5.5d
+			x: -8.2d
+			y: 5.6d
 		}
 		{
 			dependencies: ["7FE36C7E48D2715B"]
@@ -1091,8 +1087,8 @@
 				item: "minecraft:echo_shard"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 6.5d
+			x: -7.199999999999999d
+			y: 6.6d
 		}
 		{
 			dependencies: ["366257C485C91809"]
@@ -1113,8 +1109,8 @@
 				item: "perdition:rough_compound"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 5.2d
+			x: -6.699999999999999d
+			y: 5.3d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
@@ -1138,8 +1134,8 @@
 				title: "Find a Tau Cross"
 				type: "structure"
 			}]
-			x: -5.0d
-			y: 2.5d
+			x: -5.699999999999999d
+			y: 2.6d
 		}
 		{
 			dependencies: ["5EE6AE43F9620AB2"]
@@ -1156,8 +1152,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: 4.5d
+			x: -9.2d
+			y: 4.6d
 		}
 	]
 	title: "Gate to Perdition"

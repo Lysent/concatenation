@@ -1,0 +1,43 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+tick_rate = 20
+tarot_deck_size = 22
+per_player_deck_size = false
+require_card_in_curio = false
+tarot_deck_applies_effects = true
+level_lock = false
+advancement_lock = false
+min_xp_level_required = {  }
+required_advancements = {  }
+
+[loot]
+default_loot_chance = 0.0
+do_loot_generation = false
+
+[cards]
+death_damagebonus = 0.2
+judgement_damagechance = 0.25
+justice_damagemultiplier = 0.25
+strength_amplifier = 1
+temperance_reduction = 0.25
+wheel_of_fortune_luckbonus = 2.0
+the_tower_damagenegation = 1.0
+the_chariot_speedboost = 0.2
+the_empress_range = 2.0
+the_emperpor_heroofvillagebonus = 2
+the_hanged_man_xpratio = 0.5
+the_hanged_man_xpcap = 25
+the_hermit_allyrange = 10.0
+the_hermit_armorbonus = 3.0
+the_hierophant_xpboost = 1.5
+the_star_reachboost = 0.5
+the_sun_healthboost = 0.25
+the_world_range = 10.0
+the_world_slownessamplifier = 3
+the_lovers_range = 15.0
+the_lovers_regenamplifier = 2
+the_devil_weaknessamplifier = 2
+the_fool_jumpboost = 2
+the_highpriestess_upgradecost = 3
+the_highpriestess_extra_levels = 3
+the_highpriestess_capenchants = true

@@ -19,7 +19,12 @@ ServerEvents.recipes(event => {
                 'chunkloaders:basic_chunk_loader',
                 'chunkloaders:single_chunk_loader',
                 'chunkloaders:advanced_chunk_loader',
-                'chunkloaders:ultimate_chunk_loader'
+                'chunkloaders:ultimate_chunk_loader',
+                'simplytents:tent',
+                'simplytents:wall_tent',
+                'simplytents:roof_tent',
+                'simplytents:zip_tent',
+                'bountiful:bountyboard'
         ]
 
         remove.forEach(item => {
@@ -1357,5 +1362,61 @@ ServerEvents.recipes(event => {
                 [
                         '#concatenation:knowledge'
                 ]
+        )
+        event.shaped(
+                Item.of('simplytents:tent'),
+                [
+                        'AAA',
+                        'DBD',
+                        'CBC'
+                ],
+                {
+                        A: 'minecraft:leather',
+                        B: 'minecraft:oak_log',
+                        C: 'minecraft:iron_bars',
+                        D: 'minecraft:white_wool'
+                }
+        )
+        event.shaped(
+                Item.of('simplytents:wall_tent'),
+                [
+                        'ADA',
+                        'BCA',
+                        'BBA'
+                ],
+                {
+                        A: 'minecraft:leather',
+                        C: 'minecraft:oak_log',
+                        B: 'minecraft:iron_bars',
+                        D: 'minecraft:white_wool'
+                }
+        )
+        event.shaped(
+                Item.of('simplytents:roof_tent'),
+                [
+                        'ADA',
+                        'BCB',
+                        'BCB'
+                ],
+                {
+                        A: 'minecraft:leather',
+                        C: 'minecraft:oak_log',
+                        B: 'minecraft:iron_bars',
+                        D: 'minecraft:white_wool'
+                }
+        )
+        event.shaped(
+                Item.of('simplytents:zip_tent'),
+                [
+                        'AAA',
+                        'BCB',
+                        'ADA'
+                ],
+                {
+                        A: 'minecraft:leather',
+                        D: 'minecraft:oak_log',
+                        B: 'minecraft:white_wool',
+                        C: 'minecraft:iron_bars'
+                }
         )
 });

@@ -1,0 +1,111 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "demiurge"
+	group: "0660E8A0F538EACF"
+	icon: "mokels_bossfight_saphyra:broken_sigil_of_the_red_sun"
+	id: "72E1B6530161411F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2B825471FE41A521"
+				"731126727DDCAC54"
+			]
+			id: "350B7C05222BA4D6"
+			tasks: [{
+				id: "043E83FA70C1AA6C"
+				item: "mokels_bossfight_saphyra:sigil_of_the_red_sun"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["350B7C05222BA4D6"]
+			id: "5F1A4E7BC374062C"
+			tasks: [{
+				id: "6A2023507BC12462"
+				structure: "mokels_bossfight_saphyra:fractured_clock_tower"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["523CD93EE762B31F"]
+			id: "74E84F1EE6428017"
+			tasks: [{
+				id: "468365B2899E1665"
+				structure: "mokels_bossfight_saphyra:the_three_hallowed_towers"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5F1A4E7BC374062C"]
+			id: "523CD93EE762B31F"
+			tasks: [
+				{
+					id: "62657D1F74F5C81C"
+					item: "mokels_bossfight_saphyra:invitation_to_the_hallowed_tower"
+					type: "item"
+				}
+				{
+					id: "604ADDE88EBB804F"
+					item: "mokels_bossfight_saphyra:hallowed_key_1"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["74E84F1EE6428017"]
+			id: "7028FEBF5709ABCE"
+			tasks: [{
+				id: "665159CE3F3DA006"
+				item: "mokels_bossfight_saphyra:key_4"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4500ED4931EC035D"]
+			id: "57F8D3DFC2D19D0E"
+			tasks: [{
+				id: "7076AF62F5FA77D0"
+				item: "mokels_bossfight_saphyra:key_2"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7028FEBF5709ABCE"]
+			id: "4500ED4931EC035D"
+			tasks: [{
+				id: "7E5B70E200E02430"
+				item: "mokels_bossfight_saphyra:key_1"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["57F8D3DFC2D19D0E"]
+			id: "57AA488933BCD954"
+			tasks: [{
+				id: "12B8F97ED6005A5B"
+				item: "mokels_bossfight_saphyra:warrior_key"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -12.5d
+		}
+	]
+	title: "Timaeus"
+}

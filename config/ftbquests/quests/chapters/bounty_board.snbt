@@ -2,13 +2,14 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "bounty_board"
-	group: "4AEECD5B848DA3A1"
+	group: "0660E8A0F538EACF"
 	icon: "create:clipboard"
 	id: "0C11BA015DF26C52"
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7C39BC243F02A0A0"]
 			description: [
 				"&4At our local tavern, there is a bounty board on the wall. People post various quests, whether they be landowners, mine owners, random lumberjacks or fishermen. Everyone is threatened by the various monsters that may appear. This is where us hunters come in."
 				""
@@ -1063,7 +1064,21 @@
 			x: 6.0d
 			y: -4.5d
 		}
+		{
+			id: "7C39BC243F02A0A0"
+			tasks: [{
+				icon: "bountiful:bountyboard"
+				id: "5CA935E79EFA3D58"
+				observe_type: 0
+				timer: 0L
+				title: "Witness a Bounty Board"
+				to_observe: "bountiful:bountyboard"
+				type: "observation"
+			}]
+			title: "Adventurer's Guild"
+			x: 0.0d
+			y: 2.5d
+		}
 	]
-	subtitle: ["Limited Event"]
 	title: "Bounty Board"
 }
