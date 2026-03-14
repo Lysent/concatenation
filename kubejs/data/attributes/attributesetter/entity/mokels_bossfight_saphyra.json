@@ -1,0 +1,36 @@
+{
+  "witchboss": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 2000,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.3,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 75,
+      "operation": "ADDITION"
+    }
+  ],
+  "mothboss": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 8000,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 50,
+      "operation": "ADDITION"
+    }
+  ]
+}

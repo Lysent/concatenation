@@ -396,12 +396,12 @@
     "curseForgeHash": 4160167965,
     "modrinthHash": "0b782d12b4ac3b03a94c28f32e9b2d5587d1dd50"
   },
-  "civillis-forge-1.2.0-release+mc1.20.1.jar": {
-    "jarName": "civillis-forge-1.2.0-release+mc1.20.1.jar",
+  "civillis-forge-1.2.1-release+mc1.20.1.jar": {
+    "jarName": "civillis-forge-1.2.1-release+mc1.20.1.jar",
     "modId": "civil",
-    "version": "1.2.0-release",
-    "curseForgeHash": 3088326299,
-    "modrinthHash": "fc7cc8e06f721577eef459009dad993b42812403"
+    "version": "1.2.1-release",
+    "curseForgeHash": 3434276414,
+    "modrinthHash": "58f815e5546c63cf5ab2116f5eab5aaaf97038c0"
   },
   "cleanswing-1.20-1.8.jar": {
     "jarName": "cleanswing-1.20-1.8.jar",
@@ -501,12 +501,12 @@
     "curseForgeHash": 991749567,
     "modrinthHash": "ad19e90393ec8230a6d8a4a89814f39e7c6084d4"
   },
-  "concatenationcore-1.3.6-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.3.6-forge-1.20.1.jar",
+  "concatenationcore-1.4.1-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.4.1-forge-1.20.1.jar",
     "modId": "concatenationcore",
-    "version": "1.3.6",
-    "curseForgeHash": 2268824830,
-    "modrinthHash": "dd429af6363067840711eb58a0e52449223e8230"
+    "version": "1.4.1",
+    "curseForgeHash": 3652431288,
+    "modrinthHash": "6bcc9b869354c0c2d8206ed08ce2137c42b8a56d"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -1395,12 +1395,12 @@
     "curseForgeHash": 1465015914,
     "modrinthHash": "200682cd4b74d9fd873cdb718a747616f3f79497"
   },
-  "Ixeris-4.1.0+1.20.1-forge.jar": {
-    "jarName": "Ixeris-4.1.0+1.20.1-forge.jar",
+  "Ixeris-4.1.3+1.20.1-forge.jar": {
+    "jarName": "Ixeris-4.1.3+1.20.1-forge.jar",
     "modId": "ixeris",
-    "version": "4.1.0+1.20.1-forge",
-    "curseForgeHash": 1915145585,
-    "modrinthHash": "e7ffc3c555c861d79d741e071ddae70436ecdd12"
+    "version": "4.1.3+1.20.1-forge",
+    "curseForgeHash": 1413294478,
+    "modrinthHash": "fca9b9c6962892679125c9d352d22430770ff46d"
   },
   "Jade-1.20.1-Forge-11.13.2.jar": {
     "jarName": "Jade-1.20.1-Forge-11.13.2.jar",
@@ -1799,13 +1799,6 @@
     "curseForgeHash": 3001740257,
     "modrinthHash": "d751153e722a4e014691c83f39f5b07c6ec5333c"
   },
-  "MRU-1.0.4+1.20.1+forge.jar": {
-    "jarName": "MRU-1.0.4+1.20.1+forge.jar",
-    "modId": "mru",
-    "version": "1.0.4+1.20.1+forge",
-    "curseForgeHash": 2891672819,
-    "modrinthHash": "c92d6d7cf2ffa333d64752edcde2b3c5a3e6edab"
-  },
   "multipiston-1.20-1.2.43-RELEASE.jar": {
     "jarName": "multipiston-1.20-1.2.43-RELEASE.jar",
     "modId": "multipiston",
@@ -1988,12 +1981,12 @@
     "curseForgeHash": 1383309397,
     "modrinthHash": "d4614507d6e4c7cb464bba5eca891978272062ef"
   },
-  "perdition-1.3.0-forge-1.20.1.jar": {
-    "jarName": "perdition-1.3.0-forge-1.20.1.jar",
+  "perdition-1.3.1-forge-1.20.1.jar": {
+    "jarName": "perdition-1.3.1-forge-1.20.1.jar",
     "modId": "perdition",
-    "version": "1.3.0",
-    "curseForgeHash": 1760128070,
-    "modrinthHash": "7fd86d580c7a33346d4e16102cf1fbb1ec94f532"
+    "version": "1.3.1",
+    "curseForgeHash": 2096756680,
+    "modrinthHash": "be806762a787865e65311e2f43d15aee98317378"
   },
   "Placebo-1.20.1-8.6.3.jar": {
     "jarName": "Placebo-1.20.1-8.6.3.jar",
@@ -2483,12 +2476,12 @@
     "curseForgeHash": 2610679654,
     "modrinthHash": "4bfa399bcb2e8ceed71c3801b2921733a3531134"
   },
-  "tacz-1.20.1-1.1.7-hotfix.jar": {
-    "jarName": "tacz-1.20.1-1.1.7-hotfix.jar",
+  "tacz-1.20.1-1.1.7-hotfix2.jar": {
+    "jarName": "tacz-1.20.1-1.1.7-hotfix2.jar",
     "modId": "tacz",
-    "version": "1.1.7-hotfix",
-    "curseForgeHash": 218830698,
-    "modrinthHash": "7d4f578a42c9b880744ea6058a495847aac9e4c3"
+    "version": "1.1.7-hotfix2",
+    "curseForgeHash": 713454161,
+    "modrinthHash": "cb84817b83025fa93d380e87de655e57a607ced8"
   },
   "tacz-tweaks-2.13.1-all.jar": {
     "jarName": "tacz-tweaks-2.13.1-all.jar",
