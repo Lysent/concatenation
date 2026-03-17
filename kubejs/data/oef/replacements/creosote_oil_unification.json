@@ -1,8 +1,8 @@
 [
   {
     "matchFluid": [
-      "tfmg:creosote"
+      "thermal:creosote"
     ],
-    "resultFluid": "thermal:creosote"
+    "resultFluid": "tfmg:creosote"
   }
 ]

@@ -149,7 +149,7 @@ ServerEvents.recipes(event => {
 
         event.custom({
                 type: "tconstruct:melting",
-                ingredient: { "item": "createmetallurgy:wolframite_ore" },
+                ingredient: { "item": "createmetallurgy:raw_tungsten" },
                 result: {
                         "fluid": "tconstruct:molten_tungsten",
                         "amount": 90

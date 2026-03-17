@@ -6,7 +6,13 @@ ServerEvents.recipes(event => {
         "irons_spellbooks:arcane_anvil",
         "projecte:interdiction_torch",
         "projecte:collector_mk1",
-        "projecte:relay_mk1"
+        "projecte:relay_mk1",
+        "projecte:rm_morning_star",
+        "projecte:rm_katar",
+        "projecte:gem_helmet",
+        "projecte:gem_boots",
+        "projecte:gem_leggings",
+        "projecte:gem_chestplate"
 
     ].forEach(item => event.remove({ output: item }));
 
@@ -213,14 +219,14 @@ ServerEvents.recipes(event => {
             'projecte:philosophers_stone',
             'elementalcraft:elemental_firefuel'
         ]
-    ).replaceIngredient('elementalcraft:elemental_firefuel', 'minecraft:charcoal')
+    ).replaceIngredient('elementalcraft:elemental_firefuel', 'supplementaries:ash')
     event.shapeless(
         Item.of('projecte:alchemical_coal', 4),
         [
             'projecte:philosophers_stone',
             'elementalcraft:elemental_firefuel'
         ]
-    ).replaceIngredient('elementalcraft:elemental_firefuel', 'minecraft:charcoal')
+    ).replaceIngredient('elementalcraft:elemental_firefuel', 'supplementaries:ash')
     event.shapeless(
         Item.of('projecte:alchemical_coal', 4),
         [
@@ -322,5 +328,151 @@ ServerEvents.recipes(event => {
             C: 'thermal:lead_ingot'
         }
     )
+
+    event.shaped(
+        Item.of('projecte:rm_morning_star'),
+        [
+            'ABC',
+            'DED',
+            'DDD'
+        ],
+        {
+            C: 'projecte:rm_shovel',
+            A: 'projecte:rm_hammer',
+            E: 'tarotcards:the_world',
+            D: 'projecte:red_matter',
+            B: 'projecte:rm_pick'
+        }
+    ).keepIngredient('tarotcards:the_world')
+    event.shaped(
+        Item.of('projecte:rm_katar'),
+        [
+            'ABC',
+            'DEF',
+            'FFF'
+        ],
+        {
+            A: 'projecte:rm_shears',
+            B: 'projecte:rm_axe',
+            D: 'projecte:rm_hoe',
+            C: 'projecte:rm_sword',
+            E: 'tarotcards:the_world',
+            F: 'projecte:red_matter'
+        }
+    ).keepIngredient('tarotcards:the_world')
+    event.shapeless(
+        Item.of('projecte:gem_helmet'),
+        [
+            'projecte:rm_helmet',
+            'projecte:evertide_amulet',
+            'projecte:soul_stone',
+            Item.of('projecte:klein_star_omega', '{StoredEMC:51200000}'),
+            'tarotcards:the_world'
+        ]
+    ).keepIngredient('tarotcards:the_world')
+    event.shaped(
+        Item.of('projecte:gem_leggings'),
+        [
+            'ABC',
+            'DE ',
+            '   '
+        ],
+        {
+            A: 'projecte:rm_leggings',
+            B: 'projecte:black_hole_band',
+            D: Item.of('projecte:klein_star_omega', '{StoredEMC:51200000}'),
+            E: 'tarotcards:the_world',
+            C: 'projecte:life_stone'
+        }
+    ).keepIngredient('tarotcards:the_world')
+    event.shaped(
+        Item.of('projecte:gem_chestplate'),
+        [
+            'ABC',
+            'DE ',
+            '   '
+        ],
+        {
+            C: 'projecte:body_stone',
+            B: 'projecte:volcanite_amulet',
+            D: Item.of('projecte:klein_star_omega', '{StoredEMC:51200000}'),
+            E: 'tarotcards:the_world',
+            A: 'projecte:rm_chestplate'
+        }
+    ).keepIngredient('tarotcards:the_world')
+    event.shaped(
+        Item.of('projecte:gem_boots'),
+        [
+            'ABB',
+            'CD ',
+            '   '
+        ],
+        {
+            B: 'projecte:swiftwolf_rending_gale',
+            C: Item.of('projecte:klein_star_omega', '{StoredEMC:51200000}'),
+            D: 'tarotcards:the_world',
+            A: 'projecte:rm_boots'
+        }
+    ).keepIngredient('tarotcards:the_world')
+    event.shaped(
+        Item.of('advanced_ae:quantum_helmet'),
+        [
+            'ABA',
+            'CDC',
+            'CEC'
+        ],
+        {
+            E: 'advanced_ae:quantum_storage_component',
+            B: 'ae2:wireless_access_point',
+            C: 'advanced_ae:quantum_processor',
+            D: 'tarotcards:the_world',
+            A: 'advanced_ae:quantum_alloy_plate'
+        }
+    ).keepIngredient('tarotcards:the_world')
+    event.shaped(
+        Item.of('advanced_ae:quantum_chestplate'),
+        [
+            'ABA',
+            'CDC',
+            'AEA'
+        ],
+        {
+            E: 'advanced_ae:quantum_storage_component',
+            B: 'ae2:wireless_access_point',
+            C: 'advanced_ae:quantum_processor',
+            D: 'tarotcards:the_world',
+            A: 'advanced_ae:quantum_alloy_plate'
+        }
+    ).keepIngredient('tarotcards:the_world')
+    event.shaped(
+        Item.of('advanced_ae:quantum_leggings'),
+        [
+            'ABA',
+            'CDC',
+            'CEC'
+        ],
+        {
+            E: 'advanced_ae:quantum_storage_component',
+            B: 'ae2:wireless_access_point',
+            C: 'advanced_ae:quantum_processor',
+            D: 'tarotcards:the_world',
+            A: 'advanced_ae:quantum_alloy_plate'
+        }
+    ).keepIngredient('tarotcards:the_world')
+    event.shaped(
+        Item.of('advanced_ae:quantum_boots'),
+        [
+            'ABA',
+            'ACA',
+            'DED'
+        ],
+        {
+            E: 'advanced_ae:quantum_storage_component',
+            B: 'ae2:wireless_access_point',
+            A: 'advanced_ae:quantum_processor',
+            C: 'tarotcards:the_world',
+            D: 'advanced_ae:quantum_alloy_plate'
+        }
+    ).keepIngredient('tarotcards:the_world')
 
 });

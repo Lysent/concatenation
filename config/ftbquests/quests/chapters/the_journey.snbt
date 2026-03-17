@@ -57,7 +57,6 @@
 						}
 					}
 					id: "tarotcards:the_hierophant"
-					tag: { }
 				}
 				type: "item"
 				weak_nbt_match: true
@@ -103,7 +102,6 @@
 						}
 					}
 					id: "tarotcards:the_magician"
-					tag: { }
 				}
 				type: "item"
 				weak_nbt_match: true
@@ -171,7 +169,6 @@
 						}
 					}
 					id: "tarotcards:temperance"
-					tag: { }
 				}
 				type: "item"
 				weak_nbt_match: true
@@ -218,7 +215,6 @@
 						}
 					}
 					id: "tarotcards:the_hermit"
-					tag: { }
 				}
 				type: "item"
 				weak_nbt_match: true
@@ -834,7 +830,6 @@
 						}
 					}
 					id: "tarotcards:the_chariot"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -2544,11 +2539,7 @@
 			id: "55380CDFDB4EB17C"
 			rewards: [{
 				id: "183ED23281F84CCE"
-				item: {
-					Count: 1
-					id: "ae2:item_storage_cell_16k"
-					tag: { }
-				}
+				item: "ae2:item_storage_cell_16k"
 				type: "item"
 			}]
 			tasks: [
@@ -2575,7 +2566,6 @@
 							}
 						}
 						id: "ae2:item_storage_cell_1k"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -3879,7 +3869,6 @@
 						}
 					}
 					id: "tarotcards:the_sun"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -3948,7 +3937,6 @@
 						}
 					}
 					id: "ars_nouveau:novice_spell_book"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -7611,7 +7599,6 @@
 						}
 					}
 					id: "tarotcards:the_moon"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -9624,7 +9611,6 @@
 						}
 					}
 					id: "tarotcards:the_high_priestess"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -9840,7 +9826,6 @@
 						}
 					}
 					id: "tarotcards:the_tower"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -10069,7 +10054,6 @@
 						}
 					}
 					id: "tarotcards:the_star"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -10137,7 +10121,6 @@
 						}
 					}
 					id: "tarotcards:strength"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -10148,9 +10131,9 @@
 		{
 			dependencies: ["05C581711196984B"]
 			description: [
-				"&6The Starlight Factory is a celestial machining facility designed to harness the power of starlight energy for crafting advanced weapons and armour. Its core function revolves around the use of celestial fuel sources, such as amethyst crystals, to power its operations. The factory's machinery is built from celestial netherite, making it resistant to most terrestrial and celestial elemental forces.&r"
+				"&eThe Starlight Factory is a celestial machining facility designed to harness the power of starlight energy for crafting advanced weapons and armour. Its core function revolves around the use of celestial fuel sources, such as amethyst crystals, to power its operations. The factory's machinery is built from celestial netherite, making it resistant to most terrestrial and celestial elemental forces.&r"
 				"{@pagebreak}"
-				"&6The factory requires complex aluminium alloys and redstone cables to function properly, along with a solid obsidian base to stabilize the structure. Once operational, it can produce powerful celestial weapons imbued with starlight energy. The process involves aligning the amethyst crystals with a celestially refined ore, creating a stable energy source that powers the machinery.&r"
+				"&eThe factory requires complex aluminium alloys and redstone cables to function properly, along with a solid obsidian base to stabilize the structure. Once operational, it can produce powerful celestial weapons imbued with starlight energy. The process involves aligning the amethyst crystals with a celestially refined ore, creating a stable energy source that powers the machinery.&r"
 			]
 			id: "11AB2172D3EEA227"
 			rewards: [{
@@ -10462,13 +10445,13 @@
 		{
 			dependencies: ["4E774C5B363CBBA8"]
 			description: [
-				"&6Solar Crystal Armour is made from Soleipse crystals and soulsteel, a spiritually powered version of calralite.&r"
+				"&eSolar Crystal Armour is made from Soleipse crystals and soulsteel, a spiritually powered version of calralite.&r"
 				""
-				"&6This combination creates a powerful synergy. This results in an armour that not only protects but also empowers its wearer, making it a favourite among those who value both defensive and offensive capabilities.&r"
+				"&eThis combination creates a powerful synergy. This results in an armour that not only protects but also empowers its wearer, making it a favourite among those who value both defensive and offensive capabilities.&r"
 				"{@pagebreak}"
-				"&6It possesses various special abilities such as substantial defensive prowess, knockback resistance, additional mana, magic resistance, and of course, increasing the potency of celestial-grade weapons.&r"
+				"&eIt possesses various special abilities such as substantial defensive prowess, knockback resistance, additional mana, magic resistance, and of course, increasing the potency of celestial-grade weapons.&r"
 				""
-				"&6The uniqueness of Solar Crystal Armour is that it protects its wearer by casting a burst of flames when attacked.&r"
+				"&eThe uniqueness of Solar Crystal Armour is that it protects its wearer by casting a burst of flames when attacked.&r"
 			]
 			id: "2DE29DAA653712BC"
 			rewards: [{
@@ -10549,13 +10532,13 @@
 		{
 			dependencies: ["07C4F5356EFBBE09"]
 			description: [
-				"&6Lunar Stone Armour is made from Lunepse crystals and soulsteel, a spiritually powered version of calralite.&r"
+				"&eLunar Stone Armour is made from Lunepse crystals and soulsteel, a spiritually powered version of calralite.&r"
 				""
-				"&6This combination creates a powerful synergy. This results in an armour that not only protects but also empowers its wearer, making it a favourite among those who value both defensive and offensive capabilities.&r"
+				"&eThis combination creates a powerful synergy. This results in an armour that not only protects but also empowers its wearer, making it a favourite among those who value both defensive and offensive capabilities.&r"
 				"{@pagebreak}"
-				"&6It possesses various special abilities such as substantial defensive prowess, knockback resistance, additional mana, magic resistance, and of course, increasing the potency of celestial-grade weapons.&r"
+				"&eIt possesses various special abilities such as substantial defensive prowess, knockback resistance, additional mana, magic resistance, and of course, increasing the potency of celestial-grade weapons.&r"
 				""
-				"&6The uniqueness of Lunar Stone Armour is that it has a one in five chance to almost nullify incoming damage.&r"
+				"&eThe uniqueness of Lunar Stone Armour is that it has a one in five chance to almost nullify incoming damage.&r"
 			]
 			id: "464302EAA7B02567"
 			rewards: [{
@@ -10653,7 +10636,6 @@
 						}
 					}
 					id: "tarotcards:judgement"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -10930,9 +10912,9 @@
 		{
 			dependencies: ["04DD33AF3AA672CD"]
 			description: [
-				"&6Lunepse crystals are known for their resistance to celestial elemental forces, while Soleipse crystals enhance durability against otherworldly entities. When combined, they create a harmonious balance of light and dark energies, making them ideal for creating armour that can withstand both terrestrial and celestial threats.&r"
+				"&eLunepse crystals are known for their resistance to celestial elemental forces, while Soleipse crystals enhance durability against otherworldly entities. When combined, they create a harmonious balance of light and dark energies, making them ideal for creating armour that can withstand both terrestrial and celestial threats.&r"
 				"{@pagebreak}"
-				"&6The Lunepse and Soleipse crystals are used in the crafting of celestial armour sets, enhancing their wearers' abilities to combat both light and dark entities. Each piece of armour infused with these crystals becomes a beacon of balance, protecting the wearer from all manner of celestial and shadowy threats. &r"
+				"&eThe Lunepse and Soleipse crystals are used in the crafting of celestial armour sets, enhancing their wearers' abilities to combat both light and dark entities. Each piece of armour infused with these crystals becomes a beacon of balance, protecting the wearer from all manner of celestial and shadowy threats. &r"
 			]
 			id: "07C4F5356EFBBE09"
 			rewards: [{
@@ -10959,9 +10941,9 @@
 		{
 			dependencies: ["188786E302DE3681"]
 			description: [
-				"&6The Lunepse and Soleipse crystals are rare celestial minerals formed from lunar and solar crystals, respectively. These crystals are highly sought after for their unique ability to channel both solar and lunar energies, making them invaluable in crafting powerful celestial armour sets.&r"
+				"&eThe Lunepse and Soleipse crystals are rare celestial minerals formed from lunar and solar crystals, respectively. These crystals are highly sought after for their unique ability to channel both solar and lunar energies, making them invaluable in crafting powerful celestial armour sets.&r"
 				"{@pagebreak}"
-				"&6The Lunepse and Soleipse crystals are used in the crafting of celestial armour sets, enhancing their wearers' abilities to combat both light and dark entities. Each piece of armour infused with these crystals becomes a beacon of balance, protecting the wearer from all manner of celestial and shadowy threats. &r"
+				"&eThe Lunepse and Soleipse crystals are used in the crafting of celestial armour sets, enhancing their wearers' abilities to combat both light and dark entities. Each piece of armour infused with these crystals becomes a beacon of balance, protecting the wearer from all manner of celestial and shadowy threats. &r"
 			]
 			id: "4E774C5B363CBBA8"
 			rewards: [{
@@ -11045,7 +11027,7 @@
 		}
 		{
 			dependencies: ["3060CAEE078FE9A0"]
-			description: ["&6The Supernal Netherite Ingot represents an advanced refinement of netherite metal, imbued with celestial or ghastly energies. This ingot is considered a supercharged variant, offering exceptional durability and unique elemental resistance.&r"]
+			description: ["&eThe Supernal Netherite Ingot represents an advanced refinement of netherite metal, imbued with celestial or ghastly energies. This ingot is considered a supercharged variant, offering exceptional durability and unique elemental resistance.&r"]
 			id: "05C581711196984B"
 			rewards: [{
 				id: "4C6251D92FD0715D"
@@ -11231,11 +11213,7 @@
 			size: 1.15d
 			tasks: [{
 				id: "307636A88E99B398"
-				item: {
-					Count: 1
-					id: "tarotcards:death"
-					tag: { }
-				}
+				item: "tarotcards:death"
 				type: "item"
 			}]
 			title: "&4Death"
@@ -11836,7 +11814,88 @@
 					type: "item"
 				}
 				{
-					id: "335D89A12104BE95"
+					id: "25E08C5415A2391F"
+					item: {
+						Count: 1
+						id: "utility_belt:utility_belt"
+						tag: {
+							"utility_belt:inventory": [
+								{
+									Count: 1b
+									id: "minecraft:air"
+									tag: {
+										Damage: 0
+										Damp: 1b
+										Potion: "minecraft:water_breathing"
+										Trim: {
+											material: "redstone"
+											pattern: "spire"
+										}
+										display: {
+											color: 11546150
+										}
+										instrument: "minecraft:sing_goat_horn"
+									}
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+									tag: {
+										Damage: 0
+										Damp: 1b
+										Potion: "minecraft:water_breathing"
+										Trim: {
+											material: "redstone"
+											pattern: "spire"
+										}
+										display: {
+											color: 11546150
+										}
+										instrument: "minecraft:sing_goat_horn"
+									}
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+									tag: {
+										Damage: 0
+										Damp: 1b
+										Potion: "minecraft:water_breathing"
+										Trim: {
+											material: "redstone"
+											pattern: "spire"
+										}
+										display: {
+											color: 11546150
+										}
+										instrument: "minecraft:sing_goat_horn"
+									}
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+									tag: {
+										Damage: 0
+										Damp: 1b
+										Potion: "minecraft:water_breathing"
+										Trim: {
+											material: "redstone"
+											pattern: "spire"
+										}
+										display: {
+											color: 11546150
+										}
+										instrument: "minecraft:sing_goat_horn"
+									}
+								}
+							]
+							"utility_belt:size": 4
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D0964D03304DE68"
 					type: "xp_levels"
 					xp_levels: 3
 				}
@@ -14362,7 +14421,6 @@
 							}
 						}
 						id: "bloodmagic:ritualdiviner"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -14393,7 +14451,6 @@
 						}
 					}
 					id: "bloodmagic:ritualdivinerdusk"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -15188,6 +15245,7 @@
 		}
 		{
 			dependencies: ["2B825471FE41A521"]
+			description: ["&2The most advanced of machine frames, the great machine frame. With it, we'll be able to advance our research substantially into other dimensions and for high-scale operations. This is a most expensive frame, but it contains everything required for high-frequency and high-tech operations. At times this may contain more modules can what most machines require, but this is very neccesary."]
 			id: "16425F7B3E364B17"
 			rewards: [{
 				count: 2
@@ -15323,6 +15381,11 @@
 				"385412AAA1631FFF"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"&2The Justice Pathway &6deals in high-level technological advancements such as high-scale building and quarrying, forcefields, teleportation and even dimension creation."
+				""
+				"&6While it seems &fEleonore &6has never reached this point, the previous owner of this book, &2Prudence&6, has left notes detailing the Justice Pathway. This will be of great help to me."
+			]
 			id: "2B825471FE41A521"
 			rewards: [
 				{
@@ -15337,6 +15400,7 @@
 				}
 			]
 			size: 1.4d
+			subtitle: "Dimensional Authority"
 			tasks: [{
 				id: "678BDB15F6E434AE"
 				item: {
@@ -15347,7 +15411,6 @@
 						}
 					}
 					id: "tarotcards:justice"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -15409,11 +15472,7 @@
 			size: 1.25d
 			tasks: [{
 				id: "6B416D7B4B898875"
-				item: {
-					Count: 1
-					id: "tarotcards:the_hanged_man"
-					tag: { }
-				}
+				item: "tarotcards:the_hanged_man"
 				type: "item"
 			}]
 			title: "&4The Hanged Man"
@@ -15468,7 +15527,6 @@
 						}
 					}
 					id: "tarotcards:the_lovers"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -15691,7 +15749,6 @@
 							}
 						}
 						id: "ae2:item_storage_cell_4k"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -15744,7 +15801,6 @@
 							}
 						}
 						id: "ae2:item_storage_cell_16k"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -15779,7 +15835,6 @@
 						}
 					}
 					id: "ae2:item_storage_cell_64k"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -15807,7 +15862,6 @@
 							}
 						}
 						id: "ae2:item_storage_cell_64k"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -15842,7 +15896,6 @@
 						}
 					}
 					id: "ae2:item_storage_cell_256k"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -15870,7 +15923,6 @@
 							}
 						}
 						id: "ae2:item_storage_cell_256k"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -17831,6 +17883,7 @@
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
+			description: ["&2The builder is a magnificent compact invention, capable of both autonomously building large structures based on a pattern and quarrying large areas with ease. It does eat a certain quantity of RF power, but outcompetes the regular quarries with ease at devouring the world."]
 			id: "33FC7F10A56757CB"
 			rewards: [{
 				id: "2FD48E0D48D2DACB"
@@ -17856,6 +17909,7 @@
 		}
 		{
 			dependencies: ["2B825471FE41A521"]
+			description: ["&2The Medium Power Cell bases itself on the basis of the lower power cells used as an initial energy storage method by many technicians. Unlike the previous power cells since then, it uses the same basis as the first power cell but with much higher quality materials. Why complicate the process when you can brute force it with the simplest concept and a lot of resources?"]
 			id: "1221A32C145FCE8B"
 			rewards: [{
 				count: 3
@@ -17881,6 +17935,7 @@
 		}
 		{
 			dependencies: ["1221A32C145FCE8B"]
+			description: ["&2Within some of the ruins of that research outpost, we had found what remains of a massive energy storage system ressembling a large ball with hazardous orange and purple material scattered across the facility. While this technology seems far more impressive, it remains out of our reach. For now, we have settled on improving the medium power cell both in concept and in materials once again."]
 			id: "5A50AE26BCF79069"
 			rewards: [{
 				count: 3
@@ -17888,6 +17943,7 @@
 				item: "rftoolspower:cell3"
 				type: "item"
 			}]
+			subtitle: "Heart of a Dragon"
 			tasks: [{
 				id: "419F36F6A3EA8D96"
 				item: {
@@ -18060,11 +18116,7 @@
 			size: 1.15d
 			tasks: [{
 				id: "1D0CAF628E5205F8"
-				item: {
-					Count: 1
-					id: "tarotcards:the_empress"
-					tag: { }
-				}
+				item: "tarotcards:the_empress"
 				type: "item"
 			}]
 			title: "&5The Empress"
@@ -20059,6 +20111,11 @@
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
+			description: [
+				"I've found notes of a way older fireball staff used by an ancient civilization. I was able to find the core and a mangled stick, but alas, it did not work anymore. It seems to ressemble the Pyromancer staffs in a more crude form."
+				""
+				"With my usual tinkering, I made a version of the fireball staff that does not consume fire charges, and here's the recipe above."
+			]
 			id: "728B9DCC6EEF04E2"
 			rewards: [
 				{
@@ -20218,12 +20275,20 @@
 				"728B9DCC6EEF04E2"
 				"2A6F7A84B94F1B7F"
 			]
+			description: [
+				"&o&7 The handwriting brusquely changes"
+				""
+				"&6&fEleonore's&6 notes abruptly end here. That's odd. I would have thought she'd have reached The Devil. From the legends I've heard, she had acquired the Philosopher's Stone, but it isn't documented in this journal. It seems that &fEleonore &6took particular attention in the Salamander's Eye, but never properly documented it aside from a crude drawing of the eye."
+				""
+				"&6I was able to create one for myself, albeit most likely at a much higher cost than what traditional reliquerers could muster. The artefact does not seem particularly useful on the surface but may have hidden power."
+			]
 			id: "5AAC92BF084F5CC7"
 			rewards: [{
 				id: "77E5463FB9E4F664"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "The Torch Passes"
 			tasks: [{
 				id: "5BC9A7DEF890290A"
 				item: "reliquary:salamander_eye"
@@ -20332,6 +20397,7 @@
 		}
 		{
 			dependencies: ["7EA2E0871C6D568C"]
+			description: ["&6I've done it, this variant of the Witherless Rose blooms with bright colours, able to reverse effects of withering. I am getting closer to figuring out all-encompassing transmutation across all matter. I've used quite a lot of anti-withering elixir in my experiments, though. I don't think I'll be in need of those anymore."]
 			id: "34DB9EBB5C296D71"
 			rewards: [{
 				count: 3
@@ -20485,6 +20551,7 @@
 		}
 		{
 			dependencies: ["5AAC92BF084F5CC7"]
+			description: ["&6The hero's medallion is outclassed in its ability by most earlier methods of experience storage, whether it be the Shrike sword, experience containers or the insightful crystal. I do believe that using the Salamander's Eye, it can be useful as a transmutation medium."]
 			id: "7EA2E0871C6D568C"
 			rewards: [{
 				id: "78556DFB107D88E6"
@@ -20801,6 +20868,11 @@
 				"5FDE312C630BCFBF"
 				"1275C0782A86ABA7"
 			]
+			description: [
+				"&6Here it is, the famed and coveted legendary Philosopher's Stone, the ultimate medium for transmutation, able to freely turn materials into materials and provide for a way to condense matter. It can turn cobble to stone, dirt and gravel to sand, lava to obsidian and smelt glass instantly."
+				""
+				"&6This is the key to ascending to The Devil, allowing me to condense resources into materials of a higher order. I was distracted by journeying into this 'deep void' place due to Prudence's notes, but I was still able to find a substitute for one of the ingredients of the Philosopher's Stone while over there."
+			]
 			id: "57D021A05869800D"
 			rewards: [
 				{
@@ -20822,7 +20894,6 @@
 						Parent: { }
 					}
 					id: "projecte:philosophers_stone"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -20831,6 +20902,11 @@
 		}
 		{
 			dependencies: ["57D021A05869800D"]
+			description: [
+				"&4The Devil Pathway &6is the culmination of the every magical pathway from the sides of The Magician and Temperance, as Eleonore would put it. Many reliquerers and petty alchemists have tried to reach this state in vain for years. If only their lifespans were extended, they would have seen the ascension of a true Aeon with their very eye."
+				"{@pagebreak}"
+				"&6The main form of power in the Devil Pathway is Energy-Matter Covalence. Almost everything in the observable universe has a certain amount of matter that can be quantified and condensed, although it may be hard to perform transmutation on complex alloys and mixed, finished products making use of multiple pure materials are ingredients. As a result, it will be substantially easier to condense pure particles, although crafting processes such as smashing with a hammer or cooking don't seem to affect the value of the matter itself. Nothing is lost or created, it is only transformed in equivalent exchange."
+			]
 			hide_dependency_lines: true
 			id: "731126727DDCAC54"
 			rewards: [{
@@ -20841,11 +20917,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "05B1E00E85429C8D"
-				item: {
-					Count: 1
-					id: "tarotcards:the_devil"
-					tag: { }
-				}
+				item: "tarotcards:the_devil"
 				type: "item"
 			}]
 			title: "&4The Devil"
@@ -20854,6 +20926,7 @@
 		}
 		{
 			dependencies: ["29AB1C13F14D1962"]
+			description: ["&6Making use of mercury, salt and purified gold, this dust can become a catalyst for many transmutation uses."]
 			hide_dependency_lines: true
 			id: "5FDE312C630BCFBF"
 			rewards: [{
@@ -20871,6 +20944,11 @@
 		}
 		{
 			dependencies: ["73BE1AB671E9C173"]
+			description: [
+				"&6Making use of spritual materials, organic matter and even living beings can be affected by transmutation. The soul does not seem to be something we can affect yet."
+				""
+				"&6It can create torches of banishment, a net upgrade over the interdiction torches."
+			]
 			hide_dependency_lines: true
 			id: "09811FE8990DC377"
 			rewards: [{
@@ -20888,6 +20966,7 @@
 		}
 		{
 			dependencies: ["55CA3D58EE9C883B"]
+			description: ["&6High covalence dust is formed by marrying high elements to mercury and using salt as supplementary ingredients."]
 			hide_dependency_lines: true
 			id: "329502500A01AB87"
 			rewards: [{
@@ -20942,24 +21021,44 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "45A79F07BF525DF5"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "theurgy:alchemical_sulfurs"
+			tasks: [
+				{
+					id: "45A79F07BF525DF5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "theurgy:alchemical_sulfurs"
+						}
 					}
+					title: "Any Alchemical Sulfur"
+					type: "item"
 				}
-				title: "Any Alchemical Sulfur"
-				type: "item"
-			}]
+				{
+					id: "4522B3426081D40D"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [{
+								Count: 1b
+								id: "theurgy:alchemical_sulfur_rotten_flesh"
+								tag: {
+									"theurgy:sulfur.source.id": "minecraft:rotten_flesh"
+								}
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "Alchemical Sulfur"
 			x: 37.45d
 			y: 16.0d
 		}
 		{
 			dependencies: ["731126727DDCAC54"]
+			description: ["&6The Alchemical coals are condensed forms of coal, with the highest tier in the Aeternalis fuel being as condensed in matter as diamonds. As a result, they burn much longer."]
 			id: "015124A9D4A821AF"
 			rewards: [{
 				count: 4
@@ -20990,12 +21089,14 @@
 					type: "item"
 				}
 			]
+			title: "Alchemical Coals"
 			x: 45.7d
 			y: 23.4d
 		}
 		{
 			dependencies: ["015124A9D4A821AF"]
 			dependency_requirement: "one_started"
+			description: ["&6Dark Matter is a form of highly condensed matter, approaching infinite durability and hardness, making for most powerful tools requiring celestial handles for their design to keep up structural integrity. It's a wonder they're not tools made from a black hole."]
 			id: "5CFB446EC47CB53D"
 			rewards: [{
 				id: "1DD311F71C19F7C6"
@@ -21012,6 +21113,7 @@
 		}
 		{
 			dependencies: ["5CFB446EC47CB53D"]
+			description: ["&6Red matter is even more condensed, reaching the power of the sun."]
 			id: "5B29FE8F9F7C91F2"
 			rewards: [{
 				id: "4045DBAEA23614B6"
@@ -21028,6 +21130,11 @@
 		}
 		{
 			dependencies: ["5CFB446EC47CB53D"]
+			description: [
+				"&6Armour made from dark matter are extremely durable to the point of reaching infinity, and boasting substantial defence that differs in nature compared to other armours, absorbing damage directly. Due to being so dense and generalized, it lacks the specific attributes that other armour sets may boast as advantages such as mana capacity and generation and special abilities."
+				""
+				"&6As a result, archmages and high-level technicians with power armour might want to stick with their own unique armour sets. However, certain types of damage that normally cannot be blocked is negated by dark matter armour and its upgrades."
+			]
 			id: "652B290897F2DE42"
 			rewards: [{
 				id: "223E1023F3E3C811"
@@ -21062,6 +21169,11 @@
 		}
 		{
 			dependencies: ["5CFB446EC47CB53D"]
+			description: [
+				"&6Tools making use of dark matter and celestial handles, forming nearly perfect tools that are completely unbreakable without any trickery used by Magicians and complete breaking tier able to break any block no matter the hardness. Well, maybe not bedrock."
+				""
+				"&6The only inefficiency of dark matter tools is that they are individual tools as opposed to one item. While virtually indestructible, this may be a dealbreaker for me."
+			]
 			id: "3C4322DE0D3F5600"
 			rewards: [{
 				id: "32FF5957CFAD5165"
@@ -21077,7 +21189,6 @@
 							Parent: { }
 						}
 						id: "projecte:dm_sword"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -21089,7 +21200,6 @@
 							Parent: { }
 						}
 						id: "projecte:dm_pick"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -21101,7 +21211,6 @@
 							Parent: { }
 						}
 						id: "projecte:dm_axe"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -21113,7 +21222,6 @@
 							Parent: { }
 						}
 						id: "projecte:dm_shovel"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -21124,6 +21232,8 @@
 		}
 		{
 			dependencies: ["5B29FE8F9F7C91F2"]
+			description: ["&6Red matter tools and armour are an upgrade over dark matter tools in every conceivable way."]
+			hide_dependent_lines: true
 			id: "0404DD4A0D87F8E3"
 			rewards: [{
 				id: "79035AECCD07636B"
@@ -21158,6 +21268,8 @@
 		}
 		{
 			dependencies: ["5B29FE8F9F7C91F2"]
+			description: ["&6Red matter tools and armour are an upgrade over dark matter tools in every conceivable way."]
+			hide_dependent_lines: true
 			id: "64E7F4D741319837"
 			rewards: [{
 				id: "60FB461EF4C3F372"
@@ -21173,7 +21285,6 @@
 							Parent: { }
 						}
 						id: "projecte:rm_hammer"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -21185,7 +21296,6 @@
 							Parent: { }
 						}
 						id: "projecte:rm_pick"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -21197,7 +21307,6 @@
 							Parent: { }
 						}
 						id: "projecte:rm_shovel"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -21208,6 +21317,8 @@
 		}
 		{
 			dependencies: ["5B29FE8F9F7C91F2"]
+			description: ["&6Red matter tools and armour are an upgrade over dark matter tools in every conceivable way."]
+			hide_dependent_lines: true
 			id: "2C9A823433809050"
 			rewards: [{
 				id: "13D32631A25F70D3"
@@ -21223,7 +21334,6 @@
 							Parent: { }
 						}
 						id: "projecte:rm_sword"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -21235,7 +21345,6 @@
 							Parent: { }
 						}
 						id: "projecte:rm_axe"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -21247,7 +21356,6 @@
 							Parent: { }
 						}
 						id: "projecte:rm_hoe"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -21259,7 +21367,6 @@
 							Parent: { }
 						}
 						id: "projecte:rm_shears"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -21270,6 +21377,7 @@
 		}
 		{
 			dependencies: ["731126727DDCAC54"]
+			description: ["&6The Condenser is a source of great power. It can automate transmutation processes and even turn dirt to diamonds, albeit you would need over eight thousand cubic metres of dirt to equate a diamond. "]
 			id: "52AD18AF6F36C7DB"
 			rewards: [{
 				count: 4
@@ -21289,6 +21397,11 @@
 			dependencies: [
 				"015124A9D4A821AF"
 				"52AD18AF6F36C7DB"
+			]
+			description: [
+				"&6I have found ruins of these power flowers atop a mountain crushed by meteors. It seemed that an ancient civilization once lived here and thrived on using these structures as sustenance and as a mean to generate large amounts of wealth. "
+				""
+				"&6With an energy condenser at the center, anti-matter relays can be added on the sides to transmit the matter contained in solar rays, captured by energy condensers, and turn it to EMC. This is a great source of passive matter accumulation."
 			]
 			id: "225E44D2CE6D6309"
 			rewards: [{
@@ -21318,6 +21431,7 @@
 				"225E44D2CE6D6309"
 				"5CFB446EC47CB53D"
 			]
+			description: ["&6With the use of anti-matter as a channel to act as a more efficient way to transmit matter, the power flower can be made more efficient."]
 			id: "695A4630322F9D35"
 			rewards: [{
 				count: 2
@@ -21346,6 +21460,7 @@
 				"695A4630322F9D35"
 				"5B29FE8F9F7C91F2"
 			]
+			description: ["&6While the red matter energy collector and anti-matter relay already follow the same concept as the dark matter ones, but simply with a more powerful material, the Energy Collector MK2 is significantly faster."]
 			id: "3DEB1BAED09B87EB"
 			rewards: [{
 				id: "7CE8B043DCA68DB4"
@@ -21375,6 +21490,7 @@
 		}
 		{
 			dependencies: ["5CFB446EC47CB53D"]
+			description: ["&6Portable transmutation on the go. As the table was already functionally a workstation using the Philosopher's Stone as its center with utilities for transmutation, this tablet is a portable version that can stay stable even in the most chaotic of travels, including flight. This may not justify the cost in dark matter."]
 			id: "15E087C520CD6950"
 			rewards: [{
 				id: "05D66D387863E99E"
@@ -21391,6 +21507,7 @@
 		}
 		{
 			dependencies: ["731126727DDCAC54"]
+			description: ["&6The transmutation table can be used to store the vast knowledge of matter. It uses the Philosopher's Stone as its center, with various markings to form permanent utilities around it, reducing the time taken to process transmutation and remembering far more than a feeble human mind."]
 			id: "04B76C415BE9F974"
 			rewards: [{
 				count: 4
@@ -21403,174 +21520,17 @@
 				item: "projecte:transmutation_table"
 				type: "item"
 			}]
-			x: 45.7d
-			y: 21.9d
-		}
-		{
-			dependencies: ["015124A9D4A821AF"]
-			hide_dependency_lines: true
-			id: "772D16E67AD29556"
-			rewards: [{
-				id: "2CF6904C79E8A2C3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [
-				{
-					id: "7B8ED676F9927AF9"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "projecte:klein_star_ein"
-					}
-					type: "item"
-				}
-				{
-					id: "1E1DDE96D90D957A"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "projecte:klein_star_zwei"
-					}
-					type: "item"
-				}
-				{
-					id: "3D02AC7E64D178A9"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "projecte:klein_star_drei"
-					}
-					type: "item"
-				}
-				{
-					id: "7FFF2C2A1D1B7F6B"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "projecte:klein_star_vier"
-					}
-					type: "item"
-				}
-				{
-					id: "7223230E793FB2AF"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "projecte:klein_star_sphere"
-					}
-					type: "item"
-				}
-			]
-			title: "Klein Stars"
-			x: 51.2d
-			y: 27.400000000000006d
-		}
-		{
-			dependencies: [
-				"772D16E67AD29556"
-				"0404DD4A0D87F8E3"
-			]
-			id: "47BE5EBEB47FA870"
-			rewards: [{
-				id: "4E28C37BBA00CE1F"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 1.15d
-			tasks: [
-				{
-					id: "5E53D791A4A752C8"
-					item: "projecte:gem_helmet"
-					type: "item"
-				}
-				{
-					id: "70C0D898C8FC738E"
-					item: "projecte:gem_chestplate"
-					type: "item"
-				}
-				{
-					id: "09479F0F7D7D685A"
-					item: "projecte:gem_leggings"
-					type: "item"
-				}
-				{
-					id: "442EF2192A24D4BC"
-					item: "projecte:gem_boots"
-					type: "item"
-				}
-			]
-			title: "Gem Armour"
-			x: 53.2d
-			y: 26.900000000000006d
-		}
-		{
-			dependencies: [
-				"2C9A823433809050"
-				"64E7F4D741319837"
-			]
-			dependency_requirement: "one_started"
-			description: [""]
-			id: "76CE9FC7D06D6CE8"
-			rewards: [{
-				id: "1A02C32BCB39789C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [
-				{
-					id: "4BE95068929E96A9"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "projecte:rm_katar"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "732F45D66A2CAA41"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "projecte:rm_morning_star"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			title: "The Katar and Morningstar"
-			x: 51.2d
-			y: 22.9d
+			x: 45.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["5CFB446EC47CB53D"]
+			description: ["&6High-level artefacts can be used alongside a dark matter pedestal, one of the only pedestals capable of handling their raw strength, to create powerful rituals in an area. This can range from affecting time itself in an area, to automatically repairing tools out of thin air or feeding people."]
 			id: "31817C54C3FFDA2D"
 			rewards: [{
-				id: "1C00B265C60C0EFB"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:watch_of_flowing_time"
-					tag: { }
-				}
-				type: "item"
+				id: "10EC2833C12231ED"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "1B30584B8FE0C920"
@@ -21604,6 +21564,7 @@
 		}
 		{
 			dependencies: ["33FC7F10A56757CB"]
+			description: ["&2The quarry card is used to configure the builder and provides the necessary tools for large scale excavations. There also exists fortune and silk touch versions of this card."]
 			id: "24A31DEF16754429"
 			rewards: [{
 				id: "77816866D07D14B8"
@@ -21627,12 +21588,18 @@
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
+			description: [
+				"&2Fascinating, truly fascinating! These dimensional shards have been around forever, but we have seen very few uses. In discovering ruins of an ancient research outpost that we believe was the ground zero of the outbreak of an ancient rift across space, we can finally theorize as to what the true potential of these shards are. "
+				""
+				"&2While Magicians have used these as a netherite substitute, they can actually stimulate space itself and open doors to other realms! The anomalous shards that have been appearing around the world are actually imperfect versions of these all-encompassing dimensional shards."
+			]
 			id: "108E54D33D1F4ECB"
 			rewards: [{
 				id: "6CC41B731BDDE8ED"
 				item: "rftoolsdim:common_lost_knowledge"
 				type: "item"
 			}]
+			subtitle: "Battlefield"
 			tasks: [
 				{
 					id: "0F367DF5B87BA22B"
@@ -21685,6 +21652,7 @@
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
+			description: ["&2Affecting the space within our very world, we can protect large areas using RF power to create solid, ethereal surfaces."]
 			id: "514AA39464185B58"
 			rewards: [{
 				id: "148F983492991F24"
@@ -22495,12 +22463,14 @@
 		}
 		{
 			dependencies: ["5A50AE26BCF79069"]
+			description: ["&2This ancient civilization seems to have similarly used high amounts of incomprehensibly advanced solar panels, to the point where some of us have theorized there is no possible way for them to have stored this enormous amount of RF power. They would be needing cables with infinite transfer rates and large storage devices capable to storing several Septillions of RF just to keep this up for months."]
 			id: "7B8FFE3C70CD7BC7"
 			rewards: [{
 				id: "6AD2A5985E18C0F4"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Dome of Light"
 			tasks: [{
 				id: "2936A42F71271CF0"
 				item: "solarflux:sp_8"
@@ -22803,11 +22773,7 @@
 				}
 				{
 					id: "5E8FFD2FE943CF99"
-					item: {
-						Count: 1
-						id: "psi:spell_bullet"
-						tag: { }
-					}
+					item: "psi:spell_bullet"
 					type: "item"
 				}
 			]
@@ -22837,6 +22803,10 @@
 							{
 								Count: 1b
 								id: "psi:cad_colorizer_orange"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_blue"
 							}
 							{
 								Count: 1b
@@ -23256,8 +23226,8 @@
 				type: "item"
 			}]
 			title: "The Fantastic Foundry"
-			x: -3.0d
-			y: 16.0d
+			x: -1.6500000000000001d
+			y: 17.05d
 		}
 		{
 			dependencies: ["3AF5EB2526EAD40C"]
@@ -26640,20 +26610,12 @@
 			tasks: [
 				{
 					id: "667598A8F5D03EEA"
-					item: {
-						Count: 1
-						id: "the_deep_void:knives_glove"
-						tag: { }
-					}
+					item: "the_deep_void:knives_glove"
 					type: "item"
 				}
 				{
 					id: "7F4F07F05B0DCD81"
-					item: {
-						Count: 1
-						id: "the_deep_void:knife_bandolier"
-						tag: { }
-					}
+					item: "the_deep_void:knife_bandolier"
 					type: "item"
 				}
 			]
@@ -28563,8 +28525,8 @@
 				}
 			]
 			title: "Scorchia Alloy Smelter"
-			x: -3.0d
-			y: 17.5d
+			x: -1.6500000000000001d
+			y: 18.7d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -29268,11 +29230,7 @@
 			}]
 			tasks: [{
 				id: "2D66F98C45777152"
-				item: {
-					Count: 1
-					id: "thermal:xp_crystal"
-					tag: { }
-				}
+				item: "thermal:xp_crystal"
 				type: "item"
 			}]
 			x: -22.0d
@@ -29829,11 +29787,7 @@
 				"&nAlmost any Pathway can adhere to the following Paths above.&r I've also included notes common to any Path, about the understanding of this world."
 			]
 			hide_dependent_lines: true
-			icon: {
-				Count: 1
-				id: "tarotcards:the_fool"
-				tag: { }
-			}
+			icon: "tarotcards:the_fool"
 			id: "524067700E07EB06"
 			invisible: true
 			rewards: [
@@ -29847,11 +29801,7 @@
 					auto: "invisible"
 					command: "/curios set curio @s 6"
 					elevate_perms: true
-					icon: {
-						Count: 1
-						id: "projecte:mercurial_eye"
-						tag: { }
-					}
+					icon: "projecte:mercurial_eye"
 					id: "7173247262F8CEC8"
 					ignore_reward_blocking: true
 					silent: true
@@ -30101,7 +30051,11 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
-			description: ["The megatorch prevents mobs from spawning in a large radius around itself."]
+			description: [
+				"The megatorch prevents mobs from spawning in a large radius around itself."
+				""
+				"They have become quite redundant in recent years with the development of the Civilis System. While in the past, monsters were afraid of the light, recently monsters have grown to be deterred by signs of civilization such as workstations and grand architecture. This means we can burn less coal on torches."
+			]
 			id: "288329048ACCA1E3"
 			rewards: [
 				{
@@ -30826,20 +30780,12 @@
 				"The &eWheel of Fortune&r card used to be a lot more powerful, granting luck manipulation of higher potency, but it seems to have shrunk with the discovery of the Traveler's Compass. Perhaps the strength of the Wheel of Fortune depends on the global luck levels of the entire population?"
 			]
 			hide_dependent_lines: true
-			icon: {
-				Count: 1
-				id: "tarotcards:wheel_of_fortune"
-				tag: { }
-			}
+			icon: "tarotcards:wheel_of_fortune"
 			id: "032A60B0D79C6ACB"
 			progression_mode: "flexible"
 			rewards: [{
 				id: "489D9F754F134A67"
-				item: {
-					Count: 1
-					id: "tarotcards:wheel_of_fortune"
-					tag: { }
-				}
+				item: "tarotcards:wheel_of_fortune"
 				team_reward: false
 				type: "item"
 			}]
@@ -31523,11 +31469,7 @@
 			}]
 			tasks: [{
 				id: "335A5DD66015B900"
-				item: {
-					Count: 1
-					id: "naturescompass:naturescompass"
-					tag: { }
-				}
+				item: "naturescompass:naturescompass"
 				type: "item"
 			}]
 			x: 2.0d
@@ -31544,122 +31486,11 @@
 			}]
 			tasks: [{
 				id: "2821ACB30CF05A3B"
-				item: {
-					Count: 1
-					id: "explorerscompass:explorerscompass"
-					tag: { }
-				}
+				item: "explorerscompass:explorerscompass"
 				type: "item"
 			}]
 			x: 0.5d
 			y: -18.0d
-		}
-		{
-			dependencies: [
-				"731126727DDCAC54"
-				"2B825471FE41A521"
-				"524067700E07EB06"
-			]
-			description: [
-				"The World is the final major arcana of the tarot, symbolizing completion. The World arcana is capable of anything, of every starting Pathway, and of time dilation around itself."
-				""
-				"The World card is crafted from every single tarot card, excluding itself. The Error card uses the Aeon singularity to fool the world into recognizing The Fool card, numbered 0, as the World, numbered 22, the last of the arcana."
-			]
-			hide_dependency_lines: true
-			id: "0F3237156DE95B07"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/kill @a"
-					elevate_perms: true
-					icon: {
-						Count: 1
-						id: "tarotcards:the_world"
-						tag: { }
-					}
-					id: "56088B539E3643ED"
-					silent: true
-					team_reward: false
-					title: "The Force of Ten Thousand Years"
-					type: "command"
-				}
-				{
-					auto: "no_toast"
-					command: "/tellraw @a {\"text\":\"An Eternal Aeon is born!\",\"bold\":true,\"italic\":true,\"color\":\"gold\"}"
-					elevate_perms: true
-					icon: "concatenationcore:aeon"
-					id: "10754A5E539447E9"
-					silent: true
-					title: "Birth of an Aeon"
-					type: "command"
-				}
-			]
-			size: 1.175d
-			subtitle: "Eternal Aeon"
-			tasks: [{
-				id: "4C8456E59D963D84"
-				item: {
-					Count: 1
-					id: "tarotcards:the_world"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "&6The World"
-			x: 1.175d
-			y: -32.9d
-		}
-		{
-			dependencies: ["0F3237156DE95B07"]
-			description: [
-				""
-				"{image:ftbquests:block/barrier width:100 height:100 align:center}"
-			]
-			hide_until_deps_complete: true
-			id: "6DDF28A484792887"
-			tasks: [{
-				id: "66B8EA5A1FED0F0F"
-				item: "concatenationcore:world_devourer"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -34.5d
-		}
-		{
-			dependencies: ["6DDF28A484792887"]
-			description: ["{image:ftbquests:block/barrier_open width:100 height:100 align:center}"]
-			id: "1A53753CE273B8EB"
-			tasks: [{
-				id: "2C95485AED56EF1E"
-				item: "concatenationcore:exalted_world_devourer"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -36.5d
-		}
-		{
-			dependencies: ["0F3237156DE95B07"]
-			description: [
-				"Gate to Perdition is a pack-wide event with limited-time rewards. Delve into a unique secondary questline sending you on a journey to investigate the disappearance of dimensional doors from the world and how we may reopen the door to Limbo!"
-				""
-				"Send your own theories on the pack's Discord server in #gate-to-perdition (link available on the title screen). Perhaps this will help the community figure out how to enter Limbo? &lThe most elaborate and ludicrous theory weaver will get a unique custom item added to the pack!&r"
-				"{@pagebreak}"
-				"All of the quests are hidden at the start and you must complete them to unlock the subsequent quest."
-			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			icon: "concatenationcore:experienced_paper"
-			id: "42F701FC987C6C99"
-			size: 0.75d
-			subtitle: "Event Over"
-			tasks: [{
-				id: "0817051F0190E4D5"
-				title: "Event Details"
-				type: "checkmark"
-			}]
-			title: "GtP Event Details"
-			x: 0.75d
-			y: -37.5d
 		}
 		{
 			dependencies: [
@@ -32380,8 +32211,8 @@
 				item: "concatenationcore:platinum_fuel_core"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 16.5d
+			x: -4.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -32591,8 +32422,8 @@
 				item: "tangiblecommands:wits_item"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -7.0d
+			x: 5.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -32981,6 +32812,320 @@
 			title: "Taming the Dread Hound"
 			x: 16.0d
 			y: -13.5d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"As one who travels a lot, it's often annoying to either have to setup somewhere and then pack up everything in the morning, or to sleep without shelter. Well, what about simply folding everything into a tent and packing it up?"
+				""
+				"These tent designs are frequently used by adventurers to serve as a semi-mobile base that is easy to pack and unpack. They can contain a lot more than mere sleeping bags. You can store whole beds, furnaces, even ample storage. They are quite heavy, but still a sufficient lazy solution."
+				"{@pagebreak}"
+				"&a(Shift-right click the tent to pick it up and its content in one go. "
+				""
+				"&aZip-up tents can be opened and closed with a right-click.)&r"
+			]
+			id: "4A8D37AE43828409"
+			rewards: [
+				{
+					id: "708FB6090573ED28"
+					item: "ironchest:iron_chest"
+					type: "item"
+				}
+				{
+					id: "2C8617C2256CDC2F"
+					item: "minecraft:white_bed"
+					type: "item"
+				}
+			]
+			subtitle: "Nomadic Lifestyle"
+			tasks: [
+				{
+					id: "79273F61DEC3ED25"
+					item: "simplytents:zip_tent"
+					type: "item"
+				}
+				{
+					id: "20D43C4B4E9991AE"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "simplytents:tent"
+								}
+								{
+									Count: 1b
+									id: "simplytents:wall_tent"
+								}
+								{
+									Count: 1b
+									id: "simplytents:roof_tent"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Any Other Tent"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7EC83053F1BDF835"]
+			description: [
+				"Utility belts are used by Tinkerers and Technicians to hold more tools on their person, extending their capacity by up to four items. Belts usually come with two pouches, but two more can be added to the design via a smithing table."
+				""
+				"&a(By default the ; key is used to open the belt and input items. The Shift+N key is used to swap to the belt slots. Belts go into the belt accesory slot, not the belt curio slot.)"
+			]
+			icon: {
+				Count: 1
+				id: "utility_belt:utility_belt"
+				tag: {
+					"utility_belt:inventory": [
+						{
+							Count: 1b
+							id: "minecraft:air"
+							tag: {
+								Damage: 0
+								Damp: 1b
+								Potion: "minecraft:water_breathing"
+								Trim: {
+									material: "redstone"
+									pattern: "spire"
+								}
+								display: {
+									color: 11546150
+								}
+								instrument: "minecraft:sing_goat_horn"
+							}
+						}
+						{
+							Count: 1b
+							id: "minecraft:air"
+							tag: {
+								Damage: 0
+								Damp: 1b
+								Potion: "minecraft:water_breathing"
+								Trim: {
+									material: "redstone"
+									pattern: "spire"
+								}
+								display: {
+									color: 11546150
+								}
+								instrument: "minecraft:sing_goat_horn"
+							}
+						}
+						{
+							Count: 1b
+							id: "minecraft:air"
+							tag: {
+								Damage: 0
+								Damp: 1b
+								Potion: "minecraft:water_breathing"
+								Trim: {
+									material: "redstone"
+									pattern: "spire"
+								}
+								display: {
+									color: 11546150
+								}
+								instrument: "minecraft:sing_goat_horn"
+							}
+						}
+						{
+							Count: 1b
+							id: "minecraft:air"
+							tag: {
+								Damage: 0
+								Damp: 1b
+								Potion: "minecraft:water_breathing"
+								Trim: {
+									material: "redstone"
+									pattern: "spire"
+								}
+								display: {
+									color: 11546150
+								}
+								instrument: "minecraft:sing_goat_horn"
+							}
+						}
+					]
+					"utility_belt:size": 4
+				}
+			}
+			id: "31C37FE17B133347"
+			rewards: [{
+				id: "0BBDA0155056B232"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "6B664B4D21F19393"
+					item: {
+						Count: 1
+						id: "utility_belt:utility_belt"
+						tag: {
+							"utility_belt:inventory": [
+								{
+									Count: 1b
+									id: "minecraft:air"
+									tag: {
+										Damage: 0
+										Damp: 1b
+										Potion: "minecraft:water_breathing"
+										Trim: {
+											material: "redstone"
+											pattern: "spire"
+										}
+										display: {
+											color: 11546150
+										}
+										instrument: "minecraft:sing_goat_horn"
+									}
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+									tag: {
+										Damage: 0
+										Damp: 1b
+										Potion: "minecraft:water_breathing"
+										Trim: {
+											material: "redstone"
+											pattern: "spire"
+										}
+										display: {
+											color: 11546150
+										}
+										instrument: "minecraft:sing_goat_horn"
+									}
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+									tag: {
+										Damage: 0
+										Damp: 1b
+										Potion: "minecraft:water_breathing"
+										Trim: {
+											material: "redstone"
+											pattern: "spire"
+										}
+										display: {
+											color: 11546150
+										}
+										instrument: "minecraft:sing_goat_horn"
+									}
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+									tag: {
+										Damage: 0
+										Damp: 1b
+										Potion: "minecraft:water_breathing"
+										Trim: {
+											material: "redstone"
+											pattern: "spire"
+										}
+										display: {
+											color: 11546150
+										}
+										instrument: "minecraft:sing_goat_horn"
+									}
+								}
+							]
+							"utility_belt:size": 4
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6E45F6F22183A7CF"
+					item: "utility_belt:pouch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 15.9d
+		}
+		{
+			dependencies: ["015124A9D4A821AF"]
+			description: ["&6Klein Star come in various tiers and can be used to store various amounts of EMC. At high levels they can become powerful materials in their own right with the amount of EMC stored within."]
+			id: "772D16E67AD29556"
+			rewards: [{
+				id: "2CF6904C79E8A2C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "7B8ED676F9927AF9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:klein_star_ein"
+					}
+					type: "item"
+				}
+				{
+					id: "1E1DDE96D90D957A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:klein_star_zwei"
+					}
+					type: "item"
+				}
+				{
+					id: "3D02AC7E64D178A9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:klein_star_drei"
+					}
+					type: "item"
+				}
+				{
+					id: "7FFF2C2A1D1B7F6B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:klein_star_vier"
+					}
+					type: "item"
+				}
+				{
+					id: "7223230E793FB2AF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:klein_star_sphere"
+					}
+					type: "item"
+				}
+			]
+			title: "Klein Stars"
+			x: 46.5d
+			y: 22.0d
 		}
 	]
 	title: "The Journey"

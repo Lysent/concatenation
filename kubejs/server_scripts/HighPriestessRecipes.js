@@ -1787,7 +1787,7 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.smelter('concatenationcore:erhantahir_alloy', ['rftoolsbase:infused_diamond', 'minecraft:nether_star', 'concatenationcore:daladite']).energy(1000000)
         event.recipes.thermal.smelter('concatenationcore:alclad', ['concatenationcore:meteorite_clump', '#forge:dusts/zinc']).energy(2500)
         event.recipes.thermal.smelter(Item.of('mekanism:nugget_osmium', 3), ['mekanism:dust_osmium']).energy(50000)
-        event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['mcore:raw_titanium', 'tconstruct:raw_cobalt', 'createmetallurgy:raw_wolframite']).energy(50000)
+        event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['mcore:raw_titanium', 'tconstruct:raw_cobalt', 'createmetallurgy:raw_tungsten']).energy(50000)
         event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['tconstruct:cobalt_ingot', 'mcore:titanium_ingot', 'createmetallurgy:tungsten_ingot']).energy(50000)
         //event.recipes.thermal.smelter('common_ore_library:platinum_dust', ['2x thermal:nickel_ingot', 'minecraft:copper_ingot']).energy(10000)
         event.recipes.thermal.smelter('mcore:titanium_ingot', ['mcore:raw_titanium']).energy(1000)

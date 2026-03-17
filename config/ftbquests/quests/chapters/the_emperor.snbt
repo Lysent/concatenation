@@ -1473,11 +1473,7 @@
 			subtitle: "Micromanagement at it's finest"
 			tasks: [{
 				id: "7FDC708CCFC43F1B"
-				item: {
-					Count: 1
-					id: "minecolonies:resourcescroll"
-					tag: { }
-				}
+				item: "minecolonies:resourcescroll"
 				type: "item"
 			}]
 			x: 0.5d
@@ -2244,11 +2240,7 @@
 			size: 1.3d
 			tasks: [{
 				id: "56799314B2302D5A"
-				item: {
-					Count: 1
-					id: "tarotcards:the_emperor"
-					tag: { }
-				}
+				item: "tarotcards:the_emperor"
 				type: "item"
 			}]
 			x: 5.2d

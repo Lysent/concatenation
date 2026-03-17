@@ -1,0 +1,561 @@
+{
+	autofocus_id: "7CFA560528061851"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "demiurge"
+	group: "0660E8A0F538EACF"
+	hide_quest_until_deps_complete: true
+	icon: "mokels_bossfight_saphyra:broken_sigil_of_the_red_sun"
+	id: "72E1B6530161411F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2B825471FE41A521"
+				"731126727DDCAC54"
+				"7CFA560528061851"
+			]
+			description: [
+				"&6I have heard whispers, giving me the secret recipe to make an artefact called the Red Sigil. I do not know what it will do."
+				""
+				"&6The whispers tell me to find a fractured clocktower. Where could one ever be? Have I ever seen one?"
+			]
+			id: "350B7C05222BA4D6"
+			rewards: [{
+				id: "587095537BFB21E4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Whispering Echoes"
+			tasks: [{
+				id: "043E83FA70C1AA6C"
+				item: "mokels_bossfight_saphyra:sigil_of_the_red_sun"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["350B7C05222BA4D6"]
+			description: [
+				"&6Once arriving at the Fractured Clocktower, I did not seem to find anything at first. The place was completely decrepid and actively collapsing, although the blooming vines were noteworthy. "
+				""
+				"&6I found this \"Oddment\" on the upper floors. My Sigil was naturally attracted to it, summoning forth a strange creature by the name of Linara."
+			]
+			id: "5F1A4E7BC374062C"
+			rewards: [{
+				id: "3CDA151BB65134E8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: "mokels_bossfight_saphyra:oddment_stage_2"
+				id: "6A2023507BC12462"
+				structure: "mokels_bossfight_saphyra:fractured_clock_tower"
+				title: "Visit the Fractured Clock Tower"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["523CD93EE762B31F"]
+			description: [
+				"&6Saphyra is an interesting being. She is old, as much as her appearance may tell otherwise. She may very well be several centuries old, seeing as she recounts having survived the \"Day of the White Flame\", whatever that means. "
+				""
+				"&6I've never heard of such an event in written records. More interestingly, she seems to have survived the much more recent Endless Night, which had wiped out most of the human population."
+			]
+			id: "74E84F1EE6428017"
+			rewards: [{
+				id: "07515615BB41F952"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "The Arch-Witch"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "mokels_bossfight_saphyra:saphyras_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "468365B2899E1665"
+				structure: "mokels_bossfight_saphyra:the_three_hallowed_towers"
+				title: "Visit the Three Hallowed Towers"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5F1A4E7BC374062C"]
+			description: ["&6It seems I have been invited. Invited to what? Invited for what? Is it just fate? I'll have to find this creature's master to get to know more."]
+			id: "523CD93EE762B31F"
+			rewards: [{
+				id: "41ED8095082A055E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "62657D1F74F5C81C"
+					item: "mokels_bossfight_saphyra:invitation_to_the_hallowed_tower"
+					type: "item"
+				}
+				{
+					id: "604ADDE88EBB804F"
+					item: "mokels_bossfight_saphyra:hallowed_key_1"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["74E84F1EE6428017"]
+			description: [
+				"&6Saphyra sent me to find this odd \"Church of the Oath Pus\". I've never heard of such a religion, so it must be quite ancient. I have no true intention of joining her small creed, but I will still investigate for the whispers keep pushing me forward, telling me that this is the way to ascension."
+				""
+				"&6The main entrance seems closed tightly shut. At least the statue at the center was able to repair my broken Red Sigil. I found a side entrance through a collapsed wall. Let's see what's up there."
+			]
+			id: "7028FEBF5709ABCE"
+			rewards: [{
+				id: "057E2039557181CD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Church of Oath Pus"
+			tasks: [{
+				id: "665159CE3F3DA006"
+				item: "mokels_bossfight_saphyra:key_4"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4500ED4931EC035D"]
+			description: ["&6After fighting through these heretical things and finding my way to the top once again, I acquired a gigantic key for the main entrance. Let us face this puny gatekeeper."]
+			id: "57F8D3DFC2D19D0E"
+			rewards: [{
+				id: "575D2DAE0C3341F0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7076AF62F5FA77D0"
+				item: "mokels_bossfight_saphyra:key_2"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7028FEBF5709ABCE"]
+			description: ["&6This place is truly treacherous. The cathedral is completely chaotic. I was able to eventually find a key in the central room, but I got lost for a while. Then, going outside at the balcony, I can see that part of the upper wall is collapsed and I can potentially enter the upper chamber through there. However, the path forward is blocked off by this strange gray fog still. I think this key would match the fog for the other side garden. There are several corrupted beings behind, prepare for battle."]
+			id: "4500ED4931EC035D"
+			rewards: [{
+				id: "0C4654E3239455BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7E5B70E200E02430"
+				item: "mokels_bossfight_saphyra:key_1"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["57F8D3DFC2D19D0E"]
+			description: [
+				"&6The Gatekeeper wasn't that strong. I could have simply consumed his flesh... or rather bones... with one strike."
+				""
+				"&6These strange effects and curses looked dangerous, but they were completely ineffective on me."
+			]
+			id: "57AA488933BCD954"
+			rewards: [{
+				id: "6C5BB61F61DF04E5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Sinister Gate Key"
+			tasks: [{
+				id: "12B8F97ED6005A5B"
+				item: "mokels_bossfight_saphyra:warrior_key"
+				type: "item"
+			}]
+			title: "The Nameless Gatekeeper"
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"3D383814B62E0433"
+				"1914EB02FA3AAC66"
+			]
+			description: [
+				"&6The solar core burns with the might of red matter and leads me to a place I do not have the knowledge of yet. I think this can be refined into a better artefact with some help."
+				""
+				"&6I have heard whispers, giving me the secret recipe to make an artefact called the Red Sigil. I do not know what it will do."
+			]
+			hide_until_deps_complete: false
+			id: "7CFA560528061851"
+			rewards: [{
+				auto: "no_toast"
+				command: ""
+				elevate_perms: true
+				icon: "mokels_bossfight_saphyra:sigil_of_the_red_sun_stage_2"
+				id: "64695E3D45B2D371"
+				silent: true
+				team_reward: false
+				title: "Ethereal Whispers"
+				type: "command"
+			}]
+			tasks: [{
+				id: "49C0A4FA1E781DA9"
+				item: "concatenationcore:solar_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			description: ["&6This strange scintillate closely resembles gold and glowstone but in a more pure form. It's obviously not of our world."]
+			id: "3D383814B62E0433"
+			rewards: [{
+				count: 2
+				id: "079450C2F212FA39"
+				item: "concatenationcore:gold_paper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54591087F28BA7CE"
+				item: "perdition:scintillate_pile"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			description: ["&6Anomalous shards form a strange power. They are not native to this world, yet can closely resonate with the innate properties of our universe."]
+			id: "1914EB02FA3AAC66"
+			rewards: [{
+				id: "2C8D0FC7C19644AB"
+				item: "rftoolsdim:legendary_essence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "668300482F66949D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "strangematter:spatial_shard_crystal"
+							}
+							{
+								Count: 1b
+								id: "strangematter:chrono_shard_crystal"
+							}
+							{
+								Count: 1b
+								id: "strangematter:insight_shard_crystal"
+							}
+							{
+								Count: 1b
+								id: "strangematter:energetic_shard_crystal"
+							}
+							{
+								Count: 1b
+								id: "strangematter:gravitic_shard_crystal"
+							}
+							{
+								Count: 1b
+								id: "strangematter:shade_shard_crystal"
+							}
+						]
+					}
+				}
+				title: "Any Anomalous Crystal"
+				type: "item"
+			}]
+			title: "Anomalous Crystals"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"731126727DDCAC54"
+				"2B825471FE41A521"
+				"524067700E07EB06"
+				"306BF4B67F2C9AC2"
+			]
+			description: [
+				"The World is the final major arcana of the tarot, symbolizing completion. The World arcana is capable of anything, of every starting Pathway, and of time dilation around itself."
+				""
+				"The World card is crafted from every single tarot card, excluding itself. The Error card uses the Aeon singularity to fool the world into recognizing The Fool card, numbered 0, as the World, numbered 22, the last of the arcana."
+				"{@pagebreak}"
+				"&6While Eleonore was aware of the rumored legendary existence of this arcana, there is no evidence at all she could have never reached it. After all, she never reached Justice, nor did she ever witness the closure of the dimensional doors. I think what everyone had missed up until that point was the purity of the glowing gold used. Scintillate is the most pure form of that material. In fact, glowing gold is mere artificial scintillate made in imitation of a deity's gift. "
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "0F3237156DE95B07"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/effect give @s minecraft:instant_damage 1 20"
+					elevate_perms: true
+					icon: "tarotcards:the_world"
+					id: "56088B539E3643ED"
+					silent: true
+					team_reward: false
+					title: "The Force of Ten Thousand Years"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"An Eternal Aeon is born!\",\"bold\":true,\"italic\":true,\"color\":\"gold\"}"
+					elevate_perms: true
+					icon: "concatenationcore:aeon"
+					id: "10754A5E539447E9"
+					silent: true
+					title: "Birth of an Aeon"
+					type: "command"
+				}
+			]
+			size: 1.175d
+			subtitle: "Eternal Aeon"
+			tasks: [{
+				id: "4C8456E59D963D84"
+				item: "tarotcards:the_world"
+				type: "item"
+			}]
+			title: "&6The World"
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"0404DD4A0D87F8E3"
+				"0F3237156DE95B07"
+				"772D16E67AD29556"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "47BE5EBEB47FA870"
+			rewards: [{
+				id: "4E28C37BBA00CE1F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "5E53D791A4A752C8"
+					item: "projecte:gem_helmet"
+					type: "item"
+				}
+				{
+					id: "70C0D898C8FC738E"
+					item: "projecte:gem_chestplate"
+					type: "item"
+				}
+				{
+					id: "09479F0F7D7D685A"
+					item: "projecte:gem_leggings"
+					type: "item"
+				}
+				{
+					id: "442EF2192A24D4BC"
+					item: "projecte:gem_boots"
+					type: "item"
+				}
+			]
+			title: "Gem Armour"
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0F3237156DE95B07"]
+			description: [
+				"&6The World Devourer is my most foolish endeavour yet. It contains the power of everything in existence, contained within a barrel. I draped gold fabric over it and it's now the most mystical and exotic posession I have. Makes for a good magic trick. Everytime it's broken, new items pop up."
+				""
+				"&6Paradoxically, I can forsee that if I keep breaking this gambling box, I'll get an \"exalted\" version of this world devourer. Whatever that means."
+			]
+			hide_until_deps_complete: true
+			id: "6DDF28A484792887"
+			tasks: [{
+				id: "66B8EA5A1FED0F0F"
+				item: "concatenationcore:world_devourer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6DDF28A484792887"]
+			description: ["{image:ftbquests:block/barrier_open width:100 height:100 align:center}"]
+			id: "1A53753CE273B8EB"
+			tasks: [{
+				id: "2C95485AED56EF1E"
+				item: "concatenationcore:exalted_world_devourer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"2C9A823433809050"
+				"64E7F4D741319837"
+				"0F3237156DE95B07"
+			]
+			dependency_requirement: "one_started"
+			description: [""]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "76CE9FC7D06D6CE8"
+			rewards: [{
+				id: "1A02C32BCB39789C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "4BE95068929E96A9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_katar"
+					}
+					type: "item"
+				}
+				{
+					id: "732F45D66A2CAA41"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_morning_star"
+					}
+					type: "item"
+				}
+			]
+			title: "The Katar and Morningstar"
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0F3237156DE95B07"]
+			id: "05F0DD0273CB3B5A"
+			tasks: [
+				{
+					id: "4F58DF94471B286C"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7ED0EBA9E9935C72"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "383226D057D8385B"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FB5C7B13E7874C2"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["57AA488933BCD954"]
+			description: [
+				"&6I have retrieved his Memory and Saphyra has told me to bother her student, Marlene. She wants a book she hasn't seen before? Well, there's surely plenty of those, but I'd have to go back to civilization. This place is in the middle of nowhere. "
+				""
+				"&6This made me think I really haven't taken a look at the other towers before. Perhaps they contain some treasures. Atop one of these towers, I found this \"Oddment\" once again. She told me to return to that damned cathedral and retrieve some eye. I've had to go back between this church and these towers so many damn times! I'll just kill them all!"
+				"{@pagebreak}"
+				"&6Back at the cathedral, I got slightly distracted and found this \"Tale of the Artificial God\", which seems oddly familiar to me. That's actually what I've been looking for! I don't think Marlene has read this book."
+			]
+			id: "7458D4B28DB7E331"
+			rewards: [{
+				id: "408A4D50F413FB80"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "48982E4871820E96"
+				item: "mokels_bossfight_saphyra:nameless_gatekeeper_remembrance"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7458D4B28DB7E331"]
+			description: [
+				"&6One day, Saphyra looked down on me in horror. She called me a Demiurge... But aren't you one yourself, she who has attained the power of an Aeon? It must be that she wants to stop me. She invited me to gaze upon the stars once more, but I can forsee a trap."
+				""
+				"&o\"If a powerful and ancient witch dares to stand on your path to ascending to an Aeon, will you still face her?\""
+				""
+				"&6Yes."
+			]
+			id: "306BF4B67F2C9AC2"
+			rewards: [{
+				id: "6442453C153FDD40"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "The tale lifts all shadows. The veil is broken."
+			tasks: [{
+				entity: "mokels_bossfight_saphyra:mothboss"
+				icon: "mokels_bossfight_saphyra:saphyra_remembrance"
+				id: "555C854D653B8493"
+				title: "Defeat Saphyra"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+	]
+	title: "Timaeus"
+}

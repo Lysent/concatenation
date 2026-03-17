@@ -1,0 +1,12 @@
+
+["Tent Settings"]
+	#If true, sneaking and clicking a tent with an empty hand will pack up the blocks and entities inside it.
+	enableInteriorPickup = true
+	#If true, only the player who originally placed the tent can pack it up.
+	restrictPickup = false
+	#What happens to a player's spawn point if they pack up a tent containing their bed?
+	#VANILLA = Bed is broken, spawn point is removed.
+	#CAMP = Spawn point is locked to the exact location they packed up the tent.
+	#HOME = Spawn point is reverted to the last non-tent bed they slept in.
+	spawnLogic = "HOME"
+
