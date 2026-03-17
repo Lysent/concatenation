@@ -4,13 +4,6 @@
     "modId": "forge",
     "version": "fmlloader-1.20.1-47.4.10.jar"
   },
-  "acceleratedrendering-1.0.8-1.20.1-alpha.jar": {
-    "jarName": "acceleratedrendering-1.0.8-1.20.1-alpha.jar",
-    "modId": "acceleratedrendering",
-    "version": "1.0.8-1.20.1-alpha",
-    "curseForgeHash": 4233179360,
-    "modrinthHash": "b3a7f08f7f228228b852cc19bb061612eeedacdc"
-  },
   "accessories-neoforge-1.0.0-beta.48+1.20.1.jar": {
     "jarName": "accessories-neoforge-1.0.0-beta.48+1.20.1.jar",
     "modId": "accessories",
@@ -501,12 +494,12 @@
     "curseForgeHash": 991749567,
     "modrinthHash": "ad19e90393ec8230a6d8a4a89814f39e7c6084d4"
   },
-  "concatenationcore-1.4.1-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.4.1-forge-1.20.1.jar",
+  "concatenationcore-1.4.3-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.4.3-forge-1.20.1.jar",
     "modId": "concatenationcore",
-    "version": "1.4.1",
-    "curseForgeHash": 3652431288,
-    "modrinthHash": "6bcc9b869354c0c2d8206ed08ce2137c42b8a56d"
+    "version": "1.4.3",
+    "curseForgeHash": 2487739564,
+    "modrinthHash": "98d66f60d4986906c5edade04cd99641de74831a"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -562,12 +555,12 @@
     "curseForgeHash": 2144346557,
     "modrinthHash": "f6d3cdd3ec68c5590cf5b2e89c38dbf031824bfd"
   },
-  "conveniencerecipes-1.0.5-forge-1.20.1.jar": {
-    "jarName": "conveniencerecipes-1.0.5-forge-1.20.1.jar",
+  "conveniencerecipes-1.1.0-universal-1.20.1.jar": {
+    "jarName": "conveniencerecipes-1.1.0-universal-1.20.1.jar",
     "modId": "conveniencerecipes",
-    "version": "1.0.5",
-    "curseForgeHash": 1158257370,
-    "modrinthHash": "58b878e3e0f7fa5897197e17afe16766b778a823"
+    "version": "1.1.0",
+    "curseForgeHash": 2181470175,
+    "modrinthHash": "8e800c3953158c49782f43ca51c84fb92a2a9a5e"
   },
   "copycats-3.0.7+mc.1.20.1-forge.jar": {
     "jarName": "copycats-3.0.7+mc.1.20.1-forge.jar",
@@ -814,12 +807,12 @@
     "curseForgeHash": 3843138404,
     "modrinthHash": "37ef64d3ae7fda292c882ee949a0280bf6c7f033"
   },
-  "DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar": {
-    "jarName": "DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar",
+  "DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar": {
+    "jarName": "DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar",
     "modId": "distanthorizons",
-    "version": "2.3.2-b",
-    "curseForgeHash": 838849285,
-    "modrinthHash": "57a3a0105c51fdeb7d4a79a35cd8a16586917cf4"
+    "version": "2.4.5-b",
+    "curseForgeHash": 2493566328,
+    "modrinthHash": "ce3814dd5971edda4d04c3a42ef0df5c6cf8e10d"
   },
   "does_it_tick-forge-1.1.4-1.20.1.jar": {
     "jarName": "does_it_tick-forge-1.1.4-1.20.1.jar",
@@ -898,13 +891,6 @@
     "curseForgeHash": 3536988221,
     "modrinthHash": "50286eccc1f5ace423fe3e334f2f33cd73892101"
   },
-  "effectification-forge-2.0.3.jar": {
-    "jarName": "effectification-forge-2.0.3.jar",
-    "modId": "effectification",
-    "version": "2.0.3",
-    "curseForgeHash": 2646940862,
-    "modrinthHash": "5dc457055f8583a5e8b885adbc3e8eb6b2d375d8"
-  },
   "elementalcraft-1.20.1-6.0.1.jar": {
     "jarName": "elementalcraft-1.20.1-6.0.1.jar",
     "modId": "elementalcraft",
@@ -975,12 +961,12 @@
     "curseForgeHash": 53908515,
     "modrinthHash": "ea86eceb04978bc366fe022bbab5dd5ea0bd3ab4"
   },
-  "emixx-forge-1.3.1.jar": {
-    "jarName": "emixx-forge-1.3.1.jar",
+  "emixx-forge-1.3.2.jar": {
+    "jarName": "emixx-forge-1.3.2.jar",
     "modId": "emixx",
-    "version": "1.3.1",
-    "curseForgeHash": 2223067061,
-    "modrinthHash": "49faa38afd2bbb5e53ddac1145240b4296b208f7"
+    "version": "1.3.2",
+    "curseForgeHash": 695833017,
+    "modrinthHash": "cdb6368e32e0742c9284fffca65ac30c91fcf692"
   },
   "enchanter_fix-1.8+mc1.20-1.21.11.jar": {
     "jarName": "enchanter_fix-1.8+mc1.20-1.21.11.jar",
@@ -1415,6 +1401,13 @@
     "version": "5.5.0+forge",
     "curseForgeHash": 3691760882,
     "modrinthHash": "5e74e87f61cf05c18457f09dfa1cb70332b6b777"
+  },
+  "jamlib-forge-1.3.5+1.20.1.jar": {
+    "jarName": "jamlib-forge-1.3.5+1.20.1.jar",
+    "modId": "jamlib",
+    "version": "1.3.5+1.20.1",
+    "curseForgeHash": 1772241613,
+    "modrinthHash": "6d5ffd184496a979a54a92be86139e4afabbb580"
   },
   "jmi-forge-1.20.1-0.14-48.jar": {
     "jarName": "jmi-forge-1.20.1-0.14-48.jar",
@@ -2385,12 +2378,12 @@
     "curseForgeHash": 1639732781,
     "modrinthHash": "8c6f9cb038c7b41b317f79645c8110a9f31016ca"
   },
-  "Steam_Rails-1.7.1+forge-mc1.20.1.jar": {
-    "jarName": "Steam_Rails-1.7.1+forge-mc1.20.1.jar",
+  "Steam_Rails-1.7.2+forge-mc1.20.1.jar": {
+    "jarName": "Steam_Rails-1.7.2+forge-mc1.20.1.jar",
     "modId": "railways",
-    "version": "1.7.1+forge-mc1.20.1",
-    "curseForgeHash": 1356222844,
-    "modrinthHash": "93c32e96f463f5d4758e939916c7a8de79bd6212"
+    "version": "1.7.2+forge-mc1.20.1",
+    "curseForgeHash": 3883819242,
+    "modrinthHash": "15d317afd2459368b19c23f2bdfefdeb87708bdd"
   },
   "StorageDrawers-forge-1.20.1-12.14.3.jar": {
     "jarName": "StorageDrawers-forge-1.20.1-12.14.3.jar",
@@ -2497,12 +2490,12 @@
     "curseForgeHash": 1836109765,
     "modrinthHash": "2c918fd1821c7089ef4957742a4aee6f5a184ee1"
   },
-  "taglocalizations-1.0.5-universal-1.20.1.jar": {
-    "jarName": "taglocalizations-1.0.5-universal-1.20.1.jar",
+  "taglocalizations-1.0.6-universal-1.20.1.jar": {
+    "jarName": "taglocalizations-1.0.6-universal-1.20.1.jar",
     "modId": "taglocalizations",
-    "version": "1.0.5",
-    "curseForgeHash": 3772418959,
-    "modrinthHash": "98aeaf84689d6b2e8202a28f8867415242c8fddb"
+    "version": "1.0.6",
+    "curseForgeHash": 2330025043,
+    "modrinthHash": "89cbc9d0ac25fd574d24afeb3141e549c8425669"
   },
   "tangiblecommands-1.0.0-forge-1.20.1.jar": {
     "jarName": "tangiblecommands-1.0.0-forge-1.20.1.jar",
@@ -2560,12 +2553,12 @@
     "curseForgeHash": 4083076714,
     "modrinthHash": "15f746b213b8e347a25d30410528357e14898311"
   },
-  "the_deep_void-1.96.9.1-forge-1.20.1.jar": {
-    "jarName": "the_deep_void-1.96.9.1-forge-1.20.1.jar",
+  "the_deep_void-1.96.11-forge-1.20.1.jar": {
+    "jarName": "the_deep_void-1.96.11-forge-1.20.1.jar",
     "modId": "the_deep_void",
-    "version": "1.96.9",
-    "curseForgeHash": 497282220,
-    "modrinthHash": "6158339c666216da4026af984d15bf7800095491"
+    "version": "1.96.11",
+    "curseForgeHash": 4256932310,
+    "modrinthHash": "93f895adc29a724aa66de234fbb8c71550be4e7f"
   },
   "thermal_cultivation-1.20.1-11.0.1.24.jar": {
     "jarName": "thermal_cultivation-1.20.1-11.0.1.24.jar",
@@ -2769,6 +2762,13 @@
     "version": "2.0.1.124",
     "curseForgeHash": 2890512468,
     "modrinthHash": "0c7f0360fc5324a2c29591a22d827ff5e536cc00"
+  },
+  "utility-belt-forge-3.0.1+1.20.1.jar": {
+    "jarName": "utility-belt-forge-3.0.1+1.20.1.jar",
+    "modId": "utility_belt",
+    "version": "3.0.1+1.20.1",
+    "curseForgeHash": 3640037019,
+    "modrinthHash": "868f1cd5a0ebff0e5792d80131ed01da13cc1d45"
   },
   "VanillaBackport-forge-1.20.1-1.1.5.4.2.jar": {
     "jarName": "VanillaBackport-forge-1.20.1-1.1.5.4.2.jar",

@@ -24,7 +24,9 @@ ServerEvents.recipes(event => {
                 'simplytents:wall_tent',
                 'simplytents:roof_tent',
                 'simplytents:zip_tent',
-                'bountiful:bountyboard'
+                'bountiful:bountyboard',
+                'utility_belt:utility_belt',
+                'utility_belt:pouch'
         ]
 
         remove.forEach(item => {
@@ -931,7 +933,7 @@ ServerEvents.recipes(event => {
                         E: 'concatenationcore:eternel_est',
                         B: 'concatenationcore:eternel_nord',
                         C: 'concatenationcore:eternel_ouest',
-                        A: 'concatenationcore:gold_paper',
+                        A: 'perdition:scintillate_pile',
                         D: 'ae2:singularity'
                 }
         )
@@ -1010,7 +1012,7 @@ ServerEvents.recipes(event => {
                         F: 'concatenationcore:the_error',
                         D: 'concatenationcore:aeon',
                         A: 'concatenationcore:gold_paper',
-                        E: 'projecte:red_matter',
+                        E: 'concatenationcore:blasphemy_fragment',
                         C: 'hpm:corvette_steamship_item',
                         B: 'tarotcards:the_fool'
                 }
@@ -1134,16 +1136,16 @@ ServerEvents.recipes(event => {
                         'ars_nouveau:caster_tome'
                 ]
         )
-        event.shapeless(
-                Item.of('concatenationcore:fortune_fragment'),
-                [
-                        'concatenationcore:cutting_tool',
-                        '#irons_spellbooks:salvageable_curio',
-                        '#irons_spellbooks:salvageable_curio',
-                        '#irons_spellbooks:salvageable_curio',
-                        '#irons_spellbooks:salvageable_curio'
-                ]
-        )
+        // event.shapeless(
+        //         Item.of('concatenationcore:fortune_fragment'),
+        //         [
+        //                 'concatenationcore:cutting_tool',
+        //                 '#irons_spellbooks:salvageable_curio',
+        //                 '#irons_spellbooks:salvageable_curio',
+        //                 '#irons_spellbooks:salvageable_curio',
+        //                 '#irons_spellbooks:salvageable_curio'
+        //         ]
+        // )
         event.shapeless(
                 Item.of('concatenationcore:fortune_fragment'),
                 [
@@ -1417,6 +1419,60 @@ ServerEvents.recipes(event => {
                         D: 'minecraft:oak_log',
                         B: 'minecraft:white_wool',
                         C: 'minecraft:iron_bars'
+                }
+        )
+        event.shaped(
+                Item.of('utility_belt:utility_belt'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        A: 'minecraft:leather',
+                        B: 'utility_belt:pouch',
+                        C: 'minecraft:string',
+                        D: 'tconstruct:manyullyn_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('utility_belt:utility_belt'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        A: 'minecraft:leather',
+                        B: 'utility_belt:pouch',
+                        C: 'minecraft:string',
+                        D: 'concatenationcore:meteorite'
+                }
+        )
+        event.shaped(
+                Item.of('utility_belt:pouch'),
+                [
+                        'ABA',
+                        'CBC',
+                        'ACA'
+                ],
+                {
+                        B: 'common_ore_library:platinum_ingot',
+                        C: 'minecraft:leather',
+                        A: 'minecraft:string'
+                }
+        )
+        event.shaped(
+                Item.of('utility_belt:pouch'),
+                [
+                        'ABA',
+                        'CBC',
+                        'ACA'
+                ],
+                {
+                        B: 'ae2:charged_certus_quartz_crystal',
+                        C: 'minecraft:leather',
+                        A: 'minecraft:string'
                 }
         )
 });

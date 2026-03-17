@@ -231,6 +231,28 @@ ServerEvents.tags('item', event => {
     event.add('forge:tools/swords', 'psi:psimetal_sword');
     event.add('minecraft:swords', 'psi:psimetal_sword');
 
+    add('elementalcraft:infusable/sword', [
+        'ae2:certus_quartz_cutting_knife',
+        'ae2:nether_quartz_cutting_knife',
+        'bloodmagic:sacrificialdagger',
+        'concatenationcore:cutting_tool',
+        'farmersdelight:flint_knife',
+        'farmersdelight:iron_knife',
+        'farmersdelight:golden_knife',
+        'farmersdelight:diamond_knife',
+        'farmersdelight:netherite_knife',
+        'refurbished_furniture:knife',
+    ]);
+    add('elementalcraft:infusable/axe', [
+        'bloodmagic:soulaxe'
+    ]);
+    add('elementalcraft:infusable/pickaxe', [
+        'bloodmagic:soulpickaxe'
+    ]);
+    add('elementalcraft:infusable/shovel', [
+        'bloodmagic:soulshovel'
+    ]);
+
     const golden = [
         'asr:golden_giant_sword',
         'mekanismtools:gold_paxel',
@@ -282,10 +304,10 @@ ServerEvents.tags('item', event => {
     ];
 
     add('tarotcards:golden', sublime);
-    add('minecraft:pligin_loved', sublime);
+    add('minecraft:piglin_loved', sublime);
     add('forge:tools', sublime);
     add('forge:tools/gold', sublime);
-    add('minecraft:pligin_loved', golden);
+    add('minecraft:piglin_loved', golden);
     add('tarotcards:golden', golden);
 
     const fullSets = [

@@ -164,7 +164,7 @@ ServerEvents.recipes(event => {
     // Timaeus
 
     event.shaped(
-        Item.of('bountiful:bounty'),
+        Item.of('concatenationcore:solar_core'),
         [
             'ABC',
             'DEF',
@@ -192,22 +192,37 @@ ServerEvents.recipes(event => {
         {
             B: 'concatenationcore:fortune_fragment',
             C: 'tarotcards:the_devil',
-            D: 'bountiful:bounty',
+            D: 'concatenationcore:solar_core',
             E: 'tarotcards:justice',
             A: 'concatenationcore:silver_paper'
         }
     ).keepIngredient('tarotcards:the_devil').keepIngredient('tarotcards:justice')
     event.shaped(
-    Item.of('mokels_bossfight_saphyra:key_2'),
-    [
-        ' A ',
-        'ABA',
-        ' A '
-    ],
-    {
-        A: 'strangematter:gravitic_shard',
-        B: 'mokels_bossfight_saphyra:sunveil'
-    }
-)
+        Item.of('mokels_bossfight_saphyra:key_2'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'strangematter:gravitic_shard',
+            B: 'mokels_bossfight_saphyra:sunveil'
+        }
+    )
+    event.shaped(
+        Item.of('concatenationcore:blasphemy_fragment'),
+        [
+            'ABA',
+            'CDC',
+            'AEA'
+        ],
+        {
+            B: 'perdition:displacement_stone_6',
+            D: 'mokels_bossfight_saphyra:witch_staff',
+            E: 'perdition:cut_dis_gem',
+            C: 'projecte:red_matter',
+            A: 'rftoolsdim:legendary_essence'
+        }
+    )
 
 });

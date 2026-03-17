@@ -12,7 +12,7 @@
     },
     {
       "attribute": "minecraft:generic.attack_damage",
-      "value": 75,
+      "value": 35,
       "operation": "ADDITION"
     }
   ],
@@ -29,7 +29,53 @@
     },
     {
       "attribute": "minecraft:generic.attack_damage",
-      "value": 50,
+      "value": 25,
+      "operation": "ADDITION"
+    }
+  ],
+  "scorched": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 200,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "infested_witch": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 500,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 15,
+      "operation": "ADDITION"
+    }
+  ],
+  "nameless": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1000,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 15,
       "operation": "ADDITION"
     }
   ]

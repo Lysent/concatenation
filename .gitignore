@@ -80,3 +80,4 @@ lightspeed-cache
 !config/moonlight-client.toml
 !config/mantle-client.toml
 !config/emixx/emixx-client.toml
+!config/acceleratedrendering-client.toml
