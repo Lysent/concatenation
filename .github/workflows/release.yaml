@@ -1,0 +1,22 @@
+name: Release
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create Technic release
+        run: |
+          zip -r9 release.zip . -x"*.git*"
+
+      - name: Upload Release Asset
+        uses: softprops/action-gh-release@v1
+        with:
+          files: release.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}

@@ -30,11 +30,19 @@ glintSpeed:0.5
 glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
+<<<<<<< HEAD
 gamma:0.5
 renderDistance:8
 simulationDistance:8
 entityDistanceScaling:1.0
 guiScale:0
+=======
+gamma:1.0
+renderDistance:12
+simulationDistance:12
+entityDistanceScaling:2.0
+guiScale:5
+>>>>>>> origin/main
 particles:0
 maxFps:120
 graphicsMode:0
@@ -42,8 +50,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","tacz_resources","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","fabric","resources/Better_Enderdragon.zip","resources/ConcatenationTips.zip","resources/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","resources/Icon Journey 1.1.zip","resources/LowOnFire_1.20.1.zip","resources/Old+Iron+Chest.zip","resources/ReApplied.zip","resources/Stay_True_1.20.zip","resources/cubic-sun-moon-v1.8.1a.zip","resources/elysiapresents_lootr.zip","file/brickiersolidfuelquarry.zip","file/coppierpipes.zip"]
-incompatibleResourcePacks:["builtin/towntalk","resources/ConcatenationTips.zip","resources/Icon Journey 1.1.zip","resources/Old+Iron+Chest.zip","resources/ReApplied.zip","resources/elysiapresents_lootr.zip"]
+resourcePacks:[]
+incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -94,7 +102,7 @@ soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
-modelPart_cape:true
+modelPart_cape:false
 modelPart_jacket:true
 modelPart_left_sleeve:true
 modelPart_right_sleeve:true

@@ -101,11 +101,8 @@
 	GiveTorches = true
 	#Bosses can no longer kill you, instead they will bring you down to 1 health and then idle (Does not apply to the Weaver Of Souls)
 	BossesDoNotKill = false
-
-["Critical Changes"]
-	#If true, the old structure containing the Weaver Of Souls will be overwritten by the new one (this WILL destroy anything around it)
-	OverwriteWithSepulcher = false
-	OverwriteWithTemple = false
+	#Allows the Stalker to spawn in the Overworld
+	Stalked = false
 
 ["Apostle Of Catastrophe"]
 	#Damage
@@ -152,7 +149,7 @@
 	PrimordialCrawlerSpit = 6.0
 	#Damage
 	PrimordialCrawlerDigPlayerClose = 34.0
-	#Damage (repeated five times)
+	#Damage (on contact)
 	PrimordialCrawlerDash = 18.0
 	#Damage in an AOE
 	PrimordialCrawlerGooBlock = 50.0
@@ -229,6 +226,19 @@
 	AbyssalMarkBurst = 20.0
 	#Distance is multiplied by this value. The result multiplies the initial damage
 	Sharpshooter = 0.5
+	#The damage dealt to the player upon shooting themselves (ignores armor)
+	PerilSelfDamage = 18.0
+	#Adrenaline is multiplied by that value, which is then used to multiply the projectile's damage
+	PerilDamageMultiplier = 4.0
+	#Damage (velocity increases that number)
+	Peril = 2.8
+	#The attack damage bonus
+	BloodstoneArmorBonus = 2.0
+	#Void bow damage (ignores armor and i-frames)
+	VoidBow = 8.0
+	ScythesReach = 1.0
+	#The attack damage bonus
+	PlagueArmorBonus = 2.0
 
 ["Hive's Watcher"]
 	#Damage each tick

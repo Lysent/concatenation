@@ -2,13 +2,14 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "bounty_board"
-	group: "4AEECD5B848DA3A1"
+	group: "0660E8A0F538EACF"
 	icon: "create:clipboard"
 	id: "0C11BA015DF26C52"
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7C39BC243F02A0A0"]
 			description: [
 				"&4At our local tavern, there is a bounty board on the wall. People post various quests, whether they be landowners, mine owners, random lumberjacks or fishermen. Everyone is threatened by the various monsters that may appear. This is where us hunters come in."
 				""
@@ -368,29 +369,18 @@
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4There’s a kind of madness in a task like this, how much punishment a body can endure before it simply doesn’t anymore. We’ve learned to read our scars like pages in a book: burns from blaze fire, jagged gouges from creepers, neat punctures from skeleton arrows. Twelve thousand hurts is less about bravery and more about stubbornness, about standing back up when anyone sane would stay down. If we live through it, we’ll know exactly where our limits used to be."]
 			id: "236CDF4D91BC9948"
-			rewards: [{
-				id: "4E09B9B37BE9D459"
-				item: {
-					Count: 1
-					id: "concatenationcore:rython"
-					tag: {
-						CurioAttributeModifiers: [{
-							Amount: 2
-							AttributeName: "generic.max_health"
-							Name: "generic.max_health"
-							Operation: 0
-							Slot: "charm"
-							UUID: [I;
-								-1049641899
-								-1698279708
-								-1222758712
-								1471568110
-							]
-						}]
-					}
+			rewards: [
+				{
+					id: "2339CB9DED6DE4D1"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "21286905F23268C9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "63708C51BFA2A526"
 				stat: "minecraft:damage_taken"
@@ -813,54 +803,7 @@
 			rewards: [
 				{
 					id: "2C3EFCD4B982141E"
-					item: {
-						Count: 1
-						id: "concatenationcore:bloody_living_giant_sword"
-						tag: {
-							AttributeModifiers: [
-								{
-									Amount: 12
-									AttributeName: "generic.attack_damage"
-									Name: "generic.attack_damage"
-									Operation: 0
-									Slot: "mainhand"
-									UUID: [I;
-										-513130152
-										566053759
-										-2075885196
-										-607104510
-									]
-								}
-								{
-									Amount: 1
-									AttributeName: "generic.attack_speed"
-									Name: "generic.attack_speed"
-									Operation: 0
-									Slot: "mainhand"
-									UUID: [I;
-										544014363
-										-38516229
-										-1585965233
-										-426489813
-									]
-								}
-								{
-									Amount: 4
-									AttributeName: "generic.max_health"
-									Name: "generic.max_health"
-									Operation: 0
-									Slot: "mainhand"
-									UUID: [I;
-										1815160898
-										1160073178
-										-1247081854
-										-605985969
-									]
-								}
-							]
-							Damage: 0
-						}
-					}
+					item: "concatenationcore:concatenator"
 					type: "item"
 				}
 				{
@@ -937,6 +880,31 @@
 				"Minor coastal structure near ocean shorelines."
 			]
 			id: "14A7ED9BD35A8F02"
+			rewards: [
+				{
+					id: "5514DC809F9AC926"
+					item: {
+						Count: 1
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "30667B82E4D1251B"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5C62F1036E33C4E5"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "chipped:nice_redstone_lamp"
 				id: "0ADAAD98762950F2"
@@ -956,6 +924,24 @@
 				"A small, plains-spawned campsite structure that can spawn enemies and contain basic loot."
 			]
 			id: "4173A4839729CE17"
+			rewards: [
+				{
+					id: "3EF7F00EDDE269E5"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "64D3542041C4F1C7"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "41D334D71D4069B2"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:cyan_wool"
 				id: "2920F8D258ED54A4"
@@ -975,6 +961,25 @@
 				"Underground fiery mine structure with hostile spawns and loot."
 			]
 			id: "629DB46306A07CC5"
+			rewards: [
+				{
+					count: 96
+					id: "454A0814C8A32AA0"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "1EF34BB6DBFD3262"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "2402BA20BA76E6C2"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:red_nether_bricks"
 				id: "542FA44F25A792ED"
@@ -995,6 +1000,11 @@
 			]
 			icon: "minecraft:cauldron"
 			id: "5869FB26BB752DC4"
+			rewards: [{
+				id: "45278CCFEA2F33EA"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "minecraft:cauldron"
 				id: "2669B76806471DA8"
@@ -1014,6 +1024,31 @@
 				"A large surface structure with multiple levels, overgrown with vegetation and filled with enemies."
 			]
 			id: "101BF66F49C4B652"
+			rewards: [
+				{
+					count: 4
+					id: "1156D4B49C857F61"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "25AED0D56A60AA39"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "07DC669FA62DA278"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "1178A4BFED9A918E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:poppy"
 				id: "465230A7A0560F83"
@@ -1033,6 +1068,24 @@
 				"Floating airship structure high above ground with aerial mobs and valuable loot."
 			]
 			id: "0F0DEBC4F752BA53"
+			rewards: [
+				{
+					id: "4CD70D5CF3221ABF"
+					item: "thermal:nuke_tnt"
+					type: "item"
+				}
+				{
+					count: 18
+					id: "17EF5DF195D3C732"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "5B9650C4234F07CF"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:stripped_acacia_wood"
 				id: "720F2B3587313889"
@@ -1052,6 +1105,25 @@
 				"End-dimension fortress structure filled with very difficult foes and great loot."
 			]
 			id: "5DB770DBC1D71175"
+			rewards: [
+				{
+					count: 2
+					id: "1D03188EA86D7804"
+					item: "concatenationcore:silver_paper"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5DCFE0D9A7D0C4BA"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "0CB9F708586FC144"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "chipped:circular_magenta_stained_glass_pane"
 				id: "6ACDFEAA88382B57"
@@ -1063,7 +1135,33 @@
 			x: 6.0d
 			y: -4.5d
 		}
+		{
+			description: [
+				"Adventurer Guilds are common throughout the world, giving out quests to both adventurers and bounty hunters alike, providing tasks with rewards ranging from abysmal to incredible. Bounty boards can commonly be found around in villages. Ever since the advent of the Endless Night, it seems that the number and prominence of adventurer guilds have declined substantially, being found within other buildings and with even worse rewards than before."
+				"{@pagebreak}"
+				"I have collected the notes of a hunter recently, who has documented both his latest bounties and holidays."
+				""
+				"I am unaware of what happened to this hunter. It seems his party left in a hurry in an attack and left behind some of their belongings, such as a journal with scattered notes and scrambled writings. I don't think they have perished yet, but I haven't seen them anywhere."
+			]
+			id: "7C39BC243F02A0A0"
+			rewards: [{
+				id: "5180F87A5F970384"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "bountiful:bountyboard"
+				id: "5CA935E79EFA3D58"
+				observe_type: 0
+				timer: 0L
+				title: "Witness a Bounty Board"
+				to_observe: "bountiful:bountyboard"
+				type: "observation"
+			}]
+			title: "Adventurer's Guild"
+			x: 0.0d
+			y: 2.5d
+		}
 	]
-	subtitle: ["Limited Event"]
 	title: "Bounty Board"
 }
