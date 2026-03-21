@@ -1,3 +1,3 @@
 #A list of messages that if contained in a message will be stopped.
-messages = ["You are using a beta version of Railcraft Reborn", "You are using a development version of Railcraft Reborn", "This game is using an alpha build of Ender IO", "Thank You For Installing Swashbucklers!", "https://github.com/halbear/Swashbucklers/wiki", "Swashbucklers", "True Ending", "loaded"]
+messages = ["You are using a beta version of Railcraft Reborn", "You are using a development version of Railcraft Reborn", "This game is using an alpha build of Ender IO", "Thank You For Installing Swashbucklers!", "https://github.com/halbear/Swashbucklers/wiki", "Swashbucklers", "True Ending", "loaded", "chunky", "???"]
 

@@ -15,8 +15,10 @@
 			description: [
 				"&2Dimensional doors once beloved by cultists have suddenly disappeared from the entire world. On a sudden day, all of the rift blades throughout the entire world shattered.&r"
 				""
-				"&2It is upon myself that befalls the responsability of investigating this most critical issue. I will surpass Eleonore!&r"
+				"&2Anomalies have appeared throughout the land, some of them ressembling the old portals, but some of them are even more mysterious in nature. We have to find out their point of origin."
 				""
+				"&2It is upon myself that befalls the responsability of investigating this most critical issue. I will surpass Eleonore!&r"
+				"{@pagebreak}"
 				"&a(The next quests are hidden until you complete the next ones)&r"
 			]
 			icon: "concatenationcore:broken_rift_blade"
@@ -27,10 +29,15 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "4383FC8A037AD1E2"
-				title: "Gate to Perdition"
-				type: "checkmark"
+				icon: "strangematter:containment_capsule_gravity"
+				id: "3A09F9401253A4A7"
+				observe_type: 5
+				timer: 0L
+				title: "Witness a Warp Gate Anomaly"
+				to_observe: "strangematter:warp_gate_anomaly"
+				type: "observation"
 			}]
+			title: "Gate to Perdition"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -616,11 +623,7 @@
 			tasks: [{
 				consume_items: false
 				id: "36686AEF43C26122"
-				item: {
-					Count: 1
-					id: "tarotcards:the_magician"
-					tag: { }
-				}
+				item: "tarotcards:the_magician"
 				type: "item"
 				weak_nbt_match: true
 			}]
@@ -796,8 +799,8 @@
 				title: "Enter Purgatory"
 				type: "dimension"
 			}]
-			x: -2.175d
-			y: 1.3000000000000003d
+			x: -2.874999999999999d
+			y: 1.4000000000000004d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
@@ -818,8 +821,8 @@
 				item: "perdition:corruptite"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.0d
+			x: -6.199999999999999d
+			y: 1.1d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
@@ -848,8 +851,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -0.5d
+			x: -5.199999999999999d
+			y: -0.4d
 		}
 		{
 			dependencies: [
@@ -890,8 +893,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: 6.5d
+			x: -9.2d
+			y: 6.6d
 		}
 		{
 			dependencies: [
@@ -915,8 +918,8 @@
 				item: "perdition:resin"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.0d
+			x: -5.699999999999999d
+			y: 4.1d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
@@ -947,8 +950,8 @@
 					type: "structure"
 				}
 			]
-			x: -3.5d
-			y: 4.0d
+			x: -4.199999999999999d
+			y: 4.1d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
@@ -965,8 +968,8 @@
 				item: "concatenationcore:woven_pearl"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.5d
+			x: -2.6999999999999993d
+			y: 4.6d
 		}
 		{
 			dependencies: [
@@ -991,8 +994,8 @@
 				item: "hexerei:moon_dust"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 6.0d
+			x: -3.6999999999999993d
+			y: 6.1d
 		}
 		{
 			dependencies: [
@@ -1011,8 +1014,8 @@
 				item: "bloodmagic:demonitegravel"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.0d
+			x: -2.1999999999999993d
+			y: 6.1d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
@@ -1040,8 +1043,8 @@
 				}
 			]
 			title: "Silver and Pyrite"
-			x: -0.5d
-			y: 4.5d
+			x: -1.1999999999999993d
+			y: 4.6d
 		}
 		{
 			dependencies: ["64C5A9EB5083A520"]
@@ -1057,8 +1060,8 @@
 				item: "elementalcraft:swift_alloy_nugget"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: -0.6999999999999993d
+			y: 5.6d
 		}
 		{
 			dependencies: ["7FE36C7E48D2715B"]
@@ -1080,8 +1083,8 @@
 				item: "perdition:dis_gem"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 5.5d
+			x: -8.2d
+			y: 5.6d
 		}
 		{
 			dependencies: ["7FE36C7E48D2715B"]
@@ -1091,8 +1094,8 @@
 				item: "minecraft:echo_shard"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 6.5d
+			x: -7.199999999999999d
+			y: 6.6d
 		}
 		{
 			dependencies: ["366257C485C91809"]
@@ -1113,8 +1116,8 @@
 				item: "perdition:rough_compound"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 5.2d
+			x: -6.699999999999999d
+			y: 5.3d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
@@ -1138,8 +1141,8 @@
 				title: "Find a Tau Cross"
 				type: "structure"
 			}]
-			x: -5.0d
-			y: 2.5d
+			x: -5.699999999999999d
+			y: 2.6d
 		}
 		{
 			dependencies: ["5EE6AE43F9620AB2"]
@@ -1156,8 +1159,32 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: 4.5d
+			x: -9.2d
+			y: 4.6d
+		}
+		{
+			dependencies: ["0F3237156DE95B07"]
+			description: [
+				"Gate to Perdition is a pack-wide event with limited-time rewards. Delve into a unique secondary questline sending you on a journey to investigate the disappearance of dimensional doors from the world and how we may reopen the door to Limbo!"
+				""
+				"Send your own theories on the pack's Discord server in #gate-to-perdition (link available on the title screen). Perhaps this will help the community figure out how to enter Limbo? &lThe most elaborate and ludicrous theory weaver will get a unique custom item added to the pack!&r"
+				"{@pagebreak}"
+				"All of the quests are hidden at the start and you must complete them to unlock the subsequent quest."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "concatenationcore:experienced_paper"
+			id: "42F701FC987C6C99"
+			size: 0.75d
+			subtitle: "Event Over"
+			tasks: [{
+				id: "0817051F0190E4D5"
+				title: "Event Details"
+				type: "checkmark"
+			}]
+			title: "GtP Event Details"
+			x: -0.75d
+			y: 0.0d
 		}
 	]
 	title: "Gate to Perdition"

@@ -1,0 +1,974 @@
+# Don't change this! Version used to track needed updates.
+version = 3
+# Enable debug logging for attribute conversion and lookup
+# Shows detailed information about attribute unification in the log
+# Useful for troubleshooting issues with attribute mappings
+debugLogging = false
+
+# List of attribute mappings that unify source attributes to target attributes
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "spell_power:fire"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:fire_spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 3.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 20.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "spell_power:frost"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:ice_spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 3.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 20.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "spell_power:lightning"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:lightning_spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 3.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 20.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "spell_power:arcane"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:ender_spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 3.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 20.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "spell_power:holy"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:holy_spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 3.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 20.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "spell_power:soul"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:eldritch_spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 3.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 20.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "spell_power:water"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "traveloptics:aqua_spell_power, irons_spellbooks:nature_spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 3.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 20.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "spell_power:earth"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "gtbcs_geomancy_plus:geo_spell_power, irons_spellbooks:nature_spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 3.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 20.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "spell_power:air"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:evocation_spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 3.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 20.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "spell_power:healing"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:holy_spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 3.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 20.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "spell_power:haste"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:cast_time_reduction"
+# Equivalence for virtual display (/attribute get)
+equivalence = 100.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 100.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "spell_power:resistance.generic"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:spell_resist"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.1
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "spell_power:critical_damage"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:crit_damage"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 100.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "spell_power:critical_chance"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:crit_chance"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 100.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "ranged_weapon:haste"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:draw_speed"
+# Equivalence for virtual display (/attribute get)
+equivalence = 100.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = true
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "ranged_weapon:damage"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:arrow_damage"
+# Equivalence for virtual display (/attribute get)
+equivalence = 0.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 100.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_TOTAL"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "eidolon:chanting_speed"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:cast_time_reduction"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "eidolon:magic_power"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "more_rpg_classes:lifesteal_modifier"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:life_steal"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = true
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "obscure_api:critical_hit"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:crit_chance"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = true
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "obscure_api:critical_damage"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:crit_damage"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = true
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "obscure_api:dodge"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:dodge_chance"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = true
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "obscure_api:penetration"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:armor_pierce"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = true
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "obscure_api:healing_power"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:healing_received"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = true
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "turtlecore:critical_damage"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:crit_damage"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = true
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "turtlecore:critical_chance"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:crit_chance"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = true
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "turtlecore:dodge_chance"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:dodge_chance"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = true
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "turtlecore:life_steal"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:life_steal"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = true
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "turtlecore:armor_penetration"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:armor_pierce"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = true
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "turtlecore:ranged_damage_bonus"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:arrow_damage"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = true
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "turtlecore:healing_effectiveness"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:healing_received"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = true
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "turtlecore:cooldown_reduction"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:cooldown_reduction"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "gtbcs_spell_lib:spell_crit_damage"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:crit_damage"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = true
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "gtbcs_spell_lib:spell_crit_chance"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "attributeslib:crit_chance"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = true
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "goety:casting_speed"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:cast_time_reduction"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "ars_nouveau:ars_nouveau.perk.spell_damage"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 1.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "ars_nouveau:ars_nouveau.perk.mana_regen"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:mana_regen"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 100.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "ars_nouveau:ars_nouveau.perk.max_mana"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:max_mana"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 100.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "lodestone:magic_resistance"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:spell_resist"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "lodestone:magic_proficiency"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "obscure_api:magic_resistance"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:spell_resist"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 0.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "DEFAULT"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "wizards_reborn:magic_armor"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:spell_resist"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 20.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = true
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "turtlecore:magic_amp"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 1.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "gtbcs_spell_lib:spell_damage"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 1.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 0.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "iter_rpg:spellcasting_power"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 1.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 1.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"
+
+[[mappings]]
+# Source attribute (will be unified)
+sourceAttribute = "wizards_reborn:magic_modifier"
+# Target attribute (can contain multiple attributes separated by commas for fallback)
+# Example: \"primary:attr, fallback:attr\"
+targetAttribute = "irons_spellbooks:spell_power"
+# Equivalence for virtual display (/attribute get)
+equivalence = 1.0
+# Equivalence for modifier conversion (if 0, uses equivalence)
+conversionEquivalence = 1.0
+# If true, source does NOT show virtual value (source ≠ target × equivalence). Replaces old 'bidirectional' field (inverted logic)
+unidirectional = false
+# If true, only changes visual display without converting values
+onlyVisualChange = false
+# If true, source frozen at base value, only target works
+fullReplacement = false
+# Value to subtract from target for virtual display (for base value differences)
+subtractValue = 1.0
+# Operation conversion type: DEFAULT, ADDITION_TO_MULTIPLY_BASE, ADDITION_TO_MULTIPLY_TOTAL
+operationConversion = "ADDITION_TO_MULTIPLY_BASE"

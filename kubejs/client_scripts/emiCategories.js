@@ -4,8 +4,8 @@ EmiPlusPlusEvents.registerGroups(event => {
     event.register("concatenation:syringes", "rftoolsutility:syringe")
     event.register("concatenation:ancient_knowledge", "spelled:ancient_knowledge_tome")
 
-    event.register("concatenation:mekanism_fluid_ctanks", "mekanism:creative_fluid_tank")
-    event.register("concatenation:mekanism_chemical_ctanks", "mekanism:creative_chemical_tank")
+    event.register("concatenation:mekanism_fluid_creative_tanks", "mekanism:creative_fluid_tank")
+    event.register("concatenation:mekanism_chemical_creative_tanks", "mekanism:creative_chemical_tank")
 
     event.register("concatenation:tconstruct_part_builders", "tconstruct:part_builder")
     event.register("concatenation:tconstruct_tinker_stations", "tconstruct:tinker_station")
@@ -92,4 +92,9 @@ EmiPlusPlusEvents.registerGroups(event => {
 
     // event.register("concatenation:upgradetome", "bloodmagic:upgradetome")
     // event.register("concatenation:scroll", "irons_spellbooks:scroll")
+    event.register("concatenation:tents", "simplytents:tent")
+    event.register("concatenation:wall_tents", "simplytents:wall_tent")
+    event.register("concatenation:canopy_tents", "simplytents:roof_tent")
+    event.register("concatenation:zip_tents", "simplytents:zip_tent")
+    event.register("concatenation:wall_canvas", "simplytents:canvas_wall")
 })

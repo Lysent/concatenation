@@ -3,34 +3,10 @@
 	loot_size: 1
 	order_index: 16
 	rewards: [
-		{
-			item: {
-				Count: 1
-				id: "tarotcards:the_hierophant"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "tarotcards:the_hermit"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "tarotcards:the_magician"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "tarotcards:temperance"
-				tag: { }
-			}
-		}
+		{ item: "tarotcards:the_hierophant" }
+		{ item: "tarotcards:the_hermit" }
+		{ item: "tarotcards:the_magician" }
+		{ item: "tarotcards:temperance" }
 	]
 	title: "Choose your Pathway"
 }
