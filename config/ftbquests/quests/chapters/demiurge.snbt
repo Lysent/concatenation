@@ -346,6 +346,11 @@
 				"0F3237156DE95B07"
 				"772D16E67AD29556"
 			]
+			description: [
+				"&6Gem Armour is the pinnacle of the entire magical side of the world. It trades the utility found in the armours of archmages or cultists for one thing and one thing only: pure raw immortality. Almost nothing in the entire universe is able to hurt gem armour."
+				""
+				"&6The armour does still boast some minor abilities due to the artefacts used in its creation, which can be toggled, such as night vision, step assist, or pushing hostiles away."
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "47BE5EBEB47FA870"
@@ -390,6 +395,7 @@
 			]
 			hide_until_deps_complete: true
 			id: "6DDF28A484792887"
+			subtitle: "Entropy"
 			tasks: [{
 				id: "66B8EA5A1FED0F0F"
 				item: "concatenationcore:world_devourer"
@@ -417,7 +423,7 @@
 				"0F3237156DE95B07"
 			]
 			dependency_requirement: "one_started"
-			description: [""]
+			description: ["&6The Katar and Morningstar, much like the gem armour, are deceptively simple, trading sophistication for pure strength. They are unbreakable, can break anything and have multiple functions. They also make for formidable weapons."]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "76CE9FC7D06D6CE8"
@@ -456,7 +462,17 @@
 		}
 		{
 			dependencies: ["0F3237156DE95B07"]
+			description: [
+				"&6Quantum armour is one of the most powerful sets of armour born from technological progress. Using some blueprints from that ancient civilization &2Prudence &6had researched, I was able to recreate something powerful, but I don't think I quite recreated the true quantum armour. Mine is purple for a start."
+				""
+				"&6As long as this armour is powered, it effectively provides true invincibility on top of being modular for all sorts of upgrades and having access to digital storage systems within the armour itself."
+			]
 			id: "05F0DD0273CB3B5A"
+			rewards: [{
+				id: "65C5BA62C209517A"
+				type: "xp"
+				xp: 1
+			}]
 			tasks: [
 				{
 					id: "4F58DF94471B286C"

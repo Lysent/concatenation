@@ -130,20 +130,20 @@ _version = 3
 		# UNCOMPRESSED 
 		# Should only be used for testing, is worse in every way vs [LZ4].
 		# Expected Compression Ratio: 1.0
-		# Estimated average DTO read speed: 1.64 milliseconds
-		# Estimated average DTO write speed: 12.44 milliseconds
+		# Estimated average DTO read speed: 3.25 milliseconds
+		# Estimated average DTO write speed: 5.99 milliseconds
 		# 
 		# LZ4 
 		# A good option if you're CPU limited and have plenty of hard drive space.
-		# Expected Compression Ratio: 0.36
+		# Expected Compression Ratio: 0.26
 		# Estimated average DTO read speed: 1.85 ms
 		# Estimated average DTO write speed: 9.46 ms
 		# 
 		# LZMA2 
 		# Slow but very good compression.
-		# Expected Compression Ratio: 0.14
-		# Estimated average DTO read speed: 11.89 ms
-		# Estimated average DTO write speed: 192.01 ms
+		# Expected Compression Ratio: 0.2
+		# Estimated average DTO read speed: 13.29 ms
+		# Estimated average DTO write speed: 70.95 ms
 		dataCompression = "LZ4"
 		#
 		# Enabling this will drastically increase chunk processing time
@@ -460,7 +460,7 @@ _version = 3
 				# Shows the memory use and array counts for each DH object pool.
 				showSeparatedObjectPools = false
 				#
-				# Shows the player's LOD position.
+				# Shows info about each thread pool.
 				showPlayerPos = true
 				#
 				# Shows the combined memory use and array counts for all DH pooled objects.
@@ -578,12 +578,7 @@ _version = 3
 				#
 				# A comma separated list of block resource locations that won't be rendered by DH. 
 				# Air is always included in this list. 
-				# Requires a restart to change. 
-				# 
-				# Note:
-				# If you see gaps, or holes you may have to change
-				# worldCompression to [MERGE_SAME_BLOCKS] and re-generate the LODs.
-				# Black spots may happen occur to block lighting being zero for covered blocks.
+				# Requires a restart to change.
 				ignoredRenderBlockCsv = "minecraft:barrier,minecraft:structure_void,minecraft:light,minecraft:tripwire,minecraft:brown_mushroom"
 				#
 				# If true LODs outside the player's camera 
@@ -653,7 +648,7 @@ _version = 3
 				# 100 = 1 to 100 (63,710 blocks) 
 				# 10000 = 1 to 10000 (637.1 blocks) 
 				# 
-				# Note: Due to current limitations, the min value is [50] 
+				# Note: Due to current limitations, the min value is 50 
 				# and the max value is 5000. Any values outside this range 
 				# will be set to 0 (disabled).
 				earthCurveRatio = 0
@@ -745,7 +740,7 @@ _version = 3
 				# The radius of the mod's render distance. (measured in chunks)
 				lodChunkRenderDistanceRadius = 96
 				#
-				# What value should vanilla Minecraft's texture LodBias be? 
+				# What the value should vanilla Minecraft's texture LodBias be? 
 				# If set to 0 the mod wont overwrite vanilla's default (which so happens to also be 0)
 				lodBias = "0.0"
 				#

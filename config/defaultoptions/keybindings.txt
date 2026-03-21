@@ -235,9 +235,6 @@ key_key.elementalcraft.change_spell.8:key.keyboard.unknown:NONE
 key_key.elementalcraft.change_spell.9:key.keyboard.unknown:NONE
 key_key.elementalcraft.change_spell.0:key.keyboard.unknown:NONE
 key_key.ftbteams.open_gui:key.keyboard.unknown:NONE
-key_key.utility_belt.swap_toggle:key.keyboard.n:SHIFT
-key_key.utility_belt.swap_hold:key.keyboard.unknown:NONE
-key_key.utility_belt.open_screen:key.keyboard.semicolon:NONE
 key_key.ftbchunks.map:key.keyboard.unknown:NONE
 key_key.ftbchunks.toggle_minimap:key.keyboard.unknown:NONE
 key_key.ftbchunks.claim_manager:key.keyboard.unknown:NONE

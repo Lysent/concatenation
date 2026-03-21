@@ -23,6 +23,7 @@ logs
 .cache
 *.log
 backups
+/config/spark
 
 # various config, caches, etc
 modernfix

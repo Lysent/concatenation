@@ -24,9 +24,9 @@ ServerEvents.recipes(event => {
                 'simplytents:wall_tent',
                 'simplytents:roof_tent',
                 'simplytents:zip_tent',
-                'bountiful:bountyboard',
-                'utility_belt:utility_belt',
-                'utility_belt:pouch'
+                'bountiful:bountyboard'
+                // 'utility_belt:utility_belt',
+                // 'utility_belt:pouch'
         ]
 
         remove.forEach(item => {
@@ -1421,58 +1421,58 @@ ServerEvents.recipes(event => {
                         C: 'minecraft:iron_bars'
                 }
         )
-        event.shaped(
-                Item.of('utility_belt:utility_belt'),
-                [
-                        'ABA',
-                        'CDC',
-                        'ABA'
-                ],
-                {
-                        A: 'minecraft:leather',
-                        B: 'utility_belt:pouch',
-                        C: 'minecraft:string',
-                        D: 'tconstruct:manyullyn_ingot'
-                }
-        )
-        event.shaped(
-                Item.of('utility_belt:utility_belt'),
-                [
-                        'ABA',
-                        'CDC',
-                        'ABA'
-                ],
-                {
-                        A: 'minecraft:leather',
-                        B: 'utility_belt:pouch',
-                        C: 'minecraft:string',
-                        D: 'concatenationcore:meteorite'
-                }
-        )
-        event.shaped(
-                Item.of('utility_belt:pouch'),
-                [
-                        'ABA',
-                        'CBC',
-                        'ACA'
-                ],
-                {
-                        B: 'common_ore_library:platinum_ingot',
-                        C: 'minecraft:leather',
-                        A: 'minecraft:string'
-                }
-        )
-        event.shaped(
-                Item.of('utility_belt:pouch'),
-                [
-                        'ABA',
-                        'CBC',
-                        'ACA'
-                ],
-                {
-                        B: 'ae2:charged_certus_quartz_crystal',
-                        C: 'minecraft:leather',
-                        A: 'minecraft:string'
-                }
-        )
+        // event.shaped(
+        //         Item.of('utility_belt:utility_belt'),
+        //         [
+        //                 'ABA',
+        //                 'CDC',
+        //                 'ABA'
+        //         ],
+        //         {
+        //                 A: 'minecraft:leather',
+        //                 B: 'utility_belt:pouch',
+        //                 C: 'minecraft:string',
+        //                 D: 'tconstruct:manyullyn_ingot'
+        //         }
+        // )
+        // event.shaped(
+        //         Item.of('utility_belt:utility_belt'),
+        //         [
+        //                 'ABA',
+        //                 'CDC',
+        //                 'ABA'
+        //         ],
+        //         {
+        //                 A: 'minecraft:leather',
+        //                 B: 'utility_belt:pouch',
+        //                 C: 'minecraft:string',
+        //                 D: 'concatenationcore:meteorite'
+        //         }
+        // )
+        // event.shaped(
+        //         Item.of('utility_belt:pouch'),
+        //         [
+        //                 'ABA',
+        //                 'CBC',
+        //                 'ACA'
+        //         ],
+        //         {
+        //                 B: 'common_ore_library:platinum_ingot',
+        //                 C: 'minecraft:leather',
+        //                 A: 'minecraft:string'
+        //         }
+        // )
+        // event.shaped(
+        //         Item.of('utility_belt:pouch'),
+        //         [
+        //                 'ABA',
+        //                 'CBC',
+        //                 'ACA'
+        //         ],
+        //         {
+        //                 B: 'ae2:charged_certus_quartz_crystal',
+        //                 C: 'minecraft:leather',
+        //                 A: 'minecraft:string'
+        //         }
+        // )
 });
