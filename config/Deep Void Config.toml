@@ -149,7 +149,7 @@
 	PrimordialCrawlerSpit = 6.0
 	#Damage
 	PrimordialCrawlerDigPlayerClose = 34.0
-	#Damage (repeated five times)
+	#Damage (on contact)
 	PrimordialCrawlerDash = 18.0
 	#Damage in an AOE
 	PrimordialCrawlerGooBlock = 50.0

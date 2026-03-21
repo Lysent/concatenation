@@ -16347,6 +16347,8 @@
 				"The Mob Duplicator uses essence and RF power to reproduce mobs captured in an imprisonment tool. Essence is most commonly obtained via the mob crusher."
 				""
 				"This can be put to great use to create mob farms, or turn the essence of lower-value mob farms into better mobs."
+				"{@pagebreak}"
+				"What implications does this have on science? That essence is the source of everything? If any living being can be replicated with essence alone, then what is it? Well, it seems to be another form of what we call experience. This will need further research."
 			]
 			id: "64BEF811F139E0CB"
 			rewards: [
@@ -21668,7 +21670,13 @@
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
+			description: ["&2Revolutionary! We can reconstruct even monsters from their chemical composition, creating for a rather expensive but precise artificial cloning method. We will still require the base components of a living being, and likely more than it truly contains within its body to be able to use all of the particles required for reconstruction."]
 			id: "59B7B81ED4FB2C7C"
+			rewards: [{
+				id: "6CBB73C251E10033"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4E4D869C29E32EE9"
 				item: "rftoolsutility:spawner"
@@ -21679,6 +21687,7 @@
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
+			description: ["&2The Matter Transmitter and Receiver are able to perform precise teleportation, even across different planes. As such, we believe that they will be perfect for our experiments. We will have to include a set of them in the dimensional outpost created to be able to create a legitimate link between both planes."]
 			id: "46214166DD4261B9"
 			rewards: [
 				{
@@ -32874,12 +32883,14 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["7EC83053F1BDF835"]
+			dependencies: ["0F3237156DE95B07"]
 			description: [
 				"Utility belts are used by Tinkerers and Technicians to hold more tools on their person, extending their capacity by up to four items. Belts usually come with two pouches, but two more can be added to the design via a smithing table."
 				""
 				"&a(By default the ; key is used to open the belt and input items. The Shift+N key is used to swap to the belt slots. Belts go into the belt accesory slot, not the belt curio slot.)"
 			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "utility_belt:utility_belt"
@@ -32958,6 +32969,7 @@
 				}
 			}
 			id: "31C37FE17B133347"
+			invisible: true
 			rewards: [{
 				id: "0BBDA0155056B232"
 				type: "xp_levels"

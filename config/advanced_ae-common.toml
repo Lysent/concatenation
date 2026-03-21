@@ -37,28 +37,28 @@
 	quantumArmorSwimSpeedBoost = 150
 	#Define the HP increased of the HP Buffer card.
 	#Range: 5 ~ 50
-	quantumArmorHpBuffer = 20
+	quantumArmorHpBuffer = 50
 	#Define the maximum speed boost of the Flight Card.
 	#Range: 1 ~ 15
-	quantumArmorMaxFlightSpeed = 10
+	quantumArmorMaxFlightSpeed = 15
 	#Define the evasion % chance of the evasion card.
 	#Range: 0 ~ 100
-	quantumArmorEvasionChance = 50
+	quantumArmorEvasionChance = 90
 	#Define the max range of the magnet card.
 	#Range: 5 ~ 15
-	quantumArmorMagnetRange = 12
+	quantumArmorMagnetRange = 15
 	#Define the Attack Damage boost of the Strength Card.
 	#Range: 5 ~ 50
-	quantumArmorStrengthBoost = 10
+	quantumArmorStrengthBoost = 25
 	#Define the Attack Speed Damage boost of the Attack Speed Card.
 	#Range: 1 ~ 10
-	quantumArmorAttackSpeedBoost = 5
+	quantumArmorAttackSpeedBoost = 10
 	#Define the luck boost of the Luck Card.
 	#Range: 1 ~ 5
-	quantumArmorLuckBoost = 2
+	quantumArmorLuckBoost = 5
 	#Define the max additional reach of the Reach Card.
 	#Range: 1 ~ 8
-	quantumArmorMaxReachBoost = 5
+	quantumArmorMaxReachBoost = 8
 	#Define the amount of hearts regenerated per tick with the Regeneration Card. Value will be divided by 10 before use.
 	#Range: 1 ~ 20
 	quantumArmorRenegerationPerTick = 10
