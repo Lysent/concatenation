@@ -1,3 +1,16 @@
 {
+	"modPackConfig": {
+		"clusterName": "",
+		"serversTitle": "Craft Down Under",
+		"welcomeTitle": "",
+		"welcomeMessage": "",
+		"servers": []
+	},
+	"chatConfig": {
+		"useQChat": true
+	},
+	"tabListConfig": {
+		"showNetworkPlayers": true
+	},
 	"collapsedTabs": []
 }

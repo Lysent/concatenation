@@ -1,6 +1,7 @@
 {
-  "common": {
-    "Replace_Existed_Block": false,
-    "Default_Rules": {}
-  }
+  "Replace_Existed_Block": false,
+  "Extended_Block_Property": false,
+  "Default_Rules_data": {},
+  "Default_Rules_tag": {},
+  "__cfg_version": 1
 }
