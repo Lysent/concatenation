@@ -397,13 +397,13 @@
     "curseForgeHash": 2716680884,
     "modrinthHash": "2e5dbd4e1eb668b468a1073eaccdea1716cfe4c9"
   },
-  "chat_heads-0.15.0-forge-1.20.jar": {
-    "jarName": "chat_heads-0.15.0-forge-1.20.jar",
+  "chat_heads-0.15.1-forge-1.20.jar": {
+    "jarName": "chat_heads-0.15.1-forge-1.20.jar",
     "modId": "chat_heads",
     "name": "Chat Heads",
-    "version": "0.15.0",
-    "curseForgeHash": 562582520,
-    "modrinthHash": "52a21207af65259adfa840e26042c28058f6513f"
+    "version": "0.15.1",
+    "curseForgeHash": 1886210089,
+    "modrinthHash": "6eebd1479d11d3ed8fbb18b866ba43b470743e00"
   },
   "chipped-forge-1.20.1-3.0.7.jar": {
     "jarName": "chipped-forge-1.20.1-3.0.7.jar",
@@ -477,13 +477,13 @@
     "curseForgeHash": 3120079159,
     "modrinthHash": "20ace7cd72279604adc925ff4a790e7e771f9f51"
   },
-  "civillis-forge-1.2.3-release+mc1.20.1.jar": {
-    "jarName": "civillis-forge-1.2.3-release+mc1.20.1.jar",
+  "civillis-forge-1.3.0-release+mc1.20.1.jar": {
+    "jarName": "civillis-forge-1.3.0-release+mc1.20.1.jar",
     "modId": "civil",
     "name": "Civillis",
-    "version": "1.2.3-release",
-    "curseForgeHash": 3252375702,
-    "modrinthHash": "e406b6d4f001eb21cf5e02d795ea495bd0cd496e"
+    "version": "1.3.0-release",
+    "curseForgeHash": 151883708,
+    "modrinthHash": "fff1c68870c4460fde602384ef7bcba0f8f647ba"
   },
   "cleanswing-1.20-1.8.jar": {
     "jarName": "cleanswing-1.20-1.8.jar",
@@ -1306,13 +1306,13 @@
     "curseForgeHash": 174485922,
     "modrinthHash": "27347879f8760a7bc0b4bd71977abc50e498811c"
   },
-  "ftb-chunks-forge-2001.3.6.jar": {
-    "jarName": "ftb-chunks-forge-2001.3.6.jar",
+  "ftb-chunks-forge-2001.3.7.jar": {
+    "jarName": "ftb-chunks-forge-2001.3.7.jar",
     "modId": "ftbchunks",
     "name": "FTB Chunks",
-    "version": "2001.3.6",
-    "curseForgeHash": 3415363214,
-    "modrinthHash": "7fde7917655a3356cab92f17ad2bca34962c4928"
+    "version": "2001.3.7",
+    "curseForgeHash": 1101626961,
+    "modrinthHash": "ad905a6efcd0569bd8f4cc8e38889671b4bfc6a9"
   },
   "ftb-chunks-modded-1.20+1.1.9.jar": {
     "jarName": "ftb-chunks-modded-1.20+1.1.9.jar",
@@ -1338,13 +1338,13 @@
     "curseForgeHash": 3807919150,
     "modrinthHash": "7f36ec4af42ad1d69872c58022e93a9d1b9c82b7"
   },
-  "ftb-quests-forge-2001.4.18.jar": {
-    "jarName": "ftb-quests-forge-2001.4.18.jar",
+  "ftb-quests-forge-2001.4.20.jar": {
+    "jarName": "ftb-quests-forge-2001.4.20.jar",
     "modId": "ftbquests",
     "name": "FTB Quests",
-    "version": "2001.4.18",
-    "curseForgeHash": 1753555602,
-    "modrinthHash": "e2ff1cea24c5f3d6d55d093d429efae60dcad9e0"
+    "version": "2001.4.20",
+    "curseForgeHash": 4177984873,
+    "modrinthHash": "5ea9b9f41fe4a50eacaed6a12df434580ea26c42"
   },
   "ftb-teams-forge-2001.3.2.jar": {
     "jarName": "ftb-teams-forge-2001.3.2.jar",
@@ -1642,13 +1642,13 @@
     "curseForgeHash": 1465015914,
     "modrinthHash": "200682cd4b74d9fd873cdb718a747616f3f79497"
   },
-  "Ixeris-4.1.5+1.20.1-forge.jar": {
-    "jarName": "Ixeris-4.1.5+1.20.1-forge.jar",
+  "Ixeris-4.1.8+1.20.1-forge.jar": {
+    "jarName": "Ixeris-4.1.8+1.20.1-forge.jar",
     "modId": "ixeris",
     "name": "Ixeris",
-    "version": "4.1.5+1.20.1-forge",
-    "curseForgeHash": 2180992864,
-    "modrinthHash": "fac592a77ce54ead9e57456e1e58e76f0de8191b"
+    "version": "4.1.8+1.20.1-forge",
+    "curseForgeHash": 3635173094,
+    "modrinthHash": "b5982c3ca04e824de8efa8eaa908781b701d8965"
   },
   "Jade-1.20.1-Forge-11.13.2.jar": {
     "jarName": "Jade-1.20.1-Forge-11.13.2.jar",
@@ -2287,13 +2287,13 @@
     "curseForgeHash": 3664069504,
     "modrinthHash": "7285d19bb1f5af169205a84792335a1a554aca35"
   },
-  "packetfixer-3.3.1-1.18-1.20.4-merged.jar": {
-    "jarName": "packetfixer-3.3.1-1.18-1.20.4-merged.jar",
+  "packetfixer-3.3.2-1.18-1.20.4-merged.jar": {
+    "jarName": "packetfixer-3.3.2-1.18-1.20.4-merged.jar",
     "modId": "packetfixer",
     "name": "PacketFixer",
-    "version": "3.3.1",
-    "curseForgeHash": 2235595709,
-    "modrinthHash": "0bef29023c8cadb2934d78a8b0066b49d4460974"
+    "version": "3.3.2",
+    "curseForgeHash": 1678799689,
+    "modrinthHash": "79ebc5e66a5ee3ce92afb340e693d506e97361a0"
   },
   "particle_core-0.3.3+1.20.1+forge.jar": {
     "jarName": "particle_core-0.3.3+1.20.1+forge.jar",
@@ -2732,21 +2732,21 @@
     "curseForgeHash": 3496358044,
     "modrinthHash": "55bffe3781f2033896a68ceca3163ed2837ddba8"
   },
-  "simplytents-2.0.9.jar": {
-    "jarName": "simplytents-2.0.9.jar",
+  "simplytents-2.0.9.1.jar": {
+    "jarName": "simplytents-2.0.9.1.jar",
     "modId": "simplytents",
     "name": "SimplyTentsREMASTER",
-    "version": "2.0.9",
-    "curseForgeHash": 2064872425,
-    "modrinthHash": "297d7e1f3da4344034214885f7e8219dc2ce908d"
+    "version": "2.0.9.1",
+    "curseForgeHash": 1291026287,
+    "modrinthHash": "2ebdd00aabcc2d0cedad4691269f3ef3c1e66136"
   },
-  "skinlayers3d-forge-1.11.0-mc1.20.1.jar": {
-    "jarName": "skinlayers3d-forge-1.11.0-mc1.20.1.jar",
+  "skinlayers3d-forge-1.11.1-mc1.20.1.jar": {
+    "jarName": "skinlayers3d-forge-1.11.1-mc1.20.1.jar",
     "modId": "skinlayers3d",
     "name": "3d-Skin-Layers",
-    "version": "1.11.0",
-    "curseForgeHash": 701524315,
-    "modrinthHash": "c99a6a1733b5298a8f4feff1a2d503c49057e9e7"
+    "version": "1.11.1",
+    "curseForgeHash": 1562058472,
+    "modrinthHash": "b64ccb25ebe4cb7b09d1dd4561dbc519d5f02382"
   },
   "smoothchunk-1.20.1-4.1.jar": {
     "jarName": "smoothchunk-1.20.1-4.1.jar",

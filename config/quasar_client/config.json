@@ -1,6 +1,6 @@
 {
 	"modPackConfig": {
-		"clusterName": "",
+		"clusterName": "CONCAT",
 		"serversTitle": "Craft Down Under",
 		"welcomeTitle": "",
 		"welcomeMessage": "",

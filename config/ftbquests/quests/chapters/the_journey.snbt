@@ -32454,8 +32454,8 @@
 				type: "item"
 			}]
 			title: "Scarecrow"
-			x: -4.0d
-			y: -7.0d
+			x: -3.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["152DC73801813764"]
@@ -33137,6 +33137,17 @@
 			title: "Klein Stars"
 			x: 46.5d
 			y: 22.0d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			id: "2B161B2E4E34CBFD"
+			tasks: [{
+				id: "399567B20EDF1E53"
+				item: "sawmill:sawmill"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
 		}
 	]
 	title: "The Journey"
