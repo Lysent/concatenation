@@ -1,8 +1,0 @@
-{
-  "name": "ars_armorer.attachment.spell_suppression.name",
-  "tooltip": "ars_armorer.attachment.spell_suppression.tooltip",
-  "display": "ars_armorer:spell_suppression_display",
-  "data": "ars_armorer:spell_suppression_data",
-  "type": "grip",
-  "sort": 1027
-}

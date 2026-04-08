@@ -1,8 +1,0 @@
-{
-  "name": "ars_armorer.block.ars_workbench.name",
-  "display": "ars_armorer:ars_workbench_display",
-  "data": "ars_armorer:ars_workbench_data",
-  "tooltip": "ars_armorer.block.ars_workbench.desc",
-  "id": "tacz:workbench_b",
-  "sort": 1024
-}

@@ -1,7 +1,0 @@
-{
-  "name": "ars_armorer.attachment.mod_instant_renewal.name",
-  "tooltip": "ars_armorer.attachment.mod_instant_renewal.tooltip",
-  "display": "ars_armorer:mod_instant_renewal_display",
-  "data": "ars_armorer:mod_instant_renewal_data",
-  "type": "stock"
-}

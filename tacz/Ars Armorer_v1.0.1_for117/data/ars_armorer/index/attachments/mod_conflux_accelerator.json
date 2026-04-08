@@ -1,7 +1,0 @@
-{
-  "name": "ars_armorer.attachment.mod_conflux_accelerator.name",
-  "tooltip": "ars_armorer.attachment.mod_conflux_accelerator.tooltip",
-  "display": "ars_armorer:mod_conflux_accelerator_display",
-  "data": "ars_armorer:mod_conflux_accelerator_data",
-  "type": "stock"
-}

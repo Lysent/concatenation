@@ -1,8 +1,0 @@
-{
-  "name": "ars_armorer.attachment.mana_mag_2.name",
-  "tooltip": "ars_armorer.attachment.mana_mag_2.tooltip",
-  "display": "ars_armorer:mana_mag_2_display",
-  "data": "ars_armorer:mana_mag_2_data",
-  "type": "extended_mag",
-  "sort": 1025
-}

@@ -1,7 +1,0 @@
-{
-  "name": "ars_armorer.attachment.mod_low_consume.name",
-  "tooltip": "ars_armorer.attachment.mod_low_consume.tooltip",
-  "display": "ars_armorer:mod_low_consume_display",
-  "data": "ars_armorer:mod_low_consume_data",
-  "type": "stock"
-}

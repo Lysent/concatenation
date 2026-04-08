@@ -1,8 +1,0 @@
-{
-    "name": "ars_armorer.gun.sniper_distance_ejector",
-    "tooltip": "ars_armorer.gun.sniper_distance_ejector.tooltip",
-    "display": "ars_armorer:sniper_distance_ejector_display",
-    "data": "ars_armorer:sniper_distance_ejector_data",
-    "type": "sniper",
-    "sort": 1024
-}

@@ -1,9 +1,0 @@
-{
-  "slot": "ars_armorer:attachment/slot/spell_crit_slot",
-  "model": "ars_armorer:attachment/spell_crit_geo",
-  "texture": "ars_armorer:attachment/uv/spell_crit_uv",
-  "sounds": {
-    "install": "ars_armorer:misc/attachment_install_grip",
-    "uninstall": "ars_armorer:misc/attachment_uninstall"
-  }
-}

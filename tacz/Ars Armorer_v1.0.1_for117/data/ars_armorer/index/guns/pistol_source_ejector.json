@@ -1,8 +1,0 @@
-{
-    "name": "ars_armorer.gun.pistol_source_ejector",
-    "tooltip": "ars_armorer.gun.pistol_source_ejector.tooltip",
-    "display": "ars_armorer:pistol_source_ejector_display",
-    "data": "ars_armorer:pistol_source_ejector_data",
-    "type": "pistol",
-    "sort": 1024
-}

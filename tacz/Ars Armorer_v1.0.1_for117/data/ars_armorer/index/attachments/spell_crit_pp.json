@@ -1,8 +1,0 @@
-{
-  "name": "ars_armorer.attachment.spell_crit_pp.name",
-  "tooltip": "ars_armorer.attachment.spell_crit_pp.tooltip",
-  "display": "ars_armorer:spell_crit_pp_display",
-  "data": "ars_armorer:spell_crit_pp_data",
-  "type": "grip",
-  "sort": 1031
-}

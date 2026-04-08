@@ -1,8 +1,0 @@
-{
-  "name": "ars_armorer.attachment.spell_penetrate_incendiary.name",
-  "tooltip": "ars_armorer.attachment.spell_penetrate_incendiary.tooltip",
-  "display": "ars_armorer:spell_penetrate_incendiary_display",
-  "data": "ars_armorer:spell_penetrate_incendiary_data",
-  "type": "grip",
-  "sort": 1039
-}

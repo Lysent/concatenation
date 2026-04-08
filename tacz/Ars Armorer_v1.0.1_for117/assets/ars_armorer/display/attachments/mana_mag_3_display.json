@@ -1,7 +1,0 @@
-{
-  "slot": "ars_armorer:attachment/slot/mana_mag_3_slot",
-  "sounds": {
-    "install": "ars_armorer:misc/attachment_install_stock",
-    "uninstall": "ars_armorer:misc/attachment_uninstall"
-  }
-}

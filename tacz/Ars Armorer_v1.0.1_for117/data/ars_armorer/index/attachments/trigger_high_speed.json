@@ -1,8 +1,0 @@
-{
-  "name": "ars_armorer.attachment.trigger_high_speed.name",
-  "tooltip": "ars_armorer.attachment.trigger_high_speed.tooltip",
-  "display": "ars_armorer:trigger_high_speed_display",
-  "data": "ars_armorer:trigger_high_speed_data",
-  "type": "muzzle",
-  "sort": 1024
-}

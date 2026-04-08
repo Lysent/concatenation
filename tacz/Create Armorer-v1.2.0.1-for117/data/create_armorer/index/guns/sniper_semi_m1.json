@@ -1,7 +1,0 @@
-{
-    "name": "create_armorer.gun.sniper_semi_m1",
-    "display": "create_armorer:sniper_semi_m1_display",
-    "data": "create_armorer:sniper_semi_m1_data",
-    "type": "sniper",
-    "sort": 351
-}

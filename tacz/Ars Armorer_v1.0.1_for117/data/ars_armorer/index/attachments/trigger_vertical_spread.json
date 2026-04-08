@@ -1,8 +1,0 @@
-{
-  "name": "ars_armorer.attachment.trigger_vertical_spread.name",
-  "tooltip": "ars_armorer.attachment.trigger_vertical_spread.tooltip",
-  "display": "ars_armorer:trigger_vertical_spread_display",
-  "data": "ars_armorer:trigger_vertical_spread_data",
-  "type": "muzzle",
-  "sort": 1027
-}

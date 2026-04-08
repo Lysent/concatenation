@@ -1,7 +1,0 @@
-{
-  "name": "create_armorer.attachment.muzzle_refit_energy_blade.name",
-  "display": "create_armorer:muzzle_refit_energy_blade_display",
-  "data": "create_armorer:muzzle_refit_energy_blade_data",
-  "tooltip": "create_armorer.tooltip.attachment.muzzle_refit_energy_blade",
-  "type": "muzzle"
-}

@@ -1,9 +1,0 @@
-{
-  "slot": "ars_armorer:attachment/slot/mod_rapid_regeneration_slot",
-  "model": "ars_armorer:attachment/mod_rapid_regeneration_geo",
-  "texture": "ars_armorer:attachment/uv/mod_rapid_regeneration_uv",
-  "sounds": {
-    "install": "ars_armorer:misc/attachment_install_stock",
-    "uninstall": "ars_armorer:misc/attachment_uninstall"
-  }
-}

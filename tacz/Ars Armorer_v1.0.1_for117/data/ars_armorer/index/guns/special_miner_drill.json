@@ -1,8 +1,0 @@
-{
-    "name": "ars_armorer.gun.special_miner_drill",
-    "tooltip": "ars_armorer.gun.special_miner_drill.tooltip",
-    "display": "ars_armorer:special_miner_drill_display",
-    "data": "ars_armorer:special_miner_drill_data",
-    "type": "rpg",
-    "sort": 1024
-}
