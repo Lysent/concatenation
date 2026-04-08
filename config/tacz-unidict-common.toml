@@ -1,0 +1,20 @@
+#Which ammo is used by each type of gun.
+#Reload type supported.
+#Format: "pistol, tacz:9mm" — this means that all guns of the type pistol will use the 9mm.
+#"pistol, $minecraft:gold_nugget" - use $ to make the guns use item as ammo.
+#"#forge:gun, tacz:9mm" - When the Tag Editor mod is installed, you can use tags to categorize firearms.
+#
+"Ammo of Gun" = ["pistol, tacz_unidict:pistol", "sniper, tacz_unidict:sniper", "rifle, tacz_unidict:rifle", "shotgun, tacz_unidict:shot", "smg, tacz_unidict:pistol", "rpg, tacz_unidict:barrel", "mg, tacz_unidict:rifle", "fuel, tacz_unidict:fuel_tank"]
+#Which guns are not affected by this mod.
+"Gun WhiteList" = ["create_armorer:special_melee_wrench", "applied_armorer:special_melee_task_manager"]
+#Guns that use these types of ammo will not be affected by this mod.
+"Ammo WhiteList" = ["applied_armorer:melee", "create_armorer:melee_weapon", "ars_armorer:mana", "applied_armorer:fluix_battery", "applied_armorer:hard_core_quartz_bullet", "applied_armorer:cluster_quartz_bullet", "applied_armorer:etched_quartz_bullet", "create_armorer:slap", "create_armorer:40mmhe", "create_armorer:gernade", "create_armorer:rbapb", "create_armorer:gas_pistol_ammo", "tacz:rpg_rocket", "applied_armorer:fluix_infused_grenade"]
+
+["Compat: Tag Editor"]
+	#Replace TACZ items in loot tables.
+	#Format: forge:need_to_replace, minecraft:diamond — this means all items with the tag forge:need_to_replace will be replaced with diamonds.
+	#You can also use gunID, ammoID, or attachmentID directly.
+	"LootTable Replace" = []
+	#Should all TACZ items with the tag tacz:recipe_remove have their recipes removed? (Only effective for TACZ’s default crafting recipes)
+	"Recipe Remove" = true
+

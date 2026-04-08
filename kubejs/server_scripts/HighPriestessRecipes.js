@@ -1763,6 +1763,8 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.press('concatenationcore:meteorite_clump', ['2x concatenationcore:meteorite', 'thermal:press_packing_2x2_die'])
         event.recipes.thermal.press('concatenationcore:compressed_sky_stone', ['9x ae2:sky_stone_block', 'concatenationcore:hierophant_die'])
         event.recipes.thermal.press('concatenationcore:galvanized_iron', ['9x concatenationcore:galvanized_iron_nugget', 'concatenationcore:hierophant_die'])
+        event.recipes.thermal.press('createtaczauto:casing_68x51fury', ['#c:rods/brass', 'create:brass_nugget'])
+        event.recipes.thermal.press('createtaczauto:casing_338_lapua', ['create:brass_nugget'])
         event.recipes.thermal.pulverizer(Item.of('thermal:signalum_dust').withChance(0.5), 'thermal:signalum_plate')
         event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_lead').withChance(1.25), '#tfmg:stone_types/galena')
         event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_aluminum').withChance(1.25), '#tfmg:stone_types/bauxite')

@@ -1,0 +1,9 @@
+{
+  "modifierId": "tud:example_modifier",
+  "modifierMap": {
+    "minecraft:zombie": 1.2,
+    "minecraft:freeze_immune_entity_types": 0.85,
+    "undead": 1.1
+  },
+  "mod_data_type": "tacz_unidict_modifier_data"
+}

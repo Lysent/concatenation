@@ -1,0 +1,55 @@
+{
+  "ammoId": "tacz:full_example_ammo",
+  "entityId": "minecraft:arrow",
+  "isItem": false,
+  "speed": 160.0,
+  "gravity": 0.25,
+  "friction": 0.035,
+  "damage": 9.5,
+  "knockback": 0.15,
+  "igniteEntity": true,
+  "igniteBlock": true,
+  "igniteEntityTime": 4,
+  "explosion": true,
+  "explosionDamage": 12.0,
+  "explosionRadius": 3.5,
+  "explosionDelayCount": 30,
+  "explosionKnockback": true,
+  "explosionDestroyBlock": false,
+  "pierce": 2,
+  "isTracerAmmo": true,
+  "armorIgnore": 0.25,
+  "headShot": 1.75,
+  "effectDataList": [
+    {
+      "resourceLocation": "minecraft:speed",
+      "amplifier": 0,
+      "duration": 5
+    },
+    {
+      "resourceLocation": "minecraft:weakness",
+      "amplifier": 1,
+      "duration": 2
+    }
+  ],
+  "damageAdjust": [
+    {
+      "distance": 40.0,
+      "damage": 9.5
+    },
+    {
+      "distance": 15.0,
+      "damage": 8.0
+    },
+    {
+      "distance": 30.0,
+      "damage": 6.5
+    },
+    {
+      "distance": 3.4028235E38,
+      "damage": 5.0
+    }
+  ],
+  "modifierId": "tud:example_modifier",
+  "mod_data_type": "tacz_unidict_ammo_data"
+}
