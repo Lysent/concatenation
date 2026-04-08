@@ -59,6 +59,8 @@ lightspeed-cache
 /oeb
 /oef
 /oei
+eula.txt
+bin
 
 # explicitly included config
 !config/ProjectE/client.toml
