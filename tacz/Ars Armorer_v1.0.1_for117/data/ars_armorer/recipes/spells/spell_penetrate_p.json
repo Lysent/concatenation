@@ -1,0 +1,46 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "ars_armorer:spell_penetrate"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:gems/amethyst"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:spectral_arrow"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "ars_armorer:spell_penetrate_p"
+  },
+  "type": "tacz:gun_smith_table_crafting",
+  "conditions": [
+    {
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "ars_nouveau"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

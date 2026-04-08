@@ -1,0 +1,100 @@
+{
+  "script": "ars_armorer:normal_ars_logic",
+  "script_param": {
+    "mana_recharge_delay": 30,
+    "mana_recharge_value": 0,
+    "ammo_count": 1,
+    "weapon_type": 3
+  },
+  "weight": -15,
+  "can_crawl": true,
+  "can_slide": false,
+  "ammo": "ars_armorer:mana",
+  "ammo_amount": 6,
+  "extended_mag_ammo_amount": [
+    6,
+    6,
+    6
+  ],
+  "movement_speed": {
+    "base": 0,
+    "aim": 0,
+    "reload": 0
+  },
+  "bolt": "open_bolt",
+  "rpm": 120,
+  "bullet": {
+    "life": 0.5,
+    "bullet_amount": 1,
+    "damage": 3,
+    "extra_damage": {
+      "armor_ignore": 0.2,
+      "head_shot_multiplier": 0.1,
+      "damage_adjust": [
+        {"distance": 20, "damage": 3},
+        {"distance": 40, "damage": 2},
+        {"distance": 60, "damage": 1},
+        {"distance": 80, "damage": 0},
+        {"distance": "infinite", "damage": -1}
+      ]
+    },
+    "speed": 180,
+    "gravity": 0,
+    "knockback": 0,
+    "friction": 0,
+    "ignite": false,
+    "ignite_entity_time": 10,
+    "pierce": 1,
+    "explosion": {
+      "explode": false,
+      "damage": 0,
+      "radius": 0,
+      "knockback": false,
+      "delay": 30
+    }
+  },
+  "reload": {
+    "type": "fuel",
+    "feed": {
+      "empty": 0,
+      "tactical": 0
+    },
+    "cooldown": {
+      "empty": 0,
+      "tactical": 0
+    }
+  },
+  "draw_time": 0.58,
+  "put_away_time": 0.5,
+  "aim_time": 0.2,
+  "sprint_time": 0,
+  "fire_mode": [
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [0.3, 0.3]},
+      {"time": 0.25, "value": [0.3, 0.3]},
+      {"time": 0.5, "value": [-0.12, -0.12]},
+      {"time": 0.7, "value": [0.03, 0.03]},
+      {"time": 1.0, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.15, 0.15]},
+      {"time": 0.25, "value": [-0.15, 0.15]},
+      {"time": 1, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 0,
+    "move": 0,
+    "sneak": 0,
+    "lie": 0,
+    "aim": 0
+  },
+  "allow_attachment_types": [
+    "muzzle",
+    "grip",
+    "stock"
+  ]
+}

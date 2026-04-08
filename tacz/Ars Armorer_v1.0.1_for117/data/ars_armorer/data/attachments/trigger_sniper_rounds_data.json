@@ -1,0 +1,29 @@
+{
+  "weight": 0.3,
+  "ammo_speed": {
+    "multiplier": 2
+  },
+  "recoil": {
+    "yaw": {
+      "multiplier": 1.2
+    },
+    "pitch": {
+      "multiplier": 1.2
+    }
+  },
+  "effective_range": {
+    "multiplier": 2
+  },
+  "rpm": {
+    "multiplier": 0.5
+  },
+  "armor_ignore":{
+    "addend": 0.1
+  },
+  "inaccuracy": {
+    "multiplier": 0.6
+  },
+  "aim_inaccuracy": {
+    "multiplier": 0.6
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/source"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:conjuration_essence"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "ars_armorer:trigger_double_fire"
+  },
+  "type": "tacz:gun_smith_table_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

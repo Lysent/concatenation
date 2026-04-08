@@ -1,0 +1,8 @@
+{
+  "name": "ars_armorer.attachment.trigger_reckless_rounds.name",
+  "tooltip": "ars_armorer.attachment.trigger_reckless_rounds.tooltip",
+  "display": "ars_armorer:trigger_reckless_rounds_display",
+  "data": "ars_armorer:trigger_reckless_rounds_data",
+  "type": "muzzle",
+  "sort": 1028
+}

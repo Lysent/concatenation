@@ -1,0 +1,8 @@
+{
+  "name": "ars_armorer.attachment.trigger_double_fire.name",
+  "tooltip": "ars_armorer.attachment.trigger_double_fire.tooltip",
+  "display": "ars_armorer:trigger_double_fire_display",
+  "data": "ars_armorer:trigger_double_fire_data",
+  "type": "muzzle",
+  "sort": 1050
+}

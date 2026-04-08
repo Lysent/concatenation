@@ -589,13 +589,13 @@
     "curseForgeHash": 1042174266,
     "modrinthHash": "ab2cd0f0a409ea6f9b2f9bb67a57f3fe7077fd8b"
   },
-  "concatenationcompat-1.1.0-forge-1.20.1.jar": {
-    "jarName": "concatenationcompat-1.1.0-forge-1.20.1.jar",
+  "concatenationcompat-1.1.1-universal-1.20.1.jar": {
+    "jarName": "concatenationcompat-1.1.1-universal-1.20.1.jar",
     "modId": "concatenationcompat",
     "name": "Concatenated Compat",
-    "version": "1.1.0",
-    "curseForgeHash": 1923617965,
-    "modrinthHash": "6cfcb5ef3d60c0844fd09dbec7ae8c2005410627"
+    "version": "1.1.1",
+    "curseForgeHash": 3190799400,
+    "modrinthHash": "2aad689c86a31a99ff5295fe58130896325e49f5"
   },
   "concatenationcore-1.4.3-forge-1.20.1.jar": {
     "jarName": "concatenationcore-1.4.3-forge-1.20.1.jar",
@@ -730,14 +730,6 @@
     "curseForgeHash": 3407618717,
     "modrinthHash": "68ea28d819d01251c38a9e36a4ce7487cf7b8723"
   },
-  "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar": {
-    "jarName": "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar",
-    "modId": "craftingrecipeexporter",
-    "name": "Crafting Recipe Exporter",
-    "version": "1.0.2",
-    "curseForgeHash": 3177483119,
-    "modrinthHash": "bf979246d3f2d81749f6246e06a9675e06476dba"
-  },
   "craftingstation-1.20.1-1.3.3.jar": {
     "jarName": "craftingstation-1.20.1-1.3.3.jar",
     "modId": "craftingstation",
@@ -866,13 +858,13 @@
     "curseForgeHash": 1368200461,
     "modrinthHash": "54c8ad5686b846310bca9e69982a455e668dede3"
   },
-  "createmetallurgy-1.0.0-1.20.1.jar": {
-    "jarName": "createmetallurgy-1.0.0-1.20.1.jar",
+  "createmetallurgy-1.0.1-1.20.1.jar": {
+    "jarName": "createmetallurgy-1.0.1-1.20.1.jar",
     "modId": "createmetallurgy",
-    "name": "Create Metallurgy",
-    "version": "1.0.0-1.20.1",
-    "curseForgeHash": 1074257554,
-    "modrinthHash": "26800bf62d382cbb90cb4a39d0e1bd5ce40e7328"
+    "name": "Create: Metallurgy",
+    "version": "1.0.1-1.20.1",
+    "curseForgeHash": 890945435,
+    "modrinthHash": "f265469612ed8a194f9974733e0e735b0e6539bd"
   },
   "createtaczauto-1.5.1-forge-1.20.1.jar": {
     "jarName": "createtaczauto-1.5.1-forge-1.20.1.jar",
@@ -1823,6 +1815,14 @@
     "curseForgeHash": 3850440114,
     "modrinthHash": "878dd35df02e1e17b7eb16113147f964eda8847f"
   },
+  "LetYourFriendEating_1.1.3_1.20.1_Forge.jar": {
+    "jarName": "LetYourFriendEating_1.1.3_1.20.1_Forge.jar",
+    "modId": "letyourfriendeating",
+    "name": "Let Your Friend Eating!",
+    "version": "1.1.3",
+    "curseForgeHash": 730408374,
+    "modrinthHash": "f67490267694857c88f66f6b78a19221e6671e84"
+  },
   "libIPN-forge-1.20-4.0.2.jar": {
     "jarName": "libIPN-forge-1.20-4.0.2.jar",
     "modId": "libipn",
@@ -2215,6 +2215,14 @@
     "curseForgeHash": 2265070471,
     "modrinthHash": "9eab28baff36942e1c924489e34753df10f40208"
   },
+  "oculus-mc1.20.1-1.8.0.jar": {
+    "jarName": "oculus-mc1.20.1-1.8.0.jar",
+    "modId": "oculus",
+    "name": "Oculus",
+    "version": "1.8.0",
+    "curseForgeHash": 516527841,
+    "modrinthHash": "984f774e71790deaec674c7587bd24e0711871b2"
+  },
   "OELib-forge-1.20.1-0.2.3.jar": {
     "jarName": "OELib-forge-1.20.1-0.2.3.jar",
     "modId": "oelib",
@@ -2223,13 +2231,13 @@
     "curseForgeHash": 2260888889,
     "modrinthHash": "2c5a133b5112bf56d41ab4652d46375b3f0ce8f4"
   },
-  "OneEnoughBlock-1.1.3.1.jar": {
-    "jarName": "OneEnoughBlock-1.1.3.1.jar",
+  "OneEnoughBlock-1.1.3.1-hotfix.jar": {
+    "jarName": "OneEnoughBlock-1.1.3.1-hotfix.jar",
     "modId": "oneenoughblock",
     "name": "OneEnoughBlock",
-    "version": "1.1.3.1",
-    "curseForgeHash": 3068954196,
-    "modrinthHash": "cd078e33fe69561cfc7720f15aab67369205a548"
+    "version": "1.1.3.1-hotfix",
+    "curseForgeHash": 2329442058,
+    "modrinthHash": "fb7a17938f72282fad9194a76fa0924e17f00bea"
   },
   "OneEnoughEnchantment-1.0.0.jar": {
     "jarName": "OneEnoughEnchantment-1.0.0.jar",
@@ -2239,21 +2247,21 @@
     "curseForgeHash": 2285543911,
     "modrinthHash": "40eff69384a352ae4c5e614b63537ee73a6327e5"
   },
-  "OneEnoughFluid-1.1.1.jar": {
-    "jarName": "OneEnoughFluid-1.1.1.jar",
+  "OneEnoughFluid-1.1.1-hotfix.jar": {
+    "jarName": "OneEnoughFluid-1.1.1-hotfix.jar",
     "modId": "oneenoughfluid",
     "name": "OneEnoughFluid",
-    "version": "1.1.1",
-    "curseForgeHash": 1870331714,
-    "modrinthHash": "b7337c000bc0136feb55ed77bbde824ca7648d85"
+    "version": "1.1.1-hotfix",
+    "curseForgeHash": 882777496,
+    "modrinthHash": "2dca7406c6bc5acf7cab6f001de36ae9beef754c"
   },
-  "OneEnoughItem-1.0.7.jar": {
-    "jarName": "OneEnoughItem-1.0.7.jar",
+  "OneEnoughItem-1.0.7-hotfix.jar": {
+    "jarName": "OneEnoughItem-1.0.7-hotfix.jar",
     "modId": "oneenoughitem",
     "name": "OneEnoughItem",
-    "version": "1.0.7",
-    "curseForgeHash": 1273990508,
-    "modrinthHash": "742bae65fa8ed66360edcac7569d6ac7194942ab"
+    "version": "1.0.7-hotfix",
+    "curseForgeHash": 2034744653,
+    "modrinthHash": "fbe60af8e3bd457ab784a313df193531244af185"
   },
   "open_in_inventory-forge-1.2.1+1.20.1.jar": {
     "jarName": "open_in_inventory-forge-1.2.1+1.20.1.jar",
@@ -2900,13 +2908,13 @@
     "curseForgeHash": 3583911177,
     "modrinthHash": "8a403876730a7186165e109f7f5292d31c6c3f4c"
   },
-  "supplementaries-1.20-3.1.42-forge.jar": {
-    "jarName": "supplementaries-1.20-3.1.42-forge.jar",
+  "supplementaries-1.20-3.1.43-forge.jar": {
+    "jarName": "supplementaries-1.20-3.1.43-forge.jar",
     "modId": "supplementaries",
     "name": "Supplementaries",
-    "version": "1.20-3.1.42",
-    "curseForgeHash": 2911967421,
-    "modrinthHash": "c9e2f6c813eef73843d869ff5611f155af7467fb"
+    "version": "1.20-3.1.43",
+    "curseForgeHash": 1988549846,
+    "modrinthHash": "326d65a29981de28016e3828370d68a8f63e1798"
   },
   "swashbucklers! 2.6.6B 1.20.1.jar": {
     "jarName": "swashbucklers! 2.6.6B 1.20.1.jar",
@@ -2915,6 +2923,14 @@
     "version": "2.6.6",
     "curseForgeHash": 2610679654,
     "modrinthHash": "4bfa399bcb2e8ceed71c3801b2921733a3531134"
+  },
+  "TACZ Unidict-1.20.1-forge-2.0.1.jar": {
+    "jarName": "TACZ Unidict-1.20.1-forge-2.0.1.jar",
+    "modId": "tacz_unidict",
+    "name": "Tacz: UniDict",
+    "version": "2.0.1",
+    "curseForgeHash": 1096657921,
+    "modrinthHash": "995519382ebd66240fb1a0cd3fe19a43473ed00f"
   },
   "tacz-1.20.1-1.1.7-hotfix2.jar": {
     "jarName": "tacz-1.20.1-1.1.7-hotfix2.jar",
@@ -2931,14 +2947,6 @@
     "version": "2.13.1",
     "curseForgeHash": 137760182,
     "modrinthHash": "3ea6fe11f5a7544ca3b23e6e941dfd24b17637d5"
-  },
-  "tacz_gunpack_redistribution-1.0.0+mc1.20.1+tacz1.1.4-all.jar": {
-    "jarName": "tacz_gunpack_redistribution-1.0.0+mc1.20.1+tacz1.1.4-all.jar",
-    "modId": "tacz_gunpack_redistribution",
-    "name": "TaCZ Gunpack Redistribution",
-    "version": "1.0.0+mc1.20.1+tacz1.1.4",
-    "curseForgeHash": 2305036459,
-    "modrinthHash": "9c4db2e21d49bc42c22fce8b02b4f3f61b8a91ea"
   },
   "tagfixes-1.0.5-universal-1.20.1.jar": {
     "jarName": "tagfixes-1.0.5-universal-1.20.1.jar",

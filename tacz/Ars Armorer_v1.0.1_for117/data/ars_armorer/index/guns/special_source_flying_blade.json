@@ -1,0 +1,8 @@
+{
+    "name": "ars_armorer.gun.special_source_flying_blade",
+    "tooltip": "ars_armorer.gun.special_source_flying_blade.tooltip",
+    "display": "ars_armorer:special_source_flying_blade_display",
+    "data": "ars_armorer:special_source_flying_blade_data",
+    "type": "rpg",
+    "sort": 1025
+}

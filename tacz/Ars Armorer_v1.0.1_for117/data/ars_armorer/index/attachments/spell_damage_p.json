@@ -1,0 +1,8 @@
+{
+  "name": "ars_armorer.attachment.spell_damage_p.name",
+  "tooltip": "ars_armorer.attachment.spell_damage_p.tooltip",
+  "display": "ars_armorer:spell_damage_p_display",
+  "data": "ars_armorer:spell_damage_p_data",
+  "type": "grip",
+  "sort": 1025
+}

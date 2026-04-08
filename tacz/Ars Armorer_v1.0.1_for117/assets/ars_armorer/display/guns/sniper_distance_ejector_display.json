@@ -1,0 +1,56 @@
+{
+    "show_crosshair": true,
+    "model": "ars_armorer:gun/sniper_distance_ejector_geo",
+    "texture": "ars_armorer:gun/uv/sniper_distance_ejector_uv",
+    "lod": {
+        "model": "ars_armorer:gun/lod/sniper_distance_ejector_lod",
+        "texture": "ars_armorer:gun/lod/sniper_distance_ejector_lod"
+    },
+    "hud": "ars_armorer:gun/hud/sniper_distance_ejector_hud",
+    "slot": "ars_armorer:gun/slot/sniper_distance_ejector_slot",
+    "animation": "ars_armorer:sniper_distance_ejector",
+    "iron_zoom": 3,
+    "use_default_animation": "pistol",
+    "state_machine": "ars_armorer:normal_ars_state_machine",
+    "third_person_animation": "default",
+    "ammo_count_style": "percent",
+    "transform": {
+        "scale": {
+            "thirdperson": [
+                1,
+                1,
+                1
+            ],
+            "ground": [
+                1,
+                1,
+                1
+            ],
+            "fixed": [
+                1.2,
+                1.2,
+                1.2
+            ]
+        }
+    },
+    "ammo":{
+        "particle": {
+        "name": "witch",
+        "delta": [
+            0,
+            0,
+            0
+        ],
+        "speed": 0.0,
+        "life_time": 25,
+        "count": 15
+        }
+    },
+    "sounds": {
+        "shoot_3p": "ars_armorer:sniper_distance_ejector/sniper_distance_ejector_shoot_3p",
+        "draw": "ars_armorer:sniper_distance_ejector/sniper_distance_ejector_draw",
+        "dry_fire": "ars_armorer:misc/dry_fire",
+        "put_away": "ars_armorer:sniper_distance_ejector/sniper_distance_ejector_put_away",
+        "silence_3p": "ars_armorer:sniper_distance_ejector/sniper_distance_ejector_shoot_3p"
+    }
+}

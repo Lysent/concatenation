@@ -1,0 +1,7 @@
+{
+  "name": "ars_armorer.attachment.mod_high_damage.name",
+  "tooltip": "ars_armorer.attachment.mod_high_damage.tooltip",
+  "display": "ars_armorer:mod_high_damage_display",
+  "data": "ars_armorer:mod_high_damage_data",
+  "type": "stock"
+}

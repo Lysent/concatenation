@@ -1,0 +1,9 @@
+{
+  "slot": "ars_armorer:attachment/slot/trigger_high_speed_slot",
+  "model": "ars_armorer:attachment/trigger_high_speed_geo",
+  "texture": "ars_armorer:attachment/uv/trigger_high_speed_uv",
+  "sounds": {
+    "install": "ars_armorer:misc/attachment_install_muzzle",
+    "uninstall": "ars_armorer:misc/attachment_uninstall"
+  }
+}

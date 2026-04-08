@@ -1,0 +1,8 @@
+{
+  "name": "ars_armorer.attachment.spell_ignite.name",
+  "tooltip": "ars_armorer.attachment.spell_ignite.tooltip",
+  "display": "ars_armorer:spell_ignite_display",
+  "data": "ars_armorer:spell_ignite_data",
+  "type": "grip",
+  "sort": 1032
+}

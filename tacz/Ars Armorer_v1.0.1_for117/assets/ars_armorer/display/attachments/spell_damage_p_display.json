@@ -1,0 +1,9 @@
+{
+  "slot": "ars_armorer:attachment/slot/spell_damage_p_slot",
+  "model": "ars_armorer:attachment/spell_damage_p_geo",
+  "texture": "ars_armorer:attachment/uv/spell_damage_p_uv",
+  "sounds": {
+    "install": "ars_armorer:misc/attachment_install_grip",
+    "uninstall": "ars_armorer:misc/attachment_uninstall"
+  }
+}

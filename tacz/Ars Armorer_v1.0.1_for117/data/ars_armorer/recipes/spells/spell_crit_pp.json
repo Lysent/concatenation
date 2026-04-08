@@ -1,0 +1,46 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "ars_armorer:spell_crit_p"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:gems/amethyst"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "ars_armorer:spell_crit_pp"
+  },
+  "type": "tacz:gun_smith_table_crafting",
+  "conditions": [
+    {
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "ars_nouveau"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

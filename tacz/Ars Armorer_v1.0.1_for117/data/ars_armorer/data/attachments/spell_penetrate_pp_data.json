@@ -1,0 +1,15 @@
+{
+  "weight": 0.3,
+  "damage": {
+    "addend": 15
+  },
+  "head_shot":{
+    "addend": 2
+  },
+  "armor_ignore":{
+    "addend": 0.1
+  },
+  "pierce": {
+    "addend": 3
+  }
+}

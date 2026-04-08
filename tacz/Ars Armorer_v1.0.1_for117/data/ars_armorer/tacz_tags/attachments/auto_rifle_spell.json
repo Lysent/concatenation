@@ -1,0 +1,19 @@
+[
+  "ars_armorer:spell_damage",
+  "ars_armorer:spell_damage_p",
+  "ars_armorer:spell_damage_pp",
+  "ars_armorer:spell_ignite",
+  "ars_armorer:spell_ignite_p",
+  "ars_armorer:spell_crit",
+  "ars_armorer:spell_crit_p",
+  "ars_armorer:spell_crit_pp",
+  "ars_armorer:spell_explode",
+  "ars_armorer:spell_suppression",
+  "ars_armorer:spell_suppression_p",
+  "ars_armorer:spell_penetrate",
+  "ars_armorer:spell_penetrate_p",
+  "ars_armorer:spell_penetrate_pp",
+  "ars_armorer:spell_penetrate_incendiary",
+  "ars_armorer:spell_penetrate_incendiary_p",
+  "ars_armorer:spell_penetrate_incendiary_pp"
+]

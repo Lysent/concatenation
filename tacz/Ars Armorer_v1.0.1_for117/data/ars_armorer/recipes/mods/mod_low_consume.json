@@ -1,0 +1,42 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/amethyst"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 8
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "ars_armorer:mod_low_consume"
+  },
+  "type": "tacz:gun_smith_table_crafting",
+  "conditions": [
+    {
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "ars_nouveau"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

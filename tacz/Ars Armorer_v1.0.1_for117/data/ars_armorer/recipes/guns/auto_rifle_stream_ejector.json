@@ -1,0 +1,45 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/amethyst"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 18
+    },
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "ars_armorer:auto_rifle_stream_ejector",
+    "attachments": {
+      "grip": "ars_armorer:spell_damage"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting",
+  "conditions": [
+    {
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "ars_nouveau"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

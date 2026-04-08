@@ -1,0 +1,49 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "ars_armorer:spell_suppression"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:gems/source"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:air_essence"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:slimeballs"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "ars_armorer:spell_suppression_p"
+  },
+  "type": "tacz:gun_smith_table_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

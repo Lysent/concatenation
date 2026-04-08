@@ -1,0 +1,52 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "ae2:fluix_pearl"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "ae2:fluix_crystal"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/copper"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "concatenationcore:stickyredstone"
+      },
+      "count": 16
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "applied_armorer:fluix_infused_grenade",
+    "count": 6
+  }
+}

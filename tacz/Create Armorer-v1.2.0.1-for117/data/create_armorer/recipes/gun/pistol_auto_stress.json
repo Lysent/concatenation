@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "createtaczauto:hardened_brass_sheet"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "create:brass_sheet"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "item": "thermal:steel_plate"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/copper"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "create_armorer:pistol_auto_stress"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

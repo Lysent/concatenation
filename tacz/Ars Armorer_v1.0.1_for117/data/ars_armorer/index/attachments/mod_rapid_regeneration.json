@@ -1,0 +1,7 @@
+{
+  "name": "ars_armorer.attachment.mod_rapid_regeneration.name",
+  "tooltip": "ars_armorer.attachment.mod_rapid_regeneration.tooltip",
+  "display": "ars_armorer:mod_rapid_regeneration_display",
+  "data": "ars_armorer:mod_rapid_regeneration_data",
+  "type": "stock"
+}

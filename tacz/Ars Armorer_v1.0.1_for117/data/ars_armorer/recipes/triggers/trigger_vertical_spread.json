@@ -1,0 +1,42 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/amethyst"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:clock"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "minecraft:compasses"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "ars_armorer:trigger_vertical_spread"
+  },
+  "type": "tacz:gun_smith_table_crafting",
+  "conditions": [
+    {
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "ars_nouveau"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

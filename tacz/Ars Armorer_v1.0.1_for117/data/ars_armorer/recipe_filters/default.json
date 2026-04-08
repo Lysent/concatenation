@@ -1,0 +1,7 @@
+{
+  "whitelist": [
+    "^ars_armorer:.*$"
+  ],
+  "blacklist": [
+  ]
+}

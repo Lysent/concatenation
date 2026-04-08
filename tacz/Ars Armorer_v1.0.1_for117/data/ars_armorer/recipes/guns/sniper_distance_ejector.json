@@ -1,0 +1,51 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/amethyst"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 12
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "ars_armorer:sniper_distance_ejector",
+    "attachments": {
+      "grip": "ars_armorer:spell_damage"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting",
+  "conditions": [
+    {
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "ars_nouveau"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

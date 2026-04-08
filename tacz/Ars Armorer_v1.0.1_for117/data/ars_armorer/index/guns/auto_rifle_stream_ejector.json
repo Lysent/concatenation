@@ -1,0 +1,8 @@
+{
+    "name": "ars_armorer.gun.auto_rifle_stream_ejector",
+    "tooltip": "ars_armorer.gun.auto_rifle_stream_ejector.tooltip",
+    "display": "ars_armorer:auto_rifle_stream_ejector_display",
+    "data": "ars_armorer:auto_rifle_stream_ejector_data",
+    "type": "rifle",
+    "sort": 1024
+}

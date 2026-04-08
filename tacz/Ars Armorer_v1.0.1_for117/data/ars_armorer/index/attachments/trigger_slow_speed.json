@@ -1,0 +1,8 @@
+{
+  "name": "ars_armorer.attachment.trigger_slow_speed.name",
+  "tooltip": "ars_armorer.attachment.trigger_slow_speed.tooltip",
+  "display": "ars_armorer:trigger_slow_speed_display",
+  "data": "ars_armorer:trigger_slow_speed_data",
+  "type": "muzzle",
+  "sort": 1025
+}

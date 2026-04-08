@@ -1,0 +1,55 @@
+{
+    "show_crosshair": true,
+    "model": "ars_armorer:gun/auto_rifle_stream_ejector_geo",
+    "texture": "ars_armorer:gun/uv/auto_rifle_stream_ejector_uv",
+    "lod": {
+        "model": "ars_armorer:gun/lod/auto_rifle_stream_ejector_lod",
+        "texture": "ars_armorer:gun/lod/auto_rifle_stream_ejector_lod"
+    },
+    "hud": "ars_armorer:gun/hud/auto_rifle_stream_ejector_hud",
+    "slot": "ars_armorer:gun/slot/auto_rifle_stream_ejector_slot",
+    "animation": "ars_armorer:auto_rifle_stream_ejector",
+    "use_default_animation": "pistol",
+    "state_machine": "ars_armorer:normal_ars_state_machine",
+    "third_person_animation": "default",
+    "ammo_count_style": "percent",
+    "transform": {
+        "scale": {
+            "thirdperson": [
+                1,
+                1,
+                1
+            ],
+            "ground": [
+                1,
+                1,
+                1
+            ],
+            "fixed": [
+                1.2,
+                1.2,
+                1.2
+            ]
+        }
+    },
+    "ammo":{
+        "particle": {
+        "name": "witch",
+        "delta": [
+            0,
+            0,
+            0
+        ],
+        "speed": 0.0,
+        "life_time": 20,
+        "count": 3
+        }
+    },
+    "sounds": {
+        "shoot_3p": "ars_armorer:auto_rifle_stream_ejector/auto_rifle_stream_ejector_shoot_3p",
+        "draw": "ars_armorer:auto_rifle_stream_ejector/draw",
+        "dry_fire": "ars_armorer:misc/dry_fire",
+        "put_away": "ars_armorer:auto_rifle_stream_ejector/put_away",
+        "silence_3p": "ars_armorer:auto_rifle_stream_ejector/auto_rifle_stream_ejector_shoot_3p"
+    }
+}

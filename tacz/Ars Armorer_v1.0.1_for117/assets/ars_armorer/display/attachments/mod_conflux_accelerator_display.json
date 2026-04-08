@@ -1,0 +1,9 @@
+{
+  "slot": "ars_armorer:attachment/slot/mod_conflux_accelerator_slot",
+  "model": "ars_armorer:attachment/mod_conflux_accelerator_geo",
+  "texture": "ars_armorer:attachment/uv/mod_conflux_accelerator_uv",
+  "sounds": {
+    "install": "ars_armorer:misc/attachment_install_stock",
+    "uninstall": "ars_armorer:misc/attachment_uninstall"
+  }
+}

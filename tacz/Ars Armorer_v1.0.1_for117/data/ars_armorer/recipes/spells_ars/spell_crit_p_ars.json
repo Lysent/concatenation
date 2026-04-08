@@ -1,0 +1,49 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "ars_armorer:spell_crit"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:gems/source"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:air_essence"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "ars_armorer:spell_crit_p"
+  },
+  "type": "tacz:gun_smith_table_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

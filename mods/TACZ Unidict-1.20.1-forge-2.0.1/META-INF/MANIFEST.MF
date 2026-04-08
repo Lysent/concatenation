@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: tacz_unidict
+Specification-Vendor: Scarasol, IronCurtain
+Specification-Version: 1
+Implementation-Title: TaczUniDict-forge-1.20.1
+Implementation-Version: 2.0.1
+Implementation-Vendor: Scarasol, IronCurtain
+Implementation-Timestamp: 2026-02-07T23:09:53+0800
+MixinConfigs: tud.mixins.json
+

@@ -1,0 +1,9 @@
+{
+  "slot": "ars_armorer:attachment/slot/trigger_sniper_rounds_slot",
+  "model": "ars_armorer:attachment/trigger_sniper_rounds_geo",
+  "texture": "ars_armorer:attachment/uv/trigger_sniper_rounds_uv",
+  "sounds": {
+    "install": "ars_armorer:misc/attachment_install_muzzle",
+    "uninstall": "ars_armorer:misc/attachment_uninstall"
+  }
+}

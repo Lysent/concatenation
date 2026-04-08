@@ -1,0 +1,15 @@
+{
+  "weight": 0.6,
+  "damage": {
+    "addend": 7
+  },
+  "head_shot":{
+    "addend": 1
+  },
+  "rpm": {
+    "multiplier": 1.2
+  },
+  "knockback": {
+    "addend": 0.5
+  }
+}

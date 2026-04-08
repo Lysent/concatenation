@@ -1,0 +1,6 @@
+{
+  "name": "ars_armorer.ammo.mana.name",
+  "tooltip": "ars_armorer.ammo.mana.tooltip",
+  "display": "ars_armorer:mana_display",
+  "stack_size": 1
+}

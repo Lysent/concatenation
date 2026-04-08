@@ -1,0 +1,37 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 8,
+				"texture_height": 8,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "muzzle",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-0.25, 0, -0.5],
+							"size": [0.5, 2.5, 1],
+							"pivot": [-0.25, 0, 0],
+							"rotation": [-45, 0, 0],
+							"uv": {
+								"north": {"uv": [0, 4], "uv_size": [0.5, 2.5]},
+								"east": {"uv": [0, 0], "uv_size": [1, 2.5]},
+								"south": {"uv": [4, 0], "uv_size": [0.5, 2.5]},
+								"west": {"uv": [2, 0], "uv_size": [1, 2.5]},
+								"up": {"uv": [2, 4], "uv_size": [0.5, 1]},
+								"down": {"uv": [4, 5], "uv_size": [0.5, -1]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

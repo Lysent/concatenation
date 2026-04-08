@@ -1,0 +1,18 @@
+{
+  "weight": 0.5,
+  "damage": {
+    "addend": 20
+  },
+  "head_shot":{
+    "addend": 2
+  },
+  "armor_ignore":{
+    "addend": 0.1
+  },
+  "pierce": {
+    "addend": 1
+  },
+  "ignite": {
+    "entity": true
+  }
+}

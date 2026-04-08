@@ -1,0 +1,8 @@
+{
+  "name": "ars_armorer.attachment.spell_penetrate.name",
+  "tooltip": "ars_armorer.attachment.spell_penetrate.tooltip",
+  "display": "ars_armorer:spell_penetrate_display",
+  "data": "ars_armorer:spell_penetrate_data",
+  "type": "grip",
+  "sort": 1036
+}

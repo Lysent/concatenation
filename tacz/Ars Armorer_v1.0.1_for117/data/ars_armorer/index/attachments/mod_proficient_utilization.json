@@ -1,0 +1,7 @@
+{
+  "name": "ars_armorer.attachment.mod_proficient_utilization.name",
+  "tooltip": "ars_armorer.attachment.mod_proficient_utilization.tooltip",
+  "display": "ars_armorer:mod_proficient_utilization_display",
+  "data": "ars_armorer:mod_proficient_utilization_data",
+  "type": "stock"
+}

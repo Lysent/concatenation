@@ -1,0 +1,8 @@
+{
+  "name": "ars_armorer.attachment.trigger_horizontal_spread.name",
+  "tooltip": "ars_armorer.attachment.trigger_horizontal_spread.tooltip",
+  "display": "ars_armorer:trigger_horizontal_spread_display",
+  "data": "ars_armorer:trigger_horizontal_spread_data",
+  "type": "muzzle",
+  "sort": 1026
+}

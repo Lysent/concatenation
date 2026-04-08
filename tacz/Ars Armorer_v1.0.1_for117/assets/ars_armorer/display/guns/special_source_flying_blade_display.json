@@ -1,0 +1,39 @@
+{
+    "show_crosshair": true,
+    "model": "ars_armorer:gun/special_source_flying_blade_geo",
+    "texture": "ars_armorer:gun/uv/special_source_flying_blade_uv",
+    "lod": {
+        "model": "ars_armorer:gun/lod/special_source_flying_blade_lod_geo",
+        "texture": "ars_armorer:gun/lod/special_source_flying_blade_lod_uv"
+    },
+    "hud": "ars_armorer:gun/hud/special_source_flying_blade_hud",
+    "slot": "ars_armorer:gun/slot/special_source_flying_blade_slot",
+    "animation": "ars_armorer:special_source_flying_blade",
+    "use_default_animation": "rifle",
+    "state_machine": "ars_armorer:blade_state_machine",
+    "third_person_animation": "default",
+    "transform": {
+        "scale": {
+            "thirdperson": [
+                1,
+                1,
+                1
+            ],
+            "ground": [
+                1,
+                1,
+                1
+            ],
+            "fixed": [
+                1.2,
+                1.2,
+                1.2
+            ]
+        }
+    },
+    "sounds": {
+        "shoot_3p": "ars_armorer:special_source_flying_blade/special_source_flying_blade_shoot_3p",
+        "dry_fire": "ars_armorer:misc/dry_fire",
+        "silence_3p": "ars_armorer:special_source_flying_blade/special_source_flying_blade_shoot_3p"
+    }
+}

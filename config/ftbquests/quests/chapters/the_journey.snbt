@@ -4514,7 +4514,7 @@
 				}
 			]
 			x: 11.0d
-			y: 25.0d
+			y: 25.5d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -4604,7 +4604,7 @@
 				}
 			]
 			x: 12.0d
-			y: 24.0d
+			y: 24.5d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -4694,7 +4694,7 @@
 				}
 			]
 			x: 12.5d
-			y: 25.0d
+			y: 25.5d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -4784,7 +4784,7 @@
 				}
 			]
 			x: 13.0d
-			y: 23.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -4874,7 +4874,7 @@
 				}
 			]
 			x: 13.5d
-			y: 24.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["54DA52C7F14D64E9"]
@@ -5011,7 +5011,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 20.0d
+			y: 20.5d
 		}
 		{
 			dependencies: [
@@ -5047,8 +5047,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 23.5d
+			x: 15.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["03F5F8D8A4E7D749"]
@@ -5127,8 +5127,8 @@
 				type: "item"
 			}]
 			title: "Sourcelinks"
-			x: 18.0d
-			y: 19.0d
+			x: 18.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["44240C2BEF40998D"]
@@ -5369,8 +5369,8 @@
 				type: "item"
 			}]
 			title: "Threads"
-			x: 15.5d
-			y: 24.5d
+			x: 16.5d
+			y: 26.0d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -5486,7 +5486,7 @@
 			]
 			title: "The Wilden"
 			x: 17.5d
-			y: 22.5d
+			y: 23.0d
 		}
 		{
 			dependencies: ["4FD664E0F7A92893"]
@@ -5519,8 +5519,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
-			y: 23.5d
+			x: 19.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["3683C013E2CDB6DC"]
@@ -5798,7 +5798,7 @@
 			}]
 			title: "Ritual Tablet"
 			x: 18.5d
-			y: 21.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -6047,8 +6047,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
-			y: 25.5d
+			x: 21.0d
+			y: 26.0d
 		}
 		{
 			dependencies: ["65C15526A590FDF9"]
@@ -6072,8 +6072,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
-			y: 22.5d
+			x: 20.5d
+			y: 23.0d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -6139,8 +6139,8 @@
 				type: "item"
 			}]
 			title: "Lesser Focuses"
-			x: 18.5d
-			y: 25.5d
+			x: 18.0d
+			y: 25.0d
 		}
 		{
 			dependencies: [
@@ -6213,8 +6213,8 @@
 				}
 			]
 			title: "Greater Focuses"
-			x: 19.5d
-			y: 24.5d
+			x: 20.0d
+			y: 25.0d
 		}
 		{
 			dependencies: ["4080496891426ACB"]
@@ -6238,8 +6238,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.0d
-			y: 23.5d
+			x: 21.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["53FE81F34BBC0B45"]
@@ -6362,7 +6362,7 @@
 				type: "item"
 			}]
 			x: 19.0d
-			y: 20.0d
+			y: 20.5d
 		}
 		{
 			dependencies: [
@@ -8656,6 +8656,13 @@
 		}
 		{
 			dependencies: ["65C1B6B2B147028E"]
+			description: [
+				"Among the tools of an engineer are the goggles with precise measurement tools to gauge several metrics about their machinery along with the wrench."
+				""
+				"The wrench can often be used as a weapon that deals tremendous blunt damage. It's quite surprising how effective it is. The main drawback is that it can then no longer be properly used to tune machinery as it may be slightly."
+				""
+				"&a(Press X by default to melee attack with the combat wrench, it is not a normal sword.)"
+			]
 			id: "79433FA8ACAACA4E"
 			rewards: [{
 				id: "691DB03A6AE0CB96"
@@ -8681,7 +8688,23 @@
 					item: "create:wrench"
 					type: "item"
 				}
+				{
+					id: "268E4CE8ED5AA20B"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 1
+							GunFireMode: "SEMI"
+							GunId: "create_armorer:special_melee_wrench"
+							HasBulletInBarrel: 1b
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
 			]
+			title: "Engineer's Tools"
 			x: -11.5d
 			y: 15.0d
 		}
@@ -10777,19 +10800,33 @@
 				item: "tfmg:aluminum_ingot"
 				type: "item"
 			}]
-			tasks: [{
-				id: "6AF26A28A43B28CD"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			tasks: [
+				{
+					id: "6AF26A28A43B28CD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tacz:gun_smith_table"
+					}
+					type: "item"
+				}
+				{
+					id: "7B77E7AC3F55E8E5"
+					item: {
+						Count: 1
+						id: "tacz:workbench_b"
+						tag: {
+							BlockId: "create_armorer:create_workbench"
 						}
 					}
-					id: "tacz:gun_smith_table"
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			title: "Gun Smith Table"
 			x: -6.5d
 			y: 28.5d
@@ -14867,8 +14904,8 @@
 				}
 				type: "item"
 			}]
-			x: -30.5d
-			y: 16.0d
+			x: -31.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["137E5079D198BF5C"]
@@ -15078,7 +15115,7 @@
 			]
 			title: "Elemental Essences"
 			x: 15.5d
-			y: 18.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["08E10ADC80A20D8E"]
@@ -15141,7 +15178,7 @@
 			]
 			title: "Advanced Essences"
 			x: 17.0d
-			y: 17.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["55380CDFDB4EB17C"]
@@ -15475,8 +15512,8 @@
 				type: "item"
 			}]
 			title: "&4The Hanged Man"
-			x: 29.349999999999998d
-			y: 22.849999999999994d
+			x: 28.999999999999996d
+			y: 22.449999999999992d
 		}
 		{
 			dependencies: [
@@ -15530,8 +15567,8 @@
 				type: "item"
 			}]
 			title: "&3The Lovers"
-			x: 31.95d
-			y: 14.125d
+			x: 31.0d
+			y: 13.125d
 		}
 		{
 			dependencies: ["1AB989E044EBCB6D"]
@@ -16182,8 +16219,8 @@
 				}
 				type: "item"
 			}]
-			x: -31.0d
-			y: 15.0d
+			x: -31.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["25E533314EFCD83A"]
@@ -19981,8 +20018,8 @@
 				item: "reliquary:angelheart_vial"
 				type: "item"
 			}]
-			x: 34.349999999999994d
-			y: 21.849999999999994d
+			x: 35.0d
+			y: 22.5d
 		}
 		{
 			dependencies: [
@@ -20008,8 +20045,8 @@
 				item: "reliquary:phoenix_down"
 				type: "item"
 			}]
-			x: 34.349999999999994d
-			y: 20.849999999999994d
+			x: 35.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
@@ -20036,8 +20073,8 @@
 				item: "reliquary:angelic_feather"
 				type: "item"
 			}]
-			x: 33.349999999999994d
-			y: 20.849999999999994d
+			x: 34.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["550D01E852BFE592"]
@@ -20059,8 +20096,8 @@
 				item: "reliquary:destruction_catalyst"
 				type: "item"
 			}]
-			x: 30.999999999999996d
-			y: 26.450000000000003d
+			x: 30.649999999999995d
+			y: 26.05d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -20084,8 +20121,8 @@
 				item: "reliquary:fortune_coin"
 				type: "item"
 			}]
-			x: 27.95d
-			y: 25.5d
+			x: 27.599999999999998d
+			y: 25.099999999999998d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -20107,8 +20144,8 @@
 				item: "reliquary:glacial_staff"
 				type: "item"
 			}]
-			x: 32.55d
-			y: 28.049999999999997d
+			x: 32.5d
+			y: 28.5d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -20135,8 +20172,8 @@
 				item: "reliquary:pyromancer_staff"
 				type: "item"
 			}]
-			x: 35.55d
-			y: 28.049999999999997d
+			x: 35.5d
+			y: 27.0d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -20172,8 +20209,8 @@
 				}
 				type: "item"
 			}]
-			x: 34.55d
-			y: 28.549999999999997d
+			x: 35.5d
+			y: 28.5d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -20195,8 +20232,8 @@
 				}
 				type: "item"
 			}]
-			x: 33.55d
-			y: 28.549999999999997d
+			x: 34.0d
+			y: 29.0d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -20219,8 +20256,8 @@
 				item: "reliquary:sojourner_staff"
 				type: "item"
 			}]
-			x: 35.45d
-			y: 26.5d
+			x: 35.0d
+			y: 25.5d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -20250,8 +20287,8 @@
 				}
 				type: "item"
 			}]
-			x: 31.95d
-			y: 22.5d
+			x: 31.599999999999998d
+			y: 22.099999999999998d
 		}
 		{
 			dependencies: ["6FE18A64BEAF0A08"]
@@ -20268,8 +20305,8 @@
 				item: "reliquary:lantern_of_paranoia"
 				type: "item"
 			}]
-			x: 37.45d
-			y: 26.5d
+			x: 37.0d
+			y: 26.0d
 		}
 		{
 			dependencies: [
@@ -20295,8 +20332,8 @@
 				item: "reliquary:salamander_eye"
 				type: "item"
 			}]
-			x: 37.55d
-			y: 28.049999999999997d
+			x: 37.099999999999994d
+			y: 27.549999999999997d
 		}
 		{
 			dependencies: ["471939DE22B5426B"]
@@ -20344,8 +20381,8 @@
 				item: "reliquary:handgun"
 				type: "item"
 			}]
-			x: 30.45d
-			y: 28.0d
+			x: 30.099999999999998d
+			y: 27.599999999999998d
 		}
 		{
 			dependencies: ["2A6F7A84B94F1B7F"]
@@ -20363,8 +20400,8 @@
 				item: "reliquary:interdiction_torch"
 				type: "item"
 			}]
-			x: 37.45d
-			y: 25.0d
+			x: 37.0d
+			y: 24.5d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
@@ -20393,8 +20430,8 @@
 				}
 				type: "item"
 			}]
-			x: 30.45d
-			y: 24.0d
+			x: 30.099999999999998d
+			y: 23.599999999999998d
 		}
 		{
 			dependencies: ["7EA2E0871C6D568C"]
@@ -20477,11 +20514,12 @@
 				}
 				type: "item"
 			}]
-			x: 27.45d
-			y: 27.0d
+			x: 27.099999999999998d
+			y: 26.599999999999998d
 		}
 		{
 			dependencies: ["21E6CA24E283AF68"]
+			dependency_requirement: "one_started"
 			description: [
 				"Out of all of the weapons I've come across on my travels, up until now, this probably makes the top five. It uses Kestrel as a base, harvests the power of Magicbane using a transformative flower, and when swung, shoots deadly beams with the power of the Rending Gale, summoning lightning strikes on hit."
 				"{@pagebreak}"
@@ -20506,8 +20544,8 @@
 				}
 				type: "item"
 			}]
-			x: 28.599999999999998d
-			y: 29.375d
+			x: 28.249999999999996d
+			y: 28.974999999999998d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -20547,8 +20585,8 @@
 				}
 				type: "item"
 			}]
-			x: 30.95d
-			y: 22.0d
+			x: 30.599999999999998d
+			y: 21.599999999999998d
 		}
 		{
 			dependencies: ["5AAC92BF084F5CC7"]
@@ -20595,8 +20633,8 @@
 					type: "item"
 				}
 			]
-			x: 36.95d
-			y: 13.5d
+			x: 36.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0D61335A0B07300D"]
@@ -20617,8 +20655,8 @@
 				item: "theurgy:pyromantic_brazier"
 				type: "item"
 			}]
-			x: 33.95d
-			y: 15.0d
+			x: 33.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["18842926F8B1C64D"]
@@ -20634,8 +20672,8 @@
 				item: "theurgy:liquefaction_cauldron"
 				type: "item"
 			}]
-			x: 35.95d
-			y: 15.0d
+			x: 35.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["18842926F8B1C64D"]
@@ -20651,8 +20689,8 @@
 				item: "theurgy:distiller"
 				type: "item"
 			}]
-			x: 34.45d
-			y: 16.5d
+			x: 33.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["18842926F8B1C64D"]
@@ -20668,8 +20706,8 @@
 				item: "theurgy:calcination_oven"
 				type: "item"
 			}]
-			x: 35.45d
-			y: 16.0d
+			x: 34.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["0BFFCDA557C3AC9C"]
@@ -20710,8 +20748,8 @@
 				type: "item"
 			}]
 			title: "Salt"
-			x: 36.95d
-			y: 17.0d
+			x: 36.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["082867418C58A3F7"]
@@ -20727,8 +20765,8 @@
 				item: "theurgy:mercury_shard"
 				type: "item"
 			}]
-			x: 36.45d
-			y: 18.0d
+			x: 35.5d
+			y: 17.0d
 		}
 		{
 			dependencies: [
@@ -20752,8 +20790,8 @@
 				item: "theurgy:incubator"
 				type: "item"
 			}]
-			x: 38.95d
-			y: 18.0d
+			x: 38.0d
+			y: 17.0d
 		}
 		{
 			dependencies: [
@@ -20804,8 +20842,8 @@
 				}
 			]
 			title: "Reformation"
-			x: 41.25d
-			y: 17.875d
+			x: 40.3d
+			y: 16.875d
 		}
 		{
 			dependencies: ["73BE1AB671E9C173"]
@@ -20828,8 +20866,8 @@
 					type: "item"
 				}
 			]
-			x: 38.95d
-			y: 19.5d
+			x: 38.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["5432F56480D8CCC3"]
@@ -20858,8 +20896,8 @@
 				}
 			]
 			title: "Digestion"
-			x: 39.95d
-			y: 15.0d
+			x: 39.0d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -21054,8 +21092,8 @@
 				}
 			]
 			title: "Alchemical Sulfur"
-			x: 37.45d
-			y: 16.0d
+			x: 36.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["731126727DDCAC54"]
@@ -21560,8 +21598,8 @@
 				item: "projecte:interdiction_torch"
 				type: "item"
 			}]
-			x: 37.45d
-			y: 23.5d
+			x: 37.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["33FC7F10A56757CB"]
@@ -22617,8 +22655,8 @@
 				type: "item"
 			}]
 			title: "Familiars"
-			x: 14.5d
-			y: 26.0d
+			x: 15.0d
+			y: 27.5d
 		}
 		{
 			dependencies: ["44240C2BEF40998D"]
@@ -22638,8 +22676,8 @@
 				item: "ars_nouveau:thread_undying"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 25.5d
+			x: 17.5d
+			y: 27.0d
 		}
 		{
 			dependencies: ["1E37E99BEE301A2A"]
@@ -22668,8 +22706,8 @@
 				item: "ars_elemental:necrotic_focus"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 27.5d
+			x: 18.5d
+			y: 29.0d
 		}
 		{
 			dependencies: [
@@ -23653,8 +23691,8 @@
 				item: "reliquary:infernal_tear"
 				type: "item"
 			}]
-			x: 31.45d
-			y: 25.0d
+			x: 31.099999999999998d
+			y: 24.599999999999998d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -23678,8 +23716,8 @@
 				item: "reliquary:emperor_chalice"
 				type: "item"
 			}]
-			x: 29.45d
-			y: 26.0d
+			x: 29.099999999999998d
+			y: 25.599999999999998d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -23709,8 +23747,8 @@
 				item: "reliquary:ice_magus_rod"
 				type: "item"
 			}]
-			x: 32.45d
-			y: 23.5d
+			x: 32.1d
+			y: 23.099999999999998d
 		}
 		{
 			dependencies: ["4128B0BDF74E7913"]
@@ -23737,8 +23775,8 @@
 					type: "item"
 				}
 			]
-			x: 28.95d
-			y: 27.5d
+			x: 28.599999999999998d
+			y: 27.099999999999998d
 		}
 		{
 			dependencies: ["7EB335BB570C5F7F"]
@@ -26639,15 +26677,9 @@
 			]
 			id: "6F1751E8462B0DD1"
 			rewards: [{
-				id: "6D3B7C9DA2904251"
-				item: {
-					Count: 1
-					id: "the_deep_void:rotten_netherite_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "21868A215038F673"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "28E4EABD5D69F1B5"
@@ -27251,8 +27283,8 @@
 				item: "theurgy:fermentation_vat"
 				type: "item"
 			}]
-			x: 40.95d
-			y: 16.0d
+			x: 40.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
@@ -33140,7 +33172,13 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: ["The sawmill works similarly to the stonecutter in that it is able to efficiently turn wood to cut wooden pieces such as stairs or slabs with less material loss. Someone that is skilled enough in woodcutting skills should still be able to make as much from regular wood in a workbench."]
 			id: "2B161B2E4E34CBFD"
+			rewards: [{
+				id: "79695586E4ABB03B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "399567B20EDF1E53"
 				item: "sawmill:sawmill"
@@ -33148,6 +33186,692 @@
 			}]
 			x: -4.5d
 			y: -6.5d
+		}
+		{
+			dependencies: ["3E615BD9F6833A17"]
+			description: ["Standard ammunition can be manufactured using brass, gunpowder and other materials in a standard production chain. The casings can be produced in various calibers as per the weapon that demands it. They are usually made of brass and then have to be filled with gunpowder."]
+			id: "545BB448B2512B5E"
+			rewards: [{
+				id: "43C26CB0E328B15C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0552831885DCDC4D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "createtaczauto:casing_45acp"
+							}
+							{
+								Count: 1b
+								id: "createtaczauto:casing_9mm"
+							}
+							{
+								Count: 1b
+								id: "createtaczauto:casing_46x30"
+							}
+							{
+								Count: 1b
+								id: "createtaczauto:casing_338_lapua"
+							}
+							{
+								Count: 1b
+								id: "createtaczauto:casing_50_ae"
+							}
+							{
+								Count: 1b
+								id: "createtaczauto:casing_308"
+							}
+							{
+								Count: 1b
+								id: "createtaczauto:casing_762x54"
+							}
+							{
+								Count: 1b
+								id: "createtaczauto:casing_68x51fury"
+							}
+							{
+								Count: 1b
+								id: "createtaczauto:casing_12g"
+							}
+							{
+								Count: 1b
+								id: "createtaczauto:casing_40mm"
+							}
+							{
+								Count: 1b
+								id: "createtaczauto:casing_rpg"
+							}
+						]
+					}
+				}
+				title: "Any Ammo Casing"
+				type: "item"
+			}]
+			title: "Casing Automation"
+			x: -5.5d
+			y: 29.5d
+		}
+		{
+			dependencies: ["545BB448B2512B5E"]
+			description: ["Ammunition can be quite expensive and thus a small ammunition factory is required of every independent Judgement card holder. We can't let ammunition companies eat up our entire wallets whole! One magazine can easily cost half a stack of brass."]
+			id: "7799A81341CF5487"
+			rewards: [{
+				id: "031B9C945DE0961C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "65592B1FF4E8ADDB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tacz:ammo"
+								tag: {
+									AmmoId: "create_armorer:gernade"
+								}
+							}
+							{
+								Count: 1b
+								id: "tacz:ammo"
+								tag: {
+									AmmoId: "create_armorer:slap"
+								}
+							}
+							{
+								Count: 1b
+								id: "tacz:ammo"
+								tag: {
+									AmmoId: "create_armorer:40mmhe"
+								}
+							}
+							{
+								Count: 1b
+								id: "tacz:ammo"
+								tag: {
+									AmmoId: "create_armorer:gas_pistol_ammo"
+								}
+							}
+							{
+								Count: 1b
+								id: "tacz:ammo"
+								tag: {
+									AmmoId: "create_armorer:rbapb"
+								}
+							}
+							{
+								Count: 1b
+								id: "tacz:ammo"
+								tag: {
+									AmmoId: "applied_armorer:hard_core_quartz_bullet"
+								}
+							}
+							{
+								Count: 1b
+								id: "tacz:ammo"
+								tag: {
+									AmmoId: "applied_armorer:etched_quartz_bullet"
+								}
+							}
+							{
+								Count: 1b
+								id: "tacz:ammo"
+								tag: {
+									AmmoId: "applied_armorer:cluster_quartz_bullet"
+								}
+							}
+							{
+								Count: 1b
+								id: "tacz:ammo"
+								tag: {
+									AmmoId: "applied_armorer:fluix_infused_grenade"
+								}
+							}
+						]
+					}
+				}
+				title: "Any Ammunition"
+				type: "item"
+			}]
+			title: "Ammunition Automation"
+			x: -4.5d
+			y: 29.5d
+		}
+		{
+			dependencies: ["21E6CA24E283AF68"]
+			description: ["The Source Throwing Blade is a most fancy method for rifled spellcasting... albeit it's no longer rifled anymore. Each floating blade can store a copy of a glyph, storing the source directly within it. As a result, there are six possible shots that can be stored with this artefact before the blades need to be regenerated with source."]
+			hide_dependency_lines: true
+			id: "3A38FB952BA03F14"
+			rewards: [{
+				id: "254B36E718FF1CED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "66363212F3D14A52"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 6
+						GunFireMode: "SEMI"
+						GunId: "ars_armorer:special_source_flying_blade"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 25.65d
+			y: 27.599999999999998d
+		}
+		{
+			dependencies: ["471939DE22B5426B"]
+			description: ["Throwing and igniting a lump of source mana is surprisingly effective against the undead! This is akin to a mage's mortar. After all, not only is it magic: it's fire! The best part is that it recharges on its own! It's quite bulky though..."]
+			id: "05E8B9199D989992"
+			rewards: [{
+				id: "36B02F88D627E5D8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Mage's Mortar"
+			tasks: [{
+				id: "6F4A58B8AF3E4397"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 400
+						GunFireMode: "SEMI"
+						GunId: "ars_armorer:mortar_source_thrower"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 31.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["471939DE22B5426B"]
+			description: ["I'm not really sure how useful this is for mining... I think I've been scammed. While this \"drill\" can be efficient at mining with its high explosive power, it's more of a short range mortar. As a result, I keep burning myself."]
+			id: "2A9DD13554650656"
+			rewards: [{
+				id: "5473B133BCCFF34C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2178DB8E19CD5245"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 200
+						GunFireMode: "BURST"
+						GunId: "ars_armorer:special_miner_drill"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 32.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["3CB40DE1FBC306E5"]
+			description: [
+				"That crazy mage was right in the end... I get his notes, turn around, and find rifles that can handle spells being shared and sold right behind me! "
+				""
+				"These special rifles use the caster's innate source as ammunition to cast spells etched onto the weapon. The potential is quite immense, although not all glyphs can be attuned perfectly to every kind of rifle. I've managed to make a pistol-sniper that fires explosive rounds. How great!"
+			]
+			id: "388D915FAAF63C82"
+			rewards: [
+				{
+					id: "4F51EB2D7B491875"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "ars_armorer:mana_mag_3"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "28B40BB717EC410C"
+					item: "concatenationcore:sourcesilver"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "618FA85B6CB68EC7"
+					item: "concatenationcore:glowing_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Spells with Guns!"
+			tasks: [
+				{
+					id: "156BF9884BBAC598"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 200
+							GunFireMode: "SEMI"
+							GunId: "ars_armorer:pistol_source_ejector"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7563427A7FA3590B"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 280
+							GunFireMode: "SEMI"
+							GunId: "ars_armorer:sniper_distance_ejector"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FB2E96179EB4E5C"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 400
+							GunFireMode: "AUTO"
+							GunId: "ars_armorer:auto_rifle_stream_ejector"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20B57595F6EC2CD0"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 250
+							GunFireMode: "SEMI"
+							GunId: "ars_armorer:shotgun_splash_ejector"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28EA7D2398C0C26C"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 350
+							GunFireMode: "AUTO"
+							GunId: "ars_armorer:shotgun_jet_ejector"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Rifled Spellcasting"
+			x: 14.5d
+			y: 23.0d
+		}
+		{
+			dependencies: [
+				"4AAD5BFB42654744"
+				"2478F23E892A1AD7"
+			]
+			description: ["The artificer's workbench is used to create rifles for spellcasting. Glyphs can be emparted onto them to serve as a useful, self-recharging weapon."]
+			id: "783EC6F9C4DFA3F5"
+			rewards: [{
+				id: "12C6E9DC4D4F3B83"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6D3DA271D8BDACEF"
+				item: {
+					Count: 1
+					id: "tacz:workbench_b"
+					tag: {
+						BlockId: "ars_armorer:ars_workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1974390B046B7B6A"]
+			description: ["Technicians need defence and what better to invent than guns? The Judgement card holders have collaborated with technicians of the High Priestess Pathway and Hand of Cup bearers to bring easily reproducible guns unique to the Hand of Cup pathway, using quartz bullets and lasers!"]
+			id: "21BAF3D24B6C9DD3"
+			rewards: [{
+				id: "6143A5C27B243482"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "3F237FAE2496A5B3"
+				item: {
+					Count: 1
+					id: "tacz:workbench_c"
+					tag: {
+						BlockId: "applied_armorer:worckbench_applied_armorer"
+					}
+				}
+				type: "item"
+			}]
+			x: -24.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5A609181C445CAAB"]
+			description: ["What is better than one gun? Dual wielding two guns! Making use of quartz bullets, these special weapons are perfect for technicians needing a weapon to carry on the daily."]
+			id: "2EFB2AA7171A3922"
+			rewards: [{
+				id: "68F4E1BDEC2DA38F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "0E79D1215F786B97"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 17
+							GunFireMode: "SEMI"
+							GunId: "applied_armorer:niklas_pistol_semi_union"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7ABCFDCF9F514756"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 11
+							GunFireMode: "SEMI"
+							GunId: "applied_armorer:niklas_pistol_double_win_win"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -35.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["21BAF3D24B6C9DD3"]
+			description: ["These handguns trade some firerate and damage for armor piercing. They are powerfully hitting pistols."]
+			id: "0166BDB333F6669E"
+			rewards: [{
+				count: 128
+				id: "09EEB1C670C5D4C8"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2ED989279E3F1245"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "applied_armorer:niklas_pistol_semi_pride"
+							HasBulletInBarrel: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D384AEEA78D5A86"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 1
+							GunFireMode: "SEMI"
+							GunId: "applied_armorer:niklas_pistol_semi_right"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "High-Tech High-Power Handguns"
+			x: -24.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["21BAF3D24B6C9DD3"]
+			description: ["Quartz bullets are not cheap, but they are exceptionally sharp and pair well with high-tech weaponry able to fire round after round with tremendous speed."]
+			id: "5354BF00426C580C"
+			rewards: [{
+				count: 16
+				id: "57643F17A9AF9020"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3647FDD58553B63C"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 7
+							GunFireMode: "SEMI"
+							GunId: "applied_armorer:moritz_sniper_semi_k30"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E1FEFA937925ECD"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 11
+							GunFireMode: "SEMI"
+							GunId: "applied_armorer:niklas_lever_vigenere"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13CD23E1A3A52DF1"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 20
+							GunFireMode: "AUTO"
+							GunId: "applied_armorer:moritz_rifle_ar77"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22E2E447A9C0550F"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 5
+							GunFireMode: "AUTO"
+							GunId: "applied_armorer:moritz_shotgun_sg914"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BDC68B5D8B9C104"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 17
+							GunFireMode: "AUTO"
+							GunId: "applied_armorer:niklas_smg_freedom"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Quartz Rifles"
+			x: -26.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["33F8735D8322AFE6"]
+			description: [
+				"A calralite blade crafted with elegance to slaughter any foe. As technicians of the High Priestess are usually lacking in both offense and defence, this is one of the unique technological weapons that can be made with these highly potent materials."
+				""
+				"&a(Task Manager the Prosesukiri attacks with the melee attack defaulted to X, it is not a normal sword.)"
+			]
+			id: "334E92C2C13A3068"
+			rewards: [{
+				id: "79B6F5538FB30F25"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0464B5453538C8D2"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 1
+						GunFireMode: "SEMI"
+						GunId: "applied_armorer:special_melee_task_manager"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -29.35d
+			y: 16.25d
+		}
+		{
+			dependencies: ["21BAF3D24B6C9DD3"]
+			description: [
+				"To remedy the high cost of quartz bullets, laser weaponry has emerged, using fluix crystals as a power source. These weapons do not need to be reloaded as often, as long as you're conservative with ammo, but they may prove more expensive to reload."
+				""
+				"Fluix grenades can prove truly deadly as ammunition. They are shot very fast and your supply may run out very quickly."
+			]
+			id: "54AAD67EB3A7025A"
+			rewards: [{
+				count: 4
+				id: "3E59937681EF2AA9"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3FA98738B4A34B4C"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 3
+							GunFireMode: "SEMI"
+							GunId: "applied_armorer:moritz_gernade_gl3"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61DD15D121752C80"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 80
+							GunFireMode: "AUTO"
+							GunId: "applied_armorer:moritz_mg_hmg22"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Explosives and Lasers"
+			x: -25.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["21BAF3D24B6C9DD3"]
+			description: [
+				"The ultimate warmachine. The EMG-Prototype Exoskeleton makes use of several rifles mounted on the user and can unleash hell upon anything that dares threaten its wielder. The damage output of this thing is staggering, but so is its cost."
+				""
+				"To call this an exoskeleton is quite misleading, however. The rifles are floating drones that are commanded by its user."
+			]
+			id: "42BEAA8DDEE1AF5A"
+			rewards: [{
+				count: 16
+				id: "0EEF7FC2D1507712"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "applied_armorer:fluix_battery"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Disconnect Enemies from Reality"
+			tasks: [{
+				id: "4D2AC4F2B5BCDB4E"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 100
+						GunFireMode: "AUTO"
+						GunId: "applied_armorer:moritz_mg_emg_prototype"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -26.5d
+			y: -3.5d
 		}
 	]
 	title: "The Journey"

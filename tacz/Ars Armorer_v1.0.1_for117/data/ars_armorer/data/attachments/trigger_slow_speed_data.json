@@ -1,0 +1,6 @@
+{
+  "weight": 0.3,
+  "ammo_speed":{
+    "multiplier": 0.66
+  }
+}

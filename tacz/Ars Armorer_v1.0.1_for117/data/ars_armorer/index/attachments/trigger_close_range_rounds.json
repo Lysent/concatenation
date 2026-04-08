@@ -1,0 +1,8 @@
+{
+  "name": "ars_armorer.attachment.trigger_close_range_rounds.name",
+  "tooltip": "ars_armorer.attachment.trigger_close_range_rounds.tooltip",
+  "display": "ars_armorer:trigger_close_range_rounds_display",
+  "data": "ars_armorer:trigger_close_range_rounds_data",
+  "type": "muzzle",
+  "sort": 1030
+}

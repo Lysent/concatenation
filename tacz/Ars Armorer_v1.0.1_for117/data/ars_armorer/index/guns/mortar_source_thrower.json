@@ -1,0 +1,8 @@
+{
+    "name": "ars_armorer.gun.mortar_source_thrower",
+    "tooltip": "ars_armorer.gun.mortar_source_thrower.tooltip",
+    "display": "ars_armorer:mortar_source_thrower_display",
+    "data": "ars_armorer:mortar_source_thrower_data",
+    "type": "rpg",
+    "sort": 1025
+}
