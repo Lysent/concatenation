@@ -24,7 +24,8 @@ ServerEvents.recipes(event => {
                 'psi:cad_assembly_gold',
                 'psi:cad_assembly_psimetal',
                 'psi:cad_assembly_ebony_psimetal',
-                'psi:cad_assembly_ivory_psimetal'
+                'psi:cad_assembly_ivory_psimetal',
+                'createtaczauto:casing_45_70'
         ]
 
         remove.forEach(item => {
@@ -106,7 +107,7 @@ ServerEvents.recipes(event => {
                 [
                         'concatenationcore:breaking_tool',
                         'tconstruct:raw_cobalt',
-                        'createmetallurgy:raw_wolframite',
+                        'createmetallurgy:raw_tungsten',
                         'tconstruct:raw_cobalt',
                         'mcore:raw_titanium',
                         '#concatenation:firing_item'
@@ -121,7 +122,7 @@ ServerEvents.recipes(event => {
         //         ],
         //         {
         //                 B: 'tconstruct:raw_cobalt',
-        //                 C: 'createmetallurgy:raw_wolframite',
+        //                 C: 'createmetallurgy:raw_tungsten',
         //                 D: 'elementalcraft:fire_shard',
         //                 A: 'concatenationcore:breaking_tool'
         //         }
@@ -135,7 +136,7 @@ ServerEvents.recipes(event => {
         //         ],
         //         {
         //                 B: 'tconstruct:raw_cobalt',
-        //                 C: 'createmetallurgy:raw_wolframite',
+        //                 C: 'createmetallurgy:raw_tungsten',
         //                 D: 'ars_nouveau:fire_essence',
         //                 A: 'concatenationcore:breaking_tool'
         //         }
@@ -606,16 +607,119 @@ ServerEvents.recipes(event => {
                         A: 'psi:ebony_psimetal'
                 }
         )
-        event.shaped(
-                Item.of('tacz:ammo', '{AmmoId:"tacz:338"}'),
+        event.shapeless(
+                Item.of('tacz:ammo', 6, '{AmmoId:"applied_armorer:etched_quartz_bullet"}'),
                 [
-                        'AAB',
-                        '   ',
-                        '   '
+                        'createtaczauto:casing_338_lapua',
+                        'createtaczauto:casing_338_lapua',
+                        'createtaczauto:casing_338_lapua',
+                        'createtaczauto:casing_338_lapua',
+                        'createtaczauto:casing_338_lapua',
+                        'createtaczauto:casing_338_lapua',
+                        'createtaczauto:tiny_gunpowder_pile',
+                        'ae2:certus_quartz_crystal'
+                ]
+        )
+        event.shapeless(
+                Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:1,GunFireMode:"SEMI",GunId:"create_armorer:special_melee_wrench",HasBulletInBarrel:1b}'),
+                [
+                        'create:wrench'
+                ]
+        )
+        event.shaped(
+                Item.of('tacz:workbench_b', '{BlockId:"ars_armorer:ars_workbench"}'),
+                [
+                        'AAA',
+                        'BCB',
+                        'DED'
                 ],
                 {
-                        A: 'createtaczauto:casing_338_lapua',
-                        B: 'createtaczauto:tiny_gunpowder_pile'
+                        B: 'minecraft:gold_ingot',
+                        D: 'ars_nouveau:purple_archwood_log',
+                        A: 'ars_nouveau:archwood_slab',
+                        C: 'concatenationcore:sourcesilver',
+                        E: 'ars_nouveau:apprentice_spell_book'
+                }
+        ).keepIngredient('ars_nouveau:apprentice_spell_book')
+
+        event.shaped(
+                Item.of('tacz:workbench_b', '{BlockId:"create_armorer:create_workbench"}'),
+                [
+                        'ABA',
+                        'CDC',
+                        'EFE'
+                ],
+                {
+                        B: 'create:brass_sheet',
+                        C: 'createmetallurgy:steel_ingot',
+                        D: 'create:wrench',
+                        F: 'tarotcards:judgement',
+                        A: '#forge:stripped_logs',
+                        E: 'minecraft:deepslate_bricks'
+                }
+        ).keepIngredient('tarotcards:judgement')
+
+        event.shaped(
+                Item.of('tacz:workbench_c', '{BlockId:"applied_armorer:worckbench_applied_armorer"}'),
+                [
+                        'AEA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        D: 'ae2:terminal',
+                        A: 'concatenationcore:celestial_calralite',
+                        B: 'ae2:charged_certus_quartz_crystal',
+                        C: 'tfmg:aluminum_cable_hub',
+                        E: 'concatenationcore:primed_calculation_processor'
+                }
+        )
+
+        event.shaped(
+                Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:6,GunFireMode:"SEMI",GunId:"ars_armorer:special_source_flying_blade",HasBulletInBarrel:1b}'),
+                [
+                        'ABA',
+                        'ACA',
+                        'ADA'
+                ],
+                {
+                        C: 'reliquary:magicbane',
+                        A: 'concatenationcore:sourcesilver',
+                        D: 'elementalcraft:springaline_shard',
+                        B: 'concatenationcore:glowing_gold'
+                }
+        )
+
+        event.shaped(
+                Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:200,GunFireMode:"SEMI",GunId:"ars_armorer:mortar_source_thrower",HasBulletInBarrel:1b}'),
+                [
+                        'ABA',
+                        'DCF',
+                        'AEA'
+                ],
+                {
+                        E: 'ars_nouveau:source_jar',
+                        D: 'concatenationcore:elemental_lens',
+                        B: 'ars_elemental:fire_turret',
+                        A: 'concatenationcore:sourcesilver',
+                        C: 'concatenationcore:glowing_gold',
+                        F: 'reliquary:destruction_catalyst'
+                }
+        )
+
+        event.shaped(
+                Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:200,GunFireMode:"BURST",GunId:"ars_armorer:special_miner_drill",HasBulletInBarrel:1b}'),
+                [
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        D: 'reliquary:destruction_catalyst',
+                        E: 'ars_nouveau:source_jar',
+                        B: 'ars_elemental:fire_turret',
+                        A: 'concatenationcore:sourcesilver',
+                        C: 'concatenationcore:glowing_gold'
                 }
         )
 });

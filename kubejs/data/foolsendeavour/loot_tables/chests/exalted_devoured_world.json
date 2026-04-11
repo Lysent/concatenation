@@ -3149,7 +3149,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "createmetallurgy:blocks/wolframite_ore"
+					"name": "createmetallurgy:blocks/tungsten_ore"
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -15653,7 +15653,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "createmetallurgy:blocks/raw_wolframite_block"
+					"name": "createmetallurgy:blocks/raw_tungsten_block"
 				},
 				{
 					"type": "minecraft:loot_table",

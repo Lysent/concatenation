@@ -41,3 +41,5 @@ the_fool_jumpboost = 2
 the_highpriestess_upgradecost = 3
 the_highpriestess_extra_levels = 3
 the_highpriestess_capenchants = true
+the_highpriestess_taxfree = false
+the_highpriestess_skip_maxed = false

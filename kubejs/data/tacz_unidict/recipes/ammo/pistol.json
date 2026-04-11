@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/brass"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 3
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz_unidict:pistol",
+    "count": 8
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}
