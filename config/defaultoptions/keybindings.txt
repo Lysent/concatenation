@@ -88,6 +88,7 @@ key_key.thesubmarinemod.d_submarino:key.keyboard.d:NONE
 key_key.thesubmarinemod.espacio_submarino:key.keyboard.space:NONE
 key_key.open_muffler_gui:key.keyboard.unknown:NONE
 key_cos.key.opencosarmorinventory:key.keyboard.unknown:NONE
+key_key.letyourfriendeating.open_config:key.keyboard.f8:NONE
 key_key.craftingtweaks.rotate:key.keyboard.unknown:NONE
 key_key.craftingtweaks.rotate_counter_clockwise:key.keyboard.unknown:NONE
 key_key.craftingtweaks.balance:key.keyboard.unknown:NONE
@@ -115,6 +116,7 @@ key_key.simple_hot_air_balloons.hot_air_balloon_fast_down:key.keyboard.left.cont
 key_key.usefulbackpacks.slotmodintegration.open_backpack.description:key.keyboard.b:NONE
 key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt:NONE
 key_chloride.zoom:key.keyboard.v:NONE
+key_key.tarotcards.open_deck:key.keyboard.g:NONE
 key_key.tconstruct.helmet_interact:key.keyboard.z:NONE
 key_key.tconstruct.leggings_interact:key.keyboard.i:NONE
 key_keybind.reliquary.fortune_coin:key.keyboard.unknown:NONE
@@ -226,7 +228,7 @@ key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus:NONE
 key_key.ftbchunks.add_waypoint:key.keyboard.unknown:NONE
 key_key.ftbchunks.waypoint_manager:key.keyboard.unknown:NONE
 key_key.ftbquests.quests:key.keyboard.unknown:NONE
-key_chunkloaders.keys.open_screen:key.keyboard.c:NONE
+key_chunkloaders.keys.open_screen:key.keyboard.unknown:NONE
 key_servertabinfo.keys.show:key.keyboard.tab:CONTROL
 key_key.tacz.inspect.desc:key.keyboard.h:NONE
 key_key.tacz.reload.desc:key.keyboard.r:NONE
@@ -237,8 +239,9 @@ key_key.tacz.aim.desc:key.mouse.right:NONE
 key_key.tacz.crawl.desc:key.keyboard.c:NONE
 key_key.tacz.refit.desc:key.keyboard.z:NONE
 key_key.tacz.zoom.desc:key.keyboard.unknown:NONE
-key_key.tacz.melee.desc:key.keyboard.unknown:NONE
+key_key.tacz.melee.desc:key.keyboard.x:NONE
 key_key.tacz.open_config.desc:key.keyboard.t:ALT
+key_key.tacz_unidict.wheel_menu:key.keyboard.c:NONE
 key_tacztweaks.key.reduceSensitivity:key.keyboard.unknown:NONE
 key_tacztweaks.key.tiltGun:key.keyboard.unknown:NONE
 key_tacztweaks.key.unload:key.keyboard.r:CONTROL

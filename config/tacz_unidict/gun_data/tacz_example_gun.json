@@ -1,0 +1,19 @@
+{
+  "gunId": "tacz:example_gun",
+  "availableAmmo": [
+    {
+      "ammoId": "tacz:required_example_ammo"
+    },
+    {
+      "ammoId": "tacz:full_example_ammo",
+      "ammoAmount": 30,
+      "roundsPerMinute": 600,
+      "extendedMagAmmoAmount": [
+        45,
+        60,
+        75
+      ]
+    }
+  ],
+  "mod_data_type": "tacz_unidict_gun_data"
+}
