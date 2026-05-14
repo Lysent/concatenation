@@ -177,8 +177,6 @@
 	HeresyBloodShotShotgun = 100.0
 	#Damage (velocity increases that number)
 	HeresyGoldenBloodShotShotgun = 80.0
-	#Damage each tick (ignores armor)
-	SentientChainsaw = 10.0
 	#Damage (velocity increases that number)
 	ApostasySoulFusedShot = 9.0
 	#Damage (velocity increases that number)
@@ -239,6 +237,9 @@
 	ScythesReach = 1.0
 	#The attack damage bonus
 	PlagueArmorBonus = 2.0
+	BlackHoleDamage = 4.0
+	#The arrow storing limit of Black Hole when enchanted with Dimensional Burst
+	BlackHoleStoreLimit = 60.0
 
 ["Hive's Watcher"]
 	#Damage each tick
