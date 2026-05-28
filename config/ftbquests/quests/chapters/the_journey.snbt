@@ -20717,6 +20717,7 @@
 				"{@pagebreak}"
 				"It is one-third of the ingredients required for the Incubation process."
 			]
+			icon: "theurgy:alchemical_salt_strata"
 			id: "55CA3D58EE9C883B"
 			rewards: [{
 				id: "1D8A873E0D816FE1"
@@ -21048,6 +21049,7 @@
 				"{@pagebreak}"
 				"This is the ingredient of the Incubation process that dictates what object you receive as a result."
 			]
+			icon: "theurgy:alchemical_sulfur_generic"
 			id: "5432F56480D8CCC3"
 			rewards: [{
 				count: 9
@@ -25999,17 +26001,6 @@
 					type: "item"
 				}
 				{
-					id: "3B439EC99C1B129B"
-					item: {
-						Count: 1
-						id: "the_deep_void:sentient_chainsaw"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "1808364E3BE679AF"
 					item: {
 						Count: 1
@@ -26654,18 +26645,11 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [
-				{
-					id: "667598A8F5D03EEA"
-					item: "the_deep_void:knives_glove"
-					type: "item"
-				}
-				{
-					id: "7F4F07F05B0DCD81"
-					item: "the_deep_void:knife_bandolier"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "667598A8F5D03EEA"
+				item: "the_deep_void:knives_glove"
+				type: "item"
+			}]
 			x: 48.0d
 			y: -2.5d
 		}
@@ -26683,16 +26667,12 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "28E4EABD5D69F1B5"
-				item: {
-					Count: 1
-					id: "the_deep_void:claw_blade"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				entity: "the_deep_void:fool_eater"
+				id: "13E1CE5807321E49"
+				type: "kill"
+				value: 1L
 			}]
+			title: "Clawblade"
 			x: 44.5d
 			y: 5.5d
 		}
@@ -26968,142 +26948,21 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "7D97E79109D91EC1"
+				id: "0FC84F8ADAB24D2E"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "theurgy:divination_rod_t1"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "theurgy:divination_rod_t1"
-								tag: {
-									Damage: 0
-									"theurgy:divination.setting.allow_attuning": 1b
-									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
-									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
-									"theurgy:divination.setting.duration": 40
-									"theurgy:divination.setting.max_damage": 8
-									"theurgy:divination.setting.range": 96
-									"theurgy:divination.setting.tier": "minecraft:stone"
-								}
-							}
-							{
-								Count: 1b
-								id: "theurgy:divination_rod_t2"
-								tag: {
-									Damage: 0
-									"theurgy:divination.setting.allow_attuning": 1b
-									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t2_allowed_blocks"
-									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t2_disallowed_blocks"
-									"theurgy:divination.setting.duration": 40
-									"theurgy:divination.setting.max_damage": 16
-									"theurgy:divination.setting.range": 96
-									"theurgy:divination.setting.tier": "minecraft:iron"
-								}
-							}
-							{
-								Count: 1b
-								id: "theurgy:divination_rod_t3"
-								tag: {
-									Damage: 0
-									"theurgy:divination.setting.allow_attuning": 1b
-									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t3_allowed_blocks"
-									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t3_disallowed_blocks"
-									"theurgy:divination.setting.duration": 40
-									"theurgy:divination.setting.max_damage": 32
-									"theurgy:divination.setting.range": 96
-									"theurgy:divination.setting.tier": "minecraft:diamond"
-								}
-							}
-							{
-								Count: 1b
-								id: "theurgy:divination_rod_t4"
-								tag: {
-									Damage: 0
-									"theurgy:divination.setting.allow_attuning": 1b
-									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t4_allowed_blocks"
-									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t4_disallowed_blocks"
-									"theurgy:divination.setting.duration": 40
-									"theurgy:divination.setting.max_damage": 128
-									"theurgy:divination.setting.range": 96
-									"theurgy:divination.setting.tier": "minecraft:netherite"
-								}
-							}
-							{
-								Count: 1b
-								id: "theurgy:sulfur_attuned_divination_rod_abundant"
-								tag: {
-									Damage: 0
-									"theurgy:divination.setting.allow_attuning": 0b
-									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
-									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
-									"theurgy:divination.setting.duration": 40
-									"theurgy:divination.setting.max_damage": 16
-									"theurgy:divination.setting.range": 96
-									"theurgy:divination.setting.tier": "minecraft:stone"
-								}
-							}
-							{
-								Count: 1b
-								id: "theurgy:sulfur_attuned_divination_rod_common"
-								tag: {
-									Damage: 0
-									"theurgy:divination.setting.allow_attuning": 0b
-									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
-									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
-									"theurgy:divination.setting.duration": 40
-									"theurgy:divination.setting.max_damage": 16
-									"theurgy:divination.setting.range": 96
-									"theurgy:divination.setting.tier": "minecraft:stone"
-								}
-							}
-							{
-								Count: 1b
-								id: "theurgy:sulfur_attuned_divination_rod_rare"
-								tag: {
-									Damage: 0
-									"theurgy:divination.setting.allow_attuning": 0b
-									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t2_allowed_blocks"
-									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t2_disallowed_blocks"
-									"theurgy:divination.setting.duration": 40
-									"theurgy:divination.setting.max_damage": 32
-									"theurgy:divination.setting.range": 96
-									"theurgy:divination.setting.tier": "minecraft:stone"
-								}
-							}
-							{
-								Count: 1b
-								id: "theurgy:sulfur_attuned_divination_rod_precious"
-								tag: {
-									Damage: 0
-									"theurgy:divination.setting.allow_attuning": 0b
-									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t3_allowed_blocks"
-									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t3_disallowed_blocks"
-									"theurgy:divination.setting.duration": 40
-									"theurgy:divination.setting.max_damage": 32
-									"theurgy:divination.setting.range": 96
-									"theurgy:divination.setting.tier": "minecraft:stone"
-								}
-							}
-							{
-								Count: 1b
-								id: "theurgy:amethyst_divination_rod"
-								tag: {
-									Damage: 0
-									"theurgy:divination.setting.allow_attuning": 0b
-									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
-									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
-									"theurgy:divination.setting.duration": 40
-									"theurgy:divination.setting.max_damage": 16
-									"theurgy:divination.setting.range": 96
-									"theurgy:divination.setting.tier": "minecraft:stone"
-								}
-							}
-						]
+						Damage: 0
+						"theurgy:divination.setting.allow_attuning": 1b
+						"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
+						"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
+						"theurgy:divination.setting.duration": 40
+						"theurgy:divination.setting.max_damage": 8
+						"theurgy:divination.setting.range": 96
+						"theurgy:divination.setting.tier": "minecraft:stone"
 					}
 				}
-				title: "Any Divination Rod"
 				type: "item"
 			}]
 			title: "Divination Rods"

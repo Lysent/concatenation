@@ -154,6 +154,17 @@
         "value": 100
       }
     },
+    "minecraft:air_drag_modifier": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "gstools:disease_effect_hunger": {
       "enabled": false,
       "min": {
@@ -715,6 +726,17 @@
         "value": 1024
       }
     },
+    "minecraft:bounciness": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "irons_spellbooks:lightning_spell_power": {
       "enabled": false,
       "min": {
@@ -801,6 +823,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "minecraft:friction_modifier": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "tconstruct:player.critical_damage": {

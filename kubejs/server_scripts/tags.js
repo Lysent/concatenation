@@ -707,6 +707,8 @@ ServerEvents.tags('item', event => {
 
     add('concatenation:nightmare_catalyst', [
         'born_in_chaos_v1:nightmare_stalker_skull',
-        'the_deep_void:hunters_helmet'
+        'the_deep_void:hunters_helmet',
+        'the_deep_void:head_of_the_hunter',
+        'born_in_chaos_v1:nightmare_mantleofthe_night_helmet'
     ])
 });
