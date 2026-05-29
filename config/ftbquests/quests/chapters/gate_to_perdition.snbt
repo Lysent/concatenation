@@ -1183,7 +1183,7 @@
 				type: "checkmark"
 			}]
 			title: "GtP Event Details"
-			x: -0.75d
+			x: -1.125d
 			y: 0.0d
 		}
 	]

@@ -64,7 +64,7 @@
 	DeepVoidTp = true
 	#Should players be able to mine Primordial Stone with the Shatterbone Pickaxe
 	AllowMiningPrimordialStone = false
-	#If the Wanderer should pathfind to x=0 z=0 (set to false if performance is low)
+	#If the Wanderer should pathfind to x=0 z=0 (may affect performance)
 	WandererCenterPathing = true
 	#If the Curse Of The Cult should block mining and placing blocks
 	CurseDisallowMiningPlacing = true
@@ -72,9 +72,7 @@
 	PreventSleeping = true
 	#If bosses should apply Broken Armor when attacking
 	BossesBreakArmor = true
-	#Damage should deal (damage + percentage of damage beyond the cap) when reached
-	BossDamageCap = 15.0
-	#The percentage of the damage that exceeded the cap that should be dealt
+	#At what percentage of the boss's health should the cap activate
 	DamageCapPercentage = 0.6
 	#If bosses should have damage caps
 	DoDamageCap = false
@@ -91,13 +89,11 @@
 	BossIdles = true
 
 ["Gameplay Changes"]
-	#When a player dies, they get sent to the Deep Void
-	Hell = false
 	#The player spawns in the Deep Void
 	EndlessAbyss = false
-	#Like Hell, but when the player dies in the Deep Void, they stay in the Deep Void
+	#When the player dies, they get sent to the Deep Void
 	Purgatory = false
-	#If torches should be given to players that respawn in the Deep Void (through Hell or Purgatory)
+	#If torches should be given to players that respawn in the Deep Void (through Purgatory)
 	GiveTorches = true
 	#Bosses can no longer kill you, instead they will bring you down to 1 health and then idle (Does not apply to the Weaver Of Souls)
 	BossesDoNotKill = false
@@ -105,24 +101,34 @@
 	Stalked = false
 
 ["Apostle Of Catastrophe"]
-	#Damage
-	ApostleTeleportMelee = 8.0
 	#Damage of each knife (velocity increases that number)
 	ApostleThreeKnives = 7.0
-	#Damage
 	ApostleSlash = 20.0
 	#Damage of each knife (velocity increases that number)
 	ApostleJumpShoot = 14.0
-	#Damage each tick
+	#Damage (ignores i-frames)
 	ApostleSpin = 10.0
-	#Damage repeated three times (ignores armor)
+	#Damage upon landing
 	ApostleGrab = 30.0
-	#Damage
-	ApostleMissGrabMelee = 15.0
 	#When under Max Health/Config Number, second phase is active
 	ApostleSecondPhase = 1.8
-	#Damage in an AOE on successful parry (only damages the attacker)
-	ApostleParry = 10.0
+	ApostleBigSlash = 16.0
+	#Damage repeated 4 times
+	ApostlePierceHeart = 6.0
+	#Delay between attacks (in ticks)
+	ApostleDelay = 70.0
+	#Delay between attacks during the second phase (in ticks)
+	ApostleDelaySecondPhase = 50.0
+	#How many times can the apostle teleport
+	ApostleTeleportCount = 4.0
+	#Cooldown between teleports (in ticks)
+	ApostleTeleportCooldown = 100.0
+	#How long does the player need to keep using a shield before angering the apostle (in ticks)
+	ApostleAngerTimer = 200.0
+	#How far the player has to be for the apostle to use his chain attack
+	ApostleChainDistance = 28.0
+	#How far the player has to be (y position) for the apostle to use his chain attack
+	ApostleChainYDistance = 4.0
 
 ["Misanthropic Hivemind"]
 	#Damage each tick
@@ -177,8 +183,6 @@
 	HeresyBloodShotShotgun = 100.0
 	#Damage (velocity increases that number)
 	HeresyGoldenBloodShotShotgun = 80.0
-	#Damage each tick (ignores armor)
-	SentientChainsaw = 10.0
 	#Damage (velocity increases that number)
 	ApostasySoulFusedShot = 9.0
 	#Damage (velocity increases that number)
@@ -239,6 +243,17 @@
 	ScythesReach = 1.0
 	#The attack damage bonus
 	PlagueArmorBonus = 2.0
+	BlackHoleDamage = 4.0
+	#The arrow storing limit of Black Hole when enchanted with Dimensional Burst
+	BlackHoleStoreLimit = 60.0
+	#The attack damage bonus
+	GrimRottenArmorBonus = 1.0
+	#The attack damage bonus
+	HunterArmorBonus = 1.0
+	#Base damage multiplier (ignores i-frames)
+	BloodyChainsaw = 0.05
+	#Damage (ignores i-frames)
+	DoubleBarrelShotgun = 0.7
 
 ["Hive's Watcher"]
 	#Damage each tick
@@ -259,14 +274,6 @@
 	HiveWatcherSpike = 15.0
 	#Size of the damaging zone around the boss while it's moving
 	HiveWatcherAttackRadius = 9.0
-
-["Flesh Worm"]
-	#Damage in an AOE
-	FleshWormAttack = 24.0
-	#Percentage for the Thumper to summon a flesh worm every 20 seconds
-	FleshWormSpawnChance = 0.4
-	#Damage per projectile
-	FleshWormSpit = 5.0
 
 ["Masked Hunter"]
 	#The cooldown before a Masked Hunter can spawn naturally (In ticks, 24,000 ticks is one day)

@@ -6,6 +6,12 @@
 	#Open the module to use the remastered smeltery AI system for chef and stone smeltery(default: true)
 	# 开启此模块将会启用重制的厨师和冶炼工人AI (默认开启)
 	enableNewSmelteryModule = true
+	#Open the module to use the remastered flee AI system (default: true)
+	# 开启此模块将会启用重制的市民逃跑AI (默认开启)
+	enableNewFleeModule = true
+	#Open the module to use the remastered farmer AI system (default: true)
+	# 开启此模块将会启用重制的农夫AI (默认开启)
+	enableNewFarmerModule = true
 
 ["Building Module Opener #房屋模块特性开关#"]
 	#Open this to assign visitors directly trough tavern block (default: true)
@@ -49,52 +55,54 @@
 		#Rail path cost multiplier (default: 0.1, original:0.1) #铁轨Cost乘数 (默认 : 0.1 殖民地原设置 : 0.1)#
 		#Range: 0.0 ~ 2.0
 		railCostMultiplier = 0.1
-		#Road path cost multiplier (default: 0.4, original:1/6) #路径Cost乘数 (默认 : 0.4 殖民地原设置 : 1/6)#
+		#Road path cost multiplier (default: 0.25, original:1/6) #路径Cost乘数 (默认 : 0.4 殖民地原设置 : 1/6)#
 		#Range: 0.0 ~ 2.0
 		roadCostMultiplier = 0.4
-		#Drop cost multiplier (default: 1.0, original:1.0) #掉落Cost乘数 (默认 : 1.0 殖民地原设置 : 1.0)#
-		#Notice: The base formula for falling cost has been modified from |dY|³ to (|dY| - 2/5)³ - 8/125. #注意:下落Cost基础公式已经从|dY|³修改为(|dY|-2/5)³-8/125.#
+		#Drop cost multiplier (default: 1.0, original:1.0)
+		##掉落Cost乘数 (默认 : 1.0 殖民地原设置 : 1.0)#
+		#Notice: The base formula for falling cost has been modified from |dY|³ to |dY| ^ 4.
+		##注意:下落Cost基础公式已经从 |dY|³ 修改为 |dY| ^ 4 #
 		#Range: 0.0 ~ 10.0
 		dropCostMultiplier = 1.0
 
 	["Pathing Cost Modifier #寻路Cost相关设置#"."Basic Cost Definer #基础Cost定义#"]
-		#Water path cost addon (default: 8.0, original:2.0) #水路Cost (默认 : 8.0 殖民地原设置 : 2.0)#
-		#Range: 0.0 ~ 24.0
+		#Water path cost addon (default: 12.0, original:2.0) #水路Cost (默认 : 12.0 殖民地原设置 : 2.0)#
+		#Range: 0.0 ~ 63.0
 		waterCostAddon = 8.0
-		#Jump cost addon (default: 2.0, original:2.0) #跳跃(准确来说是非梯子爬升)Cost (默认 : 2.0 殖民地原设置 : 2.0)#
-		#Range: 0.0 ~ 24.0
+		#Jump cost addon (default: 4.0, original:2.0) #跳跃(准确来说是非梯子爬升)Cost (默认 : 4.0 殖民地原设置 : 2.0)#
+		#Range: 0.0 ~ 63.0
 		jumpCostAddon = 2.0
 		#In shape cost addon (default: 2.0, original:2.0) #实体方块内部行走的Cost (默认 : 2.0 殖民地原设置 : 2.0)#
-		#Range: 0.0 ~ 24.0
+		#Range: 0.0 ~ 63.0
 		inShapeCostAddon = 2.0
 		#Door and trapdoor’s cost addon (default: 3.0, original:3.0) #穿过各种"门"的Cost (默认 : 3.0 殖民地原设置 : 3.0)#
-		#Range: 0.0 ~ 24.0
+		#Range: 0.0 ~ 63.0
 		doorsCostAddon = 3.0
-		#Dive cost addon (default: 24.0, original:4.0) #潜水(潜多了会淹死)的Cost (默认 : 24.0 殖民地原设置 : 4.0)#
-		#Range: 0.0 ~ 24.0
+		#Dive cost addon (default: 48.0, original:4.0) #潜水(潜多了会淹死)的Cost (默认 : 48.0 殖民地原设置 : 4.0)#
+		#Range: 0.0 ~ 63.0
 		diveCostAddon = 24.0
 		#Breathing cave air cost addon (default: 0.3, original:3.0) #钻洞(人工的也算)的Cost,(默认 : 0.3 殖民地原设置 : 3.0)#
-		#Range: 0.0 ~ 24.0
+		#Range: 0.0 ~ 63.0
 		caveCostAddon = 0.3
 		#Exit railway cost addon (default: 4.0, original:4.0) #下铁路(人工的也算)的Cost(探测铁轨为”站点“，不计cost) (默认 : 4.0 殖民地原设置 : 4.0)#
-		#Range: 0.0 ~ 24.0
+		#Range: 0.0 ~ 63.0
 		railExitAddon = 4.0
 
 	["Pathing Cost Modifier #寻路Cost相关设置#"."Typical Cost Definer #针对性Cost定义#"]
-		#Cost on switch ladder when climbing (default: 4.0) #攀爬时切换梯子的Cost (默认 : 4.0)#
-		#Range: 0.0 ~ 24.0
+		#Cost on switch ladder when climbing (default: 18.0) #攀爬时切换梯子的Cost (默认 : 18.0)#
+		#Range: 0.0 ~ 63.0
 		ladderSwitchCostAddon = 4.0
-		#Walk on shingle cost addon (default: 3.0, original:3.0) #上房揭瓦(走在屋瓦上)的Cost (默认 : 3.0 殖民地原设置 : 3.0)#
-		#Range: 0.0 ~ 24.0
+		#Walk on shingle cost addon (default: 6.0, original:3.0) #上房揭瓦(走在屋瓦上)的Cost (默认 : 6.0 殖民地原设置 : 3.0)#
+		#Range: 0.0 ~ 63.0
 		shingleCostAddon = 3.0
-		#Jump in farmland or drop onto farmland cost addon (default: 8.0) #在农田中跳上跳下的Cost (默认 : 8.0)#
-		#Range: 0.0 ~ 24.0
+		#Jump in farmland or drop onto farmland cost addon (default: 24.0) #在农田中跳上跳下的Cost (默认 : 24.0)#
+		#Range: 0.0 ~ 63.0
 		farmlandCostAddon = 8.0
-		#Walk on leaves cost addon (default: 4.0) #爬树(走在树叶上)的Cost (默认 : 4.0)#
-		#Range: 0.0 ~ 24.0
+		#Walk on leaves cost addon (default: 8.0) #爬树(走在树叶上)的Cost (默认 : 8.0)#
+		#Range: 0.0 ~ 63.0
 		leafCostAddon = 4.0
-		#Walk in sweet berry bush cost addon (default: 24.0) #被浆果丛扎的Cost (默认 : 24.0)#
-		#Range: 0.0 ~ 24.0
+		#Walk in sweet berry bush cost addon (default: 63.0) #被浆果丛扎的Cost (默认 : 63.0)#
+		#Range: 0.0 ~ 63.0
 		berryCostAddon = 24.0
 
 	["Pathing Cost Modifier #寻路Cost相关设置#"."Advanced Pathfinding Constant Definer #进阶寻路算法常数定义(警告：慎重修改！会对全局寻路产生极大影响！)#"]
@@ -106,17 +114,17 @@
 		#用来控制道路方块上回扣节点启发值增加速度的数值，其算式为 ROAD_COST_MULTIPLIER * ONROAD_CALLBACK_MULTIPLIER (默认 : 1.2)
 		#Range: 0.0 ~ 2.0
 		onRoadCallbackMutiplier = 1.2
-		#This is a global heuristic reduction, representing how much villagers prefer railways when pathfinding far away from the target point. The smaller the value, the stronger the preference. (default: 0.85)
-		#是一个全局的启发值减免，表现为村民在远离目标点处寻路时对铁路的信任程度，数值越小越信任(默认 : 0.85)
-		#Range: 0.5 ~ 2.0
+		#This is a global heuristic reduction, representing how much villagers prefer railways when pathfinding far away from the target point. The smaller the value, the stronger the preference. (default: 0.5)
+		#是一个全局的启发值减免，表现为村民在远离目标点处寻路时对铁路的信任程度，数值越小越信任(默认 : 0.5)
+		#Range: 0.1 ~ 3.0
 		onRailPreference = 0.85
-		#This is a global heuristic reduction, representing how much villagers prefer path blocks when pathfinding far away from the target point. The smaller the value, the stronger the preference. (default: 0.92)
-		#是一个全局的启发值减免，表现为村民在远离目标点处寻路时对道路方块的信任程度，数值越小越信任(默认 : 0.92)
-		#Range: 0.5 ~ 2.0
+		#This is a global heuristic reduction, representing how much villagers prefer path blocks when pathfinding far away from the target point. The smaller the value, the stronger the preference. (default: 0.78)
+		#是一个全局的启发值减免，表现为村民在远离目标点处寻路时对道路方块的信任程度，数值越小越信任(默认 : 0.78)
+		#Range: 0.4 ~ 3.0
 		onRoadPreference = 0.92
 		#This is a global heuristic multiplier, representing how much villagers prefer swimming when pathfinding far away from the target point. The smaller the value, the stronger the preference. (default: 1.3)
 		#是一个全局的启发值乘子，表现为村民在远离目标点处寻路时对水路的信任程度，数值越小越信任(默认 : 1.3)
-		#Range: 0.8 ~ 3.0
+		#Range: 1.0 ~ 8.0
 		swimmingPreference = 1.3
 		#Tolerates how many times callback nodes can be expanded during each pathfinding process. (default: 2)
 		# 能容忍每次寻路中回扣节点被扩展几次，数值过大可能会造成扩展的无用节点增加 (默认 : 2)
@@ -244,6 +252,9 @@
 	#Open this to enable citizens to get beacon effect. (default: true)
 	#开启这个可以让市民获得信标效果 (默认 : 开启)
 	beaconEffect = true
+	#Open this to disable citizens to teleport to their target when completely stuck. (default: false)
+	#开启这个可以禁止市民寻路卡住时直接传送到目标地点 (默认 : 关闭)
+	cancelTeleport = false
 
 ["Basic Logic Modifier #基础逻辑修改#"]
 	#Max pathing distance (default : 1000, original : 800)
