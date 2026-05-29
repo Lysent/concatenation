@@ -461,17 +461,6 @@
     "curseForgeHash": 1716123814,
     "modrinthHash": "5eb1fe904e68034e90ca19d4bdc73b08b1f573ad"
   },
-<<<<<<< HEAD
-=======
-  "civilis_minecolonies-1.0.2-universal-1.20.1.jar": {
-    "jarName": "civilis_minecolonies-1.0.2-universal-1.20.1.jar",
-    "modId": "civilis_minecolonies",
-    "name": "Civilis Minecolonies Compat",
-    "version": "1.0.2",
-    "curseForgeHash": 2539464255,
-    "modrinthHash": "ef2ce4a3c8bd52422f911c4e14eb66e65c0f9eff"
-  },
->>>>>>> origin/main
   "civilis_technology-1.0.1-universal-1.20.1.jar": {
     "jarName": "civilis_technology-1.0.1-universal-1.20.1.jar",
     "modId": "civilis_technology",
@@ -956,14 +945,6 @@
     "version": "1.20.1-1.0.186-RELEASE",
     "curseForgeHash": 1088338115,
     "modrinthHash": "497979f9c1ae139fee5f6f32727a19785dd1e17d"
-  },
-  "domum_ornamentum-1.20.1-1.0.300-snapshot-universal.jar": {
-    "jarName": "domum_ornamentum-1.20.1-1.0.300-snapshot-universal.jar",
-    "modId": "domum_ornamentum",
-    "name": "Domum Ornamentum",
-    "version": "1.20.1-1.0.300-snapshot",
-    "curseForgeHash": 2641272996,
-    "modrinthHash": "3189a16050253c21e91b1fc1143656d6153c9f35"
   },
   "dpanvil-1.20.1-5.0.1.jar": {
     "jarName": "dpanvil-1.20.1-5.0.1.jar",
