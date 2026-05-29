@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"mods":[{"package":"net.mcreator.thedeepvoid","className":"TheDeepVoid"},{"package":"hal.studios.hpm","className":"Hpm"},{"package":"cyberspace","className":"Cyberspace"},{"package":"net.mcreator.thesubmarinemod","className":"Thesubmarinemod"},{"package":"net.reversteam.concatenationcore","className":"Concatenationcore"},{"package":"net.mcreator.borninchaosv","className":"BornInChaosV1"},{"package":"net.mcreator.mokelsbossfightsaphyra","className":"MokelsBossfightSaphyra"}],"spec":0,"hash":"c7e19408777020df"}
+=======
+{"mods":[{"package":"net.mcreator.thedeepvoid","className":"TheDeepVoid"},{"package":"hal.studios.hpm","className":"Hpm"},{"package":"cyberspace","className":"Cyberspace"},{"package":"net.mcreator.thesubmarinemod","className":"Thesubmarinemod"},{"package":"net.reversteam.concatenationcore","className":"Concatenationcore"},{"package":"net.mcreator.borninchaosv","className":"BornInChaosV1"},{"package":"net.mcreator.mokelsbossfightsaphyra","className":"MokelsBossfightSaphyra"}],"spec":0,"hash":"774a3be7bc670622"}
+>>>>>>> origin/main

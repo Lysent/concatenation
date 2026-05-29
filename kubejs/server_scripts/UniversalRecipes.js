@@ -1,11 +1,5 @@
 ServerEvents.recipes(event => {
 
-        event.replaceInput(
-                { mod: 'born_in_chaos_v1' },
-                'born_in_chaos_v1:dark_metal_ingot',
-                'concatenationcore:dense_alloy'
-        );
-
         const remove = [
                 'born_in_chaos_v1:dark_upgrade',
                 'born_in_chaos_v1:dark_metal_block',
@@ -40,6 +34,18 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'minecraft:chainmail_chestplate', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'minecraft:chainmail_leggings', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'minecraft:chainmail_boots', type: 'minecraft:crafting_shaped' })
+
+        event.replaceInput(
+                { mod: 'born_in_chaos_v1' },
+                'born_in_chaos_v1:dark_metal_ingot',
+                'concatenationcore:dense_alloy'
+        );
+
+        event.replaceInput(
+                { input: 'minecraft:egg' },
+                'minecraft:egg',
+                '#forge:eggs'
+        )
 
         event.shapeless(
                 Item.of('patchouli:guide_book', '{"patchouli:book":"via_romana:guide"}'),
