@@ -16,6 +16,7 @@
 				""
 				"&4I should carve out a pumpkin to decorate my home, it's the basis of the holiday, after all."
 			]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
 			icon: "minecraft:carved_pumpkin"
@@ -43,6 +44,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["&4Lord Pumpkinhead's origins stem from another world. A sinister lord that is fully battle-ready when summoned and poses a serious threat."]
+			entity_vis_size: 1.0f
 			id: "24E489456D23186C"
 			rewards: [{
 				id: "494F7D52544EEBAB"
@@ -67,6 +69,7 @@
 		}
 		{
 			dependencies: ["24E489456D23186C"]
+			entity_vis_size: 1.0f
 			id: "79AEE8B7AA20CA72"
 			rewards: [{
 				count: 13
@@ -84,6 +87,7 @@
 		}
 		{
 			dependencies: ["24E489456D23186C"]
+			entity_vis_size: 1.0f
 			id: "5F9863BB30BC1127"
 			rewards: [{
 				count: 13
@@ -114,6 +118,7 @@
 		}
 		{
 			dependencies: ["24E489456D23186C"]
+			entity_vis_size: 1.0f
 			id: "3889FEDBAFC63C87"
 			rewards: [{
 				count: 13
@@ -142,6 +147,7 @@
 				""
 				"&4Maybe with a little bit of luck from the spooky month, I can aim for the substitute recipe."
 			]
+			entity_vis_size: 1.0f
 			id: "196E0D0D6DAC32D4"
 			rewards: [{
 				id: "2EA4B05C636A5D06"
@@ -180,6 +186,7 @@
 		{
 			dependencies: ["43DD1C96FCD92EC2"]
 			description: ["&4The transmutating elixir is a crude vessel for transmutation, not as elaborate as the alchemists who had specialized into it. However, it still possesses vital power and most vitally this season: providing a purer link to the other world and summoning a more direct avatar of 'His'."]
+			entity_vis_size: 1.0f
 			id: "40D76EF46649BDA5"
 			rewards: [{
 				id: "55579A36C84BF03F"
@@ -197,6 +204,7 @@
 		{
 			dependencies: ["283ECA512AD79F99"]
 			description: ["&4A drink needs a feast! Stuffed pumpkin can nourish the whole party! Or family. Although none of my friends drink, sharing food is a great part of the celebrations. I'll prepare a spooky stuffed pumpkin for the party."]
+			entity_vis_size: 1.0f
 			id: "66F5DF8953139DE7"
 			rewards: [{
 				count: 32
@@ -232,6 +240,7 @@
 		{
 			dependencies: ["66F5DF8953139DE7"]
 			description: ["&4It's a traditional meal of the season. For the next party, I could show off my sick cooking skills! I can handle a knife for more than just butchering and hunting!"]
+			entity_vis_size: 1.0f
 			id: "4536D47F7E857264"
 			rewards: [{
 				count: 128
@@ -250,6 +259,7 @@
 		{
 			dependencies: ["66F5DF8953139DE7"]
 			description: ["&4The little ones are going to come knocking and I'm going to need some candy as per tradition. Caramel squares are both a sweet treat and will give them a small boost."]
+			entity_vis_size: 1.0f
 			id: "6BA830D7E656FCA6"
 			rewards: [{
 				count: 16
@@ -268,6 +278,7 @@
 		{
 			dependencies: ["6BA830D7E656FCA6"]
 			description: ["&4More candy is needed! Mint Apples are the best! I can't exactly hand them out in a bag but I can hand them out!"]
+			entity_vis_size: 1.0f
 			id: "62CDA7F3F5E1F359"
 			rewards: [{
 				count: 12
@@ -286,6 +297,7 @@
 		{
 			dependencies: ["62CDA7F3F5E1F359"]
 			description: ["&4A treat for me. I've been on a search for the Allcandy for years, to make the elusive eternal candy. It is said to fulfill a man's hunger for the rest of eternity, since time immemorial. "]
+			entity_vis_size: 1.0f
 			id: "31921734283B3CAA"
 			rewards: [{
 				id: "2016CFC3C5B56C21"
@@ -307,6 +319,7 @@
 				""
 				"&4A spectral golem could do, wouldn't it? They're even more effective against the undead! I could ask my witch friend, but they would need a base to work on. Objective: make a regular golem to obtain a golem summoning scroll."
 			]
+			entity_vis_size: 1.0f
 			id: "509C6AA6FDB042C9"
 			rewards: [{
 				id: "4F7BCC35B01F082C"
@@ -336,6 +349,7 @@
 		{
 			dependencies: ["509C6AA6FDB042C9"]
 			description: ["&4Aside from the village cemetery, there are various tombs and mausoleums that can be found around the world. We can no longer clearly read out the letters on them, if they're even a language. They're quite interesting ruins though."]
+			entity_vis_size: 1.0f
 			id: "48A3A1D7F2CF80C0"
 			rewards: [{
 				id: "5D8A4A15B20BC3AD"
@@ -438,6 +452,7 @@
 		{
 			dependencies: ["48A3A1D7F2CF80C0"]
 			description: ["&4All of these graves around the world are making me think about my own mortality. I can only dream of something that would delay the inevitable."]
+			entity_vis_size: 1.0f
 			id: "02568A35AD9181E7"
 			rewards: [{
 				id: "583823BBCCCE3148"
@@ -461,6 +476,7 @@
 				""
 				"&4In the end, after helping him, old man gave me these lamps he had laying around in his attic. They're still working, although I would have thought they had burned out."
 			]
+			entity_vis_size: 1.0f
 			id: "7741E7588FE4F163"
 			rewards: [{
 				count: 16
@@ -500,6 +516,7 @@
 		{
 			dependencies: ["509C6AA6FDB042C9"]
 			description: ["&4A consultant approached me one day, recognizing me as the friend of the village's witch. They asked me to procure a strong poison to kill their boss. Assassination? In broad daylight? They told me any price was good. Did they really hate their boss that much? I mean sure, some are pushy and some will stress the living hell out of people, but they're just doing their job, right? I'm glad that as a hunter, I only answer to myself."]
+			entity_vis_size: 1.0f
 			id: "40D7532B1DD96796"
 			rewards: [
 				{
@@ -542,6 +559,7 @@
 		{
 			dependencies: ["40D7532B1DD96796"]
 			description: ["&4They had a change of conscience. The poison is too much, we just need to cripple them. Alright, I can make a potion of slowness myself. I found a random potion brewer in an abandoned church while looking for dread hounds."]
+			entity_vis_size: 1.0f
 			id: "04E705554AFEFE39"
 			rewards: [{
 				count: 3
@@ -581,6 +599,7 @@
 				""
 				"&4I wonder what their boss did to deserve such treatment. Evidently it's not straight up torture, since they didn't want the poison in the end. I'm not finding another potion after this if it isn't want they want yet again."
 			]
+			entity_vis_size: 1.0f
 			id: "76F41877DB37813D"
 			rewards: [{
 				count: 3
@@ -620,6 +639,7 @@
 				""
 				"&4It is unknown whether the multiple sightings of Sir Pumpkinhead are the same entity, a weaker entity to Lord Pumpkinhead, or one of 'His' avatars. I believe they're avatars though. I should hunt one of these as my contribution to the festivities. We'll have a night of drinking once I'm back."
 			]
+			entity_vis_size: 1.0f
 			id: "43DD1C96FCD92EC2"
 			rewards: [{
 				id: "55E8134C29A8AEC3"
