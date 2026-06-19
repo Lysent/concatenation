@@ -22,6 +22,7 @@
 				""
 				"&a(You do not need to find all colonies to start the next quest, only one will suffice.)"
 			]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "1BB571557F74D3A1"
 			rewards: [{
@@ -94,6 +95,7 @@
 				"{@pagebreak}"
 				"&aRight-click any solid block to open the Build Preview GUI. Use the controls on the right to shift, rotate, and align your building before placing it.&r"
 			]
+			entity_vis_size: 1.0f
 			icon: "structurize:sceptergold"
 			id: "0D6E099A1A242153"
 			rewards: [{
@@ -124,6 +126,7 @@
 				""
 				"&5Note: Research will only progress while you are nearby. However, once your scholars reach level 3, they are competent enough to continue their work while you are away."
 			]
+			entity_vis_size: 1.0f
 			id: "15B51FB56A64C303"
 			rewards: [
 				{
@@ -152,6 +155,7 @@
 		{
 			dependencies: ["0D6E099A1A242153"]
 			description: ["&5Starving subjects cannot labor. Until you establish a Restaurant for automated distribution, you must hand-feed your workforce. Place food in their inventories. A dead citizen produces nothing but disease."]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "75599A9909C7A8C8"
 			invisible: true
@@ -178,6 +182,7 @@
 				""
 				"&5The Builder bears the weight of your ambition. As your demands increase, you will likely require more of them to maintain your colony's expansion. Do not hesitate to recruit for your workforce."
 			]
+			entity_vis_size: 1.0f
 			id: "583A7AA84FEC027F"
 			rewards: [
 				{
@@ -207,6 +212,7 @@
 		{
 			dependencies: ["0D6E099A1A242153"]
 			description: ["&5A true sovereign does not whittle sticks for his subordinates. Teach your Builder to craft simple structures that fit a 2x2 grid, such as torches. Once taught, they will cease their incessant begging and produce what is required independently."]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "342A1EF584823D2C"
 			rewards: [
@@ -247,6 +253,7 @@
 				""
 				"&5Give them bread and circuses and they will never revolt."
 			]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "65D23E7683812E26"
 			invisible: true
@@ -276,6 +283,7 @@
 		{
 			dependencies: ["583A7AA84FEC027F"]
 			description: ["&5Lumber forms the skeleton of your empire. The Forester harvests this resource and replants to ensure future supply. They will clear the surrounding area indiscriminately unless you impose your will. Use the zoning tool within the hut block to dictate exactly where they are permitted to cut."]
+			entity_vis_size: 1.0f
 			id: "23012F6C4C522CEB"
 			rewards: [
 				{
@@ -309,6 +317,7 @@
 		{
 			dependencies: ["583A7AA84FEC027F"]
 			description: ["&5Tear the wealth from the earth. The Miner drives a shaft deep into the ground, determined by the Mine's level, before branching out to strip the stone away. They will mostly return with cobblestone, but occasionally, they will unearth precious ore. Do not scowl at the stone; even an Emperor must wait for the Wheel to turn in their favor.&r"]
+			entity_vis_size: 1.0f
 			id: "6BB0C51EE8CA5966"
 			rewards: [
 				{
@@ -352,6 +361,7 @@
 				""
 				"&5If you have settled in a barren land without water, construct a 6x6x1 basin yourself. The fish do not care if the lake is man-made, and neither should you."
 			]
+			entity_vis_size: 1.0f
 			id: "0B009391E3F76D6E"
 			rewards: [
 				{
@@ -388,6 +398,7 @@
 				""
 				"&5I recommend cultivating carrots. They require no fuel to prepare. Every piece of coal saved on cooking is a piece of coal used for smelting iron.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "57C889EC980D33D9"
 			rewards: [
 				{
@@ -430,6 +441,7 @@
 				""
 				"&5No more hiding your loot in scattered holes like a common wash-bear. If you cannot account for every ingot and log in a central ledger, you do not own them, you are merely borrowing them from the dirt.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "67E8B8DCFC93F832"
 			rewards: [
 				{
@@ -474,6 +486,7 @@
 				"{@pagebreak}"
 				"&5They must be assigned to a Warehouse to function. Be advised: a Courier is loyal to one Warehouse alone. They will ignore the stockpiles of neighboring buildings even if they are empty. You can use this bureaucratic tunnel vision to organize your logistics.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "490628CE108A833A"
 			rewards: [
 				{
@@ -510,6 +523,7 @@
 				""
 				"&5However, unmet needs breed resentment like stagnant water breeds mosquitoes. Use the Clipboard to view every request currently pending in your domain. You need not grant every wish, but you must at least &lknow&r&5 what they are screaming for.&r"
 			]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "71FCF06A98CC66D7"
 			rewards: [{
@@ -532,6 +546,7 @@
 				""
 				"&5Conversely, if you are burdened with debris, dump it into a Stash. A Courier will collect it, assuming they do not get distracted by a butterfly on the return journey.&r"
 			]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "3B40A769EDB26EA2"
 			rewards: [{
@@ -565,6 +580,7 @@
 				"{@pagebreak}"
 				"&a(The camp cannot be placed if objects block the area. Right-click the supply camp on the ground to see a 3D preview. Use the arrow controls to position the camp within your cleared space, then click the green checkmark to place it. If placement fails, the terrain is still in the way, remove obstacles until it fits. Red lines will mark spots that need further clearing.)&r"
 			]
+			entity_vis_size: 1.0f
 			id: "1E1870FAD295DEDE"
 			rewards: [{
 				id: "1BB2255A28D5416B"
@@ -587,6 +603,7 @@
 				"{@pagebreak}"
 				"&a(The ship cannot be placed if objects block the area. Right-click the supply ship on the ground to see a 3D preview. Use the arrow controls to position the camp within your cleared space, then click the green checkmark to place it. If placement fails, the terrain is still in the way, remove obstacles until it fits - these obstacles may be underwater. Red lines will mark spots that need further clearing.)&r"
 			]
+			entity_vis_size: 1.0f
 			id: "0F409DACBEB7BBF8"
 			rewards: [{
 				id: "5775E488967BE81A"
@@ -608,6 +625,7 @@
 				""
 				"&5Later, should you find a literate subject to staff an Enchanter's Tower, they can distill this savage magic into usable enchanted books."
 			]
+			entity_vis_size: 1.0f
 			id: "69EAF1072D492F1A"
 			rewards: [{
 				id: "37634C6C11ED163C"
@@ -641,6 +659,7 @@
 				""
 				"&5I once had an architect block my view of the sunset with a misplaced tower. I buried him beneath the foundation. He supports the colony much better as a structural pillar than he ever did as a planner.&r"
 			]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "120152510AD4B59A"
 			rewards: [{
@@ -672,6 +691,7 @@
 				"{@pagebreak}"
 				"&5King Aethelgard claimed spies were a waste of coin. He saved fifty gold pieces, right up until the moment a raiding party severed his head during supper. Learn from his headless corpse: at Level 3, pay the gold to track the barbarians before they breach your walls.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "5A11A2FC20E5CE2A"
 			rewards: [
 				{
@@ -743,6 +763,7 @@
 				"{@pagebreak}"
 				"&5At level 1, the Carpenter is dim-witted, capable of recalling a mere 10 recipes. Upgrade the building, and the recipe capacity doubles per level. I once tried to teach a novice carpenter an 11th recipe. He wept until I burned the blueprint.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "0EBB4E5195610A82"
 			rewards: [
 				{
@@ -781,6 +802,7 @@
 				""
 				"&5Do not fall into the trap of the Royal Gardener who refused to use compost because the stench 'offended his delicate nose.' The famine that winter was far more offensive.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "6B0CE8AD86991E28"
 			rewards: [
 				{
@@ -814,6 +836,7 @@
 				""
 				"&5Do not build more than one. The magic does not multiply. If only immortality were that easy...&r"
 			]
+			entity_vis_size: 1.0f
 			id: "206159A3C7A78447"
 			rewards: [{
 				id: "77C8FAFFFB207296"
@@ -837,6 +860,7 @@
 				""
 				"&5Once assigned, the guard sleeps in the tower rather than the general housing. This frees up space for a new &mtaxpayer&r&5 citizen. No sense in letting a warm bed go cold.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "00A3AD4BD4EE0FC7"
 			rewards: [
 				{
@@ -919,6 +943,7 @@
 				""
 				"&5Insolent, but correct. Leave the concrete to the brutes; the Dyer has soft hands.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "52453550206EC770"
 			rewards: [
 				{
@@ -976,6 +1001,7 @@
 				""
 				"&5By level 5, the daily maximum reaches 20. If your dye production requires more volume, simply build another shop.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "37E43341FA234E84"
 			rewards: [
 				{
@@ -1003,6 +1029,7 @@
 		}
 		{
 			dependencies: ["0D6E099A1A242153"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			icon: "minecolonies:blockminecoloniesgrave"
 			id: "743D7D9204915A13"
@@ -1037,6 +1064,7 @@
 				""
 				"&aShift + right-click the Rallying Banner on a Guard Tower or Barracks to link those soldiers to the item. When used, the banner summons them to your side.&r"
 			]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "1C16AEE8E29FB5A0"
 			rewards: [{
@@ -1066,6 +1094,7 @@
 				""
 				"&5With the appropriate research, they can also transmute cobblestone and an Ender Pearl into End Stone.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "15F03A5E7E14C022"
 			rewards: [
 				{
@@ -1103,6 +1132,7 @@
 				""
 				"&5Provide them with a sword and shield, and they will vigorously attack practice dummies (very fierce pumpkins atop hay bales). It is hardly glorious, but it ensures they survive long enough to be useful.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "4D9DC4973FD340E5"
 			rewards: [
 				{
@@ -1155,6 +1185,7 @@
 				"&d\"...it's moving target practice?\"&r"
 				"&5\"It will be your dinner, if you do not miss the next shot.\"&r"
 			]
+			entity_vis_size: 1.0f
 			id: "6D56AD1BEC644A10"
 			rewards: [
 				{
@@ -1193,6 +1224,7 @@
 				""
 				"&5If successful, the subject may be revived to resume their duties. If not, the Undertaker handles their final affairs, and buries them neatly in the Graveyard.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "33058894ACD9CB06"
 			rewards: [
 				{
@@ -1239,6 +1271,7 @@
 				"&d\"He claims the terrain is uneven.\"&r"
 				"&5\"Move his house next to the sawblade. If he complains again, move him &linto&r&5 the sawblade.\"&r"
 			]
+			entity_vis_size: 1.0f
 			id: "72C749AD9F1C634E"
 			rewards: [
 				{
@@ -1277,6 +1310,7 @@
 				"{@pagebreak}"
 				"&5Do not hesitate. My cousin, Baron Von Sneze, believed healthcare was a \"luxury for the weak.\" His reign - and his bloodline - ended in a singular, wet explosion of mucus. A tragic, yet avoidable, legacy.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "74C114D0C0D4D374"
 			rewards: [
 				{
@@ -1307,6 +1341,7 @@
 				""
 				"&5Be aware that scholarship is a singular pursuit: a student cannot labor elsewhere while studying. However, supplying them with paper and books will expedite their education, ensuring they return to the workforce as productive prolateriats rather than disgraceful dullards.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "68FC81E133443E76"
 			rewards: [
 				{
@@ -1344,6 +1379,7 @@
 				""
 				"&5Note that they are metalworkers, not fletchers or engineers; they cannot craft bows or redstone devices. Additionally, like every other colonist, they lack initiative. You must teach them specific recipes before they will get to work.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "19D03831EB5EED02"
 			rewards: [{
 				count: 16
@@ -1370,6 +1406,7 @@
 				"{@pagebreak}"
 				"&5Do not neglect aesthetics. I once visited a rival's 'Grand Fortress' constructed entirely of unsmelted cobblestone. I asked him if the masons were on strike or if he was simply stacking debris until the garbage cart arrived. He declared war immediately. It was a short war; his walls were as weak as his taste.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "430475E11D259B74"
 			rewards: [
 				{
@@ -1401,6 +1438,7 @@
 				""
 				"&5Upgrading this building should be your first priority. Higher levels allow the Smelter to utilize more furnaces simultaneously. More importantly, advanced facilities increase yield efficiency, offering a chance to double or triple the ingot output per ore. Only a novice accepts a mere one-to-one return.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "6A60B76053393288"
 			rewards: [
 				{
@@ -1432,6 +1470,7 @@
 				""
 				"&5Do not expect them to labor without direction, however. They require a specific order to begin: a demand from the Cook, an order via the Postbox, or a directive to maintain minimum stock in the Warehouse.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "7B5E2CD676A1A1C4"
 			rewards: [
 				{
@@ -1463,6 +1502,7 @@
 				""
 				"&a(To bind the scroll, Shift and right-click upon a Builder's Hut. Once linked, right-click the scroll to inspect the needed materials.)&r"
 			]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "085F473094778DCD"
 			rewards: [{
@@ -1486,6 +1526,7 @@
 				""
 				"&aNote: The portal in the Nether Mine will transport players to the Nether. However, the Nether Miner does not actually travel into the Nether, nor do they actually mine any blocks in the Nether. However, the risk of death is entirely real."
 			]
+			entity_vis_size: 1.0f
 			id: "3B91163DE3DA885C"
 			rewards: [{
 				count: 12
@@ -1504,6 +1545,7 @@
 		}
 		{
 			dependencies: ["00A3AD4BD4EE0FC7"]
+			entity_vis_size: 1.0f
 			id: "537A8F99CC3F525D"
 			invisible: true
 			rewards: [{
@@ -1523,6 +1565,7 @@
 		}
 		{
 			dependencies: ["537A8F99CC3F525D"]
+			entity_vis_size: 1.0f
 			id: "5F5DB67F6A470C73"
 			invisible: true
 			rewards: [{
@@ -1542,6 +1585,7 @@
 		}
 		{
 			dependencies: ["5F5DB67F6A470C73"]
+			entity_vis_size: 1.0f
 			id: "53F8923B85A8A9CC"
 			invisible: true
 			rewards: [{
@@ -1561,6 +1605,7 @@
 		}
 		{
 			dependencies: ["72C749AD9F1C634E"]
+			entity_vis_size: 1.0f
 			id: "3AE1C3290500638F"
 			invisible: true
 			rewards: [
@@ -1588,6 +1633,7 @@
 		}
 		{
 			dependencies: ["3AE1C3290500638F"]
+			entity_vis_size: 1.0f
 			id: "4D61009737D94BDA"
 			invisible: true
 			rewards: [
@@ -1615,6 +1661,7 @@
 		}
 		{
 			dependencies: ["4D61009737D94BDA"]
+			entity_vis_size: 1.0f
 			id: "14DA3DC7C0009A6A"
 			invisible: true
 			rewards: [
@@ -1642,6 +1689,7 @@
 		}
 		{
 			dependencies: ["5A11A2FC20E5CE2A"]
+			entity_vis_size: 1.0f
 			id: "360E9E02A494217C"
 			invisible: true
 			rewards: [
@@ -1712,6 +1760,7 @@
 				""
 				"&5Emperor Sullivus the Stubborn refused to research this, claiming he 'would not negotiate with the grim reaper.' The reaper was equally unamicable to negotiations, and unionized the local cemetery against Sullivus' colonists. Sullivus was deposed by his own great-grandfather's skeleton. Embarrassing.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "696BDC29ACCBBE29"
 			invisible: true
 			rewards: [{
@@ -1731,6 +1780,7 @@
 		}
 		{
 			dependencies: ["0EBB4E5195610A82"]
+			entity_vis_size: 1.0f
 			id: "68500900087F92BC"
 			invisible: true
 			rewards: [
@@ -1766,6 +1816,7 @@
 				""
 				"&5He stopped complaining. Mostly because I made him sleep on gravel for a week.&r"
 			]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "6B26495A9E7D77FC"
 			invisible: true
@@ -1799,6 +1850,7 @@
 		}
 		{
 			dependencies: ["7D3489901AA47547"]
+			entity_vis_size: 1.0f
 			id: "37BE190EE466D697"
 			invisible: true
 			rewards: [{
@@ -1823,6 +1875,7 @@
 				""
 				"&5With the requisite materials in your inventory, tap &a(right-click)&r&5 anywhere within the construction zone. You will instantly place the blocks, effectively doing their job for them. It is manual labor, yes, but preferable to waiting.&r"
 			]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "503C5A0CE113962C"
 			rewards: [
@@ -1860,6 +1913,7 @@
 				""
 				"&5Ensure this facility feeds into your Restaurants to automatically keep them stocked. A well-managed supply chain prevents the inconvenience of famine.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "55851524FDDB6959"
 			rewards: [
 				{
@@ -1893,6 +1947,7 @@
 				"{@pagebreak}"
 				"&5So do not look for love. It is a resource they do not possess. Let them complain about the housing, the guards, the rations. They will demand steak while you hold the wolves at bay. Give them the meat - not because they deserve it, but because a mouth full of food cannot complain about the weather.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "5827E9110E4B19F9"
 			invisible: true
 			rewards: [
@@ -1920,6 +1975,7 @@
 		}
 		{
 			dependencies: ["0D6E099A1A242153"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			icon: "minecolonies:blockhutgraveyard"
 			id: "0D56E3C121A776DF"
@@ -1957,6 +2013,7 @@
 				""
 				"&5Finally, select your banner, which will appear on guard towers and shields. Mark your territory. Unmarked property is just free real estate for the next conqueror.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "7D3489901AA47547"
 			rewards: [
 				{
@@ -1990,6 +2047,7 @@
 				""
 				"&5Note: The ovens require fuel. Configure the settings to accept charcoal, sticks, or planks. No matter how firey their eyes, your Cook cannot grill a steak by simply glaring at it.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "4EEF0962CC249F30"
 			rewards: [
 				{
@@ -2023,6 +2081,7 @@
 				""
 				"&5Scrutinize their attributes before hiring. Do not squander resources recruiting a subject who is incompetent at everything but breathing and eating!&r"
 			]
+			entity_vis_size: 1.0f
 			id: "75CBFD0F90772359"
 			rewards: [
 				{
@@ -2057,6 +2116,7 @@
 				""
 				"&5Invest in upgrades. At Level 2 the limit hits 64, and by Level 5, they can crush 999 items a day. Anything less is just a waste of a good mallet.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "07C26C046CDE2507"
 			rewards: [
 				{
@@ -2083,6 +2143,7 @@
 		}
 		{
 			dependencies: ["360E9E02A494217C"]
+			entity_vis_size: 1.0f
 			id: "0B96EC5055E6B817"
 			invisible: true
 			rewards: [{
@@ -2101,6 +2162,7 @@
 		}
 		{
 			dependencies: ["15B51FB56A64C303"]
+			entity_vis_size: 1.0f
 			id: "79933C964312F721"
 			rewards: [
 				{
@@ -2127,6 +2189,7 @@
 		{
 			dependencies: ["6A60B76053393288"]
 			description: ["&5A Level 3 Smeltery applies Fortune II. Do not ask me how burning a rock harder produces twice the iron.&r"]
+			entity_vis_size: 1.0f
 			id: "6B80B2314CC47FD6"
 			invisible: true
 			rewards: [
@@ -2155,6 +2218,7 @@
 		{
 			dependencies: ["6B80B2314CC47FD6"]
 			description: ["&5The Smeltery now applies Fortune IV when processing ores. In this world, asking dangerous questions such as \"How could a machine possibly extract four ingots from one stone?\" is akin to inviting a malevolent higher existence onto your front doorstep.&r"]
+			entity_vis_size: 1.0f
 			id: "0089B6C20C45DDCA"
 			invisible: true
 			rewards: [
@@ -2189,6 +2253,7 @@
 				""
 				"&5\"Then they must move those hands faster. And tell them to stop complaining. Back in my day, we farmed volcanoes. Uphill. Both ways.\"&r"
 			]
+			entity_vis_size: 1.0f
 			id: "226176A1C73431B5"
 			invisible: true
 			rewards: [
@@ -2216,6 +2281,7 @@
 		}
 		{
 			dependencies: ["79933C964312F721"]
+			entity_vis_size: 1.0f
 			id: "15803CA2BC2DF179"
 			tasks: [{
 				id: "0A5A2AFD116E042A"
@@ -2236,6 +2302,7 @@
 				"15803CA2BC2DF179"
 				"69EAF1072D492F1A"
 			]
+			entity_vis_size: 1.0f
 			id: "7584C81416F8FABD"
 			size: 1.3d
 			tasks: [{

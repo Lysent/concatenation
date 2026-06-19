@@ -15,6 +15,7 @@
 				""
 				"&4The commissions are often good enough to live off only bounties, but sometimes a bit of adventuring is required. Isn't that just more gambling though? We may not find any loot at all. At least we don't turn to banditry."
 			]
+			entity_vis_size: 1.0f
 			hide_dependent_lines: true
 			id: "30784E3952DDFD84"
 			rewards: [{
@@ -35,6 +36,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4The Wither is less a creature and more a calamity given form, a floating tangle of skulls and black energy that rots the land as it drifts. We’ve seen its handiwork: craters, twisted trees, and a sky choked with ash where once there was sunlight. Its projectiles don’t just wound, they linger, gnawing at life and hope alike. If we summon it, there will be no turning back; we’ll either stand together long enough to bring it down, or leave behind another scar on the world."]
+			entity_vis_size: 1.0f
 			id: "72EA62835F4AEFD9"
 			rewards: [
 				{
@@ -77,6 +79,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4We arrived to the sound of bells and screams, pillager banners flapping crimson over fields trampled by ravagers. Crossbow bolts thudded into walls as iron golems roared and threw raiders into the air like rag dolls. Fighting in the cramped streets, dodging panicked villagers and stray arrows, felt more like chaos than heroism. But when the last horn blew and the survivors came out with gifts and shy smiles, it felt like, for once, we’d actually made the world a little better."]
+			entity_vis_size: 1.0f
 			id: "443D68F7812B0BD5"
 			rewards: [
 				{
@@ -115,6 +118,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4The Bonescaller stands in graveyards like a shepherd, staff tapping softly as skeletons claw their way from the dirt at his command. He doesn’t shout or rage; he murmurs, and the dead obey. We saw him once at a distance, silhouettes rising behind him like a forest of bone, each skull turning in perfect unison. Killing him won’t just be a matter of steel, it will mean wading through his pale congregation while he tears at our courage with whispered curses."]
+			entity_vis_size: 1.0f
 			id: "4D814D7620E3E98E"
 			rewards: [
 				{
@@ -148,6 +152,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4If the Bonescaller is a shepherd, the Supreme Bonescaller is a high priest of death itself. Wherever he walks, the world goes quiet: candle flames gutter, animals flee, and even the air feels thin and cold. He doesn’t just raise skeletons; he bends entire battlefields of the fallen to his will, weaving them into disciplined ranks. Facing him will be like fighting a whole forgotten war at once, soldiers of every age and armor clattering forward under one terrible mind."]
+			entity_vis_size: 1.0f
 			id: "2D597F553C8571B1"
 			rewards: [
 				{
@@ -191,6 +196,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4The Glutton Fish lurks in waters that should be too small to hold something that big, yet somehow do. We watched it swallow a cow that strayed too close to the riverbank, the water barely rippling as rows of jagged teeth snapped shut. Its bulk moves with a horrible, lazy grace, drawn to splashing and blood like a living whirlpool. To face it, we’ll have to fight the urge to panic whenever it vanishes below, knowing it could surge up beneath us at any moment."]
+			entity_vis_size: 1.0f
 			icon: "born_in_chaos_v1:sea_terror_eye"
 			id: "384C10251DACEE34"
 			rewards: [
@@ -220,6 +226,16 @@
 			]
 			tasks: [{
 				entity: "born_in_chaos_v1:glutton_fish"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "12C22F09893543F1"
 				type: "kill"
 				value: 1L
@@ -231,6 +247,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4We first heard the chittering long before we saw her, a slow, echoing sound that seemed to crawl under our skin. The Mother of Spider sits at the heart of her nest like a bloated jewel, surrounded by webs so thick they muffle sound and swallow light. When she moves, the whole cavern shifts with her, and lesser spiders spill from the ceiling like black rain. If we face her, we’ll need fire and sharp blades, and nerves steady enough not to bolt when the eggs start hatching."]
+			entity_vis_size: 1.0f
 			icon: "born_in_chaos_v1:spider_mandible"
 			id: "55B97B5BE5ED5021"
 			rewards: [
@@ -255,6 +272,16 @@
 			]
 			tasks: [{
 				entity: "born_in_chaos_v1:mother_spider"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "born_in_chaos_v1:spider_mandible"
 				id: "39C4391CA9195254"
 				type: "kill"
@@ -267,6 +294,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4On quiet nights, we hear them: low, rumbling howls that roll across the hills, answered by dozens more. The Dire Hound Leader is bigger than any wolf we’ve seen, its eyes burning with a cruel intelligence as it drives the pack like a general on a battlefield. Alone, one hound is trouble; together, under their leader’s command, they’re an army that tears through armor and flesh alike. If we want a chance, we’ll have to separate the leader from the pack, or become bones picked clean under the moon."]
+			entity_vis_size: 1.0f
 			icon: "born_in_chaos_v1:gnawed_bones"
 			id: "3DBC73A802DB053D"
 			rewards: [
@@ -290,6 +318,16 @@
 			]
 			tasks: [{
 				entity: "born_in_chaos_v1:dire_hound_leader"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "born_in_chaos_v1:monster_flesh"
 				id: "6988F3052812B54D"
 				type: "kill"
@@ -302,6 +340,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4The Chaos Knight rides under a sky that never looks quite right, as if the world itself twists around him. His armor flickers between colors, runes crawling like living things across the metal, and each step of his mount leaves a smear of unstable magic behind. We’ve seen where he’s passed: stone warped into strange shapes, trees half-turned to ash and half to obsidian. To fight him is to stand inside a storm of blades and raw sorcery, hoping your mind holds together longer than his patience."]
+			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
 				id: "born_in_chaos_v1:dark_metal_armor_helmet"
@@ -337,6 +376,16 @@
 			]
 			tasks: [{
 				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "born_in_chaos_v1:armor_plate_from_dark_metal"
 				id: "57A33671064268AC"
 				type: "kill"
@@ -349,6 +398,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4Ten thousand is just a number until you start counting the footsteps, the growls, the hisses in the dark. This isn’t about a single beast, but about endurance, about showing up to every skirmish, every ambush, every siege, and walking away one more time. Each mob we fell leaves another mark on our armor and our minds, tiny stories written in cuts and cracks. By the time we reach that number, we won’t be the same people who started this tally."]
+			entity_vis_size: 1.0f
 			id: "6CF620CBAD48D019"
 			rewards: [{
 				id: "1ADD9A957F817717"
@@ -368,6 +418,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4There’s a kind of madness in a task like this, how much punishment a body can endure before it simply doesn’t anymore. We’ve learned to read our scars like pages in a book: burns from blaze fire, jagged gouges from creepers, neat punctures from skeleton arrows. Twelve thousand hurts is less about bravery and more about stubbornness, about standing back up when anyone sane would stay down. If we live through it, we’ll know exactly where our limits used to be."]
+			entity_vis_size: 1.0f
 			id: "236CDF4D91BC9948"
 			rewards: [
 				{
@@ -394,6 +445,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4The rogue mages travel like walking natural disasters, each one wrapped in their chosen element. We saw the Air Mage riding storms, the Water Mage walking on rivers, the Earth Mage striding through stone, and the Fire Mage leaving glassed sand where grass once grew. Alone, each is a nightmare; together, they turn the battlefield into a puzzle of shifting hazards. To defeat them, we’ll need to break their unity, pull one away, then another—before their combined power grinds us to dust."]
+			entity_vis_size: 1.0f
 			id: "3D40D1DB3CD9B0C6"
 			rewards: [
 				{
@@ -437,6 +489,16 @@
 			tasks: [
 				{
 					entity: "ars_elemental:air_mage"
+					entity_use_tag: false
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: {
 						Count: 1
 						id: "ars_elemental:air_hat"
@@ -450,6 +512,16 @@
 				}
 				{
 					entity: "ars_elemental:earth_mage"
+					entity_use_tag: false
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: {
 						Count: 1
 						id: "ars_elemental:earth_hat"
@@ -463,6 +535,16 @@
 				}
 				{
 					entity: "ars_elemental:fire_mage"
+					entity_use_tag: false
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: {
 						Count: 1
 						id: "ars_elemental:fire_hat"
@@ -476,6 +558,16 @@
 				}
 				{
 					entity: "ars_elemental:water_mage"
+					entity_use_tag: false
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: {
 						Count: 1
 						id: "ars_elemental:aqua_hat"
@@ -495,6 +587,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4The Celestial Monolith looms like a fallen star, a towering shard of otherworldly stone etched with constellations that move when you’re not looking. Around it drift the Traversers, figures that blink in and out of existence, stepping between spaces as easily as we step between blocks. They guard the Monolith like zealots, warping close to strike and vanishing before blades can touch them. Bringing down that star-fracture will mean reading its strange patterns while we survive the guardians flitting through the gaps in reality."]
+			entity_vis_size: 1.0f
 			id: "339F7ED63821911B"
 			rewards: [
 				{
@@ -529,6 +622,16 @@
 			tasks: [
 				{
 					entity: "celestisynth:star_monolith"
+					entity_use_tag: false
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "celestisynth:star_monolith_blood"
 					id: "374F65FF3F365167"
 					type: "kill"
@@ -536,6 +639,16 @@
 				}
 				{
 					entity: "celestisynth:traverser"
+					entity_use_tag: false
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "celestisynth:crimson_piece"
 					id: "109E7A9FF856DD97"
 					type: "kill"
@@ -549,6 +662,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4We thought we knew evokers—smug little tyrants hiding behind fangs and fanged spirits—until we heard of the Archevoker. This one commands entire storms of vexes and conjures fanged maws that span whole streets, not just doorways. When he raises his hands, the ground itself sprouts hostile shapes, biting and tearing at anything that moves. To defeat him, we’ll have to close the distance while the world around us tries to chew us apart."]
+			entity_vis_size: 1.0f
 			id: "4D6BF7479CE74699"
 			rewards: [
 				{
@@ -582,6 +696,16 @@
 			]
 			tasks: [{
 				entity: "irons_spellbooks:archevoker"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
 					Count: 1
 					id: "irons_spellbooks:archevoker_helmet"
@@ -600,6 +724,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4The Ancient Knight stands watch where the world has forgotten the reason for the watch in the first place. Moss creeps over his armor, and yet every movement he makes is crisp, practiced, and utterly relentless. He doesn’t taunt or rage; he simply tests us, blow after blow, as if measuring us against some old, impossible standard. If we can best him, it won’t feel like a victory over evil—more like earning the respect of a guardian who was never meant to yield."]
+			entity_vis_size: 1.0f
 			id: "7CDFBC158801FAF9"
 			rewards: [
 				{
@@ -621,6 +746,16 @@
 			]
 			tasks: [{
 				entity: "irons_spellbooks:citadel_keeper"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "irons_spellbooks:armor_pile"
 				id: "1293E604EB1D4976"
 				type: "kill"
@@ -633,6 +768,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4The Dead King rules a kingdom of dust and silence, seated on a throne of cracked stone and rusted crowns. His armor is ancient, but death has made him patient and terribly strong; every blow he takes rings like a funeral bell. Around him, ghostly knights repeat their last charges, spectral lines of cavalry breaking and reforming in endless loops. To end his reign, we’ll have to break the pattern—shatter the ritual of his unlife and topple the throne that keeps him from rest."]
+			entity_vis_size: 1.0f
 			id: "0C0E8CD401D8DF87"
 			rewards: [
 				{
@@ -657,6 +793,16 @@
 			size: 1.15d
 			tasks: [{
 				entity: "irons_spellbooks:dead_king"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
 					Count: 1
 					id: "irons_spellbooks:gold_crown"
@@ -675,6 +821,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4The Necromancer treats death like a resource, not an ending. He decorates his lairs with bones not out of vanity, but convenience, like tools for his next spell. Unlike the Bonescallers, he delights in experimentation, stitching together horrors from mismatched parts and giving them grotesque new purpose. Taking him down will mean fighting through creations that should not exist, all while he laughs and carves new sigils into the air with every heartbeat."]
+			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:plagued_helmet"
@@ -710,6 +857,16 @@
 			]
 			tasks: [{
 				entity: "irons_spellbooks:necromancer"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
 					Count: 1
 					id: "reliquary:mob_charm_fragment"
@@ -728,6 +885,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4Fire and ice shouldn’t work together, but these two make it an art. The Pyromancer bathes the field in searing heat, turning cover to ash, while the Cryomancer steals that same heat away, locking flame and foe alike in jagged prisons of frost. We watched them toy with a band of marauders, freezing them in place before shattering their defenses with roaring firestorms. If we rush one, the other will punish us; we’ll have to dance between extremes, using their own chaos against them."]
+			entity_vis_size: 1.0f
 			id: "12B8E3E586F259E2"
 			rewards: [
 				{
@@ -767,6 +925,16 @@
 			tasks: [
 				{
 					entity: "irons_spellbooks:pyromancer"
+					entity_use_tag: false
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: {
 						Count: 1
 						id: "irons_spellbooks:pyromancer_helmet"
@@ -780,6 +948,16 @@
 				}
 				{
 					entity: "irons_spellbooks:cryomancer"
+					entity_use_tag: false
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: {
 						Count: 1
 						id: "irons_spellbooks:cryomancer_helmet"
@@ -799,6 +977,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4The Echo of Tyros isn’t truly alive; it’s a memory made manifest, a lingering afterimage of some great champion or tyrant. Its form flickers, half-solid, half-light, attacks phasing through walls and sometimes through us. When it speaks, its voice overlaps itself, as if we’re hearing every version of Tyros across time at once. To silence the Echo, we’ll have to unravel the story it’s trapped in, striking not just at its body but at the pattern that keeps recalling it to the world."]
+			entity_vis_size: 1.0f
 			id: "2353722DBB8200E7"
 			rewards: [
 				{
@@ -832,6 +1011,7 @@
 		{
 			dependencies: ["30784E3952DDFD84"]
 			description: ["&4The Masked Hunter is a horrible beast that appears to be a somewhat recent arrival to this land, and quite frankly, we’d all be better off without them. If you’re near the forest, they’ll make themselves known with their ear-piercing screech, but don’t take them for simple creatures. They’re crafty and sadistic, staying out of sight and setting up traps in order to ensnare and torment any being unfortunate enough to be spotted by them. In addition to their long claws, they also employ poisoned knives in order to whittle down their prey. Be on your guard when pursuing them."]
+			entity_vis_size: 1.0f
 			id: "7EA94EAAF138DFFE"
 			rewards: [
 				{
@@ -861,6 +1041,16 @@
 			size: 1.15d
 			tasks: [{
 				entity: "the_deep_void:masked_hunter"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "the_deep_void:head_of_the_hunter"
 				id: "01B260B507619242"
 				type: "kill"
@@ -879,6 +1069,7 @@
 				""
 				"Minor coastal structure near ocean shorelines."
 			]
+			entity_vis_size: 1.0f
 			id: "14A7ED9BD35A8F02"
 			rewards: [
 				{
@@ -923,6 +1114,7 @@
 				""
 				"A small, plains-spawned campsite structure that can spawn enemies and contain basic loot."
 			]
+			entity_vis_size: 1.0f
 			id: "4173A4839729CE17"
 			rewards: [
 				{
@@ -960,6 +1152,7 @@
 				""
 				"Underground fiery mine structure with hostile spawns and loot."
 			]
+			entity_vis_size: 1.0f
 			id: "629DB46306A07CC5"
 			rewards: [
 				{
@@ -998,6 +1191,7 @@
 				""
 				"A surface well structure, jump in for a suprise."
 			]
+			entity_vis_size: 1.0f
 			icon: "minecraft:cauldron"
 			id: "5869FB26BB752DC4"
 			rewards: [{
@@ -1023,6 +1217,7 @@
 				""
 				"A large surface structure with multiple levels, overgrown with vegetation and filled with enemies."
 			]
+			entity_vis_size: 1.0f
 			id: "101BF66F49C4B652"
 			rewards: [
 				{
@@ -1067,6 +1262,7 @@
 				""
 				"Floating airship structure high above ground with aerial mobs and valuable loot."
 			]
+			entity_vis_size: 1.0f
 			id: "0F0DEBC4F752BA53"
 			rewards: [
 				{
@@ -1104,6 +1300,7 @@
 				""
 				"End-dimension fortress structure filled with very difficult foes and great loot."
 			]
+			entity_vis_size: 1.0f
 			id: "5DB770DBC1D71175"
 			rewards: [
 				{
@@ -1143,6 +1340,7 @@
 				""
 				"I am unaware of what happened to this hunter. It seems his party left in a hurry in an attack and left behind some of their belongings, such as a journal with scattered notes and scrambled writings. I don't think they have perished yet, but I haven't seen them anywhere."
 			]
+			entity_vis_size: 1.0f
 			id: "7C39BC243F02A0A0"
 			rewards: [{
 				id: "5180F87A5F970384"
@@ -1150,6 +1348,15 @@
 				type: "item"
 			}]
 			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "bountiful:bountyboard"
 				id: "5CA935E79EFA3D58"
 				observe_type: 0

@@ -1,3 +1,6 @@
+//priority: 500
+//requires: emixx
+
 EmiPlusPlusEvents.registerGroups(event => {
     //event.register("concatenation:facades", "ae2:facade")
     event.register("concatenation:botany_pots", "#botanypots:all_botany_pots")
