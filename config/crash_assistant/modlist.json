@@ -485,21 +485,8 @@
     "curseForgeHash": 1505066646,
     "modrinthHash": "2b42f5b6f52dbd176719dee906bdcd1857bd843d"
   },
-<<<<<<< HEAD
-  "civilis_technology-1.0.1-universal-1.20.1.jar": {
-    "jarName": "civilis_technology-1.0.1-universal-1.20.1.jar",
-=======
-  "civilis_minecolonies-1.0.4-universal-1.20.1.jar": {
-    "jarName": "civilis_minecolonies-1.0.4-universal-1.20.1.jar",
-    "modId": "civilis_minecolonies",
-    "name": "Civilis Minecolonies Compat",
-    "version": "1.0.4",
-    "curseForgeHash": 165021737,
-    "modrinthHash": "a70b0f373a7761671f9e3e530d8a15955c566138"
-  },
   "civilis_technology-1.0.2-universal-1.20.1.jar": {
     "jarName": "civilis_technology-1.0.2-universal-1.20.1.jar",
->>>>>>> origin/main
     "modId": "civilis_technology",
     "name": "Civilis Technology",
     "version": "1.0.2",
@@ -846,14 +833,6 @@
     "version": "1.20.1-1.3.3",
     "curseForgeHash": 3687173912,
     "modrinthHash": "c7d464c451fdc2979bc29a67d7eec2a30858af12"
-  },
-  "createbetterfps-1.20.1-1.1.2.jar": {
-    "jarName": "createbetterfps-1.20.1-1.1.2.jar",
-    "modId": "createbetterfps",
-    "name": "CreateBetterFps",
-    "version": "1.1.2",
-    "curseForgeHash": 2685494447,
-    "modrinthHash": "e3906e1b5cc33ad9ff930fc65b316564a3059fbf"
   },
   "createbigcannons-5.11.2-mc.1.20.1-forge.jar": {
     "jarName": "createbigcannons-5.11.2-mc.1.20.1-forge.jar",
@@ -1319,21 +1298,8 @@
     "curseForgeHash": 2478382749,
     "modrinthHash": "1bc2a017122a70b043e22b5f709c9de500262542"
   },
-<<<<<<< HEAD
-  "ftb-library-forge-2001.2.12.jar": {
-    "jarName": "ftb-library-forge-2001.2.12.jar",
-=======
-  "ftb-essentials-forge-2001.2.4.jar": {
-    "jarName": "ftb-essentials-forge-2001.2.4.jar",
-    "modId": "ftbessentials",
-    "name": "FTB Essentials",
-    "version": "2001.2.4",
-    "curseForgeHash": 3908435669,
-    "modrinthHash": "4f898578e3cc321397dbc59a0c44e2927000bd32"
-  },
   "ftb-library-forge-2001.2.13.jar": {
     "jarName": "ftb-library-forge-2001.2.13.jar",
->>>>>>> origin/main
     "modId": "ftblibrary",
     "name": "FTB Library",
     "version": "2001.2.13",
@@ -2001,14 +1967,6 @@
     "curseForgeHash": 841420877,
     "modrinthHash": "e0942d396a70c09038e6c2e5e1da6505178249b8"
   },
-  "MelonShaderCycler-1.3.5.jar": {
-    "jarName": "MelonShaderCycler-1.3.5.jar",
-    "modId": "shadercycler",
-    "name": "Melon Shader Cycler",
-    "version": "1.3.5",
-    "curseForgeHash": 948844490,
-    "modrinthHash": "fd8bee2f49183ac8abb63c9d07564e0f239b4262"
-  },
   "mexposed-1.20.1-1.0.1.jar": {
     "jarName": "mexposed-1.20.1-1.0.1.jar",
     "modId": "mexposed",
@@ -2257,17 +2215,6 @@
     "curseForgeHash": 1956610132,
     "modrinthHash": "1da5744853d17979033d5ee3cd4251b8340ea7be"
   },
-<<<<<<< HEAD
-=======
-  "particular-1.20.1-Forge-1.5.5.jar": {
-    "jarName": "particular-1.20.1-Forge-1.5.5.jar",
-    "modId": "particular",
-    "name": "Particular Reforged",
-    "version": "1.5.5",
-    "curseForgeHash": 2366778636,
-    "modrinthHash": "e3017bc0fda90f90cf55c96fa020b52420d8c80e"
-  },
->>>>>>> origin/main
   "Patchouli-1.20.1-85-FORGE.jar": {
     "jarName": "Patchouli-1.20.1-85-FORGE.jar",
     "modId": "patchouli",
@@ -2625,25 +2572,6 @@
     "curseForgeHash": 3171281796,
     "modrinthHash": "ed5a23ec30c90fd06b3f1d8140614028e1fafaee"
   },
-<<<<<<< HEAD
-=======
-  "SereneSeasons-forge-1.20.1-9.1.0.3.jar": {
-    "jarName": "SereneSeasons-forge-1.20.1-9.1.0.3.jar",
-    "modId": "sereneseasons",
-    "name": "Serene Seasons",
-    "version": "9.1.0.3",
-    "curseForgeHash": 3093354249,
-    "modrinthHash": "e553c2a50dc08d7b8b2aee6da1db0dc156fe961a"
-  },
-  "sereneseasonsfix-1.20.2-1.1.1.0.jar": {
-    "jarName": "sereneseasonsfix-1.20.2-1.1.1.0.jar",
-    "modId": "sereneseasonsfix",
-    "name": "Serene Seasons Fix",
-    "version": "1.1.1.0",
-    "curseForgeHash": 3474390785,
-    "modrinthHash": "a3eac70c904b86ca496665e081dd555e01d409e8"
-  },
->>>>>>> origin/main
   "seriousplayeranimations-1.1.1.jar": {
     "jarName": "seriousplayeranimations-1.1.1.jar",
     "modId": "seriousplayeranimations",
