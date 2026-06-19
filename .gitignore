@@ -23,6 +23,7 @@ logs
 *.log
 backups
 /config/spark
+bandwidthoptimizer-native
 
 # various config, caches, etc
 modernfix

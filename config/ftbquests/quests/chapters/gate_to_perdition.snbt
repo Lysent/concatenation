@@ -21,6 +21,7 @@
 				"{@pagebreak}"
 				"&a(The next quests are hidden until you complete the next ones)&r"
 			]
+			entity_vis_size: 1.0f
 			icon: "concatenationcore:broken_rift_blade"
 			id: "2506899A5890205D"
 			rewards: [{
@@ -29,6 +30,15 @@
 				xp_levels: 1
 			}]
 			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "strangematter:containment_capsule_gravity"
 				id: "3A09F9401253A4A7"
 				observe_type: 5
@@ -44,6 +54,7 @@
 		{
 			dependencies: ["2506899A5890205D"]
 			description: ["&2Perhaps it is in another dimension - the end that I may find answers? Or maybe substitutes can do the trick. While waiting for a full moon, I can always hunt down an enderman, take their skull and dissect it for a clue. I'll have to borrow my Tinkerer friend's cleaver for this.&r"]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: false
 			id: "70F04E6D5DF827D1"
 			rewards: [{
@@ -85,6 +96,7 @@
 		{
 			dependencies: ["2506899A5890205D"]
 			description: ["&2There are still remnants of these dimensional rifts in the old world. Perhaps I should investigate the stone itself for clues?&r"]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: false
 			id: "4E39E9390716E9BA"
 			rewards: [{
@@ -115,6 +127,7 @@
 		{
 			dependencies: ["2506899A5890205D"]
 			description: ["&2Fabric! Fabric! Fabric! Yes, yes, yes, this is what I need! I can only take a look at the closest thing that ressembles otherwordly fabric though.&r"]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: false
 			id: "6683DAA505FE70B2"
 			rewards: [{
@@ -144,6 +157,7 @@
 		{
 			dependencies: ["4E39E9390716E9BA"]
 			description: ["&2All of the previous rift blades shattered, and people have largely forgotten how to make them. I think it might be like this. These materials look close enough. I'll try making another rift blade myself.&r"]
+			entity_vis_size: 1.0f
 			id: "0DED704791B360E1"
 			rewards: [{
 				id: "42E9222B7A8A0364"
@@ -173,6 +187,7 @@
 		{
 			dependencies: ["6683DAA505FE70B2"]
 			description: ["&2I've seen the image of crimson cloth in a Reliquerer's book before. It seems special... Maybe I can investigate this next? It looks soft...&r"]
+			entity_vis_size: 1.0f
 			id: "5CE9C6ECB42E22FB"
 			rewards: [{
 				id: "079C5A79C55A1580"
@@ -200,6 +215,7 @@
 		{
 			dependencies: ["5CE9C6ECB42E22FB"]
 			description: ["&2The crimson cloth yielded no important research, it's just fabric. Next, perhaps I could take take my research to academic studies. I have to get my hands on a worn notebook! It's so old, so it should have knowledge of dimensions before the shattering, right?&r"]
+			entity_vis_size: 1.0f
 			id: "26EF74B1DFA8036F"
 			rewards: [{
 				count: 3
@@ -219,6 +235,7 @@
 		{
 			dependencies: ["70F04E6D5DF827D1"]
 			description: ["&2This tablet is odd. It's not like the pyrite tablet we write our occult callings on. It's glowing? And the writings change? And engineers tell me this is technology? Strange, man.&r"]
+			entity_vis_size: 1.0f
 			id: "742178DDE479E5CB"
 			rewards: [{
 				id: "3932612F0C5F3E0D"
@@ -243,6 +260,7 @@
 		{
 			dependencies: ["26EF74B1DFA8036F"]
 			description: ["&2What is this book? It calls to me. Have I been a bad person throughout my life? No? This is an old book that seems to have fallen from another world. It can greatly increase my power, but I can only envision it in my mind. I'll have to physically render it with scrolls and leather.&r"]
+			entity_vis_size: 1.0f
 			icon: "concatenationcore:blood_soaked_fabric"
 			id: "7A0F6E78038E096E"
 			rewards: [{
@@ -298,6 +316,7 @@
 				"70F04E6D5DF827D1"
 			]
 			description: ["&2Meteorite is otherwordly in nature, so a clump of it should be a big enough quantity to analyze. I'll have to borrow some from my Hierophant friend though.&r"]
+			entity_vis_size: 1.0f
 			id: "579C1F64E7465881"
 			rewards: [{
 				count: 3
@@ -317,6 +336,7 @@
 		{
 			dependencies: ["7A681A23C7760093"]
 			description: ["&2The Corvette Steamship is a marvel of engineering, although I'm not sure how to really make one. With this, I can efficiently sail the seas for answers! The ship of my dreams and desires!&r"]
+			entity_vis_size: 1.0f
 			id: "0478373C20BD550A"
 			rewards: [{
 				id: "159199CEA8EE7D19"
@@ -353,6 +373,7 @@
 		{
 			dependencies: ["579C1F64E7465881"]
 			description: ["&2I got it! The undead have the answer! People say dead men tell no tales but that's obviously not true! Look at those ships that have raided countless cities!&r"]
+			entity_vis_size: 1.0f
 			id: "7A681A23C7760093"
 			rewards: [{
 				count: 2
@@ -375,6 +396,7 @@
 				"0DED704791B360E1"
 			]
 			description: ["&2Or perhaps I should investigate arcane debris instead? It is a theorized component of Fortune Fragments after all. Perhaps fate will guide me.&r"]
+			entity_vis_size: 1.0f
 			id: "561BCAD1A8D0C9FD"
 			rewards: [{
 				count: 7
@@ -399,6 +421,7 @@
 				""
 				"&2It seems like I can still use this broken rift blade to randomly teleport myself in a short area. Not very useful though...&r"
 			]
+			entity_vis_size: 1.0f
 			icon: "concatenationcore:broken_rift_blade"
 			id: "440A4A21E04AB25F"
 			rewards: [{
@@ -418,6 +441,7 @@
 		{
 			dependencies: ["742178DDE479E5CB"]
 			description: ["&2Going to the end, I can try to produce some ivory substance. This is quite a dangerous ritual due to the journey it entails, but perhaps I can get answers.&r"]
+			entity_vis_size: 1.0f
 			id: "34F14B1B556BDBD9"
 			rewards: [{
 				id: "3984503DA8551061"
@@ -436,6 +460,7 @@
 		{
 			dependencies: ["5CE9C6ECB42E22FB"]
 			description: ["&2I can see &lEVERYTHING!&r &2I just have to divine the answer as to why the link between our world and limbo closed!&r&r"]
+			entity_vis_size: 1.0f
 			id: "57EE1F9566685598"
 			rewards: [{
 				id: "7CBEC3560CB0139D"
@@ -458,6 +483,7 @@
 				""
 				"&2I know what is all powerful though! A mighty giant sword! It has to be made out of living metal, like the old times! Although, I can't seem to get what this livingmetal material of old is, so I'll substitute it for bloodstained steel.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "4728C1708A84DAF9"
 			rewards: [{
 				id: "1BE97694327320FA"
@@ -496,6 +522,7 @@
 				"{@pagebreak}"
 				"&2Through my experimentation, I have found that small bits of dimensional shards can be turned to netherite by using diamonds or enderpearls as a catalyst. I do believe most elementists already know of this, though.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "3A7470055B794739"
 			rewards: [
 				{
@@ -522,6 +549,7 @@
 		{
 			dependencies: ["3A7470055B794739"]
 			description: ["&2What is this? A divine pearl? But it was divine force that prevented me from opening a rift earlier, wasn't it? I should get my hands on that. Reading books to get information is getting tiring.&r"]
+			entity_vis_size: 1.0f
 			id: "4BFC1FCBDBE2EE6E"
 			rewards: [{
 				count: 3
@@ -541,6 +569,7 @@
 		{
 			dependencies: ["4BFC1FCBDBE2EE6E"]
 			description: ["&2I can weave this pearl, I know for sure this was used in the making of rifts, dimensional doors and other limbo uses. However, without the right knowledge or link to another world, this seems to be useless. Or perhaps I am just not intelligent enough to theorize about its uses?&r"]
+			entity_vis_size: 1.0f
 			id: "3D2BABF4619BDA4F"
 			rewards: [{
 				id: "052A2A02B221FC8A"
@@ -569,6 +598,7 @@
 				"6683DAA505FE70B2"
 			]
 			description: ["&2The sword Kestrel has a similar handle to Rift Blades. I've heard it's also able to teleport. Since people are still using it for travel and it hasn't shattered, perhaps I should procure one for myself for research.&r"]
+			entity_vis_size: 1.0f
 			id: "63CF929506AFDB34"
 			rewards: [{
 				count: 6
@@ -594,6 +624,7 @@
 		{
 			dependencies: ["63CF929506AFDB34"]
 			description: ["&2It's useless! These are two distinct blades, with no link between them. Of course, the rift blade's blade has a greener shade compared to the black of the Kestrel. At least I have one for my personal use now. I'll make some fruit salad...&r"]
+			entity_vis_size: 1.0f
 			icon: "farmersdelight:fruit_salad"
 			id: "5D75B69CDCBEDDBC"
 			rewards: [{
@@ -613,6 +644,7 @@
 		{
 			dependencies: ["561BCAD1A8D0C9FD"]
 			description: ["&2No success! While not linked to limbo, I have found out through experimenting that Netherite is considered unbreakable to holders of the Magician Card! I guess it's because it contains gold inside?&r"]
+			entity_vis_size: 1.0f
 			id: "48BE394A817F29FF"
 			rewards: [{
 				count: 4
@@ -634,6 +666,7 @@
 		{
 			dependencies: ["34F14B1B556BDBD9"]
 			description: ["&2No luck in figuring out anything dimensional with ivory or ebony substance. One thing I learned though, is that glowing gold can beb produced very easily through rifled spellcasting.&r"]
+			entity_vis_size: 1.0f
 			icon: "concatenationcore:glowing_gold"
 			id: "59A4545D571821B3"
 			rewards: [{
@@ -660,6 +693,7 @@
 				"{@pagebreak}"
 				"&2This is not too useful of a dimension, but perhaps I could recommend that my Hierophant friends go quarrying here instead of destroying the world constantly. I did find this travel journal lately. To the next one who finds it, I will stick a little note for you!&r"
 			]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "6C15F8C95DCDFB7E"
@@ -705,6 +739,7 @@
 				"3D2BABF4619BDA4F"
 			]
 			description: ["An enhancement to the idea of a weapon that slices through the metaphysical, this blade will allow you to make use of the old art of dimensional doors. Beware, though, it seems the alternate plane these doors channel through has suffered some kind of damage since the old days... It's best if you stick to bridging locations outside of the eerie black void, unless you intend to banish people to limbo."]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "3EA4408A8F86B825"
@@ -721,6 +756,7 @@
 		{
 			dependencies: ["3EA4408A8F86B825"]
 			description: ["Sometimes there are rifts. Sometimes those rifts are undesireable."]
+			entity_vis_size: 1.0f
 			id: "2480B881634C80B7"
 			tasks: [{
 				id: "2F27CCB78C503376"
@@ -734,6 +770,7 @@
 		{
 			dependencies: ["3EA4408A8F86B825"]
 			description: ["These tools allow you to bridge two points in space, forming a rift between them, which you can then stabilise into proper channels using dimensional doors. Rift signatures also seem to be affected by enchantments, which may allow you to make them last a little longer."]
+			entity_vis_size: 1.0f
 			id: "5C35A413987F2EC6"
 			tasks: [{
 				id: "2DF35B5D800E6DE1"
@@ -751,6 +788,7 @@
 				"{@pagebreak}"
 				"&2While trying to tear open a rift in the End, I was teleported above the void and fell. I thought it was the end for me! Fortunately (or unfortunately, depending on how you look at it), I found myself in a landscape consisting of corpses! I quickly teleported back to a waypoint I had set for myself; who knows what terrible things are living there!"
 			]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "08A77DC76CA4CD87"
 			rewards: [{
@@ -781,6 +819,7 @@
 				"{@pagebreak}"
 				"&2The two main ways of entering Purgatory remain the Halcyon sword, which can be crafted by either those who have entered Purgatory themselves, or those who scavenged enough anomalous or elemental parts to make an artificial Halcyon, such as the researchers of the Prudence Pathway or the elementists of the Magician Pathway. The second is to drink a planeswalker potion, made by the witches of Temperance.&r"
 			]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "063E19D727E344F1"
 			invisible: true
@@ -809,6 +848,7 @@
 				""
 				"&2Selenite has been theorized to be the antithesis to Corruptite, therefore artificial selenite can be made from corruptite rather easily.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "744FAFE8E9E3222C"
 			rewards: [{
 				count: 4
@@ -831,6 +871,7 @@
 				""
 				"&2However, limbo berries can only be grown in Purgatory, reacting violently with incompatibility when grown in other dimensions. Perhaps someone could find a way to grow them back home... I think elementists have the drive to figure out a way..&r"
 			]
+			entity_vis_size: 1.0f
 			icon: "perdition:limbo_berries"
 			id: "7F142F16CEB3F2BC"
 			rewards: [{
@@ -865,6 +906,7 @@
 				""
 				"&2It has the special ability of being able to swatting away the weather in Dis.&r"
 			]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: false
 			id: "74D57E22FB028173"
 			rewards: [{
@@ -906,6 +948,7 @@
 				""
 				"&2Resin can be broken from the inside of petrified logs, from the inside of scintillating keystones, or more rarely, by splitting open an uncut Dis gem with lightning."
 			]
+			entity_vis_size: 1.0f
 			id: "366257C485C91809"
 			rewards: [{
 				count: 4
@@ -928,6 +971,7 @@
 				""
 				"&2There are may ways to process scintillating keystones to produce more dust. Breaking the keystone simply yields little, while careful breaking can produce more of the delicate material. With a method of silk touch, the keystone can be thrown into water to produce on average six full dusts.&r"
 			]
+			entity_vis_size: 1.0f
 			icon: "perdition:scintillating_dust"
 			id: "6D14C091169DFCF5"
 			rewards: [{
@@ -956,6 +1000,7 @@
 		{
 			dependencies: ["063E19D727E344F1"]
 			description: ["&2These pearls were once woven with the use of rift blades. However, as these blades are no longer in use, the Halcyon sword can serve as a great alternative to weave pearls, albeit they do not seem to have the same potency as their previous counterparts and thus have lesser use cases.&r"]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "6720B17A072F72A0"
 			rewards: [{
@@ -977,6 +1022,7 @@
 				"6720B17A072F72A0"
 			]
 			description: ["&2Moon dust can be formed by melting a woven pearl with surrounding scincillating dust.&r"]
+			entity_vis_size: 1.0f
 			id: "3EF9889808839F07"
 			rewards: [{
 				id: "386BE6F724220EC0"
@@ -1003,6 +1049,7 @@
 				"3EF9889808839F07"
 			]
 			description: ["&2Demonite gravel can be produced by mixing some of Purgatory's earth with moon dust. It must be processed in an alchemical reaction chamber to be turned into hellforged ingots.&r"]
+			entity_vis_size: 1.0f
 			id: "32B51219253BDC23"
 			rewards: [{
 				id: "1ACE7CA58AE966B6"
@@ -1024,6 +1071,7 @@
 				""
 				"&2These are silver and pyrite ore, both equally useful when smelted into silver and witch's gold. While witch's gold may only be more useful to witches, silver is useful to all pathways, from technology to magic.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "64C5A9EB5083A520"
 			rewards: [{
 				id: "6ABA44BA47CBE5E4"
@@ -1049,6 +1097,7 @@
 		{
 			dependencies: ["64C5A9EB5083A520"]
 			description: ["&2Swift alloy nuggets can be made from witch's gold and chrono shards.&r"]
+			entity_vis_size: 1.0f
 			id: "144D573939DC382B"
 			rewards: [{
 				id: "016BD161C0710E01"
@@ -1071,6 +1120,7 @@
 				""
 				"&2Dis gems, as per their names, are most commonly found in Dis, where they can appear as a rare gem.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "5EE6AE43F9620AB2"
 			rewards: [{
 				count: 4
@@ -1088,6 +1138,7 @@
 		}
 		{
 			dependencies: ["7FE36C7E48D2715B"]
+			entity_vis_size: 1.0f
 			id: "46F134472373EB87"
 			tasks: [{
 				id: "6D402AEA3C1790AD"
@@ -1104,6 +1155,7 @@
 				""
 				"&2This blackened resin can be combined with corruptite to make a rough, strange compound that has several uses.&r"
 			]
+			entity_vis_size: 1.0f
 			id: "7FE36C7E48D2715B"
 			rewards: [{
 				id: "0AA20B650AF99A0A"
@@ -1122,6 +1174,7 @@
 		{
 			dependencies: ["063E19D727E344F1"]
 			description: ["&2Tau Crosses can be interpreted as the trees of Purgatory. It is theorized that the petrified planks and logs were originally made from either birch or spruce, decaying over time. However, things don't seem to decay as usual in Purgatory.&r"]
+			entity_vis_size: 1.0f
 			id: "1759E39E63C7169A"
 			rewards: [{
 				id: "460388807351854F"
@@ -1147,6 +1200,7 @@
 		{
 			dependencies: ["5EE6AE43F9620AB2"]
 			description: ["&2The Dis Crown can be worn to dampen the effects of inter-dimensional travel. No more do we need to carry buckets of milk everywhere!"]
+			entity_vis_size: 1.0f
 			id: "1A515F6225562D0D"
 			tasks: [{
 				id: "52900DD96A086143"
@@ -1171,6 +1225,7 @@
 				"{@pagebreak}"
 				"All of the quests are hidden at the start and you must complete them to unlock the subsequent quest."
 			]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "concatenationcore:experienced_paper"
