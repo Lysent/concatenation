@@ -18,6 +18,7 @@
 				""
 				"&a(Quests are hidden until the quest before is completed.)&r"
 			]
+			entity_vis_size: 1.0f
 			id: "19A7CECC24F6CA41"
 			rewards: [{
 				id: "290BA6000AE040C3"
@@ -39,6 +40,7 @@
 		{
 			dependencies: ["19A7CECC24F6CA41"]
 			description: ["&4A few Blizz can sometimes be seen throughout the year, but they are the deadliest and blend into the environment the most during Winter. As a result, during the cold months, it is not only technicians that place bounties on blizzes, but also the town itself to endure safe holidays."]
+			entity_vis_size: 1.0f
 			id: "5747772024A17863"
 			rewards: [{
 				count: 5
@@ -58,6 +60,7 @@
 		{
 			dependencies: ["19A7CECC24F6CA41"]
 			description: ["&4The little ones wanted iron golems around the village last time, but now they want friends to aid in their snowball wars. Apparently it's full on wars now? One side has a full on fort and the other built an ice cannon? That will aid them when they grow up to be hunters or adventurers."]
+			entity_vis_size: 1.0f
 			id: "3C299E51CCFC9DDB"
 			rewards: [{
 				id: "2F83734283F0D767"
@@ -89,6 +92,7 @@
 				"{@pagebreak}"
 				"&4Snow shoveling is a bane even to those rich folks, but it's truly the bane of any building in construction. Snow keeps piling up and the roof's not even done! The worst is when water for fields keep freezing over! One fancy trick was to put a fence or a slab into the water, which moves the water enough to not freeze?"
 			]
+			entity_vis_size: 1.0f
 			id: "1E1464F311707EF7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -112,6 +116,7 @@
 				"00C1976AC8C97EA6"
 			]
 			description: ["&4We found nothing but these \"henchmen\" that seem to be of his same species. We found this strange dark ice they were carrying, though. Strange, does it hold value?"]
+			entity_vis_size: 1.0f
 			id: "341A26E25D267BE9"
 			rewards: [{
 				id: "0A3F4D138975A570"
@@ -120,6 +125,16 @@
 			}]
 			tasks: [{
 				entity: "born_in_chaos_v1:krampus_henchman"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
 					Count: 1
 					id: "born_in_chaos_v1:frostbitten_blade"
@@ -137,6 +152,7 @@
 		{
 			dependencies: ["1E1464F311707EF7"]
 			description: ["&4A good Christmas tree needs presents under it! That's what takes the most effort and care! Now, what could I gift? Well first, I might need the wrapping for the presents."]
+			entity_vis_size: 1.0f
 			id: "084C8D46CC7DD5E7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -172,6 +188,7 @@
 		{
 			dependencies: ["1E1464F311707EF7"]
 			description: ["&4A little prank doesn't do harm to anyone, does it? This glacial explosive I saw at the general store earlier looks like a present! I'm sure I can fool my friends with that. They'll have a glacial surprise!"]
+			entity_vis_size: 1.0f
 			id: "3BCCC7AE9A44AF75"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -195,6 +212,7 @@
 				""
 				"&4Why dark oak? It's not even the right climate! I have to go all the way to a stupid dark forest, in winter! And it's so far away!"
 			]
+			entity_vis_size: 1.0f
 			id: "6EE59014C3A6B6EA"
 			rewards: [{
 				count: 2
@@ -236,6 +254,7 @@
 				""
 				"&4Spruce is obviously the better material! Spruce pines are made of.. well, spruce! They're winter resistant and are more commonly found! No need to waste good dark furniture wood when making a Christmas tree!"
 			]
+			entity_vis_size: 1.0f
 			id: "040224FAA0005344"
 			rewards: [{
 				count: 2
@@ -276,6 +295,7 @@
 				"084C8D46CC7DD5E7"
 			]
 			description: ["&4I found this little squirrel born from magical energy in a blue forest temming with giant centennial trees while I was out hunting some pigs to make a good feast. As it's the season of giving, I gave the little guy a gold nugget but poof! He dissapeared! I hope I didn't accidentally kill him..."]
+			entity_vis_size: 1.0f
 			id: "524BE6AB74EEA53E"
 			rewards: [{
 				id: "4FC929C82C8C1D15"
@@ -304,6 +324,7 @@
 				""
 				"&4I was looking for some objects to make Christmas ball ornaments for the tree and I found my way to a strange high-tech cube-sized room in the ground with these weird machines that seemed alive? How odd, their fabrication serial number is in the future. I got these cool lamps, though. I think I can sculpt them into good ornaments."
 			]
+			entity_vis_size: 1.0f
 			id: "2A00EDA981081010"
 			rewards: [{
 				id: "4FE1B0448831BB2F"
@@ -325,6 +346,7 @@
 		{
 			dependencies: ["2A00EDA981081010"]
 			description: ["&4Obviously, the only sensical star for the tree is a Nether Star! Well, I might have to pay a small fortune or fight a terrifying Wither for it, but at least I can reuse it after the holidays are over..."]
+			entity_vis_size: 1.0f
 			id: "52720D9F658C62FF"
 			rewards: [{
 				id: "0BBAACBA8EC45EFC"
@@ -350,6 +372,7 @@
 		{
 			dependencies: ["19A7CECC24F6CA41"]
 			description: ["&4I received a regular seasonal bounty this time for the holidays. Clearing out the surroundings of the village for the holiday festivities. It's actually kind of hard to meet the quota since I must go out further to find the monsters that haven't been hunted yet."]
+			entity_vis_size: 1.0f
 			id: "5A4AB38047A3E969"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -371,6 +394,7 @@
 		{
 			can_repeat: true
 			dependencies: ["4C3F05C8A5C4F4CE"]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "04CE86C5153E81CA"
 			rewards: [{
@@ -402,6 +426,7 @@
 			]
 			dependency_requirement: "one_started"
 			description: ["&4It's time for a fight! A local archmage told of us of a recipe we can use to cook a fabled \"Candy Cane of Doom\", which not only will summon Krampus, but a whole special bossfight! I'm excited! The dark ice we found even was one of the rare ingredients needed! Now, let's group up and defeat this foe!"]
+			entity_vis_size: 1.0f
 			id: "4C3F05C8A5C4F4CE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -430,6 +455,7 @@
 				"00C1976AC8C97EA6"
 			]
 			description: ["&4No hope, we went all the way to the ice spikes just to get a glimpse of Krampus and we found nothing! We found this strange dark ice, though. Never seen it before."]
+			entity_vis_size: 1.0f
 			id: "6BB028FFC3B6EED7"
 			rewards: [{
 				id: "3C5EBB345EE8219D"
@@ -449,6 +475,7 @@
 		}
 		{
 			dependencies: ["4C3F05C8A5C4F4CE"]
+			entity_vis_size: 1.0f
 			id: "534880633BBBA4FE"
 			rewards: [{
 				id: "29E588FC7E8398D6"
@@ -458,6 +485,16 @@
 			size: 1.1d
 			tasks: [{
 				entity: "born_in_chaos_v1:krampus"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "born_in_chaos_v1:krampus_horn"
 				id: "560F8A2A6B169C30"
 				type: "kill"
@@ -469,6 +506,7 @@
 		}
 		{
 			dependencies: ["534880633BBBA4FE"]
+			entity_vis_size: 1.0f
 			id: "4AF8497DB3EC5D28"
 			rewards: [{
 				id: "3402E5563309E2FB"
@@ -491,6 +529,7 @@
 		}
 		{
 			dependencies: ["534880633BBBA4FE"]
+			entity_vis_size: 1.0f
 			id: "7F22072C69688845"
 			rewards: [{
 				id: "777F41F698841CA9"
@@ -513,6 +552,7 @@
 		}
 		{
 			dependencies: ["534880633BBBA4FE"]
+			entity_vis_size: 1.0f
 			id: "2CB49AC5EA0B6ED9"
 			rewards: [{
 				id: "1B01375746EF8795"
@@ -531,6 +571,7 @@
 		{
 			dependencies: ["52720D9F658C62FF"]
 			description: ["&4I need to set a good ambiance for the Christmas party! But I've already tried 3 of the music disks I had and none of them seem to match. Bummer. I think I'll go to that antique shop I saw to try and get a matching music disk. Hopefully they're not closed on Christmas Eve."]
+			entity_vis_size: 1.0f
 			id: "148907188827F94E"
 			rewards: [{
 				id: "1BEF5F082CD66074"
@@ -551,6 +592,7 @@
 		{
 			dependencies: ["4BD45EE2B9A19E40"]
 			description: ["&4There is nothing better than a good old holiday feast when you get back home! It's even better when you share it with the family!"]
+			entity_vis_size: 1.0f
 			id: "6ACEC559B41750DE"
 			rewards: [{
 				id: "2BE240191B3304DC"
@@ -570,6 +612,7 @@
 		{
 			dependencies: ["3C299E51CCFC9DDB"]
 			description: ["&4Ice sculptures are fun to make, but they require a model. At least that's what one of the artists in the village told me. They asked me if I could get them enough quartz to make a stone statue. I wonder if the base under the ice is made from stone and that's how they make those ice statues. No, then we wouldn't be able to see through them."]
+			entity_vis_size: 1.0f
 			id: "1201514D1CAB216D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -594,6 +637,7 @@
 				"08FEEBB1C86D2B06"
 			]
 			description: ["&4After the celebrations, I went to the big village Christmas tree. There, I saw a little plushie that seemed to have been abandoned. There's no more gifts there, after all. It's been 2 days. And I know for a fact this plush seems to be quite old, it definitely has some wear and tear. I think I know who this plush represents."]
+			entity_vis_size: 1.0f
 			id: "7F462FE4BE00B3CF"
 			rewards: [{
 				id: "79646BA7F1B48FAB"
@@ -615,6 +659,7 @@
 		{
 			dependencies: ["1201514D1CAB216D"]
 			description: ["&4Exotic fruits are unsurprisingly quite expensive during the winter seasons, but some mages just crave the sugar. I've received a bounty to retrieve a flashpine, as their amount of magical power prevents them from freezing over in the cold. Surely, I'll find one, eventually."]
+			entity_vis_size: 1.0f
 			id: "4BD45EE2B9A19E40"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -634,6 +679,7 @@
 		{
 			dependencies: ["5747772024A17863"]
 			description: ["&4Frozen melon is a strange delicacy that Technicians often produce solely for winter festivities. It's a bit of a mystery as to why they bring frozen melons of all things. Couldn't they bring hotter meals? We're freezing out here!"]
+			entity_vis_size: 1.0f
 			id: "5F646D98EF273F9F"
 			rewards: [{
 				count: 16
@@ -652,6 +698,7 @@
 		{
 			dependencies: ["5747772024A17863"]
 			description: ["&4We hunt all kinds of monster around. Why don't we eat them? Yes, I guess that people see that as cheap, and the taste isn't great, but isn't it satisfying to eat something that you caught yourself? I do have to agree it's not the most festive of holiday snacks but I have to do something with the leftovers I got."]
+			entity_vis_size: 1.0f
 			id: "7EC252E67A4E9969"
 			rewards: [{
 				count: 16
@@ -670,6 +717,7 @@
 		{
 			dependencies: ["5F646D98EF273F9F"]
 			description: ["&4Everyone needs a good relaxation time after falling in powdered snow for a good day and 2 hours. I wonder what I have in my pantry once I get back home. Is it jam, mint tea, or juice I made of those gross berries I found in the dark?"]
+			entity_vis_size: 1.0f
 			id: "2305A64957A67DA9"
 			rewards: [{
 				id: "6E9335CF6748384D"
@@ -714,6 +762,7 @@
 		{
 			dependencies: ["5A4AB38047A3E969"]
 			description: ["&4Some little ones are afraid of the big bad Krampus. They leave up cookies and milk for him at night so that he may devour those instead of them."]
+			entity_vis_size: 1.0f
 			id: "5FC14361C9433970"
 			rewards: [{
 				id: "2773B1B67B784645"
@@ -738,6 +787,7 @@
 		{
 			dependencies: ["5A4AB38047A3E969"]
 			description: ["&4Me and my battle buddies, we don't fear no Krampus! In fact, we're going on a hunt! Krampus is no legend, he is very real and is rumored to appear in the winter months. Well, let's go find him! Let's eat all of the gingerbread in the world to summon him!"]
+			entity_vis_size: 1.0f
 			id: "00C1976AC8C97EA6"
 			tasks: [{
 				consume_items: true
@@ -755,6 +805,7 @@
 				""
 				"&4Eventually, he even decided to enchant a bottle with his buddies on an altar and it turned magical! Legends say these few maple syrup bottles contain unlimited liquid as long as you take just a little sip. It probably has some other powerful side effects as well!"
 			]
+			entity_vis_size: 1.0f
 			id: "4BF1023161909A8E"
 			rewards: [{
 				id: "7CB5DF9CF4EC4F62"
@@ -777,6 +828,7 @@
 		{
 			dependencies: ["52720D9F658C62FF"]
 			description: ["&4I love cooking! And I have a warrior friend who also does! I know, I'll gift him a Netherite knife! This way, he'll never have to worry about running out of knives or overcooked meat! I wonder what his gift will be..."]
+			entity_vis_size: 1.0f
 			id: "5BFA02876229B534"
 			rewards: [{
 				count: 48
@@ -802,6 +854,7 @@
 		{
 			dependencies: ["52720D9F658C62FF"]
 			description: ["&4My cartographer friend in my party has always been looking for some rare ink to complete his globe. Perhaps I should get one, I've seen it at the antique shop! I wonder what his gift will be..."]
+			entity_vis_size: 1.0f
 			id: "6F188A4AC61960A6"
 			rewards: [{
 				id: "02E6BD066C258CBC"
@@ -825,6 +878,7 @@
 		{
 			dependencies: ["52720D9F658C62FF"]
 			description: ["&4My archer friend likes setting stuff on fire, what if I got him something that's a bit stronger than just a flint and brick? Haha, kidding. But what if I did? He could have flaming arrows all day! I wonder what his gift will be..."]
+			entity_vis_size: 1.0f
 			id: "40FA8C73477F2AA6"
 			rewards: [{
 				id: "022D4B6B2626A239"
@@ -877,6 +931,7 @@
 		{
 			dependencies: ["52720D9F658C62FF"]
 			description: ["&4For my engineer friend, I think I'll gift her a witch hat. Surely she can melt it in her smeltery to see what it contains. I always wondered what are in those hats witches wear. I wonder what her gift will be..."]
+			entity_vis_size: 1.0f
 			id: "08FEEBB1C86D2B06"
 			rewards: [{
 				id: "7F134426952B7857"

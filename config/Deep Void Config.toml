@@ -139,14 +139,18 @@
 	SmasherSlash = 10.0
 	#Damage
 	SmasherOverhead = 14.0
-	#Cooldown before another can spawn (in ticks)
-	ThrowerCooldown = 100.0
-	#Cooldown before another can spawn (in ticks)
-	SmasherCooldown = 100.0
-	#Cooldown before another can spawn (in ticks)
-	HivemindTentaclesCooldown = 2000.0
-	#Amount healed (per summon in the area)
-	HivemindHeal = 30.0
+	#Amount healed each tick when protected by the hivemind tentacles
+	HivemindHealTentacles = 0.1
+	#Amount healed each tick when digesting a player
+	HivemindHealDigest = 2.0
+	#Damage dealt to the player when they are being digested (ignores i-frames)
+	HivemindDamageDigest = 0.54
+	HivemindBloodSpitDamage = 8.0
+	FleshFangsDamage = 2.0
+	#Damage dealt to the boss when the saw thrower or the skull smasher dies
+	HivemindDamageFromSummon = 10.0
+	#The force with which the hivemind sucks the player in
+	HivemindPullIntensity = 0.028
 
 ["Primordial Bone Crawler"]
 	#Damage
@@ -207,13 +211,6 @@
 	Needlefish = 7.0
 	#Ignores armor
 	TombstoneDoom = 50.0
-	KnifeBandolierFullChargeHit = 25.0
-	#How long it takes before the knife bandolier is fully charged (in ticks)
-	KnifeBandolierTimeBeforeCharge = 30.0
-	#Damage per knife
-	KnifeBandolierKnife = 15.0
-	#Damage in an AOE each tick
-	KnifeBandolierAoe = 40.0
 	NecronomiconRange = 24.0
 	#Damage upon successfully catching an entity
 	TheCatcherInitialDamage = 6.0
@@ -254,6 +251,7 @@
 	BloodyChainsaw = 0.05
 	#Damage (ignores i-frames)
 	DoubleBarrelShotgun = 0.7
+	PerilShowAdrenaline = true
 
 ["Hive's Watcher"]
 	#Damage each tick
