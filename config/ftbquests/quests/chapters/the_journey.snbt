@@ -69,96 +69,6 @@
 			x: 7.5d
 			y: -29.5d
 		}
-		{
-			entity_vis_enabled: true
-			entity_vis_entity: "hrbsdrills:drill"
-			entity_vis_idle_mode: "USE_GLOBAL"
-			entity_vis_offset_x: 0.0f
-			entity_vis_offset_y: 0.0f
-			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
-			entity_vis_size: 1.0f
-			entity_vis_spin_mode: "USE_GLOBAL"
-			entity_vis_walk_mode: "USE_GLOBAL"
-			height: 1.0d
-			image: ""
-			rotation: 0.0d
-			width: 1.0d
-			x: -22.5d
-			y: 20.0d
-		}
-		{
-			entity_vis_enabled: true
-			entity_vis_entity: "thesubmarinemod:submarine"
-			entity_vis_idle_mode: "USE_GLOBAL"
-			entity_vis_offset_x: 0.0f
-			entity_vis_offset_y: 0.0f
-			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
-			entity_vis_size: 1.0f
-			entity_vis_spin_mode: "USE_GLOBAL"
-			entity_vis_walk_mode: "USE_GLOBAL"
-			height: 1.0d
-			image: ""
-			rotation: 0.0d
-			width: 1.0d
-			x: -25.5d
-			y: 11.0d
-		}
-		{
-			entity_vis_enabled: true
-			entity_vis_entity: "immersive_aircraft:airship"
-			entity_vis_idle_mode: "USE_GLOBAL"
-			entity_vis_offset_x: 0.0f
-			entity_vis_offset_y: 0.0f
-			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
-			entity_vis_size: 1.0f
-			entity_vis_spin_mode: "USE_GLOBAL"
-			entity_vis_walk_mode: "USE_GLOBAL"
-			height: 1.0d
-			image: ""
-			rotation: 0.0d
-			width: 1.0d
-			x: -20.0d
-			y: 21.5d
-		}
-		{
-			entity_vis_enabled: true
-			entity_vis_entity: "immersive_aircraft:biplane"
-			entity_vis_idle_mode: "USE_GLOBAL"
-			entity_vis_offset_x: 0.0f
-			entity_vis_offset_y: 0.0f
-			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
-			entity_vis_size: 1.0f
-			entity_vis_spin_mode: "USE_GLOBAL"
-			entity_vis_walk_mode: "USE_GLOBAL"
-			height: 1.0d
-			image: ""
-			rotation: 0.0d
-			width: 1.0d
-			x: -19.5d
-			y: 16.0d
-		}
-		{
-			entity_vis_enabled: true
-			entity_vis_entity: "hpm:corvette_steamship"
-			entity_vis_idle_mode: "USE_GLOBAL"
-			entity_vis_offset_x: 0.0f
-			entity_vis_offset_y: 0.0f
-			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
-			entity_vis_size: 0.8f
-			entity_vis_spin_mode: "USE_GLOBAL"
-			entity_vis_walk_mode: "USE_GLOBAL"
-			height: 1.0d
-			image: ""
-			rotation: 0.0d
-			width: 1.0d
-			x: -20.5d
-			y: 11.5d
-		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -1229,6 +1139,8 @@
 				""
 				"{@pagebreak}"
 				"The screwspinner is a strange device used to transport the corvette steamship. Simply use it near a corvette steamship and by some miracle, you will be able to transport the whole thing. I don't think this was designed by a technician or engineer, but rather a mage who did not know what a screwdriver is."
+				"{@pagebreak}"
+				"{entity:hpm:corvette_steamship ent_size:0.25 off_x:0.0 off_y:-0.25 rot:0.0 spin:USE_GLOBAL idle:USE_GLOBAL walk:USE_GLOBAL width:100 height:100 align:center}"
 			]
 			entity_vis_size: 1.0f
 			icon: "hpm:corvette_steamship_item"
@@ -10037,6 +9949,7 @@
 		}
 		{
 			dependencies: ["5B8A16E0E3A1794D"]
+			description: ["{entity:immersive_aircraft:biplane ent_size:0.4 off_x:0.0 off_y:0.0 rot:0.0 spin:USE_GLOBAL idle:USE_GLOBAL walk:USE_GLOBAL width:100 height:100 align:center}"]
 			entity_vis_size: 1.0f
 			id: "6665219B13B97312"
 			rewards: [{
@@ -19986,6 +19899,7 @@
 		}
 		{
 			dependencies: ["0F048A0A3773C3EF"]
+			description: ["{entity:immersive_aircraft:warship ent_size:0.5 off_x:0.0 off_y:0.0 rot:0.0 spin:USE_GLOBAL idle:USE_GLOBAL walk:USE_GLOBAL width:100 height:100 align:center}"]
 			entity_vis_size: 1.0f
 			id: "0837E476FFBC5FB0"
 			rewards: [{
@@ -32628,6 +32542,8 @@
 				"Even though guards patrolled every part of the port, I thought I could either take them head-on, or slip by, but why bother when a technician proposes that you try a cool submarine prototype? Now, this technician wasn't from here; after all, this was a coastal town. I only recently learned that most of the city was built either on reclaimed land or directly on top of the sea. This did mean it was quite easy to construct an underwater hangar to build, let's say, a submarine. Let's hope my travel diary doesn't get wet. I can cast water breathing, but I can't cast it on my book!"
 				"{@pagebreak}"
 				"To assemble the submarine, assuming you have one of a similar prototype as I do - who knows, this may get popular and sell like hotcakes - you need to first plunge the cabin of the submarine into water. Submarines don't go well on land. Then, you can attach the other parts of the submarine to the cabin."
+				"{@pagebreak}"
+				"{entity:thesubmarinemod:submarine ent_size:0.7 off_x:0.0 off_y:0.0 rot:0.0 spin:USE_GLOBAL idle:USE_GLOBAL walk:USE_GLOBAL width:100 height:100 align:center}"
 			]
 			entity_vis_size: 1.0f
 			id: "7F9A0E2C0EE245B0"
@@ -32741,6 +32657,9 @@
 				"The specialized drill vehicle is a robust beast which can pierce through thick layers of stone and ore, helping one gather large amounts quickly. It uses fuel quite inefficiently and requires a substantial amount of water to cool down, but once it gets going, it's a pretty fun mining trip!"
 				""
 				"&a(Press I by default to open the fuel menu of the drill. Insert water and fuel.)"
+				"{@pagebreak}"
+				"{entity:hrbsdrills:drill ent_size:0.7 off_x:0.0 off_y:0.0 rot:0.0 spin:USE_GLOBAL idle:USE_GLOBAL walk:USE_GLOBAL width:100 height:100 align:center}"
+				"{@pagebreak}"
 			]
 			entity_vis_size: 1.0f
 			id: "49E7519CB88FB97A"
