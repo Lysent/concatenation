@@ -32321,9 +32321,9 @@
 		{
 			dependencies: ["4C76FB98A8040661"]
 			description: [
-				"Using the Thermae, a dense metal block can be formed by placing a copper block in the hot dipping bath above the Thermae. A galvanized iron block must be inserted inside the Thermae. With enough liquid galvanized iron contained inside, the galvanization process will start, melting and alloying the copper and galvanized iron blocks."
+				"Using the Thermae, a dense metal block can be formed by placing a copper block in the hot dipping bath above the Thermae. A galvanized iron block must be inserted inside the Thermae. With enough liquid zinc mixture contained inside, the galvanization process will start, melting and alloying the copper and galvanized iron blocks."
 				""
-				"Copper Block Above + Galvanized Iron Block Inside + 1000mb of Liquid Galvanized Iron = Dense Metal Block"
+				"Copper Block Above + Galvanized Iron Block Inside + 1000mb of Liquid Zinc Mixture = Dense Metal Block"
 			]
 			entity_vis_size: 1.0f
 			id: "34E7DCC3F4492CEA"
@@ -32343,13 +32343,13 @@
 		{
 			dependencies: ["4C76FB98A8040661"]
 			description: [
-				"When the heater is fueled and the Thermae is filled with crushed zinc, it will create liquid galvanized iron. This name is a bit of a misnomer, as it isn't galvanized iron; it's primarily a zinc substance, but it's only used to make galvanized iron. "
+				"When the heater is fueled and the Thermae is filled with crushed zinc, it will create liquid zinc mixture."
 				""
-				"Then, when the Thermae contains over 1000mb of liquid galvanized iron, place an iron block in the dipping bath of the Thermae, one block right above the Thermae to galvanize the block of iron."
+				"Then, when the Thermae contains over 1000mb of liquid zinc mixture, place an iron block in the dipping bath of the Thermae, one block right above the Thermae to galvanize the block of iron."
 				"{@pagebreak}"
-				"18 Crushed Zinc in Thermae + Lava in Heater = Liquid Galvanized Iron."
+				"18 Crushed Zinc in Thermae + Lava in Heater = Liquid Zinc Mixture."
 				""
-				"Iron Block Above + 1000mb of Liquid Galvanized Iron = Galvanized Iron Block."
+				"Iron Block Above + 1000mb of Liquid Zinc Mixture = Galvanized Iron Block."
 			]
 			entity_vis_size: 1.0f
 			id: "02215EDC2EF71825"
