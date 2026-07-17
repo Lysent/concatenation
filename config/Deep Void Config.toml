@@ -163,6 +163,10 @@
 	PrimordialCrawlerDash = 18.0
 	#Damage in an AOE
 	PrimordialCrawlerGooBlock = 50.0
+	#Damage
+	PrimordialCrawlerAirSlam = 18.0
+	PrimordialCrawlerAirSlamChance = 0.38
+	PrimordialCrawlerStunDuration = 80.0
 
 [Weapons]
 	#Initial damage & damage dealt by the daggers
@@ -266,8 +270,6 @@
 	HiveWatcherSpikeDuration = 100.0
 	#The frequency at which the bone spikes spawn (in ticks)
 	HiveWatcherSpikeFrequency = 5.0
-	#When under Max Health/Config Number, second phase is active
-	HiveWatcherSecondPhase = 1.5
 	#Damage when the player is near the spike
 	HiveWatcherSpike = 15.0
 	#Size of the damaging zone around the boss while it's moving

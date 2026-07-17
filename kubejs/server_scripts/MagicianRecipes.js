@@ -47,7 +47,10 @@ ServerEvents.recipes(event => {
                 'elementalcraft:cover_frame',
                 'elementalcraft:pipe_priority_rings',
                 'elementalcraft:sorter',
-                'waystones:warp_plate'
+                'waystones:warp_plate',
+                'ars_zero:novice_spell_staff',
+                'ars_zero:mage_spell_staff',
+                'ars_zero:archmage_spell_staff'
         ]
 
         remove.forEach(item => {
@@ -1349,4 +1352,49 @@ ServerEvents.recipes(event => {
                         B: 'minecraft:stick'
                 }
         ).keepIngredient('tarotcards:the_magician')
+
+        event.shaped(
+                Item.of('ars_zero:novice_spell_staff'),
+                [
+                        '  A',
+                        ' B ',
+                        'C  '
+                ],
+                {
+                        A: 'ars_zero:archwood_rod',
+                        B: 'ars_nouveau:novice_spell_book',
+                        C: 'concatenationcore:gold_stick'
+                }
+        )
+        event.shaped(
+                Item.of('ars_zero:mage_spell_staff'),
+                [
+                        ' AB',
+                        ' CD',
+                        'E  '
+                ],
+                {
+                        D: 'ars_zero:novice_spell_staff',
+                        E: 'ars_zero:archwood_rod',
+                        B: 'concatenationcore:specialized_holder',
+                        A: 'concatenationcore:gold_stick',
+                        C: 'ars_nouveau:apprentice_spell_book'
+                }
+        )
+
+        event.shaped(
+                Item.of('ars_zero:archmage_spell_staff'),
+                [
+                        ' AB',
+                        ' CD',
+                        'E  '
+                ],
+                {
+                        B: 'concatenationcore:elemental_lens',
+                        E: 'ars_zero:archwood_rod',
+                        C: 'ars_nouveau:archmage_spell_book',
+                        A: 'ars_zero:mage_spell_staff',
+                        D: 'concatenationcore:gold_stick'
+                }
+        )
 });

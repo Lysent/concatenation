@@ -82,3 +82,6 @@ lightspeed-cache
 !config/mantle-client.toml
 !config/emixx/emixx-client.toml
 !config/acceleratedrendering-client.toml
+!config/colorwheel-client.toml
+!config/overflowingbars-client.toml
+!config/shadercycler-client.toml

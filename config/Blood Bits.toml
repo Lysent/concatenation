@@ -1,0 +1,46 @@
+
+[particles]
+	"Blood Amount" = 10.0
+	#All blood particles.
+	"Blood Particles" = true
+	#Limit to how many active blood particles can be at once.
+	"Particle Threshold" = 200.0
+	#Particles that spawn when a entity is hit while wearing armor.
+	"Sparkle Particles" = true
+	"Sparkle Amount" = 15.0
+
+[sound_effects]
+	"Hit Sound Effects" = true
+	#Death sound effects.
+	"Kill Sound Effects" = true
+
+[death_particles]
+	#Particles that spawn when a entitiy dies
+	"Death Particles" = true
+	#Particle amount upon a entities death.
+	"Death Particle Amount" = 50.0
+
+[screen_effects]
+	#Bloody screen effect when a mob is attacked
+	"Bloody Screen" = false
+	"Bloody Screen Mid Range" = 8.0
+	"Bloody Screen Close Range" = 3.0
+	#Control how fast blood dissapears from the screen (Default is -1% opacity per tick)
+	"Bloody Screen Opacity Rate" = 4.0
+
+[low_health_effects]
+	#Low health sound effect.
+	"Low Health Sound Effects" = false
+	#Low health screen pulse effect.
+	"Low Health Screen Overlay" = false
+
+[entity_list]
+	#List of entities that should not spawn any blood. Use the registry name (minecraft:skeleton)
+	"Entity Black List" = [" "]
+	#List of entities that spawn nether blood.
+	"Nether Blood List" = [" "]
+	#List of entities that spawn default blood.
+	"Red Blood List" = [" "]
+	#List of entities that spawn end blood.
+	"End Blood List" = [" "]
+
