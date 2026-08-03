@@ -1,4 +1,4 @@
-
+//priority: 100
 
 // Generation command to create loot tables
 ServerEvents.customCommand("genworlddevourer", () => {

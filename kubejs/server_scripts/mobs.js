@@ -1,3 +1,4 @@
+//priority: 100
 EntityEvents.spawned(event => {
   if (event.entity.type == "celestisynth:star_monolith") {
     event.entity.potionEffects.add("minecraft:wither", 1250, 3, false, false) 

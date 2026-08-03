@@ -42,6 +42,8 @@
 	LightReduceStalkerTimer = 4.0
 	#The light level (and under) at which the Stalker can spawn if the Player is in that light level range for long enough
 	StalkerLightLevel = 1.0
+	#If the False Hydra should spawn when the player has brain fog
+	FalseHydraFromBrainFog = true
 
 [Misc]
 	#Whether the ''Seek Light'' warning should appear when the Stalker is close or not (Happens only one time)
@@ -87,6 +89,12 @@
 	VoidbornHitCooldown = 60.0
 	#If bosses should go back to idling when there are no players nearby
 	BossIdles = true
+	#If brain fog should be applied to the player when in the misted remnants
+	DoBrainFog = true
+	#If the false hydra should remove brain fog when it is killed
+	FalseHydraRemovesBrainFog = true
+	#In ticks
+	BrainFogDuration = 2000.0
 
 ["Gameplay Changes"]
 	#The player spawns in the Deep Void
@@ -290,4 +298,21 @@
 	MaskedHunterScreamChance = 0.7
 	#The radius around the player in which the masked hunter cannot spawn (in blocks * 2)
 	MaskedHunterSpawnRadius = 200.0
+
+["False Hydra"]
+	HydraDebuffDuration = 500.0
+	#Damage
+	HydraHitGround = 8.0
+	#Damage
+	HydraSweep = 12.0
+	HydraSlideSpeed = 0.4
+	HydraSlideDamage = 8.0
+	#Damage
+	HydraMultiHit = 8.0
+	#Damage of the projectile
+	HydraBoulder = 10.0
+	#In ticks
+	HydraSingingDespawnTimer = 2000.0
+	#The amount of encounters that is required before the false hydra spawns (-1)
+	SpawnHydraRequiredEncounter = 3.0
 

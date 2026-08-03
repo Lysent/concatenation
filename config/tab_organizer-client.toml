@@ -1,0 +1,16 @@
+
+[creative_tabs]
+	#Allow vanilla creative tabs to be reordered and hidden
+	manage_vanilla_tabs = false
+
+[menu]
+	#Show the config button in the Tab Organizer screen
+	show_organizer_config_button = false
+	#Show the Tab Organizer button in the creative inventory
+	show_creative_menu_button = false
+
+[compatibility]
+	#Replace JEI's flat ingredient list with CTO's creative-tab browser.
+	#Disabling this option restores JEI's normal ingredient list.
+	enable_jei_tab_browser = false
+

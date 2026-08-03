@@ -153,21 +153,21 @@ ServerEvents.recipes(event => {
                     A: 'minecolonies:mint_jelly'
                 }
         )
-        event.shaped(
-                Item.of('the_deep_void:mimic_doll'),
-                [
-                        'ABC',
-                        'BDB',
-                        'EBA'
-                ],
-                {
-                    E: 'the_deep_void:rotten_bone',
-                    D: 'the_deep_void:hexed_doll',
-                    C: 'projecte:dark_matter',    
-                    B: 'the_deep_void:misted_bone',
-                    A: 'minecraft:diamond'
-                }
-        )
+        // event.shaped(
+        //         Item.of('the_deep_void:mimic_doll'),
+        //         [
+        //                 'ABC',
+        //                 'BDB',
+        //                 'EBA'
+        //         ],
+        //         {
+        //             E: 'the_deep_void:rotten_bone',
+        //             D: 'the_deep_void:hexed_doll',
+        //             C: 'projecte:dark_matter',    
+        //             B: 'the_deep_void:misted_bone',
+        //             A: 'minecraft:diamond'
+        //         }
+        // )
 
         event.recipes.thermal.pulverizer(Item.of('the_deep_void:disturbing_root').withChance(0.02), 'the_deep_void:infested_rotten_log').energy(100)
         // event.recipes.theurgy.fermentation(

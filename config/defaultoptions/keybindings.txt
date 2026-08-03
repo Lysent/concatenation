@@ -161,7 +161,7 @@ key_key.irons_spellbooks.spell_quick_cast_13:key.keyboard.unknown:NONE
 key_key.irons_spellbooks.spell_quick_cast_14:key.keyboard.unknown:NONE
 key_key.irons_spellbooks.spell_quick_cast_15:key.keyboard.unknown:NONE
 key_key.shadercycler.cycle:key.keyboard.left.alt:NONE
-key_key.shadercycler.open_config:key.keyboard.u:NONE
+key_key.shadercycler.open_config:key.keyboard.unknown:NONE
 key_key.clientsort.edit:key.keyboard.unknown:NONE
 key_key.clientsort.cancelAuto:key.keyboard.unknown:NONE
 key_key.clientsort.op.sort:key.keyboard.unknown:NONE
