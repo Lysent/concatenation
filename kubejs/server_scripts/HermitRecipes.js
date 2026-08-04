@@ -93,7 +93,7 @@ ServerEvents.recipes(event => {
                 fuelPerTick: 3,
                 requiredTier: 3
         });
-                event.custom({
+        event.custom({
                 type: "alloy_smelter:smelting",
                 ingredients: [
                         { item: "tconstruct:scorched_bricks", count: 1 },
@@ -110,7 +110,7 @@ ServerEvents.recipes(event => {
                 fuelPerTick: 3,
                 requiredTier: 3
         });
-                        event.custom({
+        event.custom({
                 type: "alloy_smelter:smelting",
                 ingredients: [
                         { item: "concatenationcore:almamegraton_core", count: 1 },
@@ -871,6 +871,21 @@ ServerEvents.recipes(event => {
                         C: 'concatenationcore:smeltery_fuel_core'
                 }
         )
+        event.shaped(
+                Item.of('create:goggles'),
+                [
+                        'ABA',
+                        'CDC',
+                        ' E '
+                ],
+                {
+                        C: 'create:brass_ingot',
+                        A: 'minecraft:glass',
+                        D: 'concatenationcore:galvanized_iron',
+                        E: 'tarotcards:the_tower',
+                        B: 'minecraft:string'
+                }
+        ).keepIngredient('tarotcards:the_tower')
 
         event.recipes.minecraft.smelting(
                 'create:zinc_ingot',

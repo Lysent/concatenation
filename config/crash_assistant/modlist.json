@@ -5,14 +5,6 @@
     "name": "forge",
     "version": "fmlloader-1.20.1-47.4.10.jar"
   },
-  "acceleratedrendering-1.0.14-1.20.1-alpha.jar": {
-    "jarName": "acceleratedrendering-1.0.14-1.20.1-alpha.jar",
-    "modId": "acceleratedrendering",
-    "name": "Accelerated Rendering",
-    "version": "1.0.14-1.20.1-alpha",
-    "curseForgeHash": 867457200,
-    "modrinthHash": "4c38a700ea356ec1bb1f9eedab83d27342ac65d6"
-  },
   "accessories-neoforge-1.0.0-beta.48+1.20.1.jar": {
     "jarName": "accessories-neoforge-1.0.0-beta.48+1.20.1.jar",
     "modId": "accessories",
@@ -269,13 +261,13 @@
     "curseForgeHash": 3717034118,
     "modrinthHash": "515905f87268f1eb5af2a9878a84914517efe552"
   },
-  "BetterAdvancements-Forge-1.20.1-0.4.2.60.jar": {
-    "jarName": "BetterAdvancements-Forge-1.20.1-0.4.2.60.jar",
+  "BetterAdvancements-Forge-1.20.1-0.6.0.73.jar": {
+    "jarName": "BetterAdvancements-Forge-1.20.1-0.6.0.73.jar",
     "modId": "betteradvancements",
     "name": "Better Advancements",
-    "version": "0.4.2.60",
-    "curseForgeHash": 1524448844,
-    "modrinthHash": "42be4c5315133a8059c27e15c41b22edc26e9a98"
+    "version": "0.6.0.73",
+    "curseForgeHash": 1668295830,
+    "modrinthHash": "a62ed641fe95d9fea041dea8689f5a037aece597"
   },
   "BetterBurning-Forge-1.20.1-9.0.3.jar": {
     "jarName": "BetterBurning-Forge-1.20.1-9.0.3.jar",
@@ -669,13 +661,13 @@
     "curseForgeHash": 1042174266,
     "modrinthHash": "ab2cd0f0a409ea6f9b2f9bb67a57f3fe7077fd8b"
   },
-  "concatenationcompat-1.1.1-universal-1.20.1.jar": {
-    "jarName": "concatenationcompat-1.1.1-universal-1.20.1.jar",
+  "concatenationcompat-1.1.2-universal-1.20.1.jar": {
+    "jarName": "concatenationcompat-1.1.2-universal-1.20.1.jar",
     "modId": "concatenationcompat",
     "name": "Concatenated Compat",
-    "version": "1.1.1",
-    "curseForgeHash": 3190799400,
-    "modrinthHash": "2aad689c86a31a99ff5295fe58130896325e49f5"
+    "version": "1.1.2",
+    "curseForgeHash": 3017575914,
+    "modrinthHash": "56e759c4cb2e71e5fba281074bc7d3d633f90679"
   },
   "concatenationcore-1.4.5-forge-1.20.1.jar": {
     "jarName": "concatenationcore-1.4.5-forge-1.20.1.jar",
@@ -1154,13 +1146,13 @@
     "curseForgeHash": 4281946638,
     "modrinthHash": "bb2fa8f3e493af16af9160d049f96c614a1faf2f"
   },
-  "emi-1.1.24+1.20.1+forge.jar": {
-    "jarName": "emi-1.1.24+1.20.1+forge.jar",
+  "emi-1.1.22+1.20.1+forge.jar": {
+    "jarName": "emi-1.1.22+1.20.1+forge.jar",
     "modId": "emi",
     "name": "EMI",
-    "version": "1.1.24+1.20.1+forge",
-    "curseForgeHash": 573012167,
-    "modrinthHash": "ea320200878e4a49196760234a22da763671520a"
+    "version": "1.1.22+1.20.1+forge",
+    "curseForgeHash": 104637065,
+    "modrinthHash": "d8049d6ec86befcd100a0ff0fc8ebc289f735997"
   },
   "emi_accelerator-1.0.1.jar": {
     "jarName": "emi_accelerator-1.0.1.jar",
@@ -2447,13 +2439,13 @@
     "curseForgeHash": 1383309397,
     "modrinthHash": "d4614507d6e4c7cb464bba5eca891978272062ef"
   },
-  "perdition-1.3.3-forge-1.20.1.jar": {
-    "jarName": "perdition-1.3.3-forge-1.20.1.jar",
+  "perdition-1.3.4-forge-1.20.1.jar": {
+    "jarName": "perdition-1.3.4-forge-1.20.1.jar",
     "modId": "perdition",
     "name": "Perdition",
-    "version": "1.3.3",
-    "curseForgeHash": 627753784,
-    "modrinthHash": "ab965ad54225d4821151f7b47330d234bdca7f4e"
+    "version": "1.3.4",
+    "curseForgeHash": 2615131603,
+    "modrinthHash": "66012bba8d8fd0e817e384053262799da766ea1e"
   },
   "Placebo-1.20.1-8.6.3.jar": {
     "jarName": "Placebo-1.20.1-8.6.3.jar",

@@ -4,5 +4,5 @@ ServerEvents.tags('item', event => {
         'cofh_core:honey',
         'create:honey'
     ]);
-    
+
 })

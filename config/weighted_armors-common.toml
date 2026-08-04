@@ -1,7 +1,7 @@
 
 [General]
 	#Toggles armor weight impact on gravity (heavier: falling faster, jumping lower).
-	enableGravityModification = true
+	enableGravityModification = false
 	#Toggles whether the heaviest piece worn determines the speed multiplier as a whole.
 	enableHeavyPriority = false
 
@@ -10,15 +10,15 @@
 	#Determined by the weighted_armors:very_light, weighted_armors:light, weighted_armors:heavy, weighted_armors:very_heavy tags.
 	#Untagged armor is medium weight by default.
 	#Range: 0.01 ~ 100.0
-	veryLight = 1.1
+	veryLight = 1.05
 	#Range: 0.01 ~ 100.0
-	light = 1.05
+	light = 1.025
 	#Range: 0.01 ~ 100.0
 	medium = 1.0
 	#Range: 0.01 ~ 100.0
-	heavy = 0.95
+	heavy = 0.975
 	#Range: 0.01 ~ 100.0
-	veryHeavy = 0.9
+	veryHeavy = 0.95
 
 [Gravity]
 	#Multiplicative gravity/jump bonus per piece. Only negative gravity is supported. (0.90 = -10% gravity)

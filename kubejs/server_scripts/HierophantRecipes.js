@@ -905,7 +905,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('createaddition:electrum_wire', 3),
+                Item.of('createaddition:electrum_wire', 2),
                 [
                         'AB ',
                         '   ',
@@ -1822,6 +1822,13 @@ ServerEvents.recipes(event => {
                         C: 'concatenationcore:crushed_copper',
                         B: 'concatenationcore:crushed_tin'
                 }
+        )
+        event.shapeless(
+                Item.of('integrateddynamics:enhancement_offset', "{value:2048}"),
+                [
+                        'integrateddynamics:proxy',
+                        'integrateddynamics:enhancement_offset'
+                ]
         )
         event.shapeless(
                 Item.of('thermal:obsidian_glass'),
