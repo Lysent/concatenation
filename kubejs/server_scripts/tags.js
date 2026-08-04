@@ -1,3 +1,4 @@
+//priority: 700
 ServerEvents.tags('item', event => {
     const add = (tag, items) => items.forEach(item => event.add(tag, item));
 

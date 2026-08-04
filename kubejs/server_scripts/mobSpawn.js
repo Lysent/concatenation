@@ -1,3 +1,4 @@
+//priority: 100
 EntityEvents.spawned(event => {
   if (event.level.isClientSide()) return
   if (event.entity.type !== 'minecraft:zombie') return

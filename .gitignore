@@ -44,7 +44,6 @@ patchouli_data.json
 /config/packetfixer.properties
 /config/asyncparticles/*.properties
 /config/durabilitytooltip-common.toml
-/shaderpacks/*.zip.txt
 Distant_Horizons_server_data
 welcomescreen_cache.json
 .mixin.out
@@ -62,6 +61,7 @@ lightspeed-cache
 /oei
 eula.txt
 bin
+config/QuantifiedAPI/cache
 
 # explicitly included config
 !config/ProjectE/client.toml
@@ -84,3 +84,8 @@ bin
 !config/mantle-client.toml
 !config/emixx/emixx-client.toml
 !config/acceleratedrendering-client.toml
+!config/colorwheel-client.toml
+!config/overflowingbars-client.toml
+!config/shadercycler-client.toml
+!config/tab_organizer-client.toml
+!config/vanillabackport-client.toml
