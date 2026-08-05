@@ -1154,6 +1154,14 @@
     "curseForgeHash": 573012167,
     "modrinthHash": "ea320200878e4a49196760234a22da763671520a"
   },
+  "emi_accelerator-1.0.1.jar": {
+    "jarName": "emi_accelerator-1.0.1.jar",
+    "modId": "emi_accelerator",
+    "name": "EMI Accelerator",
+    "version": "1.0.1",
+    "curseForgeHash": 3394443500,
+    "modrinthHash": "e7376dea7dc29352ae8a8b20d1fd8d7b1e3402b0"
+  },
   "emi_enchanting-0.1.2+1.20.1+forge.jar": {
     "jarName": "emi_enchanting-0.1.2+1.20.1+forge.jar",
     "modId": "emi_enchanting",
@@ -2630,6 +2638,22 @@
     "version": "1.0.20",
     "curseForgeHash": 2067768782,
     "modrinthHash": "ffb68135b88bdbb25224378c76daf922c3f4c322"
+  },
+  "reliable_recipes-forge-1.20.1-2.2.2.jar": {
+    "jarName": "reliable_recipes-forge-1.20.1-2.2.2.jar",
+    "modId": "reliable_recipes",
+    "name": "Reliable Recipes",
+    "version": "2.2.2",
+    "curseForgeHash": 901189701,
+    "modrinthHash": "cd3cf3df504422e0cbc93faf1589356f4ec9d484"
+  },
+  "reliable_remover-forge-1.20.1-2.4.7.jar": {
+    "jarName": "reliable_remover-forge-1.20.1-2.4.7.jar",
+    "modId": "reliable_remover",
+    "name": "Reliable Remover",
+    "version": "2.4.7",
+    "curseForgeHash": 2592152899,
+    "modrinthHash": "d3a28959d09de11e151adedb45713bb79c5352aa"
   },
   "reliquary-1.20.1-2.0.62.1532.jar": {
     "jarName": "reliquary-1.20.1-2.0.62.1532.jar",

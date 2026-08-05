@@ -886,6 +886,27 @@ ServerEvents.recipes(event => {
                         B: 'minecraft:string'
                 }
         ).keepIngredient('tarotcards:the_tower')
+        event.shaped(
+                Item.of('create:wrench'),
+                [
+                        'ABA',
+                        'AC ',
+                        ' DE'
+                ],
+                {
+                        A: 'create:brass_ingot',
+                        D: 'minecraft:stick',
+                        C: 'create:cogwheel',
+                        B: 'concatenationcore:galvanized_iron',
+                        E: 'tarotcards:the_tower'
+                }
+        ).keepIngredient('tarotcards:the_tower')
+        event.shapeless(
+                Item.of('create:wrench'),
+                [
+                        Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:1,GunFireMode:"SEMI",GunId:"create_armorer:special_melee_wrench",HasBulletInBarrel:1b}').strongNBT()
+                ]
+        )
 
         event.recipes.minecraft.smelting(
                 'create:zinc_ingot',

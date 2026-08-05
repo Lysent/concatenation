@@ -29,5 +29,5 @@
 	endShader = "Mellow Shader v3.3.zip"
 	#List of dimension=shader mappings. Example: minecraft:overworld=None
 	#Use 'None' to indicate no shader for that dimension.
-	dimensionShaderList = ["the_deep_void:deep_void=Disable Shaders", "perdition:dis=Mellow Shader v3.2.zip", "perdition:purgatory=Mellow Shader v3.2.zip", "minecraft:overworld=None", "minecraft:the_nether=None", "minecraft:the_end=None", "irons_spellbooks:pocket_dimension=None", "cyberspace:cyberspace_dimension=None", "bloodmagic:dungeon=None", "cyberspace:black_wall_dimension=None", "the_deep_void:the_pit=None", "ae2:spatial_storage=None"]
+	dimensionShaderList = ["the_deep_void:deep_void=Disable Shaders", "perdition:dis=Mellow Shader v3.2.zip", "perdition:purgatory=Mellow Shader v3.2.zip", "minecraft:overworld=None", "irons_spellbooks:pocket_dimension=None", "the_deep_void:the_pit=None", "cyberspace:black_wall_dimension=None", "bloodmagic:dungeon=None", "minecraft:the_end=None", "minecraft:the_nether=None", "cyberspace:cyberspace_dimension=None", "ae2:spatial_storage=None"]
 
