@@ -93,13 +93,13 @@
     "curseForgeHash": 101227267,
     "modrinthHash": "5d5a1d7d2d2dd37c578fdea2495757baaa624092"
   },
-  "AnimatedHearts-1.7.0.jar": {
-    "jarName": "AnimatedHearts-1.7.0.jar",
+  "AnimatedHearts-1.8.0.jar": {
+    "jarName": "AnimatedHearts-1.8.0.jar",
     "modId": "animatedhearts",
     "name": "AnimatedHearts",
-    "version": "1.7.0",
-    "curseForgeHash": 392545737,
-    "modrinthHash": "36eacfe757d96a6938c585c0c675746bcd7ab1f5"
+    "version": "1.8.0",
+    "curseForgeHash": 416109131,
+    "modrinthHash": "08da2aae1c53da3c9591e2596d4c4a3ec1748710"
   },
   "appleskin-forge-mc1.20.1-2.5.1.jar": {
     "jarName": "appleskin-forge-mc1.20.1-2.5.1.jar",
@@ -1146,21 +1146,13 @@
     "curseForgeHash": 4281946638,
     "modrinthHash": "bb2fa8f3e493af16af9160d049f96c614a1faf2f"
   },
-  "emi-1.1.22+1.20.1+forge.jar": {
-    "jarName": "emi-1.1.22+1.20.1+forge.jar",
+  "emi-1.1.24+1.20.1+forge.jar": {
+    "jarName": "emi-1.1.24+1.20.1+forge.jar",
     "modId": "emi",
     "name": "EMI",
-    "version": "1.1.22+1.20.1+forge",
-    "curseForgeHash": 104637065,
-    "modrinthHash": "d8049d6ec86befcd100a0ff0fc8ebc289f735997"
-  },
-  "emi_accelerator-1.0.1.jar": {
-    "jarName": "emi_accelerator-1.0.1.jar",
-    "modId": "emi_accelerator",
-    "name": "EMI Accelerator",
-    "version": "1.0.1",
-    "curseForgeHash": 3394443500,
-    "modrinthHash": "e7376dea7dc29352ae8a8b20d1fd8d7b1e3402b0"
+    "version": "1.1.24+1.20.1+forge",
+    "curseForgeHash": 573012167,
+    "modrinthHash": "ea320200878e4a49196760234a22da763671520a"
   },
   "emi_enchanting-0.1.2+1.20.1+forge.jar": {
     "jarName": "emi_enchanting-0.1.2+1.20.1+forge.jar",
@@ -1753,14 +1745,6 @@
     "version": "5.5.1+forge",
     "curseForgeHash": 1204092001,
     "modrinthHash": "c4339eb3ef0c4728cb511efe60726653a35c7a0d"
-  },
-  "jasione-1.0.6+1.20.1-forge.jar": {
-    "jarName": "jasione-1.0.6+1.20.1-forge.jar",
-    "modId": "jasione",
-    "name": "Jasione",
-    "version": "1.0.6+1.20.1-forge",
-    "curseForgeHash": 3250961415,
-    "modrinthHash": "9ffca4a6f68056ba5fd8cca68b773e352c3f5546"
   },
   "jmi-forge-1.20.1-0.14-48.jar": {
     "jarName": "jmi-forge-1.20.1-0.14-48.jar",
@@ -2622,6 +2606,14 @@
     "version": "1.20.1-4.7",
     "curseForgeHash": 2081161564,
     "modrinthHash": "e689f61f6799acf2af6b970c964aa65f50290ec4"
+  },
+  "redirected-forge-1.0.0-1.20.1.jar": {
+    "jarName": "redirected-forge-1.0.0-1.20.1.jar",
+    "modId": "redirected",
+    "name": "Redirected",
+    "version": "1.0.0",
+    "curseForgeHash": 1715840423,
+    "modrinthHash": "804cb20635bec6d708617fb22e6bd62bed27a7a7"
   },
   "redstone_flux-1.20.1-Forge-1.1.0.jar": {
     "jarName": "redstone_flux-1.20.1-Forge-1.1.0.jar",
