@@ -2639,22 +2639,6 @@
     "curseForgeHash": 2067768782,
     "modrinthHash": "ffb68135b88bdbb25224378c76daf922c3f4c322"
   },
-  "reliable_recipes-forge-1.20.1-2.2.2.jar": {
-    "jarName": "reliable_recipes-forge-1.20.1-2.2.2.jar",
-    "modId": "reliable_recipes",
-    "name": "Reliable Recipes",
-    "version": "2.2.2",
-    "curseForgeHash": 901189701,
-    "modrinthHash": "cd3cf3df504422e0cbc93faf1589356f4ec9d484"
-  },
-  "reliable_remover-forge-1.20.1-2.4.7.jar": {
-    "jarName": "reliable_remover-forge-1.20.1-2.4.7.jar",
-    "modId": "reliable_remover",
-    "name": "Reliable Remover",
-    "version": "2.4.7",
-    "curseForgeHash": 2592152899,
-    "modrinthHash": "d3a28959d09de11e151adedb45713bb79c5352aa"
-  },
   "reliquary-1.20.1-2.0.62.1532.jar": {
     "jarName": "reliquary-1.20.1-2.0.62.1532.jar",
     "modId": "reliquary",
@@ -3348,13 +3332,13 @@
     "curseForgeHash": 2544921550,
     "modrinthHash": "b343bf3d5a1add42d3aaa0ed42b7ad244094a24e"
   },
-  "toomanyrecipeviewers-0.8.1+mc.20.1.jar": {
-    "jarName": "toomanyrecipeviewers-0.8.1+mc.20.1.jar",
+  "toomanyrecipeviewers-0.9.0+mc.20.1.jar": {
+    "jarName": "toomanyrecipeviewers-0.9.0+mc.20.1.jar",
     "modId": "toomanyrecipeviewers",
     "name": "TooManyRecipeViewers",
-    "version": "0.8.1+mc.20.1",
-    "curseForgeHash": 2729210785,
-    "modrinthHash": "c83ea731d2977c178ac98502a79013bdbba916be"
+    "version": "0.9.0+mc.20.1",
+    "curseForgeHash": 625854406,
+    "modrinthHash": "68b17e577526582ac22611d412433022647fc674"
   },
   "torch-hit-forge-1.20.1-7.0.0.jar": {
     "jarName": "torch-hit-forge-1.20.1-7.0.0.jar",
