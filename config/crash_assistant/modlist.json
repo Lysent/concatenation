@@ -597,22 +597,6 @@
     "curseForgeHash": 229901968,
     "modrinthHash": "eb3efd187a9b1ad4c8d52000e4794e5c7b7ff6ea"
   },
-  "colonypathingedition-1.0.5-BETA-7.1.jar": {
-    "jarName": "colonypathingedition-1.0.5-BETA-7.1.jar",
-    "modId": "colonypathingedition",
-    "name": "Pathfinding Edition For Minecolonies",
-    "version": "1.0.5-BETA-7.1",
-    "curseForgeHash": 750441874,
-    "modrinthHash": "35d41d538c489df9dce248cb35fdbcc9dae62e44"
-  },
-  "colorwheel-forge-1.2.9+mc1.20.1.jar": {
-    "jarName": "colorwheel-forge-1.2.9+mc1.20.1.jar",
-    "modId": "colorwheel",
-    "name": "Colorwheel",
-    "version": "1.2.9+mc1.20.1",
-    "curseForgeHash": 1778224379,
-    "modrinthHash": "a179a98c4515742848159a81dd3e183ab7d0a2c7"
-  },
   "comforts-forge-6.4.0+1.20.1.jar": {
     "jarName": "comforts-forge-6.4.0+1.20.1.jar",
     "modId": "comforts",
@@ -658,8 +642,8 @@
     "modId": "concatenationcore",
     "name": "Concatenation Core",
     "version": "1.4.5",
-    "curseForgeHash": 565537242,
-    "modrinthHash": "78766eb18ab6b7af25c07cb984584071791e197a"
+    "curseForgeHash": 545453747,
+    "modrinthHash": "aab686da6c4f363a8c2a150286a65153dc72d206"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -993,14 +977,6 @@
     "version": "18.0.5",
     "curseForgeHash": 4092597210,
     "modrinthHash": "dddab6a5ff092b4535e9fdfb01e1e011afb90e57"
-  },
-  "DistantHorizons-2.3.4-b-1.20.1-fabric-forge.jar": {
-    "jarName": "DistantHorizons-2.3.4-b-1.20.1-fabric-forge.jar",
-    "modId": "distanthorizons",
-    "name": "Distant Horizons",
-    "version": "2.3.4-b",
-    "curseForgeHash": 3558379462,
-    "modrinthHash": "fcbb4a39846af6d5cd41bc98405031f2010eef90"
   },
   "does_it_tick-forge-1.1.4-1.20.1.jar": {
     "jarName": "does_it_tick-forge-1.1.4-1.20.1.jar",
@@ -1570,14 +1546,6 @@
     "curseForgeHash": 220541488,
     "modrinthHash": "9eacd407b7dea636d375dc47335d92f616484ea2"
   },
-  "immersive-weathering-tweaks-forge-1.1.0.jar": {
-    "jarName": "immersive-weathering-tweaks-forge-1.1.0.jar",
-    "modId": "iwt",
-    "name": "Immersive Weathering Tweaks",
-    "version": "1.1.0",
-    "curseForgeHash": 3522479743,
-    "modrinthHash": "72ead954d2edbd21e70f8c4f8a3c91f0d890215c"
-  },
   "immersive_aircraft-1.4.1+1.20.1-forge.jar": {
     "jarName": "immersive_aircraft-1.4.1+1.20.1-forge.jar",
     "modId": "immersive_aircraft",
@@ -1593,14 +1561,6 @@
     "version": "0.2.0",
     "curseForgeHash": 1383218248,
     "modrinthHash": "d67ed8b1e1616349e486537a7f71e03353c0cdfd"
-  },
-  "immersive_weathering-1.20.1-2.0.5-forge.jar": {
-    "jarName": "immersive_weathering-1.20.1-2.0.5-forge.jar",
-    "modId": "immersive_weathering",
-    "name": "Immersive Weathering",
-    "version": "1.20.1-2.0.5",
-    "curseForgeHash": 53948787,
-    "modrinthHash": "d89ad3793ffb97df27f415ac6cc07c61460dd9f3"
   },
   "immersivelanterns-forge-1.0.6-1.20.1.jar": {
     "jarName": "immersivelanterns-forge-1.0.6-1.20.1.jar",
@@ -2071,14 +2031,6 @@
     "curseForgeHash": 841420877,
     "modrinthHash": "e0942d396a70c09038e6c2e5e1da6505178249b8"
   },
-  "MelonShaderCyclerForge-1.3.6.jar": {
-    "jarName": "MelonShaderCyclerForge-1.3.6.jar",
-    "modId": "shadercycler",
-    "name": "Melon Shader Cycler",
-    "version": "1.3.5",
-    "curseForgeHash": 596413197,
-    "modrinthHash": "f827c85e533c5e67745c5751a79b607d83a040a3"
-  },
   "mexposed-1.20.1-1.0.1.jar": {
     "jarName": "mexposed-1.20.1-1.0.1.jar",
     "modId": "mexposed",
@@ -2150,14 +2102,6 @@
     "version": "2.25.1",
     "curseForgeHash": 3001740257,
     "modrinthHash": "d751153e722a4e014691c83f39f5b07c6ec5333c"
-  },
-  "multipiston-1.20-1.2.43-RELEASE.jar": {
-    "jarName": "multipiston-1.20-1.2.43-RELEASE.jar",
-    "modId": "multipiston",
-    "name": "Multi-Piston",
-    "version": "1.20-1.2.43-RELEASE",
-    "curseForgeHash": 1855075112,
-    "modrinthHash": "1fc108ebf5f9fe34cf0366c7b71adf230400a74c"
   },
   "naturalsizes-1.2-forge-1.20.1.jar": {
     "jarName": "naturalsizes-1.2-forge-1.20.1.jar",
@@ -2372,8 +2316,8 @@
     "modId": "perdition",
     "name": "Perdition",
     "version": "1.3.4",
-    "curseForgeHash": 2615131603,
-    "modrinthHash": "66012bba8d8fd0e817e384053262799da766ea1e"
+    "curseForgeHash": 2873159450,
+    "modrinthHash": "6e7725209b86915ef7e90f25c0762a91aed34fda"
   },
   "Placebo-1.20.1-8.6.3.jar": {
     "jarName": "Placebo-1.20.1-8.6.3.jar",
@@ -2947,14 +2891,6 @@
     "version": "2.0.30",
     "curseForgeHash": 2222098038,
     "modrinthHash": "fb1037d18a4e738b5e4b8a09b7110d8c9a8f853a"
-  },
-  "structurize-1.20.1-1.0.812-snapshot.jar": {
-    "jarName": "structurize-1.20.1-1.0.812-snapshot.jar",
-    "modId": "structurize",
-    "name": "Structurize",
-    "version": "1.20.1-1.0.812-snapshot",
-    "curseForgeHash": 2473037760,
-    "modrinthHash": "f4ff486525f4738a6df0ba31d7d172e8ed82a580"
   },
   "StylishEffects-v8.0.3-1.20.1-Forge.jar": {
     "jarName": "StylishEffects-v8.0.3-1.20.1-Forge.jar",
