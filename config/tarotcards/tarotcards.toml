@@ -7,6 +7,7 @@ require_card_in_curio = false
 tarot_deck_applies_effects = true
 level_lock = false
 advancement_lock = false
+effect_based_targeting = false
 min_xp_level_required = {  }
 required_advancements = {  }
 
@@ -24,6 +25,7 @@ wheel_of_fortune_luckbonus = 2.0
 the_tower_damagenegation = 1.0
 the_chariot_speedboost = 0.2
 the_empress_range = 2.0
+the_empress_breeding_enabled = true
 the_emperpor_heroofvillagebonus = 2
 the_hanged_man_xpratio = 0.5
 the_hanged_man_xpcap = 25

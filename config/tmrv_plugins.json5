@@ -1,0 +1,13 @@
+{
+	"allowDefaultAsync": false,
+	"defaultDisableDuplicatePlugins": false,
+	"typeOverrides": {
+	
+	},
+	"defaultPhaseOverrides": {
+	
+	},
+	"pluginPhaseOverrides": {
+	
+	}
+}

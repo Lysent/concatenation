@@ -1,6 +1,6 @@
 {
     "type": "lychee:block_interacting",
-    "comment": "With an Iron Block above the Thermae, the Iron Block will turn into a Galvanized Iron Block if the Thermae has 1000mb of Liquid Galvanized Iron inside.",
+    "comment": "With an Iron Block above the Thermae, the Iron Block will turn into a Galvanized Iron Block if the Thermae has 1000mb of Liquid Zinc Mixture inside.",
     "ghost": true,
     "item_in": [
         {

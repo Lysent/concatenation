@@ -81,6 +81,9 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "ars_zero": {
+    "entity_mana": true
+  },
   "balm": {
     "jade": true
   },

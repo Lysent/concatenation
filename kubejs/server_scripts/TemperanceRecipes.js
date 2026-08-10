@@ -1,3 +1,4 @@
+//priority: 200
 ServerEvents.recipes(event => {
 
         const remove = [
@@ -663,7 +664,7 @@ ServerEvents.recipes(event => {
         ).keepIngredient('tarotcards:the_hierophant')
         event.shapeless(
                 Item.of('minecraft:candle'),
-                [       
+                [
                         'minecraft:string',
                         'hexerei:animal_fat',
                         'hexerei:animal_fat'

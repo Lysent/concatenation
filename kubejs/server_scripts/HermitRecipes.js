@@ -1,3 +1,4 @@
+//priority: 200
 ServerEvents.recipes(event => {
         const remove = [
                 'tconstruct:seared_melter',
@@ -92,7 +93,7 @@ ServerEvents.recipes(event => {
                 fuelPerTick: 3,
                 requiredTier: 3
         });
-                event.custom({
+        event.custom({
                 type: "alloy_smelter:smelting",
                 ingredients: [
                         { item: "tconstruct:scorched_bricks", count: 1 },
@@ -109,7 +110,7 @@ ServerEvents.recipes(event => {
                 fuelPerTick: 3,
                 requiredTier: 3
         });
-                        event.custom({
+        event.custom({
                 type: "alloy_smelter:smelting",
                 ingredients: [
                         { item: "concatenationcore:almamegraton_core", count: 1 },
@@ -869,6 +870,42 @@ ServerEvents.recipes(event => {
                         A: 'common_ore_library:platinum_ingot',
                         C: 'concatenationcore:smeltery_fuel_core'
                 }
+        )
+        event.shaped(
+                Item.of('create:goggles'),
+                [
+                        'ABA',
+                        'CDC',
+                        ' E '
+                ],
+                {
+                        C: 'create:brass_ingot',
+                        A: 'minecraft:glass',
+                        D: 'concatenationcore:galvanized_iron',
+                        E: 'tarotcards:the_tower',
+                        B: 'minecraft:string'
+                }
+        ).keepIngredient('tarotcards:the_tower')
+        event.shaped(
+                Item.of('create:wrench'),
+                [
+                        'ABA',
+                        'AC ',
+                        ' DE'
+                ],
+                {
+                        A: 'create:brass_ingot',
+                        D: 'minecraft:stick',
+                        C: 'create:cogwheel',
+                        B: 'concatenationcore:galvanized_iron',
+                        E: 'tarotcards:the_tower'
+                }
+        ).keepIngredient('tarotcards:the_tower')
+        event.shapeless(
+                Item.of('create:wrench'),
+                [
+                        Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:1,GunFireMode:"SEMI",GunId:"create_armorer:special_melee_wrench",HasBulletInBarrel:1b}').strongNBT()
+                ]
         )
 
         event.recipes.minecraft.smelting(

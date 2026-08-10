@@ -1,3 +1,4 @@
+//priority: 500
 ClientEvents.lang('en_us', event => {
   event.renameItem('quarryplus:quarry', 'Electric Quarry');
   event.renameItem('quarryplus:workbench', 'Integral Workbench');
