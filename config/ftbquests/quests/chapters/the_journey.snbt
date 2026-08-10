@@ -4663,8 +4663,8 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
-			y: 25.5d
+			x: 14.5d
+			y: 28.5d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -4754,8 +4754,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 24.5d
+			x: 12.5d
+			y: 26.5d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -4845,8 +4845,8 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
-			y: 25.5d
+			x: 13.0d
+			y: 27.5d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -4936,8 +4936,8 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: 24.0d
+			x: 13.5d
+			y: 26.0d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -5027,8 +5027,8 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
-			y: 25.0d
+			x: 14.0d
+			y: 27.0d
 		}
 		{
 			dependencies: ["54DA52C7F14D64E9"]
@@ -10352,7 +10352,11 @@
 				"23F4055CA5B50F60"
 			]
 			dependency_requirement: "one_completed"
-			description: ["The fluxduct transports RF power and distributes it across all connected machines."]
+			description: [
+				"The fluxduct transports RF power and distributes it across all connected machines."
+				""
+				"For item transporation, refer to The Chariot or the Hand of Cups sections."
+			]
 			entity_vis_size: 1.0f
 			id: "5BAA69CBD6B64BEA"
 			rewards: [{
@@ -12158,87 +12162,6 @@
 							}
 						}
 						id: "integrateddynamics:on_the_dynamics_of_integration"
-					}
-					type: "item"
-				}
-				{
-					id: "25E08C5415A2391F"
-					item: {
-						Count: 1
-						id: "utility_belt:utility_belt"
-						tag: {
-							"utility_belt:inventory": [
-								{
-									Count: 1b
-									id: "minecraft:air"
-									tag: {
-										Damage: 0
-										Damp: 1b
-										Potion: "minecraft:water_breathing"
-										Trim: {
-											material: "redstone"
-											pattern: "spire"
-										}
-										display: {
-											color: 11546150
-										}
-										instrument: "minecraft:sing_goat_horn"
-									}
-								}
-								{
-									Count: 1b
-									id: "minecraft:air"
-									tag: {
-										Damage: 0
-										Damp: 1b
-										Potion: "minecraft:water_breathing"
-										Trim: {
-											material: "redstone"
-											pattern: "spire"
-										}
-										display: {
-											color: 11546150
-										}
-										instrument: "minecraft:sing_goat_horn"
-									}
-								}
-								{
-									Count: 1b
-									id: "minecraft:air"
-									tag: {
-										Damage: 0
-										Damp: 1b
-										Potion: "minecraft:water_breathing"
-										Trim: {
-											material: "redstone"
-											pattern: "spire"
-										}
-										display: {
-											color: 11546150
-										}
-										instrument: "minecraft:sing_goat_horn"
-									}
-								}
-								{
-									Count: 1b
-									id: "minecraft:air"
-									tag: {
-										Damage: 0
-										Damp: 1b
-										Potion: "minecraft:water_breathing"
-										Trim: {
-											material: "redstone"
-											pattern: "spire"
-										}
-										display: {
-											color: 11546150
-										}
-										instrument: "minecraft:sing_goat_horn"
-									}
-								}
-							]
-							"utility_belt:size": 4
-						}
 					}
 					type: "item"
 				}
@@ -19569,6 +19492,19 @@
 			tasks: [{
 				advancement: "born_in_chaos_v1:fighting_nightmares"
 				criterion: ""
+				ftbquestsentityvis_icon: {
+					enabled: 1b
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					idle_mode: "USE_GLOBAL"
+					offset_x: 0.0f
+					offset_y: 0.0f
+					rotation: 0.0f
+					silhouette_mode: "NONE"
+					size: 1.0f
+					spin_mode: "USE_GLOBAL"
+					use_as_quest_icon: 0b
+					walk_mode: "USE_GLOBAL"
+				}
 				id: "24D0BAAC1C693C3E"
 				type: "advancement"
 			}]
@@ -19585,6 +19521,7 @@
 				{
 					id: "225BD0A25C2CB5D6"
 					item: "concatenationcore:galvanized_iron"
+					random_bonus: 2
 					type: "item"
 				}
 				{
@@ -23223,8 +23160,8 @@
 				type: "item"
 			}]
 			title: "Familiars"
-			x: 15.0d
-			y: 27.5d
+			x: 16.5d
+			y: 28.5d
 		}
 		{
 			dependencies: ["44240C2BEF40998D"]
@@ -23276,7 +23213,7 @@
 				item: "ars_elemental:necrotic_focus"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 20.0d
 			y: 29.0d
 		}
 		{
@@ -26550,17 +26487,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "20D53E9D22917D32"
-					item: {
-						Count: 1
-						id: "the_deep_void:claw_blade"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
 			]
 			title: "&8Crawler Royalty Equipment"
 			x: 42.5d
@@ -29697,6 +29623,19 @@
 			tasks: [{
 				advancement: "born_in_chaos_v1:horror_underthe_mantle"
 				criterion: ""
+				ftbquestsentityvis_icon: {
+					enabled: 1b
+					entity: "born_in_chaos_v1:lifestealer_true_form"
+					idle_mode: "USE_GLOBAL"
+					offset_x: 0.0f
+					offset_y: 0.0f
+					rotation: 0.0f
+					silhouette_mode: "NONE"
+					size: 1.0f
+					spin_mode: "USE_GLOBAL"
+					use_as_quest_icon: 0b
+					walk_mode: "USE_GLOBAL"
+				}
 				icon: "born_in_chaos_v1:lifestealer_skull"
 				id: "4F0D1AA77AFE720A"
 				type: "advancement"
@@ -29731,6 +29670,19 @@
 			tasks: [{
 				advancement: "born_in_chaos_v1:dark_creator"
 				criterion: ""
+				ftbquestsentityvis_icon: {
+					enabled: 1b
+					entity: "born_in_chaos_v1:missioner"
+					idle_mode: "USE_GLOBAL"
+					offset_x: 0.0f
+					offset_y: 0.0f
+					rotation: 0.0f
+					silhouette_mode: "NONE"
+					size: 1.0f
+					spin_mode: "USE_GLOBAL"
+					use_as_quest_icon: 0b
+					walk_mode: "USE_GLOBAL"
+				}
 				id: "4214DA66D9C82282"
 				type: "advancement"
 			}]
@@ -29741,7 +29693,7 @@
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
 			description: ["A mythical creature from the cold and frozen wastelands. It is often angered by the slaughtering of small and defenseless animals."]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.25f
 			hide_dependency_lines: true
 			id: "067237DD7132D829"
 			rewards: [{
@@ -29752,12 +29704,25 @@
 			tasks: [{
 				advancement: "born_in_chaos_v1:wrong_santa"
 				criterion: ""
+				ftbquestsentityvis_icon: {
+					enabled: 1b
+					entity: "born_in_chaos_v1:krampus"
+					idle_mode: "USE_GLOBAL"
+					offset_x: 0.0f
+					offset_y: 0.0f
+					rotation: 0.0f
+					silhouette_mode: "NONE"
+					size: 1.0f
+					spin_mode: "USE_GLOBAL"
+					use_as_quest_icon: 1b
+					walk_mode: "USE_GLOBAL"
+				}
 				id: "7B6DC0F8039BD528"
 				type: "advancement"
 			}]
 			title: "Krampus"
-			x: 16.0d
-			y: -23.5d
+			x: 16.5d
+			y: -24.0d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
@@ -29768,7 +29733,7 @@
 				""
 				"&4It is unknown whether the multiple sightings of Sir Pumpkinhead are the same entity, a weaker entity than Lord Pumpkinhead, or one of 'His' avatars. I believe they're avatars, though. I should hunt one of these as my contribution to the festivities. We'll have a night of drinking once I'm back."
 			]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.2f
 			hide_dependency_lines: true
 			id: "410C0B331F8A12F2"
 			rewards: [{
@@ -29779,12 +29744,25 @@
 			tasks: [{
 				advancement: "born_in_chaos_v1:pumpkin_sir"
 				criterion: ""
+				ftbquestsentityvis_icon: {
+					enabled: 1b
+					entity: "born_in_chaos_v1:lord_pumpkinhead"
+					idle_mode: "USE_GLOBAL"
+					offset_x: 0.0f
+					offset_y: 0.0f
+					rotation: 0.0f
+					silhouette_mode: "NONE"
+					size: 1.0f
+					spin_mode: "USE_GLOBAL"
+					use_as_quest_icon: 0b
+					walk_mode: "USE_GLOBAL"
+				}
 				id: "6A5548EB730780B7"
 				type: "advancement"
 			}]
 			title: "Sir Pumpkinhead"
-			x: 15.0d
-			y: -24.0d
+			x: 15.5d
+			y: -24.5d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
@@ -29821,6 +29799,19 @@
 			tasks: [{
 				advancement: "born_in_chaos_v1:exorcism"
 				criterion: ""
+				ftbquestsentityvis_icon: {
+					enabled: 1b
+					entity: "born_in_chaos_v1:spiritof_chaos"
+					idle_mode: "USE_GLOBAL"
+					offset_x: 0.0f
+					offset_y: 0.0f
+					rotation: 0.0f
+					silhouette_mode: "NONE"
+					size: 1.0f
+					spin_mode: "USE_GLOBAL"
+					use_as_quest_icon: 0b
+					walk_mode: "USE_GLOBAL"
+				}
 				id: "4204DA36E8C9AD7C"
 				type: "advancement"
 			}]
@@ -32181,7 +32172,7 @@
 		{
 			dependencies: ["0AE174C5189819AA"]
 			description: [
-				"The Steam-Powered Crusher is a low-tech machine capable of crushing metals into not quite dust or fine powder, but something close enough. "
+				"The Steam-Powered Crusher is a low-tech machine capable of crushing metals into not quite dust or fine powder, but something close enough. This is frequently used for ore processing as greater quantities of raw ore can be extracted and crushed into powder, which can be smelted into nuggets. "
 				""
 				"This is useful in the automation of galvanized iron as the most commonly crushed metals with this machine are, of course, iron and zinc, but also metals harder to crush with your bare hands and a hammer: copper and tin. This can be used to make bronze."
 				"{@pagebreak}"
@@ -32235,9 +32226,9 @@
 		{
 			dependencies: ["4C76FB98A8040661"]
 			description: [
-				"Using the Thermae, a dense metal block can be formed by placing a copper block in the hot dipping bath above the Thermae. A galvanized iron block must be inserted inside the Thermae. With enough liquid galvanized iron contained inside, the galvanization process will start, melting and alloying the copper and galvanized iron blocks."
+				"Using the Thermae, a dense metal block can be formed by placing a copper block in the hot dipping bath above the Thermae. A galvanized iron block must be inserted inside the Thermae. With enough liquid zinc mixture contained inside, the galvanization process will start, melting and alloying the copper and galvanized iron blocks."
 				""
-				"Copper Block Above + Galvanized Iron Block Inside + 1000mb of Liquid Galvanized Iron = Dense Metal Block"
+				"Copper Block Above + Galvanized Iron Block Inside + 1000mb of Liquid Zinc Mixture = Dense Metal Block"
 			]
 			entity_vis_size: 1.0f
 			id: "34E7DCC3F4492CEA"
@@ -32257,21 +32248,29 @@
 		{
 			dependencies: ["4C76FB98A8040661"]
 			description: [
-				"When the heater is fueled and the Thermae is filled with crushed zinc, it will create liquid galvanized iron. This name is a bit of a misnomer, as it isn't galvanized iron; it's primarily a zinc substance, but it's only used to make galvanized iron. "
+				"When the heater is fueled and the Thermae is filled with crushed zinc, it will create liquid zinc mixture."
 				""
-				"Then, when the Thermae contains over 1000mb of liquid galvanized iron, place an iron block in the dipping bath of the Thermae, one block right above the Thermae to galvanize the block of iron."
+				"Then, when the Thermae contains over 1000mb of liquid zinc mixture, place an iron block in the dipping bath of the Thermae, one block right above the Thermae to galvanize the block of iron."
 				"{@pagebreak}"
-				"18 Crushed Zinc in Thermae + Lava in Heater = Liquid Galvanized Iron."
+				"18 Crushed Zinc in Thermae + Lava in Heater = Liquid Zinc Mixture."
 				""
-				"Iron Block Above + 1000mb of Liquid Galvanized Iron = Galvanized Iron Block."
+				"Iron Block Above + 1000mb of Liquid Zinc Mixture = Galvanized Iron Block."
 			]
 			entity_vis_size: 1.0f
 			id: "02215EDC2EF71825"
-			rewards: [{
-				id: "1FC8B961201BD5FB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "17D794A2487C6CED"
+					item: "concatenationcore:galvanized_iron"
+					type: "item"
+				}
+				{
+					id: "1FC8B961201BD5FB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "7B53C659D520C3A7"
 				item: "concatenationcore:galvanized_iron_block"
@@ -33493,9 +33492,14 @@
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
-			description: ["Aspiring necromancers can find a friend in the dread hound. While being half-undead creatures of doom, they can still become canine friends similar to wolves while retaining their might. They must still be sustained by their master's innate source of mana to remain friendly. As a result, only one dread hound may be tamed by a would-be necromancer. They can be tamed with rotten flesh."]
+			description: [
+				"&a(This feature was removed.)"
+				""
+				"Aspiring necromancers can find a friend in the dread hound. While being half-undead creatures of doom, they can still become canine friends similar to wolves while retaining their might. They must still be sustained by their master's innate source of mana to remain friendly. As a result, only one dread hound may be tamed by a would-be necromancer. They can be tamed with rotten flesh."
+			]
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
+			icon: "minecraft:rotten_flesh"
 			id: "3FDB9D96C75A54B2"
 			rewards: [{
 				id: "4AC390932C3EC62E"
@@ -33503,9 +33507,8 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "157AA104958BB497"
-				item: "minecraft:rotten_flesh"
-				type: "item"
+				id: "7C08EFA03EC519E6"
+				type: "checkmark"
 			}]
 			title: "Taming the Dread Hound"
 			x: 16.0d
@@ -34094,7 +34097,7 @@
 			y: 26.5d
 		}
 		{
-			dependencies: ["3CB40DE1FBC306E5"]
+			dependencies: ["783EC6F9C4DFA3F5"]
 			description: [
 				"That crazy mage was right in the end... I get his notes, turn around, and find rifles that can handle spells being shared and sold right behind me! "
 				""
@@ -34141,6 +34144,7 @@
 							HasBulletInBarrel: 1b
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -34155,6 +34159,7 @@
 							HasBulletInBarrel: 1b
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -34169,6 +34174,7 @@
 							HasBulletInBarrel: 1b
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -34183,6 +34189,7 @@
 							HasBulletInBarrel: 1b
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -34197,26 +34204,41 @@
 							HasBulletInBarrel: 1b
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]
 			title: "Rifled Spellcasting"
-			x: 14.5d
-			y: 23.0d
+			x: 12.5d
+			y: 24.0d
 		}
 		{
-			dependencies: [
-				"4AAD5BFB42654744"
-				"2478F23E892A1AD7"
-			]
+			dependencies: ["3CB40DE1FBC306E5"]
 			description: ["The artificer's workbench is used to create rifles for spellcasting. Glyphs can be emparted onto them to serve as a useful, self-recharging weapon."]
 			entity_vis_size: 1.0f
 			id: "783EC6F9C4DFA3F5"
-			rewards: [{
-				id: "12C6E9DC4D4F3B83"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7E57DD30EF335636"
+					item: {
+						Count: 1
+						id: "ars_nouveau:source_jar"
+						tag: {
+							BlockEntityTag: {
+								Items: [ ]
+								id: "ars_nouveau:source_jar"
+								source: 10000
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12C6E9DC4D4F3B83"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "6D3DA271D8BDACEF"
 				item: {
@@ -34228,8 +34250,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: 18.0d
+			x: 13.5d
+			y: 23.0d
 		}
 		{
 			dependencies: ["1974390B046B7B6A"]
@@ -34559,6 +34581,3834 @@
 			}]
 			x: -26.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["71AF6583ACE3E366"]
+			description: [
+				"The Spell Staff is a more advanced and specialized variant of the Spellbook. With it, mages are able to create more advanced spells, most notably using beams and magic circles. It may not be as convenient to transport as the spellbook, but it is an excellent choice for combat mages."
+				""
+				"Specialized versions of these staves exist which come with spells already engraved. These are handy for mages who don't want to think too much."
+			]
+			entity_vis_size: 1.0f
+			id: "1E0DCDDC1A28AB3D"
+			rewards: [
+				{
+					id: "763716D47BC01005"
+					item: "ars_nouveau:novice_spell_book"
+					type: "item"
+				}
+				{
+					id: "1871BF9510701D1B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Combat Magic"
+			tasks: [
+				{
+					id: "75F9B31E628EC976"
+					item: {
+						Count: 1
+						id: "ars_zero:novice_spell_staff"
+						tag: {
+							GeckoLibID: 17L
+							ars_zero_base_color: 10
+							ars_zero_client_render_id: 17L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "574F503A149995D9"
+					item: {
+						Count: 1
+						id: "ars_zero:staff_telekinesis"
+						tag: {
+							GeckoLibID: 9L
+							"ars_nouveau:caster": {
+								current_slot: 0
+								flavor: ""
+								hidden_recipe: ""
+								is_hidden: 0b
+								spell_count: 3
+								spells: {
+									spell0: {
+										name: "Staff of Telekinesis"
+										recipe: {
+											part0: "ars_nouveau:glyph_projectile"
+											part1: "ars_zero:select_effect"
+											size: 2
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell1: {
+										name: "Staff of Telekinesis"
+										recipe: {
+											part0: "ars_zero:temporal_context_form"
+											part1: "ars_zero:anchor_effect"
+											size: 2
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell10: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell11: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell12: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell13: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell14: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell15: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell16: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell17: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell18: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell19: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell2: {
+										name: "Staff of Telekinesis"
+										recipe: {
+											part0: "ars_zero:temporal_context_form"
+											part1: "ars_zero:push_effect"
+											size: 2
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell20: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell21: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell22: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell23: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell24: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell25: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell26: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell27: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell28: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell29: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell3: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell4: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell5: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell6: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell7: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell8: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+									spell9: {
+										name: ""
+										recipe: {
+											size: 0
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+								}
+							}
+							ars_zero_base_color: 10
+							ars_zero_client_render_id: 9L
+							ars_zero_filial_school: "manipulation"
+							ars_zero_tick_delays: [I;
+								1
+								10
+								10
+								10
+								10
+								10
+								10
+								10
+								10
+								10
+							]
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["3CB40DE1FBC306E5"]
+			description: [
+				"The Spell Staff is a more advanced and specialized variant of the Spellbook. With it, mages are able to create more advanced spells, most notably using beams and magic circles. It may not be as convenient to transport as the spellbook, but it is an excellent choice for combat mages."
+				""
+				"Specialized versions of these staves exist which come with spells already engraved. These are handy for mages who don't want to think too much."
+			]
+			entity_vis_size: 1.0f
+			id: "3E0F1BBF67447FE6"
+			rewards: [
+				{
+					id: "048CB32AED529369"
+					item: {
+						Count: 1
+						id: "ars_nouveau:source_jar"
+						tag: {
+							BlockEntityTag: {
+								Items: [ ]
+								id: "ars_nouveau:source_jar"
+								source: 10000
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C0E8F43885FF88F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "1B42363A0AB0298E"
+					item: {
+						Count: 1
+						id: "ars_zero:mage_spell_staff"
+						tag: {
+							GeckoLibID: 19L
+							ars_zero_base_color: 10
+							ars_zero_client_render_id: 19L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52600BC4D6CC840F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_zero:staff_switcheroo"
+									tag: {
+										GeckoLibID: 7L
+										"ars_nouveau:caster": {
+											current_slot: 0
+											flavor: ""
+											hidden_recipe: ""
+											is_hidden: 0b
+											spell_count: 3
+											spells: {
+												spell0: {
+													name: "Staff of Switcheroo"
+													recipe: {
+														part0: "ars_zero:near_form"
+														part1: "ars_zero:conjure_voxel_effect"
+														size: 2
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell1: {
+													name: "Staff of Switcheroo"
+													recipe: {
+														part0: "ars_zero:temporal_context_form"
+														part1: "ars_zero:anchor_effect"
+														part2: "ars_nouveau:glyph_extract"
+														size: 3
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell10: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell11: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell12: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell13: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell14: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell15: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell16: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell17: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell18: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell19: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell2: {
+													name: "Staff of Switcheroo"
+													recipe: {
+														part0: "ars_zero:temporal_context_form"
+														part1: "ars_nouveau:glyph_exchange"
+														part2: "ars_zero:discard_effect"
+														size: 3
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell20: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell21: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell22: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell23: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell24: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell25: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell26: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell27: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell28: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell29: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell3: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell4: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell5: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell6: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell7: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell8: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell9: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+											}
+										}
+										ars_zero_base_color: 1
+										ars_zero_client_render_id: 7L
+										ars_zero_filial_school: "manipulation"
+										ars_zero_tick_delays: [I;
+											1
+											10
+											10
+											10
+											10
+											10
+											10
+											10
+											10
+											10
+										]
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_zero:staff_geometrize"
+									tag: {
+										GeckoLibID: 8L
+										"ars_nouveau:caster": {
+											current_slot: 0
+											flavor: ""
+											hidden_recipe: ""
+											is_hidden: 0b
+											spell_count: 3
+											spells: {
+												spell0: {
+													name: "Staff of Geometrize"
+													recipe: {
+														part0: "ars_zero:near_form"
+														part1: "ars_zero:effect_geometrize"
+														part2: "ars_elemental:glyph_conjure_terrain"
+														size: 3
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell1: {
+													name: "Staff of Geometrize"
+													recipe: {
+														part0: "ars_zero:temporal_context_form"
+														part1: "ars_zero:anchor_effect"
+														size: 2
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell10: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell11: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell12: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell13: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell14: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell15: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell16: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell17: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell18: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell19: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell2: {
+													name: "Staff of Geometrize"
+													recipe: {
+														part0: "ars_zero:temporal_context_form"
+														size: 1
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell20: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell21: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell22: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell23: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell24: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell25: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell26: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell27: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell28: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell29: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell3: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell4: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell5: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell6: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell7: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell8: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell9: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+											}
+										}
+										ars_zero_base_color: 12
+										ars_zero_client_render_id: 8L
+										ars_zero_filial_school: "earth"
+										ars_zero_tick_delays: [I;
+											1
+											10
+											10
+											10
+											10
+											10
+											10
+											10
+											10
+											10
+										]
+									}
+								}
+							]
+						}
+					}
+					title: "Any Specialized Mage Staff"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["199BA50861FD9E27"]
+			description: [
+				"The Spell Staff is a more advanced and specialized variant of the Spellbook. With it, mages are able to create more advanced spells, most notably using beams and magic circles. It may not be as convenient to transport as the spellbook, but it is an excellent choice for combat mages."
+				""
+				"Specialized versions of these staves exist which come with spells already engraved. These are handy for mages who don't want to think too much."
+			]
+			entity_vis_size: 1.0f
+			id: "6A0834BEEBA2A454"
+			rewards: [
+				{
+					id: "585A8DB2151EE842"
+					item: {
+						Count: 1
+						id: "ars_nouveau:source_jar"
+						tag: {
+							BlockEntityTag: {
+								Items: [ ]
+								id: "ars_nouveau:source_jar"
+								source: 10000
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "033C8F7ADF51654D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "436B8F72B3265DCE"
+					item: {
+						Count: 1
+						id: "ars_zero:archmage_spell_staff"
+						tag: {
+							GeckoLibID: 18L
+							ars_zero_base_color: 10
+							ars_zero_client_render_id: 18L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D35DA122DF8E244"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_zero:staff_lakes"
+									tag: {
+										GeckoLibID: 12L
+										"ars_nouveau:caster": {
+											current_slot: 0
+											flavor: ""
+											hidden_recipe: ""
+											is_hidden: 0b
+											spell_count: 3
+											spells: {
+												spell0: {
+													name: "Staff of Lakes"
+													recipe: {
+														part0: "ars_nouveau:glyph_projectile"
+														part1: "ars_zero:effect_convergence"
+														part2: "ars_nouveau:glyph_conjure_water"
+														size: 3
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell1: {
+													name: "Staff of Lakes"
+													recipe: {
+														part0: "ars_zero:temporal_context_form"
+														part1: "ars_zero:sustain_effect"
+														size: 2
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell10: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell11: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell12: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell13: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell14: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell15: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell16: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell17: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell18: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell19: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell2: {
+													name: "Staff of Lakes"
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell20: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell21: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell22: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell23: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell24: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell25: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell26: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell27: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell28: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell29: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell3: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell4: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell5: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell6: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell7: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell8: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell9: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+											}
+										}
+										ars_zero_base_color: 11
+										ars_zero_client_render_id: 12L
+										ars_zero_filial_school: "water"
+										ars_zero_tick_delays: [I;
+											1
+											10
+											10
+											10
+											10
+											10
+											10
+											10
+											10
+											10
+										]
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_zero:staff_convergence"
+									tag: {
+										GeckoLibID: 11L
+										"ars_nouveau:caster": {
+											current_slot: 0
+											flavor: ""
+											hidden_recipe: ""
+											is_hidden: 0b
+											spell_count: 3
+											spells: {
+												spell0: {
+													name: "Staff of the Explosion Arch Wizard"
+													recipe: {
+														part0: "ars_nouveau:glyph_projectile"
+														part1: "ars_zero:effect_convergence"
+														part2: "ars_nouveau:glyph_explosion"
+														size: 3
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell1: {
+													name: "Staff of the Explosion Arch Wizard"
+													recipe: {
+														part0: "ars_zero:temporal_context_form"
+														part1: "ars_zero:sustain_effect"
+														size: 2
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell10: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell11: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell12: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell13: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell14: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell15: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell16: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell17: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell18: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell19: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell2: {
+													name: "Staff of the Explosion Arch Wizard"
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell20: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell21: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell22: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell23: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell24: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell25: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell26: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell27: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell28: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell29: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell3: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell4: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell5: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell6: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell7: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell8: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell9: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+											}
+										}
+										ars_zero_base_color: 1
+										ars_zero_client_render_id: 11L
+										ars_zero_filial_school: "fire"
+										ars_zero_tick_delays: [I;
+											1
+											10
+											10
+											10
+											10
+											10
+											10
+											10
+											10
+											10
+										]
+									}
+								}
+								{
+									Count: 1b
+									id: "ars_zero:staff_demonbane"
+									tag: {
+										GeckoLibID: 10L
+										"ars_nouveau:caster": {
+											current_slot: 0
+											flavor: ""
+											hidden_recipe: ""
+											is_hidden: 0b
+											spell_count: 3
+											spells: {
+												spell0: {
+													name: "Staff of Demonbane"
+													recipe: {
+														part0: "ars_zero:near_form"
+														part1: "ars_nouveau:glyph_delay"
+														part2: "ars_nouveau:glyph_amplify"
+														part3: "ars_zero:effect_beam"
+														part4: "ars_nouveau:glyph_split"
+														part5: "ars_nouveau:glyph_amplify"
+														part6: "ars_nouveau:glyph_amplify"
+														part7: "ars_nouveau:glyph_amplify"
+														size: 8
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell1: {
+													name: "Staff of Demonbane"
+													recipe: {
+														part0: "ars_zero:temporal_context_form"
+														part1: "ars_zero:anchor_effect"
+														size: 2
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell10: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell11: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell12: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell13: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell14: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell15: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell16: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell17: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell18: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell19: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell2: {
+													name: "Staff of Demonbane"
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell20: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell21: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell22: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell23: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell24: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell25: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell26: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell27: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell28: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell29: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell3: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell4: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell5: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell6: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell7: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell8: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+												spell9: {
+													name: ""
+													recipe: {
+														size: 0
+													}
+													sound: {
+														pitch: 1.0f
+														soundTag: {
+															id: "ars_nouveau:fire_family"
+														}
+														volume: 1.0f
+													}
+													spellColor: {
+														b: 180
+														g: 25
+														r: 255
+														type: "ars_nouveau:constant"
+													}
+												}
+											}
+										}
+										ars_zero_base_color: 14
+										ars_zero_casting_style_0: {
+											activeBones: [
+												"circle_small"
+												"alphabet"
+												"circle_big"
+											]
+											animateInTicks: 6
+											color: 16777215
+											enabled: 1b
+											placement: "NEAR"
+											speed: 1.0f
+											symbolAuto: 1b
+										}
+										ars_zero_client_render_id: 10L
+										ars_zero_filial_school: "demonbane"
+										ars_zero_tick_delays: [I;
+											1
+											10
+											10
+											10
+											10
+											10
+											10
+											10
+											10
+											10
+										]
+									}
+								}
+							]
+						}
+					}
+					title: "Any Specialized Archmage Staff"
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 27.5d
 		}
 	]
 	title: "The Journey"

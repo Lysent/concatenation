@@ -1,3 +1,4 @@
+//priority: 900
 LootJS.modifiers(event => {
     event.addBlockLootModifier('#forge:ores').modifyLoot('#forge:raw_materials', item => {
         const replacement = AlmostUnified.getReplacementForItem(item);

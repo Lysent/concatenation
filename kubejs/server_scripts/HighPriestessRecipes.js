@@ -1,3 +1,4 @@
+//priority: 200
 ServerEvents.recipes(event => {
         const remove = [
                 'thermal:dynamo_stirling',

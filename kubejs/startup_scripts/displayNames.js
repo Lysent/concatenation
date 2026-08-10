@@ -1,3 +1,4 @@
+//priority: 1000
 Platform.mods.quarryplus.name = 'Quarry+';
 Platform.mods.hpm.name = 'Swashbucklers!';
 Platform.mods.asr.name = 'Asgard Shield';

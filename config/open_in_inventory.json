@@ -11,9 +11,9 @@
   "//debug": "Debug logging",
   "debug": false,
   "//enabled_items": [
-    "format: ItemID, or { id: ItemID, Count?: integer, nbt?: NbtCompound, sneak?: boolean }, ? means optional",
+    "format: ItemID, or { stack: ItemStack, sneak?: boolean }, ? means optional",
     "ItemID is a string, for example `example_mod:bag`. You can use template to support multiple items at once, for example `example:{color}_bag`",
-    "Use `/open-in-inventory replaceTemplate ...` command to view valid templates"
+    "Use `/open-in-inventory replaceTemplate ...` command to view valid templates. You can also use `{a|b|c}` style template for one-time usage"
   ],
   "enabled_items": [
     "ftbquests:book",

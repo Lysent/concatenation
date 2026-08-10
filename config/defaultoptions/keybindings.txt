@@ -194,6 +194,8 @@ key_key.ars_nouveau.qc9:key.keyboard.unknown:NONE
 key_key.ars_nouveau.qc10:key.keyboard.unknown:NONE
 key_key.ars_nouveau.familiar_toggle:key.keyboard.unknown:NONE
 key_key.ars_elemental.open_pouch:key.keyboard.j:NONE
+key_key.ars_zero.curio_cast:key.keyboard.u:NONE
+key_key.ars_zero.curio_radial:key.keyboard.v:NONE
 key_key.immersive_aircraft.fallback_control_left:key.keyboard.unknown:NONE
 key_key.immersive_aircraft.fallback_control_right:key.keyboard.unknown:NONE
 key_key.immersive_aircraft.fallback_control_forward:key.keyboard.unknown:NONE
@@ -228,7 +230,7 @@ key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus:NONE
 key_key.ftbchunks.add_waypoint:key.keyboard.unknown:NONE
 key_key.ftbchunks.waypoint_manager:key.keyboard.unknown:NONE
 key_key.ftbquests.quests:key.keyboard.unknown:NONE
-key_chunkloaders.keys.open_screen:key.keyboard.unknown:NONE
+key_chunkloaders.keys.open_screen:key.keyboard.c:NONE
 key_servertabinfo.keys.show:key.keyboard.tab:CONTROL
 key_key.tacz.inspect.desc:key.keyboard.h:NONE
 key_key.tacz.reload.desc:key.keyboard.r:NONE
@@ -239,7 +241,7 @@ key_key.tacz.aim.desc:key.mouse.right:NONE
 key_key.tacz.crawl.desc:key.keyboard.c:NONE
 key_key.tacz.refit.desc:key.keyboard.z:NONE
 key_key.tacz.zoom.desc:key.keyboard.unknown:NONE
-key_key.tacz.melee.desc:key.keyboard.x:NONE
+key_key.tacz.melee.desc:key.keyboard.unknown:NONE
 key_key.tacz.open_config.desc:key.keyboard.t:ALT
 key_key.tacz_unidict.wheel_menu:key.keyboard.c:NONE
 key_tacztweaks.key.reduceSensitivity:key.keyboard.unknown:NONE
@@ -304,3 +306,4 @@ key_key.advanced_ae.quantum_armor_config:key.keyboard.unknown:NONE
 key_key.advanced_ae.quantum_magnet_upgrade:key.keyboard.unknown:NONE
 key_key.advanced_ae.quantum_auto_stock_upgrade:key.keyboard.unknown:NONE
 key_key.advanced_ae.quantum_night_vision_upgrade:key.keyboard.unknown:NONE
+key_key.observable.profile:key.keyboard.unknown:NONE

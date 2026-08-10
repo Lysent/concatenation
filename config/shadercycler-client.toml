@@ -1,0 +1,33 @@
+
+[General]
+	#Cycle mode: 'loop', 'reverse', or 'random'
+	cycleMode = "loop"
+	#Delay in milliseconds before shader reload
+	#Range: 0 ~ 10000
+	reloadDelay = 104
+	#Enable sound feedback when switching shaders
+	enableSounds = true
+	#Enable chat notifications when shaders are switched
+	enableChatNotifications = false
+
+[Exclusions]
+	#List of shader pack filenames to exclude from cycling (case-sensitive, e.g., 'wavy-shader.zip')
+	excludedShaders = ["None"]
+
+[DimensionShaderSwitch]
+	#Enable dimension-specific shader override for Overworld
+	enableOverworldOverride = false
+	#Enable dimension-specific shader override for Nether
+	enableNetherOverride = false
+	#Enable dimension-specific shader override for The End
+	enableEndOverride = false
+	#Shader to apply automatically when entering the Overworld. Use 'None' to disable.
+	overworldShader = "Mellow Shader v3.3.zip"
+	#Shader to apply automatically when entering the Nether. Use 'None' to disable.
+	netherShader = "Mellow Shader v3.3.zip"
+	#Shader to apply automatically when entering The End. Use 'None' to disable.
+	endShader = "Mellow Shader v3.3.zip"
+	#List of dimension=shader mappings. Example: minecraft:overworld=None
+	#Use 'None' to indicate no shader for that dimension.
+	dimensionShaderList = ["the_deep_void:deep_void=Disable Shaders", "perdition:dis=Mellow Shader v3.2.zip", "perdition:purgatory=Mellow Shader v3.2.zip", "minecraft:overworld=None", "bloodmagic:dungeon=None", "cyberspace:black_wall_dimension=None", "minecraft:the_nether=None", "minecraft:the_end=None", "cyberspace:cyberspace_dimension=None", "irons_spellbooks:pocket_dimension=None", "the_deep_void:the_pit=None", "ae2:spatial_storage=None"]
+

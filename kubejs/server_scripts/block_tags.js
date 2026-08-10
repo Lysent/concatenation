@@ -1,3 +1,4 @@
+//priority: 700
 ServerEvents.tags('block', event => {
     // Deep Void Ores to Divination Rods
     event.add('theurgy:divination_rod_t4_allowed_blocks', 'the_deep_void:onyx_ore')

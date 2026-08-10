@@ -48,6 +48,14 @@
       "hidden": true,
       "required": true,
       "default_position": "BOTTOM"
+    },
+    "3": [
+      "file/concatenation-ftbquests-theme-1.0.zip"
+    ],
+    "$$3": {
+      "hidden": false,
+      "required": true,
+      "default_position": "TOP"
     }
   }
 }

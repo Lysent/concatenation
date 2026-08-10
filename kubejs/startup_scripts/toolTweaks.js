@@ -1,3 +1,4 @@
+//priority: 900
 ItemEvents.modification(event => {
 	// tools & armor
 	const paxelPenalty = speed => Math.max(speed * 0.7, speed - 0.3);

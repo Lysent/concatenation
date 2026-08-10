@@ -160,6 +160,8 @@
     "disableRefitOnAdventure": false,
     "infiniteAmmoDisablesConsumption": false,
     "alwaysFilterByHand": true,
+    "rps": false,
+    "forceDefaultHitAndKillSounds": false,
     "suppressHeadHitSounds": false,
     "suppressFleshHitSounds": false,
     "suppressKillSounds": false,
