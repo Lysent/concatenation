@@ -1,0 +1,58 @@
+{
+	autofocus_id: "0BBD0D2D5D57BD55"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "year_one_anniversary"
+	group: "4AEECD5B848DA3A1"
+	icon: "concatenationcore:eleonore_plushie"
+	id: "23566D7AF33B6C34"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		dependencies: [
+			"7F462FE4BE00B3CF"
+			"24E489456D23186C"
+			"3C82A9CB771E5F69"
+			"751DF36AD096DE21"
+			"59322B0744D2F414"
+		]
+		dependency_requirement: "one_completed"
+		description: [
+			"I've spent most of my birthdays alone. I'm quite far from home, and it's not like I've made many friends I've not left behind in my travels. However, it seems like my achievements have resonated with the people. Under a snow-covered centennial tree besides a frozen fountain in the town square, a little girl gifted me a handmade plushie of me!"
+			""
+			"I've ended the Endless Night, but my work isn't over yet. I still have to deal with the Mastermind of this whole affair. I still have to go East."
+			"{@pagebreak}"
+			"&a(This quest requires one of the event questlines to have been completed.)"
+		]
+		entity_vis_size: 1.0f
+		icon: "concatenationcore:eleonore_plushie"
+		id: "0BBD0D2D5D57BD55"
+		rewards: [
+			{
+				id: "6DD461425DB7FFC9"
+				item: "concatenationcore:eleonore_plushie"
+				type: "item"
+			}
+			{
+				exclude_from_claim_all: true
+				id: "6A059A1820308921"
+				table_id: 6174896351495980940L
+				team_reward: false
+				type: "choice"
+			}
+		]
+		size: 2.0d
+		subtitle: "Thanks for Playing!"
+		tasks: [{
+			id: "7893B7E762688E04"
+			points: false
+			type: "xp"
+			value: 30L
+		}]
+		title: "Year One Anniversary"
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["Ongoing Limited Event"]
+	title: "Year One Anniversary"
+}

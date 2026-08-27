@@ -10,7 +10,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0F3237156DE95B07"]
 			description: [
 				"&4It's the season of pumpkins and scares! "
 				""
@@ -301,7 +300,7 @@
 			id: "31921734283B3CAA"
 			rewards: [{
 				id: "2016CFC3C5B56C21"
-				item: "concatenationcore:concatenator"
+				item: "concatenationcore:rython"
 				type: "item"
 			}]
 			tasks: [{

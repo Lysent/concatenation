@@ -265,7 +265,7 @@
 			id: "7A0F6E78038E096E"
 			rewards: [{
 				id: "4254652BBECC22F3"
-				item: "concatenationcore:concatenator"
+				item: "concatenationcore:karma_tome"
 				type: "item"
 			}]
 			tasks: [
@@ -487,7 +487,13 @@
 			id: "4728C1708A84DAF9"
 			rewards: [{
 				id: "1BE97694327320FA"
-				item: "concatenationcore:concatenator"
+				item: {
+					Count: 1
+					id: "concatenationcore:bloody_living_giant_sword"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			tasks: [
@@ -744,6 +750,31 @@
 			hide_until_deps_visible: true
 			id: "3EA4408A8F86B825"
 			invisible: true
+			rewards: [{
+				id: "4568E5FAA2D659A5"
+				item: {
+					Count: 1
+					id: "concatenationcore:woven_pearl"
+					tag: {
+						AttributeModifiers: [{
+							Amount: 2
+							AttributeName: "generic.max_health"
+							Name: "generic.max_health"
+							Operation: 0
+							UUID: [I;
+								-567412426
+								1347569481
+								-1298628478
+								-763275478
+							]
+						}]
+						display: {
+							Name: "{\"text\":\"Woven Pearl\",\"color\":\"yellow\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0921696421E8B6DA"
 				item: "concatenationcore:woven_pearl"
@@ -1240,6 +1271,91 @@
 			title: "GtP Event Details"
 			x: -1.125d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7A0F6E78038E096E"
+				"4728C1708A84DAF9"
+				"0478373C20BD550A"
+				"59A4545D571821B3"
+				"5D75B69CDCBEDDBC"
+				"440A4A21E04AB25F"
+				"48BE394A817F29FF"
+				"3D2BABF4619BDA4F"
+				"6C15F8C95DCDFB7E"
+				"08A77DC76CA4CD87"
+				"063E19D727E344F1"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&2We've looked from the depths of the sea to the islands of the End and I believe we've finally found new methods to go forward! It took a lot of attempts and honestly I wasn't sure where we were going with these theories. Fruit salads and blood-stained swords? Really?"
+				""
+				"&2We've made something better than the rift blade! At first we found ourselves in this destroyed marble realm left with only materials embedded in the stone. Some of the gems that look like mirrors found there have inter-dimensional properties. "
+				""
+				"&2Another group has managed to concoct a terrible potion that will make you lose your mind and send you straight to limbo!"
+				""
+				"{@pagebreak}"
+				"&a(This quest requires 4 dependencies to be completed.)"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			icon: "spelled:spell_book"
+			id: "59322B0744D2F414"
+			min_required_dependencies: 4
+			rewards: [
+				{
+					count: 2
+					id: "6C02C50CAA67E28F"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "perdition:planeswalking_pot"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "540EDA798027792F"
+					table_id: 1647664487679734616L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22D45FDF5638D5BB"
+					table_id: 8080534186586768878L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "099077ED3A8BB52C"
+					table_id: 8405090712645604397L
+					type: "choice"
+				}
+				{
+					count: 32
+					id: "3DE165D1D68BA4DD"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0B7498C0C464B867"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			size: 1.3d
+			subtitle: "The Scientific Method"
+			tasks: [{
+				id: "24637A477CA9FCCD"
+				title: "GtP Completion"
+				type: "checkmark"
+			}]
+			title: "The Theories Fallen"
+			x: 6.0d
+			y: -2.0d
 		}
 	]
 	title: "Gate to Perdition"
