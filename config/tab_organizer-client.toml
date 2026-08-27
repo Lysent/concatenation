@@ -13,4 +13,6 @@
 	#Replace JEI's flat ingredient list with CTO's creative-tab browser.
 	#Disabling this option restores JEI's normal ingredient list.
 	enable_jei_tab_browser = false
+	#Preserve CTO's empty layout slots in JEI's creative-tab browser.
+	show_gaps_in_jei = true
 
