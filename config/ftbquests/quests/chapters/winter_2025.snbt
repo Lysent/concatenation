@@ -10,7 +10,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0F3237156DE95B07"]
 			description: [
 				"&4It's the season of cold! As the little ones enjoy lobbing snowballs at each other and everything that lives, everyone else struggles to shovel snow off their roads."
 				""
@@ -328,7 +327,7 @@
 			id: "2A00EDA981081010"
 			rewards: [{
 				id: "4FE1B0448831BB2F"
-				item: "concatenationcore:concatenator"
+				item: "concatenationcore:ice_crystal_ball"
 				team_reward: true
 				type: "item"
 			}]
@@ -596,7 +595,7 @@
 			id: "6ACEC559B41750DE"
 			rewards: [{
 				id: "2BE240191B3304DC"
-				item: "concatenationcore:concatenator"
+				item: "concatenationcore:rython"
 				type: "item"
 			}]
 			size: 1.05d
@@ -641,7 +640,7 @@
 			id: "7F462FE4BE00B3CF"
 			rewards: [{
 				id: "79646BA7F1B48FAB"
-				item: "concatenationcore:concatenator"
+				item: "concatenationcore:crumpled_hat"
 				team_reward: true
 				type: "item"
 			}]
@@ -809,7 +808,7 @@
 			id: "4BF1023161909A8E"
 			rewards: [{
 				id: "7CB5DF9CF4EC4F62"
-				item: "concatenationcore:concatenator"
+				item: "concatenationcore:maple_bottle"
 				team_reward: true
 				type: "item"
 			}]

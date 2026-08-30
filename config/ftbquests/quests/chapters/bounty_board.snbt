@@ -1369,6 +1369,84 @@
 			x: 0.0d
 			y: 2.5d
 		}
+		{
+			dependencies: [
+				"5869FB26BB752DC4"
+				"14A7ED9BD35A8F02"
+				"4173A4839729CE17"
+				"629DB46306A07CC5"
+				"5DB770DBC1D71175"
+				"0F0DEBC4F752BA53"
+				"101BF66F49C4B652"
+				"7EA94EAAF138DFFE"
+				"0C0E8CD401D8DF87"
+				"7CDFBC158801FAF9"
+				"2353722DBB8200E7"
+				"72EA62835F4AEFD9"
+				"3D40D1DB3CD9B0C6"
+				"384C10251DACEE34"
+				"443D68F7812B0BD5"
+				"4D814D7620E3E98E"
+			]
+			description: [
+				"&4Finally... the bounty board has closed. Every request has been fulfilled. The town is now at peace for the first time in months. The rogue mages have been dealt with. The far-away creatures of legends have been slain. It's time to celebrate!"
+				""
+				"&4Oh no, what's that I hear in the distance? A blowing horn? It's time to defend the town one more time! After that, we'll rejoice in our spoils!"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "751DF36AD096DE21"
+			rewards: [
+				{
+					id: "6C3EC427C680EB47"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DDE2B6B08047439"
+					table_id: 1142461523967912805L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F9FA9DC3D2959CA"
+					table_id: 627725552958304236L
+					type: "choice"
+				}
+				{
+					count: 64
+					id: "685408D2B83CE785"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "0C4FB3C7F33B5015"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "3A584359ECB582B9"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "End of a Struggle"
+			tasks: [{
+				icon: "minecraft:emerald"
+				id: "75ACB753FC2881EC"
+				stat: "minecraft:raid_trigger"
+				title: "Trigger a Raid"
+				type: "stat"
+				value: 1
+			}]
+			title: "The Completion"
+			x: 0.0d
+			y: -8.0d
+		}
 	]
 	title: "Bounty Board"
 }

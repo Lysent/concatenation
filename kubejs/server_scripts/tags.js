@@ -711,4 +711,13 @@ ServerEvents.tags('item', event => {
         'the_deep_void:head_of_the_hunter',
         'born_in_chaos_v1:nightmare_mantleofthe_night_helmet'
     ])
+
+    add('concatenation:t2_magic_wand_core', [
+        'ars_zero:novice_spell_staff',
+        'ars_nouveau:apprentice_spell_book'
+    ]);
+    add('concatenation:t3_magic_wand_core', [
+        'ars_zero:mage_spell_staff',
+        'ars_nouveau:archmage_spell_book'
+    ]);
 });

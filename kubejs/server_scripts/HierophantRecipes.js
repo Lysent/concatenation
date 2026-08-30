@@ -141,19 +141,19 @@ ServerEvents.recipes(event => {
                         '#concatenation:hammers'
                 ]
         )
-        event.shaped(
-                Item.of('concatenationcore:unfired_galvanized_iron'),
-                [
-                        'ABB',
-                        'BC ',
-                        '   '
-                ],
-                {
-                        B: 'minecraft:clay_ball',
-                        A: 'concatenationcore:crushed_zinc',
-                        C: 'concatenationcore:crushed_iron'
-                }
-        )
+        // event.shaped(
+        //         Item.of('concatenationcore:unfired_galvanized_iron', 2),
+        //         [
+        //                 'ABB',
+        //                 'BC ',
+        //                 '   '
+        //         ],
+        //         {
+        //                 B: 'minecraft:clay_ball',
+        //                 A: 'concatenationcore:crushed_zinc',
+        //                 C: 'concatenationcore:crushed_iron'
+        //         }
+        // )
         event.shaped(
                 Item.of('concatenationcore:boiler'),
                 [
