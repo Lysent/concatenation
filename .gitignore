@@ -87,3 +87,5 @@ config/QuantifiedAPI/cache
 !config/shadercycler-client.toml
 !config/tab_organizer-client.toml
 !config/vanillabackport-client.toml
+
+eula.txt

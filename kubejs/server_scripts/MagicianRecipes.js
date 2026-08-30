@@ -1371,30 +1371,28 @@ ServerEvents.recipes(event => {
                 Item.of('ars_zero:mage_spell_staff'),
                 [
                         ' AB',
-                        ' CD',
+                        ' CA',
                         'E  '
                 ],
                 {
-                        D: 'ars_zero:novice_spell_staff',
                         E: 'ars_zero:archwood_rod',
                         B: 'concatenationcore:specialized_holder',
                         A: 'concatenationcore:gold_stick',
-                        C: 'ars_nouveau:apprentice_spell_book'
+                        C: '#concatenation:t2_magic_wand_core'
                 }
         )
 
         event.shaped(
                 Item.of('ars_zero:archmage_spell_staff'),
                 [
-                        ' AB',
+                        ' DB',
                         ' CD',
                         'E  '
                 ],
                 {
                         B: 'concatenationcore:elemental_lens',
                         E: 'ars_zero:archwood_rod',
-                        C: 'ars_nouveau:archmage_spell_book',
-                        A: 'ars_zero:mage_spell_staff',
+                        C: '#concatenation:t3_magic_wand_core',
                         D: 'concatenationcore:gold_stick'
                 }
         )
